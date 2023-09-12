@@ -1,0 +1,23 @@
+{
+  "source": ["tokens/light/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "prefix": "--pf-t-",
+      "files": [{
+        "destination": "_variables-filter.css",
+        "format": "css/variables",
+        "options": {
+          "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "dark"
+          }
+        }
+      }
+    ]
+    }
+  }
+}

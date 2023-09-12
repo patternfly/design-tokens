@@ -35,7 +35,7 @@ jobs:
             packages/*/dist
           key: ${{ runner.os }}-dist-14-${{ secrets.CACHE_VERSION }}-${{ hashFiles('yarn.lock', 'package.json', 'packages/*/*', '!packages/*/dist', '!packages/*/node_modules') }}
       - name: Build dist
-        run: yarn build
+        run: yarn build:scss
         if: steps.dist.outputs.cache-hit != 'true'
   lint:
     runs-on: ubuntu-latest
@@ -69,8 +69,6 @@ jobs:
         with:
           path: '.eslintcache'
           key: ${{ runner.os }}-lint-14-${{ secrets.CACHE_VERSION }}-${{ hashFiles('yarn.lock') }}
-      - name: ESLint
-        run: yarn lint:js
       - name: MDLint
         run: yarn lint:md
   test_jest:
@@ -106,9 +104,9 @@ jobs:
         name: Cache dist
         with:
           path: |
-            packages/*/dist
+            packages/*/build
             packages/react-styles/css
-          key: ${{ runner.os }}-dist-14-${{ secrets.CACHE_VERSION }}-${{ hashFiles('yarn.lock', 'package.json', 'packages/*/*', '!packages/*/dist', '!packages/*/node_modules') }}
+          key: ${{ runner.os }}-dist-14-${{ secrets.CACHE_VERSION }}-${{ hashFiles('yarn.lock', 'package.json', 'packages/*/*', '!packages/*/build', '!packages/*/node_modules') }}
       - name: Build dist
         run: yarn build
         if: steps.dist.outputs.cache-hit != 'true'

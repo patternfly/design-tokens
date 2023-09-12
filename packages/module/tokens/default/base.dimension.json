@@ -1,0 +1,96 @@
+{
+  "global": {
+    "border": {
+      "radius": {
+        "100": {
+          "type": "number",
+          "value": 4
+        },
+        "200": {
+          "type": "number",
+          "value": 6
+        },
+        "300": {
+          "type": "number",
+          "value": 16
+        },
+        "400": {
+          "type": "number",
+          "value": 24
+        },
+        "500": {
+          "type": "number",
+          "value": 999
+        }
+      },
+      "width": {
+        "100": {
+          "type": "number",
+          "value": 1
+        },
+        "200": {
+          "type": "number",
+          "value": 2
+        },
+        "300": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    },
+    "icon": {
+      "size": {
+        "100": {
+          "type": "number",
+          "value": 12
+        },
+        "200": {
+          "type": "number",
+          "value": 16
+        },
+        "300": {
+          "type": "number",
+          "value": 24
+        },
+        "400": {
+          "type": "number",
+          "value": 56
+        }
+      }
+    },
+    "spacer": {
+      "100": {
+        "type": "number",
+        "value": 4
+      },
+      "200": {
+        "type": "number",
+        "value": 8
+      },
+      "300": {
+        "type": "number",
+        "value": 16
+      },
+      "400": {
+        "type": "number",
+        "value": 24
+      },
+      "500": {
+        "type": "number",
+        "value": 32
+      },
+      "600": {
+        "type": "number",
+        "value": 48
+      },
+      "700": {
+        "type": "number",
+        "value": 64
+      },
+      "800": {
+        "type": "number",
+        "value": 80
+      }
+    }
+  }
+}
