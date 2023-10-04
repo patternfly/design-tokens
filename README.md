@@ -1,1 +1,3 @@
-# style-dictionary
+# design-tokens
+
+
