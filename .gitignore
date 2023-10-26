@@ -1,6 +1,5 @@
 # Javascript builds
 node_modules
-build
 tsc_out
 .out
 .changelog
