@@ -2,9 +2,9 @@
   "source": ["tokens/default/*.json"],
   "platforms": {
     "css": {
-      "transformGroup": "css",
+      "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
-      "prefix": "--pf-t-",
+      "prefix": "pf-t",
       "files": [{
         "destination": "_tokens-default.scss",
         "format": "css/variables",
@@ -21,4 +21,3 @@
     }
   }
 }
-
