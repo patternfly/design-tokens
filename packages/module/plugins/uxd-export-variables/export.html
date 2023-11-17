@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    :root {
+      --spacing: 0.8rem;
+    }
+  
+    * {
+      box-sizing: border-box;
+    }
+  
+    body {
+      background-color: var(--figma-color-bg);
+      color: var(--figma-color-text);
+      margin: 0;
+      padding: var(--spacing);
+    }
+  
+    html,
+    body,
+    main {
+      height: 98%;
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing);
+    }
+  
+    button {
+      appearance: none;
+      border-radius: 4px;
+      padding: var(--spacing);
+    }
+  
+    textarea {
+      background-color: var(--figma-color-bg-secondary);
+      border: 2px solid var(--figma-color-border);
+      color: var(--figma-color-text-secondary);
+      flex: 1;
+      font-family: Andale Mono, monospace;
+      font-size: 0.9rem;
+      overflow: auto;
+      padding: var(--spacing);
+      white-space: pre;
+    }
+    textarea:focus {
+      border-color: var(--figma-color-border-selected);
+      outline: none;
+    }
+  
+    button,
+    textarea {
+      display: block;
+      width: 100%;
+    }
+ 
+    a,
+    p {
+      color: var(--figma-color-text-secondary);
+      padding-right: 5px;
+    }
+  
+    button {
+      background-color: var(--figma-color-bg-brand);
+      color: var(--figma-color-text-onbrand);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: bold;
+    }
+  
+    button-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    link-container {
+      display: flex;
+      justify-content: space-around;
+    }
+ 
+    #export {
+      background-color: var(--figma-color-bg-component);
+    }
+  
+    #save {
+      background-color: var(--figma-color-bg-component);
+    }
+  </style>
+</head>
+<body>
+<main>
+  <button-container>
+    <button id="export" type="button">Export Variables</button>
+    <!-- <button id="save" type="button">Save Variables</button> -->
+  </button-container>
+  <textarea
+    placeholder="All exported content will render here..."
+    readonly
+  ></textarea>
+  <link-spacer>
+  <p>Click each exported json file to download:</p>
+  </link-spacer>  
+</main>
+<script>
+  window.onmessage = ({ data: { pluginMessage } }) => {
+    if (pluginMessage.type === "EXPORT_RESULT") {
+      let saveFileName = "";
+      let textOutput = pluginMessage.files.map( ({ fileName, body }) => 
+            `/* ${fileName} */\n\n${JSON.stringify(body, null, 2)}`
+        )
+        .join("\n\n\n");
+        textOutput = textOutput
+          .replaceAll("$type", "type")
+          .replaceAll("$value", "value");
+        document.querySelector("textarea").innerHTML = textOutput;
+        
+        saveVars(textOutput, saveFileName);
+    }
+
+    function saveVars(text, fileName) {
+      var splitFiles = text.split('\n\n\n');
+
+      for (var i = 0; i < splitFiles.length; i++) {
+          var splitFileName = splitFiles[i].split('\n', 1)[0];
+          var saveFileName = "";
+
+          switch (splitFileName) {
+            case "/* Base Dimension Tokens.Mode 1.tokens.json */":
+              saveFileName = "base.dimension.json";
+              break;
+            case "/* Base Color Tokens - Light.Value.tokens.json */":
+              saveFileName = "base.json";
+              break;
+            case "/* Color Palette.Mode 1.tokens.json */":
+              saveFileName = "palette.color.json";
+              break;
+            case "/* Semantic Dimension Tokens.Mode 1.tokens.json */":
+              saveFileName = "semantic.dimension.json";
+              break;
+            case "/* Semantic Color Tokens.Light.tokens.json */":
+              saveFileName = "semantic.json";
+              break;
+            case "/* Base Color Tokens - Dark.Mode 1.tokens.json */":
+              saveFileName = "base.dark.json";
+              break;
+            case "/* Semantic Color Tokens.Dark.tokens.json */":
+              saveFileName = "semantic.dark.json";
+              break;
+            default:
+                saveFileName = splitFiles[i].split('\n', 1)[0]
+          }
+
+        const fileToExport = (splitFiles[i].substring(splitFiles[i].indexOf("\n") + 1) );
+        var textToSaveAsBlob = new Blob([fileToExport], {type:"text/plain"});
+    
+        createLink(textToSaveAsBlob, saveFileName);
+      }
+    }
+
+    function createLink(text, file) {
+      var textToSaveAsURL = window.URL.createObjectURL(text);
+      var downloadLink = document.createElement("a");
+
+      downloadLink.download = file;
+      downloadLink.innerHTML = file;
+      downloadLink.href = textToSaveAsURL;
+      document.body.appendChild(downloadLink);
+    }
+  };
+
+  document.getElementById("export").addEventListener("click", () => {
+    parent.postMessage({ pluginMessage: { type: "EXPORT" } }, "*");
+  });
+
+</script>
+</body>
+</html>

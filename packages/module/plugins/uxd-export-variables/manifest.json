@@ -1,0 +1,12 @@
+{
+  "name": "uxd-export-variables",
+  "id": "1305931922901292580",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "permissions": [],
+  "main": "code.js",
+  "menu": [
+    { "command": "export", "name": "Export Variables" }
+  ],
+  "ui": { "export": "export.html" }
+}
