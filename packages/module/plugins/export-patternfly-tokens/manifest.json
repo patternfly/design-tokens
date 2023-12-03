@@ -1,12 +1,12 @@
 {
-  "name": "uxd-export-variables",
+  "name": "Export Patternfly Tokens",
   "id": "1305931922901292580",
   "api": "1.0.0",
   "editorType": ["figma"],
   "permissions": [],
   "main": "code.js",
   "menu": [
-    { "command": "export", "name": "Export Variables" }
+    { "command": "export", "name": "Export Tokens" }
   ],
   "ui": { "export": "export.html" }
 }
