@@ -9,8 +9,10 @@ StyleDictionary.registerTransform({
   name: 'patternfly/global/px',
   type: 'value',
   matcher: (token) =>
-    token.attributes.category === 'global' &&
-    (token.attributes.type === 'spacer' || token.attributes.type === 'border' || token.attributes.type === 'icon'),
+    token.attributes.type === 'spacer' ||
+    token.attributes.type === 'border' ||
+    token.attributes.type === 'icon' ||
+    token.attributes.type === 'font',
   transformer: (token) => `${token.value}px`
 });
 
