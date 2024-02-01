@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/chart/*.json"],
+  "source": ["tokens/default/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
