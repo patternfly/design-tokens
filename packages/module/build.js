@@ -43,11 +43,13 @@ StyleDictionary.registerTransformGroup({
 const defaultExtendedSD = StyleDictionary.extend(__dirname + '/config.default.json');
 const darkExtendedSD = StyleDictionary.extend(__dirname + '/config.dark.json');
 const paletteExtendedSD = StyleDictionary.extend(__dirname + '/config.palette-colors.json');
+const chartExtendedSD = StyleDictionary.extend(__dirname + '/config.chart.json');
 
 // Build all
 defaultExtendedSD.buildAllPlatforms();
 darkExtendedSD.buildAllPlatforms();
 paletteExtendedSD.buildAllPlatforms();
+chartExtendedSD.buildAllPlatforms();
 
 console.log('\n============================');
 console.log('\nBuild completed.');
