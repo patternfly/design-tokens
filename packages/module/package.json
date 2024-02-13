@@ -1,10 +1,12 @@
 {
-  "name": "@patternfly/style-dictionary",
+  "name": "@patternfly/design-tokens",
   "version": "1.0.0",
-  "description": "Store global tokens for the PatternFly design system - used to generate scss files and figma variables",
+  "description": "Define the design tokens for patternfly design system and component library",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
+    "build": "tsc --build --verbose ./tsconfig.json",
+    "build:fed:packages": "node generate-fed-package-json.js",
     "build:scss": "node ./build.js",
     "clean": "rimraf dist",
     "docs:develop": "pf-docs-framework start",
@@ -16,32 +18,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/patternfly/style-dictionary"
+    "url": "https://github.com/patternfly/design-tokens"
   },
   "author": "Red Hat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patternfly/style-dictionary/issues"
+    "url": "https://github.com/patternfly/design-tokens/issues"
   },
-  "homepage": "https://github.com/patternfly/style-dictionary#readme",
+  "homepage": "https://github.com/patternfly/design-tokens#readme",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@patternfly/react-core": "^4.276.6"
+    "@patternfly/react-core": "^6.0.0-alpha.5"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17 || ^18",
-    "react-dom": "^16.8 || ^17 || ^18"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@patternfly/documentation-framework": "^1.10.1",
-    "@patternfly/patternfly": "^4.224.2",
-    "@patternfly/patternfly-a11y": "^4.3.1",
-    "@patternfly/react-code-editor": "^4.82.113",
-    "@patternfly/react-table": "^4.112.39",
-    "react-monaco-editor": "^0.51.0",
+    "@patternfly/documentation-framework": "6.0.0-alpha.10",
+    "@patternfly/patternfly": "6.0.0-alpha.38",
+    "@patternfly/react-code-editor": "6.0.0-alpha.5",
+    "@patternfly/react-table": "6.0.0-alpha.5",
     "rimraf": "^2.6.2",
+    "@patternfly/patternfly-a11y": "^4.3.1",
+    "react-monaco-editor": "^0.51.0",
     "style-dictionary": "^3.8.0"
   }
 }
