@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 12 Feb 2024 21:44:16 GMT
+ * Generated on Wed, 14 Feb 2024 00:50:46 GMT
  */
 
 :root {
@@ -103,12 +103,12 @@
   --pf-t--global--background--color--300: var(--pf-t--color--gray--20);
   --pf-t--global--background--color--200: var(--pf-t--color--gray--10);
   --pf-t--global--background--color--100: var(--pf-t--color--white);
-  --pf-t--global--Zindex--2xl: 600;
-  --pf-t--global--Zindex--xl: 500;
-  --pf-t--global--Zindex--lg: 400;
-  --pf-t--global--Zindex--md: 300;
-  --pf-t--global--Zindex--sm: 200;
-  --pf-t--global--Zindex--xs: 100;
+  --pf-t--global--Zindex--2xl: var(--pf-t--global--Zindex--600);
+  --pf-t--global--Zindex--xl: var(--pf-t--global--Zindex--500);
+  --pf-t--global--Zindex--lg: var(--pf-t--global--Zindex--400);
+  --pf-t--global--Zindex--md: var(--pf-t--global--Zindex--300);
+  --pf-t--global--Zindex--sm: var(--pf-t--global--Zindex--200);
+  --pf-t--global--Zindex--xs: var(--pf-t--global--Zindex--100);
   --pf-t--global--font--size--4xl: var(--pf-t--global--font--size--800);
   --pf-t--global--font--size--3xl: var(--pf-t--global--font--size--700);
   --pf-t--global--font--size--2xl: var(--pf-t--global--font--size--600);
