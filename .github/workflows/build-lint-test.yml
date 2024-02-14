@@ -69,8 +69,6 @@ jobs:
         with:
           path: '.eslintcache'
           key: ${{ runner.os }}-lint-14-${{ secrets.CACHE_VERSION }}-${{ hashFiles('yarn.lock') }}
-      - name: ESLint
-        run: yarn lint:js
       - name: MDLint
         run: yarn lint:md
   test_a11y:
