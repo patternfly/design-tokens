@@ -1,5 +1,5 @@
 {
-  "name": "@patternfly/style-dictionary-root",
+  "name": "@patternfly/design-tokens-root",
   "private": true,
   "version": "0.0.0",
   "description": "This library provides patternfly extensions",
@@ -8,23 +8,24 @@
     "packages/*"
   ],
   "scripts": {
-    "build:docs": "yarn workspace @patternfly/style-dictionary docs:build",
-    "build:scss": "yarn workspace @patternfly/style-dictionary build:scss",
-    "start": "yarn build && concurrently --kill-others \"yarn workspace @patternfly/style-dictionary docs:develop\"",
-    "serve:docs": "yarn workspace @patternfly/style-dictionary docs:serve",
-    "clean": "yarn workspace @patternfly/style-dictionary clean",
-    "lint:js": "node --max-old-space-size=4096 node_modules/.bin/eslint packages --ext js,jsx,ts,tsx --cache",
+    "build": "yarn workspace @patternfly/design-tokens build",
+    "build:docs": "yarn workspace @patternfly/design-tokens docs:build",
+    "build:fed:packages": "yarn workspace @patternfly/design-tokens build:fed:packages",
+    "build:scss": "yarn workspace @patternfly/design-tokens build:scss",
+    "start": "yarn build && concurrently --kill-others \"yarn workspace @patternfly/design-tokens docs:develop\"",
+    "serve:docs": "yarn workspace @patternfly/design-tokens docs:serve",
+    "clean": "yarn workspace @patternfly/design-tokens clean",
     "lint:md": "yarn eslint packages --ext md --no-eslintrc --config .eslintrc-md.json --cache",
-    "lint": "yarn lint:js && yarn lint:md",
-    "test:a11y": "yarn workspace @patternfly/style-dictionary test:a11y",
-    "serve:a11y": "yarn workspace @patternfly/style-dictionary serve:a11y"
+    "lint": "yarn lint:md",
+    "test:a11y": "yarn workspace @patternfly/design-tokens test:a11y",
+    "serve:a11y": "yarn workspace @patternfly/design-tokens serve:a11y"
   },
   "devDependencies": {
-    "react": "^17",
-    "react-dom": "^17",
+    "react": "^18",
+    "react-dom": "^18",
     "typescript": "^4.7.4",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
     "concurrently": "^5.3.0",
     "eslint": "^8.0.1",
     "eslint-plugin-import": "^2.25.2",
@@ -36,9 +37,12 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-config-prettier": "8.5.0",
-    "@typescript-eslint/eslint-plugin": "^5.42.0",
-    "@typescript-eslint/parser": "^5.42.0",
     "prettier": "2.7.1",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-flow": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
     "serve": "^14.1.2"
   }
 }
