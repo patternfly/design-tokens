@@ -29,6 +29,10 @@
         }
       },
       "width": {
+        "regular": {
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
         "divider": {
           "default": {
             "type": "number",
@@ -42,10 +46,6 @@
             "type": "number",
             "value": "{global.border.width.100}"
           }
-        },
-        "regular": {
-          "type": "number",
-          "value": "{global.border.width.100}"
         },
         "strong": {
           "type": "number",
@@ -197,21 +197,11 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
+        "3xl": {
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        },
         "font": {
-          "body": {
-            "sm": {
-              "type": "number",
-              "value": "{global.font.size.body.sm}"
-            },
-            "default": {
-              "type": "number",
-              "value": "{global.font.size.body.default}"
-            },
-            "lg": {
-              "type": "number",
-              "value": "{global.font.size.body.lg}"
-            }
-          },
           "heading": {
             "h1": {
               "type": "number",
@@ -236,6 +226,20 @@
             "h6": {
               "type": "number",
               "value": "{global.font.size.heading.h6}"
+            }
+          },
+          "body": {
+            "sm": {
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
             }
           },
           "xs": {
@@ -270,10 +274,6 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
-        },
-        "3xl": {
-          "type": "number",
-          "value": "{global.icon.size.500}"
         }
       }
     },
@@ -377,6 +377,160 @@
       "2xl": {
         "type": "number",
         "value": "{global.Zindex.600}"
+      }
+    },
+    "box-shadow": {
+      "X": {
+        "sm": {
+          "type": "number",
+          "value": "{global.box-shadow.X.400}",
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.X.300}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.X.500}"
+          }
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.box-shadow.X.400}",
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.X.200}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.X.600}"
+          }
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.box-shadow.X.400}",
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.X.100}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.X.700}"
+          }
+        }
+      },
+      "Y": {
+        "sm": {
+          "type": "number",
+          "value": "{global.box-shadow.Y.500}",
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.300}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.500}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.box-shadow.Y.600}",
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.200}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.600}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.box-shadow.Y.700}",
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.100}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.700}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        }
+      },
+      "blur": {
+        "sm": {
+          "type": "number",
+          "value": "{global.box-shadow.blur.100}"
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.box-shadow.blur.200}"
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.box-shadow.blur.300}"
+        }
+      },
+      "spread": {
+        "sm": {
+          "type": "number",
+          "value": "{global.box-shadow.spread.100}"
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.box-shadow.spread.100}"
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.box-shadow.spread.100}"
+        }
       }
     }
   }

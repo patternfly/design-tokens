@@ -38,11 +38,11 @@
           },
           "hover": {
             "type": "color",
-            "value": "{global.background.color.action.plain.hover}"
+            "value": "{global.dark.background.color.200}"
           },
           "clicked": {
             "type": "color",
-            "value": "{global.background.color.action.plain.hover}"
+            "value": "{global.dark.background.color.200}"
           }
         },
         "action": {
@@ -53,11 +53,11 @@
             },
             "hover": {
               "type": "color",
-              "value": "{global.dark.background.color.200}"
+              "value": "{global.dark.background.color.600}"
             },
             "clicked": {
               "type": "color",
-              "value": "{global.dark.background.color.200}"
+              "value": "{global.dark.background.color.600}"
             },
             "alt": {
               "hover": {
@@ -171,13 +171,13 @@
               "type": "color",
               "value": "{global.color.status.danger.default}"
             },
-            "clicked": {
-              "type": "color",
-              "value": "{global.color.status.danger.clicked}"
-            },
             "hover": {
               "type": "color",
               "value": "{global.color.status.danger.hover}"
+            },
+            "clicked": {
+              "type": "color",
+              "value": "{global.color.status.danger.clicked}"
             }
           }
         },
@@ -1353,6 +1353,20 @@
             }
           }
         }
+      }
+    },
+    "box-shadow": {
+      "sm": {
+        "type": "color",
+        "value": "{global.dark.box-shadow.color.100}"
+      },
+      "md": {
+        "type": "color",
+        "value": "{global.dark.box-shadow.color.100}"
+      },
+      "lg": {
+        "type": "color",
+        "value": "{global.dark.box-shadow.color.100}"
       }
     }
   }
