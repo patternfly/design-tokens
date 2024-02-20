@@ -382,8 +382,10 @@
     "box-shadow": {
       "X": {
         "sm": {
-          "type": "number",
-          "value": "{global.box-shadow.X.400}",
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
           "top": {
             "type": "number",
             "value": "{global.box-shadow.X.400}"
@@ -402,8 +404,10 @@
           }
         },
         "md": {
-          "type": "number",
-          "value": "{global.box-shadow.X.400}",
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
           "top": {
             "type": "number",
             "value": "{global.box-shadow.X.400}"
@@ -422,8 +426,10 @@
           }
         },
         "lg": {
-          "type": "number",
-          "value": "{global.box-shadow.X.400}",
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
           "top": {
             "type": "number",
             "value": "{global.box-shadow.X.400}"
@@ -444,8 +450,10 @@
       },
       "Y": {
         "sm": {
-          "type": "number",
-          "value": "{global.box-shadow.Y.500}",
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.500}"
+          },
           "top": {
             "type": "number",
             "value": "{global.box-shadow.Y.300}"
@@ -464,8 +472,10 @@
           }
         },
         "md": {
-          "type": "number",
-          "value": "{global.box-shadow.Y.600}",
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.600}"
+          },
           "top": {
             "type": "number",
             "value": "{global.box-shadow.Y.200}"
@@ -484,8 +494,10 @@
           }
         },
         "lg": {
-          "type": "number",
-          "value": "{global.box-shadow.Y.700}",
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.700}"
+          },
           "top": {
             "type": "number",
             "value": "{global.box-shadow.Y.100}"

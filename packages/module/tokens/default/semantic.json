@@ -1356,17 +1356,19 @@
       }
     },
     "box-shadow": {
-      "sm": {
-        "type": "color",
-        "value": "{global.box-shadow.color.100}"
-      },
-      "md": {
-        "type": "color",
-        "value": "{global.box-shadow.color.200}"
-      },
-      "lg": {
-        "type": "color",
-        "value": "{global.box-shadow.color.200}"
+      "color": {
+        "sm": {
+          "type": "color",
+          "value": "{global.box-shadow.color.100}"
+        },
+        "md": {
+          "type": "color",
+          "value": "{global.box-shadow.color.200}"
+        },
+        "lg": {
+          "type": "color",
+          "value": "{global.box-shadow.color.200}"
+        }
       }
     }
   }
