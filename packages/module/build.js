@@ -12,6 +12,7 @@ StyleDictionary.registerTransform({
     token.attributes.type === 'spacer' ||
     token.attributes.type === 'border' ||
     token.attributes.type === 'icon' ||
+    token.attributes.type === 'box-shadow' ||
     token.attributes.type === 'font',
   transformer: (token) => `${token.value}px`
 });

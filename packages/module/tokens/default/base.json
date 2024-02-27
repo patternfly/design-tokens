@@ -23,6 +23,10 @@
           "type": "color",
           "value": "rgba(21, 21, 21, 0.2000)"
         },
+        "600": {
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.2500)"
+        },
         "highlight": {
           "100": {
             "type": "color",
@@ -322,6 +326,18 @@
         "300": {
           "type": "color",
           "value": "{color.white}"
+        }
+      }
+    },
+    "box-shadow": {
+      "color": {
+        "100": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1600)"
+        },
+        "200": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1200)"
         }
       }
     }
