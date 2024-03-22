@@ -137,20 +137,6 @@
         }
       },
       "status": {
-        "success": {
-          "default": {
-            "type": "color",
-            "value": "{global.dark.color.status.success.100}"
-          },
-          "hover": {
-            "type": "color",
-            "value": "{global.dark.color.status.success.200}"
-          },
-          "clicked": {
-            "type": "color",
-            "value": "{global.dark.color.status.success.200}"
-          }
-        },
         "unread": {
           "default": {
             "default": {
@@ -179,6 +165,20 @@
               "type": "color",
               "value": "{global.color.status.danger.clicked}"
             }
+          }
+        },
+        "success": {
+          "default": {
+            "type": "color",
+            "value": "{global.dark.color.status.success.100}"
+          },
+          "hover": {
+            "type": "color",
+            "value": "{global.dark.color.status.success.200}"
+          },
+          "clicked": {
+            "type": "color",
+            "value": "{global.dark.color.status.success.200}"
           }
         },
         "warning": {
@@ -850,6 +850,10 @@
         "alt": {
           "type": "color",
           "value": "{global.background.color.primary.default}"
+        },
+        "on-secondary": {
+          "type": "color",
+          "value": "{global.dark.border.color.200}"
         },
         "nonstatus": {
           "red": {

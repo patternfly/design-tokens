@@ -131,11 +131,11 @@
           "custom": {
             "100": {
               "type": "color",
-              "value": "{color.teal.30}"
+              "value": "{color.teal.40}"
             },
             "200": {
               "type": "color",
-              "value": "{color.teal.20}"
+              "value": "{color.teal.30}"
             }
           }
         },
@@ -288,7 +288,7 @@
           },
           "200": {
             "type": "color",
-            "value": "{color.gray.40}"
+            "value": "{color.gray.30}"
           },
           "300": {
             "type": "color",

@@ -137,20 +137,6 @@
         }
       },
       "status": {
-        "success": {
-          "default": {
-            "type": "color",
-            "value": "{global.color.status.success.100}"
-          },
-          "hover": {
-            "type": "color",
-            "value": "{global.color.status.success.200}"
-          },
-          "clicked": {
-            "type": "color",
-            "value": "{global.color.status.success.200}"
-          }
-        },
         "unread": {
           "default": {
             "default": {
@@ -179,6 +165,20 @@
               "type": "color",
               "value": "{global.color.status.danger.clicked}"
             }
+          }
+        },
+        "success": {
+          "default": {
+            "type": "color",
+            "value": "{global.color.status.success.100}"
+          },
+          "hover": {
+            "type": "color",
+            "value": "{global.color.status.success.200}"
+          },
+          "clicked": {
+            "type": "color",
+            "value": "{global.color.status.success.200}"
           }
         },
         "warning": {
@@ -439,7 +439,7 @@
           "on-success": {
             "default": {
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "type": "color",
@@ -495,7 +495,7 @@
           "on-danger": {
             "default": {
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "type": "color",
@@ -551,7 +551,7 @@
           "on-custom": {
             "default": {
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "type": "color",
@@ -580,7 +580,7 @@
             "on-attention": {
               "default": {
                 "type": "color",
-                "value": "{global.icon.color.regular}"
+                "value": "{global.icon.color.inverse}"
               },
               "hover": {
                 "type": "color",
@@ -851,6 +851,10 @@
           "type": "color",
           "value": "{global.background.color.primary.default}"
         },
+        "on-secondary": {
+          "type": "color",
+          "value": "{global.border.color.300}"
+        },
         "nonstatus": {
           "red": {
             "default": {
@@ -1071,7 +1075,7 @@
           "on-success": {
             "default": {
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "type": "color",
@@ -1113,21 +1117,21 @@
           "danger": {
             "default": {
               "type": "color",
-              "value": "{global.color.status.danger.200}"
+              "value": "{global.color.status.danger.default}"
             },
             "hover": {
               "type": "color",
-              "value": "{global.color.status.danger.300}"
+              "value": "{global.color.status.danger.hover}"
             },
             "clicked": {
               "type": "color",
-              "value": "{global.color.status.danger.300}"
+              "value": "{global.color.status.danger.clicked}"
             }
           },
           "on-danger": {
             "default": {
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "type": "color",
@@ -1183,7 +1187,7 @@
           "on-custom": {
             "default": {
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "type": "color",
@@ -1212,7 +1216,7 @@
             "on-attention": {
               "default": {
                 "type": "color",
-                "value": "{global.text.color.regular}"
+                "value": "{global.text.color.inverse}"
               },
               "hover": {
                 "type": "color",
