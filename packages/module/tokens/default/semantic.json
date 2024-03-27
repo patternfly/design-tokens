@@ -607,7 +607,7 @@
         },
         "disabled": {
           "type": "color",
-          "value": "{global.color.disabled.100}"
+          "value": "{global.color.disabled.200}"
         },
         "on-disabled": {
           "type": "color",
@@ -1033,7 +1033,7 @@
         },
         "disabled": {
           "type": "color",
-          "value": "{global.color.disabled.100}"
+          "value": "{global.color.disabled.200}"
         },
         "on-disabled": {
           "type": "color",
