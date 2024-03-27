@@ -29,10 +29,6 @@
         }
       },
       "width": {
-        "regular": {
-          "type": "number",
-          "value": "{global.border.width.100}"
-        },
         "divider": {
           "default": {
             "type": "number",
@@ -46,6 +42,10 @@
             "type": "number",
             "value": "{global.border.width.100}"
           }
+        },
+        "regular": {
+          "type": "number",
+          "value": "{global.border.width.100}"
         },
         "strong": {
           "type": "number",
@@ -151,6 +151,10 @@
           "compact": {
             "type": "number",
             "value": "{global.spacer.100}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
           }
         },
         "horizontal": {
@@ -161,17 +165,33 @@
           "compact": {
             "type": "number",
             "value": "{global.spacer.300}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
           }
         }
       },
       "control": {
         "vertical": {
-          "type": "number",
-          "value": "{global.spacer.200}"
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.200}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
+          }
         },
         "horizontal": {
-          "type": "number",
-          "value": "{global.spacer.300}"
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.300}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
+          }
         }
       }
     },
@@ -197,11 +217,21 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
-        "3xl": {
-          "type": "number",
-          "value": "{global.icon.size.500}"
-        },
         "font": {
+          "body": {
+            "sm": {
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
+            }
+          },
           "heading": {
             "h1": {
               "type": "number",
@@ -226,20 +256,6 @@
             "h6": {
               "type": "number",
               "value": "{global.font.size.heading.h6}"
-            }
-          },
-          "body": {
-            "sm": {
-              "type": "number",
-              "value": "{global.font.size.body.sm}"
-            },
-            "default": {
-              "type": "number",
-              "value": "{global.font.size.body.default}"
-            },
-            "lg": {
-              "type": "number",
-              "value": "{global.font.size.body.lg}"
             }
           },
           "xs": {
@@ -274,6 +290,10 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
+        },
+        "3xl": {
+          "type": "number",
+          "value": "{global.icon.size.500}"
         }
       }
     },

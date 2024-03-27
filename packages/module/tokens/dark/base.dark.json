@@ -66,7 +66,7 @@
           },
           "300": {
             "type": "color",
-            "value": "{color.gray.60}"
+            "value": "{color.gray.70}"
           }
         },
         "favorite": {

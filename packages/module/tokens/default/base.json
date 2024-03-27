@@ -57,11 +57,11 @@
       "disabled": {
         "100": {
           "type": "color",
-          "value": "{color.gray.40}"
+          "value": "{color.gray.30}"
         },
         "200": {
           "type": "color",
-          "value": "{color.gray.50}"
+          "value": "{color.gray.40}"
         },
         "300": {
           "type": "color",
