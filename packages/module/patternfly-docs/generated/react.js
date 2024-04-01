@@ -1,12 +1,12 @@
 import React from 'react';
 import { AutoLinkHeader, Example, Link as PatternflyThemeLink } from '@patternfly/documentation-framework/components';
-import { ExtendedButton } from "@patternfly/style-dictionary";
+import { ExtendedButton } from "@patternfly/design-tokens";
 const pageData = {
-  "id": "style-dictionary",
+  "id": "design-tokens",
   "section": "extensions",
   "source": "react",
-  "slug": "/extensions/style-dictionary/react",
-  "sourceLink": "https://github.com/patternfly/patternfly-react/blob/main/packages/module/patternfly-docs/content/extensions/style-dictionary/examples/basic.md",
+  "slug": "/extensions/design-tokens/react",
+  "sourceLink": "https://github.com/patternfly/patternfly-react/blob/main/packages/module/patternfly-docs/content/extensions/design-tokens/examples/basic.md",
   "propComponents": [
     {
       "name": "ExtendedButton",
@@ -35,11 +35,11 @@ pageData.relativeImports = {
 };
 pageData.examples = {
   'Example': props => 
-    <Example {...pageData} {...props} {...{"code":"import React from 'react';\nimport { ExtendedButton } from '@patternfly/style-dictionary';\n\nexport const BasicExample: React.FunctionComponent = () => <ExtendedButton>My custom extension button</ExtendedButton>;\n","title":"Example","lang":"js"}}>
+    <Example {...pageData} {...props} {...{"code":"import React from 'react';\nimport { ExtendedButton } from '@patternfly/design-tokens';\n\nexport const BasicExample: React.FunctionComponent = () => <ExtendedButton>My custom extension button</ExtendedButton>;\n","title":"Example","lang":"js"}}>
       
     </Example>,
   'Fullscreen example': props => 
-    <Example {...pageData} {...props} {...{"code":"import React from 'react';\nimport { ExtendedButton } from '@patternfly/style-dictionary';\n\nexport const BasicExample: React.FunctionComponent = () => <ExtendedButton>My custom extension button</ExtendedButton>;\n","title":"Fullscreen example","lang":"js","isFullscreen":true}}>
+    <Example {...pageData} {...props} {...{"code":"import React from 'react';\nimport { ExtendedButton } from '@patternfly/design-tokens';\n\nexport const BasicExample: React.FunctionComponent = () => <ExtendedButton>My custom extension button</ExtendedButton>;\n","title":"Fullscreen example","lang":"js","isFullscreen":true}}>
       
     </Example>
 };
