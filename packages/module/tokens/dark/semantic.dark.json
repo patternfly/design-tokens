@@ -38,11 +38,11 @@
           },
           "hover": {
             "type": "color",
-            "value": "{global.background.color.action.plain.hover}"
+            "value": "{global.dark.background.color.200}"
           },
           "clicked": {
             "type": "color",
-            "value": "{global.background.color.action.plain.hover}"
+            "value": "{global.dark.background.color.200}"
           }
         },
         "action": {
@@ -53,11 +53,11 @@
             },
             "hover": {
               "type": "color",
-              "value": "{global.dark.background.color.200}"
+              "value": "{global.dark.background.color.600}"
             },
             "clicked": {
               "type": "color",
-              "value": "{global.dark.background.color.200}"
+              "value": "{global.dark.background.color.600}"
             },
             "alt": {
               "hover": {
@@ -137,20 +137,6 @@
         }
       },
       "status": {
-        "success": {
-          "default": {
-            "type": "color",
-            "value": "{global.dark.color.status.success.100}"
-          },
-          "hover": {
-            "type": "color",
-            "value": "{global.dark.color.status.success.200}"
-          },
-          "clicked": {
-            "type": "color",
-            "value": "{global.dark.color.status.success.200}"
-          }
-        },
         "unread": {
           "default": {
             "default": {
@@ -171,14 +157,28 @@
               "type": "color",
               "value": "{global.color.status.danger.default}"
             },
-            "clicked": {
-              "type": "color",
-              "value": "{global.color.status.danger.clicked}"
-            },
             "hover": {
               "type": "color",
               "value": "{global.color.status.danger.hover}"
+            },
+            "clicked": {
+              "type": "color",
+              "value": "{global.color.status.danger.clicked}"
             }
+          }
+        },
+        "success": {
+          "default": {
+            "type": "color",
+            "value": "{global.dark.color.status.success.100}"
+          },
+          "hover": {
+            "type": "color",
+            "value": "{global.dark.color.status.success.200}"
+          },
+          "clicked": {
+            "type": "color",
+            "value": "{global.dark.color.status.success.200}"
           }
         },
         "warning": {
@@ -851,6 +851,10 @@
           "type": "color",
           "value": "{global.background.color.primary.default}"
         },
+        "on-secondary": {
+          "type": "color",
+          "value": "{global.dark.border.color.200}"
+        },
         "nonstatus": {
           "red": {
             "default": {
@@ -1352,6 +1356,22 @@
               "value": "{global.text.color.inverse}"
             }
           }
+        }
+      }
+    },
+    "box-shadow": {
+      "color": {
+        "sm": {
+          "type": "color",
+          "value": "{global.dark.box-shadow.color.100}"
+        },
+        "md": {
+          "type": "color",
+          "value": "{global.dark.box-shadow.color.100}"
+        },
+        "lg": {
+          "type": "color",
+          "value": "{global.dark.box-shadow.color.100}"
         }
       }
     }

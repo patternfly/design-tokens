@@ -441,7 +441,7 @@
             }
           }
         },
-        "Multi-colored-ordered": {
+        "multi-colored-ordered": {
           "colorscale": {
             "100": {
               "type": "color",

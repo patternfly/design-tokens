@@ -142,6 +142,36 @@
         "type": "number",
         "value": "{global.spacer.800}"
       },
+      "control": {
+        "vertical": {
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.200}"
+          },
+          "compact": {
+            "type": "number",
+            "value": "{global.spacer.100}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
+          }
+        },
+        "horizontal": {
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.300}"
+          },
+          "compact": {
+            "type": "number",
+            "value": "{global.spacer.200}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
+          }
+        }
+      },
       "button": {
         "vertical": {
           "default": {
@@ -151,6 +181,10 @@
           "compact": {
             "type": "number",
             "value": "{global.spacer.100}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
           }
         },
         "horizontal": {
@@ -161,17 +195,11 @@
           "compact": {
             "type": "number",
             "value": "{global.spacer.300}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.200}"
           }
-        }
-      },
-      "control": {
-        "vertical": {
-          "type": "number",
-          "value": "{global.spacer.200}"
-        },
-        "horizontal": {
-          "type": "number",
-          "value": "{global.spacer.300}"
         }
       }
     },
@@ -353,30 +381,196 @@
         }
       }
     },
-    "Zindex": {
+    "z-index": {
       "xs": {
         "type": "number",
-        "value": "{global.Zindex.100}"
+        "value": "{global.z-index.100}"
       },
       "sm": {
         "type": "number",
-        "value": "{global.Zindex.200}"
+        "value": "{global.z-index.200}"
       },
       "md": {
         "type": "number",
-        "value": "{global.Zindex.300}"
+        "value": "{global.z-index.300}"
       },
       "lg": {
         "type": "number",
-        "value": "{global.Zindex.400}"
+        "value": "{global.z-index.400}"
       },
       "xl": {
         "type": "number",
-        "value": "{global.Zindex.500}"
+        "value": "{global.z-index.500}"
       },
       "2xl": {
         "type": "number",
-        "value": "{global.Zindex.600}"
+        "value": "{global.z-index.600}"
+      }
+    },
+    "box-shadow": {
+      "X": {
+        "sm": {
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.X.300}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.X.500}"
+          }
+        },
+        "md": {
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.X.200}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.X.600}"
+          }
+        },
+        "lg": {
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.X.100}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.X.700}"
+          }
+        }
+      },
+      "Y": {
+        "sm": {
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.500}"
+          },
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.300}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.500}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        },
+        "md": {
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.600}"
+          },
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.200}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.600}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        },
+        "lg": {
+          "default": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.700}"
+          },
+          "top": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.100}"
+          },
+          "bottom": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.700}"
+          },
+          "left": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        }
+      },
+      "blur": {
+        "sm": {
+          "type": "number",
+          "value": "{global.box-shadow.blur.100}"
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.box-shadow.blur.200}"
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.box-shadow.blur.300}"
+        }
+      },
+      "spread": {
+        "sm": {
+          "type": "number",
+          "value": "{global.box-shadow.spread.100}"
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.box-shadow.spread.100}"
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.box-shadow.spread.100}"
+        }
       }
     }
   }

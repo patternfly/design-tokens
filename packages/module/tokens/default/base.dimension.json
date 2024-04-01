@@ -141,7 +141,7 @@
         }
       }
     },
-    "Zindex": {
+    "z-index": {
       "100": {
         "type": "number",
         "value": 100
@@ -165,6 +165,88 @@
       "600": {
         "type": "number",
         "value": 600
+      }
+    },
+    "box-shadow": {
+      "X": {
+        "100": {
+          "type": "number",
+          "value": -8
+        },
+        "200": {
+          "type": "number",
+          "value": -4
+        },
+        "300": {
+          "type": "number",
+          "value": -1
+        },
+        "400": {
+          "type": "number",
+          "value": 0
+        },
+        "500": {
+          "type": "number",
+          "value": 1
+        },
+        "600": {
+          "type": "number",
+          "value": 4
+        },
+        "700": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "Y": {
+        "100": {
+          "type": "number",
+          "value": -8
+        },
+        "200": {
+          "type": "number",
+          "value": -4
+        },
+        "300": {
+          "type": "number",
+          "value": -1
+        },
+        "400": {
+          "type": "number",
+          "value": 0
+        },
+        "500": {
+          "type": "number",
+          "value": 1
+        },
+        "600": {
+          "type": "number",
+          "value": 4
+        },
+        "700": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "blur": {
+        "100": {
+          "type": "number",
+          "value": 2
+        },
+        "200": {
+          "type": "number",
+          "value": 8
+        },
+        "300": {
+          "type": "number",
+          "value": 24
+        }
+      },
+      "spread": {
+        "100": {
+          "type": "number",
+          "value": 0
+        }
       }
     }
   }
