@@ -141,7 +141,7 @@
         }
       }
     },
-    "Zindex": {
+    "z-index": {
       "100": {
         "type": "number",
         "value": 100
