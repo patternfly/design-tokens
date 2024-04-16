@@ -1,8 +1,21 @@
 /* eslint-disable no-console */
 const StyleDictionary = require('style-dictionary');
+const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 
 console.log('Build started...');
 console.log('\n============================');
+
+//Register comment format
+StyleDictionary.registerFormat({
+  name: 'customFormat',
+  formatter: function({dictionary, file, options}) {
+    const { outputReferences } = options;
+    return fileHeader({file, commentStyle: 'short'}) +
+      ':root {\n' +
+      formattedVariables({format: 'css', dictionary, outputReferences}) +
+      '\n}\n';
+  }
+});
 
 // Register custom transforms
 StyleDictionary.registerTransform({
@@ -51,6 +64,7 @@ defaultExtendedSD.buildAllPlatforms();
 darkExtendedSD.buildAllPlatforms();
 paletteExtendedSD.buildAllPlatforms();
 chartExtendedSD.buildAllPlatforms();
+
 
 console.log('\n============================');
 console.log('\nBuild completed.');

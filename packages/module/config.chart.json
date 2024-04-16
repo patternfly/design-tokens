@@ -7,7 +7,7 @@
       "prefix": "pf-t",
       "files": [{
         "destination": "_tokens-charts.scss",
-        "format": "css/variables",
+        "format": "customFormat",
         "options": {
           "outputReferences": true
         },
