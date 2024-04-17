@@ -7,7 +7,7 @@
   "scripts": {
     "build": "yarn build:js-from-scss",
     "build:fed:packages": "node generate-fed-package-json.js",
-    "build:scss": "node ./build.js",
+    "build:scss": "node ./cli.js",
     "build:js-from-scss": "node ./build-js-for-docs.js",
     "clean": "rimraf dist",
     "docs:develop": "pf-docs-framework start",
@@ -31,7 +31,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@patternfly/react-core": "^6.0.0-alpha.36"
+    "@patternfly/react-core": "^6.0.0-alpha.36",
+    "commander": "^12.0.0"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17 || ^18",
