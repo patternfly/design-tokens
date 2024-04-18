@@ -8,12 +8,14 @@ console.log('\n============================');
 //Register comment format
 StyleDictionary.registerFormat({
   name: 'customFormat',
-  formatter: function({dictionary, file, options}) {
+  formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
-    return fileHeader({file, commentStyle: 'short'}) +
+    return (
+      fileHeader({ file, commentStyle: 'short' }) +
       ':root {\n' +
-      formattedVariables({format: 'css', dictionary, outputReferences}) +
-      '\n}\n';
+      formattedVariables({ format: 'css', dictionary, outputReferences }) +
+      '\n}\n'
+    );
   }
 });
 
@@ -25,7 +27,7 @@ StyleDictionary.registerTransform({
     token.attributes.type === 'spacer' ||
     token.attributes.type === 'border' ||
     token.attributes.type === 'icon' ||
-    token.attributes.type === 'box-shadow' ||
+    (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
     token.attributes.type === 'font',
   transformer: (token) => `${token.value}px`
 });
@@ -66,7 +68,6 @@ darkExtendedSD.buildAllPlatforms();
 paletteExtendedSD.buildAllPlatforms();
 chartExtendedSD.buildAllPlatforms();
 chartDarkExtendedSD.buildAllPlatforms();
-
 
 console.log('\n============================');
 console.log('\nBuild completed.');
