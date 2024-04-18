@@ -58,12 +58,14 @@ const defaultExtendedSD = StyleDictionary.extend(__dirname + '/config.default.js
 const darkExtendedSD = StyleDictionary.extend(__dirname + '/config.dark.json');
 const paletteExtendedSD = StyleDictionary.extend(__dirname + '/config.palette-colors.json');
 const chartExtendedSD = StyleDictionary.extend(__dirname + '/config.chart.json');
+const chartDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.chart.dark.json');
 
 // Build all
 defaultExtendedSD.buildAllPlatforms();
 darkExtendedSD.buildAllPlatforms();
 paletteExtendedSD.buildAllPlatforms();
 chartExtendedSD.buildAllPlatforms();
+chartDarkExtendedSD.buildAllPlatforms();
 
 
 console.log('\n============================');
