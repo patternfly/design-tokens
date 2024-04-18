@@ -1,0 +1,23 @@
+{
+  "source": ["tokens/dark/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "build/css/",
+      "prefix": "pf-t",
+      "files": [{
+        "destination": "_tokens-charts-dark.scss",
+        "format": "customFormat",
+        "options": {
+          "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "chart"
+          }
+        }
+      }
+    ]
+    }
+  }
+}
