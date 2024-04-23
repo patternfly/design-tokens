@@ -8,7 +8,7 @@
 # Note
 We are temporarily pushing the built SCSS files to the repo for ease of access. Additional PRs should rebuild and repush updated SCSS files if they would be affected by the PR changes, to keep them up to date.
 
-# Regarding the docs
+# Docs build
 
 Whenever `yarn build:docs` is executed:
 - the [build-js-for-docs.js](https://github.com/patternfly/design-tokens/blob/main/packages/module/build-js-for-docs.js) script is run to turn the scss files into a javascript object.
