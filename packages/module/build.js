@@ -14,7 +14,7 @@ const build = (selector) => {
       const { outputReferences } = options;
       return (
         fileHeader({ file, commentStyle: 'short' }) +
-        `${selector} {\n` +
+        ':root {\n' +
         formattedVariables({ format: 'css', dictionary, outputReferences }) +
         '\n}\n'
       );
@@ -29,7 +29,7 @@ const build = (selector) => {
       token.attributes.type === 'spacer' ||
       token.attributes.type === 'border' ||
       token.attributes.type === 'icon' ||
-      token.attributes.type === 'box-shadow' ||
+      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
       token.attributes.type === 'font',
     transformer: (token) => `${token.value}px`
   });
@@ -70,7 +70,6 @@ const build = (selector) => {
   paletteExtendedSD.buildAllPlatforms();
   chartExtendedSD.buildAllPlatforms();
   chartDarkExtendedSD.buildAllPlatforms();
-
 
   console.log('\n============================');
   console.log('\nBuild completed.');
