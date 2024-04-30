@@ -14,25 +14,25 @@ const build = (selector) => {
       const { outputReferences } = options;
       return (
         fileHeader({ file, commentStyle: 'short' }) +
-        ':root {\n' +
+        `${selector} {\n` +
         formattedVariables({ format: 'css', dictionary, outputReferences }) +
         '\n}\n'
       );
     }
   });
 
-  // Register custom transforms
-  StyleDictionary.registerTransform({
-    name: 'patternfly/global/px',
-    type: 'value',
-    matcher: (token) =>
-      token.attributes.type === 'spacer' ||
-      token.attributes.type === 'border' ||
-      token.attributes.type === 'icon' ||
-      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
-      token.attributes.type === 'font',
-    transformer: (token) => `${token.value}px`
-  });
+// Register custom transforms
+StyleDictionary.registerTransform({
+  name: 'patternfly/global/px',
+  type: 'value',
+  matcher: (token) =>
+    token.attributes.type === 'spacer' ||
+    token.attributes.type === 'border' ||
+    token.attributes.type === 'icon' ||
+    (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
+    token.attributes.type === 'font',
+  transformer: (token) => `${token.value}px`
+});
 
   StyleDictionary.registerTransform({
     name: 'patternfly/doublekebab',
@@ -71,8 +71,14 @@ const build = (selector) => {
   chartExtendedSD.buildAllPlatforms();
   chartDarkExtendedSD.buildAllPlatforms();
 
+<<<<<<< HEAD
+
   console.log('\n============================');
   console.log('\nBuild completed.');
 };
 
 module.exports = { build };
+=======
+console.log('\n============================');
+console.log('\nBuild completed.');
+>>>>>>> main
