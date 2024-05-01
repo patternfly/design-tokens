@@ -3,6 +3,7 @@
 # Usage
 `yarn build:scss` to build the SCSS files to the /build directory
 
+By default `yarn build:scss` outputs the SCSS with `:root` as a selector, but you can also pass the `--selector` flag (or just `-s` for short) and specify any selector you want, i.e. `yarn build:scss -s .foo` will replace the `:root` selector with `.foo` in the generated SCSS files.
 `yarn build:docs` and `yarn serve:docs` will build and run the docs locally.
 
 # Note
