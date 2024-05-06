@@ -1,9 +1,13 @@
 ## Patternfly Design Tokens
 
-# Usage
-`yarn build:scss` to build the SCSS files to the /build directory
+# Export tokens from Figma
+Information about exporting tokens from the Figma Design Tokens & Styles library is with the [custom exporter](https://github.com/patternfly/design-tokens/tree/main/packages/module/plugins/export-patternfly-tokens).
 
-By default `yarn build:scss` outputs the SCSS with `:root` as a selector, but you can also pass the `--selector` flag (or just `-s` for short) and specify any selector you want, i.e. `yarn build:scss -s .foo` will replace the `:root` selector with `.foo` in the generated SCSS files.
+# Usage
+Once the design token JSON files are exported from Figma to the [tokens directories](https://github.com/patternfly/design-tokens/tree/main/packages/module/tokens), use `yarn build:scss` to build the SCSS files to the /build directory
+
+By default `yarn build:scss` outputs the SCSS with `:root` as a selector, but you can also pass the `--selector` flag (or just `-s` for short) and specify any selector you want, i.e. `yarn build:scss -s .foo` will replace the `:root` selector with `.foo` in the generated SCSS files. For PatternFly core, export with the selector `@mixin pf-v6-tokens`
+
 `yarn build:docs` and `yarn serve:docs` will build and run the docs locally.
 
 # Note
