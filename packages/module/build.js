@@ -61,15 +61,15 @@ const build = (selector) => {
   const defaultExtendedSD = StyleDictionary.extend(__dirname + '/config.default.json');
   const darkExtendedSD = StyleDictionary.extend(__dirname + '/config.dark.json');
   const paletteExtendedSD = StyleDictionary.extend(__dirname + '/config.palette-colors.json');
-  const chartExtendedSD = StyleDictionary.extend(__dirname + '/config.chart.json');
-  const chartDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.chart.dark.json');
+  const chartsExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.json');
+  const chartsDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.dark.json');
 
   // Build all
   defaultExtendedSD.buildAllPlatforms();
   darkExtendedSD.buildAllPlatforms();
   paletteExtendedSD.buildAllPlatforms();
-  chartExtendedSD.buildAllPlatforms();
-  chartDarkExtendedSD.buildAllPlatforms();
+  chartsExtendedSD.buildAllPlatforms();
+  chartsDarkExtendedSD.buildAllPlatforms();
 
   console.log('\n============================');
   console.log('\nBuild completed.');

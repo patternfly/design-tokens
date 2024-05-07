@@ -2,12 +2,14 @@ const fs = require('fs');
 const fse = require('fs-extra');
 const path = require('path');
 
-const charts_scss = path.join(__dirname, 'build/css/_tokens-charts.scss');
-const dark_scss = path.join(__dirname, 'build/css/_tokens-dark.scss');
-const default_scss = path.join(__dirname, 'build/css/_tokens-default.scss');
-const palette_scss = path.join(__dirname, 'build/css/_tokens-palette.scss');
+const charts_scss = path.join(__dirname, 'build/css/tokens-charts.scss');
+const charts_dark_scss = path.join(__dirname, 'build/css/tokens-charts-dark.scss');
+const dark_scss = path.join(__dirname, 'build/css/tokens-dark.scss');
+const default_scss = path.join(__dirname, 'build/css/tokens-default.scss');
+const palette_scss = path.join(__dirname, 'build/css/tokens-palette.scss');
 
-const chartFileContents = fs.readFileSync(charts_scss, 'utf-8');
+const chartsFileContents = fs.readFileSync(charts_scss, 'utf-8');
+const chartsDarkFileContents = fs.readFileSync(charts_dark_scss, 'utf-8');
 const darkFileContents = fs.readFileSync(dark_scss, 'utf-8');
 const defaultFileContents = fs.readFileSync(default_scss, 'utf-8');
 const paletteFileContents = fs.readFileSync(palette_scss, 'utf-8');
@@ -32,7 +34,8 @@ const addToMap = (line) => {
 paletteFileContents.split(/\r?\n/).forEach(line => addToMap(line));
 defaultFileContents.split(/\r?\n/).forEach(line => addToMap(line));
 darkFileContents.split(/\r?\n/).forEach(line => addToMap(line));
-chartFileContents.split(/\r?\n/).forEach(line => addToMap(line));
+chartsFileContents.split(/\r?\n/).forEach(line => addToMap(line));
+chartsDarkFileContents.split(/\r?\n/).forEach(line => addToMap(line));
 
 fse.writeJson(path.join(__dirname, 'patternfly-docs/scssAsJson.json'), scssAsJson);
 

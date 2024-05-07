@@ -6,7 +6,7 @@
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "_tokens-palette.scss",
+        "destination": "tokens-palette.scss",
         "format": "customFormat",        
         "options": {
           "outputReferences": true
