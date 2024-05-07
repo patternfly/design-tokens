@@ -138,6 +138,44 @@
           }
         }
       },
+      "severity": {
+        "undefined": {
+          "100": {
+            "type": "color",
+            "value": "{color.gray.30}"
+          }
+        },
+        "none": {
+          "100": {
+            "type": "color",
+            "value": "{color.blue.40}"
+          }
+        },
+        "minor": {
+          "100": {
+            "type": "color",
+            "value": "{color.gray.50}"
+          }
+        },
+        "moderate": {
+          "100": {
+            "type": "color",
+            "value": "{color.yellow.40}"
+          }
+        },
+        "important": {
+          "100": {
+            "type": "color",
+            "value": "{color.orange.50}"
+          }
+        },
+        "critical": {
+          "100": {
+            "type": "color",
+            "value": "{color.red-orange.60}"
+          }
+        }
+      },
       "nonstatus": {
         "red": {
           "100": {

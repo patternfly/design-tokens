@@ -157,13 +157,13 @@
               "type": "color",
               "value": "{global.color.status.danger.default}"
             },
-            "hover": {
-              "type": "color",
-              "value": "{global.color.status.danger.hover}"
-            },
             "clicked": {
               "type": "color",
               "value": "{global.color.status.danger.clicked}"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{global.color.status.danger.hover}"
             }
           }
         },
@@ -613,6 +613,44 @@
           "type": "color",
           "value": "{global.color.disabled.300}"
         },
+        "severity": {
+          "undefined": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.severity.undefined.100}"
+            }
+          },
+          "none": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.severity.none.100}"
+            }
+          },
+          "minor": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.severity.minor.100}"
+            }
+          },
+          "moderate": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.severity.moderate.100}"
+            }
+          },
+          "important": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.severity.important.100}"
+            }
+          },
+          "critical": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.severity.critical.100}"
+            }
+          }
+        },
         "nonstatus": {
           "on-red": {
             "default": {
@@ -845,7 +883,7 @@
         },
         "disabled": {
           "type": "color",
-          "value": "{global.background.color.disabled.default}"
+          "value": "{global.color.disabled.200}"
         },
         "alt": {
           "type": "color",
@@ -1056,6 +1094,10 @@
         "required": {
           "type": "color",
           "value": "{global.text.color.400}"
+        },
+        "on-highlight": {
+          "type": "color",
+          "value": "{global.text.color.100}"
         },
         "status": {
           "success": {
