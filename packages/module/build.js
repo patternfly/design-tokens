@@ -35,6 +35,15 @@ const build = (selector) => {
   });
 
   StyleDictionary.registerTransform({
+    name: 'patternfly/global/ms',
+    type: 'value',
+    matcher: (token) =>
+      token.attributes.type === 'duration' ||
+      token.attributes.type === 'delay',
+    transformer: (token) => `${token.value}ms`
+  });
+
+  StyleDictionary.registerTransform({
     name: 'patternfly/doublekebab',
     type: 'name',
     transformer: (token, options) => `${options.prefix}--${token.path.join('--')}`
@@ -53,6 +62,7 @@ const build = (selector) => {
       'color/css',
       // custom transforms
       'patternfly/global/px',
+      'patternfly/global/ms',
       'patternfly/doublekebab'
     ]
   });
