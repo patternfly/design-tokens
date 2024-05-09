@@ -226,20 +226,6 @@
           "value": "{global.icon.size.400}"
         },
         "font": {
-          "body": {
-            "sm": {
-              "type": "number",
-              "value": "{global.font.size.body.sm}"
-            },
-            "default": {
-              "type": "number",
-              "value": "{global.font.size.body.default}"
-            },
-            "lg": {
-              "type": "number",
-              "value": "{global.font.size.body.lg}"
-            }
-          },
           "heading": {
             "h1": {
               "type": "number",
@@ -264,6 +250,20 @@
             "h6": {
               "type": "number",
               "value": "{global.font.size.heading.h6}"
+            }
+          },
+          "body": {
+            "sm": {
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
             }
           },
           "xs": {
@@ -571,6 +571,32 @@
           "type": "number",
           "value": "{global.box-shadow.spread.100}"
         }
+      }
+    },
+    "breakpoint": {
+      "xs": {
+        "type": "number",
+        "value": "{global.breakpoint.100}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "{global.breakpoint.200}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{global.breakpoint.300}"
+      },
+      "lg": {
+        "type": "number",
+        "value": "{global.breakpoint.400}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "{global.breakpoint.500}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "{global.breakpoint.600}"
       }
     }
   }

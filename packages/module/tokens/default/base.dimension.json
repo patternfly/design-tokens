@@ -248,6 +248,32 @@
           "value": 0
         }
       }
+    },
+    "breakpoint": {
+      "100": {
+        "type": "number",
+        "value": 0
+      },
+      "200": {
+        "type": "number",
+        "value": 576
+      },
+      "300": {
+        "type": "number",
+        "value": 768
+      },
+      "400": {
+        "type": "number",
+        "value": 992
+      },
+      "500": {
+        "type": "number",
+        "value": 1200
+      },
+      "600": {
+        "type": "number",
+        "value": 1450
+      }
     }
   }
 }
