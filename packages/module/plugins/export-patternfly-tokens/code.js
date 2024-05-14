@@ -47,20 +47,28 @@ function processCollection({ name, modes, variableIds }) {
         figma.variables.getVariableById(variableId);
       const value = valuesByMode[mode.modeId];
 
-      if (value !== undefined && ["COLOR", "FLOAT"].includes(resolvedType)) {
+      if (value !== undefined && ["COLOR", "FLOAT", "STRING"].includes(resolvedType)) {
         let obj = file.body;
         name.split("/").forEach((groupName) => {
           obj[groupName] = obj[groupName] || {};
           obj = obj[groupName];
         });
-      
-        obj.$type = resolvedType === "COLOR" ? "color" : "number";
+    
+    
         if (value.type === "VARIABLE_ALIAS") {
+          obj.$type = resolvedType === "COLOR" ? "color" : "number";
           obj.$value = `{${figma.variables
             .getVariableById(value.id)
             .name.replace(/\//g, ".")}}`;
-        } else {
-          obj.$value = resolvedType === "COLOR" ? rgbToHex(value) : value;
+        } else if (resolvedType === "COLOR") {
+          obj.$type = "color"
+          obj.$value = rgbToHex(value);
+        } else if (resolvedType === "FLOAT") {
+          obj.$type = "number";
+          obj.$value = value
+        } else if (resolvedType === "STRING") {
+          obj.$type = "string";
+          obj.$value = value
         }
       }
     });
