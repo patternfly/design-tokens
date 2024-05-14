@@ -26,6 +26,7 @@ const build = (selector) => {
     name: 'patternfly/global/px',
     type: 'value',
     matcher: (token) =>
+      token.attributes.type === 'breakpoint' ||
       token.attributes.type === 'spacer' ||
       token.attributes.type === 'border' ||
       token.attributes.type === 'icon' ||
