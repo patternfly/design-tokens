@@ -288,14 +288,6 @@
           "value": 22
         }
       },
-      "letter-spacing": {
-        "type": "string",
-        "value": "\"normal\""
-      },
-      "stroke-line-cap": {
-        "type": "string",
-        "value": "\"round\""
-      },
       "label": {
         "padding": {
           "type": "number",
@@ -309,13 +301,7 @@
           "width": {
             "type": "number",
             "value": 0
-          },
-          "type": "string",
-          "value": "\"transparent\""
-        },
-        "text-anchor": {
-          "type": "string",
-          "value": "\"middle\""
+          }
         },
         "fill": {
           "type": "color",
@@ -335,10 +321,6 @@
           "type": "number",
           "value": 450
         }
-      },
-      "stroke-line-join": {
-        "type": "string",
-        "value": "\"round\""
       }
     },
     "theme": {
