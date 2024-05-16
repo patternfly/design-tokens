@@ -29,6 +29,10 @@
         }
       },
       "width": {
+        "regular": {
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
         "divider": {
           "default": {
             "type": "number",
@@ -42,10 +46,6 @@
             "type": "number",
             "value": "{global.border.width.100}"
           }
-        },
-        "regular": {
-          "type": "number",
-          "value": "{global.border.width.100}"
         },
         "strong": {
           "type": "number",
@@ -597,6 +597,28 @@
       "2xl": {
         "type": "number",
         "value": "{global.breakpoint.600}"
+      },
+      "height": {
+        "sm": {
+          "type": "number",
+          "value": "{global.breakpoint.100}"
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.breakpoint.250}"
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.breakpoint.300}"
+        },
+        "xl": {
+          "type": "number",
+          "value": "{global.breakpoint.350}"
+        },
+        "2xl": {
+          "type": "number",
+          "value": "{global.breakpoint.550}"
+        }
       }
     }
   }
