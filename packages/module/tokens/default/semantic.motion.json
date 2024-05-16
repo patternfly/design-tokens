@@ -1,0 +1,125 @@
+
+{
+  "global": {
+    "motion": {
+      "duration": {
+        "xs": {
+          "type": "number",
+          "value": "{global.duration.50}"
+        },
+        "sm": {
+          "type": "number",
+          "value": "{global.duration.100}"
+        },
+        "md": {
+          "type": "number",
+          "value": "{global.duration.200}"
+        },
+        "lg": {
+          "type": "number",
+          "value": "{global.duration.300}"
+        },
+        "xl": {
+          "type": "number",
+          "value": "{global.duration.400}"
+        },
+        "2xl": {
+          "type": "number",
+          "value": "{global.duration.500}"
+        },
+        "3xl": {
+          "type": "number",
+          "value": "{global.duration.600}"
+        },
+        "fade": {
+          "short": {
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "default": {
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          },
+          "long": {
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          }
+        },
+        "slide-out": {
+          "short": {
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "default": {
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "long": {
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          }
+        },
+        "slide-in": {
+          "short": {
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "default": {
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "long": {
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          }
+        },
+        "icon": {
+          "short": {
+            "type": "number",
+            "value": "{global.motion.duration.xs}"
+          },
+          "default": {
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "long": {
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          }
+        }
+      },
+      "delay": {
+        "none": {
+          "type": "number",
+          "value": "{global.delay.100}"
+        },
+        "short": {
+          "type": "number",
+          "value": "{global.delay.200}"
+        },
+        "default": {
+          "type": "number",
+          "value": "{global.delay.300}"
+        },
+        "long": {
+          "type": "number",
+          "value": "{global.delay.400}"
+        }
+      },
+      "timing-function": {
+        "accelerate": {
+          "type": "number",
+          "value": "{global.timing-function.100}"
+        },
+        "default": {
+          "type": "number",
+          "value": "{global.timing-function.200}"
+        },
+        "decelerate": {
+          "type": "number",
+          "value": "{global.timing-function.300}"
+        }
+      }
+    }
+  }
+}

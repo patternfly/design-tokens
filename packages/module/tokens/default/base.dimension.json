@@ -258,9 +258,17 @@
         "type": "number",
         "value": 576
       },
+      "250": {
+        "type": "number",
+        "value": 640
+      },
       "300": {
         "type": "number",
         "value": 768
+      },
+      "350": {
+        "type": "number",
+        "value": 960
       },
       "400": {
         "type": "number",
@@ -269,6 +277,10 @@
       "500": {
         "type": "number",
         "value": 1200
+      },
+      "550": {
+        "type": "number",
+        "value": 1280
       },
       "600": {
         "type": "number",
