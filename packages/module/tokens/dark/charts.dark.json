@@ -319,7 +319,7 @@
         },
         "fill": {
           "type": "color",
-          "value": "{color.gray.90}"
+          "value": "{color.white}"
         }
       },
       "layout": {
