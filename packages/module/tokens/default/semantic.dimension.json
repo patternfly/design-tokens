@@ -142,63 +142,105 @@
         "type": "number",
         "value": "{global.spacer.800}"
       },
+      "action": {
+        "vertical": {
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          }
+        },
+        "horizontal": {
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.lg}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          }
+        }
+      },
       "control": {
         "vertical": {
           "default": {
             "type": "number",
-            "value": "{global.spacer.200}"
-          },
-          "compact": {
-            "type": "number",
-            "value": "{global.spacer.100}"
+            "value": "{global.spacer.sm}"
           },
           "plain": {
             "type": "number",
-            "value": "{global.spacer.200}"
+            "value": "{global.spacer.sm}"
           }
         },
         "horizontal": {
           "default": {
             "type": "number",
-            "value": "{global.spacer.300}"
-          },
-          "compact": {
-            "type": "number",
-            "value": "{global.spacer.200}"
+            "value": "{global.spacer.md}"
           },
           "plain": {
             "type": "number",
-            "value": "{global.spacer.200}"
+            "value": "{global.spacer.sm}"
+          }
+        }
+      },
+      "gap": {
+        "text-to-element": {
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          }
+        },
+        "control-to-control": {
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          }
+        },
+        "group": {
+          "vertical": {
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "horizontal": {
+            "type": "number",
+            "value": "{global.spacer.md}"
+          }
+        },
+        "group-to-group": {
+          "horizontal": {
+            "type": "number",
+            "value": "{global.spacer.2xl}"
+          },
+          "vertical": {
+            "type": "number",
+            "value": "{global.spacer.lg}"
+          }
+        },
+        "action-to-action": {
+          "default": {
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "plain": {
+            "type": "number",
+            "value": "{global.spacer.xs}"
           }
         }
       },
       "button": {
-        "vertical": {
-          "default": {
-            "type": "number",
-            "value": "{global.spacer.200}"
-          },
-          "compact": {
-            "type": "number",
-            "value": "{global.spacer.100}"
-          },
-          "plain": {
-            "type": "number",
-            "value": "{global.spacer.200}"
-          }
-        },
         "horizontal": {
-          "default": {
-            "type": "number",
-            "value": "{global.spacer.400}"
-          },
           "compact": {
             "type": "number",
             "value": "{global.spacer.300}"
-          },
-          "plain": {
+          }
+        },
+        "vertical": {
+          "compact": {
             "type": "number",
-            "value": "{global.spacer.200}"
+            "value": "{global.spacer.100}"
           }
         }
       }
