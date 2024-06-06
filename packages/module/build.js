@@ -31,7 +31,7 @@ const build = (selector) => {
       token.attributes.type === 'icon' ||
       token.attributes.type === 'breakpoint' ||
       (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
-      token.attributes.type === 'font',
+      (token.attributes.type === 'font' && token.attributes.item === 'size'),
     transformer: (token) => `${token.value}px`
   });
 
