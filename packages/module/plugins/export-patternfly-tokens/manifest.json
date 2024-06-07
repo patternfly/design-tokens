@@ -4,9 +4,7 @@
   "api": "1.0.0",
   "editorType": ["figma"],
   "permissions": [],
-  "main": "code.js",
-  "menu": [
-    { "command": "export", "name": "Export Tokens" }
-  ],
-  "ui": { "export": "export.html" }
+  "main": "dist/code.js",
+  "menu": [{ "command": "export", "name": "Export Tokens" }],
+  "ui": "dist/ui.html"
 }

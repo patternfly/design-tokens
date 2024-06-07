@@ -9,6 +9,7 @@
     "build:fed:packages": "node generate-fed-package-json.js",
     "build:scss": "node ./cli.js",
     "build:js-from-scss": "node ./build-js-for-docs.js",
+    "build:plugin": "webpack",
     "clean": "rimraf dist",
     "docs:develop": "pf-docs-framework start",
     "docs:build": "yarn build:js-from-scss && pf-docs-framework build all --output public",
@@ -39,15 +40,22 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@figma/plugin-typings": "^1.95.0",
     "@patternfly/documentation-framework": "6.0.0-alpha.12",
     "@patternfly/patternfly": "6.0.0-alpha.91",
+    "@patternfly/patternfly-a11y": "^4.3.1",
     "@patternfly/react-code-editor": "6.0.0-alpha.36",
     "@patternfly/react-table": "6.0.0-alpha.36",
-    "rimraf": "^2.6.2",
-    "@patternfly/patternfly-a11y": "^4.3.1",
+    "css-loader": "^7.1.2",
+    "html-inline-script-webpack-plugin": "^3.2.1",
+    "html-webpack-plugin": "^5.6.0",
+    "jszip": "^3.10.1",
     "react-monaco-editor": "^0.51.0",
+    "rimraf": "^2.6.2",
     "style-dictionary": "^3.8.0",
-    "glob": "^7.1.2",
-    "fs-extra": "^11.2.0"
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
 }
