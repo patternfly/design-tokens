@@ -41,7 +41,7 @@ function processCollection({ name, modes, variableIds }) {
     let file = { fileName: `${name}.${mode.name}.tokens.json`, body: {} };
 
     variableIds.forEach((variableId) => {
-      const { name, resolvedType, valuesByMode } = figma.variables.getVariableById(variableId);
+      const { name, resolvedType, valuesByMode, description } = figma.variables.getVariableById(variableId);
 
       if (name.includes('figma-only')) {
         return; // Skip this variable
@@ -55,6 +55,10 @@ function processCollection({ name, modes, variableIds }) {
           obj[groupName] = obj[groupName] || {};
           obj = obj[groupName];
         });
+
+        if (description) {
+          obj.description = description;
+        }
 
         if (value.type === 'VARIABLE_ALIAS') {
           obj.$type = resolvedType === 'COLOR' ? 'color' : 'number';

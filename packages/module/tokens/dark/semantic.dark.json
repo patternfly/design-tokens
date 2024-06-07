@@ -5,42 +5,51 @@
       "color": {
         "primary": {
           "default": {
+            "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
             "value": "{global.dark.background.color.200}"
           },
           "hover": {
+            "description": "Use as the hover state for primary backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.300}"
           },
           "clicked": {
+            "description": "Use as the selected state for primary backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.300}"
           }
         },
         "secondary": {
           "default": {
+            "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
             "type": "color",
             "value": "{global.dark.background.color.100}"
           },
           "hover": {
+            "description": "Use as the hover state for secondary backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.200}"
           },
           "clicked": {
+            "description": "Use as the selected state for secondary backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.200}"
           }
         },
         "floating": {
           "default": {
+            "description": "Use as background color for components that show over top of other content such as toast alerts, menus, modals, overlay drawers, etc.",
             "type": "color",
             "value": "{global.dark.background.color.300}"
           },
           "hover": {
+            "description": "Use as the hover state for floating backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.200}"
           },
           "clicked": {
+            "description": "Use as the selected state for floating backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.200}"
           }
@@ -48,23 +57,28 @@
         "action": {
           "plain": {
             "default": {
+              "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
               "type": "color",
               "value": "rgba(0, 0, 0, 0.0000)"
             },
             "hover": {
+              "description": "Use as the hover state for components that use the plain action default background.",
               "type": "color",
               "value": "{global.dark.background.color.600}"
             },
             "clicked": {
+              "description": "Use as the active/pressed state for components that use the plain action default background.",
               "type": "color",
               "value": "{global.dark.background.color.600}"
             },
             "alt": {
               "hover": {
+                "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
                 "value": "{global.dark.background.color.200}"
               },
               "clicked": {
+                "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
                 "value": "{global.dark.background.color.200}"
               }
@@ -73,34 +87,40 @@
         },
         "control": {
           "default": {
+            "description": "Use as the default background for control elements like form inputs and menu toggles.",
             "type": "color",
             "value": "{global.dark.background.color.300}"
           }
         },
         "highlight": {
           "default": {
+            "description": "Use as the background color for highlighted elements",
             "type": "color",
             "value": "{global.dark.background.color.highlight.100}"
           },
           "clicked": {
+            "description": "Use as the active state for for highlighted elements",
             "type": "color",
             "value": "{global.dark.background.color.highlight.200}"
           }
         },
         "inverse": {
           "default": {
+            "description": "Use as the background color components with inversed backgrounds like tooltips.",
             "type": "color",
             "value": "{global.dark.background.color.400}"
           }
         },
         "disabled": {
           "default": {
+            "description": "Use as the background color for disabled components.",
             "type": "color",
             "value": "{global.dark.color.disabled.100}"
           }
         },
         "backdrop": {
           "default": {
+            "description": "Use as the background color for the backdrop component that shows beneath a modal/about modal/floating wizard etc.",
             "type": "color",
             "value": "{global.dark.background.color.500}"
           }
@@ -291,7 +311,7 @@
             "value": "{global.dark.color.nonstatus.orangered.200}"
           }
         },
-        "gold": {
+        "yellow": {
           "default": {
             "type": "color",
             "value": "{global.dark.color.nonstatus.gold.100}"
@@ -319,7 +339,7 @@
             "value": "{global.dark.color.nonstatus.green.200}"
           }
         },
-        "cyan": {
+        "teal": {
           "default": {
             "type": "color",
             "value": "{global.dark.color.nonstatus.cyan.100}"
@@ -606,10 +626,12 @@
           "value": "{global.dark.icon.color.300}"
         },
         "disabled": {
+          "description": "for use without disabled background color",
           "type": "color",
           "value": "{global.dark.color.disabled.200}"
         },
         "on-disabled": {
+          "description": "pair with disabled background color",
           "type": "color",
           "value": "{global.dark.color.disabled.300}"
         },
@@ -694,7 +716,7 @@
               "value": "{global.icon.color.inverse}"
             }
           },
-          "on-gold": {
+          "on-yellow": {
             "default": {
               "type": "color",
               "value": "{global.icon.color.inverse}"
@@ -722,7 +744,7 @@
               "value": "{global.icon.color.inverse}"
             }
           },
-          "on-cyan": {
+          "on-teal": {
             "default": {
               "type": "color",
               "value": "{global.icon.color.inverse}"
@@ -936,7 +958,7 @@
               "value": "{global.dark.color.nonstatus.orange.200}"
             }
           },
-          "gold": {
+          "yellow": {
             "default": {
               "type": "color",
               "value": "{global.dark.color.nonstatus.gold.100}"
@@ -964,7 +986,7 @@
               "value": "{global.dark.color.nonstatus.green.200}"
             }
           },
-          "cyan": {
+          "teal": {
             "default": {
               "type": "color",
               "value": "{global.dark.color.nonstatus.cyan.100}"
@@ -1070,10 +1092,12 @@
           "value": "{global.text.color.subtle}"
         },
         "disabled": {
+          "description": "for use without disabled background color",
           "type": "color",
           "value": "{global.dark.color.disabled.200}"
         },
         "on-disabled": {
+          "description": "pair with disabled background color",
           "type": "color",
           "value": "{global.dark.color.disabled.300}"
         },
@@ -1314,7 +1338,7 @@
               "value": "{global.text.color.inverse}"
             }
           },
-          "on-gold": {
+          "on-yellow": {
             "default": {
               "type": "color",
               "value": "{global.text.color.inverse}"
@@ -1342,7 +1366,7 @@
               "value": "{global.text.color.inverse}"
             }
           },
-          "on-cyan": {
+          "on-teal": {
             "default": {
               "type": "color",
               "value": "{global.text.color.inverse}"
