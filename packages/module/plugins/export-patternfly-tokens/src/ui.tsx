@@ -111,7 +111,7 @@ const App = () => {
     exportTokens();
     // Listen for messages sent from the plugin code.ts file
     window.onmessage = ({ data: { pluginMessage } }) => {
-      if (pluginMessage.type === 'EXPORT_RESULT') {
+      if (pluginMessage?.type === 'EXPORT_RESULT') {
         // Reset download files
         resetDownloads();
         // Display all tokens in textarea

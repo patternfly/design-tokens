@@ -1,14 +1,24 @@
 console.clear();
 
+interface FileData {
+  fileName: string;
+  body: {
+    description?: string;
+    $type?: string;
+    $value?: any;
+  };
+}
+
+type VariableValueExtended = VariableValue & {
+  type?: string;
+  id?: string;
+};
+
 /* MAIN function */
 
 figma.ui.onmessage = (e) => {
   console.log('code received message', e);
-  if (e.type === 'IMPORT') {
-    const { selectedCollection, selectedMode, body } = e;
-    importJSONFile({ selectedCollection, selectedMode, body });
-    getExistingCollectionsAndModes();
-  } else if (e.type === 'EXPORT') {
+  if (e.type === 'EXPORT') {
     exportToJSON();
   }
 };
@@ -38,7 +48,7 @@ function exportToJSON() {
 function processCollection({ name, modes, variableIds }) {
   const files = [];
   modes.forEach((mode) => {
-    let file = { fileName: `${name}.${mode.name}.tokens.json`, body: {} };
+    let file: FileData = { fileName: `${name}.${mode.name}.tokens.json`, body: {} };
 
     variableIds.forEach((variableId) => {
       const { name, resolvedType, valuesByMode, description } = figma.variables.getVariableById(variableId);
@@ -47,7 +57,7 @@ function processCollection({ name, modes, variableIds }) {
         return; // Skip this variable
       }
 
-      const value = valuesByMode[mode.modeId];
+      const value: VariableValueExtended = valuesByMode[mode.modeId];
 
       if (value !== undefined && ['COLOR', 'FLOAT', 'STRING'].includes(resolvedType)) {
         let obj = file.body;
@@ -63,6 +73,7 @@ function processCollection({ name, modes, variableIds }) {
         if (value.type === 'VARIABLE_ALIAS') {
           obj.$type = resolvedType === 'COLOR' ? 'color' : 'number';
           obj.$value = `{${figma.variables.getVariableById(value.id).name.replace(/\//g, '.')}}`;
+          console.log(value);
         } else if (resolvedType === 'COLOR') {
           obj.$type = 'color';
           obj.$value = rgbToHex(value);
@@ -80,7 +91,8 @@ function processCollection({ name, modes, variableIds }) {
   return files;
 }
 
-function rgbToHex({ r, g, b, a }) {
+function rgbToHex(value) {
+  const { r, g, b, a } = value;
   if (a !== 1) {
     return `rgba(${[r, g, b].map((n) => Math.round(n * 255)).join(', ')}, ${a.toFixed(4)})`;
   }
