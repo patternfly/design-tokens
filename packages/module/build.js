@@ -2,7 +2,7 @@
 const StyleDictionary = require('style-dictionary');
 
 const build = (selector) => {
-  const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
+  const { fileHeader, formattedVariables, sortByName, sortByReference } = StyleDictionary.formatHelpers;
 
   console.log('Build started...');
   console.log('\n============================');
@@ -12,6 +12,8 @@ const build = (selector) => {
     name: 'customFormat',
     formatter: function ({ dictionary, file, options }) {
       const { outputReferences } = options;
+      const alphaSort = (a, b) => sortByName(a, b) * -1;
+      dictionary.allTokens = dictionary.allTokens.sort(alphaSort).sort((tokens) => sortByReference(tokens));
       return (
         fileHeader({ file, commentStyle: 'short' }) +
         `${selector} {\n` +
@@ -38,9 +40,7 @@ const build = (selector) => {
   StyleDictionary.registerTransform({
     name: 'patternfly/global/ms',
     type: 'value',
-    matcher: (token) =>
-      token.attributes.type === 'duration' ||
-      token.attributes.type === 'delay',
+    matcher: (token) => token.attributes.type === 'duration' || token.attributes.type === 'delay',
     transformer: (token) => `${token.value}ms`
   });
 
