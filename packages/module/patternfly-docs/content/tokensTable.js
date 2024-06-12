@@ -1,10 +1,5 @@
-import React from "react";
-import {
-  SearchInput,
-  Toolbar,
-  ToolbarItem,
-  ToolbarContent,
-} from "@patternfly/react-core";
+import React from 'react';
+import { SearchInput, Toolbar, ToolbarItem, ToolbarContent } from '@patternfly/react-core';
 import {
   Table,
   Thead,
@@ -14,17 +9,59 @@ import {
   Td,
   ExpandableRowContent,
   OuterScrollContainer,
-  InnerScrollContainer,
-} from "@patternfly/react-table";
+  InnerScrollContainer
+} from '@patternfly/react-table';
 
 // eslint-disable-next-line camelcase
-import global_spacer_md from "@patternfly/react-tokens/dist/esm/global_spacer_md";
-import LevelUpAltIcon from "@patternfly/react-icons/dist/esm/icons/level-up-alt-icon";
+import global_spacer_md from '@patternfly/react-tokens/dist/esm/global_spacer_md';
+import LevelUpAltIcon from '@patternfly/react-icons/dist/esm/icons/level-up-alt-icon';
 
-import * as scssAsJson from "../scssAsJson";
+import * as scssAsJson from '../scssAsJson';
+
+const getTokenChain = (tokenName) => {
+  let tokenChain = [];
+  let tokenValue = scssAsJson[tokenName];
+
+  while (tokenValue !== undefined) {
+    tokenChain = [...tokenChain, tokenValue];
+    tokenValue = scssAsJson[tokenValue];
+  }
+
+  return tokenChain;
+};
+
+const showTokenChain = (tokenName) => {
+  const tokenChain = getTokenChain(tokenName);
+
+  return (
+    <div>
+      <div
+        className="ws-css-property"
+        style={{
+          padding: `4px 0 4px calc(${global_spacer_md.value} * ${3})`
+        }}
+      >
+        <LevelUpAltIcon style={{ transform: 'rotate(90deg)' }} />
+        <span style={{ paddingLeft: '16px' }}>{tokenName}</span>
+      </div>
+      {tokenChain.map((nextValue, index) => (
+        <div
+          key={index}
+          style={{
+            padding: `4px 0 4px calc(${global_spacer_md.value} * ${index + 4})`
+          }}
+        >
+          <LevelUpAltIcon style={{ transform: 'rotate(90deg)' }} />
+          <span style={{ paddingLeft: '16px' }}>{nextValue}</span>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export const TokensTable = () => {
-  const scssVariables = Object.keys(scssAsJson);
+  // const scssVariables = Object.keys(scssAsJson);
+  const scssVariables = Object.entries(scssAsJson);
   const [searchValue, setSearchValue] = React.useState('');
   const [expandedTokens, setExpandedTokens] = React.useState([]);
   const setExpanded = (tokenName, isExpanding = true) =>
@@ -32,45 +69,8 @@ export const TokensTable = () => {
       const otherExpandedTokens = prevExpanded.filter((n) => n !== tokenName);
       return isExpanding ? [...otherExpandedTokens, tokenName] : otherExpandedTokens;
     });
+
   const isTokenExpanded = (tokenName) => expandedTokens.includes(tokenName);
-
-  const showTokenChain = (tokenName) => {
-    let tokenChain = [];
-    let tokenValue = scssAsJson[tokenName];
-
-    while (tokenValue !== undefined) {
-      tokenChain = [...tokenChain, tokenValue]
-      tokenValue = scssAsJson[tokenValue];
-    }
-
-    return (
-      <div>
-        <div
-          className="ws-css-property"
-          style={{
-            padding: `4px 0 4px calc(${global_spacer_md.value} * ${3})`
-          }}>
-          <LevelUpAltIcon style={{ transform: 'rotate(90deg)' }} />
-          <span style={{ paddingLeft: '16px' }}>
-            {tokenName}
-          </span>
-        </div>
-        {tokenChain.map((nextValue, index) => (
-          <div
-            key={index}
-            style={{
-              padding: `4px 0 4px calc(${global_spacer_md.value} * ${index + 4})`
-            }}
-          >
-            <LevelUpAltIcon style={{ transform: 'rotate(90deg)' }} />
-            <span style={{ paddingLeft: '16px' }}>
-              {nextValue}
-            </span>
-          </div>
-        ))}
-      </div>
-    )
-  };
 
   return (
     <React.Fragment>
@@ -82,7 +82,7 @@ export const TokensTable = () => {
               placeholder="Search all tokens"
               value={searchValue}
               onChange={(_event, value) => setSearchValue(value)}
-              onClear={() => setSearchValue("")}
+              onClear={() => setSearchValue('')}
             />
           </ToolbarItem>
         </ToolbarContent>
@@ -95,11 +95,11 @@ export const TokensTable = () => {
               <Th>Name</Th>
               <Th>Value</Th>
             </Thead>
-            {scssVariables.map((tokenName, rowIndex) => {
+            {scssVariables.map(([tokenName, tokenVal], rowIndex) => {
               if (tokenName === 'default') {
-                return undefined
-              } else if (searchValue !== '' && !tokenName.includes(searchValue)) {
-                return undefined
+                return undefined;
+              } else if (searchValue !== '' && !(tokenName.includes(searchValue) || tokenVal.includes(searchValue))) {
+                return undefined;
               } else {
                 const isResolved = scssAsJson[scssAsJson[tokenName]] === undefined;
                 return (
@@ -109,12 +109,11 @@ export const TokensTable = () => {
                         expand={
                           !isResolved
                             ? {
-                              rowIndex,
-                              isExpanded: isTokenExpanded(tokenName),
-                              onToggle: () =>
-                                setExpanded(tokenName, !isTokenExpanded(tokenName)),
-                              expandId: `${tokenName}-expandable-toggle`,
-                            }
+                                rowIndex,
+                                isExpanded: isTokenExpanded(tokenName),
+                                onToggle: () => setExpanded(tokenName, !isTokenExpanded(tokenName)),
+                                expandId: `${tokenName}-expandable-toggle`
+                              }
                             : undefined
                         }
                       />
@@ -125,19 +124,17 @@ export const TokensTable = () => {
                       <Tr isExpanded={isTokenExpanded(tokenName)}>
                         <Td />
                         <Td noPadding dataLabel="Details" colSpan={2}>
-                          <ExpandableRowContent>
-                            {showTokenChain(scssAsJson[tokenName])}
-                          </ExpandableRowContent>
+                          <ExpandableRowContent>{showTokenChain(scssAsJson[tokenName])}</ExpandableRowContent>
                         </Td>
                       </Tr>
                     )}
                   </Tbody>
-                )
+                );
               }
             })}
           </Table>
         </InnerScrollContainer>
       </OuterScrollContainer>
     </React.Fragment>
-  )
+  );
 };
