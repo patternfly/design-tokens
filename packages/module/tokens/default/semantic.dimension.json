@@ -359,18 +359,18 @@
       "weight": {
         "body": {
           "type": "number",
-          "value": "{global.font.weight.body.100}",
+          "value": "{global.font.weight.100}",
           "bold": {
             "type": "number",
-            "value": "{global.font.weight.body.200}"
+            "value": "{global.font.weight.200}"
           }
         },
         "heading": {
           "type": "number",
-          "value": "{global.font.weight.heading.100}",
+          "value": "{global.font.weight.300}",
           "bold": {
             "type": "number",
-            "value": "{global.font.weight.heading.200}"
+            "value": "{global.font.weight.400}"
           }
         }
       },
@@ -382,48 +382,6 @@
         "heading": {
           "type": "number",
           "value": "{global.font.line-height.200}"
-        },
-        "figma-only": {
-          "body": {
-            "small": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.100}"
-            },
-            "default": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.200}"
-            },
-            "large": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.300}"
-            }
-          },
-          "heading": {
-            "xs": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.300}"
-            },
-            "sm": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.400}"
-            },
-            "md": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.500}"
-            },
-            "lg": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.600}"
-            },
-            "xl": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.700}"
-            },
-            "2xl": {
-              "type": "number",
-              "value": "{global.font.line-height.figma-only.800}"
-            }
-          }
         }
       },
       "family": {

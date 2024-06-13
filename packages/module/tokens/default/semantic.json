@@ -15,7 +15,7 @@
             "value": "{global.background.color.200}"
           },
           "clicked": {
-            "description": "Use as the selected state for primary backgrounds",
+            "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
             "value": "{global.background.color.200}"
           }
@@ -32,14 +32,14 @@
             "value": "{global.background.color.300}"
           },
           "clicked": {
-            "description": "Use as the selected state for secondary backgrounds",
+            "description": "Use as the clicked state for secondary backgrounds",
             "type": "color",
             "value": "{global.background.color.300}"
           }
         },
         "floating": {
           "default": {
-            "description": "Use as background color for components that show over top of other content such as toast alerts, menus, modals, overlay drawers, etc.",
+            "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
             "type": "color",
             "value": "{global.background.color.100}"
           },
@@ -49,7 +49,7 @@
             "value": "{global.background.color.200}"
           },
           "clicked": {
-            "description": "Use as the selected state for floating backgrounds",
+            "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
             "value": "{global.background.color.200}"
           }
@@ -157,36 +157,6 @@
         }
       },
       "status": {
-        "unread": {
-          "default": {
-            "default": {
-              "type": "color",
-              "value": "{global.color.brand.default}"
-            },
-            "hover": {
-              "type": "color",
-              "value": "{global.color.brand.hover}"
-            },
-            "clicked": {
-              "type": "color",
-              "value": "{global.color.brand.clicked}"
-            }
-          },
-          "attention": {
-            "default": {
-              "type": "color",
-              "value": "{global.color.status.danger.default}"
-            },
-            "clicked": {
-              "type": "color",
-              "value": "{global.color.status.danger.clicked}"
-            },
-            "hover": {
-              "type": "color",
-              "value": "{global.color.status.danger.hover}"
-            }
-          }
-        },
         "success": {
           "default": {
             "type": "color",
@@ -257,6 +227,36 @@
             "value": "{global.color.status.custom.200}"
           }
         },
+        "unread": {
+          "default": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.brand.default}"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{global.color.brand.hover}"
+            },
+            "clicked": {
+              "type": "color",
+              "value": "{global.color.brand.clicked}"
+            }
+          },
+          "attention": {
+            "default": {
+              "type": "color",
+              "value": "{global.color.status.danger.default}"
+            },
+            "clicked": {
+              "type": "color",
+              "value": "{global.color.status.danger.clicked}"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{global.color.status.danger.hover}"
+            }
+          }
+        },
         "read": {
           "on-secondary": {
             "type": "color",
@@ -314,15 +314,15 @@
         "yellow": {
           "default": {
             "type": "color",
-            "value": "{global.color.nonstatus.gold.100}"
+            "value": "{global.color.nonstatus.yellow.100}"
           },
           "hover": {
             "type": "color",
-            "value": "{global.color.nonstatus.gold.200}"
+            "value": "{global.color.nonstatus.yellow.200}"
           },
           "clicked": {
             "type": "color",
-            "value": "{global.color.nonstatus.gold.200}"
+            "value": "{global.color.nonstatus.yellow.200}"
           }
         },
         "green": {
@@ -342,15 +342,15 @@
         "teal": {
           "default": {
             "type": "color",
-            "value": "{global.color.nonstatus.cyan.100}"
+            "value": "{global.color.nonstatus.teal.100}"
           },
           "hover": {
             "type": "color",
-            "value": "{global.color.nonstatus.cyan.200}"
+            "value": "{global.color.nonstatus.teal.200}"
           },
           "clicked": {
             "type": "color",
-            "value": "{global.color.nonstatus.cyan.200}"
+            "value": "{global.color.nonstatus.teal.200}"
           }
         },
         "blue": {
@@ -961,15 +961,15 @@
           "yellow": {
             "default": {
               "type": "color",
-              "value": "{global.color.nonstatus.gold.200}"
+              "value": "{global.color.nonstatus.yellow.200}"
             },
             "hover": {
               "type": "color",
-              "value": "{global.color.nonstatus.gold.300}"
+              "value": "{global.color.nonstatus.yellow.300}"
             },
             "clicked": {
               "type": "color",
-              "value": "{global.color.nonstatus.gold.300}"
+              "value": "{global.color.nonstatus.yellow.300}"
             }
           },
           "green": {
@@ -989,15 +989,15 @@
           "teal": {
             "default": {
               "type": "color",
-              "value": "{global.color.nonstatus.cyan.200}"
+              "value": "{global.color.nonstatus.teal.200}"
             },
             "hover": {
               "type": "color",
-              "value": "{global.color.nonstatus.cyan.300}"
+              "value": "{global.color.nonstatus.teal.300}"
             },
             "clicked": {
               "type": "color",
-              "value": "{global.color.nonstatus.cyan.300}"
+              "value": "{global.color.nonstatus.teal.300}"
             }
           },
           "blue": {
