@@ -120,6 +120,11 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                   <Th key={theme}>{`${formatThemeText(theme)} Theme`}</Th>
                 ))}
                 <Th>Description</Th>
+                <Th>Category</Th>
+                <Th>Type</Th>
+                <Th>Item</Th>
+                <Th>Subitem</Th>
+                <Th>State</Th>
               </Tr>
             </Thead>
             {Object.entries(combinedTokens).map(([tokenName, themesDataObj], rowIndex) => {
@@ -162,11 +167,16 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                       />
                       <Td>
                         <code>{tokenName}</code>
-                        {description && <div>{description[1].description}</div>}
                       </Td>
                       {themeKeys.map((theme) => (
                         <Td key={`${theme}_${tokenName}`}>{tokensByTheme[theme][tokenName]?.value ?? '-'}</Td>
                       ))}
+                      <Td>{description && description[1].description}</Td>
+                      <Td>{console.log(themesDataArr[0])}</Td>
+                      <Td></Td>
+                      <Td></Td>
+                      <Td></Td>
+                      <Td></Td>
                     </Tr>
                     {!isResolved && (
                       <Tr isExpanded={isTokenExpanded(tokenName)}>
