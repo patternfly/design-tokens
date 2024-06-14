@@ -29,8 +29,7 @@ pageData.examples = {
 
 const Component = () => (
   <React.Fragment>
-    <TokensTable tokenJson={defaultTokens}/>
-    <TokensTable tokenJson={darkTokens}/>
+    <TokensTable tokenJson={{default: defaultTokens, dark: darkTokens}}/>
   </React.Fragment>
 );
 Component.displayName = 'TokensAllPatternflyTokensTokensDocs';
