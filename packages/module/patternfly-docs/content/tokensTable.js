@@ -54,9 +54,8 @@ const showTokenChain = (tokenData) => {
   );
 };
 
-export const TokensTable = () => {
-  // const scssVariables = Object.keys(scssAsJson);
-  const tokens = Object.entries(defaultTokens);
+export const TokensTable = ({ tokenJson }) => {
+  const tokens = Object.entries(tokenJson);
   const [searchValue, setSearchValue] = React.useState('');
   const [expandedTokens, setExpandedTokens] = React.useState([]);
   const setExpanded = (tokenName, isExpanding = true) =>
