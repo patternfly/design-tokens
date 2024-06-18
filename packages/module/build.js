@@ -3,6 +3,18 @@ const StyleDictionary = require('style-dictionary');
 
 const build = (selector) => {
   const { fileHeader, formattedVariables, sortByName, sortByReference } = StyleDictionary.formatHelpers;
+  const getTokenLayer = ({ filePath }) => {
+    if (filePath.includes('semantic.json')) return ['semantic', 'colors'];
+    if (filePath.includes('semantic.dark.json')) return ['semantic', 'colors'];
+    if (filePath.includes('semantic.dimension.json')) return ['semantic', 'dimension'];
+    if (filePath.includes('semantic.motion.json')) return ['semantic', 'motion'];
+    if (filePath.includes('base.json')) return ['base', 'colors'];
+    if (filePath.includes('base.dark.json')) return ['base', 'colors'];
+    if (filePath.includes('base.dimension.json')) return ['base', 'dimension'];
+    if (filePath.includes('base.motion.json')) return ['base', 'motion'];
+    if (filePath.includes('palette.color.json')) return ['palette'];
+    return ['palette'];
+  };
 
   console.log('Build started...');
   console.log('\n============================');
@@ -28,6 +40,40 @@ const build = (selector) => {
       dictionary.allTokens.map((token) => {
         // assign each token object to token.name
         tokens[token.name] = token;
+        // attach references to build token chain
+        if (dictionary.usesReference(token.original.value)) {
+          token.references = dictionary.getReferences(token.original.value);
+        }
+      });
+      return JSON.stringify(tokens, null, 2);
+    }
+  });
+
+  StyleDictionary.registerFormat({
+    name: 'json/flat-categories',
+    formatter: function (dictionary) {
+      let tokens = {
+        semantic: {
+          colors: {},
+          dimension: {},
+          motion: {}
+        },
+        base: {
+          colors: {},
+          dimension: {},
+          motion: {}
+        },
+        palette: {}
+      };
+      dictionary.allTokens.map((token) => {
+        // determine token type based on tokens filepath
+        const layer = getTokenLayer(token);
+        let insertLayer = tokens;
+        while (layer.length) {
+          insertLayer = insertLayer[layer.shift()];
+        }
+        // assign each token object to token.name
+        insertLayer[token.name] = token;
         // attach references to build token chain
         if (dictionary.usesReference(token.original.value)) {
           token.references = dictionary.getReferences(token.original.value);
@@ -90,6 +136,8 @@ const build = (selector) => {
   const chartsDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.dark.json');
   const allDefaultSD = StyleDictionary.extend(__dirname + '/config.all.default.json');
   const allDarkSD = StyleDictionary.extend(__dirname + '/config.all.dark.json');
+  const semanticSD = StyleDictionary.extend(__dirname + '/config.semantic.json');
+  const semanticDarkSD = StyleDictionary.extend(__dirname + '/config.semantic.dark.json');
 
   // Build all
   defaultExtendedSD.buildAllPlatforms();
@@ -99,6 +147,8 @@ const build = (selector) => {
   chartsDarkExtendedSD.buildAllPlatforms();
   allDefaultSD.buildAllPlatforms();
   allDarkSD.buildAllPlatforms();
+  semanticSD.buildAllPlatforms();
+  semanticDarkSD.buildAllPlatforms();
 
   console.log('\n============================');
   console.log('\nBuild completed.');

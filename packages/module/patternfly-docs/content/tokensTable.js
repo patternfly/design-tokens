@@ -120,42 +120,61 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                   <Th key={theme}>{`${formatThemeText(theme)} Theme`}</Th>
                 ))}
                 <Th>Description</Th>
-                <Th>Category</Th>
+                {/* <Th>Category</Th>
                 <Th>Type</Th>
                 <Th>Item</Th>
                 <Th>Subitem</Th>
-                <Th>State</Th>
+                <Th>State</Th> */}
               </Tr>
             </Thead>
             {Object.entries(combinedTokens).map(([tokenName, themesDataObj], rowIndex) => {
               const searchTerm = searchValue.toLowerCase();
+              console.log({ themesDataObj });
               if (tokenName === 'default') {
                 return undefined;
               } else if (
                 searchValue !== '' &&
                 !(
                   tokenName.toLowerCase().includes(searchTerm) ||
-                  themesDataObj.some(
-                    (theme) =>
-                      theme?.value?.toString().toLowerCase().includes(searchTerm) ||
-                      theme?.description?.toLowerCase().includes(searchTerm)
+                  Object.entries(themesDataObj).some(
+                    ([themeName, themeData]) =>
+                      themeData?.value?.toString().toLowerCase().includes(searchTerm) ||
+                      themeData?.description?.toLowerCase().includes(searchTerm)
                   )
                 )
               ) {
                 return undefined;
               } else {
                 const themesDataArr = Object.entries(themesDataObj);
-                const isResolved = themesDataArr.every(
-                  ([_themeName, themeTokenData]) => themeTokenData.references == undefined
-                );
-                // Tokens share a description across themes
-                const description = themesDataArr.find(([_themeName, themeTokenData]) => themeTokenData.description);
+
+                let hasReferences = false;
+                let description = null;
+                // let attributes = [];
+                themesDataArr.map(([_themeName, themeTokenData]) => {
+                  // if references values exists anywhere, set isNotResolved to true
+                  if (!hasReferences && themeTokenData.references !== undefined) {
+                    hasReferences = true;
+                  }
+                  // Save description first time found - shared across themes
+                  if (!description && themeTokenData.description) {
+                    description = themeTokenData.description;
+                  }
+
+                  /*
+                  // Track all attributes for dynamically creating table columns
+                  const attributeEntries = Object.entries(themeTokenData.attributes);
+                  attributes = new Set([...attributes, ...attributeEntries]);
+                  attributes = Array.from(attributes).map((value) => [value, value]);
+                  // console.log({ attributes });
+                  */
+                });
+
                 return (
                   <Tbody key={`row-${tokenName}`} isExpanded={isTokenExpanded(tokenName)}>
                     <Tr>
                       <Td
                         expand={
-                          !isResolved
+                          hasReferences
                             ? {
                                 rowIndex,
                                 isExpanded: isTokenExpanded(tokenName),
@@ -171,14 +190,13 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                       {themeKeys.map((theme) => (
                         <Td key={`${theme}_${tokenName}`}>{tokensByTheme[theme][tokenName]?.value ?? '-'}</Td>
                       ))}
-                      <Td>{description && description[1].description}</Td>
-                      <Td>{console.log(themesDataArr[0])}</Td>
-                      <Td></Td>
-                      <Td></Td>
-                      <Td></Td>
-                      <Td></Td>
+                      <Td>{description}</Td>
+                      {/* {attributes.map(([key, val]) => {
+                        console.log({ key, val });
+                        return <Td>{val}</Td>;
+                      })} */}
                     </Tr>
-                    {!isResolved && (
+                    {hasReferences && (
                       <Tr isExpanded={isTokenExpanded(tokenName)}>
                         <Td />
                         <Td />

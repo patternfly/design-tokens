@@ -1,8 +1,9 @@
 import React from 'react';
 import { AutoLinkHeader, Example, Link as PatternflyThemeLink } from '@patternfly/documentation-framework/components';
-import * as defaultTokens from '../../../content/./all-tokens-default.json';
-import * as darkTokens from '../../../content/./all-tokens-dark.json';
+import * as defaultTokens from '../../../content/./semantic-tokens-default.json';
+import * as darkTokens from '../../../content/./semantic-tokens-dark.json';
 import { TokensTable } from '../../../content/./tokensTable.js';
+import { TokensTableCategories } from '../../../content/./tokensTableCategories.js';
 const pageData = {
   "id": "All PatternFly tokens",
   "section": "tokens",
@@ -20,16 +21,17 @@ const pageData = {
 pageData.liveContext = {
   defaultTokens,
   darkTokens,
-  TokensTable
+  TokensTable,
+  TokensTableCategories
 };
-pageData.relativeImports = "import * as defaultTokens from 'content/./all-tokens-default.json';,import * as darkTokens from 'content/./all-tokens-dark.json';,import { TokensTable } from 'content/./tokensTable.js';"
+pageData.relativeImports = "import * as defaultTokens from 'content/./semantic-tokens-default.json';,import * as darkTokens from 'content/./semantic-tokens-dark.json';,import { TokensTable } from 'content/./tokensTable.js';,import { TokensTableCategories } from 'content/./tokensTableCategories.js';"
 pageData.examples = {
   
 };
 
 const Component = () => (
   <React.Fragment>
-    <TokensTable tokenJson={{default: defaultTokens, dark: darkTokens}}/>
+    <TokensTableCategories tokenJson={{default: defaultTokens, dark: darkTokens}}/>
   </React.Fragment>
 );
 Component.displayName = 'TokensAllPatternflyTokensTokensDocs';
