@@ -1,0 +1,19 @@
+{
+  "source": ["tokens/default/*.json"],
+  "platforms": {
+    "json/default": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "patternfly-docs/content/",
+      "prefix": "pf-t",
+      "files": [
+        {
+          "destination": "all-tokens-default.json",
+          "format": "json/flat",
+          "options": {
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}

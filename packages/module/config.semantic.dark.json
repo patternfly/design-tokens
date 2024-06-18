@@ -1,0 +1,20 @@
+{
+  "include": ["tokens/default/*.json"],
+  "source": ["tokens/dark/*.json"],
+  "platforms": {
+    "json/default": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "patternfly-docs/content/",
+      "prefix": "pf-t",
+      "files": [
+        {
+          "destination": "semantic-tokens-dark.json",
+          "format": "json/flat-categories",
+          "options": {
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}
