@@ -13,7 +13,7 @@ const build = (selector) => {
     formatter: function ({ dictionary, file, options }) {
       const { outputReferences } = options;
       const alphaSort = (a, b) => sortByName(a, b) * -1;
-      dictionary.allTokens = dictionary.allTokens.sort(alphaSort).sort((tokens) => sortByReference(tokens));
+      dictionary.allTokens = dictionary.allTokens.sort(alphaSort);
       return (
         fileHeader({ file, commentStyle: 'short' }) +
         `${selector} {\n` +
