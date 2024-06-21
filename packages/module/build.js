@@ -2,7 +2,7 @@
 const StyleDictionary = require('style-dictionary');
 
 const build = (selector) => {
-  const { fileHeader, formattedVariables, sortByName, sortByReference } = StyleDictionary.formatHelpers;
+  const { fileHeader, formattedVariables, sortByName } = StyleDictionary.formatHelpers;
 
   console.log('Build started...');
   console.log('\n============================');
