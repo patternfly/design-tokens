@@ -12,6 +12,7 @@
     "build:docs": "yarn workspace @patternfly/design-tokens docs:build",
     "build:fed:packages": "yarn workspace @patternfly/design-tokens build:fed:packages",
     "build:scss": "yarn workspace @patternfly/design-tokens build:scss",
+    "build:plugin": "yarn workspace @patternfly/design-tokens build:plugin",
     "start": "yarn build && concurrently --kill-others \"yarn workspace @patternfly/design-tokens docs:develop\"",
     "serve:docs": "yarn workspace @patternfly/design-tokens docs:serve",
     "clean": "yarn workspace @patternfly/design-tokens clean",

@@ -1,8 +1,10 @@
 /* eslint-disable no-console */
 const StyleDictionary = require('style-dictionary');
+const config = require('./config.default.json'); // Adjust the path if necessary
+const basePxFontSize = config.basePxFontSize || 16;
 
 const build = (selector) => {
-  const { fileHeader, formattedVariables, sortByName, sortByReference } = StyleDictionary.formatHelpers;
+  const { fileHeader, formattedVariables, sortByName } = StyleDictionary.formatHelpers;
 
   console.log('Build started...');
   console.log('\n============================');
@@ -12,6 +14,8 @@ const build = (selector) => {
     name: 'customFormat',
     formatter: function ({ dictionary, file, options }) {
       const { outputReferences } = options;
+      const alphaSort = (a, b) => sortByName(a, b) * -1;
+      dictionary.allTokens = dictionary.allTokens.sort(alphaSort);
       return (
         fileHeader({ file, commentStyle: 'short' }) +
         `${selector} {\n` +
@@ -42,13 +46,17 @@ const build = (selector) => {
     name: 'patternfly/global/px',
     type: 'value',
     matcher: (token) =>
-      token.attributes.type === 'spacer' ||
       token.attributes.type === 'border' ||
-      token.attributes.type === 'icon' ||
-      token.attributes.type === 'breakpoint' ||
-      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
-      (token.attributes.type === 'font' && token.attributes.item === 'size'),
+      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color'),
     transformer: (token) => `${token.value}px`
+  });
+
+  StyleDictionary.registerTransform({
+    name: 'patternfly/global/pxToRem',
+    type: 'value',
+    matcher: (token) =>
+      token.attributes.type === 'spacer' || token.attributes.item === 'size' || token.attributes.type === 'breakpoint',
+    transformer: (token) => `${token.value / basePxFontSize}rem`
   });
 
   StyleDictionary.registerTransform({
@@ -77,6 +85,7 @@ const build = (selector) => {
       'color/css',
       // custom transforms
       'patternfly/global/px',
+      'patternfly/global/pxToRem',
       'patternfly/global/ms',
       'patternfly/doublekebab'
     ]

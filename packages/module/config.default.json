@@ -1,5 +1,6 @@
 {
   "source": ["tokens/default/*.json"],
+  "basePxFontSize": 16,
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",

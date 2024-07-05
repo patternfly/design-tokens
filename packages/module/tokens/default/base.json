@@ -219,7 +219,7 @@
             "value": "{color.orange.40}"
           }
         },
-        "gold": {
+        "yellow": {
           "100": {
             "type": "color",
             "value": "{color.yellow.20}"
@@ -247,7 +247,7 @@
             "value": "{color.green.40}"
           }
         },
-        "cyan": {
+        "teal": {
           "100": {
             "type": "color",
             "value": "{color.teal.20}"
@@ -325,7 +325,7 @@
       "color": {
         "100": {
           "type": "color",
-          "value": "{color.gray.90}"
+          "value": "{color.gray.95}"
         },
         "200": {
           "type": "color",
