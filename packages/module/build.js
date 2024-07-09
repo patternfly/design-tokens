@@ -14,6 +14,7 @@ const build = (selector) => {
     if (filePath.includes('base.dark.json')) return ['base', 'colors'];
     if (filePath.includes('base.dimension.json')) return ['base', 'dimension'];
     if (filePath.includes('base.motion.json')) return ['base', 'motion'];
+    if (filePath.includes('chart')) return ['chart'];
     if (filePath.includes('palette.color.json')) return ['palette'];
     return ['palette'];
   };
@@ -67,7 +68,8 @@ const build = (selector) => {
           dimension: {},
           motion: {}
         },
-        palette: {}
+        palette: {},
+        chart: {}
       };
       dictionary.allTokens.map((token) => {
         // determine token type based on tokens filepath

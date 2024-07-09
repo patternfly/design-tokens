@@ -26539,7 +26539,7 @@
       "pf-t--global--spacer--xs": {
         "description": "Use for extra small spaces between elements.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26561,7 +26561,7 @@
         "references": [
           {
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26585,7 +26585,7 @@
       "pf-t--global--spacer--sm": {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26607,7 +26607,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26631,7 +26631,7 @@
       "pf-t--global--spacer--md": {
         "description": "Use for medium-sized spaces between elements.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26653,7 +26653,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26677,7 +26677,7 @@
       "pf-t--global--spacer--lg": {
         "description": "Use for large spaces between elements.",
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26699,7 +26699,7 @@
         "references": [
           {
             "type": "number",
-            "value": "24px",
+            "value": "1.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26723,7 +26723,7 @@
       "pf-t--global--spacer--xl": {
         "description": "Use for extra large spaces between elements.",
         "type": "number",
-        "value": "32px",
+        "value": "2rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26745,7 +26745,7 @@
         "references": [
           {
             "type": "number",
-            "value": "32px",
+            "value": "2rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26769,7 +26769,7 @@
       "pf-t--global--spacer--2xl": {
         "description": "Use for double extra large spaces spacing between elements.",
         "type": "number",
-        "value": "48px",
+        "value": "3rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26791,7 +26791,7 @@
         "references": [
           {
             "type": "number",
-            "value": "48px",
+            "value": "3rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26815,7 +26815,7 @@
       "pf-t--global--spacer--3xl": {
         "description": "Use for triple extra large spaces between elements.",
         "type": "number",
-        "value": "64px",
+        "value": "4rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26837,7 +26837,7 @@
         "references": [
           {
             "type": "number",
-            "value": "64px",
+            "value": "4rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26861,7 +26861,7 @@
       "pf-t--global--spacer--4xl": {
         "description": "Use for quadruple extra large spaces between elements.",
         "type": "number",
-        "value": "80px",
+        "value": "5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26883,7 +26883,7 @@
         "references": [
           {
             "type": "number",
-            "value": "80px",
+            "value": "5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -26907,7 +26907,7 @@
       "pf-t--global--spacer--control--vertical--default": {
         "description": "Use to set the vertical padding inside of controls. This is used across buttons, text inputs, menu toggles, etc.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -26934,7 +26934,7 @@
           {
             "description": "Use for small spaces between elements.",
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -26956,7 +26956,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "8px",
+                "value": "0.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -26982,7 +26982,7 @@
       "pf-t--global--spacer--control--vertical--compact": {
         "description": "Use to set the vertical padding inside of  compact controls. This is used across text inputs, menu toggles, control buttons etc.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27009,7 +27009,7 @@
           {
             "description": "Use for extra small spaces between elements.",
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27031,7 +27031,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "4px",
+                "value": "0.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27057,7 +27057,7 @@
       "pf-t--global--spacer--control--vertical--plain": {
         "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27084,7 +27084,7 @@
           {
             "description": "Use for small spaces between elements.",
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27106,7 +27106,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "8px",
+                "value": "0.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27132,7 +27132,7 @@
       "pf-t--global--spacer--control--horizontal--default": {
         "description": "Use to set the horizontal padding inside of controls, like text inputs and menu toggles.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27159,7 +27159,7 @@
           {
             "description": "Use for medium-sized spaces between elements.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27181,7 +27181,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27207,7 +27207,7 @@
       "pf-t--global--spacer--control--horizontal--plain": {
         "description": "Use to set the horizontal padding inside of plain controls, like in plain menu toggles.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27234,7 +27234,7 @@
           {
             "description": "Use for small spaces between elements.",
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27256,7 +27256,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "8px",
+                "value": "0.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27282,7 +27282,7 @@
       "pf-t--global--spacer--control--horizontal--compact": {
         "description": "Use to set the horizontal padding inside of  compact controls. This is used across text inputs, menu toggles, control buttons etc.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27309,7 +27309,7 @@
           {
             "description": "Use for small spaces between elements.",
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27331,7 +27331,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "8px",
+                "value": "0.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27357,7 +27357,7 @@
       "pf-t--global--spacer--control--horizontal--spacious": {
         "description": "Use to set the horizontal padding in large/display controls.",
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27384,7 +27384,7 @@
           {
             "description": "Use for large spaces between elements.",
             "type": "number",
-            "value": "24px",
+            "value": "1.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27406,7 +27406,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "24px",
+                "value": "1.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27432,7 +27432,7 @@
       "pf-t--global--spacer--gap--text-to-element--default": {
         "description": "Use to space an element, like an icon or badge, inline with text",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27459,7 +27459,7 @@
           {
             "description": "Use for small spaces between elements.",
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27481,7 +27481,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "8px",
+                "value": "0.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27507,7 +27507,7 @@
       "pf-t--global--spacer--gap--control-to-control--default": {
         "description": "Use to set the space between controls, like in input groups or filter groups",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27534,7 +27534,7 @@
           {
             "description": "Use for extra small spaces between elements.",
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27556,7 +27556,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "4px",
+                "value": "0.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27582,7 +27582,7 @@
       "pf-t--global--spacer--gap--group--vertical": {
         "description": "Use to set the vertical space between items in a group, like a field label, form input, and helper text placed in a vertical/stacked layout",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27609,7 +27609,7 @@
           {
             "description": "Use for small spaces between elements.",
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27631,7 +27631,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "8px",
+                "value": "0.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27657,7 +27657,7 @@
       "pf-t--global--spacer--gap--group--horizontal": {
         "description": "Use to set the horizontal space between items in a group, like a field label and form input placed in a horizontal layout.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27684,7 +27684,7 @@
           {
             "description": "Use for medium-sized spaces between elements.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27706,7 +27706,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27732,7 +27732,7 @@
       "pf-t--global--spacer--gap--group-to-group--horizontal": {
         "description": "Use to set the horizontal space between groups of elements, like between multiple action groups or forms groups placed in a horizontal layout.",
         "type": "number",
-        "value": "48px",
+        "value": "3rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27759,7 +27759,7 @@
           {
             "description": "Use for double extra large spaces spacing between elements.",
             "type": "number",
-            "value": "48px",
+            "value": "3rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27781,7 +27781,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "48px",
+                "value": "3rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27807,7 +27807,7 @@
       "pf-t--global--spacer--gap--group-to-group--vertical": {
         "description": "Use to set the vertical space between groups of elements, like between stacked form groups.",
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27834,7 +27834,7 @@
           {
             "description": "Use for large spaces between elements.",
             "type": "number",
-            "value": "24px",
+            "value": "1.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27856,7 +27856,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "24px",
+                "value": "1.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27882,7 +27882,7 @@
       "pf-t--global--spacer--gap--action-to-action--default": {
         "description": "Use to set the space between actions, like in an action list group.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27909,7 +27909,7 @@
           {
             "description": "Use for medium-sized spaces between elements.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -27931,7 +27931,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -27957,7 +27957,7 @@
       "pf-t--global--spacer--gap--action-to-action--plain": {
         "description": "Use to set the space between plain actions, like in an action list group.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -27984,7 +27984,7 @@
           {
             "description": "Use for extra small spaces between elements.",
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28006,7 +28006,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "4px",
+                "value": "0.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28032,7 +28032,7 @@
       "pf-t--global--spacer--action--horizontal--default": {
         "description": "Use to set the horizontal padding inside a default action, like buttons.",
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28059,7 +28059,7 @@
           {
             "description": "Use for large spaces between elements.",
             "type": "number",
-            "value": "24px",
+            "value": "1.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28081,7 +28081,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "24px",
+                "value": "1.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28107,11 +28107,11 @@
       "pf-t--global--spacer--action--horizontal--plain": {
         "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "compact": {
           "description": "Use to set the horizontal padding inside a compact, plain action/button.",
           "type": "number",
-          "value": "4px",
+          "value": "0.25rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true
         },
@@ -28148,7 +28148,7 @@
           {
             "description": "Use for small spaces between elements.",
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28170,7 +28170,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "8px",
+                "value": "0.5rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28196,7 +28196,7 @@
       "pf-t--global--spacer--action--horizontal--compact": {
         "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28223,7 +28223,7 @@
           {
             "description": "Use for medium-sized spaces between elements.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28245,7 +28245,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28271,7 +28271,7 @@
       "pf-t--global--spacer--action--horizontal--spacious": {
         "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
         "type": "number",
-        "value": "32px",
+        "value": "2rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28298,7 +28298,7 @@
           {
             "description": "Use for extra large spaces between elements.",
             "type": "number",
-            "value": "32px",
+            "value": "2rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28320,7 +28320,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "32px",
+                "value": "2rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28346,7 +28346,7 @@
       "pf-t--global--spacer--action--vertical--compact": {
         "description": "Use to set the vertical padding inside a compact action, like compact buttons.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28373,7 +28373,7 @@
           {
             "description": "Use for extra small spaces between elements.",
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28395,7 +28395,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "4px",
+                "value": "0.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28421,7 +28421,7 @@
       "pf-t--global--spacer--action--vertical--spacious": {
         "description": "Use to set the vertical padding inside a large/display action, like CTAs.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28448,7 +28448,7 @@
           {
             "description": "Use for medium-sized spaces between elements.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28470,7 +28470,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28496,7 +28496,7 @@
       "pf-t--global--icon--size--sm": {
         "description": "Use for small icons.",
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28520,7 +28520,7 @@
         "references": [
           {
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -28546,7 +28546,7 @@
       "pf-t--global--icon--size--md": {
         "description": "Use for medium icons.",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28570,7 +28570,7 @@
         "references": [
           {
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -28596,7 +28596,7 @@
       "pf-t--global--icon--size--lg": {
         "description": "Use for large icons.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28620,7 +28620,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -28646,7 +28646,7 @@
       "pf-t--global--icon--size--xl": {
         "description": "Use for extra large icons.",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28670,7 +28670,7 @@
         "references": [
           {
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -28696,7 +28696,7 @@
       "pf-t--global--icon--size--2xl": {
         "description": "Use for double extra large icons.",
         "type": "number",
-        "value": "56px",
+        "value": "3.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28720,7 +28720,7 @@
         "references": [
           {
             "type": "number",
-            "value": "56px",
+            "value": "3.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -28746,7 +28746,7 @@
       "pf-t--global--icon--size--3xl": {
         "description": "Use for triple extra large icons.",
         "type": "number",
-        "value": "96px",
+        "value": "6rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28770,7 +28770,7 @@
         "references": [
           {
             "type": "number",
-            "value": "96px",
+            "value": "6rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -28796,7 +28796,7 @@
       "pf-t--global--icon--size--font--heading--h1": {
         "description": "Use for icons that are placed inline with first level headings",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28824,7 +28824,7 @@
           {
             "description": "Use as the font size for first level headings.",
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28851,7 +28851,7 @@
               {
                 "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "22px",
+                "value": "1.375rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28875,7 +28875,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "22px",
+                    "value": "1.375rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -28905,7 +28905,7 @@
       "pf-t--global--icon--size--font--heading--h2": {
         "description": "Use for icons that are placed inline with second level headings",
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -28933,7 +28933,7 @@
           {
             "description": "Use as the font size for second level headings.",
             "type": "number",
-            "value": "20px",
+            "value": "1.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -28960,7 +28960,7 @@
               {
                 "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "20px",
+                "value": "1.25rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -28984,7 +28984,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "20px",
+                    "value": "1.25rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29014,7 +29014,7 @@
       "pf-t--global--icon--size--font--heading--h3": {
         "description": "Use for icons that are placed inline with third level headings",
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29042,7 +29042,7 @@
           {
             "description": "Use as the font size for third level headings.",
             "type": "number",
-            "value": "18px",
+            "value": "1.125rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29069,7 +29069,7 @@
               {
                 "description": "Use as the font size for large text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "18px",
+                "value": "1.125rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29093,7 +29093,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "18px",
+                    "value": "1.125rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29123,7 +29123,7 @@
       "pf-t--global--icon--size--font--heading--h4": {
         "description": "Use for icons that are placed inline with fourth level headings",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29151,7 +29151,7 @@
           {
             "description": "Use as the font size for fourth-level headings.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29178,7 +29178,7 @@
               {
                 "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29202,7 +29202,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "16px",
+                    "value": "1rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29232,7 +29232,7 @@
       "pf-t--global--icon--size--font--heading--h5": {
         "description": "Use for icons that are placed inline with fifth level headings",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29260,7 +29260,7 @@
           {
             "description": "Use as the font size for fifth level headings.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29287,7 +29287,7 @@
               {
                 "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29311,7 +29311,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "16px",
+                    "value": "1rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29341,7 +29341,7 @@
       "pf-t--global--icon--size--font--heading--h6": {
         "description": "Use for icons that are placed inline with sixth level headings",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29369,7 +29369,7 @@
           {
             "description": "Use as the font size for sixth level headings.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29396,7 +29396,7 @@
               {
                 "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29420,7 +29420,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "16px",
+                    "value": "1rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29450,7 +29450,7 @@
       "pf-t--global--icon--size--font--body--sm": {
         "description": "Use for icons that are placed inline with small body text",
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29478,7 +29478,7 @@
           {
             "description": "Use for a smaller font size in body sections.",
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29504,7 +29504,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "12px",
+                "value": "0.75rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29527,7 +29527,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "12px",
+                    "value": "0.75rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29557,7 +29557,7 @@
       "pf-t--global--icon--size--font--body--default": {
         "description": "Use for icons that are placed inline with default body text",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29585,7 +29585,7 @@
           {
             "description": "Use as the default font size in body sections.",
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29612,7 +29612,7 @@
               {
                 "description": "Use as the font size for small text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "14px",
+                "value": "0.875rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29636,7 +29636,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "14px",
+                    "value": "0.875rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29666,7 +29666,7 @@
       "pf-t--global--icon--size--font--body--lg": {
         "description": "Use for icons that are placed inline with large body text",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29694,7 +29694,7 @@
           {
             "description": "Use for a larger font size in body sections.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29721,7 +29721,7 @@
               {
                 "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/semantic.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29745,7 +29745,7 @@
                 "references": [
                   {
                     "type": "number",
-                    "value": "16px",
+                    "value": "1rem",
                     "filePath": "tokens/default/base.dimension.json",
                     "isSource": true,
                     "original": {
@@ -29775,7 +29775,7 @@
       "pf-t--global--icon--size--font--xs": {
         "description": "Use for icons that are placed inline with font–size–xs text",
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29801,7 +29801,7 @@
         "references": [
           {
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29824,7 +29824,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "12px",
+                "value": "0.75rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29852,7 +29852,7 @@
       "pf-t--global--icon--size--font--sm": {
         "description": "Use for icons that are placed inline with font–size–sm text",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29879,7 +29879,7 @@
           {
             "description": "Use as the font size for small text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29903,7 +29903,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "14px",
+                "value": "0.875rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -29931,7 +29931,7 @@
       "pf-t--global--icon--size--font--md": {
         "description": "Use for icons that are placed inline with font–size–md text",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -29958,7 +29958,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -29982,7 +29982,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -30010,7 +30010,7 @@
       "pf-t--global--icon--size--font--lg": {
         "description": "Use for icons that are placed inline with font–size–lg text",
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -30037,7 +30037,7 @@
           {
             "description": "Use as the font size for large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "18px",
+            "value": "1.125rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -30061,7 +30061,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "18px",
+                "value": "1.125rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -30089,7 +30089,7 @@
       "pf-t--global--icon--size--font--xl": {
         "description": "Use for icons that are placed inline with font–size–xl text",
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -30116,7 +30116,7 @@
           {
             "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "20px",
+            "value": "1.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -30140,7 +30140,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "20px",
+                "value": "1.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -30168,7 +30168,7 @@
       "pf-t--global--icon--size--font--2xl": {
         "description": "Use for icons that are placed inline with font–size–2xl text",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -30195,7 +30195,7 @@
           {
             "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -30219,7 +30219,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "22px",
+                "value": "1.375rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -30247,7 +30247,7 @@
       "pf-t--global--icon--size--font--3xl": {
         "description": "Use for icons that are placed inline with font–size–3xl text",
         "type": "number",
-        "value": "28px",
+        "value": "1.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -30274,7 +30274,7 @@
           {
             "description": "Use as the font size for triple extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "28px",
+            "value": "1.75rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -30298,7 +30298,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "28px",
+                "value": "1.75rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -30326,7 +30326,7 @@
       "pf-t--global--icon--size--font--4xl": {
         "description": "Use for icons that are placed inline with font–size–3xl text",
         "type": "number",
-        "value": "36px",
+        "value": "2.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -30353,7 +30353,7 @@
           {
             "description": "Use as the font size for quadruple extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "36px",
+            "value": "2.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -30377,7 +30377,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "36px",
+                "value": "2.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -31963,7 +31963,7 @@
       "pf-t--global--font--size--body--sm": {
         "description": "Use for a smaller font size in body sections.",
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -31989,7 +31989,7 @@
         "references": [
           {
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32012,7 +32012,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "12px",
+                "value": "0.75rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32040,7 +32040,7 @@
       "pf-t--global--font--size--body--default": {
         "description": "Use as the default font size in body sections.",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32067,7 +32067,7 @@
           {
             "description": "Use as the font size for small text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32091,7 +32091,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "14px",
+                "value": "0.875rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32119,7 +32119,7 @@
       "pf-t--global--font--size--body--lg": {
         "description": "Use for a larger font size in body sections.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32146,7 +32146,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32170,7 +32170,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32198,7 +32198,7 @@
       "pf-t--global--font--size--heading--h1": {
         "description": "Use as the font size for first level headings.",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32225,7 +32225,7 @@
           {
             "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32249,7 +32249,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "22px",
+                "value": "1.375rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32277,7 +32277,7 @@
       "pf-t--global--font--size--heading--h2": {
         "description": "Use as the font size for second level headings.",
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32304,7 +32304,7 @@
           {
             "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "20px",
+            "value": "1.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32328,7 +32328,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "20px",
+                "value": "1.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32356,7 +32356,7 @@
       "pf-t--global--font--size--heading--h3": {
         "description": "Use as the font size for third level headings.",
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32383,7 +32383,7 @@
           {
             "description": "Use as the font size for large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "18px",
+            "value": "1.125rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32407,7 +32407,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "18px",
+                "value": "1.125rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32435,7 +32435,7 @@
       "pf-t--global--font--size--heading--h4": {
         "description": "Use as the font size for fourth-level headings.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32462,7 +32462,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32486,7 +32486,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32514,7 +32514,7 @@
       "pf-t--global--font--size--heading--h5": {
         "description": "Use as the font size for fifth level headings.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32541,7 +32541,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32565,7 +32565,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32593,7 +32593,7 @@
       "pf-t--global--font--size--heading--h6": {
         "description": "Use as the font size for sixth level headings.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32620,7 +32620,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": true,
             "original": {
@@ -32644,7 +32644,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": true,
                 "original": {
@@ -32671,7 +32671,7 @@
       },
       "pf-t--global--font--size--xs": {
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32694,7 +32694,7 @@
         "references": [
           {
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -32720,7 +32720,7 @@
       "pf-t--global--font--size--sm": {
         "description": "Use as the font size for small text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32744,7 +32744,7 @@
         "references": [
           {
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -32770,7 +32770,7 @@
       "pf-t--global--font--size--md": {
         "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32794,7 +32794,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -32820,7 +32820,7 @@
       "pf-t--global--font--size--lg": {
         "description": "Use as the font size for large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32844,7 +32844,7 @@
         "references": [
           {
             "type": "number",
-            "value": "18px",
+            "value": "1.125rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -32870,7 +32870,7 @@
       "pf-t--global--font--size--xl": {
         "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32894,7 +32894,7 @@
         "references": [
           {
             "type": "number",
-            "value": "20px",
+            "value": "1.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -32920,7 +32920,7 @@
       "pf-t--global--font--size--2xl": {
         "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32944,7 +32944,7 @@
         "references": [
           {
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -32970,7 +32970,7 @@
       "pf-t--global--font--size--3xl": {
         "description": "Use as the font size for triple extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "28px",
+        "value": "1.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -32994,7 +32994,7 @@
         "references": [
           {
             "type": "number",
-            "value": "28px",
+            "value": "1.75rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -33020,7 +33020,7 @@
       "pf-t--global--font--size--4xl": {
         "description": "Use as the font size for quadruple extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "36px",
+        "value": "2.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -33044,7 +33044,7 @@
         "references": [
           {
             "type": "number",
-            "value": "36px",
+            "value": "2.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35194,7 +35194,7 @@
       "pf-t--global--breakpoint--xs": {
         "description": "Use to define an extra small breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "0px",
+        "value": "0rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35216,7 +35216,7 @@
         "references": [
           {
             "type": "number",
-            "value": "0px",
+            "value": "0rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35240,7 +35240,7 @@
       "pf-t--global--breakpoint--sm": {
         "description": "Use to define a small breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "576px",
+        "value": "36rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35262,7 +35262,7 @@
         "references": [
           {
             "type": "number",
-            "value": "576px",
+            "value": "36rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35286,7 +35286,7 @@
       "pf-t--global--breakpoint--md": {
         "description": "Use to define a medium breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "768px",
+        "value": "48rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35308,7 +35308,7 @@
         "references": [
           {
             "type": "number",
-            "value": "768px",
+            "value": "48rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35332,7 +35332,7 @@
       "pf-t--global--breakpoint--lg": {
         "description": "Use to define a large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "992px",
+        "value": "62rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35354,7 +35354,7 @@
         "references": [
           {
             "type": "number",
-            "value": "992px",
+            "value": "62rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35378,7 +35378,7 @@
       "pf-t--global--breakpoint--xl": {
         "description": "Use to define an extra large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "1200px",
+        "value": "75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35400,7 +35400,7 @@
         "references": [
           {
             "type": "number",
-            "value": "1200px",
+            "value": "75rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35424,7 +35424,7 @@
       "pf-t--global--breakpoint--2xl": {
         "description": "Use to define a double extra large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "1450px",
+        "value": "90.625rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35446,7 +35446,7 @@
         "references": [
           {
             "type": "number",
-            "value": "1450px",
+            "value": "90.625rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35470,7 +35470,7 @@
       "pf-t--global--breakpoint--height--sm": {
         "description": "Use to define a small height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "0px",
+        "value": "0rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35494,7 +35494,7 @@
         "references": [
           {
             "type": "number",
-            "value": "0px",
+            "value": "0rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35518,7 +35518,7 @@
       "pf-t--global--breakpoint--height--md": {
         "description": "Use to define a medium height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "640px",
+        "value": "40rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35542,7 +35542,7 @@
         "references": [
           {
             "type": "number",
-            "value": "640px",
+            "value": "40rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35566,7 +35566,7 @@
       "pf-t--global--breakpoint--height--lg": {
         "description": "Use to define a large height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "768px",
+        "value": "48rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35590,7 +35590,7 @@
         "references": [
           {
             "type": "number",
-            "value": "768px",
+            "value": "48rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35614,7 +35614,7 @@
       "pf-t--global--breakpoint--height--xl": {
         "description": "Use to define an extra large height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "960px",
+        "value": "60rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35638,7 +35638,7 @@
         "references": [
           {
             "type": "number",
-            "value": "960px",
+            "value": "60rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -35662,7 +35662,7 @@
       "pf-t--global--breakpoint--height--2xl": {
         "description": "Use to define an extra small height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
         "type": "number",
-        "value": "1280px",
+        "value": "80rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": true,
         "original": {
@@ -35686,7 +35686,7 @@
         "references": [
           {
             "type": "number",
-            "value": "1280px",
+            "value": "80rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": true,
             "original": {
@@ -40811,7 +40811,7 @@
     "dimension": {
       "pf-t--global--spacer--100": {
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40832,7 +40832,7 @@
       },
       "pf-t--global--spacer--200": {
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40853,7 +40853,7 @@
       },
       "pf-t--global--spacer--300": {
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40874,7 +40874,7 @@
       },
       "pf-t--global--spacer--400": {
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40895,7 +40895,7 @@
       },
       "pf-t--global--spacer--500": {
         "type": "number",
-        "value": "32px",
+        "value": "2rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40916,7 +40916,7 @@
       },
       "pf-t--global--spacer--600": {
         "type": "number",
-        "value": "48px",
+        "value": "3rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40937,7 +40937,7 @@
       },
       "pf-t--global--spacer--700": {
         "type": "number",
-        "value": "64px",
+        "value": "4rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40958,7 +40958,7 @@
       },
       "pf-t--global--spacer--800": {
         "type": "number",
-        "value": "80px",
+        "value": "5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -40979,7 +40979,7 @@
       },
       "pf-t--global--icon--size--100": {
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41002,7 +41002,7 @@
       },
       "pf-t--global--icon--size--200": {
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41025,7 +41025,7 @@
       },
       "pf-t--global--icon--size--250": {
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41048,7 +41048,7 @@
       },
       "pf-t--global--icon--size--300": {
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41071,7 +41071,7 @@
       },
       "pf-t--global--icon--size--400": {
         "type": "number",
-        "value": "56px",
+        "value": "3.5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41094,7 +41094,7 @@
       },
       "pf-t--global--icon--size--500": {
         "type": "number",
-        "value": "96px",
+        "value": "6rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41531,7 +41531,7 @@
       },
       "pf-t--global--font--size--100": {
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41554,7 +41554,7 @@
       },
       "pf-t--global--font--size--200": {
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41577,7 +41577,7 @@
       },
       "pf-t--global--font--size--300": {
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41600,7 +41600,7 @@
       },
       "pf-t--global--font--size--400": {
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41623,7 +41623,7 @@
       },
       "pf-t--global--font--size--500": {
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41646,7 +41646,7 @@
       },
       "pf-t--global--font--size--600": {
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41669,7 +41669,7 @@
       },
       "pf-t--global--font--size--700": {
         "type": "number",
-        "value": "28px",
+        "value": "1.75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -41692,7 +41692,7 @@
       },
       "pf-t--global--font--size--800": {
         "type": "number",
-        "value": "36px",
+        "value": "2.25rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42255,7 +42255,7 @@
       },
       "pf-t--global--breakpoint--100": {
         "type": "number",
-        "value": "0px",
+        "value": "0rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42276,7 +42276,7 @@
       },
       "pf-t--global--breakpoint--200": {
         "type": "number",
-        "value": "576px",
+        "value": "36rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42297,7 +42297,7 @@
       },
       "pf-t--global--breakpoint--250": {
         "type": "number",
-        "value": "640px",
+        "value": "40rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42318,7 +42318,7 @@
       },
       "pf-t--global--breakpoint--300": {
         "type": "number",
-        "value": "768px",
+        "value": "48rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42339,7 +42339,7 @@
       },
       "pf-t--global--breakpoint--350": {
         "type": "number",
-        "value": "960px",
+        "value": "60rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42360,7 +42360,7 @@
       },
       "pf-t--global--breakpoint--400": {
         "type": "number",
-        "value": "992px",
+        "value": "62rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42381,7 +42381,7 @@
       },
       "pf-t--global--breakpoint--500": {
         "type": "number",
-        "value": "1200px",
+        "value": "75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42402,7 +42402,7 @@
       },
       "pf-t--global--breakpoint--550": {
         "type": "number",
-        "value": "1280px",
+        "value": "80rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42423,7 +42423,7 @@
       },
       "pf-t--global--breakpoint--600": {
         "type": "number",
-        "value": "1450px",
+        "value": "90.625rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": true,
         "original": {
@@ -42741,6 +42741,1432 @@
     }
   },
   "palette": {
+    "pf-t--color--white": {
+      "type": "color",
+      "value": "#ffffff",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "name": "pf-t--color--white",
+      "attributes": {
+        "category": "color",
+        "type": "white"
+      },
+      "path": [
+        "color",
+        "white"
+      ]
+    },
+    "pf-t--color--gray--10": {
+      "type": "color",
+      "value": "#f2f2f2",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f2f2f2"
+      },
+      "name": "pf-t--color--gray--10",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "gray",
+        "10"
+      ]
+    },
+    "pf-t--color--gray--20": {
+      "type": "color",
+      "value": "#e0e0e0",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#e0e0e0"
+      },
+      "name": "pf-t--color--gray--20",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "gray",
+        "20"
+      ]
+    },
+    "pf-t--color--gray--30": {
+      "type": "color",
+      "value": "#c7c7c7",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#c7c7c7"
+      },
+      "name": "pf-t--color--gray--30",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "gray",
+        "30"
+      ]
+    },
+    "pf-t--color--gray--40": {
+      "type": "color",
+      "value": "#a3a3a3",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#a3a3a3"
+      },
+      "name": "pf-t--color--gray--40",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "gray",
+        "40"
+      ]
+    },
+    "pf-t--color--gray--50": {
+      "type": "color",
+      "value": "#707070",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#707070"
+      },
+      "name": "pf-t--color--gray--50",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "gray",
+        "50"
+      ]
+    },
+    "pf-t--color--gray--60": {
+      "type": "color",
+      "value": "#4d4d4d",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#4d4d4d"
+      },
+      "name": "pf-t--color--gray--60",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "gray",
+        "60"
+      ]
+    },
+    "pf-t--color--gray--70": {
+      "type": "color",
+      "value": "#383838",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#383838"
+      },
+      "name": "pf-t--color--gray--70",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "gray",
+        "70"
+      ]
+    },
+    "pf-t--color--gray--80": {
+      "type": "color",
+      "value": "#292929",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#292929"
+      },
+      "name": "pf-t--color--gray--80",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "80"
+      },
+      "path": [
+        "color",
+        "gray",
+        "80"
+      ]
+    },
+    "pf-t--color--gray--90": {
+      "type": "color",
+      "value": "#1f1f1f",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#1f1f1f"
+      },
+      "name": "pf-t--color--gray--90",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "90"
+      },
+      "path": [
+        "color",
+        "gray",
+        "90"
+      ]
+    },
+    "pf-t--color--gray--95": {
+      "type": "color",
+      "value": "#151515",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#151515"
+      },
+      "name": "pf-t--color--gray--95",
+      "attributes": {
+        "category": "color",
+        "type": "gray",
+        "item": "95"
+      },
+      "path": [
+        "color",
+        "gray",
+        "95"
+      ]
+    },
+    "pf-t--color--black": {
+      "type": "color",
+      "value": "#000000",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "name": "pf-t--color--black",
+      "attributes": {
+        "category": "color",
+        "type": "black"
+      },
+      "path": [
+        "color",
+        "black"
+      ]
+    },
+    "pf-t--color--blue--10": {
+      "type": "color",
+      "value": "#e0f0ff",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#e0f0ff"
+      },
+      "name": "pf-t--color--blue--10",
+      "attributes": {
+        "category": "color",
+        "type": "blue",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "blue",
+        "10"
+      ]
+    },
+    "pf-t--color--blue--20": {
+      "type": "color",
+      "value": "#b9dafc",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#b9dafc"
+      },
+      "name": "pf-t--color--blue--20",
+      "attributes": {
+        "category": "color",
+        "type": "blue",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "blue",
+        "20"
+      ]
+    },
+    "pf-t--color--blue--30": {
+      "type": "color",
+      "value": "#92c5f9",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#92c5f9"
+      },
+      "name": "pf-t--color--blue--30",
+      "attributes": {
+        "category": "color",
+        "type": "blue",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "blue",
+        "30"
+      ]
+    },
+    "pf-t--color--blue--40": {
+      "type": "color",
+      "value": "#4394e5",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#4394e5"
+      },
+      "name": "pf-t--color--blue--40",
+      "attributes": {
+        "category": "color",
+        "type": "blue",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "blue",
+        "40"
+      ]
+    },
+    "pf-t--color--blue--50": {
+      "type": "color",
+      "value": "#0066cc",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#0066cc"
+      },
+      "name": "pf-t--color--blue--50",
+      "attributes": {
+        "category": "color",
+        "type": "blue",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "blue",
+        "50"
+      ]
+    },
+    "pf-t--color--blue--60": {
+      "type": "color",
+      "value": "#004d99",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#004d99"
+      },
+      "name": "pf-t--color--blue--60",
+      "attributes": {
+        "category": "color",
+        "type": "blue",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "blue",
+        "60"
+      ]
+    },
+    "pf-t--color--blue--70": {
+      "type": "color",
+      "value": "#003366",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#003366"
+      },
+      "name": "pf-t--color--blue--70",
+      "attributes": {
+        "category": "color",
+        "type": "blue",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "blue",
+        "70"
+      ]
+    },
+    "pf-t--color--teal--10": {
+      "type": "color",
+      "value": "#daf2f2",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#daf2f2"
+      },
+      "name": "pf-t--color--teal--10",
+      "attributes": {
+        "category": "color",
+        "type": "teal",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "teal",
+        "10"
+      ]
+    },
+    "pf-t--color--teal--20": {
+      "type": "color",
+      "value": "#b9e5e5",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#b9e5e5"
+      },
+      "name": "pf-t--color--teal--20",
+      "attributes": {
+        "category": "color",
+        "type": "teal",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "teal",
+        "20"
+      ]
+    },
+    "pf-t--color--teal--30": {
+      "type": "color",
+      "value": "#9ad8d8",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#9ad8d8"
+      },
+      "name": "pf-t--color--teal--30",
+      "attributes": {
+        "category": "color",
+        "type": "teal",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "teal",
+        "30"
+      ]
+    },
+    "pf-t--color--teal--40": {
+      "type": "color",
+      "value": "#63bdbd",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#63bdbd"
+      },
+      "name": "pf-t--color--teal--40",
+      "attributes": {
+        "category": "color",
+        "type": "teal",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "teal",
+        "40"
+      ]
+    },
+    "pf-t--color--teal--50": {
+      "type": "color",
+      "value": "#37a3a3",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#37a3a3"
+      },
+      "name": "pf-t--color--teal--50",
+      "attributes": {
+        "category": "color",
+        "type": "teal",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "teal",
+        "50"
+      ]
+    },
+    "pf-t--color--teal--60": {
+      "type": "color",
+      "value": "#147878",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#147878"
+      },
+      "name": "pf-t--color--teal--60",
+      "attributes": {
+        "category": "color",
+        "type": "teal",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "teal",
+        "60"
+      ]
+    },
+    "pf-t--color--teal--70": {
+      "type": "color",
+      "value": "#004d4d",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#004d4d"
+      },
+      "name": "pf-t--color--teal--70",
+      "attributes": {
+        "category": "color",
+        "type": "teal",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "teal",
+        "70"
+      ]
+    },
+    "pf-t--color--yellow--10": {
+      "type": "color",
+      "value": "#fff4cc",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#fff4cc"
+      },
+      "name": "pf-t--color--yellow--10",
+      "attributes": {
+        "category": "color",
+        "type": "yellow",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "yellow",
+        "10"
+      ]
+    },
+    "pf-t--color--yellow--20": {
+      "type": "color",
+      "value": "#ffe072",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ffe072"
+      },
+      "name": "pf-t--color--yellow--20",
+      "attributes": {
+        "category": "color",
+        "type": "yellow",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "yellow",
+        "20"
+      ]
+    },
+    "pf-t--color--yellow--30": {
+      "type": "color",
+      "value": "#ffcc17",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ffcc17"
+      },
+      "name": "pf-t--color--yellow--30",
+      "attributes": {
+        "category": "color",
+        "type": "yellow",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "yellow",
+        "30"
+      ]
+    },
+    "pf-t--color--yellow--40": {
+      "type": "color",
+      "value": "#dca614",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#dca614"
+      },
+      "name": "pf-t--color--yellow--40",
+      "attributes": {
+        "category": "color",
+        "type": "yellow",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "yellow",
+        "40"
+      ]
+    },
+    "pf-t--color--yellow--50": {
+      "type": "color",
+      "value": "#b98412",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#b98412"
+      },
+      "name": "pf-t--color--yellow--50",
+      "attributes": {
+        "category": "color",
+        "type": "yellow",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "yellow",
+        "50"
+      ]
+    },
+    "pf-t--color--yellow--60": {
+      "type": "color",
+      "value": "#96640f",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#96640f"
+      },
+      "name": "pf-t--color--yellow--60",
+      "attributes": {
+        "category": "color",
+        "type": "yellow",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "yellow",
+        "60"
+      ]
+    },
+    "pf-t--color--yellow--70": {
+      "type": "color",
+      "value": "#73480b",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#73480b"
+      },
+      "name": "pf-t--color--yellow--70",
+      "attributes": {
+        "category": "color",
+        "type": "yellow",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "yellow",
+        "70"
+      ]
+    },
+    "pf-t--color--green--10": {
+      "type": "color",
+      "value": "#e9f7df",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#e9f7df"
+      },
+      "name": "pf-t--color--green--10",
+      "attributes": {
+        "category": "color",
+        "type": "green",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "green",
+        "10"
+      ]
+    },
+    "pf-t--color--green--20": {
+      "type": "color",
+      "value": "#d1f1bb",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#d1f1bb"
+      },
+      "name": "pf-t--color--green--20",
+      "attributes": {
+        "category": "color",
+        "type": "green",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "green",
+        "20"
+      ]
+    },
+    "pf-t--color--green--30": {
+      "type": "color",
+      "value": "#afdc8f",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#afdc8f"
+      },
+      "name": "pf-t--color--green--30",
+      "attributes": {
+        "category": "color",
+        "type": "green",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "green",
+        "30"
+      ]
+    },
+    "pf-t--color--green--40": {
+      "type": "color",
+      "value": "#87bb62",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#87bb62"
+      },
+      "name": "pf-t--color--green--40",
+      "attributes": {
+        "category": "color",
+        "type": "green",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "green",
+        "40"
+      ]
+    },
+    "pf-t--color--green--50": {
+      "type": "color",
+      "value": "#63993d",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#63993d"
+      },
+      "name": "pf-t--color--green--50",
+      "attributes": {
+        "category": "color",
+        "type": "green",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "green",
+        "50"
+      ]
+    },
+    "pf-t--color--green--60": {
+      "type": "color",
+      "value": "#3d7317",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#3d7317"
+      },
+      "name": "pf-t--color--green--60",
+      "attributes": {
+        "category": "color",
+        "type": "green",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "green",
+        "60"
+      ]
+    },
+    "pf-t--color--green--70": {
+      "type": "color",
+      "value": "#204d00",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#204d00"
+      },
+      "name": "pf-t--color--green--70",
+      "attributes": {
+        "category": "color",
+        "type": "green",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "green",
+        "70"
+      ]
+    },
+    "pf-t--color--orange--10": {
+      "type": "color",
+      "value": "#ffe8cc",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ffe8cc"
+      },
+      "name": "pf-t--color--orange--10",
+      "attributes": {
+        "category": "color",
+        "type": "orange",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "orange",
+        "10"
+      ]
+    },
+    "pf-t--color--orange--20": {
+      "type": "color",
+      "value": "#fccb8f",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#fccb8f"
+      },
+      "name": "pf-t--color--orange--20",
+      "attributes": {
+        "category": "color",
+        "type": "orange",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "orange",
+        "20"
+      ]
+    },
+    "pf-t--color--orange--30": {
+      "type": "color",
+      "value": "#f8ae54",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f8ae54"
+      },
+      "name": "pf-t--color--orange--30",
+      "attributes": {
+        "category": "color",
+        "type": "orange",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "orange",
+        "30"
+      ]
+    },
+    "pf-t--color--orange--40": {
+      "type": "color",
+      "value": "#f5921b",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f5921b"
+      },
+      "name": "pf-t--color--orange--40",
+      "attributes": {
+        "category": "color",
+        "type": "orange",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "orange",
+        "40"
+      ]
+    },
+    "pf-t--color--orange--50": {
+      "type": "color",
+      "value": "#ca6c0f",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ca6c0f"
+      },
+      "name": "pf-t--color--orange--50",
+      "attributes": {
+        "category": "color",
+        "type": "orange",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "orange",
+        "50"
+      ]
+    },
+    "pf-t--color--orange--60": {
+      "type": "color",
+      "value": "#9e4a06",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#9e4a06"
+      },
+      "name": "pf-t--color--orange--60",
+      "attributes": {
+        "category": "color",
+        "type": "orange",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "orange",
+        "60"
+      ]
+    },
+    "pf-t--color--orange--70": {
+      "type": "color",
+      "value": "#732e00",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#732e00"
+      },
+      "name": "pf-t--color--orange--70",
+      "attributes": {
+        "category": "color",
+        "type": "orange",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "orange",
+        "70"
+      ]
+    },
+    "pf-t--color--red-orange--10": {
+      "type": "color",
+      "value": "#ffe3d9",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ffe3d9"
+      },
+      "name": "pf-t--color--red-orange--10",
+      "attributes": {
+        "category": "color",
+        "type": "red-orange",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "red-orange",
+        "10"
+      ]
+    },
+    "pf-t--color--red-orange--20": {
+      "type": "color",
+      "value": "#fbbea8",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#fbbea8"
+      },
+      "name": "pf-t--color--red-orange--20",
+      "attributes": {
+        "category": "color",
+        "type": "red-orange",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "red-orange",
+        "20"
+      ]
+    },
+    "pf-t--color--red-orange--30": {
+      "type": "color",
+      "value": "#f89b78",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f89b78"
+      },
+      "name": "pf-t--color--red-orange--30",
+      "attributes": {
+        "category": "color",
+        "type": "red-orange",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "red-orange",
+        "30"
+      ]
+    },
+    "pf-t--color--red-orange--40": {
+      "type": "color",
+      "value": "#f4784a",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f4784a"
+      },
+      "name": "pf-t--color--red-orange--40",
+      "attributes": {
+        "category": "color",
+        "type": "red-orange",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "red-orange",
+        "40"
+      ]
+    },
+    "pf-t--color--red-orange--50": {
+      "type": "color",
+      "value": "#f0561d",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f0561d"
+      },
+      "name": "pf-t--color--red-orange--50",
+      "attributes": {
+        "category": "color",
+        "type": "red-orange",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "red-orange",
+        "50"
+      ]
+    },
+    "pf-t--color--red-orange--60": {
+      "type": "color",
+      "value": "#b1380b",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#b1380b"
+      },
+      "name": "pf-t--color--red-orange--60",
+      "attributes": {
+        "category": "color",
+        "type": "red-orange",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "red-orange",
+        "60"
+      ]
+    },
+    "pf-t--color--red-orange--70": {
+      "type": "color",
+      "value": "#731f00",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#731f00"
+      },
+      "name": "pf-t--color--red-orange--70",
+      "attributes": {
+        "category": "color",
+        "type": "red-orange",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "red-orange",
+        "70"
+      ]
+    },
+    "pf-t--color--purple--10": {
+      "type": "color",
+      "value": "#ece6ff",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ece6ff"
+      },
+      "name": "pf-t--color--purple--10",
+      "attributes": {
+        "category": "color",
+        "type": "purple",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "purple",
+        "10"
+      ]
+    },
+    "pf-t--color--purple--20": {
+      "type": "color",
+      "value": "#d0c5f4",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#d0c5f4"
+      },
+      "name": "pf-t--color--purple--20",
+      "attributes": {
+        "category": "color",
+        "type": "purple",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "purple",
+        "20"
+      ]
+    },
+    "pf-t--color--purple--30": {
+      "type": "color",
+      "value": "#b6a6e9",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#b6a6e9"
+      },
+      "name": "pf-t--color--purple--30",
+      "attributes": {
+        "category": "color",
+        "type": "purple",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "purple",
+        "30"
+      ]
+    },
+    "pf-t--color--purple--40": {
+      "type": "color",
+      "value": "#876fd4",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#876fd4"
+      },
+      "name": "pf-t--color--purple--40",
+      "attributes": {
+        "category": "color",
+        "type": "purple",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "purple",
+        "40"
+      ]
+    },
+    "pf-t--color--purple--50": {
+      "type": "color",
+      "value": "#5e40be",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#5e40be"
+      },
+      "name": "pf-t--color--purple--50",
+      "attributes": {
+        "category": "color",
+        "type": "purple",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "purple",
+        "50"
+      ]
+    },
+    "pf-t--color--purple--60": {
+      "type": "color",
+      "value": "#3d2785",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#3d2785"
+      },
+      "name": "pf-t--color--purple--60",
+      "attributes": {
+        "category": "color",
+        "type": "purple",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "purple",
+        "60"
+      ]
+    },
+    "pf-t--color--purple--70": {
+      "type": "color",
+      "value": "#21134d",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#21134d"
+      },
+      "name": "pf-t--color--purple--70",
+      "attributes": {
+        "category": "color",
+        "type": "purple",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "purple",
+        "70"
+      ]
+    },
+    "pf-t--color--red--10": {
+      "type": "color",
+      "value": "#fce3e3",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#fce3e3"
+      },
+      "name": "pf-t--color--red--10",
+      "attributes": {
+        "category": "color",
+        "type": "red",
+        "item": "10"
+      },
+      "path": [
+        "color",
+        "red",
+        "10"
+      ]
+    },
+    "pf-t--color--red--20": {
+      "type": "color",
+      "value": "#fbc5c5",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#fbc5c5"
+      },
+      "name": "pf-t--color--red--20",
+      "attributes": {
+        "category": "color",
+        "type": "red",
+        "item": "20"
+      },
+      "path": [
+        "color",
+        "red",
+        "20"
+      ]
+    },
+    "pf-t--color--red--30": {
+      "type": "color",
+      "value": "#f9a8a8",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f9a8a8"
+      },
+      "name": "pf-t--color--red--30",
+      "attributes": {
+        "category": "color",
+        "type": "red",
+        "item": "30"
+      },
+      "path": [
+        "color",
+        "red",
+        "30"
+      ]
+    },
+    "pf-t--color--red--40": {
+      "type": "color",
+      "value": "#f56e6e",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#f56e6e"
+      },
+      "name": "pf-t--color--red--40",
+      "attributes": {
+        "category": "color",
+        "type": "red",
+        "item": "40"
+      },
+      "path": [
+        "color",
+        "red",
+        "40"
+      ]
+    },
+    "pf-t--color--red--50": {
+      "type": "color",
+      "value": "#ee0000",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#ee0000"
+      },
+      "name": "pf-t--color--red--50",
+      "attributes": {
+        "category": "color",
+        "type": "red",
+        "item": "50"
+      },
+      "path": [
+        "color",
+        "red",
+        "50"
+      ]
+    },
+    "pf-t--color--red--60": {
+      "type": "color",
+      "value": "#a60000",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#a60000"
+      },
+      "name": "pf-t--color--red--60",
+      "attributes": {
+        "category": "color",
+        "type": "red",
+        "item": "60"
+      },
+      "path": [
+        "color",
+        "red",
+        "60"
+      ]
+    },
+    "pf-t--color--red--70": {
+      "type": "color",
+      "value": "#5f0000",
+      "filePath": "tokens/default/palette.color.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "#5f0000"
+      },
+      "name": "pf-t--color--red--70",
+      "attributes": {
+        "category": "color",
+        "type": "red",
+        "item": "70"
+      },
+      "path": [
+        "color",
+        "red",
+        "70"
+      ]
+    }
+  },
+  "chart": {
     "pf-t--chart--color--blue--100": {
       "type": "color",
       "value": "#92c5f9",
@@ -52676,1430 +54102,6 @@
             }
           ]
         }
-      ]
-    },
-    "pf-t--color--white": {
-      "type": "color",
-      "value": "#ffffff",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ffffff"
-      },
-      "name": "pf-t--color--white",
-      "attributes": {
-        "category": "color",
-        "type": "white"
-      },
-      "path": [
-        "color",
-        "white"
-      ]
-    },
-    "pf-t--color--gray--10": {
-      "type": "color",
-      "value": "#f2f2f2",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f2f2f2"
-      },
-      "name": "pf-t--color--gray--10",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "gray",
-        "10"
-      ]
-    },
-    "pf-t--color--gray--20": {
-      "type": "color",
-      "value": "#e0e0e0",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#e0e0e0"
-      },
-      "name": "pf-t--color--gray--20",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "gray",
-        "20"
-      ]
-    },
-    "pf-t--color--gray--30": {
-      "type": "color",
-      "value": "#c7c7c7",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#c7c7c7"
-      },
-      "name": "pf-t--color--gray--30",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "gray",
-        "30"
-      ]
-    },
-    "pf-t--color--gray--40": {
-      "type": "color",
-      "value": "#a3a3a3",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#a3a3a3"
-      },
-      "name": "pf-t--color--gray--40",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "gray",
-        "40"
-      ]
-    },
-    "pf-t--color--gray--50": {
-      "type": "color",
-      "value": "#707070",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#707070"
-      },
-      "name": "pf-t--color--gray--50",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "gray",
-        "50"
-      ]
-    },
-    "pf-t--color--gray--60": {
-      "type": "color",
-      "value": "#4d4d4d",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#4d4d4d"
-      },
-      "name": "pf-t--color--gray--60",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "gray",
-        "60"
-      ]
-    },
-    "pf-t--color--gray--70": {
-      "type": "color",
-      "value": "#383838",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#383838"
-      },
-      "name": "pf-t--color--gray--70",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "gray",
-        "70"
-      ]
-    },
-    "pf-t--color--gray--80": {
-      "type": "color",
-      "value": "#292929",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#292929"
-      },
-      "name": "pf-t--color--gray--80",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "80"
-      },
-      "path": [
-        "color",
-        "gray",
-        "80"
-      ]
-    },
-    "pf-t--color--gray--90": {
-      "type": "color",
-      "value": "#1f1f1f",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#1f1f1f"
-      },
-      "name": "pf-t--color--gray--90",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "90"
-      },
-      "path": [
-        "color",
-        "gray",
-        "90"
-      ]
-    },
-    "pf-t--color--gray--95": {
-      "type": "color",
-      "value": "#151515",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#151515"
-      },
-      "name": "pf-t--color--gray--95",
-      "attributes": {
-        "category": "color",
-        "type": "gray",
-        "item": "95"
-      },
-      "path": [
-        "color",
-        "gray",
-        "95"
-      ]
-    },
-    "pf-t--color--black": {
-      "type": "color",
-      "value": "#000000",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#000000"
-      },
-      "name": "pf-t--color--black",
-      "attributes": {
-        "category": "color",
-        "type": "black"
-      },
-      "path": [
-        "color",
-        "black"
-      ]
-    },
-    "pf-t--color--blue--10": {
-      "type": "color",
-      "value": "#e0f0ff",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#e0f0ff"
-      },
-      "name": "pf-t--color--blue--10",
-      "attributes": {
-        "category": "color",
-        "type": "blue",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "blue",
-        "10"
-      ]
-    },
-    "pf-t--color--blue--20": {
-      "type": "color",
-      "value": "#b9dafc",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#b9dafc"
-      },
-      "name": "pf-t--color--blue--20",
-      "attributes": {
-        "category": "color",
-        "type": "blue",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "blue",
-        "20"
-      ]
-    },
-    "pf-t--color--blue--30": {
-      "type": "color",
-      "value": "#92c5f9",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#92c5f9"
-      },
-      "name": "pf-t--color--blue--30",
-      "attributes": {
-        "category": "color",
-        "type": "blue",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "blue",
-        "30"
-      ]
-    },
-    "pf-t--color--blue--40": {
-      "type": "color",
-      "value": "#4394e5",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#4394e5"
-      },
-      "name": "pf-t--color--blue--40",
-      "attributes": {
-        "category": "color",
-        "type": "blue",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "blue",
-        "40"
-      ]
-    },
-    "pf-t--color--blue--50": {
-      "type": "color",
-      "value": "#0066cc",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#0066cc"
-      },
-      "name": "pf-t--color--blue--50",
-      "attributes": {
-        "category": "color",
-        "type": "blue",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "blue",
-        "50"
-      ]
-    },
-    "pf-t--color--blue--60": {
-      "type": "color",
-      "value": "#004d99",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#004d99"
-      },
-      "name": "pf-t--color--blue--60",
-      "attributes": {
-        "category": "color",
-        "type": "blue",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "blue",
-        "60"
-      ]
-    },
-    "pf-t--color--blue--70": {
-      "type": "color",
-      "value": "#003366",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#003366"
-      },
-      "name": "pf-t--color--blue--70",
-      "attributes": {
-        "category": "color",
-        "type": "blue",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "blue",
-        "70"
-      ]
-    },
-    "pf-t--color--teal--10": {
-      "type": "color",
-      "value": "#daf2f2",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#daf2f2"
-      },
-      "name": "pf-t--color--teal--10",
-      "attributes": {
-        "category": "color",
-        "type": "teal",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "teal",
-        "10"
-      ]
-    },
-    "pf-t--color--teal--20": {
-      "type": "color",
-      "value": "#b9e5e5",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#b9e5e5"
-      },
-      "name": "pf-t--color--teal--20",
-      "attributes": {
-        "category": "color",
-        "type": "teal",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "teal",
-        "20"
-      ]
-    },
-    "pf-t--color--teal--30": {
-      "type": "color",
-      "value": "#9ad8d8",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#9ad8d8"
-      },
-      "name": "pf-t--color--teal--30",
-      "attributes": {
-        "category": "color",
-        "type": "teal",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "teal",
-        "30"
-      ]
-    },
-    "pf-t--color--teal--40": {
-      "type": "color",
-      "value": "#63bdbd",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#63bdbd"
-      },
-      "name": "pf-t--color--teal--40",
-      "attributes": {
-        "category": "color",
-        "type": "teal",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "teal",
-        "40"
-      ]
-    },
-    "pf-t--color--teal--50": {
-      "type": "color",
-      "value": "#37a3a3",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#37a3a3"
-      },
-      "name": "pf-t--color--teal--50",
-      "attributes": {
-        "category": "color",
-        "type": "teal",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "teal",
-        "50"
-      ]
-    },
-    "pf-t--color--teal--60": {
-      "type": "color",
-      "value": "#147878",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#147878"
-      },
-      "name": "pf-t--color--teal--60",
-      "attributes": {
-        "category": "color",
-        "type": "teal",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "teal",
-        "60"
-      ]
-    },
-    "pf-t--color--teal--70": {
-      "type": "color",
-      "value": "#004d4d",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#004d4d"
-      },
-      "name": "pf-t--color--teal--70",
-      "attributes": {
-        "category": "color",
-        "type": "teal",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "teal",
-        "70"
-      ]
-    },
-    "pf-t--color--yellow--10": {
-      "type": "color",
-      "value": "#fff4cc",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#fff4cc"
-      },
-      "name": "pf-t--color--yellow--10",
-      "attributes": {
-        "category": "color",
-        "type": "yellow",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "yellow",
-        "10"
-      ]
-    },
-    "pf-t--color--yellow--20": {
-      "type": "color",
-      "value": "#ffe072",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ffe072"
-      },
-      "name": "pf-t--color--yellow--20",
-      "attributes": {
-        "category": "color",
-        "type": "yellow",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "yellow",
-        "20"
-      ]
-    },
-    "pf-t--color--yellow--30": {
-      "type": "color",
-      "value": "#ffcc17",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ffcc17"
-      },
-      "name": "pf-t--color--yellow--30",
-      "attributes": {
-        "category": "color",
-        "type": "yellow",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "yellow",
-        "30"
-      ]
-    },
-    "pf-t--color--yellow--40": {
-      "type": "color",
-      "value": "#dca614",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#dca614"
-      },
-      "name": "pf-t--color--yellow--40",
-      "attributes": {
-        "category": "color",
-        "type": "yellow",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "yellow",
-        "40"
-      ]
-    },
-    "pf-t--color--yellow--50": {
-      "type": "color",
-      "value": "#b98412",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#b98412"
-      },
-      "name": "pf-t--color--yellow--50",
-      "attributes": {
-        "category": "color",
-        "type": "yellow",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "yellow",
-        "50"
-      ]
-    },
-    "pf-t--color--yellow--60": {
-      "type": "color",
-      "value": "#96640f",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#96640f"
-      },
-      "name": "pf-t--color--yellow--60",
-      "attributes": {
-        "category": "color",
-        "type": "yellow",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "yellow",
-        "60"
-      ]
-    },
-    "pf-t--color--yellow--70": {
-      "type": "color",
-      "value": "#73480b",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#73480b"
-      },
-      "name": "pf-t--color--yellow--70",
-      "attributes": {
-        "category": "color",
-        "type": "yellow",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "yellow",
-        "70"
-      ]
-    },
-    "pf-t--color--green--10": {
-      "type": "color",
-      "value": "#e9f7df",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#e9f7df"
-      },
-      "name": "pf-t--color--green--10",
-      "attributes": {
-        "category": "color",
-        "type": "green",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "green",
-        "10"
-      ]
-    },
-    "pf-t--color--green--20": {
-      "type": "color",
-      "value": "#d1f1bb",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#d1f1bb"
-      },
-      "name": "pf-t--color--green--20",
-      "attributes": {
-        "category": "color",
-        "type": "green",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "green",
-        "20"
-      ]
-    },
-    "pf-t--color--green--30": {
-      "type": "color",
-      "value": "#afdc8f",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#afdc8f"
-      },
-      "name": "pf-t--color--green--30",
-      "attributes": {
-        "category": "color",
-        "type": "green",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "green",
-        "30"
-      ]
-    },
-    "pf-t--color--green--40": {
-      "type": "color",
-      "value": "#87bb62",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#87bb62"
-      },
-      "name": "pf-t--color--green--40",
-      "attributes": {
-        "category": "color",
-        "type": "green",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "green",
-        "40"
-      ]
-    },
-    "pf-t--color--green--50": {
-      "type": "color",
-      "value": "#63993d",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#63993d"
-      },
-      "name": "pf-t--color--green--50",
-      "attributes": {
-        "category": "color",
-        "type": "green",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "green",
-        "50"
-      ]
-    },
-    "pf-t--color--green--60": {
-      "type": "color",
-      "value": "#3d7317",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#3d7317"
-      },
-      "name": "pf-t--color--green--60",
-      "attributes": {
-        "category": "color",
-        "type": "green",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "green",
-        "60"
-      ]
-    },
-    "pf-t--color--green--70": {
-      "type": "color",
-      "value": "#204d00",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#204d00"
-      },
-      "name": "pf-t--color--green--70",
-      "attributes": {
-        "category": "color",
-        "type": "green",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "green",
-        "70"
-      ]
-    },
-    "pf-t--color--orange--10": {
-      "type": "color",
-      "value": "#ffe8cc",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ffe8cc"
-      },
-      "name": "pf-t--color--orange--10",
-      "attributes": {
-        "category": "color",
-        "type": "orange",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "orange",
-        "10"
-      ]
-    },
-    "pf-t--color--orange--20": {
-      "type": "color",
-      "value": "#fccb8f",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#fccb8f"
-      },
-      "name": "pf-t--color--orange--20",
-      "attributes": {
-        "category": "color",
-        "type": "orange",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "orange",
-        "20"
-      ]
-    },
-    "pf-t--color--orange--30": {
-      "type": "color",
-      "value": "#f8ae54",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f8ae54"
-      },
-      "name": "pf-t--color--orange--30",
-      "attributes": {
-        "category": "color",
-        "type": "orange",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "orange",
-        "30"
-      ]
-    },
-    "pf-t--color--orange--40": {
-      "type": "color",
-      "value": "#f5921b",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f5921b"
-      },
-      "name": "pf-t--color--orange--40",
-      "attributes": {
-        "category": "color",
-        "type": "orange",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "orange",
-        "40"
-      ]
-    },
-    "pf-t--color--orange--50": {
-      "type": "color",
-      "value": "#ca6c0f",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ca6c0f"
-      },
-      "name": "pf-t--color--orange--50",
-      "attributes": {
-        "category": "color",
-        "type": "orange",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "orange",
-        "50"
-      ]
-    },
-    "pf-t--color--orange--60": {
-      "type": "color",
-      "value": "#9e4a06",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#9e4a06"
-      },
-      "name": "pf-t--color--orange--60",
-      "attributes": {
-        "category": "color",
-        "type": "orange",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "orange",
-        "60"
-      ]
-    },
-    "pf-t--color--orange--70": {
-      "type": "color",
-      "value": "#732e00",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#732e00"
-      },
-      "name": "pf-t--color--orange--70",
-      "attributes": {
-        "category": "color",
-        "type": "orange",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "orange",
-        "70"
-      ]
-    },
-    "pf-t--color--red-orange--10": {
-      "type": "color",
-      "value": "#ffe3d9",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ffe3d9"
-      },
-      "name": "pf-t--color--red-orange--10",
-      "attributes": {
-        "category": "color",
-        "type": "red-orange",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "red-orange",
-        "10"
-      ]
-    },
-    "pf-t--color--red-orange--20": {
-      "type": "color",
-      "value": "#fbbea8",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#fbbea8"
-      },
-      "name": "pf-t--color--red-orange--20",
-      "attributes": {
-        "category": "color",
-        "type": "red-orange",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "red-orange",
-        "20"
-      ]
-    },
-    "pf-t--color--red-orange--30": {
-      "type": "color",
-      "value": "#f89b78",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f89b78"
-      },
-      "name": "pf-t--color--red-orange--30",
-      "attributes": {
-        "category": "color",
-        "type": "red-orange",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "red-orange",
-        "30"
-      ]
-    },
-    "pf-t--color--red-orange--40": {
-      "type": "color",
-      "value": "#f4784a",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f4784a"
-      },
-      "name": "pf-t--color--red-orange--40",
-      "attributes": {
-        "category": "color",
-        "type": "red-orange",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "red-orange",
-        "40"
-      ]
-    },
-    "pf-t--color--red-orange--50": {
-      "type": "color",
-      "value": "#f0561d",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f0561d"
-      },
-      "name": "pf-t--color--red-orange--50",
-      "attributes": {
-        "category": "color",
-        "type": "red-orange",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "red-orange",
-        "50"
-      ]
-    },
-    "pf-t--color--red-orange--60": {
-      "type": "color",
-      "value": "#b1380b",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#b1380b"
-      },
-      "name": "pf-t--color--red-orange--60",
-      "attributes": {
-        "category": "color",
-        "type": "red-orange",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "red-orange",
-        "60"
-      ]
-    },
-    "pf-t--color--red-orange--70": {
-      "type": "color",
-      "value": "#731f00",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#731f00"
-      },
-      "name": "pf-t--color--red-orange--70",
-      "attributes": {
-        "category": "color",
-        "type": "red-orange",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "red-orange",
-        "70"
-      ]
-    },
-    "pf-t--color--purple--10": {
-      "type": "color",
-      "value": "#ece6ff",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ece6ff"
-      },
-      "name": "pf-t--color--purple--10",
-      "attributes": {
-        "category": "color",
-        "type": "purple",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "purple",
-        "10"
-      ]
-    },
-    "pf-t--color--purple--20": {
-      "type": "color",
-      "value": "#d0c5f4",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#d0c5f4"
-      },
-      "name": "pf-t--color--purple--20",
-      "attributes": {
-        "category": "color",
-        "type": "purple",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "purple",
-        "20"
-      ]
-    },
-    "pf-t--color--purple--30": {
-      "type": "color",
-      "value": "#b6a6e9",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#b6a6e9"
-      },
-      "name": "pf-t--color--purple--30",
-      "attributes": {
-        "category": "color",
-        "type": "purple",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "purple",
-        "30"
-      ]
-    },
-    "pf-t--color--purple--40": {
-      "type": "color",
-      "value": "#876fd4",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#876fd4"
-      },
-      "name": "pf-t--color--purple--40",
-      "attributes": {
-        "category": "color",
-        "type": "purple",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "purple",
-        "40"
-      ]
-    },
-    "pf-t--color--purple--50": {
-      "type": "color",
-      "value": "#5e40be",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#5e40be"
-      },
-      "name": "pf-t--color--purple--50",
-      "attributes": {
-        "category": "color",
-        "type": "purple",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "purple",
-        "50"
-      ]
-    },
-    "pf-t--color--purple--60": {
-      "type": "color",
-      "value": "#3d2785",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#3d2785"
-      },
-      "name": "pf-t--color--purple--60",
-      "attributes": {
-        "category": "color",
-        "type": "purple",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "purple",
-        "60"
-      ]
-    },
-    "pf-t--color--purple--70": {
-      "type": "color",
-      "value": "#21134d",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#21134d"
-      },
-      "name": "pf-t--color--purple--70",
-      "attributes": {
-        "category": "color",
-        "type": "purple",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "purple",
-        "70"
-      ]
-    },
-    "pf-t--color--red--10": {
-      "type": "color",
-      "value": "#fce3e3",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#fce3e3"
-      },
-      "name": "pf-t--color--red--10",
-      "attributes": {
-        "category": "color",
-        "type": "red",
-        "item": "10"
-      },
-      "path": [
-        "color",
-        "red",
-        "10"
-      ]
-    },
-    "pf-t--color--red--20": {
-      "type": "color",
-      "value": "#fbc5c5",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#fbc5c5"
-      },
-      "name": "pf-t--color--red--20",
-      "attributes": {
-        "category": "color",
-        "type": "red",
-        "item": "20"
-      },
-      "path": [
-        "color",
-        "red",
-        "20"
-      ]
-    },
-    "pf-t--color--red--30": {
-      "type": "color",
-      "value": "#f9a8a8",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f9a8a8"
-      },
-      "name": "pf-t--color--red--30",
-      "attributes": {
-        "category": "color",
-        "type": "red",
-        "item": "30"
-      },
-      "path": [
-        "color",
-        "red",
-        "30"
-      ]
-    },
-    "pf-t--color--red--40": {
-      "type": "color",
-      "value": "#f56e6e",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#f56e6e"
-      },
-      "name": "pf-t--color--red--40",
-      "attributes": {
-        "category": "color",
-        "type": "red",
-        "item": "40"
-      },
-      "path": [
-        "color",
-        "red",
-        "40"
-      ]
-    },
-    "pf-t--color--red--50": {
-      "type": "color",
-      "value": "#ee0000",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ee0000"
-      },
-      "name": "pf-t--color--red--50",
-      "attributes": {
-        "category": "color",
-        "type": "red",
-        "item": "50"
-      },
-      "path": [
-        "color",
-        "red",
-        "50"
-      ]
-    },
-    "pf-t--color--red--60": {
-      "type": "color",
-      "value": "#a60000",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#a60000"
-      },
-      "name": "pf-t--color--red--60",
-      "attributes": {
-        "category": "color",
-        "type": "red",
-        "item": "60"
-      },
-      "path": [
-        "color",
-        "red",
-        "60"
-      ]
-    },
-    "pf-t--color--red--70": {
-      "type": "color",
-      "value": "#5f0000",
-      "filePath": "tokens/default/palette.color.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#5f0000"
-      },
-      "name": "pf-t--color--red--70",
-      "attributes": {
-        "category": "color",
-        "type": "red",
-        "item": "70"
-      },
-      "path": [
-        "color",
-        "red",
-        "70"
       ]
     }
   }

@@ -1,7 +1,7 @@
 {
   "pf-t--global--spacer--100": {
     "type": "number",
-    "value": "4px",
+    "value": "0.25rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -22,7 +22,7 @@
   },
   "pf-t--global--spacer--200": {
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -43,7 +43,7 @@
   },
   "pf-t--global--spacer--300": {
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -64,7 +64,7 @@
   },
   "pf-t--global--spacer--400": {
     "type": "number",
-    "value": "24px",
+    "value": "1.5rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -85,7 +85,7 @@
   },
   "pf-t--global--spacer--500": {
     "type": "number",
-    "value": "32px",
+    "value": "2rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -106,7 +106,7 @@
   },
   "pf-t--global--spacer--600": {
     "type": "number",
-    "value": "48px",
+    "value": "3rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -127,7 +127,7 @@
   },
   "pf-t--global--spacer--700": {
     "type": "number",
-    "value": "64px",
+    "value": "4rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -148,7 +148,7 @@
   },
   "pf-t--global--spacer--800": {
     "type": "number",
-    "value": "80px",
+    "value": "5rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -170,7 +170,7 @@
   "pf-t--global--spacer--xs": {
     "description": "Use for extra small spaces between elements.",
     "type": "number",
-    "value": "4px",
+    "value": "0.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -192,7 +192,7 @@
     "references": [
       {
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -216,7 +216,7 @@
   "pf-t--global--spacer--sm": {
     "description": "Use for small spaces between elements.",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -238,7 +238,7 @@
     "references": [
       {
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -262,7 +262,7 @@
   "pf-t--global--spacer--md": {
     "description": "Use for medium-sized spaces between elements.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -284,7 +284,7 @@
     "references": [
       {
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -308,7 +308,7 @@
   "pf-t--global--spacer--lg": {
     "description": "Use for large spaces between elements.",
     "type": "number",
-    "value": "24px",
+    "value": "1.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -330,7 +330,7 @@
     "references": [
       {
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -354,7 +354,7 @@
   "pf-t--global--spacer--xl": {
     "description": "Use for extra large spaces between elements.",
     "type": "number",
-    "value": "32px",
+    "value": "2rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -376,7 +376,7 @@
     "references": [
       {
         "type": "number",
-        "value": "32px",
+        "value": "2rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -400,7 +400,7 @@
   "pf-t--global--spacer--2xl": {
     "description": "Use for double extra large spaces spacing between elements.",
     "type": "number",
-    "value": "48px",
+    "value": "3rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -422,7 +422,7 @@
     "references": [
       {
         "type": "number",
-        "value": "48px",
+        "value": "3rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -446,7 +446,7 @@
   "pf-t--global--spacer--3xl": {
     "description": "Use for triple extra large spaces between elements.",
     "type": "number",
-    "value": "64px",
+    "value": "4rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -468,7 +468,7 @@
     "references": [
       {
         "type": "number",
-        "value": "64px",
+        "value": "4rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -492,7 +492,7 @@
   "pf-t--global--spacer--4xl": {
     "description": "Use for quadruple extra large spaces between elements.",
     "type": "number",
-    "value": "80px",
+    "value": "5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -514,7 +514,7 @@
     "references": [
       {
         "type": "number",
-        "value": "80px",
+        "value": "5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -538,7 +538,7 @@
   "pf-t--global--spacer--control--vertical--default": {
     "description": "Use to set the vertical padding inside of controls. This is used across buttons, text inputs, menu toggles, etc.",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -565,7 +565,7 @@
       {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -587,7 +587,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -613,7 +613,7 @@
   "pf-t--global--spacer--control--vertical--compact": {
     "description": "Use to set the vertical padding inside of  compact controls. This is used across text inputs, menu toggles, control buttons etc.",
     "type": "number",
-    "value": "4px",
+    "value": "0.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -640,7 +640,7 @@
       {
         "description": "Use for extra small spaces between elements.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -662,7 +662,7 @@
         "references": [
           {
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -688,7 +688,7 @@
   "pf-t--global--spacer--control--vertical--plain": {
     "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles.",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -715,7 +715,7 @@
       {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -737,7 +737,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -763,7 +763,7 @@
   "pf-t--global--spacer--control--horizontal--default": {
     "description": "Use to set the horizontal padding inside of controls, like text inputs and menu toggles.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -790,7 +790,7 @@
       {
         "description": "Use for medium-sized spaces between elements.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -812,7 +812,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -838,7 +838,7 @@
   "pf-t--global--spacer--control--horizontal--plain": {
     "description": "Use to set the horizontal padding inside of plain controls, like in plain menu toggles.",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -865,7 +865,7 @@
       {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -887,7 +887,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -913,7 +913,7 @@
   "pf-t--global--spacer--control--horizontal--compact": {
     "description": "Use to set the horizontal padding inside of  compact controls. This is used across text inputs, menu toggles, control buttons etc.",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -940,7 +940,7 @@
       {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -962,7 +962,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -988,7 +988,7 @@
   "pf-t--global--spacer--control--horizontal--spacious": {
     "description": "Use to set the horizontal padding in large/display controls.",
     "type": "number",
-    "value": "24px",
+    "value": "1.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1015,7 +1015,7 @@
       {
         "description": "Use for large spaces between elements.",
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1037,7 +1037,7 @@
         "references": [
           {
             "type": "number",
-            "value": "24px",
+            "value": "1.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1063,7 +1063,7 @@
   "pf-t--global--spacer--gap--text-to-element--default": {
     "description": "Use to space an element, like an icon or badge, inline with text",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1090,7 +1090,7 @@
       {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1112,7 +1112,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1138,7 +1138,7 @@
   "pf-t--global--spacer--gap--control-to-control--default": {
     "description": "Use to set the space between controls, like in input groups or filter groups",
     "type": "number",
-    "value": "4px",
+    "value": "0.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1165,7 +1165,7 @@
       {
         "description": "Use for extra small spaces between elements.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1187,7 +1187,7 @@
         "references": [
           {
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1213,7 +1213,7 @@
   "pf-t--global--spacer--gap--group--vertical": {
     "description": "Use to set the vertical space between items in a group, like a field label, form input, and helper text placed in a vertical/stacked layout",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1240,7 +1240,7 @@
       {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1262,7 +1262,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1288,7 +1288,7 @@
   "pf-t--global--spacer--gap--group--horizontal": {
     "description": "Use to set the horizontal space between items in a group, like a field label and form input placed in a horizontal layout.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1315,7 +1315,7 @@
       {
         "description": "Use for medium-sized spaces between elements.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1337,7 +1337,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1363,7 +1363,7 @@
   "pf-t--global--spacer--gap--group-to-group--horizontal": {
     "description": "Use to set the horizontal space between groups of elements, like between multiple action groups or forms groups placed in a horizontal layout.",
     "type": "number",
-    "value": "48px",
+    "value": "3rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1390,7 +1390,7 @@
       {
         "description": "Use for double extra large spaces spacing between elements.",
         "type": "number",
-        "value": "48px",
+        "value": "3rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1412,7 +1412,7 @@
         "references": [
           {
             "type": "number",
-            "value": "48px",
+            "value": "3rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1438,7 +1438,7 @@
   "pf-t--global--spacer--gap--group-to-group--vertical": {
     "description": "Use to set the vertical space between groups of elements, like between stacked form groups.",
     "type": "number",
-    "value": "24px",
+    "value": "1.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1465,7 +1465,7 @@
       {
         "description": "Use for large spaces between elements.",
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1487,7 +1487,7 @@
         "references": [
           {
             "type": "number",
-            "value": "24px",
+            "value": "1.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1513,7 +1513,7 @@
   "pf-t--global--spacer--gap--action-to-action--default": {
     "description": "Use to set the space between actions, like in an action list group.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1540,7 +1540,7 @@
       {
         "description": "Use for medium-sized spaces between elements.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1562,7 +1562,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1588,7 +1588,7 @@
   "pf-t--global--spacer--gap--action-to-action--plain": {
     "description": "Use to set the space between plain actions, like in an action list group.",
     "type": "number",
-    "value": "4px",
+    "value": "0.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1615,7 +1615,7 @@
       {
         "description": "Use for extra small spaces between elements.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1637,7 +1637,7 @@
         "references": [
           {
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1663,7 +1663,7 @@
   "pf-t--global--spacer--action--horizontal--default": {
     "description": "Use to set the horizontal padding inside a default action, like buttons.",
     "type": "number",
-    "value": "24px",
+    "value": "1.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1690,7 +1690,7 @@
       {
         "description": "Use for large spaces between elements.",
         "type": "number",
-        "value": "24px",
+        "value": "1.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1712,7 +1712,7 @@
         "references": [
           {
             "type": "number",
-            "value": "24px",
+            "value": "1.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1738,11 +1738,11 @@
   "pf-t--global--spacer--action--horizontal--plain": {
     "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
     "type": "number",
-    "value": "8px",
+    "value": "0.5rem",
     "compact": {
       "description": "Use to set the horizontal padding inside a compact, plain action/button.",
       "type": "number",
-      "value": "4px",
+      "value": "0.25rem",
       "filePath": "tokens/default/semantic.dimension.json",
       "isSource": false
     },
@@ -1779,7 +1779,7 @@
       {
         "description": "Use for small spaces between elements.",
         "type": "number",
-        "value": "8px",
+        "value": "0.5rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1801,7 +1801,7 @@
         "references": [
           {
             "type": "number",
-            "value": "8px",
+            "value": "0.5rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1827,7 +1827,7 @@
   "pf-t--global--spacer--action--horizontal--compact": {
     "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1854,7 +1854,7 @@
       {
         "description": "Use for medium-sized spaces between elements.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1876,7 +1876,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1902,7 +1902,7 @@
   "pf-t--global--spacer--action--horizontal--spacious": {
     "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
     "type": "number",
-    "value": "32px",
+    "value": "2rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -1929,7 +1929,7 @@
       {
         "description": "Use for extra large spaces between elements.",
         "type": "number",
-        "value": "32px",
+        "value": "2rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -1951,7 +1951,7 @@
         "references": [
           {
             "type": "number",
-            "value": "32px",
+            "value": "2rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -1977,7 +1977,7 @@
   "pf-t--global--spacer--action--vertical--compact": {
     "description": "Use to set the vertical padding inside a compact action, like compact buttons.",
     "type": "number",
-    "value": "4px",
+    "value": "0.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2004,7 +2004,7 @@
       {
         "description": "Use for extra small spaces between elements.",
         "type": "number",
-        "value": "4px",
+        "value": "0.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -2026,7 +2026,7 @@
         "references": [
           {
             "type": "number",
-            "value": "4px",
+            "value": "0.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -2052,7 +2052,7 @@
   "pf-t--global--spacer--action--vertical--spacious": {
     "description": "Use to set the vertical padding inside a large/display action, like CTAs.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2079,7 +2079,7 @@
       {
         "description": "Use for medium-sized spaces between elements.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -2101,7 +2101,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -2126,7 +2126,7 @@
   },
   "pf-t--global--icon--size--100": {
     "type": "number",
-    "value": "12px",
+    "value": "0.75rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -2149,7 +2149,7 @@
   },
   "pf-t--global--icon--size--200": {
     "type": "number",
-    "value": "14px",
+    "value": "0.875rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -2172,7 +2172,7 @@
   },
   "pf-t--global--icon--size--250": {
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -2195,7 +2195,7 @@
   },
   "pf-t--global--icon--size--300": {
     "type": "number",
-    "value": "22px",
+    "value": "1.375rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -2218,7 +2218,7 @@
   },
   "pf-t--global--icon--size--400": {
     "type": "number",
-    "value": "56px",
+    "value": "3.5rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -2241,7 +2241,7 @@
   },
   "pf-t--global--icon--size--500": {
     "type": "number",
-    "value": "96px",
+    "value": "6rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -2265,7 +2265,7 @@
   "pf-t--global--icon--size--sm": {
     "description": "Use for small icons.",
     "type": "number",
-    "value": "12px",
+    "value": "0.75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2289,7 +2289,7 @@
     "references": [
       {
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -2315,7 +2315,7 @@
   "pf-t--global--icon--size--md": {
     "description": "Use for medium icons.",
     "type": "number",
-    "value": "14px",
+    "value": "0.875rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2339,7 +2339,7 @@
     "references": [
       {
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -2365,7 +2365,7 @@
   "pf-t--global--icon--size--lg": {
     "description": "Use for large icons.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2389,7 +2389,7 @@
     "references": [
       {
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -2415,7 +2415,7 @@
   "pf-t--global--icon--size--xl": {
     "description": "Use for extra large icons.",
     "type": "number",
-    "value": "22px",
+    "value": "1.375rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2439,7 +2439,7 @@
     "references": [
       {
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -2465,7 +2465,7 @@
   "pf-t--global--icon--size--2xl": {
     "description": "Use for double extra large icons.",
     "type": "number",
-    "value": "56px",
+    "value": "3.5rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2489,7 +2489,7 @@
     "references": [
       {
         "type": "number",
-        "value": "56px",
+        "value": "3.5rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -2515,7 +2515,7 @@
   "pf-t--global--icon--size--3xl": {
     "description": "Use for triple extra large icons.",
     "type": "number",
-    "value": "96px",
+    "value": "6rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2539,7 +2539,7 @@
     "references": [
       {
         "type": "number",
-        "value": "96px",
+        "value": "6rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -2565,7 +2565,7 @@
   "pf-t--global--icon--size--font--heading--h1": {
     "description": "Use for icons that are placed inline with first level headings",
     "type": "number",
-    "value": "22px",
+    "value": "1.375rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2593,7 +2593,7 @@
       {
         "description": "Use as the font size for first level headings.",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -2620,7 +2620,7 @@
           {
             "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -2644,7 +2644,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "22px",
+                "value": "1.375rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -2674,7 +2674,7 @@
   "pf-t--global--icon--size--font--heading--h2": {
     "description": "Use for icons that are placed inline with second level headings",
     "type": "number",
-    "value": "20px",
+    "value": "1.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2702,7 +2702,7 @@
       {
         "description": "Use as the font size for second level headings.",
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -2729,7 +2729,7 @@
           {
             "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "20px",
+            "value": "1.25rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -2753,7 +2753,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "20px",
+                "value": "1.25rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -2783,7 +2783,7 @@
   "pf-t--global--icon--size--font--heading--h3": {
     "description": "Use for icons that are placed inline with third level headings",
     "type": "number",
-    "value": "18px",
+    "value": "1.125rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2811,7 +2811,7 @@
       {
         "description": "Use as the font size for third level headings.",
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -2838,7 +2838,7 @@
           {
             "description": "Use as the font size for large text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "18px",
+            "value": "1.125rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -2862,7 +2862,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "18px",
+                "value": "1.125rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -2892,7 +2892,7 @@
   "pf-t--global--icon--size--font--heading--h4": {
     "description": "Use for icons that are placed inline with fourth level headings",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -2920,7 +2920,7 @@
       {
         "description": "Use as the font size for fourth-level headings.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -2947,7 +2947,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -2971,7 +2971,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -3001,7 +3001,7 @@
   "pf-t--global--icon--size--font--heading--h5": {
     "description": "Use for icons that are placed inline with fifth level headings",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3029,7 +3029,7 @@
       {
         "description": "Use as the font size for fifth level headings.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3056,7 +3056,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -3080,7 +3080,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -3110,7 +3110,7 @@
   "pf-t--global--icon--size--font--heading--h6": {
     "description": "Use for icons that are placed inline with sixth level headings",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3138,7 +3138,7 @@
       {
         "description": "Use as the font size for sixth level headings.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3165,7 +3165,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -3189,7 +3189,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -3219,7 +3219,7 @@
   "pf-t--global--icon--size--font--body--sm": {
     "description": "Use for icons that are placed inline with small body text",
     "type": "number",
-    "value": "12px",
+    "value": "0.75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3247,7 +3247,7 @@
       {
         "description": "Use for a smaller font size in body sections.",
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3273,7 +3273,7 @@
         "references": [
           {
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -3296,7 +3296,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "12px",
+                "value": "0.75rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -3326,7 +3326,7 @@
   "pf-t--global--icon--size--font--body--default": {
     "description": "Use for icons that are placed inline with default body text",
     "type": "number",
-    "value": "14px",
+    "value": "0.875rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3354,7 +3354,7 @@
       {
         "description": "Use as the default font size in body sections.",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3381,7 +3381,7 @@
           {
             "description": "Use as the font size for small text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -3405,7 +3405,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "14px",
+                "value": "0.875rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -3435,7 +3435,7 @@
   "pf-t--global--icon--size--font--body--lg": {
     "description": "Use for icons that are placed inline with large body text",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3463,7 +3463,7 @@
       {
         "description": "Use for a larger font size in body sections.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3490,7 +3490,7 @@
           {
             "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/semantic.dimension.json",
             "isSource": false,
             "original": {
@@ -3514,7 +3514,7 @@
             "references": [
               {
                 "type": "number",
-                "value": "16px",
+                "value": "1rem",
                 "filePath": "tokens/default/base.dimension.json",
                 "isSource": false,
                 "original": {
@@ -3544,7 +3544,7 @@
   "pf-t--global--icon--size--font--xs": {
     "description": "Use for icons that are placed inline with font–size–xs text",
     "type": "number",
-    "value": "12px",
+    "value": "0.75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3570,7 +3570,7 @@
     "references": [
       {
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3593,7 +3593,7 @@
         "references": [
           {
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -3621,7 +3621,7 @@
   "pf-t--global--icon--size--font--sm": {
     "description": "Use for icons that are placed inline with font–size–sm text",
     "type": "number",
-    "value": "14px",
+    "value": "0.875rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3648,7 +3648,7 @@
       {
         "description": "Use as the font size for small text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3672,7 +3672,7 @@
         "references": [
           {
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -3700,7 +3700,7 @@
   "pf-t--global--icon--size--font--md": {
     "description": "Use for icons that are placed inline with font–size–md text",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3727,7 +3727,7 @@
       {
         "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3751,7 +3751,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -3779,7 +3779,7 @@
   "pf-t--global--icon--size--font--lg": {
     "description": "Use for icons that are placed inline with font–size–lg text",
     "type": "number",
-    "value": "18px",
+    "value": "1.125rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3806,7 +3806,7 @@
       {
         "description": "Use as the font size for large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3830,7 +3830,7 @@
         "references": [
           {
             "type": "number",
-            "value": "18px",
+            "value": "1.125rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -3858,7 +3858,7 @@
   "pf-t--global--icon--size--font--xl": {
     "description": "Use for icons that are placed inline with font–size–xl text",
     "type": "number",
-    "value": "20px",
+    "value": "1.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3885,7 +3885,7 @@
       {
         "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3909,7 +3909,7 @@
         "references": [
           {
             "type": "number",
-            "value": "20px",
+            "value": "1.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -3937,7 +3937,7 @@
   "pf-t--global--icon--size--font--2xl": {
     "description": "Use for icons that are placed inline with font–size–2xl text",
     "type": "number",
-    "value": "22px",
+    "value": "1.375rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -3964,7 +3964,7 @@
       {
         "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -3988,7 +3988,7 @@
         "references": [
           {
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -4016,7 +4016,7 @@
   "pf-t--global--icon--size--font--3xl": {
     "description": "Use for icons that are placed inline with font–size–3xl text",
     "type": "number",
-    "value": "28px",
+    "value": "1.75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -4043,7 +4043,7 @@
       {
         "description": "Use as the font size for triple extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "28px",
+        "value": "1.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -4067,7 +4067,7 @@
         "references": [
           {
             "type": "number",
-            "value": "28px",
+            "value": "1.75rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -4095,7 +4095,7 @@
   "pf-t--global--icon--size--font--4xl": {
     "description": "Use for icons that are placed inline with font–size–3xl text",
     "type": "number",
-    "value": "36px",
+    "value": "2.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -4122,7 +4122,7 @@
       {
         "description": "Use as the font size for quadruple extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "36px",
+        "value": "2.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -4146,7 +4146,7 @@
         "references": [
           {
             "type": "number",
-            "value": "36px",
+            "value": "2.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -19333,7 +19333,7 @@
   },
   "pf-t--global--font--size--100": {
     "type": "number",
-    "value": "12px",
+    "value": "0.75rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19356,7 +19356,7 @@
   },
   "pf-t--global--font--size--200": {
     "type": "number",
-    "value": "14px",
+    "value": "0.875rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19379,7 +19379,7 @@
   },
   "pf-t--global--font--size--300": {
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19402,7 +19402,7 @@
   },
   "pf-t--global--font--size--400": {
     "type": "number",
-    "value": "18px",
+    "value": "1.125rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19425,7 +19425,7 @@
   },
   "pf-t--global--font--size--500": {
     "type": "number",
-    "value": "20px",
+    "value": "1.25rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19448,7 +19448,7 @@
   },
   "pf-t--global--font--size--600": {
     "type": "number",
-    "value": "22px",
+    "value": "1.375rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19471,7 +19471,7 @@
   },
   "pf-t--global--font--size--700": {
     "type": "number",
-    "value": "28px",
+    "value": "1.75rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19494,7 +19494,7 @@
   },
   "pf-t--global--font--size--800": {
     "type": "number",
-    "value": "36px",
+    "value": "2.25rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -19518,7 +19518,7 @@
   "pf-t--global--font--size--body--sm": {
     "description": "Use for a smaller font size in body sections.",
     "type": "number",
-    "value": "12px",
+    "value": "0.75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -19544,7 +19544,7 @@
     "references": [
       {
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -19567,7 +19567,7 @@
         "references": [
           {
             "type": "number",
-            "value": "12px",
+            "value": "0.75rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -19595,7 +19595,7 @@
   "pf-t--global--font--size--body--default": {
     "description": "Use as the default font size in body sections.",
     "type": "number",
-    "value": "14px",
+    "value": "0.875rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -19622,7 +19622,7 @@
       {
         "description": "Use as the font size for small text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -19646,7 +19646,7 @@
         "references": [
           {
             "type": "number",
-            "value": "14px",
+            "value": "0.875rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -19674,7 +19674,7 @@
   "pf-t--global--font--size--body--lg": {
     "description": "Use for a larger font size in body sections.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -19701,7 +19701,7 @@
       {
         "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -19725,7 +19725,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -19753,7 +19753,7 @@
   "pf-t--global--font--size--heading--h1": {
     "description": "Use as the font size for first level headings.",
     "type": "number",
-    "value": "22px",
+    "value": "1.375rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -19780,7 +19780,7 @@
       {
         "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -19804,7 +19804,7 @@
         "references": [
           {
             "type": "number",
-            "value": "22px",
+            "value": "1.375rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -19832,7 +19832,7 @@
   "pf-t--global--font--size--heading--h2": {
     "description": "Use as the font size for second level headings.",
     "type": "number",
-    "value": "20px",
+    "value": "1.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -19859,7 +19859,7 @@
       {
         "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -19883,7 +19883,7 @@
         "references": [
           {
             "type": "number",
-            "value": "20px",
+            "value": "1.25rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -19911,7 +19911,7 @@
   "pf-t--global--font--size--heading--h3": {
     "description": "Use as the font size for third level headings.",
     "type": "number",
-    "value": "18px",
+    "value": "1.125rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -19938,7 +19938,7 @@
       {
         "description": "Use as the font size for large text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -19962,7 +19962,7 @@
         "references": [
           {
             "type": "number",
-            "value": "18px",
+            "value": "1.125rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -19990,7 +19990,7 @@
   "pf-t--global--font--size--heading--h4": {
     "description": "Use as the font size for fourth-level headings.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20017,7 +20017,7 @@
       {
         "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -20041,7 +20041,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -20069,7 +20069,7 @@
   "pf-t--global--font--size--heading--h5": {
     "description": "Use as the font size for fifth level headings.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20096,7 +20096,7 @@
       {
         "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -20120,7 +20120,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -20148,7 +20148,7 @@
   "pf-t--global--font--size--heading--h6": {
     "description": "Use as the font size for sixth level headings.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20175,7 +20175,7 @@
       {
         "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/semantic.dimension.json",
         "isSource": false,
         "original": {
@@ -20199,7 +20199,7 @@
         "references": [
           {
             "type": "number",
-            "value": "16px",
+            "value": "1rem",
             "filePath": "tokens/default/base.dimension.json",
             "isSource": false,
             "original": {
@@ -20226,7 +20226,7 @@
   },
   "pf-t--global--font--size--xs": {
     "type": "number",
-    "value": "12px",
+    "value": "0.75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20249,7 +20249,7 @@
     "references": [
       {
         "type": "number",
-        "value": "12px",
+        "value": "0.75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -20275,7 +20275,7 @@
   "pf-t--global--font--size--sm": {
     "description": "Use as the font size for small text that isn’t a heading or in a body section.",
     "type": "number",
-    "value": "14px",
+    "value": "0.875rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20299,7 +20299,7 @@
     "references": [
       {
         "type": "number",
-        "value": "14px",
+        "value": "0.875rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -20325,7 +20325,7 @@
   "pf-t--global--font--size--md": {
     "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
     "type": "number",
-    "value": "16px",
+    "value": "1rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20349,7 +20349,7 @@
     "references": [
       {
         "type": "number",
-        "value": "16px",
+        "value": "1rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -20375,7 +20375,7 @@
   "pf-t--global--font--size--lg": {
     "description": "Use as the font size for large text that isn’t a heading or in a body section.",
     "type": "number",
-    "value": "18px",
+    "value": "1.125rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20399,7 +20399,7 @@
     "references": [
       {
         "type": "number",
-        "value": "18px",
+        "value": "1.125rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -20425,7 +20425,7 @@
   "pf-t--global--font--size--xl": {
     "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
     "type": "number",
-    "value": "20px",
+    "value": "1.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20449,7 +20449,7 @@
     "references": [
       {
         "type": "number",
-        "value": "20px",
+        "value": "1.25rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -20475,7 +20475,7 @@
   "pf-t--global--font--size--2xl": {
     "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
     "type": "number",
-    "value": "22px",
+    "value": "1.375rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20499,7 +20499,7 @@
     "references": [
       {
         "type": "number",
-        "value": "22px",
+        "value": "1.375rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -20525,7 +20525,7 @@
   "pf-t--global--font--size--3xl": {
     "description": "Use as the font size for triple extra large text that isn’t a heading or in a body section.",
     "type": "number",
-    "value": "28px",
+    "value": "1.75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20549,7 +20549,7 @@
     "references": [
       {
         "type": "number",
-        "value": "28px",
+        "value": "1.75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -20575,7 +20575,7 @@
   "pf-t--global--font--size--4xl": {
     "description": "Use as the font size for quadruple extra large text that isn’t a heading or in a body section.",
     "type": "number",
-    "value": "36px",
+    "value": "2.25rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -20599,7 +20599,7 @@
     "references": [
       {
         "type": "number",
-        "value": "36px",
+        "value": "2.25rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -23490,7 +23490,7 @@
   },
   "pf-t--global--breakpoint--100": {
     "type": "number",
-    "value": "0px",
+    "value": "0rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23511,7 +23511,7 @@
   },
   "pf-t--global--breakpoint--200": {
     "type": "number",
-    "value": "576px",
+    "value": "36rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23532,7 +23532,7 @@
   },
   "pf-t--global--breakpoint--250": {
     "type": "number",
-    "value": "640px",
+    "value": "40rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23553,7 +23553,7 @@
   },
   "pf-t--global--breakpoint--300": {
     "type": "number",
-    "value": "768px",
+    "value": "48rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23574,7 +23574,7 @@
   },
   "pf-t--global--breakpoint--350": {
     "type": "number",
-    "value": "960px",
+    "value": "60rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23595,7 +23595,7 @@
   },
   "pf-t--global--breakpoint--400": {
     "type": "number",
-    "value": "992px",
+    "value": "62rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23616,7 +23616,7 @@
   },
   "pf-t--global--breakpoint--500": {
     "type": "number",
-    "value": "1200px",
+    "value": "75rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23637,7 +23637,7 @@
   },
   "pf-t--global--breakpoint--550": {
     "type": "number",
-    "value": "1280px",
+    "value": "80rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23658,7 +23658,7 @@
   },
   "pf-t--global--breakpoint--600": {
     "type": "number",
-    "value": "1450px",
+    "value": "90.625rem",
     "filePath": "tokens/default/base.dimension.json",
     "isSource": false,
     "original": {
@@ -23680,7 +23680,7 @@
   "pf-t--global--breakpoint--xs": {
     "description": "Use to define an extra small breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "0px",
+    "value": "0rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -23702,7 +23702,7 @@
     "references": [
       {
         "type": "number",
-        "value": "0px",
+        "value": "0rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -23726,7 +23726,7 @@
   "pf-t--global--breakpoint--sm": {
     "description": "Use to define a small breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "576px",
+    "value": "36rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -23748,7 +23748,7 @@
     "references": [
       {
         "type": "number",
-        "value": "576px",
+        "value": "36rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -23772,7 +23772,7 @@
   "pf-t--global--breakpoint--md": {
     "description": "Use to define a medium breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "768px",
+    "value": "48rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -23794,7 +23794,7 @@
     "references": [
       {
         "type": "number",
-        "value": "768px",
+        "value": "48rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -23818,7 +23818,7 @@
   "pf-t--global--breakpoint--lg": {
     "description": "Use to define a large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "992px",
+    "value": "62rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -23840,7 +23840,7 @@
     "references": [
       {
         "type": "number",
-        "value": "992px",
+        "value": "62rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -23864,7 +23864,7 @@
   "pf-t--global--breakpoint--xl": {
     "description": "Use to define an extra large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "1200px",
+    "value": "75rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -23886,7 +23886,7 @@
     "references": [
       {
         "type": "number",
-        "value": "1200px",
+        "value": "75rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -23910,7 +23910,7 @@
   "pf-t--global--breakpoint--2xl": {
     "description": "Use to define a double extra large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "1450px",
+    "value": "90.625rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -23932,7 +23932,7 @@
     "references": [
       {
         "type": "number",
-        "value": "1450px",
+        "value": "90.625rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -23956,7 +23956,7 @@
   "pf-t--global--breakpoint--height--sm": {
     "description": "Use to define a small height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "0px",
+    "value": "0rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -23980,7 +23980,7 @@
     "references": [
       {
         "type": "number",
-        "value": "0px",
+        "value": "0rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -24004,7 +24004,7 @@
   "pf-t--global--breakpoint--height--md": {
     "description": "Use to define a medium height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "640px",
+    "value": "40rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -24028,7 +24028,7 @@
     "references": [
       {
         "type": "number",
-        "value": "640px",
+        "value": "40rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -24052,7 +24052,7 @@
   "pf-t--global--breakpoint--height--lg": {
     "description": "Use to define a large height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "768px",
+    "value": "48rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -24076,7 +24076,7 @@
     "references": [
       {
         "type": "number",
-        "value": "768px",
+        "value": "48rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -24100,7 +24100,7 @@
   "pf-t--global--breakpoint--height--xl": {
     "description": "Use to define an extra large height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "960px",
+    "value": "60rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -24124,7 +24124,7 @@
     "references": [
       {
         "type": "number",
-        "value": "960px",
+        "value": "60rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
@@ -24148,7 +24148,7 @@
   "pf-t--global--breakpoint--height--2xl": {
     "description": "Use to define an extra small height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
     "type": "number",
-    "value": "1280px",
+    "value": "80rem",
     "filePath": "tokens/default/semantic.dimension.json",
     "isSource": false,
     "original": {
@@ -24172,7 +24172,7 @@
     "references": [
       {
         "type": "number",
-        "value": "1280px",
+        "value": "80rem",
         "filePath": "tokens/default/base.dimension.json",
         "isSource": false,
         "original": {
