@@ -106,20 +106,6 @@
       }
     },
     "font": {
-      "family": {
-        "100": {
-          "type": "string",
-          "value": "Red Hat Text VF"
-        },
-        "200": {
-          "type": "string",
-          "value": "Red Hat Display VF"
-        },
-        "300": {
-          "type": "string",
-          "value": "Red Hat Mono VF"
-        }
-      },
       "weight": {
         "100": {
           "type": "number",
@@ -180,6 +166,20 @@
         "800": {
           "type": "number",
           "value": 36
+        }
+      },
+      "family": {
+        "100": {
+          "type": "string",
+          "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+        },
+        "200": {
+          "type": "string",
+          "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+        },
+        "300": {
+          "type": "string",
+          "value": "\"Red Hat Mono\", \"RedHatMono\", \"Courier New\", Courier, monospace"
         }
       }
     },
@@ -327,6 +327,28 @@
       "600": {
         "type": "number",
         "value": 1450
+      }
+    },
+    "text-decoration": {
+      "line": {
+        "100": {
+          "type": "string",
+          "value": "none"
+        },
+        "200": {
+          "type": "string",
+          "value": "underline"
+        }
+      },
+      "style": {
+        "100": {
+          "type": "string",
+          "value": "solid"
+        },
+        "200": {
+          "type": "string",
+          "value": "dashed"
+        }
       }
     }
   }
