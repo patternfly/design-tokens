@@ -1,5 +1,14 @@
 import React, { useMemo } from 'react';
-import { SearchInput, Title, Toolbar, ToolbarItem, ToolbarContent, capitalize } from '@patternfly/react-core';
+import {
+  Flex,
+  FlexItem,
+  SearchInput,
+  Title,
+  Toolbar,
+  ToolbarItem,
+  ToolbarContent,
+  capitalize
+} from '@patternfly/react-core';
 import {
   Table,
   Thead,
@@ -160,24 +169,18 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
             if (layerName === 'chart') {
               layerDataObj = { chart: layerDataObj };
             }
+            const isSemanticLayer = layerName === 'semantic';
             return (
               <>
                 <Title headingLevel="h2">{formatThemeText(layerName)} tokens</Title>
                 <Table variant="compact">
                   <Thead>
                     <Tr>
-                      <Th></Th>
-                      <Th>Name</Th>
-                      <Th>Category</Th>
-                      {themeKeys.map((theme) => (
-                        <Th key={theme}>{`${formatThemeText(theme)} Theme`}</Th>
-                      ))}
-                      <Th>Description</Th>
-                      {/* <Th>Category</Th>
-                      <Th>Type</Th>
-                      <Th>Item</Th>
-                      <Th>Subitem</Th>
-                      <Th>State</Th> */}
+                      <Th width={5}></Th>
+                      <Th width={isSemanticLayer ? 60 : 80}>Name</Th>
+                      {/* <Th>Category</Th> */}
+                      <Th width={isSemanticLayer ? 10 : 15}>Value</Th>
+                      {isSemanticLayer && <Th width={25}>Description</Th>}
                     </Tr>
                   </Thead>
                   {Object.entries(layerDataObj).map((layerDataProperties, _rowIndex) => {
@@ -233,31 +236,39 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                               <Td>
                                 <code>{tokenName}</code>
                               </Td>
-                              <Td>{categoryName}</Td>
-                              {themeKeys.map((theme) => {
-                                const val =
-                                  layerName === 'palette' || layerName === 'chart'
-                                    ? tokensByTheme[theme][layerName][tokenName]?.value
-                                    : tokensByTheme[theme][layerName][categoryName][tokenName]?.value;
-                                const hasValue = val !== undefined;
-                                return (
-                                  <Td key={`${theme}_${tokenName}`}>
-                                    <div className={`pf-v6-l-flex pf-m-space-items-sm`}>
-                                      {hasValue && isColorRegex.test(val) && (
-                                        <div
+                              {/* <Td>{categoryName}</Td> */}
+                              <Td>
+                                {themeKeys.map((theme) => {
+                                  const val =
+                                    layerName === 'palette' || layerName === 'chart'
+                                      ? tokensByTheme[theme][layerName][tokenName]?.value
+                                      : tokensByTheme[theme][layerName][categoryName][tokenName]?.value;
+                                  const hasValue = val !== undefined;
+                                  const isColor = isColorRegex.test(val);
+                                  return (
+                                    <Flex
+                                      justifyContent={{ default: 'justify-content-space-between' }}
+                                      flexWrap={{ default: 'nowrap' }}
+                                      key={`${theme}-${tokenName}`}
+                                    >
+                                      <FlexItem>{formatThemeText(theme)}:</FlexItem>
+                                      {hasValue && isColor && (
+                                        <FlexItem
                                           key={`${theme}_${tokenName}_swatch`}
                                           className="pf-v6-l-flex pf-m-column pf-m-align-self-center"
                                         >
                                           <span className="ws-token-swatch" style={{ backgroundColor: val }} />
+                                        </FlexItem>
+                                      )}
+                                      {!isColor && (
+                                        <div className="pf-v6-l-flex pf-m-column pf-m-align-self-center">
+                                          {hasValue ? val : '-'}
                                         </div>
                                       )}
-                                      <div className="pf-v6-l-flex pf-m-column pf-m-align-self-center">
-                                        {hasValue ? val : '-'}
-                                      </div>
-                                    </div>
-                                  </Td>
-                                );
-                              })}
+                                    </Flex>
+                                  );
+                                })}
+                              </Td>
                               <Td>{description}</Td>
                             </Tr>
                             {hasReferences && isTokenExpanded(tokenName) && (
