@@ -460,9 +460,11 @@
       },
       "weight": {
         "body": {
-          "description": "Use to define the default weight for body text",
-          "type": "number",
-          "value": "{global.font.weight.100}",
+          "default": {
+            "description": "Use to define the default weight for body text",
+            "type": "number",
+            "value": "{global.font.weight.100}"
+          },
           "bold": {
             "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
             "type": "number",
@@ -470,9 +472,11 @@
           }
         },
         "heading": {
-          "description": "Use to define the default weight for heading text",
-          "type": "number",
-          "value": "{global.font.weight.300}",
+          "default": {
+            "description": "Use to define the default weight for heading text",
+            "type": "number",
+            "value": "{global.font.weight.300}"
+          },
           "bold": {
             "description": "Use to define the bold weight for heading text, often used to add emphasis.",
             "type": "number",
