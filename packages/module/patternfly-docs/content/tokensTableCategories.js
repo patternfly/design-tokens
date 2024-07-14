@@ -2,6 +2,8 @@ import React, { useMemo } from 'react';
 import {
   Flex,
   FlexItem,
+  Grid,
+  GridItem,
   SearchInput,
   Title,
   Toolbar,
@@ -95,7 +97,7 @@ const showTokenChain = (themeTokenData) => {
         <div
           key={`${index}`}
           style={{
-            padding: `4px 0 4px ${global_spacer_md.value}`
+            padding: `4px 0 4px calc(${global_spacer_md.value} * ${index})`
           }}
         >
           <LevelUpAltIcon style={{ transform: 'rotate(90deg)' }} />
@@ -162,7 +164,7 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
       </Toolbar>
       <OuterScrollContainer>
         <InnerScrollContainer>
-          {Object.entries(allTokens).map(([layerName, layerDataObj], rowIndex) => {
+          {Object.entries(allTokens).map(([layerName, layerDataObj], _rowIndex) => {
             if (layerName === 'palette') {
               layerDataObj = { palette: layerDataObj };
             }
@@ -173,12 +175,12 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
             return (
               <>
                 <Title headingLevel="h2">{formatThemeText(layerName)} tokens</Title>
-                <Table variant="compact">
+                <Table variant="compact" style={{ marginInlineEnd: `var(pf-t--global--spacer--lg)` }}>
                   <Thead>
                     <Tr>
+                      {/* Only semantic tokens have description, adjust columns accordingly */}
                       <Th width={5}></Th>
                       <Th width={isSemanticLayer ? 60 : 80}>Name</Th>
-                      {/* <Th>Category</Th> */}
                       <Th width={isSemanticLayer ? 10 : 15}>Value</Th>
                       {isSemanticLayer && <Th width={25}>Description</Th>}
                     </Tr>
@@ -191,6 +193,7 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                       if (tokenName === 'default') {
                         return undefined;
                       } else if (
+                        // Match search value to any token name/value in token chain or to description
                         searchValue !== '' &&
                         !(
                           tokenName.toLowerCase().includes(searchTerm) ||
@@ -236,7 +239,6 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                               <Td>
                                 <code>{tokenName}</code>
                               </Td>
-                              {/* <Td>{categoryName}</Td> */}
                               <Td>
                                 {themeKeys.map((theme) => {
                                   const val =
@@ -262,7 +264,7 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                                       )}
                                       {!isColor && (
                                         <div className="pf-v6-l-flex pf-m-column pf-m-align-self-center">
-                                          {hasValue ? val : '-'}
+                                          {hasValue ? val : '--'}
                                         </div>
                                       )}
                                     </Flex>
@@ -274,24 +276,21 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                             {hasReferences && isTokenExpanded(tokenName) && (
                               <Tr isExpanded>
                                 <Td />
-                                <Td />
-                                <Td />
-                                {themeKeys.map((theme) => {
-                                  return (
-                                    <Td
-                                      key={`${tokenName}-${theme}-token-chain`}
-                                      noPadding
-                                      dataLabel="Details"
-                                      colSpan={1}
-                                    >
-                                      {themesDataObj.hasOwnProperty(theme) && (
-                                        <ExpandableRowContent>
-                                          {showTokenChain(themesDataObj[theme])}
-                                        </ExpandableRowContent>
+                                <Td colSpan={3}>
+                                  <ExpandableRowContent>
+                                    <Grid hasGutter>
+                                      {themeKeys.map(
+                                        (theme) =>
+                                          themesDataObj.hasOwnProperty(theme) && (
+                                            <>
+                                              <GridItem span={2}>{formatThemeText(theme)}:</GridItem>
+                                              <GridItem span={10}>{showTokenChain(themesDataObj[theme])}</GridItem>
+                                            </>
+                                          )
                                       )}
-                                    </Td>
-                                  );
-                                })}
+                                    </Grid>
+                                  </ExpandableRowContent>
+                                </Td>
                               </Tr>
                             )}
                           </Tbody>
