@@ -175,7 +175,7 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
             return (
               <>
                 <Title headingLevel="h2">{formatThemeText(layerName)} tokens</Title>
-                <Table variant="compact" style={{ marginInlineEnd: `var(pf-t--global--spacer--lg)` }}>
+                <Table variant="compact" style={{ marginBlockEnd: `var(--pf-t--global--spacer--xl)` }}>
                   <Thead>
                     <Tr>
                       {/* Only semantic tokens have description, adjust columns accordingly */}
