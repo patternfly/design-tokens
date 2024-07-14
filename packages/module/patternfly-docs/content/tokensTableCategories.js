@@ -224,6 +224,7 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                         return (
                           <Tbody key={`row-${tokenName}`} isExpanded={isTokenExpanded(tokenName)}>
                             <Tr>
+                              {/* Expandable row icon */}
                               <Td
                                 expand={
                                   hasReferences
@@ -239,6 +240,7 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                               <Td>
                                 <code>{tokenName}</code>
                               </Td>
+                              {/* Token values for each theme */}
                               <Td>
                                 {themeKeys.map((theme) => {
                                   const val =
@@ -254,15 +256,16 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                                       key={`${theme}-${tokenName}`}
                                     >
                                       <FlexItem>{formatThemeText(theme)}:</FlexItem>
-                                      {hasValue && isColor && (
-                                        <FlexItem
-                                          key={`${theme}_${tokenName}_swatch`}
-                                          className="pf-v6-l-flex pf-m-column pf-m-align-self-center"
-                                        >
-                                          <span className="ws-token-swatch" style={{ backgroundColor: val }} />
-                                        </FlexItem>
-                                      )}
-                                      {!isColor && (
+                                      {isColor ? (
+                                        hasValue && (
+                                          <FlexItem
+                                            key={`${theme}_${tokenName}_swatch`}
+                                            className="pf-v6-l-flex pf-m-column pf-m-align-self-center"
+                                          >
+                                            <span className="ws-token-swatch" style={{ backgroundColor: val }} />
+                                          </FlexItem>
+                                        )
+                                      ) : (
                                         <div className="pf-v6-l-flex pf-m-column pf-m-align-self-center">
                                           {hasValue ? val : '--'}
                                         </div>
@@ -273,6 +276,8 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                               </Td>
                               <Td>{description}</Td>
                             </Tr>
+
+                            {/* Expandable token chain */}
                             {hasReferences && isTokenExpanded(tokenName) && (
                               <Tr isExpanded>
                                 <Td />
