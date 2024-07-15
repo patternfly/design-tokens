@@ -197,7 +197,6 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                 <SelectOption hasCheckbox key={0} value="colors" isSelected={selectedCategories.includes('colors')}>
                   Colors
                 </SelectOption>
-                ,
                 <SelectOption
                   hasCheckbox
                   key={1}
@@ -206,15 +205,12 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                 >
                   Dimension
                 </SelectOption>
-                ,
                 <SelectOption hasCheckbox key={2} value="motion" isSelected={selectedCategories.includes('motion')}>
                   Motion
                 </SelectOption>
-                ,
                 <SelectOption hasCheckbox key={3} value="palette" isSelected={selectedCategories.includes('palette')}>
                   Palette
                 </SelectOption>
-                ,
                 <SelectOption hasCheckbox key={4} value="chart" isSelected={selectedCategories.includes('chart')}>
                   Chart
                 </SelectOption>
