@@ -4,7 +4,11 @@ import {
   FlexItem,
   Grid,
   GridItem,
+  MenuToggle,
   SearchInput,
+  Select,
+  SelectList,
+  SelectOption,
   Title,
   Toolbar,
   ToolbarItem,
@@ -27,6 +31,7 @@ import './tokensTable.css';
 // eslint-disable-next-line camelcase
 import global_spacer_md from '@patternfly/react-tokens/dist/esm/global_spacer_md';
 import LevelUpAltIcon from '@patternfly/react-icons/dist/esm/icons/level-up-alt-icon';
+import FilterIcon from '@patternfly/react-icons/dist/esm/icons/filter-icon';
 
 const isColorRegex = /^(#|rgb)/;
 
@@ -139,6 +144,8 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
 
   const [searchValue, setSearchValue] = React.useState('');
   const [expandedTokens, setExpandedTokens] = React.useState([]);
+  const [isSelectOpen, setIsSelectOpen] = React.useState(false);
+  const [selectedCategories, setSelectedCategories] = React.useState([]);
   const setExpanded = (tokenName, isExpanding = true) =>
     setExpandedTokens((prevExpanded) => {
       const otherExpandedTokens = prevExpanded.filter((n) => n !== tokenName);
@@ -159,6 +166,60 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
               onChange={(_event, value) => setSearchValue(value)}
               onClear={() => setSearchValue('')}
             />
+          </ToolbarItem>
+          <ToolbarItem>
+            <Select
+              id="select-tokens-category"
+              aria-label="Select Input"
+              role="menu"
+              toggle={(toggleRef) => (
+                <MenuToggle
+                  icon={<FilterIcon />}
+                  ref={toggleRef}
+                  onClick={() => setIsSelectOpen(!isSelectOpen)}
+                  isExpanded={isSelectOpen}
+                >
+                  Category
+                </MenuToggle>
+              )}
+              isOpen={isSelectOpen}
+              onOpenChange={(isOpen) => setIsSelectOpen(isOpen)}
+              onSelect={(_e, category) => {
+                if (selectedCategories.includes(category)) {
+                  setSelectedCategories(selectedCategories.filter((cat) => cat !== category));
+                } else {
+                  setSelectedCategories([...selectedCategories, category]);
+                }
+                setIsSelectOpen(!isSelectOpen);
+              }}
+            >
+              <SelectList>
+                <SelectOption hasCheckbox key={0} value="colors" isSelected={selectedCategories.includes('colors')}>
+                  Colors
+                </SelectOption>
+                ,
+                <SelectOption
+                  hasCheckbox
+                  key={1}
+                  value="dimension"
+                  isSelected={selectedCategories.includes('dimension')}
+                >
+                  Dimension
+                </SelectOption>
+                ,
+                <SelectOption hasCheckbox key={2} value="motion" isSelected={selectedCategories.includes('motion')}>
+                  Motion
+                </SelectOption>
+                ,
+                <SelectOption hasCheckbox key={3} value="palette" isSelected={selectedCategories.includes('palette')}>
+                  Palette
+                </SelectOption>
+                ,
+                <SelectOption hasCheckbox key={4} value="chart" isSelected={selectedCategories.includes('chart')}>
+                  Chart
+                </SelectOption>
+              </SelectList>
+            </Select>
           </ToolbarItem>
         </ToolbarContent>
       </Toolbar>
@@ -204,6 +265,8 @@ export const TokensTableCategories = ({ tokenJson, formatThemeText = capitalize 
                           )
                         )
                       ) {
+                        return undefined;
+                      } else if (selectedCategories.length !== 0 && !selectedCategories.includes(categoryName)) {
                         return undefined;
                       } else {
                         const themesDataArr = Object.entries(themesDataObj);
