@@ -186,9 +186,14 @@
             "value": "{global.spacer.xs}"
           },
           "plain": {
-            "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles.",
+            "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles and plain buttons.",
             "type": "number",
             "value": "{global.spacer.sm}"
+          },
+          "spacious": {
+            "description": "Use to set the vertical padding inside a large/display controls. This is used across buttons, text inputs, menu toggles, etc.",
+            "type": "number",
+            "value": "{global.spacer.md}"
           }
         },
         "horizontal": {
@@ -222,9 +227,11 @@
             "value": "{global.spacer.lg}"
           },
           "plain": {
-            "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
-            "type": "number",
-            "value": "{global.spacer.sm}",
+            "default": {
+              "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
+              "type": "number",
+              "value": "{global.spacer.sm}"
+            },
             "compact": {
               "description": "Use to set the horizontal padding inside a compact, plain action/button.",
               "type": "number",
@@ -240,18 +247,6 @@
             "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
             "type": "number",
             "value": "{global.spacer.xl}"
-          }
-        },
-        "vertical": {
-          "compact": {
-            "description": "Use to set the vertical padding inside a compact action, like compact buttons.",
-            "type": "number",
-            "value": "{global.spacer.xs}"
-          },
-          "spacious": {
-            "description": "Use to set the vertical padding inside a large/display action, like CTAs.",
-            "type": "number",
-            "value": "{global.spacer.md}"
           }
         }
       },
