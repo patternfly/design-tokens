@@ -919,11 +919,11 @@
         "line": {
           "default": {
             "type": "number",
-            "value": "{global.text-decoration.style.200}"
+            "value": "{global.text-decoration.line.200}"
           },
           "hover": {
             "type": "number",
-            "value": "{global.text-decoration.style.200}"
+            "value": "{global.text-decoration.line.200}"
           }
         },
         "style": {
