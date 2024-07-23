@@ -214,6 +214,47 @@
           }
         }
       },
+      "action": {
+        "horizontal": {
+          "default": {
+            "description": "Use to set the horizontal padding inside a default action, like buttons.",
+            "type": "number",
+            "value": "{global.spacer.lg}"
+          },
+          "plain": {
+            "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
+            "type": "number",
+            "value": "{global.spacer.sm}",
+            "compact": {
+              "description": "Use to set the horizontal padding inside a compact, plain action/button.",
+              "type": "number",
+              "value": "{global.spacer.xs}"
+            }
+          },
+          "compact": {
+            "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "spacious": {
+            "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
+            "type": "number",
+            "value": "{global.spacer.xl}"
+          }
+        },
+        "vertical": {
+          "compact": {
+            "description": "Use to set the vertical padding inside a compact action, like compact buttons.",
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          },
+          "spacious": {
+            "description": "Use to set the vertical padding inside a large/display action, like CTAs.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          }
+        }
+      },
       "gap": {
         "text-to-element": {
           "default": {
@@ -266,45 +307,16 @@
           }
         }
       },
-      "action": {
-        "horizontal": {
-          "default": {
-            "description": "Use to set the horizontal padding inside a default action, like buttons.",
-            "type": "number",
-            "value": "{global.spacer.lg}"
-          },
-          "plain": {
-            "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
-            "type": "number",
-            "value": "{global.spacer.sm}",
-            "compact": {
-              "description": "Use to set the horizontal padding inside a compact, plain action/button.",
-              "type": "number",
-              "value": "{global.spacer.xs}"
-            }
-          },
-          "compact": {
-            "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
-            "type": "number",
-            "value": "{global.spacer.md}"
-          },
-          "spacious": {
-            "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
-            "type": "number",
-            "value": "{global.spacer.xl}"
-          }
-        },
-        "vertical": {
-          "compact": {
-            "description": "Use to set the vertical padding inside a compact action, like compact buttons.",
-            "type": "number",
-            "value": "{global.spacer.xs}"
-          },
-          "spacious": {
-            "description": "Use to set the vertical padding inside a large/display action, like CTAs.",
-            "type": "number",
-            "value": "{global.spacer.md}"
-          }
+      "inset": {
+        "page-chrome": {
+          "type": "number",
+          "value": "{global.spacer.lg}"
+        }
+      },
+      "gutter": {
+        "default": {
+          "type": "number",
+          "value": "{global.spacer.md}"
         }
       }
     },
@@ -335,12 +347,24 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
-        },
         "font": {
+          "body": {
+            "sm": {
+              "description": "Use for icons that are placed inline with small body text",
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "description": "Use for icons that are placed inline with default body text",
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "description": "Use for icons that are placed inline with large body text",
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
+            }
+          },
           "heading": {
             "h1": {
               "description": "Use for icons that are placed inline with first level headings",
@@ -371,23 +395,6 @@
               "description": "Use for icons that are placed inline with sixth level headings",
               "type": "number",
               "value": "{global.font.size.heading.h6}"
-            }
-          },
-          "body": {
-            "sm": {
-              "description": "Use for icons that are placed inline with small body text",
-              "type": "number",
-              "value": "{global.font.size.body.sm}"
-            },
-            "default": {
-              "description": "Use for icons that are placed inline with default body text",
-              "type": "number",
-              "value": "{global.font.size.body.default}"
-            },
-            "lg": {
-              "description": "Use for icons that are placed inline with large body text",
-              "type": "number",
-              "value": "{global.font.size.body.lg}"
             }
           },
           "xs": {
@@ -430,15 +437,34 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
+        },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
         }
       }
     },
     "font": {
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
+        }
+      },
       "weight": {
         "body": {
-          "description": "Use to define the default weight for body text",
-          "type": "number",
-          "value": "{global.font.weight.100}",
+          "default": {
+            "description": "Use to define the default weight for body text",
+            "type": "number",
+            "value": "{global.font.weight.100}"
+          },
           "bold": {
             "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
             "type": "number",
@@ -446,26 +472,16 @@
           }
         },
         "heading": {
-          "description": "Use to define the default weight for heading text",
-          "type": "number",
-          "value": "{global.font.weight.300}",
+          "default": {
+            "description": "Use to define the default weight for heading text",
+            "type": "number",
+            "value": "{global.font.weight.300}"
+          },
           "bold": {
             "description": "Use to define the bold weight for heading text, often used to add emphasis.",
             "type": "number",
             "value": "{global.font.weight.400}"
           }
-        }
-      },
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
         }
       },
       "family": {
@@ -578,26 +594,32 @@
     },
     "z-index": {
       "xs": {
+        "description": "Use to set an extra small z-index, to display an element below other elements with a larger z-index. Use for smaller parts of a component that need to overlap adjacent elements, like box shadows of hovered elements.",
         "type": "number",
         "value": "{global.z-index.100}"
       },
       "sm": {
+        "description": "Use to set a small z-index, to display an element above other elements with smaller z-indexes. Use for components that need to appear above surrounding elements, like menus/dropdowns.",
         "type": "number",
         "value": "{global.z-index.200}"
       },
       "md": {
+        "description": "Use to set a medium z-index, to display an element above other elements with smaller z-indexes Use for sticky elements, like banners and page sections.",
         "type": "number",
         "value": "{global.z-index.300}"
       },
       "lg": {
+        "description": "Use to set a large z-index, to display an element above other elements with smaller z-indexes Use for the backdrop component, which appears beneath an open modal.",
         "type": "number",
         "value": "{global.z-index.400}"
       },
       "xl": {
+        "description": "Use to set an extra large z-index, to display an element above other elements with smaller z-indexes. Use for modals.",
         "type": "number",
         "value": "{global.z-index.500}"
       },
       "2xl": {
+        "description": "Use to set a double extra large z-index, to display an element above all other page elements. Use for elements that should appear on top of all others, like toast alert groups.",
         "type": "number",
         "value": "{global.z-index.600}"
       }
@@ -860,6 +882,86 @@
           "description": "Use to define an extra small height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
           "type": "number",
           "value": "{global.breakpoint.550}"
+        }
+      }
+    },
+    "text-decoration": {
+      "width": {
+        "default": {
+          "type": "number",
+          "value": "{global.border.width.regular}"
+        }
+      },
+      "offset": {
+        "default": {
+          "type": "number",
+          "value": "{global.spacer.xs}"
+        }
+      },
+      "editable-text": {
+        "line": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          }
+        },
+        "style": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          }
+        }
+      },
+      "link": {
+        "line": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          }
+        },
+        "style": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.style.100}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.style.100}"
+          }
+        }
+      },
+      "help-text": {
+        "line": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          }
+        },
+        "style": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          }
         }
       }
     }

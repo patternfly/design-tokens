@@ -7,34 +7,34 @@
           "default": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.dark.background.color.100}"
           },
           "hover": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.200}"
           },
           "clicked": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.200}"
           }
         },
         "secondary": {
           "default": {
             "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
             "type": "color",
-            "value": "{global.dark.background.color.100}"
+            "value": "{global.dark.background.color.200}"
           },
           "hover": {
             "description": "Use as the hover state for secondary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           },
           "clicked": {
             "description": "Use as the clicked state for secondary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           }
         },
         "floating": {
@@ -142,7 +142,7 @@
         "clicked": {
           "description": "Use as the clicked state for elements that have a brand background color",
           "type": "color",
-          "value": "{global.dark.color.brand.200}"
+          "value": "{global.dark.color.brand.300}"
         }
       },
       "favorite": {
@@ -594,17 +594,17 @@
             "default": {
               "description": "Use as the default color for icons that are placed on a danger background color and/or are paired with on-danger colored text",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a danger background color and/or are paired with on-danger colored text",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a danger background color and/or are paired with on-danger colored text",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             }
           },
           "info": {
@@ -697,17 +697,17 @@
               "default": {
                 "description": "Use as the default color for icons that are placed in and/or are paired with elements that convey an unread status and require greater attention like badges and stateful buttons.",
                 "type": "color",
-                "value": "{global.icon.color.inverse}"
+                "value": "{global.icon.color.regular}"
               },
               "hover": {
                 "description": "Use as the hover state color for icons that are placed in and/or are paired with elements that convey an unread status and require greater attention like badges and stateful buttons.",
                 "type": "color",
-                "value": "{global.icon.color.inverse}"
+                "value": "{global.icon.color.regular}"
               },
               "clicked": {
                 "description": "Use as the clicked state color for icons that are placed in and/or are paired with elements that convey an unread status and require greater attention like badges and stateful buttons.",
                 "type": "color",
-                "value": "{global.icon.color.inverse}"
+                "value": "{global.icon.color.regular}"
               }
             }
           }
@@ -1408,17 +1408,17 @@
             "default": {
               "description": "Use as the default color for text that is placed on a danger background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a danger background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a danger background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             }
           },
           "info": {
@@ -1511,17 +1511,17 @@
               "default": {
                 "description": "Use as the default color for text that is placed in elements that convey an unread status and require greater attention like badges and stateful buttons.",
                 "type": "color",
-                "value": "{global.text.color.inverse}"
+                "value": "{global.text.color.regular}"
               },
               "hover": {
                 "description": "Use as the hover state color for text that is placed in elements that convey an unread status and require greater attention like badges and stateful buttons.",
                 "type": "color",
-                "value": "{global.text.color.inverse}"
+                "value": "{global.text.color.regular}"
               },
               "clicked": {
                 "description": "Use as the clicked state color for text that is placed in elements that convey an unread status and require greater attention like badges and stateful buttons.",
                 "type": "color",
-                "value": "{global.text.color.inverse}"
+                "value": "{global.text.color.regular}"
               }
             }
           }
