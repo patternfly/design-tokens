@@ -132,12 +132,12 @@
         "default": {
           "description": "Use this color for elements that you want to reinforce your brand",
           "type": "color",
-          "value": "{global.color.brand.200}"
+          "value": "{global.color.brand.100}"
         },
         "hover": {
           "description": "Use as the hover state for elements that have a branded background color",
           "type": "color",
-          "value": "{global.color.brand.300}"
+          "value": "{global.color.brand.200}"
         },
         "clicked": {
           "description": "Use as the clicked state for elements that have a brand background color",
@@ -177,7 +177,7 @@
           "clicked": {
             "description": "Use as the clicked state for any element that conveys a success status.",
             "type": "color",
-            "value": "{global.color.status.success.200}"
+            "value": "{global.color.status.success.300}"
           }
         },
         "warning": {
@@ -194,7 +194,7 @@
           "clicked": {
             "description": "Use as the clicked state for any element that conveys a warning status.",
             "type": "color",
-            "value": "{global.color.status.warning.200}"
+            "value": "{global.color.status.warning.300}"
           }
         },
         "danger": {
@@ -211,7 +211,7 @@
           "clicked": {
             "description": "Use as the clicked state for any element that conveys a danger status.",
             "type": "color",
-            "value": "{global.color.status.danger.200}"
+            "value": "{global.color.status.danger.300}"
           }
         },
         "info": {
@@ -228,7 +228,7 @@
           "clicked": {
             "description": "Use as the clicked state for any element that conveys an info status.",
             "type": "color",
-            "value": "{global.color.status.info.200}"
+            "value": "{global.color.status.info.300}"
           }
         },
         "custom": {
@@ -245,7 +245,7 @@
           "clicked": {
             "description": "Use as the clicked state color for any element that conveys a generic status with no associated severity. This color can be customized.",
             "type": "color",
-            "value": "{global.color.status.custom.200}"
+            "value": "{global.color.status.custom.300}"
           }
         },
         "unread": {
@@ -560,17 +560,17 @@
             "default": {
               "description": "Use as the default color for icons that are placed on a warning background color and/or are paired with on-warning colored text",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a warning background color and/or are paired with on-warning colored text",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the hover state color for icons that are placed on a warning background color and/or are paired with on-warning colored text",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "danger": {
@@ -1374,17 +1374,17 @@
             "default": {
               "description": "Use as the default color for text that is placed on a warning background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a warning background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a warning background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "danger": {
