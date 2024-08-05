@@ -3,12 +3,8 @@ section: tokens
 id: All PatternFly tokens
 ---
 
-
-import * as defaultTokens from './semantic-tokens-default.json';
-import * as darkTokens from './semantic-tokens-dark.json';
+import * as defaultTokens from './token-layers-default.json';
+import * as darkTokens from './token-layers-dark.json';
 import { TokensTable } from './tokensTable.js';
-import { TokensTableCategories } from './tokensTableCategories.js';
 
-<!-- <TokensTable tokenJson={{default: defaultTokens, dark: darkTokens}} /> -->
-
-<TokensTableCategories tokenJson={{default: defaultTokens, dark: darkTokens}} />
+<TokensTable tokenJson={{default: defaultTokens, dark: darkTokens}} />

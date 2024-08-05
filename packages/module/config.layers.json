@@ -1,6 +1,5 @@
 {
-  "include": ["tokens/default/*.json"],
-  "source": ["tokens/dark/*.json"],
+  "source": ["tokens/default/*.json"],
   "platforms": {
     "json/default": {
       "transformGroup": "patternfly/css",
@@ -8,7 +7,7 @@
       "prefix": "pf-t",
       "files": [
         {
-          "destination": "semantic-tokens-dark.json",
+          "destination": "token-layers-default.json",
           "format": "json/flat-categories",
           "options": {
             "outputReferences": false

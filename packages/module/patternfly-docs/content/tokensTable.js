@@ -1,5 +1,20 @@
 import React, { useMemo } from 'react';
-import { SearchInput, Toolbar, ToolbarItem, ToolbarContent, capitalize } from '@patternfly/react-core';
+import {
+  Flex,
+  FlexItem,
+  Grid,
+  GridItem,
+  MenuToggle,
+  SearchInput,
+  Select,
+  SelectList,
+  SelectOption,
+  Title,
+  Toolbar,
+  ToolbarItem,
+  ToolbarContent,
+  capitalize
+} from '@patternfly/react-core';
 import {
   Table,
   Thead,
@@ -11,13 +26,17 @@ import {
   OuterScrollContainer,
   InnerScrollContainer
 } from '@patternfly/react-table';
+import './tokensTable.css';
 
 // eslint-disable-next-line camelcase
 import global_spacer_md from '@patternfly/react-tokens/dist/esm/global_spacer_md';
 import LevelUpAltIcon from '@patternfly/react-icons/dist/esm/icons/level-up-alt-icon';
+import FilterIcon from '@patternfly/react-icons/dist/esm/icons/filter-icon';
+
+const isColorRegex = /^(#|rgb)/;
 
 // Used to combine data grouped by theme under each token name
-const combineObjects = (objectsArr) => {
+const combineObjects = (parentObject) => {
   let combined = {};
   const addToCombined = (obj, objName) => {
     for (let key in obj) {
@@ -29,11 +48,35 @@ const combineObjects = (objectsArr) => {
       }
     }
   };
-  Object.entries(objectsArr).forEach(([key, value]) => {
+  Object.entries(parentObject).forEach(([key, value]) => {
     addToCombined(value, key);
   });
 
   return combined;
+};
+
+const combineTokens = (tokensObj, tokensByTheme) => {
+  Object.entries(tokensObj).map(([layerName, layerObj]) => {
+    // ['chart', {}]
+    const layerCategories = Object.keys(layerObj); // []
+    if (layerCategories.length > 0) {
+      Object.keys(layerObj).map((layerCategory) => {
+        const layerCategoryByTheme = Object.entries(tokensByTheme).reduce((acc, [themeName, themeData]) => {
+          acc[themeName] = themeData[layerName][layerCategory];
+          return acc;
+        }, {});
+        tokensObj[layerName][layerCategory] = combineObjects(layerCategoryByTheme);
+      });
+    } else {
+      const layerByTheme = Object.entries(tokensByTheme).reduce((acc, [themeName, themeData]) => {
+        // ['dark', {'palette': { ... }, 'chart': { ... } }]
+        acc[themeName] = themeData[layerName]; // {'dark': { ...chart data } }
+        return acc;
+      }, {});
+      tokensObj[layerName] = combineObjects(layerByTheme);
+    }
+  });
+  return tokensObj;
 };
 
 const getTokenChain = (themeTokenData) => {
@@ -59,7 +102,7 @@ const showTokenChain = (themeTokenData) => {
         <div
           key={`${index}`}
           style={{
-            padding: `4px 0 4px ${global_spacer_md.value}`
+            padding: `4px 0 4px calc(${global_spacer_md.value} * ${index})`
           }}
         >
           <LevelUpAltIcon style={{ transform: 'rotate(90deg)' }} />
@@ -71,6 +114,20 @@ const showTokenChain = (themeTokenData) => {
 };
 
 export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
+  const combinedTokensObj = {
+    semantic: {
+      colors: {},
+      dimension: {},
+      motion: {}
+    },
+    base: {
+      colors: {},
+      dimension: {},
+      motion: {}
+    },
+    palette: {},
+    chart: {}
+  };
   // combine all themes/tokens into one object
   const themeKeys = Object.keys(tokenJson);
   const tokensByTheme = useMemo(
@@ -83,9 +140,12 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
       }, {}),
     [tokenJson]
   );
-  const combinedTokens = combineObjects(tokensByTheme);
+  const allTokens = combineTokens(combinedTokensObj, tokensByTheme);
+
   const [searchValue, setSearchValue] = React.useState('');
   const [expandedTokens, setExpandedTokens] = React.useState([]);
+  const [isSelectOpen, setIsSelectOpen] = React.useState(false);
+  const [selectedCategories, setSelectedCategories] = React.useState([]);
   const setExpanded = (tokenName, isExpanding = true) =>
     setExpandedTokens((prevExpanded) => {
       const otherExpandedTokens = prevExpanded.filter((n) => n !== tokenName);
@@ -107,111 +167,205 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
               onClear={() => setSearchValue('')}
             />
           </ToolbarItem>
+          <ToolbarItem>
+            <Select
+              id="select-tokens-category"
+              aria-label="Select Input"
+              role="menu"
+              toggle={(toggleRef) => (
+                <MenuToggle
+                  icon={<FilterIcon />}
+                  ref={toggleRef}
+                  onClick={() => setIsSelectOpen(!isSelectOpen)}
+                  isExpanded={isSelectOpen}
+                >
+                  Category
+                </MenuToggle>
+              )}
+              isOpen={isSelectOpen}
+              onOpenChange={(isOpen) => setIsSelectOpen(isOpen)}
+              onSelect={(_e, category) => {
+                if (selectedCategories.includes(category)) {
+                  setSelectedCategories(selectedCategories.filter((cat) => cat !== category));
+                } else {
+                  setSelectedCategories([...selectedCategories, category]);
+                }
+                setIsSelectOpen(!isSelectOpen);
+              }}
+            >
+              <SelectList>
+                <SelectOption hasCheckbox key={0} value="colors" isSelected={selectedCategories.includes('colors')}>
+                  Colors
+                </SelectOption>
+                <SelectOption
+                  hasCheckbox
+                  key={1}
+                  value="dimension"
+                  isSelected={selectedCategories.includes('dimension')}
+                >
+                  Dimension
+                </SelectOption>
+                <SelectOption hasCheckbox key={2} value="motion" isSelected={selectedCategories.includes('motion')}>
+                  Motion
+                </SelectOption>
+                <SelectOption hasCheckbox key={3} value="palette" isSelected={selectedCategories.includes('palette')}>
+                  Palette
+                </SelectOption>
+                <SelectOption hasCheckbox key={4} value="chart" isSelected={selectedCategories.includes('chart')}>
+                  Chart
+                </SelectOption>
+              </SelectList>
+            </Select>
+          </ToolbarItem>
         </ToolbarContent>
       </Toolbar>
       <OuterScrollContainer>
         <InnerScrollContainer>
-          <Table variant="compact">
-            <Thead>
-              <Tr>
-                <Th></Th>
-                <Th>Name</Th>
-                {themeKeys.map((theme) => (
-                  <Th key={theme}>{`${formatThemeText(theme)} Theme`}</Th>
-                ))}
-                <Th>Description</Th>
-                {/* <Th>Category</Th>
-                <Th>Type</Th>
-                <Th>Item</Th>
-                <Th>Subitem</Th>
-                <Th>State</Th> */}
-              </Tr>
-            </Thead>
-            {Object.entries(combinedTokens).map(([tokenName, themesDataObj], rowIndex) => {
-              const searchTerm = searchValue.toLowerCase();
-              console.log({ themesDataObj });
-              if (tokenName === 'default') {
-                return undefined;
-              } else if (
-                searchValue !== '' &&
-                !(
-                  tokenName.toLowerCase().includes(searchTerm) ||
-                  Object.entries(themesDataObj).some(
-                    ([themeName, themeData]) =>
-                      themeData?.value?.toString().toLowerCase().includes(searchTerm) ||
-                      themeData?.description?.toLowerCase().includes(searchTerm)
-                  )
-                )
-              ) {
-                return undefined;
-              } else {
-                const themesDataArr = Object.entries(themesDataObj);
-
-                let hasReferences = false;
-                let description = null;
-                // let attributes = [];
-                themesDataArr.map(([_themeName, themeTokenData]) => {
-                  // if references values exists anywhere, set isNotResolved to true
-                  if (!hasReferences && themeTokenData.references !== undefined) {
-                    hasReferences = true;
-                  }
-                  // Save description first time found - shared across themes
-                  if (!description && themeTokenData.description) {
-                    description = themeTokenData.description;
-                  }
-
-                  /*
-                  // Track all attributes for dynamically creating table columns
-                  const attributeEntries = Object.entries(themeTokenData.attributes);
-                  attributes = new Set([...attributes, ...attributeEntries]);
-                  attributes = Array.from(attributes).map((value) => [value, value]);
-                  // console.log({ attributes });
-                  */
-                });
-
-                return (
-                  <Tbody key={`row-${tokenName}`} isExpanded={isTokenExpanded(tokenName)}>
+          {Object.entries(allTokens).map(([layerName, layerDataObj], _rowIndex) => {
+            if (layerName === 'palette') {
+              layerDataObj = { palette: layerDataObj };
+            }
+            if (layerName === 'chart') {
+              layerDataObj = { chart: layerDataObj };
+            }
+            const isSemanticLayer = layerName === 'semantic';
+            return (
+              <>
+                <Title headingLevel="h2">{formatThemeText(layerName)} tokens</Title>
+                <Table variant="compact" style={{ marginBlockEnd: `var(--pf-t--global--spacer--xl)` }}>
+                  <Thead>
                     <Tr>
-                      <Td
-                        expand={
-                          hasReferences
-                            ? {
-                                rowIndex,
-                                isExpanded: isTokenExpanded(tokenName),
-                                onToggle: () => setExpanded(tokenName, !isTokenExpanded(tokenName)),
-                                expandId: `${tokenName}-expandable-toggle`
-                              }
-                            : undefined
-                        }
-                      />
-                      <Td>
-                        <code>{tokenName}</code>
-                      </Td>
-                      {themeKeys.map((theme) => (
-                        <Td key={`${theme}_${tokenName}`}>{tokensByTheme[theme][tokenName]?.value ?? '-'}</Td>
-                      ))}
-                      <Td>{description}</Td>
-                      {/* {attributes.map(([key, val]) => {
-                        console.log({ key, val });
-                        return <Td>{val}</Td>;
-                      })} */}
+                      {/* Only semantic tokens have description, adjust columns accordingly */}
+                      <Th width={5}></Th>
+                      <Th width={isSemanticLayer ? 60 : 80}>Name</Th>
+                      <Th width={isSemanticLayer ? 10 : 15}>Value</Th>
+                      {isSemanticLayer && <Th width={25}>Description</Th>}
                     </Tr>
-                    {hasReferences && (
-                      <Tr isExpanded={isTokenExpanded(tokenName)}>
-                        <Td />
-                        <Td />
-                        {themesDataArr.map(([themeName, themeTokenData]) => (
-                          <Td key={`${tokenName}-${themeName}-token-chain`} noPadding dataLabel="Details" colSpan={1}>
-                            <ExpandableRowContent>{showTokenChain(themeTokenData)}</ExpandableRowContent>
-                          </Td>
-                        ))}
-                      </Tr>
-                    )}
-                  </Tbody>
-                );
-              }
-            })}
-          </Table>
+                  </Thead>
+                  {Object.entries(layerDataObj).map((layerDataProperties, _rowIndex) => {
+                    let [categoryName, categoryDataObj] = layerDataProperties;
+
+                    return Object.entries(categoryDataObj).map(([tokenName, themesDataObj], rowIndex) => {
+                      const searchTerm = searchValue.toLowerCase();
+                      if (tokenName === 'default') {
+                        return undefined;
+                      } else if (
+                        // Match search value to any token name/value in token chain or to description
+                        searchValue !== '' &&
+                        !(
+                          tokenName.toLowerCase().includes(searchTerm) ||
+                          Object.entries(themesDataObj).some(
+                            ([_themeName, themeData]) =>
+                              themeData?.value?.toString().toLowerCase().includes(searchTerm) ||
+                              themeData?.description?.toLowerCase().includes(searchTerm)
+                          )
+                        )
+                      ) {
+                        return undefined;
+                      } else if (selectedCategories.length !== 0 && !selectedCategories.includes(categoryName)) {
+                        return undefined;
+                      } else {
+                        const themesDataArr = Object.entries(themesDataObj);
+
+                        let hasReferences = false;
+                        let description = null;
+                        themesDataArr.map(([_themeName, themeTokenData]) => {
+                          // if references values exists anywhere, set isNotResolved to true
+                          if (!hasReferences && themeTokenData.references !== undefined) {
+                            hasReferences = true;
+                          }
+                          // Save description first time found - shared across themes
+                          if (!description && themeTokenData.description) {
+                            description = themeTokenData.description;
+                          }
+                        });
+
+                        return (
+                          <Tbody key={`row-${tokenName}`} isExpanded={isTokenExpanded(tokenName)}>
+                            <Tr>
+                              {/* Expandable row icon */}
+                              <Td
+                                expand={
+                                  hasReferences
+                                    ? {
+                                        rowIndex,
+                                        isExpanded: isTokenExpanded(tokenName),
+                                        onToggle: () => setExpanded(tokenName, !isTokenExpanded(tokenName)),
+                                        expandId: `${tokenName}-expandable-toggle`
+                                      }
+                                    : undefined
+                                }
+                              />
+                              <Td>
+                                <code>{tokenName}</code>
+                              </Td>
+                              {/* Token values for each theme */}
+                              <Td>
+                                {themeKeys.map((theme) => {
+                                  const val =
+                                    layerName === 'palette' || layerName === 'chart'
+                                      ? tokensByTheme[theme][layerName][tokenName]?.value
+                                      : tokensByTheme[theme][layerName][categoryName][tokenName]?.value;
+                                  const hasValue = val !== undefined;
+                                  const isColor = isColorRegex.test(val);
+                                  return (
+                                    <Flex
+                                      justifyContent={{ default: 'justify-content-space-between' }}
+                                      flexWrap={{ default: 'nowrap' }}
+                                      key={`${theme}-${tokenName}`}
+                                    >
+                                      <FlexItem>{formatThemeText(theme)}:</FlexItem>
+                                      {isColor ? (
+                                        hasValue && (
+                                          <FlexItem
+                                            key={`${theme}_${tokenName}_swatch`}
+                                            className="pf-v6-l-flex pf-m-column pf-m-align-self-center"
+                                          >
+                                            <span className="ws-token-swatch" style={{ backgroundColor: val }} />
+                                          </FlexItem>
+                                        )
+                                      ) : (
+                                        <div className="pf-v6-l-flex pf-m-column pf-m-align-self-center">
+                                          {hasValue ? val : '--'}
+                                        </div>
+                                      )}
+                                    </Flex>
+                                  );
+                                })}
+                              </Td>
+                              <Td>{description}</Td>
+                            </Tr>
+
+                            {/* Expandable token chain */}
+                            {hasReferences && isTokenExpanded(tokenName) && (
+                              <Tr isExpanded>
+                                <Td />
+                                <Td colSpan={3}>
+                                  <ExpandableRowContent>
+                                    <Grid hasGutter>
+                                      {themeKeys.map(
+                                        (theme) =>
+                                          themesDataObj.hasOwnProperty(theme) && (
+                                            <>
+                                              <GridItem span={2}>{formatThemeText(theme)}:</GridItem>
+                                              <GridItem span={10}>{showTokenChain(themesDataObj[theme])}</GridItem>
+                                            </>
+                                          )
+                                      )}
+                                    </Grid>
+                                  </ExpandableRowContent>
+                                </Td>
+                              </Tr>
+                            )}
+                          </Tbody>
+                        );
+                      }
+                    });
+                  })}
+                </Table>
+              </>
+            );
+          })}
         </InnerScrollContainer>
       </OuterScrollContainer>
     </React.Fragment>

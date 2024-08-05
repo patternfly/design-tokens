@@ -39,22 +39,6 @@ const build = (selector) => {
   });
 
   StyleDictionary.registerFormat({
-    name: 'json/flat',
-    formatter: function (dictionary) {
-      let tokens = {};
-      dictionary.allTokens.map((token) => {
-        // assign each token object to token.name
-        tokens[token.name] = token;
-        // attach references to build token chain
-        if (dictionary.usesReference(token.original.value)) {
-          token.references = dictionary.getReferences(token.original.value);
-        }
-      });
-      return JSON.stringify(tokens, null, 2);
-    }
-  });
-
-  StyleDictionary.registerFormat({
     name: 'json/flat-categories',
     formatter: function (dictionary) {
       let tokens = {
@@ -145,10 +129,8 @@ const build = (selector) => {
   const paletteExtendedSD = StyleDictionary.extend(__dirname + '/config.palette-colors.json');
   const chartsExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.json');
   const chartsDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.dark.json');
-  const allDefaultSD = StyleDictionary.extend(__dirname + '/config.all.default.json');
-  const allDarkSD = StyleDictionary.extend(__dirname + '/config.all.dark.json');
-  const semanticSD = StyleDictionary.extend(__dirname + '/config.semantic.json');
-  const semanticDarkSD = StyleDictionary.extend(__dirname + '/config.semantic.dark.json');
+  const layersSD = StyleDictionary.extend(__dirname + '/config.layers.json');
+  const layersDarkSD = StyleDictionary.extend(__dirname + '/config.layers.dark.json');
 
   // Build all
   defaultExtendedSD.buildAllPlatforms();
@@ -156,10 +138,8 @@ const build = (selector) => {
   paletteExtendedSD.buildAllPlatforms();
   chartsExtendedSD.buildAllPlatforms();
   chartsDarkExtendedSD.buildAllPlatforms();
-  allDefaultSD.buildAllPlatforms();
-  allDarkSD.buildAllPlatforms();
-  semanticSD.buildAllPlatforms();
-  semanticDarkSD.buildAllPlatforms();
+  layersSD.buildAllPlatforms();
+  layersDarkSD.buildAllPlatforms();
 
   console.log('\n============================');
   console.log('\nBuild completed.');
