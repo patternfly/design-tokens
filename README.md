@@ -20,8 +20,8 @@ We are temporarily pushing the built SCSS files to the repo for ease of access. 
 # Docs build
 
 Whenever `yarn build:docs` is executed:
-- the [build-js-for-docs.js](https://github.com/patternfly/design-tokens/blob/main/packages/module/build-js-for-docs.js) script is run to turn the scss files into a javascript object.
-- The javascript object is stored in the [scssAsJson.json](https://github.com/patternfly/design-tokens/blob/main/packages/module/patternfly-docs/scssAsJson.json) file.
-- The code for generating the table containing all tokens is the [tokensTable.js](https://github.com/patternfly/design-tokens/blob/main/packages/module/patternfly-docs/content/tokensTable.js), which consumes the javascript object from scssAsJson.json as data.
-- Ultimately, the markdown file which is rendering the docs is [all-patternfly-tokens.md](https://github.com/patternfly/design-tokens/blob/main/packages/module/patternfly-docs/content/all-patternfly-tokens.md). This markdown file imports the tokensTable.js.
+- the [build:scss](https://github.com/patternfly/design-tokens/blob/main/packages/module/build.js) script is run which transforms tokens pulled from Figma (split into separate token json files in the `/tokens` directory) into combined default and dark theme files (in addition to the .scss files within `build/css`).
+- The two new json files (`token-layers-default.json` and `token-layers-dark.json`) are stored in the [patternfly-docs/content](https://github.com/patternfly/design-tokens/blob/main/packages/module/patternfly-docs/content) directory.
+- The code for generating the table containing all tokens is the [tokensTable.js](https://github.com/patternfly/design-tokens/blob/main/packages/module/patternfly-docs/content/tokensTable.js), which combines the default and dark theme json tokens into one object and consumes it as data.
+- Ultimately, the markdown file which is rendering the docs is [all-patternfly-tokens.md](https://github.com/patternfly/design-tokens/blob/main/packages/module/patternfly-docs/content/all-patternfly-tokens.md). This markdown file imports the tokensTable.js and takes the token theme files as props.
 

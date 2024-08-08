@@ -2,22 +2,24 @@
 const StyleDictionary = require('style-dictionary');
 const config = require('./config.default.json'); // Adjust the path if necessary
 const basePxFontSize = config.basePxFontSize || 16;
+const getTokenLayer = ({ filePath }) => {
+  if (filePath.includes('semantic.json')) return ['semantic', 'colors'];
+  if (filePath.includes('semantic.dark.json')) return ['semantic', 'colors'];
+  if (filePath.includes('semantic.dimension.json')) return ['semantic', 'dimension'];
+  if (filePath.includes('semantic.motion.json')) return ['semantic', 'motion'];
+  if (filePath.includes('base.json')) return ['base', 'colors'];
+  if (filePath.includes('base.dark.json')) return ['base', 'colors'];
+  if (filePath.includes('base.dimension.json')) return ['base', 'dimension'];
+  if (filePath.includes('base.motion.json')) return ['base', 'motion'];
+  if (filePath.includes('chart')) return ['chart'];
+  if (filePath.includes('palette.color.json')) return ['palette'];
+  return ['palette'];
+};
+// returns subdirectory within 'tokens' directory (ex: default, dark, etc)
+const getTheme = ({ filePath }) => /tokens\/([^\/]*)\//gm.exec(filePath)[1];
 
 const build = (selector) => {
   const { fileHeader, formattedVariables, sortByName } = StyleDictionary.formatHelpers;
-  const getTokenLayer = ({ filePath }) => {
-    if (filePath.includes('semantic.json')) return ['semantic', 'colors'];
-    if (filePath.includes('semantic.dark.json')) return ['semantic', 'colors'];
-    if (filePath.includes('semantic.dimension.json')) return ['semantic', 'dimension'];
-    if (filePath.includes('semantic.motion.json')) return ['semantic', 'motion'];
-    if (filePath.includes('base.json')) return ['base', 'colors'];
-    if (filePath.includes('base.dark.json')) return ['base', 'colors'];
-    if (filePath.includes('base.dimension.json')) return ['base', 'dimension'];
-    if (filePath.includes('base.motion.json')) return ['base', 'motion'];
-    if (filePath.includes('chart')) return ['chart'];
-    if (filePath.includes('palette.color.json')) return ['palette'];
-    return ['palette'];
-  };
 
   console.log('Build started...');
   console.log('\n============================');
@@ -57,13 +59,15 @@ const build = (selector) => {
       };
       dictionary.allTokens.map((token) => {
         // determine token type based on tokens filepath
+        const theme = getTheme(token);
         const layer = getTokenLayer(token);
         let insertLayer = tokens;
         while (layer.length) {
           insertLayer = insertLayer[layer.shift()];
         }
         // assign each token object to token.name
-        insertLayer[token.name] = token;
+        insertLayer[token.name] = {};
+        insertLayer[token.name][theme] = token;
         // attach references to build token chain
         if (dictionary.usesReference(token.original.value)) {
           token.references = dictionary.getReferences(token.original.value);
