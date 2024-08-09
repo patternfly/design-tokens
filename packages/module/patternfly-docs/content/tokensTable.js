@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-import { Flex, FlexItem, Grid, GridItem, Title, capitalize } from '@patternfly/react-core';
+import React from 'react';
+import { Flex, FlexItem, Grid, GridItem, JumpLinks, JumpLinksItem, Title, capitalize } from '@patternfly/react-core';
 import {
   Table,
   Thead,
@@ -12,6 +12,7 @@ import {
   InnerScrollContainer
 } from '@patternfly/react-table';
 import { TokensToolbar } from './tokensToolbar';
+import { TableOfContents } from '@patternfly/documentation-framework/components/tableOfContents/tableOfContents';
 import './tokensTable.css';
 
 // eslint-disable-next-line camelcase
@@ -104,9 +105,20 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
       const otherExpandedTokens = prevExpanded.filter((n) => n !== tokenName);
       return isExpanding ? [...otherExpandedTokens, tokenName] : otherExpandedTokens;
     });
+  const tocItems = Object.keys(allTokens).reduce((acc, cur) => {
+    console.log({ acc, cur });
+    acc.push({
+      id: `${cur}-table`,
+      text: `${formatThemeText(cur)} tokens`
+    });
+    return acc;
+  }, []);
 
   return (
     <React.Fragment>
+      <span className="tokens-toc-wrapper">
+        <TableOfContents items={tocItems} />
+      </span>
       <TokensToolbar
         searchValue={searchValue}
         setSearchValue={setSearchValue}
@@ -138,7 +150,9 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
 
               return (
                 <>
-                  <Title headingLevel="h2">{formatThemeText(layerName)} tokens</Title>
+                  <Title headingLevel="h2" id={`${layerName}-table`} className="pf-v6-u-mt-xl">
+                    {formatThemeText(layerName)} tokens
+                  </Title>
                   <Table variant="compact" style={{ marginBlockEnd: `var(--pf-t--global--spacer--xl)` }}>
                     <Thead>
                       <Tr>

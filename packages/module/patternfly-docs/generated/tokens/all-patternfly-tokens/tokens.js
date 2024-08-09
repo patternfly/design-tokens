@@ -8,6 +8,7 @@ const pageData = {
   "section": "tokens",
   "subsection": "",
   "deprecated": false,
+  "template": false,
   "beta": false,
   "demo": false,
   "newImplementationLink": false,
