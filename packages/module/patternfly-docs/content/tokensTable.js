@@ -18,8 +18,6 @@ import './tokensTable.css';
 import global_spacer_md from '@patternfly/react-tokens/dist/esm/global_spacer_md';
 import LevelUpAltIcon from '@patternfly/react-icons/dist/esm/icons/level-up-alt-icon';
 
-const isColorRegex = /^(#|rgb)/;
-
 // Used to combine data grouped by theme under each token name
 const deepMerge = (target, source) => {
   for (const key in source) {
@@ -64,6 +62,23 @@ const showTokenChain = (themeTokenData) => {
   );
 };
 
+const isSearchMatch = (searchValue, tokenName, tokenData) => {
+  // match all tokens if no search term
+  if (searchValue === '') {
+    return true;
+  }
+  // match search term to token name, value, and description
+  searchValue = searchValue.toLowerCase();
+  return (
+    tokenName.toLowerCase().includes(searchValue) ||
+    Object.entries(tokenData).some(
+      ([_themeName, themeData]) =>
+        themeData?.value?.toString().toLowerCase().includes(searchValue) ||
+        themeData?.description?.toLowerCase().includes(searchValue)
+    )
+  );
+};
+
 export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
   // parse tokens from json, convert from modules, merge into single allTokens obj
   const themesArr = Object.keys(tokenJson);
@@ -82,27 +97,13 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
 
   // helper funcs
   const isTokenExpanded = (tokenName) => expandedTokens.includes(tokenName);
+  const isSelectedCategory = (categoryName) =>
+    selectedCategories.length === 0 || selectedCategories.includes(categoryName);
   const setExpanded = (tokenName, isExpanding = true) =>
     setExpandedTokens((prevExpanded) => {
       const otherExpandedTokens = prevExpanded.filter((n) => n !== tokenName);
       return isExpanding ? [...otherExpandedTokens, tokenName] : otherExpandedTokens;
     });
-  const getIsSearchMatch = (searchValue, tokenName, tokenData) => {
-    // match all tokens if no search term
-    if (searchValue === '') {
-      return true;
-    }
-    // match search term to token name, value, and description
-    searchValue = searchValue.toLowerCase();
-    return (
-      tokenName.toLowerCase().includes(searchValue) ||
-      Object.entries(tokenData).some(
-        ([_themeName, themeData]) =>
-          themeData?.value?.toString().toLowerCase().includes(searchValue) ||
-          themeData?.description?.toLowerCase().includes(searchValue)
-      )
-    );
-  };
 
   return (
     <React.Fragment>
@@ -119,16 +120,21 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
             Object.entries(allTokens).map(([layerName, layerDataObj], _rowIndex) => {
               // save if semantic layer - used for custom styling due to description field
               const isSemanticLayer = layerName === 'semantic';
-              // Create array of all tokens (& nested tokens) in layer [base, chart, palette, semantic]
+
+              // Create array of all tokens/nested tokens in layer, filtered by selectedCategories
               let layerTokens = [];
-              if (!['base', 'semantic'].includes(layerName)) {
+              if (!['base', 'semantic'].includes(layerName) && isSelectedCategory(layerName)) {
                 layerTokens = Object.entries(layerDataObj);
               } else {
                 // base/semantic combine subcategory tokens into flattened arr
                 for (var subLayer in layerDataObj) {
-                  layerTokens.push(...Object.entries(layerDataObj[subLayer]));
+                  isSelectedCategory(subLayer) && layerTokens.push(...Object.entries(layerDataObj[subLayer]));
                 }
               }
+              // finally filter all tokens based on search term
+              const filteredTokens = layerTokens.filter(([tokenName, tokenData]) =>
+                isSearchMatch(searchValue, tokenName, tokenData)
+              );
 
               return (
                 <>
@@ -145,13 +151,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                     </Thead>
 
                     {/* Loop through row for each token in current layer */}
-                    {layerTokens.map(([tokenName, tokenData], rowIndex) => {
-                      // Skip token if it doesn't match search
-                      const isSearchMatch = getIsSearchMatch(searchValue, tokenName, tokenData);
-                      if (!isSearchMatch) {
-                        return null;
-                      }
-
+                    {filteredTokens.map(([tokenName, tokenData], rowIndex) => {
                       const tokenThemesArr = Object.entries(tokenData);
                       const hasReferences = tokenThemesArr.some(([_themeName, themeToken]) =>
                         themeToken.hasOwnProperty('references')
@@ -180,7 +180,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                             {/* Token values for each theme */}
                             <Td>
                               {tokenThemesArr.map(([themeName, themeToken]) => {
-                                const isColor = isColorRegex.test(themeToken.value);
+                                const isColor = /^(#|rgb)/.test(themeToken.value);
                                 return (
                                   <Flex
                                     justifyContent={{ default: 'justify-content-space-between' }}
@@ -207,6 +207,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                                 );
                               })}
                             </Td>
+                            {/* Description - only for semantic tokens */}
                             {isSemanticLayer && <Td>{tokenDescription}</Td>}
                           </Tr>
 
