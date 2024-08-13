@@ -1,5 +1,5 @@
 const { program } = require('commander');
-const {build} = require('./build');
+const { build } = require('./build');
 
 program
   .version(require('./package.json').version)
