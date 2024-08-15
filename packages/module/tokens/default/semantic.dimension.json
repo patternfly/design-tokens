@@ -441,18 +441,6 @@
       }
     },
     "font": {
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
-        }
-      },
       "weight": {
         "body": {
           "default": {
@@ -477,6 +465,18 @@
             "type": "number",
             "value": "{global.font.weight.400}"
           }
+        }
+      },
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
         }
       },
       "family": {
