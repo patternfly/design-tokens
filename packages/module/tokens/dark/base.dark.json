@@ -293,15 +293,15 @@
           "gray": {
             "100": {
               "type": "color",
-              "value": "{color.gray.30}"
+              "value": "{color.gray.60}"
             },
             "200": {
               "type": "color",
-              "value": "{color.gray.20}"
+              "value": "{color.gray.50}"
             },
             "300": {
               "type": "color",
-              "value": "{color.gray.10}"
+              "value": "{color.gray.40}"
             }
           }
         }
@@ -322,7 +322,7 @@
         "color": {
           "100": {
             "type": "color",
-            "value": "{color.gray.10}"
+            "value": "{color.white}"
           },
           "200": {
             "type": "color",

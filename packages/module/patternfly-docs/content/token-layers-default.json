@@ -27662,13 +27662,13 @@
       },
       "pf-t--global--spacer--control--vertical--plain": {
         "default": {
-          "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles.",
+          "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles and plain buttons.",
           "type": "number",
           "value": "0.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles.",
+            "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles and plain buttons.",
             "type": "number",
             "value": "{global.spacer.sm}"
           },
@@ -27730,6 +27730,83 @@
                     "global",
                     "spacer",
                     "200"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--control--vertical--spacious": {
+        "default": {
+          "description": "Use to set the vertical padding inside a large/display controls. This is used across buttons, text inputs, menu toggles, etc.",
+          "type": "number",
+          "value": "1rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to set the vertical padding inside a large/display controls. This is used across buttons, text inputs, menu toggles, etc.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "name": "pf-t--global--spacer--control--vertical--spacious",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "control",
+            "subitem": "vertical",
+            "state": "spacious"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "control",
+            "vertical",
+            "spacious"
+          ],
+          "references": [
+            {
+              "description": "Use for medium-sized spaces between elements.",
+              "type": "number",
+              "value": "1rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for medium-sized spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.300}"
+              },
+              "name": "pf-t--global--spacer--md",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "md"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "md"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "1rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 16
+                  },
+                  "name": "pf-t--global--spacer--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "300"
                   ]
                 }
               ]
@@ -28038,6 +28115,393 @@
                     "global",
                     "spacer",
                     "400"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--action--horizontal--default": {
+        "default": {
+          "description": "Use to set the horizontal padding inside a default action, like buttons.",
+          "type": "number",
+          "value": "1.5rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to set the horizontal padding inside a default action, like buttons.",
+            "type": "number",
+            "value": "{global.spacer.lg}"
+          },
+          "name": "pf-t--global--spacer--action--horizontal--default",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "action",
+            "subitem": "horizontal",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "action",
+            "horizontal",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for large spaces between elements.",
+              "type": "number",
+              "value": "1.5rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for large spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.400}"
+              },
+              "name": "pf-t--global--spacer--lg",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "lg"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "lg"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "1.5rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 24
+                  },
+                  "name": "pf-t--global--spacer--400",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "400"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "400"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--action--horizontal--plain--default": {
+        "default": {
+          "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
+          "type": "number",
+          "value": "0.5rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "name": "pf-t--global--spacer--action--horizontal--plain--default",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "action",
+            "subitem": "horizontal",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "action",
+            "horizontal",
+            "plain",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for small spaces between elements.",
+              "type": "number",
+              "value": "0.5rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for small spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.200}"
+              },
+              "name": "pf-t--global--spacer--sm",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "sm"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.5rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 8
+                  },
+                  "name": "pf-t--global--spacer--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "200"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "200"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--action--horizontal--plain--compact": {
+        "default": {
+          "description": "Use to set the horizontal padding inside a compact, plain action/button.",
+          "type": "number",
+          "value": "0.25rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to set the horizontal padding inside a compact, plain action/button.",
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          },
+          "name": "pf-t--global--spacer--action--horizontal--plain--compact",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "action",
+            "subitem": "horizontal",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "action",
+            "horizontal",
+            "plain",
+            "compact"
+          ],
+          "references": [
+            {
+              "description": "Use for extra small spaces between elements.",
+              "type": "number",
+              "value": "0.25rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for extra small spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.100}"
+              },
+              "name": "pf-t--global--spacer--xs",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "xs"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "xs"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.25rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 4
+                  },
+                  "name": "pf-t--global--spacer--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "100"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--action--horizontal--compact": {
+        "default": {
+          "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
+          "type": "number",
+          "value": "1rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "name": "pf-t--global--spacer--action--horizontal--compact",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "action",
+            "subitem": "horizontal",
+            "state": "compact"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "action",
+            "horizontal",
+            "compact"
+          ],
+          "references": [
+            {
+              "description": "Use for medium-sized spaces between elements.",
+              "type": "number",
+              "value": "1rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for medium-sized spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.300}"
+              },
+              "name": "pf-t--global--spacer--md",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "md"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "md"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "1rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 16
+                  },
+                  "name": "pf-t--global--spacer--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "300"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--action--horizontal--spacious": {
+        "default": {
+          "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
+          "type": "number",
+          "value": "2rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
+            "type": "number",
+            "value": "{global.spacer.xl}"
+          },
+          "name": "pf-t--global--spacer--action--horizontal--spacious",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "action",
+            "subitem": "horizontal",
+            "state": "spacious"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "action",
+            "horizontal",
+            "spacious"
+          ],
+          "references": [
+            {
+              "description": "Use for extra large spaces between elements.",
+              "type": "number",
+              "value": "2rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for extra large spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.500}"
+              },
+              "name": "pf-t--global--spacer--xl",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "xl"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "xl"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "2rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 32
+                  },
+                  "name": "pf-t--global--spacer--500",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "500"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "500"
                   ]
                 }
               ]
@@ -28661,32 +29125,28 @@
           ]
         }
       },
-      "pf-t--global--spacer--action--horizontal--default": {
+      "pf-t--global--spacer--inset--page-chrome": {
         "default": {
-          "description": "Use to set the horizontal padding inside a default action, like buttons.",
           "type": "number",
           "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use to set the horizontal padding inside a default action, like buttons.",
             "type": "number",
             "value": "{global.spacer.lg}"
           },
-          "name": "pf-t--global--spacer--action--horizontal--default",
+          "name": "pf-t--global--spacer--inset--page-chrome",
           "attributes": {
             "category": "global",
             "type": "spacer",
-            "item": "action",
-            "subitem": "horizontal",
-            "state": "default"
+            "item": "inset",
+            "subitem": "page-chrome"
           },
           "path": [
             "global",
             "spacer",
-            "action",
-            "horizontal",
-            "default"
+            "inset",
+            "page-chrome"
           ],
           "references": [
             {
@@ -28738,354 +29198,28 @@
           ]
         }
       },
-      "pf-t--global--spacer--action--horizontal--plain": {
+      "pf-t--global--spacer--gutter--default": {
         "default": {
-          "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
-          "type": "number",
-          "value": "0.5rem",
-          "compact": {
-            "description": "Use to set the horizontal padding inside a compact, plain action/button.",
-            "type": "number",
-            "value": "0.25rem",
-            "filePath": "tokens/default/semantic.dimension.json",
-            "isSource": true
-          },
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
-            "type": "number",
-            "value": "{global.spacer.sm}",
-            "compact": {
-              "description": "Use to set the horizontal padding inside a compact, plain action/button.",
-              "type": "number",
-              "value": "{global.spacer.xs}",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true
-            }
-          },
-          "name": "pf-t--global--spacer--action--horizontal--plain",
-          "attributes": {
-            "category": "global",
-            "type": "spacer",
-            "item": "action",
-            "subitem": "horizontal",
-            "state": "plain"
-          },
-          "path": [
-            "global",
-            "spacer",
-            "action",
-            "horizontal",
-            "plain"
-          ],
-          "references": [
-            {
-              "description": "Use for small spaces between elements.",
-              "type": "number",
-              "value": "0.5rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for small spaces between elements.",
-                "type": "number",
-                "value": "{global.spacer.200}"
-              },
-              "name": "pf-t--global--spacer--sm",
-              "attributes": {
-                "category": "global",
-                "type": "spacer",
-                "item": "sm"
-              },
-              "path": [
-                "global",
-                "spacer",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "0.5rem",
-                  "filePath": "tokens/default/base.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 8
-                  },
-                  "name": "pf-t--global--spacer--200",
-                  "attributes": {
-                    "category": "global",
-                    "type": "spacer",
-                    "item": "200"
-                  },
-                  "path": [
-                    "global",
-                    "spacer",
-                    "200"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--spacer--action--horizontal--compact": {
-        "default": {
-          "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
           "type": "number",
           "value": "1rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
             "type": "number",
             "value": "{global.spacer.md}"
           },
-          "name": "pf-t--global--spacer--action--horizontal--compact",
+          "name": "pf-t--global--spacer--gutter--default",
           "attributes": {
             "category": "global",
             "type": "spacer",
-            "item": "action",
-            "subitem": "horizontal",
-            "state": "compact"
+            "item": "gutter",
+            "subitem": "default"
           },
           "path": [
             "global",
             "spacer",
-            "action",
-            "horizontal",
-            "compact"
-          ],
-          "references": [
-            {
-              "description": "Use for medium-sized spaces between elements.",
-              "type": "number",
-              "value": "1rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for medium-sized spaces between elements.",
-                "type": "number",
-                "value": "{global.spacer.300}"
-              },
-              "name": "pf-t--global--spacer--md",
-              "attributes": {
-                "category": "global",
-                "type": "spacer",
-                "item": "md"
-              },
-              "path": [
-                "global",
-                "spacer",
-                "md"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "1rem",
-                  "filePath": "tokens/default/base.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 16
-                  },
-                  "name": "pf-t--global--spacer--300",
-                  "attributes": {
-                    "category": "global",
-                    "type": "spacer",
-                    "item": "300"
-                  },
-                  "path": [
-                    "global",
-                    "spacer",
-                    "300"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--spacer--action--horizontal--spacious": {
-        "default": {
-          "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
-          "type": "number",
-          "value": "2rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
-            "type": "number",
-            "value": "{global.spacer.xl}"
-          },
-          "name": "pf-t--global--spacer--action--horizontal--spacious",
-          "attributes": {
-            "category": "global",
-            "type": "spacer",
-            "item": "action",
-            "subitem": "horizontal",
-            "state": "spacious"
-          },
-          "path": [
-            "global",
-            "spacer",
-            "action",
-            "horizontal",
-            "spacious"
-          ],
-          "references": [
-            {
-              "description": "Use for extra large spaces between elements.",
-              "type": "number",
-              "value": "2rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for extra large spaces between elements.",
-                "type": "number",
-                "value": "{global.spacer.500}"
-              },
-              "name": "pf-t--global--spacer--xl",
-              "attributes": {
-                "category": "global",
-                "type": "spacer",
-                "item": "xl"
-              },
-              "path": [
-                "global",
-                "spacer",
-                "xl"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "2rem",
-                  "filePath": "tokens/default/base.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 32
-                  },
-                  "name": "pf-t--global--spacer--500",
-                  "attributes": {
-                    "category": "global",
-                    "type": "spacer",
-                    "item": "500"
-                  },
-                  "path": [
-                    "global",
-                    "spacer",
-                    "500"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--spacer--action--vertical--compact": {
-        "default": {
-          "description": "Use to set the vertical padding inside a compact action, like compact buttons.",
-          "type": "number",
-          "value": "0.25rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to set the vertical padding inside a compact action, like compact buttons.",
-            "type": "number",
-            "value": "{global.spacer.xs}"
-          },
-          "name": "pf-t--global--spacer--action--vertical--compact",
-          "attributes": {
-            "category": "global",
-            "type": "spacer",
-            "item": "action",
-            "subitem": "vertical",
-            "state": "compact"
-          },
-          "path": [
-            "global",
-            "spacer",
-            "action",
-            "vertical",
-            "compact"
-          ],
-          "references": [
-            {
-              "description": "Use for extra small spaces between elements.",
-              "type": "number",
-              "value": "0.25rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for extra small spaces between elements.",
-                "type": "number",
-                "value": "{global.spacer.100}"
-              },
-              "name": "pf-t--global--spacer--xs",
-              "attributes": {
-                "category": "global",
-                "type": "spacer",
-                "item": "xs"
-              },
-              "path": [
-                "global",
-                "spacer",
-                "xs"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "0.25rem",
-                  "filePath": "tokens/default/base.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 4
-                  },
-                  "name": "pf-t--global--spacer--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "spacer",
-                    "item": "100"
-                  },
-                  "path": [
-                    "global",
-                    "spacer",
-                    "100"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--spacer--action--vertical--spacious": {
-        "default": {
-          "description": "Use to set the vertical padding inside a large/display action, like CTAs.",
-          "type": "number",
-          "value": "1rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to set the vertical padding inside a large/display action, like CTAs.",
-            "type": "number",
-            "value": "{global.spacer.md}"
-          },
-          "name": "pf-t--global--spacer--action--vertical--spacious",
-          "attributes": {
-            "category": "global",
-            "type": "spacer",
-            "item": "action",
-            "subitem": "vertical",
-            "state": "spacious"
-          },
-          "path": [
-            "global",
-            "spacer",
-            "action",
-            "vertical",
-            "spacious"
+            "gutter",
+            "default"
           ],
           "references": [
             {
@@ -29397,53 +29531,332 @@
           ]
         }
       },
-      "pf-t--global--icon--size--3xl": {
+      "pf-t--global--icon--size--font--body--sm": {
         "default": {
-          "description": "Use for triple extra large icons.",
+          "description": "Use for icons that are placed inline with small body text",
           "type": "number",
-          "value": "6rem",
+          "value": "0.75rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use for triple extra large icons.",
+            "description": "Use for icons that are placed inline with small body text",
             "type": "number",
-            "value": "{global.icon.size.500}"
+            "value": "{global.font.size.body.sm}"
           },
-          "name": "pf-t--global--icon--size--3xl",
+          "name": "pf-t--global--icon--size--font--body--sm",
           "attributes": {
             "category": "global",
             "type": "icon",
             "item": "size",
-            "subitem": "3xl"
+            "subitem": "font",
+            "state": "body"
           },
           "path": [
             "global",
             "icon",
             "size",
-            "3xl"
+            "font",
+            "body",
+            "sm"
           ],
           "references": [
             {
+              "description": "Use for a smaller font size in body sections.",
               "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/base.dimension.json",
+              "value": "0.75rem",
+              "filePath": "tokens/default/semantic.dimension.json",
               "isSource": true,
               "original": {
+                "description": "Use for a smaller font size in body sections.",
                 "type": "number",
-                "value": 96
+                "value": "{global.font.size.xs}"
               },
-              "name": "pf-t--global--icon--size--500",
+              "name": "pf-t--global--font--size--body--sm",
               "attributes": {
                 "category": "global",
-                "type": "icon",
+                "type": "font",
                 "item": "size",
-                "subitem": "500"
+                "subitem": "body",
+                "state": "sm"
               },
               "path": [
                 "global",
-                "icon",
+                "font",
                 "size",
-                "500"
+                "body",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.75rem",
+                  "filePath": "tokens/default/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": "{global.font.size.100}"
+                  },
+                  "name": "pf-t--global--font--size--xs",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "xs"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "xs"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.75rem",
+                      "filePath": "tokens/default/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 12
+                      },
+                      "name": "pf-t--global--font--size--100",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "100"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "100"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--default": {
+        "default": {
+          "description": "Use for icons that are placed inline with default body text",
+          "type": "number",
+          "value": "0.875rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with default body text",
+            "type": "number",
+            "value": "{global.font.size.body.default}"
+          },
+          "name": "pf-t--global--icon--size--font--body--default",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default font size in body sections.",
+              "type": "number",
+              "value": "0.875rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.sm}"
+              },
+              "name": "pf-t--global--font--size--body--default",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "default"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "0.875rem",
+                  "filePath": "tokens/default/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.200}"
+                  },
+                  "name": "pf-t--global--font--size--sm",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "sm"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "sm"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.875rem",
+                      "filePath": "tokens/default/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 14
+                      },
+                      "name": "pf-t--global--font--size--200",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "200"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "200"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--lg": {
+        "default": {
+          "description": "Use for icons that are placed inline with large body text",
+          "type": "number",
+          "value": "1rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with large body text",
+            "type": "number",
+            "value": "{global.font.size.body.lg}"
+          },
+          "name": "pf-t--global--icon--size--font--body--lg",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "lg"
+          ],
+          "references": [
+            {
+              "description": "Use for a larger font size in body sections.",
+              "type": "number",
+              "value": "1rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a larger font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.md}"
+              },
+              "name": "pf-t--global--font--size--body--lg",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "lg"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "lg"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "1rem",
+                  "filePath": "tokens/default/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.300}"
+                  },
+                  "name": "pf-t--global--font--size--md",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "md"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "md"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "1rem",
+                      "filePath": "tokens/default/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 16
+                      },
+                      "name": "pf-t--global--font--size--300",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "300"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "300"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -30058,337 +30471,6 @@
                 "size",
                 "heading",
                 "h6"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "1rem",
-                  "filePath": "tokens/default/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.300}"
-                  },
-                  "name": "pf-t--global--font--size--md",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "md"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "md"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "1rem",
-                      "filePath": "tokens/default/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 16
-                      },
-                      "name": "pf-t--global--font--size--300",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "300"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "300"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--sm": {
-        "default": {
-          "description": "Use for icons that are placed inline with small body text",
-          "type": "number",
-          "value": "0.75rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with small body text",
-            "type": "number",
-            "value": "{global.font.size.body.sm}"
-          },
-          "name": "pf-t--global--icon--size--font--body--sm",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "sm"
-          ],
-          "references": [
-            {
-              "description": "Use for a smaller font size in body sections.",
-              "type": "number",
-              "value": "0.75rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a smaller font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.xs}"
-              },
-              "name": "pf-t--global--font--size--body--sm",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "sm"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "0.75rem",
-                  "filePath": "tokens/default/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": "{global.font.size.100}"
-                  },
-                  "name": "pf-t--global--font--size--xs",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "xs"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "xs"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.75rem",
-                      "filePath": "tokens/default/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 12
-                      },
-                      "name": "pf-t--global--font--size--100",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "100"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "100"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--default": {
-        "default": {
-          "description": "Use for icons that are placed inline with default body text",
-          "type": "number",
-          "value": "0.875rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with default body text",
-            "type": "number",
-            "value": "{global.font.size.body.default}"
-          },
-          "name": "pf-t--global--icon--size--font--body--default",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use as the default font size in body sections.",
-              "type": "number",
-              "value": "0.875rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the default font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.sm}"
-              },
-              "name": "pf-t--global--font--size--body--default",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "default"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "0.875rem",
-                  "filePath": "tokens/default/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.200}"
-                  },
-                  "name": "pf-t--global--font--size--sm",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "sm"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "sm"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.875rem",
-                      "filePath": "tokens/default/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 14
-                      },
-                      "name": "pf-t--global--font--size--200",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "200"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "200"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--lg": {
-        "default": {
-          "description": "Use for icons that are placed inline with large body text",
-          "type": "number",
-          "value": "1rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with large body text",
-            "type": "number",
-            "value": "{global.font.size.body.lg}"
-          },
-          "name": "pf-t--global--icon--size--font--body--lg",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "lg"
-          ],
-          "references": [
-            {
-              "description": "Use for a larger font size in body sections.",
-              "type": "number",
-              "value": "1rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a larger font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.md}"
-              },
-              "name": "pf-t--global--font--size--body--lg",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "lg"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "lg"
               ],
               "references": [
                 {
@@ -31087,6 +31169,58 @@
                     "800"
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--3xl": {
+        "default": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "6rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for triple extra large icons.",
+            "type": "number",
+            "value": "{global.icon.size.500}"
+          },
+          "name": "pf-t--global--icon--size--3xl",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "3xl"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "6rem",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 96
+              },
+              "name": "pf-t--global--icon--size--500",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
+              },
+              "path": [
+                "global",
+                "icon",
+                "size",
+                "500"
               ]
             }
           ]
@@ -32318,200 +32452,32 @@
           ]
         }
       },
-      "pf-t--global--font--family--body": {
-        "default": {
-          "description": "Use to define the font family for body text",
-          "type": "number",
-          "value": "Red Hat Text VF",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the font family for body text",
-            "type": "number",
-            "value": "{global.font.family.100}"
-          },
-          "name": "pf-t--global--font--family--body",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "family",
-            "subitem": "body"
-          },
-          "path": [
-            "global",
-            "font",
-            "family",
-            "body"
-          ],
-          "references": [
-            {
-              "type": "string",
-              "value": "Red Hat Text VF",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "string",
-                "value": "Red Hat Text VF"
-              },
-              "name": "pf-t--global--font--family--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "family",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "family",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--family--heading": {
-        "default": {
-          "description": "Use to define the font family for heading text",
-          "type": "number",
-          "value": "Red Hat Display VF",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the font family for heading text",
-            "type": "number",
-            "value": "{global.font.family.200}"
-          },
-          "name": "pf-t--global--font--family--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "family",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "family",
-            "heading"
-          ],
-          "references": [
-            {
-              "type": "string",
-              "value": "Red Hat Display VF",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "string",
-                "value": "Red Hat Display VF"
-              },
-              "name": "pf-t--global--font--family--200",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "family",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "font",
-                "family",
-                "200"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--family--mono": {
-        "default": {
-          "description": "Use to define the font family for mono text",
-          "type": "number",
-          "value": "Red Hat Mono VF",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the font family for mono text",
-            "type": "number",
-            "value": "{global.font.family.300}"
-          },
-          "name": "pf-t--global--font--family--mono",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "family",
-            "subitem": "mono"
-          },
-          "path": [
-            "global",
-            "font",
-            "family",
-            "mono"
-          ],
-          "references": [
-            {
-              "type": "string",
-              "value": "Red Hat Mono VF",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "string",
-                "value": "Red Hat Mono VF"
-              },
-              "name": "pf-t--global--font--family--300",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "family",
-                "subitem": "300"
-              },
-              "path": [
-                "global",
-                "font",
-                "family",
-                "300"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--weight--body": {
+      "pf-t--global--font--weight--body--default": {
         "default": {
           "description": "Use to define the default weight for body text",
           "type": "number",
           "value": 400,
-          "bold": {
-            "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
-            "type": "number",
-            "value": 500,
-            "filePath": "tokens/default/semantic.dimension.json",
-            "isSource": true
-          },
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
             "description": "Use to define the default weight for body text",
             "type": "number",
-            "value": "{global.font.weight.100}",
-            "bold": {
-              "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
-              "type": "number",
-              "value": "{global.font.weight.200}",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true
-            }
+            "value": "{global.font.weight.100}"
           },
-          "name": "pf-t--global--font--weight--body",
+          "name": "pf-t--global--font--weight--body--default",
           "attributes": {
             "category": "global",
             "type": "font",
             "item": "weight",
-            "subitem": "body"
+            "subitem": "body",
+            "state": "default"
           },
           "path": [
             "global",
             "font",
             "weight",
-            "body"
+            "body",
+            "default"
           ],
           "references": [
             {
@@ -32540,44 +32506,86 @@
           ]
         }
       },
-      "pf-t--global--font--weight--heading": {
+      "pf-t--global--font--weight--body--bold": {
         "default": {
-          "description": "Use to define the default weight for heading text",
+          "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
           "type": "number",
-          "value": 700,
-          "bold": {
-            "description": "Use to define the bold weight for heading text, often used to add emphasis.",
-            "type": "number",
-            "value": 700,
-            "filePath": "tokens/default/semantic.dimension.json",
-            "isSource": true
-          },
+          "value": 500,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use to define the default weight for heading text",
+            "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
             "type": "number",
-            "value": "{global.font.weight.300}",
-            "bold": {
-              "description": "Use to define the bold weight for heading text, often used to add emphasis.",
-              "type": "number",
-              "value": "{global.font.weight.400}",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true
-            }
+            "value": "{global.font.weight.200}"
           },
-          "name": "pf-t--global--font--weight--heading",
+          "name": "pf-t--global--font--weight--body--bold",
           "attributes": {
             "category": "global",
             "type": "font",
             "item": "weight",
-            "subitem": "heading"
+            "subitem": "body",
+            "state": "bold"
           },
           "path": [
             "global",
             "font",
             "weight",
-            "heading"
+            "body",
+            "bold"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 500,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 500
+              },
+              "name": "pf-t--global--font--weight--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "weight",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "weight",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--weight--heading--default": {
+        "default": {
+          "description": "Use to define the default weight for heading text",
+          "type": "number",
+          "value": 700,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the default weight for heading text",
+            "type": "number",
+            "value": "{global.font.weight.300}"
+          },
+          "name": "pf-t--global--font--weight--heading--default",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "weight",
+            "subitem": "heading",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "font",
+            "weight",
+            "heading",
+            "default"
           ],
           "references": [
             {
@@ -32606,17 +32614,71 @@
           ]
         }
       },
+      "pf-t--global--font--weight--heading--bold": {
+        "default": {
+          "description": "Use to define the bold weight for heading text, often used to add emphasis.",
+          "type": "number",
+          "value": 700,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the bold weight for heading text, often used to add emphasis.",
+            "type": "number",
+            "value": "{global.font.weight.400}"
+          },
+          "name": "pf-t--global--font--weight--heading--bold",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "weight",
+            "subitem": "heading",
+            "state": "bold"
+          },
+          "path": [
+            "global",
+            "font",
+            "weight",
+            "heading",
+            "bold"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 700,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 700
+              },
+              "name": "pf-t--global--font--weight--400",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "weight",
+                "subitem": "400"
+              },
+              "path": [
+                "global",
+                "font",
+                "weight",
+                "400"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--font--line-height--body": {
         "default": {
           "description": "Use to define the line height for body text",
           "type": "number",
-          "value": 1.2999999523162842,
+          "value": 1.5,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
             "description": "Use to define the line height for body text",
             "type": "number",
-            "value": "{global.font.line-height.100}"
+            "value": "{global.font.line-height.200}"
           },
           "name": "pf-t--global--font--line-height--body",
           "attributes": {
@@ -32630,58 +32692,6 @@
             "font",
             "line-height",
             "body"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.2999999523162842,
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.2999999523162842
-              },
-              "name": "pf-t--global--font--line-height--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--heading": {
-        "default": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for heading text",
-            "type": "number",
-            "value": "{global.font.line-height.200}"
-          },
-          "name": "pf-t--global--font--line-height--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "heading"
           ],
           "references": [
             {
@@ -32705,6 +32715,58 @@
                 "font",
                 "line-height",
                 "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--heading": {
+        "default": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": 1.2999999523162842,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for heading text",
+            "type": "number",
+            "value": "{global.font.line-height.100}"
+          },
+          "name": "pf-t--global--font--line-height--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.2999999523162842,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.2999999523162842
+              },
+              "name": "pf-t--global--font--line-height--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "100"
               ]
             }
           ]
@@ -33851,13 +33913,171 @@
           ]
         }
       },
+      "pf-t--global--font--family--body": {
+        "default": {
+          "description": "Use to define the font family for body text",
+          "type": "number",
+          "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the font family for body text",
+            "type": "number",
+            "value": "{global.font.family.100}"
+          },
+          "name": "pf-t--global--font--family--body",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "family",
+            "subitem": "body"
+          },
+          "path": [
+            "global",
+            "font",
+            "family",
+            "body"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+              },
+              "name": "pf-t--global--font--family--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "family",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "family",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--family--heading": {
+        "default": {
+          "description": "Use to define the font family for heading text",
+          "type": "number",
+          "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the font family for heading text",
+            "type": "number",
+            "value": "{global.font.family.200}"
+          },
+          "name": "pf-t--global--font--family--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "family",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "family",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+              },
+              "name": "pf-t--global--font--family--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "family",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "family",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--family--mono": {
+        "default": {
+          "description": "Use to define the font family for mono text",
+          "type": "number",
+          "value": "\"Red Hat Mono\", \"RedHatMono\", \"Courier New\", Courier, monospace",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the font family for mono text",
+            "type": "number",
+            "value": "{global.font.family.300}"
+          },
+          "name": "pf-t--global--font--family--mono",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "family",
+            "subitem": "mono"
+          },
+          "path": [
+            "global",
+            "font",
+            "family",
+            "mono"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "\"Red Hat Mono\", \"RedHatMono\", \"Courier New\", Courier, monospace",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "\"Red Hat Mono\", \"RedHatMono\", \"Courier New\", Courier, monospace"
+              },
+              "name": "pf-t--global--font--family--300",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "family",
+                "subitem": "300"
+              },
+              "path": [
+                "global",
+                "font",
+                "family",
+                "300"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--z-index--xs": {
         "default": {
+          "description": "Use to set an extra small z-index, to display an element below other elements with a larger z-index. Use for smaller parts of a component that need to overlap adjacent elements, like box shadows of hovered elements.",
           "type": "number",
           "value": 100,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to set an extra small z-index, to display an element below other elements with a larger z-index. Use for smaller parts of a component that need to overlap adjacent elements, like box shadows of hovered elements.",
             "type": "number",
             "value": "{global.z-index.100}"
           },
@@ -33899,11 +34119,13 @@
       },
       "pf-t--global--z-index--sm": {
         "default": {
+          "description": "Use to set a small z-index, to display an element above other elements with smaller z-indexes. Use for components that need to appear above surrounding elements, like menus/dropdowns.",
           "type": "number",
           "value": 200,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to set a small z-index, to display an element above other elements with smaller z-indexes. Use for components that need to appear above surrounding elements, like menus/dropdowns.",
             "type": "number",
             "value": "{global.z-index.200}"
           },
@@ -33945,11 +34167,13 @@
       },
       "pf-t--global--z-index--md": {
         "default": {
+          "description": "Use to set a medium z-index, to display an element above other elements with smaller z-indexes Use for sticky elements, like banners and page sections.",
           "type": "number",
           "value": 300,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to set a medium z-index, to display an element above other elements with smaller z-indexes Use for sticky elements, like banners and page sections.",
             "type": "number",
             "value": "{global.z-index.300}"
           },
@@ -33991,11 +34215,13 @@
       },
       "pf-t--global--z-index--lg": {
         "default": {
+          "description": "Use to set a large z-index, to display an element above other elements with smaller z-indexes Use for the backdrop component, which appears beneath an open modal.",
           "type": "number",
           "value": 400,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to set a large z-index, to display an element above other elements with smaller z-indexes Use for the backdrop component, which appears beneath an open modal.",
             "type": "number",
             "value": "{global.z-index.400}"
           },
@@ -34037,11 +34263,13 @@
       },
       "pf-t--global--z-index--xl": {
         "default": {
+          "description": "Use to set an extra large z-index, to display an element above other elements with smaller z-indexes. Use for modals.",
           "type": "number",
           "value": 500,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to set an extra large z-index, to display an element above other elements with smaller z-indexes. Use for modals.",
             "type": "number",
             "value": "{global.z-index.500}"
           },
@@ -34083,11 +34311,13 @@
       },
       "pf-t--global--z-index--2xl": {
         "default": {
+          "description": "Use to set a double extra large z-index, to display an element above all other page elements. Use for elements that should appear on top of all others, like toast alert groups.",
           "type": "number",
           "value": 600,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to set a double extra large z-index, to display an element above all other page elements. Use for elements that should appear on top of all others, like toast alert groups.",
             "type": "number",
             "value": "{global.z-index.600}"
           },
@@ -36592,6 +36822,780 @@
                 "global",
                 "breakpoint",
                 "550"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--width--default": {
+        "default": {
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.border.width.regular}"
+          },
+          "name": "pf-t--global--text-decoration--width--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "width",
+            "subitem": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "width",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default border width for elements.",
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default border width for elements.",
+                "type": "number",
+                "value": "{global.border.width.100}"
+              },
+              "name": "pf-t--global--border--width--regular",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "1px",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 1
+                  },
+                  "name": "pf-t--global--border--width--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "border",
+                    "item": "width",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "border",
+                    "width",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--offset--default": {
+        "default": {
+          "type": "number",
+          "value": "0.25rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          },
+          "name": "pf-t--global--text-decoration--offset--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "offset",
+            "subitem": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "offset",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for extra small spaces between elements.",
+              "type": "number",
+              "value": "0.25rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for extra small spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.100}"
+              },
+              "name": "pf-t--global--spacer--xs",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "xs"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "xs"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.25rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 4
+                  },
+                  "name": "pf-t--global--spacer--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "100"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--editable-text--line--default": {
+        "default": {
+          "type": "number",
+          "value": "underline",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "name": "pf-t--global--text-decoration--editable-text--line--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "editable-text",
+            "subitem": "line",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "editable-text",
+            "line",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "underline",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "underline"
+              },
+              "name": "pf-t--global--text-decoration--line--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "line",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "line",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--editable-text--line--hover": {
+        "default": {
+          "type": "number",
+          "value": "underline",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "name": "pf-t--global--text-decoration--editable-text--line--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "editable-text",
+            "subitem": "line",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "editable-text",
+            "line",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "underline",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "underline"
+              },
+              "name": "pf-t--global--text-decoration--line--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "line",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "line",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--editable-text--style--default": {
+        "default": {
+          "type": "number",
+          "value": "dashed",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "name": "pf-t--global--text-decoration--editable-text--style--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "editable-text",
+            "subitem": "style",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "editable-text",
+            "style",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "dashed",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "dashed"
+              },
+              "name": "pf-t--global--text-decoration--style--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "style",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "style",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--editable-text--style--hover": {
+        "default": {
+          "type": "number",
+          "value": "dashed",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "name": "pf-t--global--text-decoration--editable-text--style--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "editable-text",
+            "subitem": "style",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "editable-text",
+            "style",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "dashed",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "dashed"
+              },
+              "name": "pf-t--global--text-decoration--style--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "style",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "style",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--link--line--default": {
+        "default": {
+          "type": "number",
+          "value": "underline",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "name": "pf-t--global--text-decoration--link--line--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "link",
+            "subitem": "line",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "link",
+            "line",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "underline",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "underline"
+              },
+              "name": "pf-t--global--text-decoration--line--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "line",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "line",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--link--line--hover": {
+        "default": {
+          "type": "number",
+          "value": "underline",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "name": "pf-t--global--text-decoration--link--line--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "link",
+            "subitem": "line",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "link",
+            "line",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "underline",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "underline"
+              },
+              "name": "pf-t--global--text-decoration--line--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "line",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "line",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--link--style--default": {
+        "default": {
+          "type": "number",
+          "value": "solid",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.style.100}"
+          },
+          "name": "pf-t--global--text-decoration--link--style--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "link",
+            "subitem": "style",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "link",
+            "style",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "solid",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "solid"
+              },
+              "name": "pf-t--global--text-decoration--style--100",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "style",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "style",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--link--style--hover": {
+        "default": {
+          "type": "number",
+          "value": "solid",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.style.100}"
+          },
+          "name": "pf-t--global--text-decoration--link--style--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "link",
+            "subitem": "style",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "link",
+            "style",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "solid",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "solid"
+              },
+              "name": "pf-t--global--text-decoration--style--100",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "style",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "style",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--help-text--line--default": {
+        "default": {
+          "type": "number",
+          "value": "underline",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "name": "pf-t--global--text-decoration--help-text--line--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "help-text",
+            "subitem": "line",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "help-text",
+            "line",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "underline",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "underline"
+              },
+              "name": "pf-t--global--text-decoration--line--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "line",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "line",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--help-text--line--hover": {
+        "default": {
+          "type": "number",
+          "value": "underline",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "name": "pf-t--global--text-decoration--help-text--line--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "help-text",
+            "subitem": "line",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "help-text",
+            "line",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "underline",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "underline"
+              },
+              "name": "pf-t--global--text-decoration--line--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "line",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "line",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--help-text--style--default": {
+        "default": {
+          "type": "number",
+          "value": "dashed",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "name": "pf-t--global--text-decoration--help-text--style--default",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "help-text",
+            "subitem": "style",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "help-text",
+            "style",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "dashed",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "dashed"
+              },
+              "name": "pf-t--global--text-decoration--style--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "style",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "style",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--help-text--style--hover": {
+        "default": {
+          "type": "number",
+          "value": "dashed",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "name": "pf-t--global--text-decoration--help-text--style--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "help-text",
+            "subitem": "style",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "help-text",
+            "style",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "string",
+              "value": "dashed",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "string",
+                "value": "dashed"
+              },
+              "name": "pf-t--global--text-decoration--style--200",
+              "attributes": {
+                "category": "global",
+                "type": "text-decoration",
+                "item": "style",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "text-decoration",
+                "style",
+                "200"
               ]
             }
           ]
@@ -42462,81 +43466,6 @@
           ]
         }
       },
-      "pf-t--global--font--family--100": {
-        "default": {
-          "type": "string",
-          "value": "Red Hat Text VF",
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "string",
-            "value": "Red Hat Text VF"
-          },
-          "name": "pf-t--global--font--family--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "family",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "family",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--family--200": {
-        "default": {
-          "type": "string",
-          "value": "Red Hat Display VF",
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "string",
-            "value": "Red Hat Display VF"
-          },
-          "name": "pf-t--global--font--family--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "family",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "family",
-            "200"
-          ]
-        }
-      },
-      "pf-t--global--font--family--300": {
-        "default": {
-          "type": "string",
-          "value": "Red Hat Mono VF",
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "string",
-            "value": "Red Hat Mono VF"
-          },
-          "name": "pf-t--global--font--family--300",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "family",
-            "subitem": "300"
-          },
-          "path": [
-            "global",
-            "font",
-            "family",
-            "300"
-          ]
-        }
-      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -42884,6 +43813,81 @@
             "font",
             "size",
             "800"
+          ]
+        }
+      },
+      "pf-t--global--font--family--100": {
+        "default": {
+          "type": "string",
+          "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+          },
+          "name": "pf-t--global--font--family--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "family",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "family",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--family--200": {
+        "default": {
+          "type": "string",
+          "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+          },
+          "name": "pf-t--global--font--family--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "family",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "family",
+            "200"
+          ]
+        }
+      },
+      "pf-t--global--font--family--300": {
+        "default": {
+          "type": "string",
+          "value": "\"Red Hat Mono\", \"RedHatMono\", \"Courier New\", Courier, monospace",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "\"Red Hat Mono\", \"RedHatMono\", \"Courier New\", Courier, monospace"
+          },
+          "name": "pf-t--global--font--family--300",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "family",
+            "subitem": "300"
+          },
+          "path": [
+            "global",
+            "font",
+            "family",
+            "300"
           ]
         }
       },
@@ -43679,6 +44683,106 @@
             "global",
             "breakpoint",
             "600"
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--line--100": {
+        "default": {
+          "type": "string",
+          "value": "none",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "none"
+          },
+          "name": "pf-t--global--text-decoration--line--100",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "line",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "line",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--line--200": {
+        "default": {
+          "type": "string",
+          "value": "underline",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "underline"
+          },
+          "name": "pf-t--global--text-decoration--line--200",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "line",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "line",
+            "200"
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--style--100": {
+        "default": {
+          "type": "string",
+          "value": "solid",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "solid"
+          },
+          "name": "pf-t--global--text-decoration--style--100",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "style",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "style",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--text-decoration--style--200": {
+        "default": {
+          "type": "string",
+          "value": "dashed",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "dashed"
+          },
+          "name": "pf-t--global--text-decoration--style--200",
+          "attributes": {
+            "category": "global",
+            "type": "text-decoration",
+            "item": "style",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "text-decoration",
+            "style",
+            "200"
           ]
         }
       }

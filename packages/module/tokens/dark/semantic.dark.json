@@ -922,17 +922,17 @@
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus gray background color and/or are paired with on-gray colored text.",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus gray background color and/or are paired with on-gray colored text.",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus gray background color and/or are paired with on-gray colored text.",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             }
           }
         }
@@ -1215,17 +1215,17 @@
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be gray (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.dark.color.nonstatus.gray.100}"
+              "value": "{global.dark.color.nonstatus.gray.200}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be gray (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.dark.color.nonstatus.gray.200}"
+              "value": "{global.dark.color.nonstatus.gray.300}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be gray (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.dark.color.nonstatus.gray.200}"
+              "value": "{global.dark.color.nonstatus.gray.300}"
             }
           }
         }
@@ -1667,17 +1667,17 @@
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus gray background color.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus gray background color.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus gray background color.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             }
           }
         }
