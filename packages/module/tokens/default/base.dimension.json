@@ -51,7 +51,7 @@
         },
         "300": {
           "type": "number",
-          "value": 22
+          "value": 24
         },
         "400": {
           "type": "number",
@@ -117,7 +117,7 @@
         },
         "300": {
           "type": "number",
-          "value": 700
+          "value": 500
         },
         "400": {
           "type": "number",
@@ -157,7 +157,7 @@
         },
         "600": {
           "type": "number",
-          "value": 22
+          "value": 24
         },
         "700": {
           "type": "number",

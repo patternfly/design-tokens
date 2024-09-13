@@ -8537,6 +8537,83 @@
           ]
         }
       },
+      "pf-t--global--border--color--control--read-only": {
+        "dark": {
+          "type": "color",
+          "value": "#4d4d4d",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.dark.border.color.50}"
+          },
+          "name": "pf-t--global--border--color--control--read-only",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "control",
+            "state": "read-only"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "control",
+            "read-only"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4d4d4d",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.gray.60}"
+              },
+              "name": "pf-t--global--dark--border--color--50",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "border",
+                "subitem": "color",
+                "state": "50"
+              },
+              "path": [
+                "global",
+                "dark",
+                "border",
+                "color",
+                "50"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#4d4d4d",
+                  "filePath": "tokens/dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#4d4d4d"
+                  },
+                  "name": "pf-t--color--gray--60",
+                  "attributes": {
+                    "category": "color",
+                    "type": "gray",
+                    "item": "60"
+                  },
+                  "path": [
+                    "color",
+                    "gray",
+                    "60"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--border--color--brand--default": {
         "dark": {
           "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
@@ -14548,6 +14625,83 @@
             "color",
             "control",
             "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#383838",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.gray.70}"
+              },
+              "name": "pf-t--global--dark--background--color--300",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "background",
+                "subitem": "color",
+                "state": "300"
+              },
+              "path": [
+                "global",
+                "dark",
+                "background",
+                "color",
+                "300"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#383838",
+                  "filePath": "tokens/dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#383838"
+                  },
+                  "name": "pf-t--color--gray--70",
+                  "attributes": {
+                    "category": "color",
+                    "type": "gray",
+                    "item": "70"
+                  },
+                  "path": [
+                    "color",
+                    "gray",
+                    "70"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--control--read-only": {
+        "dark": {
+          "type": "color",
+          "value": "#383838",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.dark.background.color.300}"
+          },
+          "name": "pf-t--global--background--color--control--read-only",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "control",
+            "state": "read-only"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "control",
+            "read-only"
           ],
           "references": [
             {
@@ -29090,6 +29244,83 @@
           ]
         }
       },
+      "pf-t--global--spacer--gap--text-to-element--compact": {
+        "default": {
+          "description": "Use to space an element, like an icon or badge, inline with text",
+          "type": "number",
+          "value": "0.25rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to space an element, like an icon or badge, inline with text",
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          },
+          "name": "pf-t--global--spacer--gap--text-to-element--compact",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "gap",
+            "subitem": "text-to-element",
+            "state": "compact"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "gap",
+            "text-to-element",
+            "compact"
+          ],
+          "references": [
+            {
+              "description": "Use for extra small spaces between elements.",
+              "type": "number",
+              "value": "0.25rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": false,
+              "original": {
+                "description": "Use for extra small spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.100}"
+              },
+              "name": "pf-t--global--spacer--xs",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "xs"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "xs"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.25rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": false,
+                  "original": {
+                    "type": "number",
+                    "value": 4
+                  },
+                  "name": "pf-t--global--spacer--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "100"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--spacer--gap--control-to-control--default": {
         "default": {
           "description": "Use to set the space between controls, like in input groups or filter groups",
@@ -29321,7 +29552,7 @@
           ]
         }
       },
-      "pf-t--global--spacer--gap--group-to-group--horizontal": {
+      "pf-t--global--spacer--gap--group-to-group--horizontal--default": {
         "default": {
           "description": "Use to set the horizontal space between groups of elements, like between multiple action groups or forms groups placed in a horizontal layout.",
           "type": "number",
@@ -29333,7 +29564,7 @@
             "type": "number",
             "value": "{global.spacer.2xl}"
           },
-          "name": "pf-t--global--spacer--gap--group-to-group--horizontal",
+          "name": "pf-t--global--spacer--gap--group-to-group--horizontal--default",
           "attributes": {
             "category": "global",
             "type": "spacer",
@@ -29346,7 +29577,8 @@
             "spacer",
             "gap",
             "group-to-group",
-            "horizontal"
+            "horizontal",
+            "default"
           ],
           "references": [
             {
@@ -29398,7 +29630,83 @@
           ]
         }
       },
-      "pf-t--global--spacer--gap--group-to-group--vertical": {
+      "pf-t--global--spacer--gap--group-to-group--horizontal--compact": {
+        "default": {
+          "type": "number",
+          "value": "0.5rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "name": "pf-t--global--spacer--gap--group-to-group--horizontal--compact",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "gap",
+            "subitem": "group-to-group",
+            "state": "horizontal"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "gap",
+            "group-to-group",
+            "horizontal",
+            "compact"
+          ],
+          "references": [
+            {
+              "description": "Use for small spaces between elements.",
+              "type": "number",
+              "value": "0.5rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": false,
+              "original": {
+                "description": "Use for small spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.200}"
+              },
+              "name": "pf-t--global--spacer--sm",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "sm"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.5rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": false,
+                  "original": {
+                    "type": "number",
+                    "value": 8
+                  },
+                  "name": "pf-t--global--spacer--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "200"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "200"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--gap--group-to-group--vertical--default": {
         "default": {
           "description": "Use to set the vertical space between groups of elements, like between stacked form groups.",
           "type": "number",
@@ -29410,7 +29718,7 @@
             "type": "number",
             "value": "{global.spacer.lg}"
           },
-          "name": "pf-t--global--spacer--gap--group-to-group--vertical",
+          "name": "pf-t--global--spacer--gap--group-to-group--vertical--default",
           "attributes": {
             "category": "global",
             "type": "spacer",
@@ -29423,7 +29731,8 @@
             "spacer",
             "gap",
             "group-to-group",
-            "vertical"
+            "vertical",
+            "default"
           ],
           "references": [
             {
@@ -29468,6 +29777,82 @@
                     "global",
                     "spacer",
                     "400"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--spacer--gap--group-to-group--vertical--compact": {
+        "default": {
+          "type": "number",
+          "value": "1rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "name": "pf-t--global--spacer--gap--group-to-group--vertical--compact",
+          "attributes": {
+            "category": "global",
+            "type": "spacer",
+            "item": "gap",
+            "subitem": "group-to-group",
+            "state": "vertical"
+          },
+          "path": [
+            "global",
+            "spacer",
+            "gap",
+            "group-to-group",
+            "vertical",
+            "compact"
+          ],
+          "references": [
+            {
+              "description": "Use for medium-sized spaces between elements.",
+              "type": "number",
+              "value": "1rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": false,
+              "original": {
+                "description": "Use for medium-sized spaces between elements.",
+                "type": "number",
+                "value": "{global.spacer.300}"
+              },
+              "name": "pf-t--global--spacer--md",
+              "attributes": {
+                "category": "global",
+                "type": "spacer",
+                "item": "md"
+              },
+              "path": [
+                "global",
+                "spacer",
+                "md"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "1rem",
+                  "filePath": "tokens/default/base.dimension.json",
+                  "isSource": false,
+                  "original": {
+                    "type": "number",
+                    "value": 16
+                  },
+                  "name": "pf-t--global--spacer--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "spacer",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "spacer",
+                    "300"
                   ]
                 }
               ]
@@ -29935,7 +30320,7 @@
         "default": {
           "description": "Use for extra large icons.",
           "type": "number",
-          "value": "1.375rem",
+          "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -29959,12 +30344,12 @@
           "references": [
             {
               "type": "number",
-              "value": "1.375rem",
+              "value": "1.5rem",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 22
+                "value": 24
               },
               "name": "pf-t--global--icon--size--300",
               "attributes": {
@@ -30370,7 +30755,7 @@
         "default": {
           "description": "Use for icons that are placed inline with first level headings",
           "type": "number",
-          "value": "1.375rem",
+          "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -30398,7 +30783,7 @@
             {
               "description": "Use as the font size for first level headings.",
               "type": "number",
-              "value": "1.375rem",
+              "value": "1.5rem",
               "filePath": "tokens/default/semantic.dimension.json",
               "isSource": false,
               "original": {
@@ -30425,7 +30810,7 @@
                 {
                   "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
                   "type": "number",
-                  "value": "1.375rem",
+                  "value": "1.5rem",
                   "filePath": "tokens/default/semantic.dimension.json",
                   "isSource": false,
                   "original": {
@@ -30449,12 +30834,12 @@
                   "references": [
                     {
                       "type": "number",
-                      "value": "1.375rem",
+                      "value": "1.5rem",
                       "filePath": "tokens/default/base.dimension.json",
                       "isSource": false,
                       "original": {
                         "type": "number",
-                        "value": 22
+                        "value": 24
                       },
                       "name": "pf-t--global--font--size--600",
                       "attributes": {
@@ -31439,7 +31824,7 @@
         "default": {
           "description": "Use for icons that are placed inline with font–size–2xl text",
           "type": "number",
-          "value": "1.375rem",
+          "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -31466,7 +31851,7 @@
             {
               "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
               "type": "number",
-              "value": "1.375rem",
+              "value": "1.5rem",
               "filePath": "tokens/default/semantic.dimension.json",
               "isSource": false,
               "original": {
@@ -31490,12 +31875,12 @@
               "references": [
                 {
                   "type": "number",
-                  "value": "1.375rem",
+                  "value": "1.5rem",
                   "filePath": "tokens/default/base.dimension.json",
                   "isSource": false,
                   "original": {
                     "type": "number",
-                    "value": 22
+                    "value": 24
                   },
                   "name": "pf-t--global--font--size--600",
                   "attributes": {
@@ -31730,58 +32115,6 @@
           ]
         }
       },
-      "pf-t--global--border--width--regular": {
-        "default": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "1px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": false,
-          "original": {
-            "description": "Use as the default border width for elements.",
-            "type": "number",
-            "value": "{global.border.width.100}"
-          },
-          "name": "pf-t--global--border--width--regular",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "regular"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "regular"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "1px",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": false,
-              "original": {
-                "type": "number",
-                "value": 1
-              },
-              "name": "pf-t--global--border--width--100",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "border",
-                "width",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--border--width--divider--default": {
         "default": {
           "description": "Use as the default border width for dividers.",
@@ -31916,6 +32249,58 @@
             "width",
             "divider",
             "clicked"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": 1
+              },
+              "name": "pf-t--global--border--width--100",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--width--regular": {
+        "default": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use as the default border width for elements.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "name": "pf-t--global--border--width--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "regular"
           ],
           "references": [
             {
@@ -33068,7 +33453,7 @@
         "default": {
           "description": "Use to define the default weight for heading text",
           "type": "number",
-          "value": 700,
+          "value": 500,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -33094,12 +33479,12 @@
           "references": [
             {
               "type": "number",
-              "value": 700,
+              "value": 500,
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 700
+                "value": 500
               },
               "name": "pf-t--global--font--weight--300",
               "attributes": {
@@ -33521,7 +33906,7 @@
         "default": {
           "description": "Use as the font size for first level headings.",
           "type": "number",
-          "value": "1.375rem",
+          "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -33548,7 +33933,7 @@
             {
               "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
               "type": "number",
-              "value": "1.375rem",
+              "value": "1.5rem",
               "filePath": "tokens/default/semantic.dimension.json",
               "isSource": false,
               "original": {
@@ -33572,12 +33957,12 @@
               "references": [
                 {
                   "type": "number",
-                  "value": "1.375rem",
+                  "value": "1.5rem",
                   "filePath": "tokens/default/base.dimension.json",
                   "isSource": false,
                   "original": {
                     "type": "number",
-                    "value": 22
+                    "value": 24
                   },
                   "name": "pf-t--global--font--size--600",
                   "attributes": {
@@ -34265,7 +34650,7 @@
         "default": {
           "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
           "type": "number",
-          "value": "1.375rem",
+          "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -34289,12 +34674,12 @@
           "references": [
             {
               "type": "number",
-              "value": "1.375rem",
+              "value": "1.5rem",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 22
+                "value": 24
               },
               "name": "pf-t--global--font--size--600",
               "attributes": {
@@ -39901,6 +40286,54 @@
           ]
         }
       },
+      "pf-t--global--border--color--50": {
+        "default": {
+          "type": "color",
+          "value": "#e0e0e0",
+          "filePath": "tokens/default/base.json",
+          "isSource": false,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.20}"
+          },
+          "name": "pf-t--global--border--color--50",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "50"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "50"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#e0e0e0",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#e0e0e0"
+              },
+              "name": "pf-t--color--gray--20",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "20"
+              },
+              "path": [
+                "color",
+                "gray",
+                "20"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--border--color--100": {
         "default": {
           "type": "color",
@@ -44165,312 +44598,6 @@
           ]
         }
       },
-      "pf-t--global--dark--color--severity--undefined--100": {
-        "dark": {
-          "type": "color",
-          "value": "#a3a3a3",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--undefined--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "undefined"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "undefined",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#a3a3a3",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#a3a3a3"
-              },
-              "name": "pf-t--color--gray--40",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "gray",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--none--100": {
-        "dark": {
-          "type": "color",
-          "value": "#92c5f9",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.blue.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--none--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "none"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "none",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#92c5f9",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#92c5f9"
-              },
-              "name": "pf-t--color--blue--30",
-              "attributes": {
-                "category": "color",
-                "type": "blue",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "blue",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--minor--100": {
-        "dark": {
-          "type": "color",
-          "value": "#c7c7c7",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--minor--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "minor"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "minor",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#c7c7c7",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#c7c7c7"
-              },
-              "name": "pf-t--color--gray--30",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "gray",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--moderate--100": {
-        "dark": {
-          "type": "color",
-          "value": "#ffcc17",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.yellow.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--moderate--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "moderate"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "moderate",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#ffcc17",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffcc17"
-              },
-              "name": "pf-t--color--yellow--30",
-              "attributes": {
-                "category": "color",
-                "type": "yellow",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "yellow",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--important--100": {
-        "dark": {
-          "type": "color",
-          "value": "#f5921b",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.orange.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--important--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "important"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "important",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f5921b",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f5921b"
-              },
-              "name": "pf-t--color--orange--40",
-              "attributes": {
-                "category": "color",
-                "type": "orange",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "orange",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--critical--100": {
-        "dark": {
-          "type": "color",
-          "value": "#f0561d",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.red-orange.50}"
-          },
-          "name": "pf-t--global--dark--color--severity--critical--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "critical"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "critical",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f0561d",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f0561d"
-              },
-              "name": "pf-t--color--red-orange--50",
-              "attributes": {
-                "category": "color",
-                "type": "red-orange",
-                "item": "50"
-              },
-              "path": [
-                "color",
-                "red-orange",
-                "50"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--dark--color--status--success--100": {
         "dark": {
           "type": "color",
@@ -45078,6 +45205,312 @@
                 "color",
                 "teal",
                 "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--undefined--100": {
+        "dark": {
+          "type": "color",
+          "value": "#a3a3a3",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--undefined--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "undefined"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "undefined",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a3a3a3",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#a3a3a3"
+              },
+              "name": "pf-t--color--gray--40",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "gray",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--none--100": {
+        "dark": {
+          "type": "color",
+          "value": "#92c5f9",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--none--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "none"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "none",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#92c5f9",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#92c5f9"
+              },
+              "name": "pf-t--color--blue--30",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "blue",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--minor--100": {
+        "dark": {
+          "type": "color",
+          "value": "#c7c7c7",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--minor--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "minor"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "minor",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#c7c7c7",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#c7c7c7"
+              },
+              "name": "pf-t--color--gray--30",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "gray",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--moderate--100": {
+        "dark": {
+          "type": "color",
+          "value": "#ffcc17",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--moderate--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "moderate"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "moderate",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ffcc17",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#ffcc17"
+              },
+              "name": "pf-t--color--yellow--30",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--important--100": {
+        "dark": {
+          "type": "color",
+          "value": "#f5921b",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.orange.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--important--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "important"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "important",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f5921b",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f5921b"
+              },
+              "name": "pf-t--color--orange--40",
+              "attributes": {
+                "category": "color",
+                "type": "orange",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "orange",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--critical--100": {
+        "dark": {
+          "type": "color",
+          "value": "#f0561d",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.50}"
+          },
+          "name": "pf-t--global--dark--color--severity--critical--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "critical"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "critical",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f0561d",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f0561d"
+              },
+              "name": "pf-t--color--red-orange--50",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "50"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "50"
               ]
             }
           ]
@@ -46460,6 +46893,56 @@
           ]
         }
       },
+      "pf-t--global--dark--border--color--50": {
+        "dark": {
+          "type": "color",
+          "value": "#4d4d4d",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.60}"
+          },
+          "name": "pf-t--global--dark--border--color--50",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "border",
+            "subitem": "color",
+            "state": "50"
+          },
+          "path": [
+            "global",
+            "dark",
+            "border",
+            "color",
+            "50"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4d4d4d",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#4d4d4d"
+              },
+              "name": "pf-t--color--gray--60",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "gray",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--dark--border--color--100": {
         "dark": {
           "type": "color",
@@ -47352,12 +47835,12 @@
       "pf-t--global--icon--size--300": {
         "default": {
           "type": "number",
-          "value": "1.375rem",
+          "value": "1.5rem",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 22
+            "value": 24
           },
           "name": "pf-t--global--icon--size--300",
           "attributes": {
@@ -47702,12 +48185,12 @@
       "pf-t--global--font--weight--300": {
         "default": {
           "type": "number",
-          "value": 700,
+          "value": 500,
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 700
+            "value": 500
           },
           "name": "pf-t--global--font--weight--300",
           "attributes": {
@@ -47927,12 +48410,12 @@
       "pf-t--global--font--size--600": {
         "default": {
           "type": "number",
-          "value": "1.375rem",
+          "value": "1.5rem",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 22
+            "value": 24
           },
           "name": "pf-t--global--font--size--600",
           "attributes": {
