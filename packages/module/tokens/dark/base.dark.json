@@ -79,44 +79,6 @@
             "value": "{color.yellow.20}"
           }
         },
-        "severity": {
-          "undefined": {
-            "100": {
-              "type": "color",
-              "value": "{color.gray.40}"
-            }
-          },
-          "none": {
-            "100": {
-              "type": "color",
-              "value": "{color.blue.30}"
-            }
-          },
-          "minor": {
-            "100": {
-              "type": "color",
-              "value": "{color.gray.30}"
-            }
-          },
-          "moderate": {
-            "100": {
-              "type": "color",
-              "value": "{color.yellow.30}"
-            }
-          },
-          "important": {
-            "100": {
-              "type": "color",
-              "value": "{color.orange.40}"
-            }
-          },
-          "critical": {
-            "100": {
-              "type": "color",
-              "value": "{color.red-orange.50}"
-            }
-          }
-        },
         "status": {
           "success": {
             "100": {
@@ -174,6 +136,44 @@
             "200": {
               "type": "color",
               "value": "{color.teal.30}"
+            }
+          }
+        },
+        "severity": {
+          "undefined": {
+            "100": {
+              "type": "color",
+              "value": "{color.gray.40}"
+            }
+          },
+          "none": {
+            "100": {
+              "type": "color",
+              "value": "{color.blue.30}"
+            }
+          },
+          "minor": {
+            "100": {
+              "type": "color",
+              "value": "{color.gray.30}"
+            }
+          },
+          "moderate": {
+            "100": {
+              "type": "color",
+              "value": "{color.yellow.30}"
+            }
+          },
+          "important": {
+            "100": {
+              "type": "color",
+              "value": "{color.orange.40}"
+            }
+          },
+          "critical": {
+            "100": {
+              "type": "color",
+              "value": "{color.red-orange.50}"
             }
           }
         },
@@ -308,6 +308,10 @@
       },
       "border": {
         "color": {
+          "50": {
+            "type": "color",
+            "value": "{color.gray.60}"
+          },
           "100": {
             "type": "color",
             "value": "{color.gray.50}"

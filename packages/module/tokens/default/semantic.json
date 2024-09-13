@@ -90,6 +90,10 @@
             "description": "Use as the default background for control elements like form inputs and menu toggles.",
             "type": "color",
             "value": "{global.background.color.primary.default}"
+          },
+          "read-only": {
+            "type": "color",
+            "value": "{global.background.color.200}"
           }
         },
         "highlight": {
@@ -940,6 +944,12 @@
     },
     "border": {
       "color": {
+        "control": {
+          "read-only": {
+            "type": "color",
+            "value": "{global.border.color.50}"
+          }
+        },
         "brand": {
           "default": {
             "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",

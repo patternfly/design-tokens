@@ -307,6 +307,10 @@
     },
     "border": {
       "color": {
+        "50": {
+          "type": "color",
+          "value": "{color.gray.20}"
+        },
         "100": {
           "type": "color",
           "value": "{color.gray.30}"
