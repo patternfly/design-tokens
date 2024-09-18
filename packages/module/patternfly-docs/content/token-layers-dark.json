@@ -27777,31 +27777,6 @@
             }
           ]
         }
-      },
-      "pf-t--globbal--background--color--tertiary": {
-        "dark": {
-          "type": "color",
-          "value": "#ffffff",
-          "filePath": "tokens/dark/semantic.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "name": "pf-t--globbal--background--color--tertiary",
-          "attributes": {
-            "category": "globbal",
-            "type": "background",
-            "item": "color",
-            "subitem": "tertiary"
-          },
-          "path": [
-            "globbal",
-            "background",
-            "color",
-            "tertiary"
-          ]
-        }
       }
     },
     "dimension": {

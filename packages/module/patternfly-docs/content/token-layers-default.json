@@ -27269,31 +27269,6 @@
             }
           ]
         }
-      },
-      "pf-t--globbal--background--color--tertiary": {
-        "default": {
-          "type": "color",
-          "value": "#ffffff",
-          "filePath": "tokens/default/semantic.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "name": "pf-t--globbal--background--color--tertiary",
-          "attributes": {
-            "category": "globbal",
-            "type": "background",
-            "item": "color",
-            "subitem": "tertiary"
-          },
-          "path": [
-            "globbal",
-            "background",
-            "color",
-            "tertiary"
-          ]
-        }
       }
     },
     "dimension": {
