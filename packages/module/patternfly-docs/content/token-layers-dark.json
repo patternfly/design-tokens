@@ -27777,6 +27777,31 @@
             }
           ]
         }
+      },
+      "pf-t--globbal--background--color--tertiary": {
+        "dark": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "pf-t--globbal--background--color--tertiary",
+          "attributes": {
+            "category": "globbal",
+            "type": "background",
+            "item": "color",
+            "subitem": "tertiary"
+          },
+          "path": [
+            "globbal",
+            "background",
+            "color",
+            "tertiary"
+          ]
+        }
       }
     },
     "dimension": {
@@ -30420,6 +30445,58 @@
           ]
         }
       },
+      "pf-t--global--icon--size--3xl": {
+        "default": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "6rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use for triple extra large icons.",
+            "type": "number",
+            "value": "{global.icon.size.500}"
+          },
+          "name": "pf-t--global--icon--size--3xl",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "3xl"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "6rem",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": 96
+              },
+              "name": "pf-t--global--icon--size--500",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
+              },
+              "path": [
+                "global",
+                "icon",
+                "size",
+                "500"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--icon--size--font--body--sm": {
         "default": {
           "description": "Use for icons that are placed inline with small body text",
@@ -32063,58 +32140,6 @@
           ]
         }
       },
-      "pf-t--global--icon--size--3xl": {
-        "default": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "6rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": false,
-          "original": {
-            "description": "Use for triple extra large icons.",
-            "type": "number",
-            "value": "{global.icon.size.500}"
-          },
-          "name": "pf-t--global--icon--size--3xl",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "3xl"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "3xl"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": false,
-              "original": {
-                "type": "number",
-                "value": 96
-              },
-              "name": "pf-t--global--icon--size--500",
-              "attributes": {
-                "category": "global",
-                "type": "icon",
-                "item": "size",
-                "subitem": "500"
-              },
-              "path": [
-                "global",
-                "icon",
-                "size",
-                "500"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--border--width--divider--default": {
         "default": {
           "description": "Use as the default border width for dividers.",
@@ -33341,6 +33366,110 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--body": {
+        "default": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the line height for body text",
+            "type": "number",
+            "value": "{global.font.line-height.200}"
+          },
+          "name": "pf-t--global--font--line-height--body",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "body"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "body"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.5,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": 1.5
+              },
+              "name": "pf-t--global--font--line-height--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--heading": {
+        "default": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": 1.2999999523162842,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the line height for heading text",
+            "type": "number",
+            "value": "{global.font.line-height.100}"
+          },
+          "name": "pf-t--global--font--line-height--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.2999999523162842,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": 1.2999999523162842
+              },
+              "name": "pf-t--global--font--line-height--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--font--weight--body--default": {
         "default": {
           "description": "Use to define the default weight for body text",
@@ -33552,110 +33681,6 @@
                 "font",
                 "weight",
                 "400"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--body": {
-        "default": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": false,
-          "original": {
-            "description": "Use to define the line height for body text",
-            "type": "number",
-            "value": "{global.font.line-height.200}"
-          },
-          "name": "pf-t--global--font--line-height--body",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "body"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "body"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.5,
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": false,
-              "original": {
-                "type": "number",
-                "value": 1.5
-              },
-              "name": "pf-t--global--font--line-height--200",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "200"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--heading": {
-        "default": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": 1.2999999523162842,
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": false,
-          "original": {
-            "description": "Use to define the line height for heading text",
-            "type": "number",
-            "value": "{global.font.line-height.100}"
-          },
-          "name": "pf-t--global--font--line-height--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "heading"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.2999999523162842,
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": false,
-              "original": {
-                "type": "number",
-                "value": 1.2999999523162842
-              },
-              "name": "pf-t--global--font--line-height--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "100"
               ]
             }
           ]
@@ -35412,13 +35437,13 @@
         "default": {
           "description": "Use to define the X value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
           "type": "number",
-          "value": "-1px",
+          "value": "-4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
             "type": "number",
-            "value": "{global.box-shadow.X.300}"
+            "value": "{global.box-shadow.X.200}"
           },
           "name": "pf-t--global--box-shadow--X--sm--left",
           "attributes": {
@@ -35438,25 +35463,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-1px",
+              "value": "-4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -1
+                "value": -4
               },
-              "name": "pf-t--global--box-shadow--X--300",
+              "name": "pf-t--global--box-shadow--X--200",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "300"
+                "subitem": "200"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "300"
+                "200"
               ]
             }
           ]
@@ -35466,13 +35491,13 @@
         "default": {
           "description": "Use to define the X value for a small box-shadow that appears on the right of a raised element, like in sticky columns.",
           "type": "number",
-          "value": "1px",
+          "value": "4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a small box-shadow that appears on the right of a raised element, like in sticky columns.",
             "type": "number",
-            "value": "{global.box-shadow.X.500}"
+            "value": "{global.box-shadow.X.600}"
           },
           "name": "pf-t--global--box-shadow--X--sm--right",
           "attributes": {
@@ -35492,25 +35517,25 @@
           "references": [
             {
               "type": "number",
-              "value": "1px",
+              "value": "4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 1
+                "value": 4
               },
-              "name": "pf-t--global--box-shadow--X--500",
+              "name": "pf-t--global--box-shadow--X--600",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "500"
+                "subitem": "600"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "500"
+                "600"
               ]
             }
           ]
@@ -35682,13 +35707,13 @@
         "default": {
           "description": "Use to define the X value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
           "type": "number",
-          "value": "-4px",
+          "value": "-8px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
             "type": "number",
-            "value": "{global.box-shadow.X.200}"
+            "value": "{global.box-shadow.X.100}"
           },
           "name": "pf-t--global--box-shadow--X--md--left",
           "attributes": {
@@ -35708,25 +35733,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-4px",
+              "value": "-8px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -4
+                "value": -8
               },
-              "name": "pf-t--global--box-shadow--X--200",
+              "name": "pf-t--global--box-shadow--X--100",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "200"
+                "subitem": "100"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "200"
+                "100"
               ]
             }
           ]
@@ -35736,13 +35761,13 @@
         "default": {
           "description": "Use to define the X value for a medium box-shadow that appears on the right of a raised element, like in overlay drawers that show on the left of the screen.",
           "type": "number",
-          "value": "4px",
+          "value": "8px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a medium box-shadow that appears on the right of a raised element, like in overlay drawers that show on the left of the screen.",
             "type": "number",
-            "value": "{global.box-shadow.X.600}"
+            "value": "{global.box-shadow.X.700}"
           },
           "name": "pf-t--global--box-shadow--X--md--right",
           "attributes": {
@@ -35762,25 +35787,25 @@
           "references": [
             {
               "type": "number",
-              "value": "4px",
+              "value": "8px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 4
+                "value": 8
               },
-              "name": "pf-t--global--box-shadow--X--600",
+              "name": "pf-t--global--box-shadow--X--700",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "600"
+                "subitem": "700"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "600"
+                "700"
               ]
             }
           ]
@@ -35952,13 +35977,13 @@
         "default": {
           "description": "Use to define the X value for a large box-shadow that appears on the left of a raised element.",
           "type": "number",
-          "value": "-8px",
+          "value": "-24px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a large box-shadow that appears on the left of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.X.100}"
+            "value": "{global.box-shadow.X.50}"
           },
           "name": "pf-t--global--box-shadow--X--lg--left",
           "attributes": {
@@ -35978,25 +36003,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-8px",
+              "value": "-24px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -8
+                "value": -24
               },
-              "name": "pf-t--global--box-shadow--X--100",
+              "name": "pf-t--global--box-shadow--X--50",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "100"
+                "subitem": "50"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "100"
+                "50"
               ]
             }
           ]
@@ -36006,13 +36031,13 @@
         "default": {
           "description": "Use to define the X value for a large box-shadow that appears on the right of a raised element.",
           "type": "number",
-          "value": "8px",
+          "value": "24px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a large box-shadow that appears on the right of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.X.700}"
+            "value": "{global.box-shadow.X.800}"
           },
           "name": "pf-t--global--box-shadow--X--lg--right",
           "attributes": {
@@ -36032,25 +36057,25 @@
           "references": [
             {
               "type": "number",
-              "value": "8px",
+              "value": "24px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 8
+                "value": 24
               },
-              "name": "pf-t--global--box-shadow--X--700",
+              "name": "pf-t--global--box-shadow--X--800",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "700"
+                "subitem": "800"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "700"
+                "800"
               ]
             }
           ]
@@ -36114,13 +36139,13 @@
         "default": {
           "description": "Use to define the Y value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
           "type": "number",
-          "value": "-1px",
+          "value": "-4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
             "type": "number",
-            "value": "{global.box-shadow.Y.300}"
+            "value": "{global.box-shadow.Y.200}"
           },
           "name": "pf-t--global--box-shadow--Y--sm--top",
           "attributes": {
@@ -36140,25 +36165,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-1px",
+              "value": "-4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -1
+                "value": -4
               },
-              "name": "pf-t--global--box-shadow--Y--300",
+              "name": "pf-t--global--box-shadow--Y--200",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "300"
+                "subitem": "200"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "300"
+                "200"
               ]
             }
           ]
@@ -36168,13 +36193,13 @@
         "default": {
           "description": "Use to define the Y value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
           "type": "number",
-          "value": "1px",
+          "value": "4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
             "type": "number",
-            "value": "{global.box-shadow.Y.500}"
+            "value": "{global.box-shadow.Y.600}"
           },
           "name": "pf-t--global--box-shadow--Y--sm--bottom",
           "attributes": {
@@ -36194,25 +36219,25 @@
           "references": [
             {
               "type": "number",
-              "value": "1px",
+              "value": "4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 1
+                "value": 4
               },
-              "name": "pf-t--global--box-shadow--Y--500",
+              "name": "pf-t--global--box-shadow--Y--600",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "500"
+                "subitem": "600"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "500"
+                "600"
               ]
             }
           ]
@@ -36384,13 +36409,13 @@
         "default": {
           "description": "Use to define the Y value for a medium box-shadow that appears on the top of a raised element, like in overlay bottom drawers",
           "type": "number",
-          "value": "-4px",
+          "value": "-8px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a medium box-shadow that appears on the top of a raised element, like in overlay bottom drawers",
             "type": "number",
-            "value": "{global.box-shadow.Y.200}"
+            "value": "{global.box-shadow.Y.100}"
           },
           "name": "pf-t--global--box-shadow--Y--md--top",
           "attributes": {
@@ -36410,25 +36435,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-4px",
+              "value": "-8px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -4
+                "value": -8
               },
-              "name": "pf-t--global--box-shadow--Y--200",
+              "name": "pf-t--global--box-shadow--Y--100",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "200"
+                "subitem": "100"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "200"
+                "100"
               ]
             }
           ]
@@ -36438,13 +36463,13 @@
         "default": {
           "description": "Use to define the Y value for a medium box-shadow that appears on the bottom of a raised element.",
           "type": "number",
-          "value": "4px",
+          "value": "8px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a medium box-shadow that appears on the bottom of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.600}"
+            "value": "{global.box-shadow.Y.700}"
           },
           "name": "pf-t--global--box-shadow--Y--md--bottom",
           "attributes": {
@@ -36464,25 +36489,25 @@
           "references": [
             {
               "type": "number",
-              "value": "4px",
+              "value": "8px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 4
+                "value": 8
               },
-              "name": "pf-t--global--box-shadow--Y--600",
+              "name": "pf-t--global--box-shadow--Y--700",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "600"
+                "subitem": "700"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "600"
+                "700"
               ]
             }
           ]
@@ -36654,13 +36679,13 @@
         "default": {
           "description": "Use to define the Y value for a large box-shadow that appears on the top of a raised element.",
           "type": "number",
-          "value": "-8px",
+          "value": "-24px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a large box-shadow that appears on the top of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.100}"
+            "value": "{global.box-shadow.Y.50}"
           },
           "name": "pf-t--global--box-shadow--Y--lg--top",
           "attributes": {
@@ -36680,25 +36705,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-8px",
+              "value": "-24px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -8
+                "value": -24
               },
-              "name": "pf-t--global--box-shadow--Y--100",
+              "name": "pf-t--global--box-shadow--Y--50",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "100"
+                "subitem": "50"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "100"
+                "50"
               ]
             }
           ]
@@ -36708,13 +36733,13 @@
         "default": {
           "description": "Use to define the Y value for a large box-shadow that appears on the bottom of a raised element.",
           "type": "number",
-          "value": "8px",
+          "value": "24px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a large box-shadow that appears on the bottom of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.700}"
+            "value": "{global.box-shadow.Y.800}"
           },
           "name": "pf-t--global--box-shadow--Y--lg--bottom",
           "attributes": {
@@ -36734,25 +36759,25 @@
           "references": [
             {
               "type": "number",
-              "value": "8px",
+              "value": "24px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 8
+                "value": 24
               },
-              "name": "pf-t--global--box-shadow--Y--700",
+              "name": "pf-t--global--box-shadow--Y--800",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "700"
+                "subitem": "800"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "700"
+                "800"
               ]
             }
           ]
@@ -36870,7 +36895,7 @@
         "default": {
           "description": "Use to define the blur for a small box-shadow",
           "type": "number",
-          "value": "4px",
+          "value": "6px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -36894,12 +36919,12 @@
           "references": [
             {
               "type": "number",
-              "value": "4px",
+              "value": "6px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 4
+                "value": 6
               },
               "name": "pf-t--global--box-shadow--blur--100",
               "attributes": {
@@ -37022,7 +37047,7 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--spread--sm": {
+      "pf-t--global--box-shadow--spread--sm--default": {
         "default": {
           "description": "Use to define the spread for a small box-shadow",
           "type": "number",
@@ -37034,18 +37059,20 @@
             "type": "number",
             "value": "{global.box-shadow.spread.100}"
           },
-          "name": "pf-t--global--box-shadow--spread--sm",
+          "name": "pf-t--global--box-shadow--spread--sm--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "spread",
-            "subitem": "sm"
+            "subitem": "sm",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "spread",
-            "sm"
+            "sm",
+            "default"
           ],
           "references": [
             {
@@ -37074,7 +37101,223 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--spread--md": {
+      "pf-t--global--box-shadow--spread--sm--top": {
+        "default": {
+          "description": "Use to define the spread for a small box-shadow",
+          "type": "number",
+          "value": "-4px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.200}"
+          },
+          "name": "pf-t--global--box-shadow--spread--sm--top",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "sm",
+            "state": "top"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "sm",
+            "top"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-4px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -4
+              },
+              "name": "pf-t--global--box-shadow--spread--200",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--sm--bottom": {
+        "default": {
+          "description": "Use to define the spread for a small box-shadow",
+          "type": "number",
+          "value": "-4px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.200}"
+          },
+          "name": "pf-t--global--box-shadow--spread--sm--bottom",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "sm",
+            "state": "bottom"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "sm",
+            "bottom"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-4px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -4
+              },
+              "name": "pf-t--global--box-shadow--spread--200",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--sm--left": {
+        "default": {
+          "description": "Use to define the spread for a small box-shadow",
+          "type": "number",
+          "value": "-4px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.200}"
+          },
+          "name": "pf-t--global--box-shadow--spread--sm--left",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "sm",
+            "state": "left"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "sm",
+            "left"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-4px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -4
+              },
+              "name": "pf-t--global--box-shadow--spread--200",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--sm--right": {
+        "default": {
+          "description": "Use to define the spread for a small box-shadow",
+          "type": "number",
+          "value": "-4px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.200}"
+          },
+          "name": "pf-t--global--box-shadow--spread--sm--right",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "sm",
+            "state": "right"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "sm",
+            "right"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-4px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -4
+              },
+              "name": "pf-t--global--box-shadow--spread--200",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--md--default": {
         "default": {
           "description": "Use to define the spread of a medium box-shadow",
           "type": "number",
@@ -37086,18 +37329,20 @@
             "type": "number",
             "value": "{global.box-shadow.spread.100}"
           },
-          "name": "pf-t--global--box-shadow--spread--md",
+          "name": "pf-t--global--box-shadow--spread--md--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "spread",
-            "subitem": "md"
+            "subitem": "md",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "spread",
-            "md"
+            "md",
+            "default"
           ],
           "references": [
             {
@@ -37126,7 +37371,223 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--spread--lg": {
+      "pf-t--global--box-shadow--spread--md--top": {
+        "default": {
+          "description": "Use to define the spread of a medium box-shadow",
+          "type": "number",
+          "value": "-6px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.300}"
+          },
+          "name": "pf-t--global--box-shadow--spread--md--top",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "md",
+            "state": "top"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "md",
+            "top"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-6px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -6
+              },
+              "name": "pf-t--global--box-shadow--spread--300",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "300"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "300"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--md--bottom": {
+        "default": {
+          "description": "Use to define the spread of a medium box-shadow",
+          "type": "number",
+          "value": "-6px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.300}"
+          },
+          "name": "pf-t--global--box-shadow--spread--md--bottom",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "md",
+            "state": "bottom"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "md",
+            "bottom"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-6px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -6
+              },
+              "name": "pf-t--global--box-shadow--spread--300",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "300"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "300"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--md--left": {
+        "default": {
+          "description": "Use to define the spread of a medium box-shadow",
+          "type": "number",
+          "value": "-6px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.300}"
+          },
+          "name": "pf-t--global--box-shadow--spread--md--left",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "md",
+            "state": "left"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "md",
+            "left"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-6px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -6
+              },
+              "name": "pf-t--global--box-shadow--spread--300",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "300"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "300"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--md--right": {
+        "default": {
+          "description": "Use to define the spread of a medium box-shadow",
+          "type": "number",
+          "value": "-6px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.300}"
+          },
+          "name": "pf-t--global--box-shadow--spread--md--right",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "md",
+            "state": "right"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "md",
+            "right"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-6px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -6
+              },
+              "name": "pf-t--global--box-shadow--spread--300",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "300"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "300"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--lg--default": {
         "default": {
           "description": "Use to define the spread of a large box-shadow",
           "type": "number",
@@ -37138,18 +37599,20 @@
             "type": "number",
             "value": "{global.box-shadow.spread.100}"
           },
-          "name": "pf-t--global--box-shadow--spread--lg",
+          "name": "pf-t--global--box-shadow--spread--lg--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "spread",
-            "subitem": "lg"
+            "subitem": "lg",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "spread",
-            "lg"
+            "lg",
+            "default"
           ],
           "references": [
             {
@@ -37173,6 +37636,222 @@
                 "box-shadow",
                 "spread",
                 "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--lg--top": {
+        "default": {
+          "description": "Use to define the spread of a large box-shadow",
+          "type": "number",
+          "value": "-16px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.400}"
+          },
+          "name": "pf-t--global--box-shadow--spread--lg--top",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "lg",
+            "state": "top"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "lg",
+            "top"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-16px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -16
+              },
+              "name": "pf-t--global--box-shadow--spread--400",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "400"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "400"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--lg--bottom": {
+        "default": {
+          "description": "Use to define the spread of a large box-shadow",
+          "type": "number",
+          "value": "-16px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.400}"
+          },
+          "name": "pf-t--global--box-shadow--spread--lg--bottom",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "lg",
+            "state": "bottom"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "lg",
+            "bottom"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-16px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -16
+              },
+              "name": "pf-t--global--box-shadow--spread--400",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "400"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "400"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--lg--left": {
+        "default": {
+          "description": "Use to define the spread of a large box-shadow",
+          "type": "number",
+          "value": "-16px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.400}"
+          },
+          "name": "pf-t--global--box-shadow--spread--lg--left",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "lg",
+            "state": "left"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "lg",
+            "left"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-16px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -16
+              },
+              "name": "pf-t--global--box-shadow--spread--400",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "400"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "400"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--lg--right": {
+        "default": {
+          "description": "Use to define the spread of a large box-shadow",
+          "type": "number",
+          "value": "-16px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.400}"
+          },
+          "name": "pf-t--global--box-shadow--spread--lg--right",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "lg",
+            "state": "right"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "lg",
+            "right"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-16px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -16
+              },
+              "name": "pf-t--global--box-shadow--spread--400",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "400"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "400"
               ]
             }
           ]
@@ -48132,6 +48811,56 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.2999999523162842,
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
+          ]
+        }
+      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -48229,56 +48958,6 @@
             "font",
             "weight",
             "400"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.2999999523162842,
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": false,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": false,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
           ]
         }
       },
@@ -48695,6 +49374,31 @@
           ]
         }
       },
+      "pf-t--global--box-shadow--X--50": {
+        "default": {
+          "type": "number",
+          "value": "-24px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -24
+          },
+          "name": "pf-t--global--box-shadow--X--50",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "X",
+            "subitem": "50"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "X",
+            "50"
+          ]
+        }
+      },
       "pf-t--global--box-shadow--X--100": {
         "default": {
           "type": "number",
@@ -48867,6 +49571,56 @@
             "box-shadow",
             "X",
             "700"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--X--800": {
+        "default": {
+          "type": "number",
+          "value": "24px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": 24
+          },
+          "name": "pf-t--global--box-shadow--X--800",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "X",
+            "subitem": "800"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "X",
+            "800"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--Y--50": {
+        "default": {
+          "type": "number",
+          "value": "-24px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -24
+          },
+          "name": "pf-t--global--box-shadow--Y--50",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "Y",
+            "subitem": "50"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "Y",
+            "50"
           ]
         }
       },
@@ -49045,15 +49799,40 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--blur--100": {
+      "pf-t--global--box-shadow--Y--800": {
         "default": {
           "type": "number",
-          "value": "4px",
+          "value": "24px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 4
+            "value": 24
+          },
+          "name": "pf-t--global--box-shadow--Y--800",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "Y",
+            "subitem": "800"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "Y",
+            "800"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--blur--100": {
+        "default": {
+          "type": "number",
+          "value": "6px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": 6
           },
           "name": "pf-t--global--box-shadow--blur--100",
           "attributes": {
@@ -49142,6 +49921,81 @@
             "box-shadow",
             "spread",
             "100"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--200": {
+        "default": {
+          "type": "number",
+          "value": "-4px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -4
+          },
+          "name": "pf-t--global--box-shadow--spread--200",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "200"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--300": {
+        "default": {
+          "type": "number",
+          "value": "-6px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -6
+          },
+          "name": "pf-t--global--box-shadow--spread--300",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "300"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "300"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--400": {
+        "default": {
+          "type": "number",
+          "value": "-16px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -16
+          },
+          "name": "pf-t--global--box-shadow--spread--400",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "400"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "400"
           ]
         }
       },

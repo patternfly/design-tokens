@@ -1712,5 +1712,15 @@
         }
       }
     }
+  },
+  "globbal": {
+    "background": {
+      "color": {
+        "tertiary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    }
   }
 }
