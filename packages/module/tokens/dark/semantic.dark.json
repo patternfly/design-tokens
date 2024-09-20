@@ -37,6 +37,13 @@
             "value": "{global.dark.background.color.200}"
           }
         },
+        "tertiary": {
+          "default": {
+            "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.600}"
+          }
+        },
         "floating": {
           "default": {
             "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
@@ -113,6 +120,16 @@
             "description": "Use as the background color components with inversed backgrounds like tooltips.",
             "type": "color",
             "value": "{global.dark.background.color.400}"
+          },
+          "hover": {
+            "description": "Use as the hover color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.450}"
+          },
+          "clicked": {
+            "description": "Use as the clicked color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.450}"
           }
         },
         "disabled": {

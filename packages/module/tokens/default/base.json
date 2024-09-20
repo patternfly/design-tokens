@@ -19,6 +19,10 @@
           "type": "color",
           "value": "{color.gray.80}"
         },
+        "450": {
+          "type": "color",
+          "value": "{color.gray.70}"
+        },
         "500": {
           "type": "color",
           "value": "rgba(21, 21, 21, 0.2000)"
