@@ -37,6 +37,13 @@
             "value": "{global.background.color.300}"
           }
         },
+        "tertiary": {
+          "default": {
+            "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
+            "type": "color",
+            "value": "{global.background.color.600}"
+          }
+        },
         "floating": {
           "default": {
             "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
@@ -113,6 +120,16 @@
             "description": "Use as the background color components with inversed backgrounds like tooltips.",
             "type": "color",
             "value": "{global.background.color.400}"
+          },
+          "hover": {
+            "description": "Use as the hover color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.background.color.450}"
+          },
+          "clicked": {
+            "description": "Use as the clicked color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.background.color.450}"
           }
         },
         "disabled": {
@@ -1696,19 +1713,40 @@
     "box-shadow": {
       "color": {
         "sm": {
-          "description": "Use as the color of small box-shadows.",
-          "type": "color",
-          "value": "{global.box-shadow.color.100}"
+          "default": {
+            "description": "Use as the color of small box-shadows.",
+            "type": "color",
+            "value": "{global.box-shadow.color.100}"
+          },
+          "directional": {
+            "description": "Use as the color of small box-shadows.",
+            "type": "color",
+            "value": "{global.box-shadow.color.200}"
+          }
         },
         "md": {
-          "description": "Use as the color of medium box-shadows.",
-          "type": "color",
-          "value": "{global.box-shadow.color.200}"
+          "default": {
+            "description": "Use as the color of medium box-shadows.",
+            "type": "color",
+            "value": "{global.box-shadow.color.100}"
+          },
+          "directional": {
+            "description": "Use as the color of medium box-shadows.",
+            "type": "color",
+            "value": "{global.box-shadow.color.100}"
+          }
         },
         "lg": {
-          "description": "Use as the color of large box-shadows.",
-          "type": "color",
-          "value": "{global.box-shadow.color.200}"
+          "default": {
+            "description": "Use as the color of large box-shadows.",
+            "type": "color",
+            "value": "{global.box-shadow.color.100}"
+          },
+          "directional": {
+            "description": "Use as the color of large box-shadows.",
+            "type": "color",
+            "value": "{global.box-shadow.color.200}"
+          }
         }
       }
     }
