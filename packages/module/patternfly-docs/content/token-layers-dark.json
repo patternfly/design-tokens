@@ -13260,7 +13260,7 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--color--sm": {
+      "pf-t--global--box-shadow--color--sm--default": {
         "dark": {
           "description": "Use as the color of small box-shadows.",
           "type": "color",
@@ -13272,18 +13272,20 @@
             "type": "color",
             "value": "{global.dark.box-shadow.color.100}"
           },
-          "name": "pf-t--global--box-shadow--color--sm",
+          "name": "pf-t--global--box-shadow--color--sm--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "color",
-            "subitem": "sm"
+            "subitem": "sm",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "color",
-            "sm"
+            "sm",
+            "default"
           ],
           "references": [
             {
@@ -13314,7 +13316,63 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--color--md": {
+      "pf-t--global--box-shadow--color--sm--directional": {
+        "dark": {
+          "description": "Use as the color of small box-shadows.",
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.7000)",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the color of small box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.200}"
+          },
+          "name": "pf-t--global--box-shadow--color--sm--directional",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "color",
+            "subitem": "sm",
+            "state": "directional"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "color",
+            "sm",
+            "directional"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(0, 0, 0, 0.7000)",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(0, 0, 0, 0.7000)"
+              },
+              "name": "pf-t--global--dark--box-shadow--color--200",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "box-shadow",
+                "subitem": "color",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "dark",
+                "box-shadow",
+                "color",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--color--md--default": {
         "dark": {
           "description": "Use as the color of medium box-shadows.",
           "type": "color",
@@ -13326,18 +13384,20 @@
             "type": "color",
             "value": "{global.dark.box-shadow.color.100}"
           },
-          "name": "pf-t--global--box-shadow--color--md",
+          "name": "pf-t--global--box-shadow--color--md--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "color",
-            "subitem": "md"
+            "subitem": "md",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "color",
-            "md"
+            "md",
+            "default"
           ],
           "references": [
             {
@@ -13368,7 +13428,63 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--color--lg": {
+      "pf-t--global--box-shadow--color--md--directional": {
+        "dark": {
+          "description": "Use as the color of medium box-shadows.",
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.7000)",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the color of medium box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.200}"
+          },
+          "name": "pf-t--global--box-shadow--color--md--directional",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "color",
+            "subitem": "md",
+            "state": "directional"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "color",
+            "md",
+            "directional"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(0, 0, 0, 0.7000)",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(0, 0, 0, 0.7000)"
+              },
+              "name": "pf-t--global--dark--box-shadow--color--200",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "box-shadow",
+                "subitem": "color",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "dark",
+                "box-shadow",
+                "color",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--color--lg--default": {
         "dark": {
           "description": "Use as the color of large box-shadows.",
           "type": "color",
@@ -13380,18 +13496,20 @@
             "type": "color",
             "value": "{global.dark.box-shadow.color.100}"
           },
-          "name": "pf-t--global--box-shadow--color--lg",
+          "name": "pf-t--global--box-shadow--color--lg--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "color",
-            "subitem": "lg"
+            "subitem": "lg",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "color",
-            "lg"
+            "lg",
+            "default"
           ],
           "references": [
             {
@@ -13417,6 +13535,62 @@
                 "box-shadow",
                 "color",
                 "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--color--lg--directional": {
+        "dark": {
+          "description": "Use as the color of large box-shadows.",
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.7000)",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the color of large box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.200}"
+          },
+          "name": "pf-t--global--box-shadow--color--lg--directional",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "color",
+            "subitem": "lg",
+            "state": "directional"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "color",
+            "lg",
+            "directional"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(0, 0, 0, 0.7000)",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(0, 0, 0, 0.7000)"
+              },
+              "name": "pf-t--global--dark--box-shadow--color--200",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "box-shadow",
+                "subitem": "color",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "dark",
+                "box-shadow",
+                "color",
+                "200"
               ]
             }
           ]
@@ -14051,6 +14225,62 @@
                     "80"
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--tertiary--default": {
+        "dark": {
+          "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.1500)",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.600}"
+          },
+          "name": "pf-t--global--background--color--tertiary--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "tertiary",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "tertiary",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(199, 199, 199, 0.1500)",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(199, 199, 199, 0.1500)"
+              },
+              "name": "pf-t--global--dark--background--color--600",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "background",
+                "subitem": "color",
+                "state": "600"
+              },
+              "path": [
+                "global",
+                "dark",
+                "background",
+                "color",
+                "600"
               ]
             }
           ]
@@ -14827,6 +15057,164 @@
                     "color",
                     "gray",
                     "10"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--inverse--hover": {
+        "dark": {
+          "description": "Use as the hover color for interactive components with inversed backgrounds.",
+          "type": "color",
+          "value": "#e0e0e0",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.450}"
+          },
+          "name": "pf-t--global--background--color--inverse--hover",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "inverse",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "inverse",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#e0e0e0",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.gray.20}"
+              },
+              "name": "pf-t--global--dark--background--color--450",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "background",
+                "subitem": "color",
+                "state": "450"
+              },
+              "path": [
+                "global",
+                "dark",
+                "background",
+                "color",
+                "450"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#e0e0e0",
+                  "filePath": "tokens/dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#e0e0e0"
+                  },
+                  "name": "pf-t--color--gray--20",
+                  "attributes": {
+                    "category": "color",
+                    "type": "gray",
+                    "item": "20"
+                  },
+                  "path": [
+                    "color",
+                    "gray",
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--inverse--clicked": {
+        "dark": {
+          "description": "Use as the clicked color for interactive components with inversed backgrounds.",
+          "type": "color",
+          "value": "#e0e0e0",
+          "filePath": "tokens/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.450}"
+          },
+          "name": "pf-t--global--background--color--inverse--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "inverse",
+            "state": "clicked"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "inverse",
+            "clicked"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#e0e0e0",
+              "filePath": "tokens/dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.gray.20}"
+              },
+              "name": "pf-t--global--dark--background--color--450",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "background",
+                "subitem": "color",
+                "state": "450"
+              },
+              "path": [
+                "global",
+                "dark",
+                "background",
+                "color",
+                "450"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#e0e0e0",
+                  "filePath": "tokens/dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#e0e0e0"
+                  },
+                  "name": "pf-t--color--gray--20",
+                  "attributes": {
+                    "category": "color",
+                    "type": "gray",
+                    "item": "20"
+                  },
+                  "path": [
+                    "color",
+                    "gray",
+                    "20"
                   ]
                 }
               ]
@@ -32115,6 +32503,58 @@
           ]
         }
       },
+      "pf-t--global--border--width--regular": {
+        "default": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use as the default border width for elements.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "name": "pf-t--global--border--width--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "regular"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": 1
+              },
+              "name": "pf-t--global--border--width--100",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--border--width--divider--default": {
         "default": {
           "description": "Use as the default border width for dividers.",
@@ -32249,58 +32689,6 @@
             "width",
             "divider",
             "clicked"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "1px",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": false,
-              "original": {
-                "type": "number",
-                "value": 1
-              },
-              "name": "pf-t--global--border--width--100",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "border",
-                "width",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--border--width--regular": {
-        "default": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "1px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": false,
-          "original": {
-            "description": "Use as the default border width for elements.",
-            "type": "number",
-            "value": "{global.border.width.100}"
-          },
-          "name": "pf-t--global--border--width--regular",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "regular"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "regular"
           ],
           "references": [
             {
@@ -33341,6 +33729,110 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--body": {
+        "default": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the line height for body text",
+            "type": "number",
+            "value": "{global.font.line-height.200}"
+          },
+          "name": "pf-t--global--font--line-height--body",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "body"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "body"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.5,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": 1.5
+              },
+              "name": "pf-t--global--font--line-height--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--heading": {
+        "default": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": 1.2999999523162842,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the line height for heading text",
+            "type": "number",
+            "value": "{global.font.line-height.100}"
+          },
+          "name": "pf-t--global--font--line-height--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.2999999523162842,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": 1.2999999523162842
+              },
+              "name": "pf-t--global--font--line-height--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--font--weight--body--default": {
         "default": {
           "description": "Use to define the default weight for body text",
@@ -33552,110 +34044,6 @@
                 "font",
                 "weight",
                 "400"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--body": {
-        "default": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": false,
-          "original": {
-            "description": "Use to define the line height for body text",
-            "type": "number",
-            "value": "{global.font.line-height.200}"
-          },
-          "name": "pf-t--global--font--line-height--body",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "body"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "body"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.5,
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": false,
-              "original": {
-                "type": "number",
-                "value": 1.5
-              },
-              "name": "pf-t--global--font--line-height--200",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "200"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--heading": {
-        "default": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": 1.2999999523162842,
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": false,
-          "original": {
-            "description": "Use to define the line height for heading text",
-            "type": "number",
-            "value": "{global.font.line-height.100}"
-          },
-          "name": "pf-t--global--font--line-height--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "heading"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.2999999523162842,
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": false,
-              "original": {
-                "type": "number",
-                "value": 1.2999999523162842
-              },
-              "name": "pf-t--global--font--line-height--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "100"
               ]
             }
           ]
@@ -35412,13 +35800,13 @@
         "default": {
           "description": "Use to define the X value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
           "type": "number",
-          "value": "-1px",
+          "value": "-4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
             "type": "number",
-            "value": "{global.box-shadow.X.300}"
+            "value": "{global.box-shadow.X.200}"
           },
           "name": "pf-t--global--box-shadow--X--sm--left",
           "attributes": {
@@ -35438,25 +35826,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-1px",
+              "value": "-4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -1
+                "value": -4
               },
-              "name": "pf-t--global--box-shadow--X--300",
+              "name": "pf-t--global--box-shadow--X--200",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "300"
+                "subitem": "200"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "300"
+                "200"
               ]
             }
           ]
@@ -35466,13 +35854,13 @@
         "default": {
           "description": "Use to define the X value for a small box-shadow that appears on the right of a raised element, like in sticky columns.",
           "type": "number",
-          "value": "1px",
+          "value": "4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a small box-shadow that appears on the right of a raised element, like in sticky columns.",
             "type": "number",
-            "value": "{global.box-shadow.X.500}"
+            "value": "{global.box-shadow.X.600}"
           },
           "name": "pf-t--global--box-shadow--X--sm--right",
           "attributes": {
@@ -35492,25 +35880,25 @@
           "references": [
             {
               "type": "number",
-              "value": "1px",
+              "value": "4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 1
+                "value": 4
               },
-              "name": "pf-t--global--box-shadow--X--500",
+              "name": "pf-t--global--box-shadow--X--600",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "500"
+                "subitem": "600"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "500"
+                "600"
               ]
             }
           ]
@@ -35682,13 +36070,13 @@
         "default": {
           "description": "Use to define the X value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
           "type": "number",
-          "value": "-4px",
+          "value": "-10px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
             "type": "number",
-            "value": "{global.box-shadow.X.200}"
+            "value": "{global.box-shadow.X.100}"
           },
           "name": "pf-t--global--box-shadow--X--md--left",
           "attributes": {
@@ -35708,25 +36096,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-4px",
+              "value": "-10px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -4
+                "value": -10
               },
-              "name": "pf-t--global--box-shadow--X--200",
+              "name": "pf-t--global--box-shadow--X--100",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "200"
+                "subitem": "100"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "200"
+                "100"
               ]
             }
           ]
@@ -35736,13 +36124,13 @@
         "default": {
           "description": "Use to define the X value for a medium box-shadow that appears on the right of a raised element, like in overlay drawers that show on the left of the screen.",
           "type": "number",
-          "value": "4px",
+          "value": "10px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a medium box-shadow that appears on the right of a raised element, like in overlay drawers that show on the left of the screen.",
             "type": "number",
-            "value": "{global.box-shadow.X.600}"
+            "value": "{global.box-shadow.X.700}"
           },
           "name": "pf-t--global--box-shadow--X--md--right",
           "attributes": {
@@ -35762,25 +36150,25 @@
           "references": [
             {
               "type": "number",
-              "value": "4px",
+              "value": "10px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 4
+                "value": 10
               },
-              "name": "pf-t--global--box-shadow--X--600",
+              "name": "pf-t--global--box-shadow--X--700",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "600"
+                "subitem": "700"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "600"
+                "700"
               ]
             }
           ]
@@ -35952,13 +36340,13 @@
         "default": {
           "description": "Use to define the X value for a large box-shadow that appears on the left of a raised element.",
           "type": "number",
-          "value": "-8px",
+          "value": "-20px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a large box-shadow that appears on the left of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.X.100}"
+            "value": "{global.box-shadow.X.50}"
           },
           "name": "pf-t--global--box-shadow--X--lg--left",
           "attributes": {
@@ -35978,25 +36366,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-8px",
+              "value": "-20px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -8
+                "value": -20
               },
-              "name": "pf-t--global--box-shadow--X--100",
+              "name": "pf-t--global--box-shadow--X--50",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "100"
+                "subitem": "50"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "100"
+                "50"
               ]
             }
           ]
@@ -36006,13 +36394,13 @@
         "default": {
           "description": "Use to define the X value for a large box-shadow that appears on the right of a raised element.",
           "type": "number",
-          "value": "8px",
+          "value": "20px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the X value for a large box-shadow that appears on the right of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.X.700}"
+            "value": "{global.box-shadow.X.800}"
           },
           "name": "pf-t--global--box-shadow--X--lg--right",
           "attributes": {
@@ -36032,25 +36420,25 @@
           "references": [
             {
               "type": "number",
-              "value": "8px",
+              "value": "20px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 8
+                "value": 20
               },
-              "name": "pf-t--global--box-shadow--X--700",
+              "name": "pf-t--global--box-shadow--X--800",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "X",
-                "subitem": "700"
+                "subitem": "800"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "X",
-                "700"
+                "800"
               ]
             }
           ]
@@ -36114,13 +36502,13 @@
         "default": {
           "description": "Use to define the Y value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
           "type": "number",
-          "value": "-1px",
+          "value": "-4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
             "type": "number",
-            "value": "{global.box-shadow.Y.300}"
+            "value": "{global.box-shadow.Y.200}"
           },
           "name": "pf-t--global--box-shadow--Y--sm--top",
           "attributes": {
@@ -36140,25 +36528,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-1px",
+              "value": "-4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -1
+                "value": -4
               },
-              "name": "pf-t--global--box-shadow--Y--300",
+              "name": "pf-t--global--box-shadow--Y--200",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "300"
+                "subitem": "200"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "300"
+                "200"
               ]
             }
           ]
@@ -36168,13 +36556,13 @@
         "default": {
           "description": "Use to define the Y value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
           "type": "number",
-          "value": "1px",
+          "value": "4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
             "type": "number",
-            "value": "{global.box-shadow.Y.500}"
+            "value": "{global.box-shadow.Y.600}"
           },
           "name": "pf-t--global--box-shadow--Y--sm--bottom",
           "attributes": {
@@ -36194,25 +36582,25 @@
           "references": [
             {
               "type": "number",
-              "value": "1px",
+              "value": "4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 1
+                "value": 4
               },
-              "name": "pf-t--global--box-shadow--Y--500",
+              "name": "pf-t--global--box-shadow--Y--600",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "500"
+                "subitem": "600"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "500"
+                "600"
               ]
             }
           ]
@@ -36384,13 +36772,13 @@
         "default": {
           "description": "Use to define the Y value for a medium box-shadow that appears on the top of a raised element, like in overlay bottom drawers",
           "type": "number",
-          "value": "-4px",
+          "value": "-10px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a medium box-shadow that appears on the top of a raised element, like in overlay bottom drawers",
             "type": "number",
-            "value": "{global.box-shadow.Y.200}"
+            "value": "{global.box-shadow.Y.100}"
           },
           "name": "pf-t--global--box-shadow--Y--md--top",
           "attributes": {
@@ -36410,25 +36798,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-4px",
+              "value": "-10px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -4
+                "value": -10
               },
-              "name": "pf-t--global--box-shadow--Y--200",
+              "name": "pf-t--global--box-shadow--Y--100",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "200"
+                "subitem": "100"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "200"
+                "100"
               ]
             }
           ]
@@ -36438,13 +36826,13 @@
         "default": {
           "description": "Use to define the Y value for a medium box-shadow that appears on the bottom of a raised element.",
           "type": "number",
-          "value": "4px",
+          "value": "10px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a medium box-shadow that appears on the bottom of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.600}"
+            "value": "{global.box-shadow.Y.700}"
           },
           "name": "pf-t--global--box-shadow--Y--md--bottom",
           "attributes": {
@@ -36464,25 +36852,25 @@
           "references": [
             {
               "type": "number",
-              "value": "4px",
+              "value": "10px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 4
+                "value": 10
               },
-              "name": "pf-t--global--box-shadow--Y--600",
+              "name": "pf-t--global--box-shadow--Y--700",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "600"
+                "subitem": "700"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "600"
+                "700"
               ]
             }
           ]
@@ -36600,7 +36988,7 @@
         "default": {
           "description": "Use to define the Y value for a default large box-shadow, used in modals and wizards.",
           "type": "number",
-          "value": "8px",
+          "value": "10px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -36626,12 +37014,12 @@
           "references": [
             {
               "type": "number",
-              "value": "8px",
+              "value": "10px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 8
+                "value": 10
               },
               "name": "pf-t--global--box-shadow--Y--700",
               "attributes": {
@@ -36654,13 +37042,13 @@
         "default": {
           "description": "Use to define the Y value for a large box-shadow that appears on the top of a raised element.",
           "type": "number",
-          "value": "-8px",
+          "value": "-20px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a large box-shadow that appears on the top of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.100}"
+            "value": "{global.box-shadow.Y.50}"
           },
           "name": "pf-t--global--box-shadow--Y--lg--top",
           "attributes": {
@@ -36680,25 +37068,25 @@
           "references": [
             {
               "type": "number",
-              "value": "-8px",
+              "value": "-20px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": -8
+                "value": -20
               },
-              "name": "pf-t--global--box-shadow--Y--100",
+              "name": "pf-t--global--box-shadow--Y--50",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "100"
+                "subitem": "50"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "100"
+                "50"
               ]
             }
           ]
@@ -36708,13 +37096,13 @@
         "default": {
           "description": "Use to define the Y value for a large box-shadow that appears on the bottom of a raised element.",
           "type": "number",
-          "value": "8px",
+          "value": "20px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
             "description": "Use to define the Y value for a large box-shadow that appears on the bottom of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.700}"
+            "value": "{global.box-shadow.Y.800}"
           },
           "name": "pf-t--global--box-shadow--Y--lg--bottom",
           "attributes": {
@@ -36734,25 +37122,25 @@
           "references": [
             {
               "type": "number",
-              "value": "8px",
+              "value": "20px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 8
+                "value": 20
               },
-              "name": "pf-t--global--box-shadow--Y--700",
+              "name": "pf-t--global--box-shadow--Y--800",
               "attributes": {
                 "category": "global",
                 "type": "box-shadow",
                 "item": "Y",
-                "subitem": "700"
+                "subitem": "800"
               },
               "path": [
                 "global",
                 "box-shadow",
                 "Y",
-                "700"
+                "800"
               ]
             }
           ]
@@ -36922,7 +37310,7 @@
         "default": {
           "description": "Use to define the blur for a medium box-shadow",
           "type": "number",
-          "value": "8px",
+          "value": "9px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -36946,12 +37334,12 @@
           "references": [
             {
               "type": "number",
-              "value": "8px",
+              "value": "9px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 8
+                "value": 9
               },
               "name": "pf-t--global--box-shadow--blur--200",
               "attributes": {
@@ -36974,7 +37362,7 @@
         "default": {
           "description": "Use to define the blue for a large box-shadow",
           "type": "number",
-          "value": "24px",
+          "value": "20px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -36998,12 +37386,12 @@
           "references": [
             {
               "type": "number",
-              "value": "24px",
+              "value": "20px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 24
+                "value": 20
               },
               "name": "pf-t--global--box-shadow--blur--300",
               "attributes": {
@@ -37022,7 +37410,7 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--spread--sm": {
+      "pf-t--global--box-shadow--spread--sm--default": {
         "default": {
           "description": "Use to define the spread for a small box-shadow",
           "type": "number",
@@ -37034,18 +37422,20 @@
             "type": "number",
             "value": "{global.box-shadow.spread.100}"
           },
-          "name": "pf-t--global--box-shadow--spread--sm",
+          "name": "pf-t--global--box-shadow--spread--sm--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "spread",
-            "subitem": "sm"
+            "subitem": "sm",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "spread",
-            "sm"
+            "sm",
+            "default"
           ],
           "references": [
             {
@@ -37074,7 +37464,61 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--spread--md": {
+      "pf-t--global--box-shadow--spread--sm--directional": {
+        "default": {
+          "description": "Use to define the spread for a small box-shadow",
+          "type": "number",
+          "value": "-4px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.200}"
+          },
+          "name": "pf-t--global--box-shadow--spread--sm--directional",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "sm",
+            "state": "directional"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "sm",
+            "directional"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-4px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -4
+              },
+              "name": "pf-t--global--box-shadow--spread--200",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--md--default": {
         "default": {
           "description": "Use to define the spread of a medium box-shadow",
           "type": "number",
@@ -37086,18 +37530,20 @@
             "type": "number",
             "value": "{global.box-shadow.spread.100}"
           },
-          "name": "pf-t--global--box-shadow--spread--md",
+          "name": "pf-t--global--box-shadow--spread--md--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "spread",
-            "subitem": "md"
+            "subitem": "md",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "spread",
-            "md"
+            "md",
+            "default"
           ],
           "references": [
             {
@@ -37126,7 +37572,61 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--spread--lg": {
+      "pf-t--global--box-shadow--spread--md--directional": {
+        "default": {
+          "description": "Use to define the spread of a medium box-shadow",
+          "type": "number",
+          "value": "-8px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.300}"
+          },
+          "name": "pf-t--global--box-shadow--spread--md--directional",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "md",
+            "state": "directional"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "md",
+            "directional"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-8px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -8
+              },
+              "name": "pf-t--global--box-shadow--spread--300",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "300"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "300"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--lg--default": {
         "default": {
           "description": "Use to define the spread of a large box-shadow",
           "type": "number",
@@ -37138,18 +37638,20 @@
             "type": "number",
             "value": "{global.box-shadow.spread.100}"
           },
-          "name": "pf-t--global--box-shadow--spread--lg",
+          "name": "pf-t--global--box-shadow--spread--lg--default",
           "attributes": {
             "category": "global",
             "type": "box-shadow",
             "item": "spread",
-            "subitem": "lg"
+            "subitem": "lg",
+            "state": "default"
           },
           "path": [
             "global",
             "box-shadow",
             "spread",
-            "lg"
+            "lg",
+            "default"
           ],
           "references": [
             {
@@ -37173,6 +37675,60 @@
                 "box-shadow",
                 "spread",
                 "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--lg--directional": {
+        "default": {
+          "description": "Use to define the spread of a large box-shadow",
+          "type": "number",
+          "value": "-20px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": false,
+          "original": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.400}"
+          },
+          "name": "pf-t--global--box-shadow--spread--lg--directional",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "lg",
+            "state": "directional"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "lg",
+            "directional"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "-20px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": false,
+              "original": {
+                "type": "number",
+                "value": -20
+              },
+              "name": "pf-t--global--box-shadow--spread--400",
+              "attributes": {
+                "category": "global",
+                "type": "box-shadow",
+                "item": "spread",
+                "subitem": "400"
+              },
+              "path": [
+                "global",
+                "box-shadow",
+                "spread",
+                "400"
               ]
             }
           ]
@@ -40481,12 +41037,12 @@
       "pf-t--global--box-shadow--color--100": {
         "default": {
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.1600)",
+          "value": "rgba(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "rgba(0, 0, 0, 0.1600)"
+            "value": "rgba(41, 41, 41, 0.1500)"
           },
           "name": "pf-t--global--box-shadow--color--100",
           "attributes": {
@@ -40506,12 +41062,12 @@
       "pf-t--global--box-shadow--color--200": {
         "default": {
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.1200)",
+          "value": "rgba(41, 41, 41, 0.2000)",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "rgba(0, 0, 0, 0.1200)"
+            "value": "rgba(41, 41, 41, 0.2000)"
           },
           "name": "pf-t--global--box-shadow--color--200",
           "attributes": {
@@ -40713,6 +41269,54 @@
                 "color",
                 "gray",
                 "80"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--450": {
+        "default": {
+          "type": "color",
+          "value": "#383838",
+          "filePath": "tokens/default/base.json",
+          "isSource": false,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.70}"
+          },
+          "name": "pf-t--global--background--color--450",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "450"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "450"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#383838",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#383838"
+              },
+              "name": "pf-t--color--gray--70",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "gray",
+                "70"
               ]
             }
           ]
@@ -44042,6 +44646,56 @@
           ]
         }
       },
+      "pf-t--global--dark--background--color--450": {
+        "dark": {
+          "type": "color",
+          "value": "#e0e0e0",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.20}"
+          },
+          "name": "pf-t--global--dark--background--color--450",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "background",
+            "subitem": "color",
+            "state": "450"
+          },
+          "path": [
+            "global",
+            "dark",
+            "background",
+            "color",
+            "450"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#e0e0e0",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#e0e0e0"
+              },
+              "name": "pf-t--color--gray--20",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "20"
+              },
+              "path": [
+                "color",
+                "gray",
+                "20"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--dark--background--color--500": {
         "dark": {
           "type": "color",
@@ -44593,6 +45247,312 @@
                 "color",
                 "yellow",
                 "20"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--undefined--100": {
+        "dark": {
+          "type": "color",
+          "value": "#a3a3a3",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--undefined--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "undefined"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "undefined",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a3a3a3",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#a3a3a3"
+              },
+              "name": "pf-t--color--gray--40",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "gray",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--none--100": {
+        "dark": {
+          "type": "color",
+          "value": "#92c5f9",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--none--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "none"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "none",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#92c5f9",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#92c5f9"
+              },
+              "name": "pf-t--color--blue--30",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "blue",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--minor--100": {
+        "dark": {
+          "type": "color",
+          "value": "#c7c7c7",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--minor--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "minor"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "minor",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#c7c7c7",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#c7c7c7"
+              },
+              "name": "pf-t--color--gray--30",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "gray",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--moderate--100": {
+        "dark": {
+          "type": "color",
+          "value": "#ffcc17",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--moderate--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "moderate"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "moderate",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ffcc17",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#ffcc17"
+              },
+              "name": "pf-t--color--yellow--30",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--important--100": {
+        "dark": {
+          "type": "color",
+          "value": "#f5921b",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.orange.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--important--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "important"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "important",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f5921b",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f5921b"
+              },
+              "name": "pf-t--color--orange--40",
+              "attributes": {
+                "category": "color",
+                "type": "orange",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "orange",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--critical--100": {
+        "dark": {
+          "type": "color",
+          "value": "#f0561d",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.50}"
+          },
+          "name": "pf-t--global--dark--color--severity--critical--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "critical"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "critical",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f0561d",
+              "filePath": "tokens/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f0561d"
+              },
+              "name": "pf-t--color--red-orange--50",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "50"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "50"
               ]
             }
           ]
@@ -45205,312 +46165,6 @@
                 "color",
                 "teal",
                 "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--undefined--100": {
-        "dark": {
-          "type": "color",
-          "value": "#a3a3a3",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--undefined--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "undefined"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "undefined",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#a3a3a3",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#a3a3a3"
-              },
-              "name": "pf-t--color--gray--40",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "gray",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--none--100": {
-        "dark": {
-          "type": "color",
-          "value": "#92c5f9",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.blue.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--none--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "none"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "none",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#92c5f9",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#92c5f9"
-              },
-              "name": "pf-t--color--blue--30",
-              "attributes": {
-                "category": "color",
-                "type": "blue",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "blue",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--minor--100": {
-        "dark": {
-          "type": "color",
-          "value": "#c7c7c7",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--minor--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "minor"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "minor",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#c7c7c7",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#c7c7c7"
-              },
-              "name": "pf-t--color--gray--30",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "gray",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--moderate--100": {
-        "dark": {
-          "type": "color",
-          "value": "#ffcc17",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.yellow.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--moderate--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "moderate"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "moderate",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#ffcc17",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffcc17"
-              },
-              "name": "pf-t--color--yellow--30",
-              "attributes": {
-                "category": "color",
-                "type": "yellow",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "yellow",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--important--100": {
-        "dark": {
-          "type": "color",
-          "value": "#f5921b",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.orange.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--important--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "important"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "important",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f5921b",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f5921b"
-              },
-              "name": "pf-t--color--orange--40",
-              "attributes": {
-                "category": "color",
-                "type": "orange",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "orange",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--critical--100": {
-        "dark": {
-          "type": "color",
-          "value": "#f0561d",
-          "filePath": "tokens/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.red-orange.50}"
-          },
-          "name": "pf-t--global--dark--color--severity--critical--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "critical"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "critical",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f0561d",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f0561d"
-              },
-              "name": "pf-t--color--red-orange--50",
-              "attributes": {
-                "category": "color",
-                "type": "red-orange",
-                "item": "50"
-              },
-              "path": [
-                "color",
-                "red-orange",
-                "50"
               ]
             }
           ]
@@ -47570,6 +48224,33 @@
             "100"
           ]
         }
+      },
+      "pf-t--global--dark--box-shadow--color--200": {
+        "dark": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.7000)",
+          "filePath": "tokens/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.7000)"
+          },
+          "name": "pf-t--global--dark--box-shadow--color--200",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "box-shadow",
+            "subitem": "color",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "dark",
+            "box-shadow",
+            "color",
+            "200"
+          ]
+        }
       }
     },
     "dimension": {
@@ -48132,6 +48813,56 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.2999999523162842,
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
+          ]
+        }
+      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -48229,56 +48960,6 @@
             "font",
             "weight",
             "400"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.2999999523162842,
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": false,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": false,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
           ]
         }
       },
@@ -48695,15 +49376,40 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--X--100": {
+      "pf-t--global--box-shadow--X--50": {
         "default": {
           "type": "number",
-          "value": "-8px",
+          "value": "-20px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": -8
+            "value": -20
+          },
+          "name": "pf-t--global--box-shadow--X--50",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "X",
+            "subitem": "50"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "X",
+            "50"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--X--100": {
+        "default": {
+          "type": "number",
+          "value": "-10px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -10
           },
           "name": "pf-t--global--box-shadow--X--100",
           "attributes": {
@@ -48848,12 +49554,12 @@
       "pf-t--global--box-shadow--X--700": {
         "default": {
           "type": "number",
-          "value": "8px",
+          "value": "10px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 8
+            "value": 10
           },
           "name": "pf-t--global--box-shadow--X--700",
           "attributes": {
@@ -48870,15 +49576,65 @@
           ]
         }
       },
-      "pf-t--global--box-shadow--Y--100": {
+      "pf-t--global--box-shadow--X--800": {
         "default": {
           "type": "number",
-          "value": "-8px",
+          "value": "20px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": -8
+            "value": 20
+          },
+          "name": "pf-t--global--box-shadow--X--800",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "X",
+            "subitem": "800"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "X",
+            "800"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--Y--50": {
+        "default": {
+          "type": "number",
+          "value": "-20px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -20
+          },
+          "name": "pf-t--global--box-shadow--Y--50",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "Y",
+            "subitem": "50"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "Y",
+            "50"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--Y--100": {
+        "default": {
+          "type": "number",
+          "value": "-10px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -10
           },
           "name": "pf-t--global--box-shadow--Y--100",
           "attributes": {
@@ -49023,12 +49779,12 @@
       "pf-t--global--box-shadow--Y--700": {
         "default": {
           "type": "number",
-          "value": "8px",
+          "value": "10px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 8
+            "value": 10
           },
           "name": "pf-t--global--box-shadow--Y--700",
           "attributes": {
@@ -49042,6 +49798,31 @@
             "box-shadow",
             "Y",
             "700"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--Y--800": {
+        "default": {
+          "type": "number",
+          "value": "20px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": 20
+          },
+          "name": "pf-t--global--box-shadow--Y--800",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "Y",
+            "subitem": "800"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "Y",
+            "800"
           ]
         }
       },
@@ -49073,12 +49854,12 @@
       "pf-t--global--box-shadow--blur--200": {
         "default": {
           "type": "number",
-          "value": "8px",
+          "value": "9px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 8
+            "value": 9
           },
           "name": "pf-t--global--box-shadow--blur--200",
           "attributes": {
@@ -49098,12 +49879,12 @@
       "pf-t--global--box-shadow--blur--300": {
         "default": {
           "type": "number",
-          "value": "24px",
+          "value": "20px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 24
+            "value": 20
           },
           "name": "pf-t--global--box-shadow--blur--300",
           "attributes": {
@@ -49142,6 +49923,81 @@
             "box-shadow",
             "spread",
             "100"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--200": {
+        "default": {
+          "type": "number",
+          "value": "-4px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -4
+          },
+          "name": "pf-t--global--box-shadow--spread--200",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "200"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--300": {
+        "default": {
+          "type": "number",
+          "value": "-8px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -8
+          },
+          "name": "pf-t--global--box-shadow--spread--300",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "300"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "300"
+          ]
+        }
+      },
+      "pf-t--global--box-shadow--spread--400": {
+        "default": {
+          "type": "number",
+          "value": "-20px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": false,
+          "original": {
+            "type": "number",
+            "value": -20
+          },
+          "name": "pf-t--global--box-shadow--spread--400",
+          "attributes": {
+            "category": "global",
+            "type": "box-shadow",
+            "item": "spread",
+            "subitem": "400"
+          },
+          "path": [
+            "global",
+            "box-shadow",
+            "spread",
+            "400"
           ]
         }
       },
