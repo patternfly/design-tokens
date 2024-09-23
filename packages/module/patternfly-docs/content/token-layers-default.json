@@ -36738,7 +36738,7 @@
         "default": {
           "description": "Use to define the blur for a small box-shadow",
           "type": "number",
-          "value": "5px",
+          "value": "4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
@@ -36762,12 +36762,12 @@
           "references": [
             {
               "type": "number",
-              "value": "5px",
+              "value": "4px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 5
+                "value": 4
               },
               "name": "pf-t--global--box-shadow--blur--100",
               "attributes": {
@@ -45503,12 +45503,12 @@
       "pf-t--global--box-shadow--blur--100": {
         "default": {
           "type": "number",
-          "value": "5px",
+          "value": "4px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 5
+            "value": 4
           },
           "name": "pf-t--global--box-shadow--blur--100",
           "attributes": {

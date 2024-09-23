@@ -289,7 +289,7 @@
       "blur": {
         "100": {
           "type": "number",
-          "value": 5
+          "value": 4
         },
         "200": {
           "type": "number",
