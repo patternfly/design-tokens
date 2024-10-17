@@ -1,5 +1,16 @@
 import React from 'react';
-import { Flex, FlexItem, Grid, GridItem, Title, capitalize } from '@patternfly/react-core';
+import {
+  Flex,
+  FlexItem,
+  Grid,
+  GridItem,
+  Tabs,
+  Tab,
+  TabContent,
+  TabTitleText,
+  Title,
+  capitalize
+} from '@patternfly/react-core';
 import {
   Table,
   Thead,
@@ -105,6 +116,15 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
       const otherExpandedTokens = prevExpanded.filter((n) => n !== tokenName);
       return isExpanding ? [...otherExpandedTokens, tokenName] : otherExpandedTokens;
     });
+  const [activeTabKey, setActiveTabKey] = React.useState(0);
+  // Toggle currently active tab
+  const handleTabClick = (_event, tabIndex) => setActiveTabKey(tabIndex);
+  const tokenLayers = Object.keys(allTokens);
+  // create refs for each layer for tabs
+  let tabRefs = {};
+  tokenLayers.forEach((layer) => {
+    tabRefs[`${layer}Ref`] = React.createRef();
+  });
 
   return (
     <React.Fragment>
@@ -114,11 +134,29 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
         selectedCategories={selectedCategories}
         setSelectedCategories={setSelectedCategories}
       />
+      <Tabs
+        unmountOnExit
+        activeKey={activeTabKey}
+        onSelect={handleTabClick}
+        aria-label="Tabs to select tokens layer"
+        role="region"
+      >
+        {tokenLayers.map((layer, idx) => (
+          <Tab
+            key={idx}
+            eventKey={idx}
+            title={<TabTitleText>{formatThemeText(layer)} tokens</TabTitleText>}
+            aria-label={`${layer} tokens content`}
+            tabContentId={`${layer}TokensTabContent`}
+            tabContentRef={tabRefs[`${layer}Ref`]}
+          />
+        ))}
+      </Tabs>
       <OuterScrollContainer className="tokens-table-outer-wrapper">
         <InnerScrollContainer>
           {
             // Create new Table for each tokens layer [base, chart, palette, semantic]
-            Object.entries(allTokens).map(([layerName, layerDataObj], _rowIndex) => {
+            Object.entries(allTokens).map(([layerName, layerDataObj], idx) => {
               // save if semantic layer - used for custom styling due to description field
               const isSemanticLayer = layerName === 'semantic';
 
@@ -138,7 +176,12 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
               );
 
               return (
-                <>
+                <TabContent
+                  eventKey={idx}
+                  id={`${layerName}TokensTabContent`}
+                  ref={tabRefs[`${layerName}Ref`]}
+                  aria-label={`${layerName} tokens tab content`}
+                >
                   <Title headingLevel="h2" id={`${layerName}-table`} className="pf-v6-u-mt-xl">
                     {formatThemeText(layerName)} tokens
                   </Title>
@@ -237,7 +280,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                       );
                     })}
                   </Table>
-                </>
+                </TabContent>
               );
             })
           }
