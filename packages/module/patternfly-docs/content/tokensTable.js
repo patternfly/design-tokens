@@ -43,8 +43,9 @@ const getTokenChain = (themeTokenData) => {
   return tokenChain;
 };
 
-const showTokenChain = (themeTokenData) => {
-  const tokenChain = getTokenChain(themeTokenData);
+const showTokenChain = (themeTokenData, hasReferences) => {
+  // Show final value if isColorToken but no references - otherwise color value not displayed in table
+  const tokenChain = hasReferences ? getTokenChain(themeTokenData) : [themeTokenData.value];
   return (
     <div>
       {tokenChain.map((nextValue, index) => (
@@ -158,6 +159,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                       const hasReferences = tokenThemesArr.some(([_themeName, themeToken]) =>
                         themeToken.hasOwnProperty('references')
                       );
+                      const isColorToken = tokenThemesArr[0][1].type === 'color';
                       const tokenDescription = tokenThemesArr[0][1].description;
 
                       return (
@@ -166,7 +168,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                             {/* Expandable row icon */}
                             <Td
                               expand={
-                                hasReferences
+                                hasReferences || isColorToken
                                   ? {
                                       rowIndex,
                                       isExpanded: isTokenExpanded(tokenName),
@@ -214,7 +216,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                           </Tr>
 
                           {/* Expandable token chain */}
-                          {hasReferences && isTokenExpanded(tokenName) && (
+                          {(hasReferences || isColorToken) && isTokenExpanded(tokenName) && (
                             <Tr isExpanded>
                               <Td />
                               <Td colSpan={3}>
@@ -223,7 +225,7 @@ export const TokensTable = ({ tokenJson, formatThemeText = capitalize }) => {
                                     {tokenThemesArr.map(([themeName, themeToken]) => (
                                       <>
                                         <GridItem span={2}>{formatThemeText(themeName)}:</GridItem>
-                                        <GridItem span={10}>{showTokenChain(themeToken)}</GridItem>
+                                        <GridItem span={10}>{showTokenChain(themeToken, hasReferences)}</GridItem>
                                       </>
                                     ))}
                                   </Grid>
