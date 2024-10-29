@@ -259,6 +259,10 @@
       "70": {
         "type": "color",
         "value": "#21134d"
+      },
+      "80": {
+        "type": "color",
+        "value": "#1b0d33"
       }
     },
     "red": {

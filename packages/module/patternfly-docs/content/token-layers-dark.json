@@ -5,7 +5,7 @@
         "dark": {
           "description": "Use as the color for icons that convey your brand and/or are paired with branded text color.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -31,12 +31,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.20}"
+                "value": "{color.orange.30}"
               },
               "name": "pf-t--global--dark--color--brand--200",
               "attributes": {
@@ -56,23 +56,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#b9dafc"
+                    "value": "#f8ae54"
                   },
-                  "name": "pf-t--color--blue--20",
+                  "name": "pf-t--color--orange--30",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "20"
+                    "type": "orange",
+                    "item": "30"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "20"
+                    "orange",
+                    "30"
                   ]
                 }
               ]
@@ -84,7 +84,7 @@
         "dark": {
           "description": "Use as the hover state color for icons that convey your brand and/or are paired with branded text color.",
           "type": "color",
-          "value": "#e0f0ff",
+          "value": "#fccb8f",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -110,12 +110,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0f0ff",
+              "value": "#fccb8f",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.10}"
+                "value": "{color.orange.20}"
               },
               "name": "pf-t--global--dark--color--brand--300",
               "attributes": {
@@ -135,23 +135,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#e0f0ff",
+                  "value": "#fccb8f",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#e0f0ff"
+                    "value": "#fccb8f"
                   },
-                  "name": "pf-t--color--blue--10",
+                  "name": "pf-t--color--orange--20",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "10"
+                    "type": "orange",
+                    "item": "20"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "10"
+                    "orange",
+                    "20"
                   ]
                 }
               ]
@@ -163,7 +163,7 @@
         "dark": {
           "description": "Use as the clicked state for icons that convey your brand and/or are paired with branded text color.",
           "type": "color",
-          "value": "#e0f0ff",
+          "value": "#fccb8f",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -189,12 +189,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0f0ff",
+              "value": "#fccb8f",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.10}"
+                "value": "{color.orange.20}"
               },
               "name": "pf-t--global--dark--color--brand--300",
               "attributes": {
@@ -214,23 +214,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#e0f0ff",
+                  "value": "#fccb8f",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#e0f0ff"
+                    "value": "#fccb8f"
                   },
-                  "name": "pf-t--color--blue--10",
+                  "name": "pf-t--color--orange--20",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "10"
+                    "type": "orange",
+                    "item": "20"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "10"
+                    "orange",
+                    "20"
                   ]
                 }
               ]
@@ -4781,7 +4781,7 @@
         "dark": {
           "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -4805,12 +4805,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.10}"
+                "value": "{color.orange.30}"
               },
               "name": "pf-t--global--dark--icon--color--100",
               "attributes": {
@@ -4830,23 +4830,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#f2f2f2",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#f2f2f2"
+                    "value": "#f8ae54"
                   },
-                  "name": "pf-t--color--gray--10",
+                  "name": "pf-t--color--orange--30",
                   "attributes": {
                     "category": "color",
-                    "type": "gray",
-                    "item": "10"
+                    "type": "orange",
+                    "item": "30"
                   },
                   "path": [
                     "color",
-                    "gray",
-                    "10"
+                    "orange",
+                    "30"
                   ]
                 }
               ]
@@ -4858,7 +4858,7 @@
         "dark": {
           "description": "Use as the color for icons when you want the icon to have less emphasis and/or when paired with subtle-colored text",
           "type": "color",
-          "value": "#a3a3a3",
+          "value": "#f5921b",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -4882,12 +4882,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#a3a3a3",
+              "value": "#f5921b",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.40}"
+                "value": "{color.orange.40}"
               },
               "name": "pf-t--global--dark--icon--color--200",
               "attributes": {
@@ -4907,22 +4907,22 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#a3a3a3",
+                  "value": "#f5921b",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#a3a3a3"
+                    "value": "#f5921b"
                   },
-                  "name": "pf-t--color--gray--40",
+                  "name": "pf-t--color--orange--40",
                   "attributes": {
                     "category": "color",
-                    "type": "gray",
+                    "type": "orange",
                     "item": "40"
                   },
                   "path": [
                     "color",
-                    "gray",
+                    "orange",
                     "40"
                   ]
                 }
@@ -8220,7 +8220,7 @@
         "dark": {
           "description": "Use as the default color for icons that are placed on a nonstatus gray background color and/or are paired with on-gray colored text.",
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -8248,7 +8248,7 @@
             {
               "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -8272,12 +8272,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#f2f2f2",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.10}"
+                    "value": "{color.orange.30}"
                   },
                   "name": "pf-t--global--dark--icon--color--100",
                   "attributes": {
@@ -8297,23 +8297,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#f2f2f2",
+                      "value": "#f8ae54",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#f2f2f2"
+                        "value": "#f8ae54"
                       },
-                      "name": "pf-t--color--gray--10",
+                      "name": "pf-t--color--orange--30",
                       "attributes": {
                         "category": "color",
-                        "type": "gray",
-                        "item": "10"
+                        "type": "orange",
+                        "item": "30"
                       },
                       "path": [
                         "color",
-                        "gray",
-                        "10"
+                        "orange",
+                        "30"
                       ]
                     }
                   ]
@@ -8327,7 +8327,7 @@
         "dark": {
           "description": "Use as the hover state color for icons that are placed on a nonstatus gray background color and/or are paired with on-gray colored text.",
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -8355,7 +8355,7 @@
             {
               "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -8379,12 +8379,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#f2f2f2",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.10}"
+                    "value": "{color.orange.30}"
                   },
                   "name": "pf-t--global--dark--icon--color--100",
                   "attributes": {
@@ -8404,23 +8404,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#f2f2f2",
+                      "value": "#f8ae54",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#f2f2f2"
+                        "value": "#f8ae54"
                       },
-                      "name": "pf-t--color--gray--10",
+                      "name": "pf-t--color--orange--30",
                       "attributes": {
                         "category": "color",
-                        "type": "gray",
-                        "item": "10"
+                        "type": "orange",
+                        "item": "30"
                       },
                       "path": [
                         "color",
-                        "gray",
-                        "10"
+                        "orange",
+                        "30"
                       ]
                     }
                   ]
@@ -8434,7 +8434,7 @@
         "dark": {
           "description": "Use as the clicked state color for icons that are placed on a nonstatus gray background color and/or are paired with on-gray colored text.",
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -8462,7 +8462,7 @@
             {
               "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -8486,12 +8486,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#f2f2f2",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.10}"
+                    "value": "{color.orange.30}"
                   },
                   "name": "pf-t--global--dark--icon--color--100",
                   "attributes": {
@@ -8511,23 +8511,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#f2f2f2",
+                      "value": "#f8ae54",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#f2f2f2"
+                        "value": "#f8ae54"
                       },
-                      "name": "pf-t--color--gray--10",
+                      "name": "pf-t--color--orange--30",
                       "attributes": {
                         "category": "color",
-                        "type": "gray",
-                        "item": "10"
+                        "type": "orange",
+                        "item": "30"
                       },
                       "path": [
                         "color",
-                        "gray",
-                        "10"
+                        "orange",
+                        "30"
                       ]
                     }
                   ]
@@ -8540,7 +8540,7 @@
       "pf-t--global--border--color--control--read-only": {
         "dark": {
           "type": "color",
-          "value": "#4d4d4d",
+          "value": "#3d2785",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -8565,12 +8565,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#4d4d4d",
+              "value": "#3d2785",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.60}"
+                "value": "{color.purple.60}"
               },
               "name": "pf-t--global--dark--border--color--50",
               "attributes": {
@@ -8590,22 +8590,22 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#4d4d4d",
+                  "value": "#3d2785",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#4d4d4d"
+                    "value": "#3d2785"
                   },
-                  "name": "pf-t--color--gray--60",
+                  "name": "pf-t--color--purple--60",
                   "attributes": {
                     "category": "color",
-                    "type": "gray",
+                    "type": "purple",
                     "item": "60"
                   },
                   "path": [
                     "color",
-                    "gray",
+                    "purple",
                     "60"
                   ]
                 }
@@ -8618,7 +8618,7 @@
         "dark": {
           "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
           "type": "color",
-          "value": "#92c5f9",
+          "value": "#f5921b",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -8645,7 +8645,7 @@
             {
               "description": "Use this color for elements that you want to reinforce your brand",
               "type": "color",
-              "value": "#92c5f9",
+              "value": "#f5921b",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -8669,12 +8669,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#92c5f9",
+                  "value": "#f5921b",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.blue.30}"
+                    "value": "{color.orange.40}"
                   },
                   "name": "pf-t--global--dark--color--brand--100",
                   "attributes": {
@@ -8694,23 +8694,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#92c5f9",
+                      "value": "#f5921b",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#92c5f9"
+                        "value": "#f5921b"
                       },
-                      "name": "pf-t--color--blue--30",
+                      "name": "pf-t--color--orange--40",
                       "attributes": {
                         "category": "color",
-                        "type": "blue",
-                        "item": "30"
+                        "type": "orange",
+                        "item": "40"
                       },
                       "path": [
                         "color",
-                        "blue",
-                        "30"
+                        "orange",
+                        "40"
                       ]
                     }
                   ]
@@ -8724,7 +8724,7 @@
         "dark": {
           "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -8751,7 +8751,7 @@
             {
               "description": "Use as the hover state for elements that have a branded background color",
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -8775,12 +8775,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.blue.20}"
+                    "value": "{color.orange.30}"
                   },
                   "name": "pf-t--global--dark--color--brand--200",
                   "attributes": {
@@ -8800,23 +8800,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#b9dafc",
+                      "value": "#f8ae54",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#b9dafc"
+                        "value": "#f8ae54"
                       },
-                      "name": "pf-t--color--blue--20",
+                      "name": "pf-t--color--orange--30",
                       "attributes": {
                         "category": "color",
-                        "type": "blue",
-                        "item": "20"
+                        "type": "orange",
+                        "item": "30"
                       },
                       "path": [
                         "color",
-                        "blue",
-                        "20"
+                        "orange",
+                        "30"
                       ]
                     }
                   ]
@@ -8830,7 +8830,7 @@
         "dark": {
           "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -8857,7 +8857,7 @@
             {
               "description": "Use as the clicked state for elements that have a brand background color",
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -8881,12 +8881,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.blue.20}"
+                    "value": "{color.orange.30}"
                   },
                   "name": "pf-t--global--dark--color--brand--200",
                   "attributes": {
@@ -8906,23 +8906,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#b9dafc",
+                      "value": "#f8ae54",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#b9dafc"
+                        "value": "#f8ae54"
                       },
-                      "name": "pf-t--color--blue--20",
+                      "name": "pf-t--color--orange--30",
                       "attributes": {
                         "category": "color",
-                        "type": "blue",
-                        "item": "20"
+                        "type": "orange",
+                        "item": "30"
                       },
                       "path": [
                         "color",
-                        "blue",
-                        "20"
+                        "orange",
+                        "30"
                       ]
                     }
                   ]
@@ -10586,7 +10586,7 @@
         "dark": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "#a3a3a3",
+          "value": "#876fd4",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -10610,12 +10610,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#a3a3a3",
+              "value": "#876fd4",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.40}"
+                "value": "{color.purple.40}"
               },
               "name": "pf-t--global--dark--border--color--200",
               "attributes": {
@@ -10635,22 +10635,22 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#a3a3a3",
+                  "value": "#876fd4",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#a3a3a3"
+                    "value": "#876fd4"
                   },
-                  "name": "pf-t--color--gray--40",
+                  "name": "pf-t--color--purple--40",
                   "attributes": {
                     "category": "color",
-                    "type": "gray",
+                    "type": "purple",
                     "item": "40"
                   },
                   "path": [
                     "color",
-                    "gray",
+                    "purple",
                     "40"
                   ]
                 }
@@ -10663,7 +10663,7 @@
         "dark": {
           "description": "Use as the hover state border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "#92c5f9",
+          "value": "#f5921b",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -10687,12 +10687,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#92c5f9",
+              "value": "#f5921b",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.30}"
+                "value": "{color.orange.40}"
               },
               "name": "pf-t--global--dark--color--brand--100",
               "attributes": {
@@ -10712,23 +10712,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#92c5f9",
+                  "value": "#f5921b",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#92c5f9"
+                    "value": "#f5921b"
                   },
-                  "name": "pf-t--color--blue--30",
+                  "name": "pf-t--color--orange--40",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "30"
+                    "type": "orange",
+                    "item": "40"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "30"
+                    "orange",
+                    "40"
                   ]
                 }
               ]
@@ -10740,7 +10740,7 @@
         "dark": {
           "description": "Use as the clicked state border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -10764,12 +10764,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.20}"
+                "value": "{color.orange.30}"
               },
               "name": "pf-t--global--dark--color--brand--200",
               "attributes": {
@@ -10789,23 +10789,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#b9dafc"
+                    "value": "#f8ae54"
                   },
-                  "name": "pf-t--color--blue--20",
+                  "name": "pf-t--color--orange--30",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "20"
+                    "type": "orange",
+                    "item": "30"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "20"
+                    "orange",
+                    "30"
                   ]
                 }
               ]
@@ -10894,7 +10894,7 @@
         "dark": {
           "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
           "type": "color",
-          "value": "#292929",
+          "value": "#3c145a",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -10919,7 +10919,7 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "#292929",
+              "value": "#3c145a",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -10945,12 +10945,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#292929",
+                  "value": "#3c145a",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.80}"
+                    "value": "#3c145a"
                   },
                   "name": "pf-t--global--dark--background--color--200",
                   "attributes": {
@@ -10966,29 +10966,6 @@
                     "background",
                     "color",
                     "200"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#292929",
-                      "filePath": "tokens/dark/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#292929"
-                      },
-                      "name": "pf-t--color--gray--80",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "80"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "80"
-                      ]
-                    }
                   ]
                 }
               ]
@@ -11000,7 +10977,7 @@
         "dark": {
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
-          "value": "#a3a3a3",
+          "value": "#876fd4",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -11024,12 +11001,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#a3a3a3",
+              "value": "#876fd4",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.40}"
+                "value": "{color.purple.40}"
               },
               "name": "pf-t--global--dark--border--color--200",
               "attributes": {
@@ -11049,22 +11026,22 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#a3a3a3",
+                  "value": "#876fd4",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#a3a3a3"
+                    "value": "#876fd4"
                   },
-                  "name": "pf-t--color--gray--40",
+                  "name": "pf-t--color--purple--40",
                   "attributes": {
                     "category": "color",
-                    "type": "gray",
+                    "type": "purple",
                     "item": "40"
                   },
                   "path": [
                     "color",
-                    "gray",
+                    "purple",
                     "40"
                   ]
                 }
@@ -13760,7 +13737,7 @@
         "dark": {
           "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
           "type": "color",
-          "value": "#292929",
+          "value": "#3c145a",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -13786,12 +13763,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#292929",
+              "value": "#3c145a",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "#3c145a"
               },
               "name": "pf-t--global--dark--background--color--200",
               "attributes": {
@@ -13807,29 +13784,6 @@
                 "background",
                 "color",
                 "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#292929"
-                  },
-                  "name": "pf-t--color--gray--80",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "80"
-                  ]
-                }
               ]
             }
           ]
@@ -13839,7 +13793,7 @@
         "dark": {
           "description": "Use as the hover state for primary backgrounds",
           "type": "color",
-          "value": "#383838",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -13865,12 +13819,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#383838",
+              "value": "#542e71",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.70}"
+                "value": "#542e71"
               },
               "name": "pf-t--global--dark--background--color--300",
               "attributes": {
@@ -13886,29 +13840,6 @@
                 "background",
                 "color",
                 "300"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#383838",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#383838"
-                  },
-                  "name": "pf-t--color--gray--70",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "70"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "70"
-                  ]
-                }
               ]
             }
           ]
@@ -13918,7 +13849,7 @@
         "dark": {
           "description": "Use as the clicked state for primary backgrounds",
           "type": "color",
-          "value": "#383838",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -13944,12 +13875,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#383838",
+              "value": "#542e71",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.70}"
+                "value": "#542e71"
               },
               "name": "pf-t--global--dark--background--color--300",
               "attributes": {
@@ -13965,29 +13896,6 @@
                 "background",
                 "color",
                 "300"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#383838",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#383838"
-                  },
-                  "name": "pf-t--color--gray--70",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "70"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "70"
-                  ]
-                }
               ]
             }
           ]
@@ -13997,7 +13905,7 @@
         "dark": {
           "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
           "type": "color",
-          "value": "#151515",
+          "value": "#1b0d33",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14023,12 +13931,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#151515",
+              "value": "#1b0d33",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.95}"
+                "value": "{color.purple.80}"
               },
               "name": "pf-t--global--dark--background--color--100",
               "attributes": {
@@ -14048,23 +13956,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#151515",
+                  "value": "#1b0d33",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#151515"
+                    "value": "#1b0d33"
                   },
-                  "name": "pf-t--color--gray--95",
+                  "name": "pf-t--color--purple--80",
                   "attributes": {
                     "category": "color",
-                    "type": "gray",
-                    "item": "95"
+                    "type": "purple",
+                    "item": "80"
                   },
                   "path": [
                     "color",
-                    "gray",
-                    "95"
+                    "purple",
+                    "80"
                   ]
                 }
               ]
@@ -14076,7 +13984,7 @@
         "dark": {
           "description": "Use as the hover state for secondary backgrounds",
           "type": "color",
-          "value": "#292929",
+          "value": "#3c145a",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14102,12 +14010,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#292929",
+              "value": "#3c145a",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "#3c145a"
               },
               "name": "pf-t--global--dark--background--color--200",
               "attributes": {
@@ -14123,29 +14031,6 @@
                 "background",
                 "color",
                 "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#292929"
-                  },
-                  "name": "pf-t--color--gray--80",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "80"
-                  ]
-                }
               ]
             }
           ]
@@ -14155,7 +14040,7 @@
         "dark": {
           "description": "Use as the clicked state for secondary backgrounds",
           "type": "color",
-          "value": "#292929",
+          "value": "#3c145a",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14181,12 +14066,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#292929",
+              "value": "#3c145a",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "#3c145a"
               },
               "name": "pf-t--global--dark--background--color--200",
               "attributes": {
@@ -14202,29 +14087,6 @@
                 "background",
                 "color",
                 "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#292929"
-                  },
-                  "name": "pf-t--color--gray--80",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "80"
-                  ]
-                }
               ]
             }
           ]
@@ -14290,7 +14152,7 @@
         "dark": {
           "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
           "type": "color",
-          "value": "#383838",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14316,12 +14178,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#383838",
+              "value": "#542e71",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.70}"
+                "value": "#542e71"
               },
               "name": "pf-t--global--dark--background--color--300",
               "attributes": {
@@ -14337,29 +14199,6 @@
                 "background",
                 "color",
                 "300"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#383838",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#383838"
-                  },
-                  "name": "pf-t--color--gray--70",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "70"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "70"
-                  ]
-                }
               ]
             }
           ]
@@ -14369,7 +14208,7 @@
         "dark": {
           "description": "Use as the hover state for floating backgrounds",
           "type": "color",
-          "value": "#292929",
+          "value": "#3c145a",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14395,12 +14234,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#292929",
+              "value": "#3c145a",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "#3c145a"
               },
               "name": "pf-t--global--dark--background--color--200",
               "attributes": {
@@ -14416,29 +14255,6 @@
                 "background",
                 "color",
                 "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#292929"
-                  },
-                  "name": "pf-t--color--gray--80",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "80"
-                  ]
-                }
               ]
             }
           ]
@@ -14448,7 +14264,7 @@
         "dark": {
           "description": "Use as the clicked state for floating backgrounds",
           "type": "color",
-          "value": "#292929",
+          "value": "#3c145a",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14474,12 +14290,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#292929",
+              "value": "#3c145a",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "#3c145a"
               },
               "name": "pf-t--global--dark--background--color--200",
               "attributes": {
@@ -14495,29 +14311,6 @@
                 "background",
                 "color",
                 "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#292929"
-                  },
-                  "name": "pf-t--color--gray--80",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "80"
-                  ]
-                }
               ]
             }
           ]
@@ -14671,13 +14464,13 @@
         "dark": {
           "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
           "type": "color",
-          "value": "#292929",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
             "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           },
           "name": "pf-t--global--background--color--action--plain--alt--hover",
           "attributes": {
@@ -14699,50 +14492,27 @@
           "references": [
             {
               "type": "color",
-              "value": "#292929",
+              "value": "#542e71",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "#542e71"
               },
-              "name": "pf-t--global--dark--background--color--200",
+              "name": "pf-t--global--dark--background--color--300",
               "attributes": {
                 "category": "global",
                 "type": "dark",
                 "item": "background",
                 "subitem": "color",
-                "state": "200"
+                "state": "300"
               },
               "path": [
                 "global",
                 "dark",
                 "background",
                 "color",
-                "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#292929"
-                  },
-                  "name": "pf-t--color--gray--80",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "80"
-                  ]
-                }
+                "300"
               ]
             }
           ]
@@ -14752,13 +14522,13 @@
         "dark": {
           "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
           "type": "color",
-          "value": "#292929",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
             "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           },
           "name": "pf-t--global--background--color--action--plain--alt--clicked",
           "attributes": {
@@ -14780,50 +14550,27 @@
           "references": [
             {
               "type": "color",
-              "value": "#292929",
+              "value": "#542e71",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "#542e71"
               },
-              "name": "pf-t--global--dark--background--color--200",
+              "name": "pf-t--global--dark--background--color--300",
               "attributes": {
                 "category": "global",
                 "type": "dark",
                 "item": "background",
                 "subitem": "color",
-                "state": "200"
+                "state": "300"
               },
               "path": [
                 "global",
                 "dark",
                 "background",
                 "color",
-                "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#292929"
-                  },
-                  "name": "pf-t--color--gray--80",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "80"
-                  ]
-                }
+                "300"
               ]
             }
           ]
@@ -14833,7 +14580,7 @@
         "dark": {
           "description": "Use as the default background for control elements like form inputs and menu toggles.",
           "type": "color",
-          "value": "#383838",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14859,12 +14606,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#383838",
+              "value": "#542e71",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.70}"
+                "value": "#542e71"
               },
               "name": "pf-t--global--dark--background--color--300",
               "attributes": {
@@ -14880,29 +14627,6 @@
                 "background",
                 "color",
                 "300"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#383838",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#383838"
-                  },
-                  "name": "pf-t--color--gray--70",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "70"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "70"
-                  ]
-                }
               ]
             }
           ]
@@ -14911,7 +14635,7 @@
       "pf-t--global--background--color--control--read-only": {
         "dark": {
           "type": "color",
-          "value": "#383838",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -14936,12 +14660,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#383838",
+              "value": "#542e71",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.70}"
+                "value": "#542e71"
               },
               "name": "pf-t--global--dark--background--color--300",
               "attributes": {
@@ -14957,29 +14681,6 @@
                 "background",
                 "color",
                 "300"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#383838",
-                  "filePath": "tokens/dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#383838"
-                  },
-                  "name": "pf-t--color--gray--70",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "70"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "70"
-                  ]
-                }
               ]
             }
           ]
@@ -15361,7 +15062,7 @@
         "dark": {
           "description": "Use this color for elements that you want to reinforce your brand",
           "type": "color",
-          "value": "#92c5f9",
+          "value": "#f5921b",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -15385,12 +15086,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#92c5f9",
+              "value": "#f5921b",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.30}"
+                "value": "{color.orange.40}"
               },
               "name": "pf-t--global--dark--color--brand--100",
               "attributes": {
@@ -15410,23 +15111,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#92c5f9",
+                  "value": "#f5921b",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#92c5f9"
+                    "value": "#f5921b"
                   },
-                  "name": "pf-t--color--blue--30",
+                  "name": "pf-t--color--orange--40",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "30"
+                    "type": "orange",
+                    "item": "40"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "30"
+                    "orange",
+                    "40"
                   ]
                 }
               ]
@@ -15438,7 +15139,7 @@
         "dark": {
           "description": "Use as the hover state for elements that have a branded background color",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -15462,12 +15163,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.20}"
+                "value": "{color.orange.30}"
               },
               "name": "pf-t--global--dark--color--brand--200",
               "attributes": {
@@ -15487,23 +15188,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#b9dafc"
+                    "value": "#f8ae54"
                   },
-                  "name": "pf-t--color--blue--20",
+                  "name": "pf-t--color--orange--30",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "20"
+                    "type": "orange",
+                    "item": "30"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "20"
+                    "orange",
+                    "30"
                   ]
                 }
               ]
@@ -15515,7 +15216,7 @@
         "dark": {
           "description": "Use as the clicked state for elements that have a brand background color",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -15539,12 +15240,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.20}"
+                "value": "{color.orange.30}"
               },
               "name": "pf-t--global--dark--color--brand--200",
               "attributes": {
@@ -15564,23 +15265,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#b9dafc"
+                    "value": "#f8ae54"
                   },
-                  "name": "pf-t--color--blue--20",
+                  "name": "pf-t--color--orange--30",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "20"
+                    "type": "orange",
+                    "item": "30"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "20"
+                    "orange",
+                    "30"
                   ]
                 }
               ]
@@ -17023,7 +16724,7 @@
         "dark": {
           "description": "Use as the default color for elements that convey an unread status, like badges and stateful buttons.",
           "type": "color",
-          "value": "#92c5f9",
+          "value": "#f5921b",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -17050,7 +16751,7 @@
             {
               "description": "Use this color for elements that you want to reinforce your brand",
               "type": "color",
-              "value": "#92c5f9",
+              "value": "#f5921b",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -17074,12 +16775,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#92c5f9",
+                  "value": "#f5921b",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.blue.30}"
+                    "value": "{color.orange.40}"
                   },
                   "name": "pf-t--global--dark--color--brand--100",
                   "attributes": {
@@ -17099,23 +16800,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#92c5f9",
+                      "value": "#f5921b",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#92c5f9"
+                        "value": "#f5921b"
                       },
-                      "name": "pf-t--color--blue--30",
+                      "name": "pf-t--color--orange--40",
                       "attributes": {
                         "category": "color",
-                        "type": "blue",
-                        "item": "30"
+                        "type": "orange",
+                        "item": "40"
                       },
                       "path": [
                         "color",
-                        "blue",
-                        "30"
+                        "orange",
+                        "40"
                       ]
                     }
                   ]
@@ -17129,7 +16830,7 @@
         "dark": {
           "description": "Use as the hover state color for elements that convey an unread status, like badges and stateful buttons.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -17156,7 +16857,7 @@
             {
               "description": "Use as the hover state for elements that have a branded background color",
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -17180,12 +16881,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.blue.20}"
+                    "value": "{color.orange.30}"
                   },
                   "name": "pf-t--global--dark--color--brand--200",
                   "attributes": {
@@ -17205,23 +16906,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#b9dafc",
+                      "value": "#f8ae54",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#b9dafc"
+                        "value": "#f8ae54"
                       },
-                      "name": "pf-t--color--blue--20",
+                      "name": "pf-t--color--orange--30",
                       "attributes": {
                         "category": "color",
-                        "type": "blue",
-                        "item": "20"
+                        "type": "orange",
+                        "item": "30"
                       },
                       "path": [
                         "color",
-                        "blue",
-                        "20"
+                        "orange",
+                        "30"
                       ]
                     }
                   ]
@@ -17235,7 +16936,7 @@
         "dark": {
           "description": "Use as the clicked state color for elements that convey an unread status, like badges and stateful buttons.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -17262,7 +16963,7 @@
             {
               "description": "Use as the clicked state for elements that have a brand background color",
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -17286,12 +16987,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.blue.20}"
+                    "value": "{color.orange.30}"
                   },
                   "name": "pf-t--global--dark--color--brand--200",
                   "attributes": {
@@ -17311,23 +17012,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#b9dafc",
+                      "value": "#f8ae54",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#b9dafc"
+                        "value": "#f8ae54"
                       },
-                      "name": "pf-t--color--blue--20",
+                      "name": "pf-t--color--orange--30",
                       "attributes": {
                         "category": "color",
-                        "type": "blue",
-                        "item": "20"
+                        "type": "orange",
+                        "item": "30"
                       },
                       "path": [
                         "color",
-                        "blue",
-                        "20"
+                        "orange",
+                        "30"
                       ]
                     }
                   ]
@@ -17671,7 +17372,7 @@
         "dark": {
           "description": "Use as the default color for elements that convey a read status and are placed on a secondary background",
           "type": "color",
-          "value": "#383838",
+          "value": "#542e71",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -17698,7 +17399,7 @@
             {
               "description": "Use as the default background for control elements like form inputs and menu toggles.",
               "type": "color",
-              "value": "#383838",
+              "value": "#542e71",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -17724,12 +17425,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#383838",
+                  "value": "#542e71",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.70}"
+                    "value": "#542e71"
                   },
                   "name": "pf-t--global--dark--background--color--300",
                   "attributes": {
@@ -17745,29 +17446,6 @@
                     "background",
                     "color",
                     "300"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#383838",
-                      "filePath": "tokens/dark/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#383838"
-                      },
-                      "name": "pf-t--color--gray--70",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "70"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "70"
-                      ]
-                    }
                   ]
                 }
               ]
@@ -17779,7 +17457,7 @@
         "dark": {
           "description": "Use as the default color for elements that convey a read status and are placed on a primary background",
           "type": "color",
-          "value": "#151515",
+          "value": "#1b0d33",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -17806,7 +17484,7 @@
             {
               "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
               "type": "color",
-              "value": "#151515",
+              "value": "#1b0d33",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -17832,12 +17510,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#151515",
+                  "value": "#1b0d33",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.95}"
+                    "value": "{color.purple.80}"
                   },
                   "name": "pf-t--global--dark--background--color--100",
                   "attributes": {
@@ -17857,23 +17535,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#151515",
+                      "value": "#1b0d33",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#151515"
+                        "value": "#1b0d33"
                       },
-                      "name": "pf-t--color--gray--95",
+                      "name": "pf-t--color--purple--80",
                       "attributes": {
                         "category": "color",
-                        "type": "gray",
-                        "item": "95"
+                        "type": "purple",
+                        "item": "80"
                       },
                       "path": [
                         "color",
-                        "gray",
-                        "95"
+                        "purple",
+                        "80"
                       ]
                     }
                   ]
@@ -20047,7 +19725,7 @@
         "dark": {
           "description": "Use as the default text color for links.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20073,12 +19751,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.20}"
+                "value": "{color.orange.30}"
               },
               "name": "pf-t--global--dark--text--color--link--100",
               "attributes": {
@@ -20099,23 +19777,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#b9dafc"
+                    "value": "#f8ae54"
                   },
-                  "name": "pf-t--color--blue--20",
+                  "name": "pf-t--color--orange--30",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "20"
+                    "type": "orange",
+                    "item": "30"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "20"
+                    "orange",
+                    "30"
                   ]
                 }
               ]
@@ -20127,7 +19805,7 @@
         "dark": {
           "description": "Use as the hover state text color for links.",
           "type": "color",
-          "value": "#e0f0ff",
+          "value": "#fccb8f",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20153,12 +19831,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0f0ff",
+              "value": "#fccb8f",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.10}"
+                "value": "{color.orange.20}"
               },
               "name": "pf-t--global--dark--text--color--link--200",
               "attributes": {
@@ -20179,23 +19857,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#e0f0ff",
+                  "value": "#fccb8f",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#e0f0ff"
+                    "value": "#fccb8f"
                   },
-                  "name": "pf-t--color--blue--10",
+                  "name": "pf-t--color--orange--20",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "10"
+                    "type": "orange",
+                    "item": "20"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "10"
+                    "orange",
+                    "20"
                   ]
                 }
               ]
@@ -20207,7 +19885,7 @@
         "dark": {
           "description": "Use as the color to indicate that a link has been visited.",
           "type": "color",
-          "value": "#b6a6e9",
+          "value": "#ece6ff",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20233,12 +19911,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#b6a6e9",
+              "value": "#ece6ff",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.purple.30}"
+                "value": "{color.purple.10}"
               },
               "name": "pf-t--global--dark--text--color--link--300",
               "attributes": {
@@ -20259,23 +19937,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b6a6e9",
+                  "value": "#ece6ff",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#b6a6e9"
+                    "value": "#ece6ff"
                   },
-                  "name": "pf-t--color--purple--30",
+                  "name": "pf-t--color--purple--10",
                   "attributes": {
                     "category": "color",
                     "type": "purple",
-                    "item": "30"
+                    "item": "10"
                   },
                   "path": [
                     "color",
                     "purple",
-                    "30"
+                    "10"
                   ]
                 }
               ]
@@ -20287,7 +19965,7 @@
         "dark": {
           "description": "Use as the default color for branded text.",
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20313,12 +19991,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.20}"
+                "value": "{color.orange.30}"
               },
               "name": "pf-t--global--dark--color--brand--200",
               "attributes": {
@@ -20338,23 +20016,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#b9dafc",
+                  "value": "#f8ae54",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#b9dafc"
+                    "value": "#f8ae54"
                   },
-                  "name": "pf-t--color--blue--20",
+                  "name": "pf-t--color--orange--30",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "20"
+                    "type": "orange",
+                    "item": "30"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "20"
+                    "orange",
+                    "30"
                   ]
                 }
               ]
@@ -20366,7 +20044,7 @@
         "dark": {
           "description": "Use as the hover state color for branded text.",
           "type": "color",
-          "value": "#e0f0ff",
+          "value": "#fccb8f",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20392,12 +20070,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0f0ff",
+              "value": "#fccb8f",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.10}"
+                "value": "{color.orange.20}"
               },
               "name": "pf-t--global--dark--color--brand--300",
               "attributes": {
@@ -20417,23 +20095,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#e0f0ff",
+                  "value": "#fccb8f",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#e0f0ff"
+                    "value": "#fccb8f"
                   },
-                  "name": "pf-t--color--blue--10",
+                  "name": "pf-t--color--orange--20",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "10"
+                    "type": "orange",
+                    "item": "20"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "10"
+                    "orange",
+                    "20"
                   ]
                 }
               ]
@@ -20445,7 +20123,7 @@
         "dark": {
           "description": "Use as the clicked state color for branded text.",
           "type": "color",
-          "value": "#e0f0ff",
+          "value": "#fccb8f",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20471,12 +20149,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0f0ff",
+              "value": "#fccb8f",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.blue.10}"
+                "value": "{color.orange.20}"
               },
               "name": "pf-t--global--dark--color--brand--300",
               "attributes": {
@@ -20496,23 +20174,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#e0f0ff",
+                  "value": "#fccb8f",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#e0f0ff"
+                    "value": "#fccb8f"
                   },
-                  "name": "pf-t--color--blue--10",
+                  "name": "pf-t--color--orange--20",
                   "attributes": {
                     "category": "color",
-                    "type": "blue",
-                    "item": "10"
+                    "type": "orange",
+                    "item": "20"
                   },
                   "path": [
                     "color",
-                    "blue",
-                    "10"
+                    "orange",
+                    "20"
                   ]
                 }
               ]
@@ -20524,7 +20202,7 @@
         "dark": {
           "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
           "type": "color",
-          "value": "#ffffff",
+          "value": "#ece6ff",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20548,12 +20226,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#ece6ff",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.white}"
+                "value": "{color.purple.10}"
               },
               "name": "pf-t--global--dark--text--color--100",
               "attributes": {
@@ -20573,21 +20251,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#ffffff",
+                  "value": "#ece6ff",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#ffffff"
+                    "value": "#ece6ff"
                   },
-                  "name": "pf-t--color--white",
+                  "name": "pf-t--color--purple--10",
                   "attributes": {
                     "category": "color",
-                    "type": "white"
+                    "type": "purple",
+                    "item": "10"
                   },
                   "path": [
                     "color",
-                    "white"
+                    "purple",
+                    "10"
                   ]
                 }
               ]
@@ -20599,7 +20279,7 @@
         "dark": {
           "description": "Use as a subtle text color for text in an element that is secondary or less important, like descriptions or inactive tab labels.",
           "type": "color",
-          "value": "#c7c7c7",
+          "value": "#d0c5f4",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -20623,12 +20303,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#c7c7c7",
+              "value": "#d0c5f4",
               "filePath": "tokens/dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.30}"
+                "value": "{color.purple.20}"
               },
               "name": "pf-t--global--dark--text--color--200",
               "attributes": {
@@ -20648,23 +20328,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#c7c7c7",
+                  "value": "#d0c5f4",
                   "filePath": "tokens/dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#c7c7c7"
+                    "value": "#d0c5f4"
                   },
-                  "name": "pf-t--color--gray--30",
+                  "name": "pf-t--color--purple--20",
                   "attributes": {
                     "category": "color",
-                    "type": "gray",
-                    "item": "30"
+                    "type": "purple",
+                    "item": "20"
                   },
                   "path": [
                     "color",
-                    "gray",
-                    "30"
+                    "purple",
+                    "20"
                   ]
                 }
               ]
@@ -21071,7 +20751,7 @@
         "dark": {
           "description": "Use as the color of text that serves as a placeholder, like within a search bar/input.",
           "type": "color",
-          "value": "#c7c7c7",
+          "value": "#d0c5f4",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -21096,7 +20776,7 @@
             {
               "description": "Use as a subtle text color for text in an element that is secondary or less important, like descriptions or inactive tab labels.",
               "type": "color",
-              "value": "#c7c7c7",
+              "value": "#d0c5f4",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -21120,12 +20800,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#c7c7c7",
+                  "value": "#d0c5f4",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.30}"
+                    "value": "{color.purple.20}"
                   },
                   "name": "pf-t--global--dark--text--color--200",
                   "attributes": {
@@ -21145,23 +20825,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#c7c7c7",
+                      "value": "#d0c5f4",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#c7c7c7"
+                        "value": "#d0c5f4"
                       },
-                      "name": "pf-t--color--gray--30",
+                      "name": "pf-t--color--purple--20",
                       "attributes": {
                         "category": "color",
-                        "type": "gray",
-                        "item": "30"
+                        "type": "purple",
+                        "item": "20"
                       },
                       "path": [
                         "color",
-                        "gray",
-                        "30"
+                        "purple",
+                        "20"
                       ]
                     }
                   ]
@@ -27855,7 +27535,7 @@
         "dark": {
           "description": "Use as the default color for text that is placed on a nonstatus gray background color.",
           "type": "color",
-          "value": "#ffffff",
+          "value": "#ece6ff",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -27883,7 +27563,7 @@
             {
               "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
               "type": "color",
-              "value": "#ffffff",
+              "value": "#ece6ff",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -27907,12 +27587,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#ffffff",
+                  "value": "#ece6ff",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.white}"
+                    "value": "{color.purple.10}"
                   },
                   "name": "pf-t--global--dark--text--color--100",
                   "attributes": {
@@ -27932,21 +27612,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#ffffff",
+                      "value": "#ece6ff",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#ffffff"
+                        "value": "#ece6ff"
                       },
-                      "name": "pf-t--color--white",
+                      "name": "pf-t--color--purple--10",
                       "attributes": {
                         "category": "color",
-                        "type": "white"
+                        "type": "purple",
+                        "item": "10"
                       },
                       "path": [
                         "color",
-                        "white"
+                        "purple",
+                        "10"
                       ]
                     }
                   ]
@@ -27960,7 +27642,7 @@
         "dark": {
           "description": "Use as the hover state color for text that is placed on a nonstatus gray background color.",
           "type": "color",
-          "value": "#ffffff",
+          "value": "#ece6ff",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -27988,7 +27670,7 @@
             {
               "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
               "type": "color",
-              "value": "#ffffff",
+              "value": "#ece6ff",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -28012,12 +27694,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#ffffff",
+                  "value": "#ece6ff",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.white}"
+                    "value": "{color.purple.10}"
                   },
                   "name": "pf-t--global--dark--text--color--100",
                   "attributes": {
@@ -28037,21 +27719,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#ffffff",
+                      "value": "#ece6ff",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#ffffff"
+                        "value": "#ece6ff"
                       },
-                      "name": "pf-t--color--white",
+                      "name": "pf-t--color--purple--10",
                       "attributes": {
                         "category": "color",
-                        "type": "white"
+                        "type": "purple",
+                        "item": "10"
                       },
                       "path": [
                         "color",
-                        "white"
+                        "purple",
+                        "10"
                       ]
                     }
                   ]
@@ -28065,7 +27749,7 @@
         "dark": {
           "description": "Use as the clicked state color for text that is placed on a nonstatus gray background color.",
           "type": "color",
-          "value": "#ffffff",
+          "value": "#ece6ff",
           "filePath": "tokens/dark/semantic.dark.json",
           "isSource": true,
           "original": {
@@ -28093,7 +27777,7 @@
             {
               "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
               "type": "color",
-              "value": "#ffffff",
+              "value": "#ece6ff",
               "filePath": "tokens/dark/semantic.dark.json",
               "isSource": true,
               "original": {
@@ -28117,12 +27801,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#ffffff",
+                  "value": "#ece6ff",
                   "filePath": "tokens/dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.white}"
+                    "value": "{color.purple.10}"
                   },
                   "name": "pf-t--global--dark--text--color--100",
                   "attributes": {
@@ -28142,21 +27826,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#ffffff",
+                      "value": "#ece6ff",
                       "filePath": "tokens/dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#ffffff"
+                        "value": "#ece6ff"
                       },
-                      "name": "pf-t--color--white",
+                      "name": "pf-t--color--purple--10",
                       "attributes": {
                         "category": "color",
-                        "type": "white"
+                        "type": "purple",
+                        "item": "10"
                       },
                       "path": [
                         "color",
-                        "white"
+                        "purple",
+                        "10"
                       ]
                     }
                   ]
@@ -33473,7 +33159,7 @@
         "default": {
           "description": "Use to adjust the curvature of the border corners for an element. Use for barely rounded corners.",
           "type": "number",
-          "value": "4px",
+          "value": "0px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -33497,12 +33183,12 @@
           "references": [
             {
               "type": "number",
-              "value": "4px",
+              "value": "0px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 4
+                "value": 0
               },
               "name": "pf-t--global--border--radius--100",
               "attributes": {
@@ -33525,7 +33211,7 @@
         "default": {
           "description": "Use to adjust the curvature of the border corners for an element. Use for slightly rounded corners, like icon buttons or menus.",
           "type": "number",
-          "value": "6px",
+          "value": "0px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -33549,12 +33235,12 @@
           "references": [
             {
               "type": "number",
-              "value": "6px",
+              "value": "0px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 6
+                "value": 0
               },
               "name": "pf-t--global--border--radius--200",
               "attributes": {
@@ -33577,7 +33263,7 @@
         "default": {
           "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
           "type": "number",
-          "value": "16px",
+          "value": "0px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -33601,12 +33287,12 @@
           "references": [
             {
               "type": "number",
-              "value": "16px",
+              "value": "0px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "number",
-                "value": 16
+                "value": 0
               },
               "name": "pf-t--global--border--radius--300",
               "attributes": {
@@ -35194,7 +34880,7 @@
         "default": {
           "description": "Use to define the font family for body text",
           "type": "number",
-          "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "value": "\"Familjen Grotesk\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -35218,12 +34904,12 @@
           "references": [
             {
               "type": "string",
-              "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+              "value": "\"Familjen Grotesk\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "string",
-                "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+                "value": "\"Familjen Grotesk\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
               },
               "name": "pf-t--global--font--family--100",
               "attributes": {
@@ -35246,7 +34932,7 @@
         "default": {
           "description": "Use to define the font family for heading text",
           "type": "number",
-          "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "value": "\"Butcherman\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": false,
           "original": {
@@ -35270,12 +34956,12 @@
           "references": [
             {
               "type": "string",
-              "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+              "value": "\"Butcherman\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": false,
               "original": {
                 "type": "string",
-                "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+                "value": "\"Butcherman\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
               },
               "name": "pf-t--global--font--family--200",
               "attributes": {
@@ -40703,12 +40389,12 @@
       "pf-t--global--icon--color--100": {
         "default": {
           "type": "color",
-          "value": "#1f1f1f",
+          "value": "#9e4a06",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.90}"
+            "value": "{color.orange.60}"
           },
           "name": "pf-t--global--icon--color--100",
           "attributes": {
@@ -40726,23 +40412,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#1f1f1f",
+              "value": "#9e4a06",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#1f1f1f"
+                "value": "#9e4a06"
               },
-              "name": "pf-t--color--gray--90",
+              "name": "pf-t--color--orange--60",
               "attributes": {
                 "category": "color",
-                "type": "gray",
-                "item": "90"
+                "type": "orange",
+                "item": "60"
               },
               "path": [
                 "color",
-                "gray",
-                "90"
+                "orange",
+                "60"
               ]
             }
           ]
@@ -40751,12 +40437,12 @@
       "pf-t--global--icon--color--200": {
         "default": {
           "type": "color",
-          "value": "#707070",
+          "value": "#9e4a06",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.50}"
+            "value": "{color.orange.60}"
           },
           "name": "pf-t--global--icon--color--200",
           "attributes": {
@@ -40774,23 +40460,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#707070",
+              "value": "#9e4a06",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#707070"
+                "value": "#9e4a06"
               },
-              "name": "pf-t--color--gray--50",
+              "name": "pf-t--color--orange--60",
               "attributes": {
                 "category": "color",
-                "type": "gray",
-                "item": "50"
+                "type": "orange",
+                "item": "60"
               },
               "path": [
                 "color",
-                "gray",
-                "50"
+                "orange",
+                "60"
               ]
             }
           ]
@@ -40845,12 +40531,12 @@
       "pf-t--global--border--color--50": {
         "default": {
           "type": "color",
-          "value": "#e0e0e0",
+          "value": "#d0c5f4",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.20}"
+            "value": "{color.purple.20}"
           },
           "name": "pf-t--global--border--color--50",
           "attributes": {
@@ -40868,22 +40554,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0e0e0",
+              "value": "#d0c5f4",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#e0e0e0"
+                "value": "#d0c5f4"
               },
-              "name": "pf-t--color--gray--20",
+              "name": "pf-t--color--purple--20",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "20"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "20"
               ]
             }
@@ -40893,12 +40579,12 @@
       "pf-t--global--border--color--100": {
         "default": {
           "type": "color",
-          "value": "#c7c7c7",
+          "value": "#b6a6e9",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.30}"
+            "value": "{color.purple.30}"
           },
           "name": "pf-t--global--border--color--100",
           "attributes": {
@@ -40916,22 +40602,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#c7c7c7",
+              "value": "#b6a6e9",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#c7c7c7"
+                "value": "#b6a6e9"
               },
-              "name": "pf-t--color--gray--30",
+              "name": "pf-t--color--purple--30",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "30"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "30"
               ]
             }
@@ -40941,12 +40627,12 @@
       "pf-t--global--border--color--200": {
         "default": {
           "type": "color",
-          "value": "#a3a3a3",
+          "value": "#876fd4",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.40}"
+            "value": "{color.purple.40}"
           },
           "name": "pf-t--global--border--color--200",
           "attributes": {
@@ -40964,22 +40650,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#a3a3a3",
+              "value": "#876fd4",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#a3a3a3"
+                "value": "#876fd4"
               },
-              "name": "pf-t--color--gray--40",
+              "name": "pf-t--color--purple--40",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "40"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "40"
               ]
             }
@@ -40989,12 +40675,12 @@
       "pf-t--global--border--color--300": {
         "default": {
           "type": "color",
-          "value": "#707070",
+          "value": "#5e40be",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.50}"
+            "value": "{color.purple.50}"
           },
           "name": "pf-t--global--border--color--300",
           "attributes": {
@@ -41012,22 +40698,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#707070",
+              "value": "#5e40be",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#707070"
+                "value": "#5e40be"
               },
-              "name": "pf-t--color--gray--50",
+              "name": "pf-t--color--purple--50",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "50"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "50"
               ]
             }
@@ -41087,12 +40773,12 @@
       "pf-t--global--background--color--100": {
         "default": {
           "type": "color",
-          "value": "#ffffff",
+          "value": "#fefdff",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.white}"
+            "value": "#fefdff"
           },
           "name": "pf-t--global--background--color--100",
           "attributes": {
@@ -41106,39 +40792,18 @@
             "background",
             "color",
             "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#ffffff",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffffff"
-              },
-              "name": "pf-t--color--white",
-              "attributes": {
-                "category": "color",
-                "type": "white"
-              },
-              "path": [
-                "color",
-                "white"
-              ]
-            }
           ]
         }
       },
       "pf-t--global--background--color--200": {
         "default": {
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#f1edf4",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.10}"
+            "value": "#f1edf4"
           },
           "name": "pf-t--global--background--color--200",
           "attributes": {
@@ -41152,41 +40817,18 @@
             "background",
             "color",
             "200"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f2f2f2",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f2f2f2"
-              },
-              "name": "pf-t--color--gray--10",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "10"
-              },
-              "path": [
-                "color",
-                "gray",
-                "10"
-              ]
-            }
           ]
         }
       },
       "pf-t--global--background--color--300": {
         "default": {
           "type": "color",
-          "value": "#e0e0e0",
+          "value": "#e4dae6",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.20}"
+            "value": "#e4dae6"
           },
           "name": "pf-t--global--background--color--300",
           "attributes": {
@@ -41200,41 +40842,18 @@
             "background",
             "color",
             "300"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#e0e0e0",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#e0e0e0"
-              },
-              "name": "pf-t--color--gray--20",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "20"
-              },
-              "path": [
-                "color",
-                "gray",
-                "20"
-              ]
-            }
           ]
         }
       },
       "pf-t--global--background--color--400": {
         "default": {
           "type": "color",
-          "value": "#292929",
+          "value": "#21134d",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.80}"
+            "value": "#21134d"
           },
           "name": "pf-t--global--background--color--400",
           "attributes": {
@@ -41248,41 +40867,18 @@
             "background",
             "color",
             "400"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#292929",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#292929"
-              },
-              "name": "pf-t--color--gray--80",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "80"
-              },
-              "path": [
-                "color",
-                "gray",
-                "80"
-              ]
-            }
           ]
         }
       },
       "pf-t--global--background--color--450": {
         "default": {
           "type": "color",
-          "value": "#383838",
+          "value": "#14031e",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.70}"
+            "value": "#14031e"
           },
           "name": "pf-t--global--background--color--450",
           "attributes": {
@@ -41296,29 +40892,6 @@
             "background",
             "color",
             "450"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#383838",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#383838"
-              },
-              "name": "pf-t--color--gray--70",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "70"
-              },
-              "path": [
-                "color",
-                "gray",
-                "70"
-              ]
-            }
           ]
         }
       },
@@ -41350,12 +40923,12 @@
       "pf-t--global--background--color--600": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgba(204, 191, 207, 0.2500)",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.2500)"
+            "value": "rgba(204, 191, 207, 0.2500)"
           },
           "name": "pf-t--global--background--color--600",
           "attributes": {
@@ -41475,12 +41048,12 @@
       "pf-t--global--color--brand--100": {
         "default": {
           "type": "color",
-          "value": "#4394e5",
+          "value": "#ca6c0f",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.blue.40}"
+            "value": "{color.orange.50}"
           },
           "name": "pf-t--global--color--brand--100",
           "attributes": {
@@ -41498,23 +41071,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#4394e5",
+              "value": "#ca6c0f",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#4394e5"
+                "value": "#ca6c0f"
               },
-              "name": "pf-t--color--blue--40",
+              "name": "pf-t--color--orange--50",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "40"
+                "type": "orange",
+                "item": "50"
               },
               "path": [
                 "color",
-                "blue",
-                "40"
+                "orange",
+                "50"
               ]
             }
           ]
@@ -41523,12 +41096,12 @@
       "pf-t--global--color--brand--200": {
         "default": {
           "type": "color",
-          "value": "#0066cc",
+          "value": "#9e4a06",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.blue.50}"
+            "value": "{color.orange.60}"
           },
           "name": "pf-t--global--color--brand--200",
           "attributes": {
@@ -41546,23 +41119,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#0066cc",
+              "value": "#9e4a06",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#0066cc"
+                "value": "#9e4a06"
               },
-              "name": "pf-t--color--blue--50",
+              "name": "pf-t--color--orange--60",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "50"
+                "type": "orange",
+                "item": "60"
               },
               "path": [
                 "color",
-                "blue",
-                "50"
+                "orange",
+                "60"
               ]
             }
           ]
@@ -41571,12 +41144,12 @@
       "pf-t--global--color--brand--300": {
         "default": {
           "type": "color",
-          "value": "#004d99",
+          "value": "#732e00",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.blue.60}"
+            "value": "{color.orange.70}"
           },
           "name": "pf-t--global--color--brand--300",
           "attributes": {
@@ -41594,23 +41167,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#004d99",
+              "value": "#732e00",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#004d99"
+                "value": "#732e00"
               },
-              "name": "pf-t--color--blue--60",
+              "name": "pf-t--color--orange--70",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "60"
+                "type": "orange",
+                "item": "70"
               },
               "path": [
                 "color",
-                "blue",
-                "60"
+                "orange",
+                "70"
               ]
             }
           ]
@@ -44109,12 +43682,12 @@
       "pf-t--global--text--color--100": {
         "default": {
           "type": "color",
-          "value": "#151515",
+          "value": "#21134d",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.95}"
+            "value": "{color.purple.70}"
           },
           "name": "pf-t--global--text--color--100",
           "attributes": {
@@ -44132,23 +43705,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#151515",
+              "value": "#21134d",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#151515"
+                "value": "#21134d"
               },
-              "name": "pf-t--color--gray--95",
+              "name": "pf-t--color--purple--70",
               "attributes": {
                 "category": "color",
-                "type": "gray",
-                "item": "95"
+                "type": "purple",
+                "item": "70"
               },
               "path": [
                 "color",
-                "gray",
-                "95"
+                "purple",
+                "70"
               ]
             }
           ]
@@ -44157,12 +43730,12 @@
       "pf-t--global--text--color--200": {
         "default": {
           "type": "color",
-          "value": "#4d4d4d",
+          "value": "#3d2785",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.gray.60}"
+            "value": "{color.purple.60}"
           },
           "name": "pf-t--global--text--color--200",
           "attributes": {
@@ -44180,22 +43753,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#4d4d4d",
+              "value": "#3d2785",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#4d4d4d"
+                "value": "#3d2785"
               },
-              "name": "pf-t--color--gray--60",
+              "name": "pf-t--color--purple--60",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "60"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "60"
               ]
             }
@@ -44299,12 +43872,12 @@
       "pf-t--global--text--color--link--100": {
         "default": {
           "type": "color",
-          "value": "#0066cc",
+          "value": "#9e4a06",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.blue.50}"
+            "value": "{color.orange.60}"
           },
           "name": "pf-t--global--text--color--link--100",
           "attributes": {
@@ -44324,23 +43897,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#0066cc",
+              "value": "#9e4a06",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#0066cc"
+                "value": "#9e4a06"
               },
-              "name": "pf-t--color--blue--50",
+              "name": "pf-t--color--orange--60",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "50"
+                "type": "orange",
+                "item": "60"
               },
               "path": [
                 "color",
-                "blue",
-                "50"
+                "orange",
+                "60"
               ]
             }
           ]
@@ -44349,12 +43922,12 @@
       "pf-t--global--text--color--link--200": {
         "default": {
           "type": "color",
-          "value": "#004d99",
+          "value": "#732e00",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.blue.60}"
+            "value": "{color.orange.70}"
           },
           "name": "pf-t--global--text--color--link--200",
           "attributes": {
@@ -44374,23 +43947,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#004d99",
+              "value": "#732e00",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#004d99"
+                "value": "#732e00"
               },
-              "name": "pf-t--color--blue--60",
+              "name": "pf-t--color--orange--70",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "60"
+                "type": "orange",
+                "item": "70"
               },
               "path": [
                 "color",
-                "blue",
-                "60"
+                "orange",
+                "70"
               ]
             }
           ]
@@ -44399,12 +43972,12 @@
       "pf-t--global--text--color--link--300": {
         "default": {
           "type": "color",
-          "value": "#5e40be",
+          "value": "#3d2785",
           "filePath": "tokens/default/base.json",
           "isSource": false,
           "original": {
             "type": "color",
-            "value": "{color.purple.50}"
+            "value": "{color.purple.60}"
           },
           "name": "pf-t--global--text--color--link--300",
           "attributes": {
@@ -44424,23 +43997,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#5e40be",
+              "value": "#3d2785",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#5e40be"
+                "value": "#3d2785"
               },
-              "name": "pf-t--color--purple--50",
+              "name": "pf-t--color--purple--60",
               "attributes": {
                 "category": "color",
                 "type": "purple",
-                "item": "50"
+                "item": "60"
               },
               "path": [
                 "color",
                 "purple",
-                "50"
+                "60"
               ]
             }
           ]
@@ -44449,12 +44022,12 @@
       "pf-t--global--dark--background--color--100": {
         "dark": {
           "type": "color",
-          "value": "#151515",
+          "value": "#1b0d33",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.95}"
+            "value": "{color.purple.80}"
           },
           "name": "pf-t--global--dark--background--color--100",
           "attributes": {
@@ -44474,23 +44047,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#151515",
+              "value": "#1b0d33",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#151515"
+                "value": "#1b0d33"
               },
-              "name": "pf-t--color--gray--95",
+              "name": "pf-t--color--purple--80",
               "attributes": {
                 "category": "color",
-                "type": "gray",
-                "item": "95"
+                "type": "purple",
+                "item": "80"
               },
               "path": [
                 "color",
-                "gray",
-                "95"
+                "purple",
+                "80"
               ]
             }
           ]
@@ -44499,12 +44072,12 @@
       "pf-t--global--dark--background--color--200": {
         "dark": {
           "type": "color",
-          "value": "#292929",
+          "value": "#3c145a",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.80}"
+            "value": "#3c145a"
           },
           "name": "pf-t--global--dark--background--color--200",
           "attributes": {
@@ -44520,41 +44093,18 @@
             "background",
             "color",
             "200"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#292929",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#292929"
-              },
-              "name": "pf-t--color--gray--80",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "80"
-              },
-              "path": [
-                "color",
-                "gray",
-                "80"
-              ]
-            }
           ]
         }
       },
       "pf-t--global--dark--background--color--300": {
         "dark": {
           "type": "color",
-          "value": "#383838",
+          "value": "#542e71",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.70}"
+            "value": "#542e71"
           },
           "name": "pf-t--global--dark--background--color--300",
           "attributes": {
@@ -44570,29 +44120,6 @@
             "background",
             "color",
             "300"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#383838",
-              "filePath": "tokens/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#383838"
-              },
-              "name": "pf-t--color--gray--70",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "70"
-              },
-              "path": [
-                "color",
-                "gray",
-                "70"
-              ]
-            }
           ]
         }
       },
@@ -44855,12 +44382,12 @@
       "pf-t--global--dark--color--brand--100": {
         "dark": {
           "type": "color",
-          "value": "#92c5f9",
+          "value": "#f5921b",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.blue.30}"
+            "value": "{color.orange.40}"
           },
           "name": "pf-t--global--dark--color--brand--100",
           "attributes": {
@@ -44880,23 +44407,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#92c5f9",
+              "value": "#f5921b",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#92c5f9"
+                "value": "#f5921b"
               },
-              "name": "pf-t--color--blue--30",
+              "name": "pf-t--color--orange--40",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "30"
+                "type": "orange",
+                "item": "40"
               },
               "path": [
                 "color",
-                "blue",
-                "30"
+                "orange",
+                "40"
               ]
             }
           ]
@@ -44905,12 +44432,12 @@
       "pf-t--global--dark--color--brand--200": {
         "dark": {
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.blue.20}"
+            "value": "{color.orange.30}"
           },
           "name": "pf-t--global--dark--color--brand--200",
           "attributes": {
@@ -44930,23 +44457,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#b9dafc"
+                "value": "#f8ae54"
               },
-              "name": "pf-t--color--blue--20",
+              "name": "pf-t--color--orange--30",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "20"
+                "type": "orange",
+                "item": "30"
               },
               "path": [
                 "color",
-                "blue",
-                "20"
+                "orange",
+                "30"
               ]
             }
           ]
@@ -44955,12 +44482,12 @@
       "pf-t--global--dark--color--brand--300": {
         "dark": {
           "type": "color",
-          "value": "#e0f0ff",
+          "value": "#fccb8f",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.blue.10}"
+            "value": "{color.orange.20}"
           },
           "name": "pf-t--global--dark--color--brand--300",
           "attributes": {
@@ -44980,23 +44507,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0f0ff",
+              "value": "#fccb8f",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#e0f0ff"
+                "value": "#fccb8f"
               },
-              "name": "pf-t--color--blue--10",
+              "name": "pf-t--color--orange--20",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "10"
+                "type": "orange",
+                "item": "20"
               },
               "path": [
                 "color",
-                "blue",
-                "10"
+                "orange",
+                "20"
               ]
             }
           ]
@@ -47550,12 +47077,12 @@
       "pf-t--global--dark--border--color--50": {
         "dark": {
           "type": "color",
-          "value": "#4d4d4d",
+          "value": "#3d2785",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.60}"
+            "value": "{color.purple.60}"
           },
           "name": "pf-t--global--dark--border--color--50",
           "attributes": {
@@ -47575,22 +47102,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#4d4d4d",
+              "value": "#3d2785",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#4d4d4d"
+                "value": "#3d2785"
               },
-              "name": "pf-t--color--gray--60",
+              "name": "pf-t--color--purple--60",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "60"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "60"
               ]
             }
@@ -47600,12 +47127,12 @@
       "pf-t--global--dark--border--color--100": {
         "dark": {
           "type": "color",
-          "value": "#707070",
+          "value": "#5e40be",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.50}"
+            "value": "{color.purple.50}"
           },
           "name": "pf-t--global--dark--border--color--100",
           "attributes": {
@@ -47625,22 +47152,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#707070",
+              "value": "#5e40be",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#707070"
+                "value": "#5e40be"
               },
-              "name": "pf-t--color--gray--50",
+              "name": "pf-t--color--purple--50",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "50"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "50"
               ]
             }
@@ -47650,12 +47177,12 @@
       "pf-t--global--dark--border--color--200": {
         "dark": {
           "type": "color",
-          "value": "#a3a3a3",
+          "value": "#876fd4",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.40}"
+            "value": "{color.purple.40}"
           },
           "name": "pf-t--global--dark--border--color--200",
           "attributes": {
@@ -47675,22 +47202,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#a3a3a3",
+              "value": "#876fd4",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#a3a3a3"
+                "value": "#876fd4"
               },
-              "name": "pf-t--color--gray--40",
+              "name": "pf-t--color--purple--40",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "purple",
                 "item": "40"
               },
               "path": [
                 "color",
-                "gray",
+                "purple",
                 "40"
               ]
             }
@@ -47700,12 +47227,12 @@
       "pf-t--global--dark--text--color--100": {
         "dark": {
           "type": "color",
-          "value": "#ffffff",
+          "value": "#ece6ff",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.white}"
+            "value": "{color.purple.10}"
           },
           "name": "pf-t--global--dark--text--color--100",
           "attributes": {
@@ -47725,21 +47252,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#ece6ff",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff"
+                "value": "#ece6ff"
               },
-              "name": "pf-t--color--white",
+              "name": "pf-t--color--purple--10",
               "attributes": {
                 "category": "color",
-                "type": "white"
+                "type": "purple",
+                "item": "10"
               },
               "path": [
                 "color",
-                "white"
+                "purple",
+                "10"
               ]
             }
           ]
@@ -47748,12 +47277,12 @@
       "pf-t--global--dark--text--color--200": {
         "dark": {
           "type": "color",
-          "value": "#c7c7c7",
+          "value": "#d0c5f4",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.30}"
+            "value": "{color.purple.20}"
           },
           "name": "pf-t--global--dark--text--color--200",
           "attributes": {
@@ -47773,23 +47302,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#c7c7c7",
+              "value": "#d0c5f4",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#c7c7c7"
+                "value": "#d0c5f4"
               },
-              "name": "pf-t--color--gray--30",
+              "name": "pf-t--color--purple--20",
               "attributes": {
                 "category": "color",
-                "type": "gray",
-                "item": "30"
+                "type": "purple",
+                "item": "20"
               },
               "path": [
                 "color",
-                "gray",
-                "30"
+                "purple",
+                "20"
               ]
             }
           ]
@@ -47898,12 +47427,12 @@
       "pf-t--global--dark--text--color--link--100": {
         "dark": {
           "type": "color",
-          "value": "#b9dafc",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.blue.20}"
+            "value": "{color.orange.30}"
           },
           "name": "pf-t--global--dark--text--color--link--100",
           "attributes": {
@@ -47924,23 +47453,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#b9dafc",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#b9dafc"
+                "value": "#f8ae54"
               },
-              "name": "pf-t--color--blue--20",
+              "name": "pf-t--color--orange--30",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "20"
+                "type": "orange",
+                "item": "30"
               },
               "path": [
                 "color",
-                "blue",
-                "20"
+                "orange",
+                "30"
               ]
             }
           ]
@@ -47949,12 +47478,12 @@
       "pf-t--global--dark--text--color--link--200": {
         "dark": {
           "type": "color",
-          "value": "#e0f0ff",
+          "value": "#fccb8f",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.blue.10}"
+            "value": "{color.orange.20}"
           },
           "name": "pf-t--global--dark--text--color--link--200",
           "attributes": {
@@ -47975,23 +47504,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#e0f0ff",
+              "value": "#fccb8f",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#e0f0ff"
+                "value": "#fccb8f"
               },
-              "name": "pf-t--color--blue--10",
+              "name": "pf-t--color--orange--20",
               "attributes": {
                 "category": "color",
-                "type": "blue",
-                "item": "10"
+                "type": "orange",
+                "item": "20"
               },
               "path": [
                 "color",
-                "blue",
-                "10"
+                "orange",
+                "20"
               ]
             }
           ]
@@ -48000,12 +47529,12 @@
       "pf-t--global--dark--text--color--link--300": {
         "dark": {
           "type": "color",
-          "value": "#b6a6e9",
+          "value": "#ece6ff",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.purple.30}"
+            "value": "{color.purple.10}"
           },
           "name": "pf-t--global--dark--text--color--link--300",
           "attributes": {
@@ -48026,23 +47555,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#b6a6e9",
+              "value": "#ece6ff",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#b6a6e9"
+                "value": "#ece6ff"
               },
-              "name": "pf-t--color--purple--30",
+              "name": "pf-t--color--purple--10",
               "attributes": {
                 "category": "color",
                 "type": "purple",
-                "item": "30"
+                "item": "10"
               },
               "path": [
                 "color",
                 "purple",
-                "30"
+                "10"
               ]
             }
           ]
@@ -48051,12 +47580,12 @@
       "pf-t--global--dark--icon--color--100": {
         "dark": {
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#f8ae54",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.10}"
+            "value": "{color.orange.30}"
           },
           "name": "pf-t--global--dark--icon--color--100",
           "attributes": {
@@ -48076,23 +47605,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#f8ae54",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#f2f2f2"
+                "value": "#f8ae54"
               },
-              "name": "pf-t--color--gray--10",
+              "name": "pf-t--color--orange--30",
               "attributes": {
                 "category": "color",
-                "type": "gray",
-                "item": "10"
+                "type": "orange",
+                "item": "30"
               },
               "path": [
                 "color",
-                "gray",
-                "10"
+                "orange",
+                "30"
               ]
             }
           ]
@@ -48101,12 +47630,12 @@
       "pf-t--global--dark--icon--color--200": {
         "dark": {
           "type": "color",
-          "value": "#a3a3a3",
+          "value": "#f5921b",
           "filePath": "tokens/dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.40}"
+            "value": "{color.orange.40}"
           },
           "name": "pf-t--global--dark--icon--color--200",
           "attributes": {
@@ -48126,22 +47655,22 @@
           "references": [
             {
               "type": "color",
-              "value": "#a3a3a3",
+              "value": "#f5921b",
               "filePath": "tokens/dark/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#a3a3a3"
+                "value": "#f5921b"
               },
-              "name": "pf-t--color--gray--40",
+              "name": "pf-t--color--orange--40",
               "attributes": {
                 "category": "color",
-                "type": "gray",
+                "type": "orange",
                 "item": "40"
               },
               "path": [
                 "color",
-                "gray",
+                "orange",
                 "40"
               ]
             }
@@ -48691,12 +48220,12 @@
       "pf-t--global--border--radius--100": {
         "default": {
           "type": "number",
-          "value": "4px",
+          "value": "0px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 4
+            "value": 0
           },
           "name": "pf-t--global--border--radius--100",
           "attributes": {
@@ -48716,12 +48245,12 @@
       "pf-t--global--border--radius--200": {
         "default": {
           "type": "number",
-          "value": "6px",
+          "value": "0px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 6
+            "value": 0
           },
           "name": "pf-t--global--border--radius--200",
           "attributes": {
@@ -48741,12 +48270,12 @@
       "pf-t--global--border--radius--300": {
         "default": {
           "type": "number",
-          "value": "16px",
+          "value": "0px",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "number",
-            "value": 16
+            "value": 0
           },
           "name": "pf-t--global--border--radius--300",
           "attributes": {
@@ -49166,12 +48695,12 @@
       "pf-t--global--font--family--100": {
         "default": {
           "type": "string",
-          "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "value": "\"Familjen Grotesk\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "string",
-            "value": "\"Red Hat Text\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+            "value": "\"Familjen Grotesk\", \"RedHatText\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
           },
           "name": "pf-t--global--font--family--100",
           "attributes": {
@@ -49191,12 +48720,12 @@
       "pf-t--global--font--family--200": {
         "default": {
           "type": "string",
-          "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
+          "value": "\"Butcherman\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif",
           "filePath": "tokens/default/base.dimension.json",
           "isSource": false,
           "original": {
             "type": "string",
-            "value": "\"Red Hat Display\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
+            "value": "\"Butcherman\", \"RedHatDisplay\", \"Noto Sans Arabic\", \"Noto Sans Hebrew\", \"Noto Sans JP\", \"Noto Sans KR\", \"Noto Sans Malayalam\", \"Noto Sans SC\", \"Noto Sans TC\", \"Noto Sans Thai\", Helvetica, Arial, sans-serif"
           },
           "name": "pf-t--global--font--family--200",
           "attributes": {
@@ -52031,6 +51560,29 @@
           "color",
           "purple",
           "70"
+        ]
+      }
+    },
+    "pf-t--color--purple--80": {
+      "dark": {
+        "type": "color",
+        "value": "#1b0d33",
+        "filePath": "tokens/dark/palette.color.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#1b0d33"
+        },
+        "name": "pf-t--color--purple--80",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "purple",
+          "80"
         ]
       }
     },

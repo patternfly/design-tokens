@@ -6,15 +6,15 @@
         "color": {
           "100": {
             "type": "color",
-            "value": "{color.gray.95}"
+            "value": "{color.purple.80}"
           },
           "200": {
             "type": "color",
-            "value": "{color.gray.80}"
+            "value": "#3c145a"
           },
           "300": {
             "type": "color",
-            "value": "{color.gray.70}"
+            "value": "#542e71"
           },
           "400": {
             "type": "color",
@@ -48,15 +48,15 @@
         "brand": {
           "100": {
             "type": "color",
-            "value": "{color.blue.30}"
+            "value": "{color.orange.40}"
           },
           "200": {
             "type": "color",
-            "value": "{color.blue.20}"
+            "value": "{color.orange.30}"
           },
           "300": {
             "type": "color",
-            "value": "{color.blue.10}"
+            "value": "{color.orange.20}"
           }
         },
         "disabled": {
@@ -314,15 +314,15 @@
         "color": {
           "50": {
             "type": "color",
-            "value": "{color.gray.60}"
+            "value": "{color.purple.60}"
           },
           "100": {
             "type": "color",
-            "value": "{color.gray.50}"
+            "value": "{color.purple.50}"
           },
           "200": {
             "type": "color",
-            "value": "{color.gray.40}"
+            "value": "{color.purple.40}"
           }
         }
       },
@@ -330,11 +330,11 @@
         "color": {
           "100": {
             "type": "color",
-            "value": "{color.white}"
+            "value": "{color.purple.10}"
           },
           "200": {
             "type": "color",
-            "value": "{color.gray.30}"
+            "value": "{color.purple.20}"
           },
           "300": {
             "type": "color",
@@ -347,15 +347,15 @@
           "link": {
             "100": {
               "type": "color",
-              "value": "{color.blue.20}"
+              "value": "{color.orange.30}"
             },
             "200": {
               "type": "color",
-              "value": "{color.blue.10}"
+              "value": "{color.orange.20}"
             },
             "300": {
               "type": "color",
-              "value": "{color.purple.30}"
+              "value": "{color.purple.10}"
             }
           }
         }
@@ -364,11 +364,11 @@
         "color": {
           "100": {
             "type": "color",
-            "value": "{color.gray.10}"
+            "value": "{color.orange.30}"
           },
           "200": {
             "type": "color",
-            "value": "{color.gray.40}"
+            "value": "{color.orange.40}"
           },
           "300": {
             "type": "color",

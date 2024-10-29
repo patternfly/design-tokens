@@ -82,12 +82,12 @@
               "hover": {
                 "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.dark.background.color.200}"
+                "value": "{global.dark.background.color.300}"
               },
               "clicked": {
                 "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.dark.background.color.200}"
+                "value": "{global.dark.background.color.300}"
               }
             }
           }

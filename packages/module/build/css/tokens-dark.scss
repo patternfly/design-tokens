@@ -1,16 +1,30 @@
 
 // Do not edit directly
-// Generated on Mon, 23 Sep 2024 22:48:17 GMT
+// Generated on Tue, 29 Oct 2024 13:24:00 GMT
 
-@mixin pf-v6-tokens {
+@mixin pf-theme-spooky {
   --pf-t--global--background--color--action--plain--default: rgba(0, 0, 0, 0.0000);
+  --pf-t--global--dark--background--color--200: #3c145a;
+  --pf-t--global--dark--background--color--300: #542e71;
   --pf-t--global--dark--background--color--500: rgba(21, 21, 21, 0.8000);
   --pf-t--global--dark--background--color--600: rgba(199, 199, 199, 0.1500);
   --pf-t--global--dark--box-shadow--color--100: rgba(0, 0, 0, 0.5000);
   --pf-t--global--dark--box-shadow--color--200: rgba(0, 0, 0, 0.7000);
+  --pf-t--global--background--color--action--plain--alt--clicked: var(--pf-t--global--dark--background--color--300);
+  --pf-t--global--background--color--action--plain--alt--hover: var(--pf-t--global--dark--background--color--300);
   --pf-t--global--background--color--action--plain--clicked: var(--pf-t--global--dark--background--color--600);
   --pf-t--global--background--color--action--plain--hover: var(--pf-t--global--dark--background--color--600);
   --pf-t--global--background--color--backdrop--default: var(--pf-t--global--dark--background--color--500);
+  --pf-t--global--background--color--control--default: var(--pf-t--global--dark--background--color--300);
+  --pf-t--global--background--color--control--read-only: var(--pf-t--global--dark--background--color--300);
+  --pf-t--global--background--color--floating--clicked: var(--pf-t--global--dark--background--color--200);
+  --pf-t--global--background--color--floating--default: var(--pf-t--global--dark--background--color--300);
+  --pf-t--global--background--color--floating--hover: var(--pf-t--global--dark--background--color--200);
+  --pf-t--global--background--color--primary--clicked: var(--pf-t--global--dark--background--color--300);
+  --pf-t--global--background--color--primary--default: var(--pf-t--global--dark--background--color--200);
+  --pf-t--global--background--color--primary--hover: var(--pf-t--global--dark--background--color--300);
+  --pf-t--global--background--color--secondary--clicked: var(--pf-t--global--dark--background--color--200);
+  --pf-t--global--background--color--secondary--hover: var(--pf-t--global--dark--background--color--200);
   --pf-t--global--background--color--tertiary--default: var(--pf-t--global--dark--background--color--600);
   --pf-t--global--box-shadow--color--lg--default: var(--pf-t--global--dark--box-shadow--color--100);
   --pf-t--global--box-shadow--color--lg--directional: var(--pf-t--global--dark--box-shadow--color--200);
@@ -18,19 +32,17 @@
   --pf-t--global--box-shadow--color--md--directional: var(--pf-t--global--dark--box-shadow--color--200);
   --pf-t--global--box-shadow--color--sm--default: var(--pf-t--global--dark--box-shadow--color--100);
   --pf-t--global--box-shadow--color--sm--directional: var(--pf-t--global--dark--box-shadow--color--200);
-  --pf-t--global--dark--background--color--100: var(--pf-t--color--gray--95);
-  --pf-t--global--dark--background--color--200: var(--pf-t--color--gray--80);
-  --pf-t--global--dark--background--color--300: var(--pf-t--color--gray--70);
+  --pf-t--global--dark--background--color--100: var(--pf-t--color--purple--80);
   --pf-t--global--dark--background--color--400: var(--pf-t--color--gray--10);
   --pf-t--global--dark--background--color--450: var(--pf-t--color--gray--20);
   --pf-t--global--dark--background--color--highlight--100: var(--pf-t--color--yellow--20);
   --pf-t--global--dark--background--color--highlight--200: var(--pf-t--color--yellow--30);
-  --pf-t--global--dark--border--color--100: var(--pf-t--color--gray--50);
-  --pf-t--global--dark--border--color--200: var(--pf-t--color--gray--40);
-  --pf-t--global--dark--border--color--50: var(--pf-t--color--gray--60);
-  --pf-t--global--dark--color--brand--100: var(--pf-t--color--blue--30);
-  --pf-t--global--dark--color--brand--200: var(--pf-t--color--blue--20);
-  --pf-t--global--dark--color--brand--300: var(--pf-t--color--blue--10);
+  --pf-t--global--dark--border--color--100: var(--pf-t--color--purple--50);
+  --pf-t--global--dark--border--color--200: var(--pf-t--color--purple--40);
+  --pf-t--global--dark--border--color--50: var(--pf-t--color--purple--60);
+  --pf-t--global--dark--color--brand--100: var(--pf-t--color--orange--40);
+  --pf-t--global--dark--color--brand--200: var(--pf-t--color--orange--30);
+  --pf-t--global--dark--color--brand--300: var(--pf-t--color--orange--20);
   --pf-t--global--dark--color--disabled--100: var(--pf-t--color--gray--40);
   --pf-t--global--dark--color--disabled--200: var(--pf-t--color--gray--50);
   --pf-t--global--dark--color--disabled--300: var(--pf-t--color--gray--70);
@@ -81,35 +93,24 @@
   --pf-t--global--dark--color--status--success--200: var(--pf-t--color--green--30);
   --pf-t--global--dark--color--status--warning--100: var(--pf-t--color--yellow--30);
   --pf-t--global--dark--color--status--warning--200: var(--pf-t--color--yellow--20);
-  --pf-t--global--dark--icon--color--100: var(--pf-t--color--gray--10);
-  --pf-t--global--dark--icon--color--200: var(--pf-t--color--gray--40);
+  --pf-t--global--dark--icon--color--100: var(--pf-t--color--orange--30);
+  --pf-t--global--dark--icon--color--200: var(--pf-t--color--orange--40);
   --pf-t--global--dark--icon--color--300: var(--pf-t--color--gray--90);
-  --pf-t--global--dark--text--color--100: var(--pf-t--color--white);
-  --pf-t--global--dark--text--color--200: var(--pf-t--color--gray--30);
+  --pf-t--global--dark--text--color--100: var(--pf-t--color--purple--10);
+  --pf-t--global--dark--text--color--200: var(--pf-t--color--purple--20);
   --pf-t--global--dark--text--color--300: var(--pf-t--color--gray--90);
   --pf-t--global--dark--text--color--400: var(--pf-t--color--red-orange--30);
-  --pf-t--global--dark--text--color--link--100: var(--pf-t--color--blue--20);
-  --pf-t--global--dark--text--color--link--200: var(--pf-t--color--blue--10);
-  --pf-t--global--dark--text--color--link--300: var(--pf-t--color--purple--30);
-  --pf-t--global--background--color--action--plain--alt--clicked: var(--pf-t--global--dark--background--color--200);
-  --pf-t--global--background--color--action--plain--alt--hover: var(--pf-t--global--dark--background--color--200);
-  --pf-t--global--background--color--control--default: var(--pf-t--global--dark--background--color--300);
-  --pf-t--global--background--color--control--read-only: var(--pf-t--global--dark--background--color--300);
+  --pf-t--global--dark--text--color--link--100: var(--pf-t--color--orange--30);
+  --pf-t--global--dark--text--color--link--200: var(--pf-t--color--orange--20);
+  --pf-t--global--dark--text--color--link--300: var(--pf-t--color--purple--10);
   --pf-t--global--background--color--disabled--default: var(--pf-t--global--dark--color--disabled--100);
-  --pf-t--global--background--color--floating--clicked: var(--pf-t--global--dark--background--color--200);
-  --pf-t--global--background--color--floating--default: var(--pf-t--global--dark--background--color--300);
-  --pf-t--global--background--color--floating--hover: var(--pf-t--global--dark--background--color--200);
   --pf-t--global--background--color--highlight--clicked: var(--pf-t--global--dark--background--color--highlight--200);
   --pf-t--global--background--color--highlight--default: var(--pf-t--global--dark--background--color--highlight--100);
   --pf-t--global--background--color--inverse--clicked: var(--pf-t--global--dark--background--color--450);
   --pf-t--global--background--color--inverse--default: var(--pf-t--global--dark--background--color--400);
   --pf-t--global--background--color--inverse--hover: var(--pf-t--global--dark--background--color--450);
-  --pf-t--global--background--color--primary--clicked: var(--pf-t--global--dark--background--color--300);
-  --pf-t--global--background--color--primary--default: var(--pf-t--global--dark--background--color--200);
-  --pf-t--global--background--color--primary--hover: var(--pf-t--global--dark--background--color--300);
-  --pf-t--global--background--color--secondary--clicked: var(--pf-t--global--dark--background--color--200);
   --pf-t--global--background--color--secondary--default: var(--pf-t--global--dark--background--color--100);
-  --pf-t--global--background--color--secondary--hover: var(--pf-t--global--dark--background--color--200);
+  --pf-t--global--border--color--alt: var(--pf-t--global--background--color--primary--default);
   --pf-t--global--border--color--clicked: var(--pf-t--global--dark--color--brand--200);
   --pf-t--global--border--color--control--read-only: var(--pf-t--global--dark--border--color--50);
   --pf-t--global--border--color--default: var(--pf-t--global--dark--border--color--200);
@@ -185,6 +186,7 @@
   --pf-t--global--color--status--info--clicked: var(--pf-t--global--dark--color--status--info--200);
   --pf-t--global--color--status--info--default: var(--pf-t--global--dark--color--status--info--100);
   --pf-t--global--color--status--info--hover: var(--pf-t--global--dark--color--status--info--200);
+  --pf-t--global--color--status--read--on-secondary: var(--pf-t--global--background--color--control--default);
   --pf-t--global--color--status--success--clicked: var(--pf-t--global--dark--color--status--success--200);
   --pf-t--global--color--status--success--default: var(--pf-t--global--dark--color--status--success--100);
   --pf-t--global--color--status--success--hover: var(--pf-t--global--dark--color--status--success--200);
@@ -221,7 +223,6 @@
   --pf-t--global--text--color--status--danger--default: var(--pf-t--global--dark--color--status--danger--250);
   --pf-t--global--text--color--status--danger--hover: var(--pf-t--global--dark--color--status--danger--300);
   --pf-t--global--text--color--subtle: var(--pf-t--global--dark--text--color--200);
-  --pf-t--global--border--color--alt: var(--pf-t--global--background--color--primary--default);
   --pf-t--global--border--color--brand--clicked: var(--pf-t--global--color--brand--clicked);
   --pf-t--global--border--color--brand--default: var(--pf-t--global--color--brand--default);
   --pf-t--global--border--color--brand--hover: var(--pf-t--global--color--brand--hover);
@@ -241,7 +242,6 @@
   --pf-t--global--border--color--status--warning--default: var(--pf-t--global--color--status--warning--default);
   --pf-t--global--border--color--status--warning--hover: var(--pf-t--global--color--status--warning--hover);
   --pf-t--global--color--status--read--on-primary: var(--pf-t--global--background--color--secondary--default);
-  --pf-t--global--color--status--read--on-secondary: var(--pf-t--global--background--color--control--default);
   --pf-t--global--color--status--unread--attention--clicked: var(--pf-t--global--color--status--danger--clicked);
   --pf-t--global--color--status--unread--attention--default: var(--pf-t--global--color--status--danger--default);
   --pf-t--global--color--status--unread--attention--hover: var(--pf-t--global--color--status--danger--hover);
