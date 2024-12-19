@@ -10,10 +10,6 @@ coverage
 .tmp
 .eslintcache
 
-# package managers
-yarn-error.log
-lerna-debug.log
-
 # IDEs and editors
 .idea
 .project
@@ -32,3 +28,13 @@ lerna-debug.log
 *.swp
 
 public
+
+# Yarn
+# See: https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
