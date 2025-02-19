@@ -37,6 +37,13 @@
             "value": "{global.dark.background.color.200}"
           }
         },
+        "tertiary": {
+          "default": {
+            "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.600}"
+          }
+        },
         "floating": {
           "default": {
             "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
@@ -90,6 +97,10 @@
             "description": "Use as the default background for control elements like form inputs and menu toggles.",
             "type": "color",
             "value": "{global.dark.background.color.300}"
+          },
+          "read-only": {
+            "type": "color",
+            "value": "{global.dark.background.color.300}"
           }
         },
         "highlight": {
@@ -109,6 +120,16 @@
             "description": "Use as the background color components with inversed backgrounds like tooltips.",
             "type": "color",
             "value": "{global.dark.background.color.400}"
+          },
+          "hover": {
+            "description": "Use as the hover color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.450}"
+          },
+          "clicked": {
+            "description": "Use as the clicked color for interactive components with inversed backgrounds.",
+            "type": "color",
+            "value": "{global.dark.background.color.450}"
           }
         },
         "disabled": {
@@ -940,6 +961,12 @@
     },
     "border": {
       "color": {
+        "control": {
+          "read-only": {
+            "type": "color",
+            "value": "{global.dark.border.color.50}"
+          }
+        },
         "brand": {
           "default": {
             "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
@@ -1686,19 +1713,40 @@
     "box-shadow": {
       "color": {
         "sm": {
-          "description": "Use as the color of small box-shadows.",
-          "type": "color",
-          "value": "{global.dark.box-shadow.color.100}"
+          "default": {
+            "description": "Use as the color of small box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.100}"
+          },
+          "directional": {
+            "description": "Use as the color of small box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.200}"
+          }
         },
         "md": {
-          "description": "Use as the color of medium box-shadows.",
-          "type": "color",
-          "value": "{global.dark.box-shadow.color.100}"
+          "default": {
+            "description": "Use as the color of medium box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.100}"
+          },
+          "directional": {
+            "description": "Use as the color of medium box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.200}"
+          }
         },
         "lg": {
-          "description": "Use as the color of large box-shadows.",
-          "type": "color",
-          "value": "{global.dark.box-shadow.color.100}"
+          "default": {
+            "description": "Use as the color of large box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.100}"
+          },
+          "directional": {
+            "description": "Use as the color of large box-shadows.",
+            "type": "color",
+            "value": "{global.dark.box-shadow.color.200}"
+          }
         }
       }
     }

@@ -1,23 +1,29 @@
-## Patternfly Design Tokens
+# Patternfly Design Tokens
 
-# Export tokens from Figma
+## Export tokens from Figma
 Information about exporting tokens from the Figma Design Tokens & Styles library is with the [custom exporter](https://github.com/patternfly/design-tokens/tree/main/packages/module/plugins/export-patternfly-tokens).
 
-# Usage
+## Prerequisites
+
+Makes sure you have [Node.js](https://nodejs.org/en/download/package-manager) and [Yarn](https://yarnpkg.com/getting-started/install) installed.
+
+## Usage
 Once the design token JSON files are exported from Figma to the [tokens directories](https://github.com/patternfly/design-tokens/tree/main/packages/module/tokens), use `yarn build:scss` to build the SCSS files to the /build directory
 
 By default `yarn build:scss` outputs the SCSS with `:root` as a selector, but you can also pass the `--selector` flag (or just `-s` for short) and specify any selector you want, i.e. `yarn build:scss -s .foo` will replace the `:root` selector with `.foo` in the generated SCSS files. 
 
-To generate token variables for PatternFly core, use 
+To generate token variables for PatternFly core, use: 
 
-    yarn build:scss -s "@mixin pf-v6-tokens"
+```sh
+yarn build:scss -s "@mixin pf-v6-tokens"
+```
 
 `yarn build:docs` and `yarn serve:docs` will build and run the docs locally.
 
-# Note
+## Note
 We are temporarily pushing the built SCSS files to the repo for ease of access. Additional PRs should rebuild and repush updated SCSS files if they would be affected by the PR changes, to keep them up to date.
 
-# Docs build
+## Docs build
 
 Whenever `yarn build:docs` is executed:
 - the [build:scss](https://github.com/patternfly/design-tokens/blob/main/packages/module/build.js) script is run which transforms tokens pulled from Figma (split into separate token json files in the `/tokens` directory) into combined default and dark theme files (in addition to the .scss files within `build/css`).

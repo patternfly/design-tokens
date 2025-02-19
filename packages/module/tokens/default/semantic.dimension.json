@@ -256,6 +256,11 @@
             "description": "Use to space an element, like an icon or badge, inline with text",
             "type": "number",
             "value": "{global.spacer.sm}"
+          },
+          "compact": {
+            "description": "Use to space an element, like an icon or badge, inline with text",
+            "type": "number",
+            "value": "{global.spacer.xs}"
           }
         },
         "control-to-control": {
@@ -279,14 +284,26 @@
         },
         "group-to-group": {
           "horizontal": {
-            "description": "Use to set the horizontal space between groups of elements, like between multiple action groups or forms groups placed in a horizontal layout.",
-            "type": "number",
-            "value": "{global.spacer.2xl}"
+            "default": {
+              "description": "Use to set the horizontal space between groups of elements, like between multiple action groups or forms groups placed in a horizontal layout.",
+              "type": "number",
+              "value": "{global.spacer.2xl}"
+            },
+            "compact": {
+              "type": "number",
+              "value": "{global.spacer.sm}"
+            }
           },
           "vertical": {
-            "description": "Use to set the vertical space between groups of elements, like between stacked form groups.",
-            "type": "number",
-            "value": "{global.spacer.lg}"
+            "default": {
+              "description": "Use to set the vertical space between groups of elements, like between stacked form groups.",
+              "type": "number",
+              "value": "{global.spacer.lg}"
+            },
+            "compact": {
+              "type": "number",
+              "value": "{global.spacer.md}"
+            }
           }
         },
         "action-to-action": {
@@ -441,6 +458,18 @@
       }
     },
     "font": {
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
+        }
+      },
       "weight": {
         "body": {
           "default": {
@@ -465,18 +494,6 @@
             "type": "number",
             "value": "{global.font.weight.400}"
           }
-        }
-      },
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
         }
       },
       "family": {
@@ -640,12 +657,12 @@
           "left": {
             "description": "Use to define the X value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
             "type": "number",
-            "value": "{global.box-shadow.X.300}"
+            "value": "{global.box-shadow.X.200}"
           },
           "right": {
             "description": "Use to define the X value for a small box-shadow that appears on the right of a raised element, like in sticky columns.",
             "type": "number",
-            "value": "{global.box-shadow.X.500}"
+            "value": "{global.box-shadow.X.600}"
           }
         },
         "md": {
@@ -667,12 +684,12 @@
           "left": {
             "description": "Use to define the X value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
             "type": "number",
-            "value": "{global.box-shadow.X.200}"
+            "value": "{global.box-shadow.X.100}"
           },
           "right": {
             "description": "Use to define the X value for a medium box-shadow that appears on the right of a raised element, like in overlay drawers that show on the left of the screen.",
             "type": "number",
-            "value": "{global.box-shadow.X.600}"
+            "value": "{global.box-shadow.X.700}"
           }
         },
         "lg": {
@@ -694,12 +711,12 @@
           "left": {
             "description": "Use to define the X value for a large box-shadow that appears on the left of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.X.100}"
+            "value": "{global.box-shadow.X.50}"
           },
           "right": {
             "description": "Use to define the X value for a large box-shadow that appears on the right of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.X.700}"
+            "value": "{global.box-shadow.X.800}"
           }
         }
       },
@@ -713,12 +730,12 @@
           "top": {
             "description": "Use to define the Y value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
             "type": "number",
-            "value": "{global.box-shadow.Y.300}"
+            "value": "{global.box-shadow.Y.200}"
           },
           "bottom": {
             "description": "Use to define the Y value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
             "type": "number",
-            "value": "{global.box-shadow.Y.500}"
+            "value": "{global.box-shadow.Y.600}"
           },
           "left": {
             "description": "Use to define the Y value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
@@ -740,12 +757,12 @@
           "top": {
             "description": "Use to define the Y value for a medium box-shadow that appears on the top of a raised element, like in overlay bottom drawers",
             "type": "number",
-            "value": "{global.box-shadow.Y.200}"
+            "value": "{global.box-shadow.Y.100}"
           },
           "bottom": {
             "description": "Use to define the Y value for a medium box-shadow that appears on the bottom of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.600}"
+            "value": "{global.box-shadow.Y.700}"
           },
           "left": {
             "description": "Use to define the Y value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
@@ -767,12 +784,12 @@
           "top": {
             "description": "Use to define the Y value for a large box-shadow that appears on the top of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.100}"
+            "value": "{global.box-shadow.Y.50}"
           },
           "bottom": {
             "description": "Use to define the Y value for a large box-shadow that appears on the bottom of a raised element.",
             "type": "number",
-            "value": "{global.box-shadow.Y.700}"
+            "value": "{global.box-shadow.Y.800}"
           },
           "left": {
             "description": "Use to define the Y value for a large box-shadow that appears on the left of a raised element.",
@@ -805,19 +822,40 @@
       },
       "spread": {
         "sm": {
-          "description": "Use to define the spread for a small box-shadow",
-          "type": "number",
-          "value": "{global.box-shadow.spread.100}"
+          "default": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.100}"
+          },
+          "directional": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.200}"
+          }
         },
         "md": {
-          "description": "Use to define the spread of a medium box-shadow",
-          "type": "number",
-          "value": "{global.box-shadow.spread.100}"
+          "default": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.100}"
+          },
+          "directional": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.300}"
+          }
         },
         "lg": {
-          "description": "Use to define the spread of a large box-shadow",
-          "type": "number",
-          "value": "{global.box-shadow.spread.100}"
+          "default": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.100}"
+          },
+          "directional": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.400}"
+          }
         }
       }
     },

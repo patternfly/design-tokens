@@ -61,8 +61,9 @@ const getTokenChain = (themeTokenData) => {
   return tokenChain;
 };
 
-const showTokenChain = (themeTokenData) => {
-  const tokenChain = getTokenChain(themeTokenData);
+const showTokenChain = (themeTokenData, hasReferences) => {
+  // Show final value if isColorToken but no references - otherwise color value not displayed in table
+  const tokenChain = hasReferences ? getTokenChain(themeTokenData) : [themeTokenData.value];
   return (
     <div>
       {tokenChain.map((nextValue, index) => (

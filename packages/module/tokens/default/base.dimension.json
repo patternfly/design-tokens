@@ -51,7 +51,7 @@
         },
         "300": {
           "type": "number",
-          "value": 22
+          "value": 24
         },
         "400": {
           "type": "number",
@@ -106,6 +106,16 @@
       }
     },
     "font": {
+      "line-height": {
+        "100": {
+          "type": "number",
+          "value": 1.2999999523162842
+        },
+        "200": {
+          "type": "number",
+          "value": 1.5
+        }
+      },
       "weight": {
         "100": {
           "type": "number",
@@ -117,21 +127,11 @@
         },
         "300": {
           "type": "number",
-          "value": 700
+          "value": 500
         },
         "400": {
           "type": "number",
           "value": 700
-        }
-      },
-      "line-height": {
-        "100": {
-          "type": "number",
-          "value": 1.2999999523162842
-        },
-        "200": {
-          "type": "number",
-          "value": 1.5
         }
       },
       "size": {
@@ -157,7 +157,7 @@
         },
         "600": {
           "type": "number",
-          "value": 22
+          "value": 24
         },
         "700": {
           "type": "number",
@@ -211,9 +211,13 @@
     },
     "box-shadow": {
       "X": {
+        "50": {
+          "type": "number",
+          "value": -20
+        },
         "100": {
           "type": "number",
-          "value": -8
+          "value": -10
         },
         "200": {
           "type": "number",
@@ -237,13 +241,21 @@
         },
         "700": {
           "type": "number",
-          "value": 8
+          "value": 10
+        },
+        "800": {
+          "type": "number",
+          "value": 20
         }
       },
       "Y": {
+        "50": {
+          "type": "number",
+          "value": -20
+        },
         "100": {
           "type": "number",
-          "value": -8
+          "value": -10
         },
         "200": {
           "type": "number",
@@ -267,7 +279,11 @@
         },
         "700": {
           "type": "number",
-          "value": 8
+          "value": 10
+        },
+        "800": {
+          "type": "number",
+          "value": 20
         }
       },
       "blur": {
@@ -277,17 +293,29 @@
         },
         "200": {
           "type": "number",
-          "value": 8
+          "value": 9
         },
         "300": {
           "type": "number",
-          "value": 24
+          "value": 20
         }
       },
       "spread": {
         "100": {
           "type": "number",
           "value": 0
+        },
+        "200": {
+          "type": "number",
+          "value": -4
+        },
+        "300": {
+          "type": "number",
+          "value": -8
+        },
+        "400": {
+          "type": "number",
+          "value": -20
         }
       }
     },
