@@ -5,7 +5,7 @@ Information about exporting tokens from the Figma Design Tokens & Styles library
 
 ## Prerequisites
 
-Makes sure you have [Node.js](https://nodejs.org/en/download/package-manager) and [Yarn](https://yarnpkg.com/getting-started/install) installed.
+Make sure you have [Node.js](https://nodejs.org/en/download/package-manager) and [Yarn](https://yarnpkg.com/getting-started/install) installed.
 
 ## Usage
 Once the design token JSON files are exported from Figma to the [tokens directories](https://github.com/patternfly/design-tokens/tree/main/packages/module/tokens), use `yarn build:scss` to build the SCSS files to the /build directory
