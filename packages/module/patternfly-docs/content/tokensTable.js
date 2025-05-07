@@ -1,5 +1,17 @@
 import React from 'react';
-import { Flex, FlexItem, Grid, GridItem, Title, capitalize } from '@patternfly/react-core';
+import {
+  Button,
+  EmptyState,
+  EmptyStateBody,
+  EmptyStateFooter,
+  EmptyStateActions,
+  Flex,
+  FlexItem,
+  Grid,
+  GridItem,
+  Title,
+  capitalize
+} from '@patternfly/react-core';
 import {
   Table,
   Thead,
@@ -13,6 +25,7 @@ import {
 } from '@patternfly/react-table';
 import { TokensToolbar } from './tokensToolbar';
 import './tokensTable.css';
+import SearchIcon from '@patternfly/react-icons/dist/esm/icons/search-icon';
 
 // eslint-disable-next-line camelcase
 import c_expandable_section_m_display_lg_PaddingInlineStart from '@patternfly/react-tokens/dist/esm/c_expandable_section_m_display_lg_PaddingInlineStart';
@@ -234,35 +247,48 @@ export const TokensTable = ({ tokenJson }) => {
         setSearchValue={setSearchValue}
         selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}
-        resultsCount={searchResults.length}
+        resultsCount={searchResults.length.toString()}
         categories={allCategoriesArr}
       />
       <OuterScrollContainer className="tokens-table-outer-wrapper">
         <InnerScrollContainer>
           <Title headingLevel="h2">{capitalize(selectedCategory)} tokens</Title>
-          <Table variant="compact" style={{ marginBlockEnd: `var(--pf-t--global--spacer--xl)` }}>
-            <Thead>
-              <Tr>
-                {/* Only semantic tokens have description, adjust columns accordingly */}
-                <Th width={5} screenReaderText="Row expansion"></Th>
-                <Th width={isSemanticLayer ? 60 : 80}>Name</Th>
-                <Th width={isSemanticLayer ? 10 : 15}>Value</Th>
-                {isSemanticLayer && <Th width={25}>Description</Th>}
-              </Tr>
-            </Thead>
+          {searchResults.length > 0 ? (
+            <Table variant="compact" style={{ marginBlockEnd: `var(--pf-t--global--spacer--xl)` }}>
+              <Thead>
+                <Tr>
+                  {/* Only semantic tokens have description, adjust columns accordingly */}
+                  <Th width={5} screenReaderText="Row expansion"></Th>
+                  <Th width={isSemanticLayer ? 60 : 80}>Name</Th>
+                  <Th width={isSemanticLayer ? 10 : 15}>Value</Th>
+                  {isSemanticLayer && <Th width={25}>Description</Th>}
+                </Tr>
+              </Thead>
 
-            {/* Loop through row for each token in current layer */}
-            {searchResults.map((token, rowIndex) => (
-              <TokensTableBody
-                key={rowIndex}
-                token={token}
-                expandedTokens={expandedTokens}
-                setExpanded={setExpanded}
-                isSemanticLayer={isSemanticLayer}
-                rowIndex={rowIndex}
-              />
-            ))}
-          </Table>
+              {/* Loop through row for each token in current layer */}
+              {searchResults.map((token, rowIndex) => (
+                <TokensTableBody
+                  key={rowIndex}
+                  token={token}
+                  expandedTokens={expandedTokens}
+                  setExpanded={setExpanded}
+                  isSemanticLayer={isSemanticLayer}
+                  rowIndex={rowIndex}
+                />
+              ))}
+            </Table>
+          ) : (
+            <EmptyState titleText="No results found" headingLevel="h4" icon={SearchIcon}>
+              <EmptyStateBody>No results match the filter criteria. Clear all filters and try again.</EmptyStateBody>
+              <EmptyStateFooter>
+                <EmptyStateActions>
+                  <Button onClick={() => setSearchValue('')} variant="link">
+                    Clear search
+                  </Button>
+                </EmptyStateActions>
+              </EmptyStateFooter>
+            </EmptyState>
+          )}
         </InnerScrollContainer>
       </OuterScrollContainer>
     </React.Fragment>
