@@ -76,6 +76,10 @@
         "300": {
           "type": "number",
           "value": 3
+        },
+        "400": {
+          "type": "number",
+          "value": 4
         }
       },
       "radius": {

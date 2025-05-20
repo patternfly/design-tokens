@@ -7,58 +7,58 @@
           "default": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "{global.background.color.100}"
+            "value": "{color.black}"
           },
           "hover": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "{global.dark.background.color.100}"
           },
           "clicked": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "{global.dark.background.color.100}"
           }
         },
         "secondary": {
           "default": {
             "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "{global.dark.background.color.100}"
           },
           "hover": {
             "description": "Use as the hover state for secondary backgrounds",
             "type": "color",
-            "value": "{global.background.color.300}"
+            "value": "{global.dark.background.color.200}"
           },
           "clicked": {
             "description": "Use as the clicked state for secondary backgrounds",
             "type": "color",
-            "value": "{global.background.color.300}"
+            "value": "{global.dark.background.color.200}"
           }
         },
         "tertiary": {
           "default": {
             "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
             "type": "color",
-            "value": "{global.background.color.600}"
+            "value": "{global.dark.background.color.600}"
           }
         },
         "floating": {
           "default": {
             "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
             "type": "color",
-            "value": "{global.background.color.100}"
+            "value": "{global.dark.background.color.200}"
           },
           "hover": {
             "description": "Use as the hover state for floating backgrounds",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           },
           "clicked": {
             "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           }
         },
         "action": {
@@ -66,28 +66,28 @@
             "default": {
               "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.0000)"
+              "value": "rgba(0, 0, 0, 0.0000)"
             },
             "hover": {
               "description": "Use as the hover state for components that use the plain action default background.",
               "type": "color",
-              "value": "{global.background.color.600}"
+              "value": "{global.dark.background.color.600}"
             },
             "clicked": {
               "description": "Use as the active/pressed state for components that use the plain action default background.",
               "type": "color",
-              "value": "{global.background.color.600}"
+              "value": "{global.dark.background.color.600}"
             },
             "alt": {
               "hover": {
                 "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "{global.background.color.primary.default}"
               },
               "clicked": {
                 "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "{global.background.color.primary.default}"
               }
             }
           }
@@ -96,54 +96,54 @@
           "default": {
             "description": "Use as the default background for control elements like form inputs and menu toggles.",
             "type": "color",
-            "value": "{global.background.color.primary.default}"
+            "value": "{global.dark.background.color.100}"
           },
           "read-only": {
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           }
         },
         "highlight": {
           "default": {
             "description": "Use as the background color for highlighted elements",
             "type": "color",
-            "value": "{global.background.color.highlight.100}"
+            "value": "{global.dark.background.color.highlight.100}"
           },
           "clicked": {
             "description": "Use as the active state for for highlighted elements",
             "type": "color",
-            "value": "{global.background.color.highlight.200}"
+            "value": "{global.dark.background.color.highlight.200}"
           }
         },
         "inverse": {
           "default": {
             "description": "Use as the background color components with inversed backgrounds like tooltips.",
             "type": "color",
-            "value": "{global.background.color.400}"
+            "value": "{global.dark.background.color.400}"
           },
           "hover": {
             "description": "Use as the hover color for interactive components with inversed backgrounds.",
             "type": "color",
-            "value": "{global.background.color.450}"
+            "value": "{global.dark.background.color.450}"
           },
           "clicked": {
             "description": "Use as the clicked color for interactive components with inversed backgrounds.",
             "type": "color",
-            "value": "{global.background.color.450}"
+            "value": "{global.dark.background.color.450}"
           }
         },
         "disabled": {
           "default": {
             "description": "Use as the background color for disabled components.",
             "type": "color",
-            "value": "{global.color.disabled.100}"
+            "value": "{global.dark.color.disabled.200}"
           }
         },
         "backdrop": {
           "default": {
             "description": "Use as the background color for the backdrop component that shows beneath a modal/about modal/floating wizard etc.",
             "type": "color",
-            "value": "{global.background.color.500}"
+            "value": "{global.dark.background.color.500}"
           }
         }
       }
@@ -153,34 +153,34 @@
         "default": {
           "description": "Use this color for elements that you want to reinforce your brand",
           "type": "color",
-          "value": "{global.color.brand.200}"
+          "value": "{global.dark.color.brand.100}"
         },
         "hover": {
           "description": "Use as the hover state for elements that have a branded background color",
           "type": "color",
-          "value": "{global.color.brand.300}"
+          "value": "{global.dark.color.brand.200}"
         },
         "clicked": {
           "description": "Use as the clicked state for elements that have a brand background color",
           "type": "color",
-          "value": "{global.color.brand.300}"
+          "value": "{global.dark.color.brand.200}"
         }
       },
       "favorite": {
         "default": {
           "description": "Use as the default color for elements that have been favorited",
           "type": "color",
-          "value": "{global.color.favorite.100}"
+          "value": "{global.dark.color.favorite.100}"
         },
         "hover": {
           "description": "Use as the hover state for elements that have been favorited",
           "type": "color",
-          "value": "{global.color.favorite.200}"
+          "value": "{global.dark.color.favorite.200}"
         },
         "clicked": {
           "description": "Use as the clicked state for elements that have been favorited",
           "type": "color",
-          "value": "{global.color.favorite.200}"
+          "value": "{global.dark.color.favorite.200}"
         }
       },
       "status": {
@@ -188,85 +188,85 @@
           "default": {
             "description": "Use as the default color for any element communicating a favorable outcome, like a success status for alert, progress, select.",
             "type": "color",
-            "value": "{global.color.status.success.100}"
+            "value": "{global.dark.color.status.success.200}"
           },
           "hover": {
             "description": "Use as the hover state for any element that conveys a success status.",
             "type": "color",
-            "value": "{global.color.status.success.200}"
+            "value": "{global.dark.color.status.success.300}"
           },
           "clicked": {
             "description": "Use as the clicked state for any element that conveys a success status.",
             "type": "color",
-            "value": "{global.color.status.success.200}"
+            "value": "{global.dark.color.status.success.300}"
           }
         },
         "warning": {
           "default": {
             "description": "Use as the default color for any element communicating caution, like a warning status for alert, progress, select.",
             "type": "color",
-            "value": "{global.color.status.warning.100}"
+            "value": "{global.dark.color.status.warning.100}"
           },
           "hover": {
             "description": "Use as the hover state for any element that conveys a warning status.",
             "type": "color",
-            "value": "{global.color.status.warning.200}"
+            "value": "{global.dark.color.status.warning.200}"
           },
           "clicked": {
             "description": "Use as the clicked state for any element that conveys a warning status.",
             "type": "color",
-            "value": "{global.color.status.warning.200}"
+            "value": "{global.dark.color.status.warning.200}"
           }
         },
         "danger": {
           "default": {
             "description": "Use as the default color for any element communicating a critical warning or error, like a danger status for alert, progress, select.",
             "type": "color",
-            "value": "{global.color.status.danger.100}"
+            "value": "{global.dark.color.status.danger.200}"
           },
           "hover": {
             "description": "Use as the hover state for any element that conveys a danger status.",
             "type": "color",
-            "value": "{global.color.status.danger.200}"
+            "value": "{global.dark.color.status.danger.250}"
           },
           "clicked": {
             "description": "Use as the clicked state for any element that conveys a danger status.",
             "type": "color",
-            "value": "{global.color.status.danger.200}"
+            "value": "{global.dark.color.status.danger.250}"
           }
         },
         "info": {
           "default": {
             "description": "Use as the default color for any element communicating information, like an info status for alert, progress, select.",
             "type": "color",
-            "value": "{global.color.status.info.100}"
+            "value": "{global.dark.color.status.info.100}"
           },
           "hover": {
             "description": "Use as the hover state for any element that conveys an info status.",
             "type": "color",
-            "value": "{global.color.status.info.200}"
+            "value": "{global.dark.color.status.info.200}"
           },
           "clicked": {
             "description": "Use as the clicked state for any element that conveys an info status.",
             "type": "color",
-            "value": "{global.color.status.info.200}"
+            "value": "{global.dark.color.status.info.200}"
           }
         },
         "custom": {
           "default": {
             "description": "Use as the default color for any element that conveys a generic status with no associated severity. This color can be customized.",
             "type": "color",
-            "value": "{global.color.status.custom.100}"
+            "value": "{global.dark.color.status.custom.200}"
           },
           "hover": {
             "description": "Use this color as the hover state color for any element that conveys a generic status with no associated severity. This color can be customized.",
             "type": "color",
-            "value": "{global.color.status.custom.200}"
+            "value": "{global.dark.color.status.custom.300}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that conveys a generic status with no associated severity. This color can be customized.",
             "type": "color",
-            "value": "{global.color.status.custom.200}"
+            "value": "{global.dark.color.status.custom.300}"
           }
         },
         "unread": {
@@ -321,153 +321,153 @@
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be red (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.red.100}"
+            "value": "{global.dark.color.nonstatus.red.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status red background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.red.200}"
+            "value": "{global.dark.color.nonstatus.red.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status red background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.red.200}"
+            "value": "{global.dark.color.nonstatus.red.200}"
           }
         },
         "orange": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be orange (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.orange.100}"
+            "value": "{global.dark.color.nonstatus.orange.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status orange background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.orange.200}"
+            "value": "{global.dark.color.nonstatus.orange.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status orange background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.orange.200}"
+            "value": "{global.dark.color.nonstatus.orange.200}"
           }
         },
         "orangered": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be orange-red (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.orangered.100}"
+            "value": "{global.dark.color.nonstatus.orangered.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status orange-red background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.orangered.200}"
+            "value": "{global.dark.color.nonstatus.orangered.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status orange-red background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.orangered.200}"
+            "value": "{global.dark.color.nonstatus.orangered.200}"
           }
         },
         "yellow": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be yellow (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.yellow.100}"
+            "value": "{global.dark.color.nonstatus.yellow.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status yellow background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.yellow.200}"
+            "value": "{global.dark.color.nonstatus.yellow.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status yellow background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.yellow.200}"
+            "value": "{global.dark.color.nonstatus.yellow.200}"
           }
         },
         "green": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be green (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.green.100}"
+            "value": "{global.dark.color.nonstatus.green.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status green background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.green.200}"
+            "value": "{global.dark.color.nonstatus.green.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status green background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.green.200}"
+            "value": "{global.dark.color.nonstatus.green.200}"
           }
         },
         "teal": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be teal (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.teal.100}"
+            "value": "{global.dark.color.nonstatus.teal.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status teal background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.teal.200}"
+            "value": "{global.dark.color.nonstatus.teal.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status teal background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.teal.200}"
+            "value": "{global.dark.color.nonstatus.teal.200}"
           }
         },
         "blue": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be blue (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.blue.100}"
+            "value": "{global.dark.color.nonstatus.blue.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status blue background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.blue.200}"
+            "value": "{global.dark.color.nonstatus.blue.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status blue background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.blue.200}"
+            "value": "{global.dark.color.nonstatus.blue.200}"
           }
         },
         "purple": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be purple (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.purple.100}"
+            "value": "{global.dark.color.nonstatus.purple.100}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status purple background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.purple.200}"
+            "value": "{global.dark.color.nonstatus.purple.200}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status purple background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.purple.200}"
+            "value": "{global.dark.color.nonstatus.purple.200}"
           }
         },
         "gray": {
           "default": {
             "description": "Use as the default background color for any element that does not convey status and that you always will want to be gray (i.e. color-coded labels, banners, etc.)",
             "type": "color",
-            "value": "{global.color.nonstatus.gray.100}"
+            "value": "{global.dark.color.nonstatus.gray.50}"
           },
           "hover": {
             "description": "Use as the hover state color for any element that uses the non status gray background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.gray.200}"
+            "value": "{global.dark.color.nonstatus.gray.100}"
           },
           "clicked": {
             "description": "Use as the clicked state color for any element that uses the non status gray background color.",
             "type": "color",
-            "value": "{global.color.nonstatus.gray.200}"
+            "value": "{global.dark.color.nonstatus.gray.100}"
           }
         }
       }
@@ -478,17 +478,17 @@
           "default": {
             "description": "Use as the color for icons that convey your brand and/or are paired with branded text color.",
             "type": "color",
-            "value": "{global.color.brand.default}"
+            "value": "{global.dark.color.brand.200}"
           },
           "hover": {
             "description": "Use as the hover state color for icons that convey your brand and/or are paired with branded text color.",
             "type": "color",
-            "value": "{global.color.brand.hover}"
+            "value": "{global.dark.color.brand.300}"
           },
           "clicked": {
             "description": "Use as the clicked state for icons that convey your brand and/or are paired with branded text color.",
             "type": "color",
-            "value": "{global.color.brand.clicked}"
+            "value": "{global.dark.color.brand.300}"
           }
         },
         "on-brand": {
@@ -564,34 +564,34 @@
             "default": {
               "description": "Use as the default color for text that communicates a warning status.",
               "type": "color",
-              "value": "{global.color.status.warning.200}"
+              "value": "{global.color.status.warning.default}"
             },
             "hover": {
               "description": "Use as the hover state color for text that communicates a warning status.",
               "type": "color",
-              "value": "{global.color.status.warning.300}"
+              "value": "{global.color.status.warning.hover}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that communicates a warning status.",
               "type": "color",
-              "value": "{global.color.status.warning.300}"
+              "value": "{global.color.status.warning.clicked}"
             }
           },
           "on-warning": {
             "default": {
               "description": "Use as the default color for icons that are placed on a warning background color and/or are paired with on-warning colored text",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a warning background color and/or are paired with on-warning colored text",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the hover state color for icons that are placed on a warning background color and/or are paired with on-warning colored text",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "danger": {
@@ -736,69 +736,69 @@
         "regular": {
           "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
           "type": "color",
-          "value": "{global.icon.color.100}"
+          "value": "{global.dark.icon.color.100}"
         },
         "subtle": {
           "description": "Use as the color for icons when you want the icon to have less emphasis and/or when paired with subtle-colored text",
           "type": "color",
-          "value": "{global.icon.color.200}"
+          "value": "{global.dark.icon.color.200}"
         },
         "inverse": {
           "description": "Use as the color for icons that are placed on an inverse background color",
           "type": "color",
-          "value": "{global.icon.color.300}"
+          "value": "{global.dark.icon.color.300}"
         },
         "disabled": {
           "description": "Use as the color for icons that show in disabled icon buttons and/or when paired with disabled-color text",
           "type": "color",
-          "value": "{global.color.disabled.200}"
+          "value": "{global.dark.color.disabled.200}"
         },
         "on-disabled": {
           "description": "Use as the color for icons that are placed on a disabled background color and/or are paired with on-disabled colored text.",
           "type": "color",
-          "value": "{global.color.disabled.300}"
+          "value": "{global.dark.color.disabled.300}"
         },
         "severity": {
           "undefined": {
             "default": {
               "description": "Use as the default color for severity icons that don’t communicate a specific severity level for issues.",
               "type": "color",
-              "value": "{global.color.severity.undefined.100}"
+              "value": "{global.dark.color.severity.undefined.100}"
             }
           },
           "none": {
             "default": {
               "description": "Use as the default color for severity icons that identify no issues.",
               "type": "color",
-              "value": "{global.color.severity.none.100}"
+              "value": "{global.dark.color.severity.none.100}"
             }
           },
           "minor": {
             "default": {
               "description": "Use as the default color for severity icons that identify issues of minor severity.",
               "type": "color",
-              "value": "{global.color.severity.minor.100}"
+              "value": "{global.dark.color.severity.minor.100}"
             }
           },
           "moderate": {
             "default": {
               "description": "Use as the default color for severity icons that identify issues of moderate severity.",
               "type": "color",
-              "value": "{global.color.severity.moderate.100}"
+              "value": "{global.dark.color.severity.moderate.100}"
             }
           },
           "important": {
             "default": {
               "description": "Use as the default color for severity icons that identify issues of important severity.",
               "type": "color",
-              "value": "{global.color.severity.important.100}"
+              "value": "{global.dark.color.severity.important.100}"
             }
           },
           "critical": {
             "default": {
               "description": "Use as the default color for severity icons that identify issues of critical severity.",
               "type": "color",
-              "value": "{global.color.severity.critical.100}"
+              "value": "{global.dark.color.severity.critical.200}"
             }
           }
         },
@@ -807,136 +807,136 @@
             "default": {
               "description": "Use as the default color for icons that are placed on a non status red background color and/or are paired with on-red colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a non status red background color and/or are paired with on-red colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus red background color and/or are paired with on-red colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-orangered": {
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus orangered background color and/or are paired with on-orangered colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus orangered background color and/or are paired with on-orangered colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus orangered background color and/or are paired with on-orangered colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-orange": {
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus orange background color and/or are paired with on-orange colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus orange background color and/or are paired with on-orange colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus orange background color and/or are paired with on-orange colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-yellow": {
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus yellow background color and/or are paired with on-yellow colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus yellow background color and/or are paired with on-yellow colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus yellow background color and/or are paired with on-yellow colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-green": {
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus green background color and/or are paired with on-green colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus green background color and/or are paired with on-green colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus green background color and/or are paired with on-green colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-teal": {
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus teal background color and/or are paired with on-teal colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus teal background color and/or are paired with on-teal colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus teal background color and/or are paired with on-teal colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-blue": {
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus blue background color and/or are paired with on-blue colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus blue background color and/or are paired with on-blue colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus blue background color and/or are paired with on-blue colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-purple": {
             "default": {
               "description": "Use as the default color for icons that are placed on a nonstatus purple background color and/or are paired with on-purple colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a nonstatus purple background color and/or are paired with on-purple colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a nonstatus purple background color and/or are paired with on-purple colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "on-gray": {
@@ -964,12 +964,12 @@
         "control": {
           "read-only": {
             "type": "color",
-            "value": "{global.border.color.50}"
+            "value": "{global.dark.border.color.50}"
           }
         },
         "high-contrast": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)"
+          "value": "{global.border.color.default}"
         },
         "brand": {
           "default": {
@@ -1010,17 +1010,17 @@
             "default": {
               "description": "Use as the default color for borders that convey a warning status, like in alerts, notifications or status labels.",
               "type": "color",
-              "value": "{global.color.status.warning.200}"
+              "value": "{global.color.status.warning.default}"
             },
             "hover": {
               "description": "Use as the hover state color for borders that convey a warning status, like in alerts, notifications or status labels.",
               "type": "color",
-              "value": "{global.color.status.warning.300}"
+              "value": "{global.color.status.warning.hover}"
             },
             "clicked": {
               "description": "Use as the clicked state color for borders that convey a warning status, like in alerts, notifications or status labels.",
               "type": "color",
-              "value": "{global.color.status.warning.300}"
+              "value": "{global.color.status.warning.clicked}"
             }
           },
           "danger": {
@@ -1078,22 +1078,22 @@
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.border.color.100}"
+          "value": "{color.gray.30}"
         },
         "hover": {
           "description": "Use as the hover state border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.color.brand.100}"
+          "value": "{global.dark.color.brand.100}"
         },
         "clicked": {
           "description": "Use as the clicked state border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.color.brand.200}"
+          "value": "{global.dark.color.brand.200}"
         },
         "disabled": {
           "description": "Use as the disabled border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.color.disabled.200}"
+          "value": "{global.dark.color.disabled.200}"
         },
         "alt": {
           "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
@@ -1103,160 +1103,160 @@
         "on-secondary": {
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
-          "value": "{global.border.color.300}"
+          "value": "{color.gray.60}"
         },
         "nonstatus": {
           "red": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be red (i.e. color-coded labels, banners, etc.)",
               "type": "color",
-              "value": "{global.color.nonstatus.red.200}"
+              "value": "{global.dark.color.nonstatus.red.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be red (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.red.300}"
+              "value": "{global.dark.color.nonstatus.red.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be red (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.red.300}"
+              "value": "{global.dark.color.nonstatus.red.200}"
             }
           },
           "orangered": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be orangered (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.orangered.200}"
+              "value": "{global.dark.color.nonstatus.orangered.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be orangered (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.orangered.300}"
+              "value": "{global.dark.color.nonstatus.orangered.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be orangered (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.orangered.300}"
+              "value": "{global.dark.color.nonstatus.orangered.200}"
             }
           },
           "orange": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be orange (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.orange.200}"
+              "value": "{global.dark.color.nonstatus.orange.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be orange (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.orange.300}"
+              "value": "{global.dark.color.nonstatus.orange.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be orange (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.orange.300}"
+              "value": "{global.dark.color.nonstatus.orange.200}"
             }
           },
           "yellow": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be yellow (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.yellow.200}"
+              "value": "{global.dark.color.nonstatus.yellow.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be yellow (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.yellow.300}"
+              "value": "{global.dark.color.nonstatus.yellow.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be yellow (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.yellow.300}"
+              "value": "{global.dark.color.nonstatus.yellow.200}"
             }
           },
           "green": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be green (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.green.200}"
+              "value": "{global.dark.color.nonstatus.green.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be green (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.green.300}"
+              "value": "{global.dark.color.nonstatus.green.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be green (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.green.300}"
+              "value": "{global.dark.color.nonstatus.green.200}"
             }
           },
           "teal": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be teal (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.teal.200}"
+              "value": "{global.dark.color.nonstatus.teal.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be teal (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.teal.300}"
+              "value": "{global.dark.color.nonstatus.teal.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be teal (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.teal.300}"
+              "value": "{global.dark.color.nonstatus.teal.200}"
             }
           },
           "blue": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be blue (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.blue.200}"
+              "value": "{global.dark.color.nonstatus.blue.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be blue (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.blue.300}"
+              "value": "{global.dark.color.nonstatus.blue.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be blue (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.blue.300}"
+              "value": "{global.dark.color.nonstatus.blue.200}"
             }
           },
           "purple": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be purple (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.purple.200}"
+              "value": "{global.dark.color.nonstatus.purple.100}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be purple (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.purple.300}"
+              "value": "{global.dark.color.nonstatus.purple.200}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be purple (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.purple.300}"
+              "value": "{global.dark.color.nonstatus.purple.200}"
             }
           },
           "gray": {
             "default": {
               "description": "Use as the default border color for any element that does not convey status and that you always will want to be gray (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.gray.200}"
+              "value": "{global.dark.color.nonstatus.gray.200}"
             },
             "hover": {
               "description": "Use as the hover state border color for any element that does not convey status and that you always will want to be gray (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.gray.300}"
+              "value": "{global.dark.color.nonstatus.gray.300}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any element that does not convey status and that you always will want to be gray (i.e. color-coded labels)",
               "type": "color",
-              "value": "{global.color.nonstatus.gray.300}"
+              "value": "{global.dark.color.nonstatus.gray.300}"
             }
           }
         }
@@ -1268,50 +1268,50 @@
           "default": {
             "description": "Use as the default text color for links.",
             "type": "color",
-            "value": "{global.text.color.link.100}"
+            "value": "{global.dark.text.color.link.100}"
           },
           "hover": {
             "description": "Use as the hover state text color for links.",
             "type": "color",
-            "value": "{global.text.color.link.200}"
+            "value": "{global.dark.text.color.link.200}"
           },
           "visited": {
             "description": "Use as the color to indicate that a link has been visited.",
             "type": "color",
-            "value": "{global.text.color.link.300}"
+            "value": "{global.dark.text.color.link.400}"
           }
         },
         "brand": {
           "default": {
             "description": "Use as the default color for branded text.",
             "type": "color",
-            "value": "{global.color.brand.default}"
+            "value": "{global.dark.color.brand.200}"
           },
           "hover": {
             "description": "Use as the hover state color for branded text.",
             "type": "color",
-            "value": "{global.color.brand.hover}"
+            "value": "{global.dark.color.brand.300}"
           },
           "clicked": {
             "description": "Use as the clicked state color for branded text.",
             "type": "color",
-            "value": "{global.color.brand.clicked}"
+            "value": "{global.dark.color.brand.300}"
           }
         },
         "regular": {
           "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
           "type": "color",
-          "value": "{global.text.color.100}"
+          "value": "{global.dark.text.color.100}"
         },
         "subtle": {
           "description": "Use as a subtle text color for text in an element that is secondary or less important, like descriptions or inactive tab labels.",
           "type": "color",
-          "value": "{global.text.color.200}"
+          "value": "{global.dark.text.color.200}"
         },
         "inverse": {
           "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
           "type": "color",
-          "value": "{global.text.color.300}"
+          "value": "{global.dark.text.color.300}"
         },
         "on-brand": {
           "default": {
@@ -1338,22 +1338,22 @@
         "disabled": {
           "description": "Use as the color of text on disabled elements, like disabled menu items.",
           "type": "color",
-          "value": "{global.color.disabled.200}"
+          "value": "{global.dark.color.disabled.200}"
         },
         "on-disabled": {
           "description": "Use as the color of text that is placed on a disabled background, like disabled menu toggles or tabs.",
           "type": "color",
-          "value": "{global.color.disabled.300}"
+          "value": "{global.dark.color.disabled.400}"
         },
         "required": {
           "description": "Use as the color of text that signals that action/information is required from users, like asterisks placed beside form fields or checkboxes.",
           "type": "color",
-          "value": "{global.text.color.400}"
+          "value": "{global.dark.text.color.400}"
         },
         "on-highlight": {
           "description": "Use as the color of text that is highlighted.",
           "type": "color",
-          "value": "{global.text.color.100}"
+          "value": "{global.dark.text.color.300}"
         },
         "status": {
           "success": {
@@ -1390,49 +1390,49 @@
           "warning": {
             "default": {
               "type": "color",
-              "value": "{global.color.status.warning.200}"
+              "value": "{global.color.status.warning.default}"
             },
             "hover": {
               "type": "color",
-              "value": "{global.color.status.warning.300}"
+              "value": "{global.color.status.warning.hover}"
             },
             "clicked": {
               "type": "color",
-              "value": "{global.color.status.warning.300}"
+              "value": "{global.color.status.warning.clicked}"
             }
           },
           "on-warning": {
             "default": {
               "description": "Use as the default color for text that is placed on a warning background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a warning background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a warning background color, like in banners.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "danger": {
             "default": {
               "description": "Use as the default color for text that communicates a danger status.",
               "type": "color",
-              "value": "{global.color.status.danger.default}"
+              "value": "{global.dark.color.status.danger.300}"
             },
             "hover": {
               "description": "Use as the hover state color for text that communicates a danger status.",
               "type": "color",
-              "value": "{global.color.status.danger.hover}"
+              "value": "{global.dark.color.status.danger.300}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that communicates a danger status.",
               "type": "color",
-              "value": "{global.color.status.danger.clicked}"
+              "value": "{global.dark.color.status.danger.300}"
             }
           },
           "on-danger": {
@@ -1449,7 +1449,7 @@
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a danger background color, like in banners.",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "info": {
@@ -1562,136 +1562,136 @@
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus red background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus red background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus red background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-orangered": {
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus orangered background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus orangered background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus orangered background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-orange": {
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus orange background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus orange background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus orange background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-yellow": {
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus yellow background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus yellow background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus yellow background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-green": {
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus green background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus green background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus green background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-teal": {
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus teal background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus teal background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus teal background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-blue": {
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus blue background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus blue background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus blue background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-purple": {
             "default": {
               "description": "Use as the default color for text that is placed on a nonstatus purple background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text that is placed on a nonstatus purple background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text that is placed on a nonstatus purple background color.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "on-gray": {
@@ -1720,36 +1720,36 @@
           "default": {
             "description": "Use as the color of small box-shadows.",
             "type": "color",
-            "value": "{global.box-shadow.color.100}"
+            "value": "{global.dark.box-shadow.color.100}"
           },
           "directional": {
             "description": "Use as the color of small box-shadows.",
             "type": "color",
-            "value": "{global.box-shadow.color.200}"
+            "value": "{global.dark.box-shadow.color.200}"
           }
         },
         "md": {
           "default": {
             "description": "Use as the color of medium box-shadows.",
             "type": "color",
-            "value": "{global.box-shadow.color.100}"
+            "value": "{global.dark.box-shadow.color.100}"
           },
           "directional": {
             "description": "Use as the color of medium box-shadows.",
             "type": "color",
-            "value": "{global.box-shadow.color.100}"
+            "value": "{global.dark.box-shadow.color.200}"
           }
         },
         "lg": {
           "default": {
             "description": "Use as the color of large box-shadows.",
             "type": "color",
-            "value": "{global.box-shadow.color.100}"
+            "value": "{global.dark.box-shadow.color.100}"
           },
           "directional": {
             "description": "Use as the color of large box-shadows.",
             "type": "color",
-            "value": "{global.box-shadow.color.200}"
+            "value": "{global.dark.box-shadow.color.200}"
           }
         }
       }

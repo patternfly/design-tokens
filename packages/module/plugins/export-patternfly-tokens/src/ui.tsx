@@ -34,7 +34,7 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFileName = 'palette.color.json';
         saveFolderNames = ['default', 'dark'];
         break;
-      case '/* Semantic Dimension Tokens.Mode 1.tokens.json */':
+      case ('/* Semantic Dimension Tokens.Value.tokens.json */' || '/* Semantic Dimension Tokens.Mode 1.tokens.json */'):
         saveFileName = 'semantic.dimension.json';
         saveFolderNames = ['default'];
         break;
@@ -64,6 +64,14 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         break;
       case '/* Semantic Motion Tokens.Mode 1.tokens.json */':
         saveFileName = 'semantic.motion.json';
+        saveFolderNames = ['default'];
+        break;
+      case '/* Semantic Color Tokens.Light - High Contrast.tokens.json */':
+        saveFileName = 'semantic.highcontrast.json';
+        saveFolderNames = ['default'];
+        break;
+      case '/* Semantic Color Tokens.Dark - High Contrast.tokens.json */':
+        saveFileName = 'semantic.highcontrast.dark.json';
         saveFolderNames = ['default'];
         break;
       default:
