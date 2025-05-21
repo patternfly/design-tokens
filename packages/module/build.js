@@ -13,6 +13,8 @@ const getTokenLayer = ({ filePath }) => {
   if (filePath.includes('base.motion.json')) return ['base', 'motion'];
   if (filePath.includes('chart')) return ['chart'];
   if (filePath.includes('palette.color.json')) return ['palette'];
+  if (filePath.includes('semantic.highcontrast.json')) return ['semantic', 'colors'];
+  if (filePath.includes('semantic.highcontrast.dark.json')) return ['semantic', 'colors'];
   return ['palette'];
 };
 // returns subdirectory within 'tokens' directory (ex: default, dark, etc)

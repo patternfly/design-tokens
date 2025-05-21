@@ -1,9 +1,10 @@
 
 // Do not edit directly
-// Generated on Mon, 23 Sep 2024 22:48:17 GMT
+// Generated on Tue, 20 May 2025 18:40:13 GMT
 
 @mixin pf-v6-tokens {
   --pf-t--global--background--color--action--plain--default: rgba(0, 0, 0, 0.0000);
+  --pf-t--global--border--color--high-contrast: rgba(255, 255, 255, 0.0000)px;
   --pf-t--global--dark--background--color--500: rgba(21, 21, 21, 0.8000);
   --pf-t--global--dark--background--color--600: rgba(199, 199, 199, 0.1500);
   --pf-t--global--dark--box-shadow--color--100: rgba(0, 0, 0, 0.5000);
@@ -34,6 +35,7 @@
   --pf-t--global--dark--color--disabled--100: var(--pf-t--color--gray--40);
   --pf-t--global--dark--color--disabled--200: var(--pf-t--color--gray--50);
   --pf-t--global--dark--color--disabled--300: var(--pf-t--color--gray--70);
+  --pf-t--global--dark--color--disabled--400: var(--pf-t--color--gray--90);
   --pf-t--global--dark--color--favorite--100: var(--pf-t--color--yellow--30);
   --pf-t--global--dark--color--favorite--200: var(--pf-t--color--yellow--20);
   --pf-t--global--dark--color--nonstatus--blue--100: var(--pf-t--color--blue--30);
@@ -42,6 +44,7 @@
   --pf-t--global--dark--color--nonstatus--gray--100: var(--pf-t--color--gray--60);
   --pf-t--global--dark--color--nonstatus--gray--200: var(--pf-t--color--gray--50);
   --pf-t--global--dark--color--nonstatus--gray--300: var(--pf-t--color--gray--40);
+  --pf-t--global--dark--color--nonstatus--gray--50: var(--pf-t--color--gray--70);
   --pf-t--global--dark--color--nonstatus--green--100: var(--pf-t--color--green--30);
   --pf-t--global--dark--color--nonstatus--green--200: var(--pf-t--color--green--20);
   --pf-t--global--dark--color--nonstatus--green--300: var(--pf-t--color--green--10);
@@ -64,6 +67,7 @@
   --pf-t--global--dark--color--nonstatus--yellow--200: var(--pf-t--color--yellow--20);
   --pf-t--global--dark--color--nonstatus--yellow--300: var(--pf-t--color--yellow--10);
   --pf-t--global--dark--color--severity--critical--100: var(--pf-t--color--red-orange--50);
+  --pf-t--global--dark--color--severity--critical--200: var(--pf-t--color--red-orange--40);
   --pf-t--global--dark--color--severity--important--100: var(--pf-t--color--orange--40);
   --pf-t--global--dark--color--severity--minor--100: var(--pf-t--color--gray--30);
   --pf-t--global--dark--color--severity--moderate--100: var(--pf-t--color--yellow--30);
@@ -71,14 +75,17 @@
   --pf-t--global--dark--color--severity--undefined--100: var(--pf-t--color--gray--40);
   --pf-t--global--dark--color--status--custom--100: var(--pf-t--color--teal--40);
   --pf-t--global--dark--color--status--custom--200: var(--pf-t--color--teal--30);
+  --pf-t--global--dark--color--status--custom--300: var(--pf-t--color--teal--20);
   --pf-t--global--dark--color--status--danger--100: var(--pf-t--color--red-orange--50);
   --pf-t--global--dark--color--status--danger--200: var(--pf-t--color--red-orange--40);
   --pf-t--global--dark--color--status--danger--250: var(--pf-t--color--red-orange--30);
   --pf-t--global--dark--color--status--danger--300: var(--pf-t--color--red-orange--20);
   --pf-t--global--dark--color--status--info--100: var(--pf-t--color--purple--30);
   --pf-t--global--dark--color--status--info--200: var(--pf-t--color--purple--20);
+  --pf-t--global--dark--color--status--info--300: var(--pf-t--color--purple--10);
   --pf-t--global--dark--color--status--success--100: var(--pf-t--color--green--40);
   --pf-t--global--dark--color--status--success--200: var(--pf-t--color--green--30);
+  --pf-t--global--dark--color--status--success--300: var(--pf-t--color--green--20);
   --pf-t--global--dark--color--status--warning--100: var(--pf-t--color--yellow--30);
   --pf-t--global--dark--color--status--warning--200: var(--pf-t--color--yellow--20);
   --pf-t--global--dark--icon--color--100: var(--pf-t--color--gray--10);
@@ -91,6 +98,7 @@
   --pf-t--global--dark--text--color--link--100: var(--pf-t--color--blue--20);
   --pf-t--global--dark--text--color--link--200: var(--pf-t--color--blue--10);
   --pf-t--global--dark--text--color--link--300: var(--pf-t--color--purple--30);
+  --pf-t--global--dark--text--color--link--400: var(--pf-t--color--purple--20);
   --pf-t--global--background--color--action--plain--alt--clicked: var(--pf-t--global--dark--background--color--200);
   --pf-t--global--background--color--action--plain--alt--hover: var(--pf-t--global--dark--background--color--200);
   --pf-t--global--background--color--control--default: var(--pf-t--global--dark--background--color--300);
