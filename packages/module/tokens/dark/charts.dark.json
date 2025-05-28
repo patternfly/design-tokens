@@ -270,6 +270,10 @@
           }
         }
       },
+      "letter-spacing": {
+        "type": "string",
+        "value": "normal"
+      },
       "FontSize": {
         "xs": {
           "type": "number",
@@ -287,14 +291,6 @@
           "type": "number",
           "value": 22
         }
-      },
-      "letter-spacing": {
-        "type": "string",
-        "value": "normal"
-      },
-      "stroke-line-cap": {
-        "type": "string",
-        "value": "round"
       },
       "label": {
         "padding": {
@@ -321,6 +317,10 @@
           "type": "color",
           "value": "{color.white}"
         }
+      },
+      "stroke-line-cap": {
+        "type": "string",
+        "value": "round"
       },
       "layout": {
         "padding": {

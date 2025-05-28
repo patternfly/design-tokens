@@ -8417,6 +8417,31 @@
           ]
         }
       },
+      "pf-t--global--border--color--high-contrast": {
+        "default": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0000)px",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.0000)"
+          },
+          "name": "pf-t--global--border--color--high-contrast",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "high-contrast"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "high-contrast"
+          ]
+        }
+      },
       "pf-t--global--border--color--brand--default": {
         "default": {
           "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
@@ -30288,332 +30313,53 @@
           ]
         }
       },
-      "pf-t--global--icon--size--font--body--sm": {
+      "pf-t--global--icon--size--3xl": {
         "default": {
-          "description": "Use for icons that are placed inline with small body text",
+          "description": "Use for triple extra large icons.",
           "type": "number",
-          "value": "0.75rem",
+          "value": "6rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use for icons that are placed inline with small body text",
+            "description": "Use for triple extra large icons.",
             "type": "number",
-            "value": "{global.font.size.body.sm}"
+            "value": "{global.icon.size.500}"
           },
-          "name": "pf-t--global--icon--size--font--body--sm",
+          "name": "pf-t--global--icon--size--3xl",
           "attributes": {
             "category": "global",
             "type": "icon",
             "item": "size",
-            "subitem": "font",
-            "state": "body"
+            "subitem": "3xl"
           },
           "path": [
             "global",
             "icon",
             "size",
-            "font",
-            "body",
-            "sm"
+            "3xl"
           ],
           "references": [
             {
-              "description": "Use for a smaller font size in body sections.",
               "type": "number",
-              "value": "0.75rem",
-              "filePath": "tokens/default/semantic.dimension.json",
+              "value": "6rem",
+              "filePath": "tokens/default/base.dimension.json",
               "isSource": true,
               "original": {
-                "description": "Use for a smaller font size in body sections.",
                 "type": "number",
-                "value": "{global.font.size.xs}"
+                "value": 96
               },
-              "name": "pf-t--global--font--size--body--sm",
+              "name": "pf-t--global--icon--size--500",
               "attributes": {
                 "category": "global",
-                "type": "font",
+                "type": "icon",
                 "item": "size",
-                "subitem": "body",
-                "state": "sm"
+                "subitem": "500"
               },
               "path": [
                 "global",
-                "font",
+                "icon",
                 "size",
-                "body",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "0.75rem",
-                  "filePath": "tokens/default/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": "{global.font.size.100}"
-                  },
-                  "name": "pf-t--global--font--size--xs",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "xs"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "xs"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.75rem",
-                      "filePath": "tokens/default/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 12
-                      },
-                      "name": "pf-t--global--font--size--100",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "100"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "100"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--default": {
-        "default": {
-          "description": "Use for icons that are placed inline with default body text",
-          "type": "number",
-          "value": "0.875rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with default body text",
-            "type": "number",
-            "value": "{global.font.size.body.default}"
-          },
-          "name": "pf-t--global--icon--size--font--body--default",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use as the default font size in body sections.",
-              "type": "number",
-              "value": "0.875rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the default font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.sm}"
-              },
-              "name": "pf-t--global--font--size--body--default",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "default"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "0.875rem",
-                  "filePath": "tokens/default/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.200}"
-                  },
-                  "name": "pf-t--global--font--size--sm",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "sm"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "sm"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.875rem",
-                      "filePath": "tokens/default/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 14
-                      },
-                      "name": "pf-t--global--font--size--200",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "200"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "200"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--lg": {
-        "default": {
-          "description": "Use for icons that are placed inline with large body text",
-          "type": "number",
-          "value": "1rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with large body text",
-            "type": "number",
-            "value": "{global.font.size.body.lg}"
-          },
-          "name": "pf-t--global--icon--size--font--body--lg",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "lg"
-          ],
-          "references": [
-            {
-              "description": "Use for a larger font size in body sections.",
-              "type": "number",
-              "value": "1rem",
-              "filePath": "tokens/default/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a larger font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.md}"
-              },
-              "name": "pf-t--global--font--size--body--lg",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "lg"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "lg"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "1rem",
-                  "filePath": "tokens/default/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.300}"
-                  },
-                  "name": "pf-t--global--font--size--md",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "md"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "md"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "1rem",
-                      "filePath": "tokens/default/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 16
-                      },
-                      "name": "pf-t--global--font--size--300",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "300"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "300"
-                      ]
-                    }
-                  ]
-                }
+                "500"
               ]
             }
           ]
@@ -31228,6 +30974,337 @@
                 "size",
                 "heading",
                 "h6"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "1rem",
+                  "filePath": "tokens/default/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.300}"
+                  },
+                  "name": "pf-t--global--font--size--md",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "md"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "md"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "1rem",
+                      "filePath": "tokens/default/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 16
+                      },
+                      "name": "pf-t--global--font--size--300",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "300"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "300"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--sm": {
+        "default": {
+          "description": "Use for icons that are placed inline with small body text",
+          "type": "number",
+          "value": "0.75rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with small body text",
+            "type": "number",
+            "value": "{global.font.size.body.sm}"
+          },
+          "name": "pf-t--global--icon--size--font--body--sm",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "sm"
+          ],
+          "references": [
+            {
+              "description": "Use for a smaller font size in body sections.",
+              "type": "number",
+              "value": "0.75rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a smaller font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.xs}"
+              },
+              "name": "pf-t--global--font--size--body--sm",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "sm"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.75rem",
+                  "filePath": "tokens/default/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": "{global.font.size.100}"
+                  },
+                  "name": "pf-t--global--font--size--xs",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "xs"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "xs"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.75rem",
+                      "filePath": "tokens/default/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 12
+                      },
+                      "name": "pf-t--global--font--size--100",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "100"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "100"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--default": {
+        "default": {
+          "description": "Use for icons that are placed inline with default body text",
+          "type": "number",
+          "value": "0.875rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with default body text",
+            "type": "number",
+            "value": "{global.font.size.body.default}"
+          },
+          "name": "pf-t--global--icon--size--font--body--default",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default font size in body sections.",
+              "type": "number",
+              "value": "0.875rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.sm}"
+              },
+              "name": "pf-t--global--font--size--body--default",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "default"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "0.875rem",
+                  "filePath": "tokens/default/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.200}"
+                  },
+                  "name": "pf-t--global--font--size--sm",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "sm"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "sm"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.875rem",
+                      "filePath": "tokens/default/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 14
+                      },
+                      "name": "pf-t--global--font--size--200",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "200"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "200"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--lg": {
+        "default": {
+          "description": "Use for icons that are placed inline with large body text",
+          "type": "number",
+          "value": "1rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with large body text",
+            "type": "number",
+            "value": "{global.font.size.body.lg}"
+          },
+          "name": "pf-t--global--icon--size--font--body--lg",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "lg"
+          ],
+          "references": [
+            {
+              "description": "Use for a larger font size in body sections.",
+              "type": "number",
+              "value": "1rem",
+              "filePath": "tokens/default/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a larger font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.md}"
+              },
+              "name": "pf-t--global--font--size--body--lg",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "lg"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "lg"
               ],
               "references": [
                 {
@@ -31926,58 +32003,6 @@
                     "800"
                   ]
                 }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--3xl": {
-        "default": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "6rem",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for triple extra large icons.",
-            "type": "number",
-            "value": "{global.icon.size.500}"
-          },
-          "name": "pf-t--global--icon--size--3xl",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "3xl"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "3xl"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 96
-              },
-              "name": "pf-t--global--icon--size--500",
-              "attributes": {
-                "category": "global",
-                "type": "icon",
-                "item": "size",
-                "subitem": "500"
-              },
-              "path": [
-                "global",
-                "icon",
-                "size",
-                "500"
               ]
             }
           ]
@@ -33209,110 +33234,6 @@
           ]
         }
       },
-      "pf-t--global--font--line-height--body": {
-        "default": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for body text",
-            "type": "number",
-            "value": "{global.font.line-height.200}"
-          },
-          "name": "pf-t--global--font--line-height--body",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "body"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "body"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.5,
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.5
-              },
-              "name": "pf-t--global--font--line-height--200",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "200"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--heading": {
-        "default": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": 1.2999999523162842,
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for heading text",
-            "type": "number",
-            "value": "{global.font.line-height.100}"
-          },
-          "name": "pf-t--global--font--line-height--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "heading"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.2999999523162842,
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.2999999523162842
-              },
-              "name": "pf-t--global--font--line-height--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--font--weight--body--default": {
         "default": {
           "description": "Use to define the default weight for body text",
@@ -33524,6 +33445,110 @@
                 "font",
                 "weight",
                 "400"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--body": {
+        "default": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for body text",
+            "type": "number",
+            "value": "{global.font.line-height.200}"
+          },
+          "name": "pf-t--global--font--line-height--body",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "body"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "body"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.5,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.5
+              },
+              "name": "pf-t--global--font--line-height--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--heading": {
+        "default": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": 1.2999999523162842,
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for heading text",
+            "type": "number",
+            "value": "{global.font.line-height.100}"
+          },
+          "name": "pf-t--global--font--line-height--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.2999999523162842,
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.2999999523162842
+              },
+              "name": "pf-t--global--font--line-height--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "100"
               ]
             }
           ]
@@ -38878,480 +38903,6 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--fade--short": {
-        "default": {
-          "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-          "type": "number",
-          "value": "100ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-            "type": "number",
-            "value": "{global.motion.duration.sm}"
-          },
-          "name": "pf-t--global--motion--duration--fade--short",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "short"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "short"
-          ],
-          "references": [
-            {
-              "description": "Use for a short animation duration. Use for simple and/or small animations.",
-              "type": "number",
-              "value": "100ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a short animation duration. Use for simple and/or small animations.",
-                "type": "number",
-                "value": "{global.duration.100}"
-              },
-              "name": "pf-t--global--motion--duration--sm",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "sm"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "100ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 100
-                  },
-                  "name": "pf-t--global--duration--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "100"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "100"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--default": {
-        "default": {
-          "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-          "type": "number",
-          "value": "200ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-            "type": "number",
-            "value": "{global.motion.duration.md}"
-          },
-          "name": "pf-t--global--motion--duration--fade--default",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use for a medium animation duration.",
-              "type": "number",
-              "value": "200ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a medium animation duration.",
-                "type": "number",
-                "value": "{global.duration.200}"
-              },
-              "name": "pf-t--global--motion--duration--md",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "md"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "md"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "200ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 200
-                  },
-                  "name": "pf-t--global--duration--200",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "200"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "200"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--long": {
-        "default": {
-          "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
-          "type": "number",
-          "value": "300ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          },
-          "name": "pf-t--global--motion--duration--fade--long",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "long"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "long"
-          ],
-          "references": [
-            {
-              "description": "Use for long animation duration. Use for larger, more expressive animations.",
-              "type": "number",
-              "value": "300ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for long animation duration. Use for larger, more expressive animations.",
-                "type": "number",
-                "value": "{global.duration.300}"
-              },
-              "name": "pf-t--global--motion--duration--lg",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "lg"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "lg"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "300ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 300
-                  },
-                  "name": "pf-t--global--duration--300",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "300"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "300"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--slide-out--short": {
-        "default": {
-          "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
-          "type": "number",
-          "value": "300ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          },
-          "name": "pf-t--global--motion--duration--slide-out--short",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "slide-out",
-            "state": "short"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "slide-out",
-            "short"
-          ],
-          "references": [
-            {
-              "description": "Use for long animation duration. Use for larger, more expressive animations.",
-              "type": "number",
-              "value": "300ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for long animation duration. Use for larger, more expressive animations.",
-                "type": "number",
-                "value": "{global.duration.300}"
-              },
-              "name": "pf-t--global--motion--duration--lg",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "lg"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "lg"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "300ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 300
-                  },
-                  "name": "pf-t--global--duration--300",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "300"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "300"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--slide-out--default": {
-        "default": {
-          "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
-          "type": "number",
-          "value": "400ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.xl}"
-          },
-          "name": "pf-t--global--motion--duration--slide-out--default",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "slide-out",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "slide-out",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use for extra long animation duration.",
-              "type": "number",
-              "value": "400ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for extra long animation duration.",
-                "type": "number",
-                "value": "{global.duration.400}"
-              },
-              "name": "pf-t--global--motion--duration--xl",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "xl"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "xl"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "400ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 400
-                  },
-                  "name": "pf-t--global--duration--400",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "400"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "400"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--slide-out--long": {
-        "default": {
-          "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
-          "type": "number",
-          "value": "500ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.2xl}"
-          },
-          "name": "pf-t--global--motion--duration--slide-out--long",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "slide-out",
-            "state": "long"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "slide-out",
-            "long"
-          ],
-          "references": [
-            {
-              "description": "Use for significantly long animation duration.",
-              "type": "number",
-              "value": "500ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for significantly long animation duration.",
-                "type": "number",
-                "value": "{global.duration.500}"
-              },
-              "name": "pf-t--global--motion--duration--2xl",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "2xl"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "2xl"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "500ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 500
-                  },
-                  "name": "pf-t--global--duration--500",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "500"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "500"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--motion--duration--slide-in--short": {
         "default": {
           "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
@@ -39826,6 +39377,480 @@
           ]
         }
       },
+      "pf-t--global--motion--duration--fade--short": {
+        "default": {
+          "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+          "type": "number",
+          "value": "100ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "name": "pf-t--global--motion--duration--fade--short",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "short"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "short"
+          ],
+          "references": [
+            {
+              "description": "Use for a short animation duration. Use for simple and/or small animations.",
+              "type": "number",
+              "value": "100ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a short animation duration. Use for simple and/or small animations.",
+                "type": "number",
+                "value": "{global.duration.100}"
+              },
+              "name": "pf-t--global--motion--duration--sm",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "sm"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "100ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 100
+                  },
+                  "name": "pf-t--global--duration--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "100"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--default": {
+        "default": {
+          "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+          "type": "number",
+          "value": "200ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          },
+          "name": "pf-t--global--motion--duration--fade--default",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for a medium animation duration.",
+              "type": "number",
+              "value": "200ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a medium animation duration.",
+                "type": "number",
+                "value": "{global.duration.200}"
+              },
+              "name": "pf-t--global--motion--duration--md",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "md"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "md"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "200ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 200
+                  },
+                  "name": "pf-t--global--duration--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "200"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "200"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--long": {
+        "default": {
+          "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+          "type": "number",
+          "value": "300ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "name": "pf-t--global--motion--duration--fade--long",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "long"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "long"
+          ],
+          "references": [
+            {
+              "description": "Use for long animation duration. Use for larger, more expressive animations.",
+              "type": "number",
+              "value": "300ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for long animation duration. Use for larger, more expressive animations.",
+                "type": "number",
+                "value": "{global.duration.300}"
+              },
+              "name": "pf-t--global--motion--duration--lg",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "lg"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "lg"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "300ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 300
+                  },
+                  "name": "pf-t--global--duration--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "300"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--slide-out--short": {
+        "default": {
+          "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+          "type": "number",
+          "value": "300ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "name": "pf-t--global--motion--duration--slide-out--short",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "slide-out",
+            "state": "short"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "slide-out",
+            "short"
+          ],
+          "references": [
+            {
+              "description": "Use for long animation duration. Use for larger, more expressive animations.",
+              "type": "number",
+              "value": "300ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for long animation duration. Use for larger, more expressive animations.",
+                "type": "number",
+                "value": "{global.duration.300}"
+              },
+              "name": "pf-t--global--motion--duration--lg",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "lg"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "lg"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "300ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 300
+                  },
+                  "name": "pf-t--global--duration--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "300"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--slide-out--default": {
+        "default": {
+          "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+          "type": "number",
+          "value": "400ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "name": "pf-t--global--motion--duration--slide-out--default",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "slide-out",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "slide-out",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for extra long animation duration.",
+              "type": "number",
+              "value": "400ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for extra long animation duration.",
+                "type": "number",
+                "value": "{global.duration.400}"
+              },
+              "name": "pf-t--global--motion--duration--xl",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "xl"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "xl"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "400ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 400
+                  },
+                  "name": "pf-t--global--duration--400",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "400"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "400"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--slide-out--long": {
+        "default": {
+          "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+          "type": "number",
+          "value": "500ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          },
+          "name": "pf-t--global--motion--duration--slide-out--long",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "slide-out",
+            "state": "long"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "slide-out",
+            "long"
+          ],
+          "references": [
+            {
+              "description": "Use for significantly long animation duration.",
+              "type": "number",
+              "value": "500ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for significantly long animation duration.",
+                "type": "number",
+                "value": "{global.duration.500}"
+              },
+              "name": "pf-t--global--motion--duration--2xl",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "2xl"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "2xl"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "500ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 500
+                  },
+                  "name": "pf-t--global--duration--500",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "500"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "500"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--motion--delay--none": {
         "default": {
           "description": "Use when there should be no delay before an animation plays.",
@@ -40228,6 +40253,54 @@
           ]
         }
       },
+      "pf-t--global--icon--color--150": {
+        "default": {
+          "type": "color",
+          "value": "#4d4d4d",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.60}"
+          },
+          "name": "pf-t--global--icon--color--150",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "150"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "150"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4d4d4d",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#4d4d4d"
+              },
+              "name": "pf-t--color--gray--60",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "gray",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--icon--color--200": {
         "default": {
           "type": "color",
@@ -40509,6 +40582,54 @@
                 "color",
                 "gray",
                 "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--450": {
+        "default": {
+          "type": "color",
+          "value": "#4d4d4d",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.60}"
+          },
+          "name": "pf-t--global--border--color--450",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "450"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "450"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4d4d4d",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#4d4d4d"
+              },
+              "name": "pf-t--color--gray--60",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "gray",
+                "60"
               ]
             }
           ]
@@ -41096,6 +41217,102 @@
           ]
         }
       },
+      "pf-t--global--color--brand--400": {
+        "default": {
+          "type": "color",
+          "value": "#003366",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.70}"
+          },
+          "name": "pf-t--global--color--brand--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#003366",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#003366"
+              },
+              "name": "pf-t--color--blue--70",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "blue",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--500": {
+        "default": {
+          "type": "color",
+          "value": "#002250",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.80}"
+          },
+          "name": "pf-t--global--color--brand--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#002250",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#002250"
+              },
+              "name": "pf-t--color--blue--80",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "80"
+              },
+              "path": [
+                "color",
+                "blue",
+                "80"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--disabled--100": {
         "default": {
           "type": "color",
@@ -41336,6 +41553,102 @@
           ]
         }
       },
+      "pf-t--global--color--favorite--300": {
+        "default": {
+          "type": "color",
+          "value": "#73480b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.70}"
+          },
+          "name": "pf-t--global--color--favorite--300",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "favorite",
+            "subitem": "300"
+          },
+          "path": [
+            "global",
+            "color",
+            "favorite",
+            "300"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#73480b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#73480b"
+              },
+              "name": "pf-t--color--yellow--70",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--favorite--400": {
+        "default": {
+          "type": "color",
+          "value": "#54330b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.80}"
+          },
+          "name": "pf-t--global--color--favorite--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "favorite",
+            "subitem": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "favorite",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#54330b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#54330b"
+              },
+              "name": "pf-t--color--yellow--80",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "80"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "80"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--status--success--100": {
         "default": {
           "type": "color",
@@ -41386,6 +41699,33 @@
           ]
         }
       },
+      "pf-t--global--color--status--success--150": {
+        "default": {
+          "type": "color",
+          "value": "#3d7019",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#3d7019"
+          },
+          "name": "pf-t--global--color--status--success--150",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "status",
+            "subitem": "success",
+            "state": "150"
+          },
+          "path": [
+            "global",
+            "color",
+            "status",
+            "success",
+            "150"
+          ]
+        }
+      },
       "pf-t--global--color--status--success--200": {
         "default": {
           "type": "color",
@@ -41433,6 +41773,33 @@
                 "70"
               ]
             }
+          ]
+        }
+      },
+      "pf-t--global--color--status--success--300": {
+        "default": {
+          "type": "color",
+          "value": "#153300",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#153300"
+          },
+          "name": "pf-t--global--color--status--success--300",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "status",
+            "subitem": "success",
+            "state": "300"
+          },
+          "path": [
+            "global",
+            "color",
+            "status",
+            "success",
+            "300"
           ]
         }
       },
@@ -41586,6 +41953,156 @@
           ]
         }
       },
+      "pf-t--global--color--status--warning--400": {
+        "default": {
+          "type": "color",
+          "value": "#96640f",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.60}"
+          },
+          "name": "pf-t--global--color--status--warning--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "status",
+            "subitem": "warning",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "status",
+            "warning",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#96640f",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#96640f"
+              },
+              "name": "pf-t--color--yellow--60",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--status--warning--500": {
+        "default": {
+          "type": "color",
+          "value": "#73480b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.70}"
+          },
+          "name": "pf-t--global--color--status--warning--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "status",
+            "subitem": "warning",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "status",
+            "warning",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#73480b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#73480b"
+              },
+              "name": "pf-t--color--yellow--70",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--status--warning--600": {
+        "default": {
+          "type": "color",
+          "value": "#54330b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.80}"
+          },
+          "name": "pf-t--global--color--status--warning--600",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "status",
+            "subitem": "warning",
+            "state": "600"
+          },
+          "path": [
+            "global",
+            "color",
+            "status",
+            "warning",
+            "600"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#54330b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#54330b"
+              },
+              "name": "pf-t--color--yellow--80",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "80"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "80"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--status--danger--100": {
         "default": {
           "type": "color",
@@ -41689,12 +42206,12 @@
       "pf-t--global--color--status--danger--300": {
         "default": {
           "type": "color",
-          "value": "#731f00",
+          "value": "#501600",
           "filePath": "tokens/default/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.red-orange.70}"
+            "value": "#501600"
           },
           "name": "pf-t--global--color--status--danger--300",
           "attributes": {
@@ -41710,29 +42227,6 @@
             "status",
             "danger",
             "300"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#731f00",
-              "filePath": "tokens/default/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#731f00"
-              },
-              "name": "pf-t--color--red-orange--70",
-              "attributes": {
-                "category": "color",
-                "type": "red-orange",
-                "item": "70"
-              },
-              "path": [
-                "color",
-                "red-orange",
-                "70"
-              ]
-            }
           ]
         }
       },
@@ -41831,6 +42325,56 @@
                 "color",
                 "purple",
                 "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--status--info--300": {
+        "default": {
+          "type": "color",
+          "value": "#21134d",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.purple.70}"
+          },
+          "name": "pf-t--global--color--status--info--300",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "status",
+            "subitem": "info",
+            "state": "300"
+          },
+          "path": [
+            "global",
+            "color",
+            "status",
+            "info",
+            "300"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#21134d",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#21134d"
+              },
+              "name": "pf-t--color--purple--70",
+              "attributes": {
+                "category": "color",
+                "type": "purple",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "purple",
+                "70"
               ]
             }
           ]
@@ -41936,6 +42480,56 @@
           ]
         }
       },
+      "pf-t--global--color--status--custom--300": {
+        "default": {
+          "type": "color",
+          "value": "#003333",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.teal.80}"
+          },
+          "name": "pf-t--global--color--status--custom--300",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "status",
+            "subitem": "custom",
+            "state": "300"
+          },
+          "path": [
+            "global",
+            "color",
+            "status",
+            "custom",
+            "300"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#003333",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#003333"
+              },
+              "name": "pf-t--color--teal--80",
+              "attributes": {
+                "category": "color",
+                "type": "teal",
+                "item": "80"
+              },
+              "path": [
+                "color",
+                "teal",
+                "80"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--severity--undefined--100": {
         "default": {
           "type": "color",
@@ -41981,6 +42575,56 @@
                 "color",
                 "gray",
                 "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--severity--undefined--200": {
+        "default": {
+          "type": "color",
+          "value": "#4d4d4d",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.60}"
+          },
+          "name": "pf-t--global--color--severity--undefined--200",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "severity",
+            "subitem": "undefined",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "color",
+            "severity",
+            "undefined",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4d4d4d",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#4d4d4d"
+              },
+              "name": "pf-t--color--gray--60",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "gray",
+                "60"
               ]
             }
           ]
@@ -42036,6 +42680,56 @@
           ]
         }
       },
+      "pf-t--global--color--severity--none--200": {
+        "default": {
+          "type": "color",
+          "value": "#004d99",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.60}"
+          },
+          "name": "pf-t--global--color--severity--none--200",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "severity",
+            "subitem": "none",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "color",
+            "severity",
+            "none",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#004d99",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#004d99"
+              },
+              "name": "pf-t--color--blue--60",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "blue",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--severity--minor--100": {
         "default": {
           "type": "color",
@@ -42081,6 +42775,56 @@
                 "color",
                 "gray",
                 "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--severity--minor--200": {
+        "default": {
+          "type": "color",
+          "value": "#292929",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.80}"
+          },
+          "name": "pf-t--global--color--severity--minor--200",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "severity",
+            "subitem": "minor",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "color",
+            "severity",
+            "minor",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#292929",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#292929"
+              },
+              "name": "pf-t--color--gray--80",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "80"
+              },
+              "path": [
+                "color",
+                "gray",
+                "80"
               ]
             }
           ]
@@ -42136,6 +42880,56 @@
           ]
         }
       },
+      "pf-t--global--color--severity--moderate--200": {
+        "default": {
+          "type": "color",
+          "value": "#73480b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.70}"
+          },
+          "name": "pf-t--global--color--severity--moderate--200",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "severity",
+            "subitem": "moderate",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "color",
+            "severity",
+            "moderate",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#73480b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#73480b"
+              },
+              "name": "pf-t--color--yellow--70",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--severity--important--100": {
         "default": {
           "type": "color",
@@ -42181,6 +42975,56 @@
                 "color",
                 "orange",
                 "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--severity--important--200": {
+        "default": {
+          "type": "color",
+          "value": "#9e4a06",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.orange.60}"
+          },
+          "name": "pf-t--global--color--severity--important--200",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "severity",
+            "subitem": "important",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "color",
+            "severity",
+            "important",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#9e4a06",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#9e4a06"
+              },
+              "name": "pf-t--color--orange--60",
+              "attributes": {
+                "category": "color",
+                "type": "orange",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "orange",
+                "60"
               ]
             }
           ]
@@ -42386,6 +43230,106 @@
           ]
         }
       },
+      "pf-t--global--color--nonstatus--red--400": {
+        "default": {
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red.60}"
+          },
+          "name": "pf-t--global--color--nonstatus--red--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "red",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "red",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#a60000"
+              },
+              "name": "pf-t--color--red--60",
+              "attributes": {
+                "category": "color",
+                "type": "red",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "red",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--red--500": {
+        "default": {
+          "type": "color",
+          "value": "#5f0000",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--red--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "red",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "red",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#5f0000",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#5f0000"
+              },
+              "name": "pf-t--color--red--70",
+              "attributes": {
+                "category": "color",
+                "type": "red",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "red",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--nonstatus--orangered--100": {
         "default": {
           "type": "color",
@@ -42531,6 +43475,106 @@
                 "color",
                 "red-orange",
                 "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--orangered--400": {
+        "default": {
+          "type": "color",
+          "value": "#b1380b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.60}"
+          },
+          "name": "pf-t--global--color--nonstatus--orangered--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "orangered",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "orangered",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#b1380b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#b1380b"
+              },
+              "name": "pf-t--color--red-orange--60",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--orangered--500": {
+        "default": {
+          "type": "color",
+          "value": "#731f00",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--orangered--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "orangered",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "orangered",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#731f00",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#731f00"
+              },
+              "name": "pf-t--color--red-orange--70",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "70"
               ]
             }
           ]
@@ -42686,6 +43730,106 @@
           ]
         }
       },
+      "pf-t--global--color--nonstatus--orange--400": {
+        "default": {
+          "type": "color",
+          "value": "#9e4a06",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.orange.60}"
+          },
+          "name": "pf-t--global--color--nonstatus--orange--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "orange",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "orange",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#9e4a06",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#9e4a06"
+              },
+              "name": "pf-t--color--orange--60",
+              "attributes": {
+                "category": "color",
+                "type": "orange",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "orange",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--orange--500": {
+        "default": {
+          "type": "color",
+          "value": "#732e00",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.orange.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--orange--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "orange",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "orange",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#732e00",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#732e00"
+              },
+              "name": "pf-t--color--orange--70",
+              "attributes": {
+                "category": "color",
+                "type": "orange",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "orange",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--nonstatus--yellow--100": {
         "default": {
           "type": "color",
@@ -42831,6 +43975,106 @@
                 "color",
                 "yellow",
                 "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--yellow--400": {
+        "default": {
+          "type": "color",
+          "value": "#73480b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--yellow--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "yellow",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "yellow",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#73480b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#73480b"
+              },
+              "name": "pf-t--color--yellow--70",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--yellow--500": {
+        "default": {
+          "type": "color",
+          "value": "#54330b",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.80}"
+          },
+          "name": "pf-t--global--color--nonstatus--yellow--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "yellow",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "yellow",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#54330b",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#54330b"
+              },
+              "name": "pf-t--color--yellow--80",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "80"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "80"
               ]
             }
           ]
@@ -42986,6 +44230,83 @@
           ]
         }
       },
+      "pf-t--global--color--nonstatus--green--400": {
+        "default": {
+          "type": "color",
+          "value": "#3d7019",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#3d7019"
+          },
+          "name": "pf-t--global--color--nonstatus--green--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "green",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "green",
+            "400"
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--green--500": {
+        "default": {
+          "type": "color",
+          "value": "#204d00",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.green.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--green--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "green",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "green",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#204d00",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#204d00"
+              },
+              "name": "pf-t--color--green--70",
+              "attributes": {
+                "category": "color",
+                "type": "green",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "green",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--nonstatus--teal--100": {
         "default": {
           "type": "color",
@@ -43131,6 +44452,106 @@
                 "color",
                 "teal",
                 "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--teal--400": {
+        "default": {
+          "type": "color",
+          "value": "#004d4d",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.teal.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--teal--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "teal",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "teal",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#004d4d",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#004d4d"
+              },
+              "name": "pf-t--color--teal--70",
+              "attributes": {
+                "category": "color",
+                "type": "teal",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "teal",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--teal--500": {
+        "default": {
+          "type": "color",
+          "value": "#003333",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.teal.80}"
+          },
+          "name": "pf-t--global--color--nonstatus--teal--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "teal",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "teal",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#003333",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#003333"
+              },
+              "name": "pf-t--color--teal--80",
+              "attributes": {
+                "category": "color",
+                "type": "teal",
+                "item": "80"
+              },
+              "path": [
+                "color",
+                "teal",
+                "80"
               ]
             }
           ]
@@ -43286,6 +44707,106 @@
           ]
         }
       },
+      "pf-t--global--color--nonstatus--blue--400": {
+        "default": {
+          "type": "color",
+          "value": "#004d99",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.60}"
+          },
+          "name": "pf-t--global--color--nonstatus--blue--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "blue",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "blue",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#004d99",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#004d99"
+              },
+              "name": "pf-t--color--blue--60",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "blue",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--blue--500": {
+        "default": {
+          "type": "color",
+          "value": "#003366",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--blue--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "blue",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "blue",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#003366",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#003366"
+              },
+              "name": "pf-t--color--blue--70",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "blue",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--color--nonstatus--purple--100": {
         "default": {
           "type": "color",
@@ -43431,6 +44952,156 @@
                 "color",
                 "purple",
                 "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--purple--400": {
+        "default": {
+          "type": "color",
+          "value": "#5e40be",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.purple.50}"
+          },
+          "name": "pf-t--global--color--nonstatus--purple--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "purple",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "purple",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#5e40be",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#5e40be"
+              },
+              "name": "pf-t--color--purple--50",
+              "attributes": {
+                "category": "color",
+                "type": "purple",
+                "item": "50"
+              },
+              "path": [
+                "color",
+                "purple",
+                "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--purple--500": {
+        "default": {
+          "type": "color",
+          "value": "#3d2785",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.purple.60}"
+          },
+          "name": "pf-t--global--color--nonstatus--purple--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "purple",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "purple",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#3d2785",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#3d2785"
+              },
+              "name": "pf-t--color--purple--60",
+              "attributes": {
+                "category": "color",
+                "type": "purple",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "purple",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--gray--50": {
+        "default": {
+          "type": "color",
+          "value": "#f2f2f2",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.10}"
+          },
+          "name": "pf-t--global--color--nonstatus--gray--50",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "gray",
+            "state": "50"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "gray",
+            "50"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f2f2f2",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f2f2f2"
+              },
+              "name": "pf-t--color--gray--10",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "10"
+              },
+              "path": [
+                "color",
+                "gray",
+                "10"
               ]
             }
           ]
@@ -43586,6 +45257,106 @@
           ]
         }
       },
+      "pf-t--global--color--nonstatus--gray--400": {
+        "default": {
+          "type": "color",
+          "value": "#4d4d4d",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.60}"
+          },
+          "name": "pf-t--global--color--nonstatus--gray--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "gray",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "gray",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4d4d4d",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#4d4d4d"
+              },
+              "name": "pf-t--color--gray--60",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "gray",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--nonstatus--gray--500": {
+        "default": {
+          "type": "color",
+          "value": "#383838",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.70}"
+          },
+          "name": "pf-t--global--color--nonstatus--gray--500",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "nonstatus",
+            "subitem": "gray",
+            "state": "500"
+          },
+          "path": [
+            "global",
+            "color",
+            "nonstatus",
+            "gray",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#383838",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#383838"
+              },
+              "name": "pf-t--color--gray--70",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "gray",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--text--color--100": {
         "default": {
           "type": "color",
@@ -43682,6 +45453,54 @@
           ]
         }
       },
+      "pf-t--global--text--color--250": {
+        "default": {
+          "type": "color",
+          "value": "#383838",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.70}"
+          },
+          "name": "pf-t--global--text--color--250",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "250"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "250"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#383838",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#383838"
+              },
+              "name": "pf-t--color--gray--70",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "gray",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--text--color--300": {
         "default": {
           "type": "color",
@@ -43771,6 +45590,54 @@
                 "color",
                 "red-orange",
                 "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--500": {
+        "default": {
+          "type": "color",
+          "value": "#731f00",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.70}"
+          },
+          "name": "pf-t--global--text--color--500",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "500"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "500"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#731f00",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#731f00"
+              },
+              "name": "pf-t--color--red-orange--70",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "70"
               ]
             }
           ]
@@ -43876,6 +45743,56 @@
           ]
         }
       },
+      "pf-t--global--text--color--link--250": {
+        "default": {
+          "type": "color",
+          "value": "#003366",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.70}"
+          },
+          "name": "pf-t--global--text--color--link--250",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "link",
+            "state": "250"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "link",
+            "250"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#003366",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#003366"
+              },
+              "name": "pf-t--color--blue--70",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "blue",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--text--color--link--300": {
         "default": {
           "type": "color",
@@ -43921,6 +45838,56 @@
                 "color",
                 "purple",
                 "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--link--350": {
+        "default": {
+          "type": "color",
+          "value": "#3d2785",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.purple.60}"
+          },
+          "name": "pf-t--global--text--color--link--350",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "link",
+            "state": "350"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "link",
+            "350"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#3d2785",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#3d2785"
+              },
+              "name": "pf-t--color--purple--60",
+              "attributes": {
+                "category": "color",
+                "type": "purple",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "purple",
+                "60"
               ]
             }
           ]
@@ -44337,6 +46304,31 @@
           ]
         }
       },
+      "pf-t--global--border--width--400": {
+        "default": {
+          "type": "number",
+          "value": "4px",
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 4
+          },
+          "name": "pf-t--global--border--width--400",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "400"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "400"
+          ]
+        }
+      },
       "pf-t--global--border--radius--0": {
         "default": {
           "type": "number",
@@ -44487,56 +46479,6 @@
           ]
         }
       },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.2999999523162842,
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
-          ]
-        }
-      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -44634,6 +46576,56 @@
             "font",
             "weight",
             "400"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.2999999523162842,
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
           ]
         }
       },
@@ -46742,6 +48734,29 @@
         ]
       }
     },
+    "pf-t--color--blue--80": {
+      "default": {
+        "type": "color",
+        "value": "#002250",
+        "filePath": "tokens/default/palette.color.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#002250"
+        },
+        "name": "pf-t--color--blue--80",
+        "attributes": {
+          "category": "color",
+          "type": "blue",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "blue",
+          "80"
+        ]
+      }
+    },
     "pf-t--color--teal--10": {
       "default": {
         "type": "color",
@@ -46903,6 +48918,29 @@
         ]
       }
     },
+    "pf-t--color--teal--80": {
+      "default": {
+        "type": "color",
+        "value": "#003333",
+        "filePath": "tokens/default/palette.color.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#003333"
+        },
+        "name": "pf-t--color--teal--80",
+        "attributes": {
+          "category": "color",
+          "type": "teal",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "teal",
+          "80"
+        ]
+      }
+    },
     "pf-t--color--yellow--10": {
       "default": {
         "type": "color",
@@ -47061,6 +49099,29 @@
           "color",
           "yellow",
           "70"
+        ]
+      }
+    },
+    "pf-t--color--yellow--80": {
+      "default": {
+        "type": "color",
+        "value": "#54330b",
+        "filePath": "tokens/default/palette.color.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#54330b"
+        },
+        "name": "pf-t--color--yellow--80",
+        "attributes": {
+          "category": "color",
+          "type": "yellow",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "yellow",
+          "80"
         ]
       }
     },
@@ -47386,6 +49447,29 @@
         ]
       }
     },
+    "pf-t--color--orange--80": {
+      "default": {
+        "type": "color",
+        "value": "#4d1f00",
+        "filePath": "tokens/default/palette.color.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#4d1f00"
+        },
+        "name": "pf-t--color--orange--80",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "orange",
+          "80"
+        ]
+      }
+    },
     "pf-t--color--red-orange--10": {
       "default": {
         "type": "color",
@@ -47708,6 +49792,29 @@
         ]
       }
     },
+    "pf-t--color--purple--80": {
+      "default": {
+        "type": "color",
+        "value": "#1b0d33",
+        "filePath": "tokens/default/palette.color.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#1b0d33"
+        },
+        "name": "pf-t--color--purple--80",
+        "attributes": {
+          "category": "color",
+          "type": "purple",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "purple",
+          "80"
+        ]
+      }
+    },
     "pf-t--color--red--10": {
       "default": {
         "type": "color",
@@ -47866,6 +49973,29 @@
           "color",
           "red",
           "70"
+        ]
+      }
+    },
+    "pf-t--color--red--80": {
+      "default": {
+        "type": "color",
+        "value": "#3f0000",
+        "filePath": "tokens/default/palette.color.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#3f0000"
+        },
+        "name": "pf-t--color--red--80",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "red",
+          "80"
         ]
       }
     }
@@ -50518,6 +52648,29 @@
         ]
       }
     },
+    "pf-t--chart--global--letter-spacing": {
+      "default": {
+        "type": "string",
+        "value": "normal",
+        "filePath": "tokens/default/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "normal"
+        },
+        "name": "pf-t--chart--global--letter-spacing",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "letter-spacing"
+        },
+        "path": [
+          "chart",
+          "global",
+          "letter-spacing"
+        ]
+      }
+    },
     "pf-t--chart--global--FontSize--xs": {
       "default": {
         "type": "number",
@@ -50615,52 +52768,6 @@
           "global",
           "FontSize",
           "2xl"
-        ]
-      }
-    },
-    "pf-t--chart--global--letter-spacing": {
-      "default": {
-        "type": "string",
-        "value": "normal",
-        "filePath": "tokens/default/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "normal"
-        },
-        "name": "pf-t--chart--global--letter-spacing",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "letter-spacing"
-        },
-        "path": [
-          "chart",
-          "global",
-          "letter-spacing"
-        ]
-      }
-    },
-    "pf-t--chart--global--stroke-line-cap": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-cap",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-cap"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-cap"
         ]
       }
     },
@@ -50821,6 +52928,29 @@
               "90"
             ]
           }
+        ]
+      }
+    },
+    "pf-t--chart--global--stroke-line-cap": {
+      "default": {
+        "type": "string",
+        "value": "round",
+        "filePath": "tokens/default/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "round"
+        },
+        "name": "pf-t--chart--global--stroke-line-cap",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "stroke-line-cap"
+        },
+        "path": [
+          "chart",
+          "global",
+          "stroke-line-cap"
         ]
       }
     },

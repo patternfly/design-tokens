@@ -967,6 +967,10 @@
             "value": "{global.dark.border.color.50}"
           }
         },
+        "high-contrast": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0000)"
+        },
         "brand": {
           "default": {
             "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
