@@ -359,24 +359,12 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        },
         "font": {
-          "body": {
-            "sm": {
-              "description": "Use for icons that are placed inline with small body text",
-              "type": "number",
-              "value": "{global.font.size.body.sm}"
-            },
-            "default": {
-              "description": "Use for icons that are placed inline with default body text",
-              "type": "number",
-              "value": "{global.font.size.body.default}"
-            },
-            "lg": {
-              "description": "Use for icons that are placed inline with large body text",
-              "type": "number",
-              "value": "{global.font.size.body.lg}"
-            }
-          },
           "heading": {
             "h1": {
               "description": "Use for icons that are placed inline with first level headings",
@@ -407,6 +395,23 @@
               "description": "Use for icons that are placed inline with sixth level headings",
               "type": "number",
               "value": "{global.font.size.heading.h6}"
+            }
+          },
+          "body": {
+            "sm": {
+              "description": "Use for icons that are placed inline with small body text",
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "description": "Use for icons that are placed inline with default body text",
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "description": "Use for icons that are placed inline with large body text",
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
             }
           },
           "xs": {
@@ -449,11 +454,6 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
-        },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
         }
       }
     },

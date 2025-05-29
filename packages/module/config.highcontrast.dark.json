@@ -1,19 +1,19 @@
 {
-  "source": ["tokens/default/*.json"],
+  "source": ["tokens/highcontrast-dark/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-palette.scss",
+        "destination": "tokens-highcontrast-dark.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true
         },
         "filter": {
           "attributes": {
-            "category": "color"
+            "category": "global"
           }
         }
       }

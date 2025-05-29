@@ -1,19 +1,20 @@
 {
-  "source": ["tokens/default/*.json"],
+  "source": ["tokens/highcontrast/*.json"],
+  "basePxFontSize": 16,
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-palette.scss",
+        "destination": "tokens-highcontrast.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true
         },
         "filter": {
           "attributes": {
-            "category": "color"
+            "category": "global"
           }
         }
       }

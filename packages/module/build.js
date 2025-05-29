@@ -13,6 +13,8 @@ const getTokenLayer = ({ filePath }) => {
   if (filePath.includes('base.motion.json')) return ['base', 'motion'];
   if (filePath.includes('chart')) return ['chart'];
   if (filePath.includes('palette.color.json')) return ['palette'];
+  if (filePath.includes('semantic.highcontrast.json')) return ['semantic', 'colors'];
+  if (filePath.includes('semantic.highcontrast.dark.json')) return ['semantic', 'colors'];
   return ['palette'];
 };
 // returns subdirectory within 'tokens' directory (ex: default, dark, etc)
@@ -82,7 +84,7 @@ const build = (selector) => {
     name: 'patternfly/global/px',
     type: 'value',
     matcher: (token) =>
-      token.attributes.type === 'border' ||
+      (token.attributes.type === 'border' && token.original.type === 'number') ||
       (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color'),
     transformer: (token) => `${token.value}px`
   });
@@ -108,6 +110,13 @@ const build = (selector) => {
     transformer: (token, options) => `${options.prefix}--${token.path.join('--')}`
   });
 
+  StyleDictionary.registerTransform({
+    name: 'patternfly/global/round-decimel',
+    type: 'value',
+    matcher: (token) => token.type === 'number',
+    transformer: (token) => { console.log(token); return Math.round(parseFloat(token.value) * 100) / 100 }
+  });
+
   // Reigster custom transform group
   StyleDictionary.registerTransformGroup({
     name: 'patternfly/css',
@@ -120,6 +129,7 @@ const build = (selector) => {
       'size/rem',
       'color/css',
       // custom transforms
+      'patternfly/global/round-decimel',
       'patternfly/global/px',
       'patternfly/global/pxToRem',
       'patternfly/global/ms',
@@ -133,6 +143,8 @@ const build = (selector) => {
   const paletteExtendedSD = StyleDictionary.extend(__dirname + '/config.palette-colors.json');
   const chartsExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.json');
   const chartsDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.dark.json');
+  const highContrastDefaultExtendedSD = StyleDictionary.extend(__dirname + '/config.highcontrast.json');
+  const highContrastDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.highcontrast.dark.json');
   const layersSD = StyleDictionary.extend(__dirname + '/config.layers.json');
   const layersDarkSD = StyleDictionary.extend(__dirname + '/config.layers.dark.json');
 
@@ -142,6 +154,8 @@ const build = (selector) => {
   paletteExtendedSD.buildAllPlatforms();
   chartsExtendedSD.buildAllPlatforms();
   chartsDarkExtendedSD.buildAllPlatforms();
+  highContrastDefaultExtendedSD.buildAllPlatforms();
+  highContrastDarkExtendedSD.buildAllPlatforms();
   layersSD.buildAllPlatforms();
   layersDarkSD.buildAllPlatforms();
 
