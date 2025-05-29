@@ -8420,7 +8420,7 @@
       "pf-t--global--border--color--high-contrast": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)px",
+          "value": "rgba(255, 255, 255, 0.0000)",
           "filePath": "tokens/default/semantic.json",
           "isSource": true,
           "original": {
