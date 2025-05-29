@@ -110,6 +110,13 @@ const build = (selector) => {
     transformer: (token, options) => `${options.prefix}--${token.path.join('--')}`
   });
 
+  StyleDictionary.registerTransform({
+    name: 'patternfly/global/round-decimel',
+    type: 'value',
+    matcher: (token) => token.type === 'number',
+    transformer: (token) => { console.log(token); return Math.round(parseFloat(token.value) * 100) / 100 }
+  });
+
   // Reigster custom transform group
   StyleDictionary.registerTransformGroup({
     name: 'patternfly/css',
@@ -122,6 +129,7 @@ const build = (selector) => {
       'size/rem',
       'color/css',
       // custom transforms
+      'patternfly/global/round-decimel',
       'patternfly/global/px',
       'patternfly/global/pxToRem',
       'patternfly/global/ms',

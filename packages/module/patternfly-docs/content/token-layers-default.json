@@ -33506,7 +33506,7 @@
         "default": {
           "description": "Use to define the line height for heading text",
           "type": "number",
-          "value": 1.2999999523162842,
+          "value": 1.3,
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
@@ -33530,7 +33530,7 @@
           "references": [
             {
               "type": "number",
-              "value": 1.2999999523162842,
+              "value": 1.3,
               "filePath": "tokens/default/base.dimension.json",
               "isSource": true,
               "original": {
@@ -46582,7 +46582,7 @@
       "pf-t--global--font--line-height--100": {
         "default": {
           "type": "number",
-          "value": 1.2999999523162842,
+          "value": 1.3,
           "filePath": "tokens/default/base.dimension.json",
           "isSource": true,
           "original": {
