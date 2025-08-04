@@ -29909,7 +29909,7 @@
       },
       "pf-t--global--spacer--inset--page-chrome": {
         "default": {
-          "description": "Use to set a margin around primary page content.",
+          "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
           "type": "number",
           "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
