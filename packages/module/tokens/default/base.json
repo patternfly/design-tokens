@@ -114,7 +114,7 @@
           },
           "300": {
             "type": "color",
-            "value": "#153300"
+            "value": "{color.green.80}"
           }
         },
         "warning": {
@@ -154,7 +154,7 @@
           },
           "300": {
             "type": "color",
-            "value": "#501600"
+            "value": "{color.red-orange.80}"
           }
         },
         "info": {
@@ -552,6 +552,18 @@
         "200": {
           "type": "color",
           "value": "rgba(41, 41, 41, 0.2000)"
+        }
+      }
+    },
+    "focus-ring": {
+      "color": {
+        "100": {
+          "type": "color",
+          "value": "{color.blue.50}"
+        },
+        "200": {
+          "type": "color",
+          "value": "{color.blue.60}"
         }
       }
     }

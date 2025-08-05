@@ -415,6 +415,14 @@
             "value": "rgba(0, 0, 0, 0.7000)"
           }
         }
+      },
+      "focus-ring": {
+        "color": {
+          "100": {
+            "type": "color",
+            "value": "{color.blue.30}"
+          }
+        }
       }
     }
   }

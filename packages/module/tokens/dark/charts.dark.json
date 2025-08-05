@@ -270,10 +270,6 @@
           }
         }
       },
-      "letter-spacing": {
-        "type": "string",
-        "value": "normal"
-      },
       "FontSize": {
         "xs": {
           "type": "number",
@@ -290,6 +286,24 @@
         "2xl": {
           "type": "number",
           "value": 22
+        }
+      },
+      "letter-spacing": {
+        "type": "string",
+        "value": "normal"
+      },
+      "layout": {
+        "padding": {
+          "type": "number",
+          "value": 50
+        },
+        "height": {
+          "type": "number",
+          "value": 300
+        },
+        "width": {
+          "type": "number",
+          "value": 450
         }
       },
       "label": {
@@ -321,20 +335,6 @@
       "stroke-line-cap": {
         "type": "string",
         "value": "round"
-      },
-      "layout": {
-        "padding": {
-          "type": "number",
-          "value": 50
-        },
-        "height": {
-          "type": "number",
-          "value": 300
-        },
-        "width": {
-          "type": "number",
-          "value": 450
-        }
       },
       "stroke-line-join": {
         "type": "string",
