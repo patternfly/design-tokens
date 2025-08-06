@@ -12,12 +12,12 @@
           "hover": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.100}"
+            "value": "{global.dark.background.color.200}"
           },
           "clicked": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.100}"
+            "value": "{global.dark.background.color.200}"
           }
         },
         "secondary": {
@@ -1093,7 +1093,7 @@
         "disabled": {
           "description": "Use as the disabled border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.dark.color.disabled.200}"
+          "value": "{global.dark.color.disabled.100}"
         },
         "alt": {
           "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
@@ -1751,6 +1751,15 @@
             "type": "color",
             "value": "{global.dark.box-shadow.color.200}"
           }
+        }
+      }
+    },
+    "focus-ring": {
+      "color": {
+        "default": {
+          "description": "This token is used to define the color value for custom focus rings.",
+          "type": "color",
+          "value": "{global.dark.focus-ring.color.100}"
         }
       }
     }

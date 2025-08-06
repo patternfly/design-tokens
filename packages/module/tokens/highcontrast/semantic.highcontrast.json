@@ -1753,6 +1753,15 @@
           }
         }
       }
+    },
+    "focus-ring": {
+      "color": {
+        "default": {
+          "description": "This token is used to define the color value for custom focus rings.",
+          "type": "color",
+          "value": "{global.focus-ring.color.200}"
+        }
+      }
     }
   }
 }

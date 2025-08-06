@@ -82,7 +82,7 @@
       },
       "80": {
         "type": "color",
-        "value": "#002250"
+        "value": "#032142"
       }
     },
     "teal": {
@@ -181,6 +181,10 @@
       "70": {
         "type": "color",
         "value": "#204d00"
+      },
+      "80": {
+        "type": "color",
+        "value": "#183301"
       }
     },
     "orange": {
@@ -245,6 +249,10 @@
       "70": {
         "type": "color",
         "value": "#731f00"
+      },
+      "80": {
+        "type": "color",
+        "value": "#4c1405"
       }
     },
     "purple": {
