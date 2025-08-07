@@ -1078,7 +1078,7 @@
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{color.gray.30}"
+          "value": "{global.dark.border.color.300}"
         },
         "hover": {
           "description": "Use as the hover state border color for elements like form inputs, menu toggles, cards, etc.",
