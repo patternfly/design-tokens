@@ -76,12 +76,12 @@
           "hover": {
             "description": "Use as the hover border width for containers like cards, panels, code editors, etc.",
             "type": "number",
-            "value": "{global.border.width.100}"
+            "value": "{global.border.width.200}"
           },
           "clicked": {
             "description": "Use as the clicked border width for containers like cards, panels, code editors, etc.",
             "type": "number",
-            "value": "{global.border.width.200}"
+            "value": "{global.border.width.300}"
           },
           "status": {
             "default": {
@@ -99,15 +99,15 @@
         "high-contrast": {
           "regular": {
             "type": "number",
-            "value": 0
+            "value": "{global.border.width.regular}"
           },
           "strong": {
             "type": "number",
-            "value": 0
+            "value": "{global.border.width.strong}"
           },
           "extra-strong": {
             "type": "number",
-            "value": 0
+            "value": "{global.border.width.extra-strong}"
           }
         },
         "action": {
@@ -135,12 +135,12 @@
             "hover": {
               "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
               "type": "number",
-              "value": 0
+              "value": "{global.border.width.100}"
             },
             "clicked": {
               "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
               "type": "number",
-              "value": 0
+              "value": "{global.border.width.200}"
             }
           }
         },
@@ -153,7 +153,7 @@
           "hover": {
             "description": "Use as the hover state border width for controls like text inputs, menu toggles and control buttons",
             "type": "number",
-            "value": "{global.border.width.100}"
+            "value": "{global.border.width.200}"
           },
           "clicked": {
             "description": "Use as the clicked state border width for controls like text inputs, menu toggles and control buttons",

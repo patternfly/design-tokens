@@ -30388,6 +30388,58 @@
           ]
         }
       },
+      "pf-t--global--icon--size--3xl": {
+        "default": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "6rem",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for triple extra large icons.",
+            "type": "number",
+            "value": "{global.icon.size.500}"
+          },
+          "name": "pf-t--global--icon--size--3xl",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "3xl"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "6rem",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 96
+              },
+              "name": "pf-t--global--icon--size--500",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
+              },
+              "path": [
+                "global",
+                "icon",
+                "size",
+                "500"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--icon--size--font--body--sm": {
         "default": {
           "description": "Use for icons that are placed inline with small body text",
@@ -32031,53 +32083,53 @@
           ]
         }
       },
-      "pf-t--global--icon--size--3xl": {
+      "pf-t--global--border--width--regular": {
         "default": {
-          "description": "Use for triple extra large icons.",
+          "description": "Use as the default border width for elements.",
           "type": "number",
-          "value": "6rem",
+          "value": "1px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use for triple extra large icons.",
+            "description": "Use as the default border width for elements.",
             "type": "number",
-            "value": "{global.icon.size.500}"
+            "value": "{global.border.width.100}"
           },
-          "name": "pf-t--global--icon--size--3xl",
+          "name": "pf-t--global--border--width--regular",
           "attributes": {
             "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "3xl"
+            "type": "border",
+            "item": "width",
+            "subitem": "regular"
           },
           "path": [
             "global",
-            "icon",
-            "size",
-            "3xl"
+            "border",
+            "width",
+            "regular"
           ],
           "references": [
             {
               "type": "number",
-              "value": "6rem",
+              "value": "1px",
               "filePath": "tokens/default/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 96
+                "value": 1
               },
-              "name": "pf-t--global--icon--size--500",
+              "name": "pf-t--global--border--width--100",
               "attributes": {
                 "category": "global",
-                "type": "icon",
-                "item": "size",
-                "subitem": "500"
+                "type": "border",
+                "item": "width",
+                "subitem": "100"
               },
               "path": [
                 "global",
-                "icon",
-                "size",
-                "500"
+                "border",
+                "width",
+                "100"
               ]
             }
           ]
@@ -32217,58 +32269,6 @@
             "width",
             "divider",
             "clicked"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "1px",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1
-              },
-              "name": "pf-t--global--border--width--100",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "border",
-                "width",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--border--width--regular": {
-        "default": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "1px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the default border width for elements.",
-            "type": "number",
-            "value": "{global.border.width.100}"
-          },
-          "name": "pf-t--global--border--width--regular",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "regular"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "regular"
           ],
           "references": [
             {
@@ -32673,6 +32673,87 @@
           ]
         }
       },
+      "pf-t--global--border--width--high-contrast--regular": {
+        "default": {
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--high-contrast--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "high-contrast",
+            "state": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "high-contrast",
+            "regular"
+          ]
+        }
+      },
+      "pf-t--global--border--width--high-contrast--strong": {
+        "default": {
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--high-contrast--strong",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "high-contrast",
+            "state": "strong"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "high-contrast",
+            "strong"
+          ]
+        }
+      },
+      "pf-t--global--border--width--high-contrast--extra-strong": {
+        "default": {
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--high-contrast--extra-strong",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "high-contrast",
+            "state": "extra-strong"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "high-contrast",
+            "extra-strong"
+          ]
+        }
+      },
       "pf-t--global--border--width--action--default": {
         "default": {
           "description": "Use as the default border width for actions like secondary and tertiary buttons",
@@ -32832,6 +32913,96 @@
                 "200"
               ]
             }
+          ]
+        }
+      },
+      "pf-t--global--border--width--action--plain--default": {
+        "default": {
+          "description": "Use as the default border width for actions like secondary and tertiary buttons",
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--action--plain--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "action",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "action",
+            "plain",
+            "default"
+          ]
+        }
+      },
+      "pf-t--global--border--width--action--plain--hover": {
+        "default": {
+          "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--action--plain--hover",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "action",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "action",
+            "plain",
+            "hover"
+          ]
+        }
+      },
+      "pf-t--global--border--width--action--plain--clicked": {
+        "default": {
+          "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--action--plain--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "action",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "action",
+            "plain",
+            "clicked"
           ]
         }
       },
@@ -39078,480 +39249,6 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--slide-in--short": {
-        "default": {
-          "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
-          "type": "number",
-          "value": "300ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          },
-          "name": "pf-t--global--motion--duration--slide-in--short",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "slide-in",
-            "state": "short"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "slide-in",
-            "short"
-          ],
-          "references": [
-            {
-              "description": "Use for long animation duration. Use for larger, more expressive animations.",
-              "type": "number",
-              "value": "300ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for long animation duration. Use for larger, more expressive animations.",
-                "type": "number",
-                "value": "{global.duration.300}"
-              },
-              "name": "pf-t--global--motion--duration--lg",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "lg"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "lg"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "300ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 300
-                  },
-                  "name": "pf-t--global--duration--300",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "300"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "300"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--slide-in--default": {
-        "default": {
-          "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
-          "type": "number",
-          "value": "400ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.xl}"
-          },
-          "name": "pf-t--global--motion--duration--slide-in--default",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "slide-in",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "slide-in",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use for extra long animation duration.",
-              "type": "number",
-              "value": "400ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for extra long animation duration.",
-                "type": "number",
-                "value": "{global.duration.400}"
-              },
-              "name": "pf-t--global--motion--duration--xl",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "xl"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "xl"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "400ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 400
-                  },
-                  "name": "pf-t--global--duration--400",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "400"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "400"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--slide-in--long": {
-        "default": {
-          "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
-          "type": "number",
-          "value": "500ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.2xl}"
-          },
-          "name": "pf-t--global--motion--duration--slide-in--long",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "slide-in",
-            "state": "long"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "slide-in",
-            "long"
-          ],
-          "references": [
-            {
-              "description": "Use for significantly long animation duration.",
-              "type": "number",
-              "value": "500ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for significantly long animation duration.",
-                "type": "number",
-                "value": "{global.duration.500}"
-              },
-              "name": "pf-t--global--motion--duration--2xl",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "2xl"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "2xl"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "500ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 500
-                  },
-                  "name": "pf-t--global--duration--500",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "500"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "500"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--short": {
-        "default": {
-          "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-          "type": "number",
-          "value": "100ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-            "type": "number",
-            "value": "{global.motion.duration.sm}"
-          },
-          "name": "pf-t--global--motion--duration--fade--short",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "short"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "short"
-          ],
-          "references": [
-            {
-              "description": "Use for a short animation duration. Use for simple and/or small animations.",
-              "type": "number",
-              "value": "100ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a short animation duration. Use for simple and/or small animations.",
-                "type": "number",
-                "value": "{global.duration.100}"
-              },
-              "name": "pf-t--global--motion--duration--sm",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "sm"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "100ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 100
-                  },
-                  "name": "pf-t--global--duration--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "100"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "100"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--default": {
-        "default": {
-          "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-          "type": "number",
-          "value": "200ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-            "type": "number",
-            "value": "{global.motion.duration.md}"
-          },
-          "name": "pf-t--global--motion--duration--fade--default",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use for a medium animation duration.",
-              "type": "number",
-              "value": "200ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a medium animation duration.",
-                "type": "number",
-                "value": "{global.duration.200}"
-              },
-              "name": "pf-t--global--motion--duration--md",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "md"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "md"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "200ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 200
-                  },
-                  "name": "pf-t--global--duration--200",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "200"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "200"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--long": {
-        "default": {
-          "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
-          "type": "number",
-          "value": "300ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          },
-          "name": "pf-t--global--motion--duration--fade--long",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "long"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "long"
-          ],
-          "references": [
-            {
-              "description": "Use for long animation duration. Use for larger, more expressive animations.",
-              "type": "number",
-              "value": "300ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for long animation duration. Use for larger, more expressive animations.",
-                "type": "number",
-                "value": "{global.duration.300}"
-              },
-              "name": "pf-t--global--motion--duration--lg",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "lg"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "lg"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "300ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 300
-                  },
-                  "name": "pf-t--global--duration--300",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "300"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "300"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--motion--duration--icon--short": {
         "default": {
           "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
@@ -39972,6 +39669,480 @@
             "motion",
             "duration",
             "slide-out",
+            "long"
+          ],
+          "references": [
+            {
+              "description": "Use for significantly long animation duration.",
+              "type": "number",
+              "value": "500ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for significantly long animation duration.",
+                "type": "number",
+                "value": "{global.duration.500}"
+              },
+              "name": "pf-t--global--motion--duration--2xl",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "2xl"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "2xl"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "500ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 500
+                  },
+                  "name": "pf-t--global--duration--500",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "500"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "500"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--short": {
+        "default": {
+          "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+          "type": "number",
+          "value": "100ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "name": "pf-t--global--motion--duration--fade--short",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "short"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "short"
+          ],
+          "references": [
+            {
+              "description": "Use for a short animation duration. Use for simple and/or small animations.",
+              "type": "number",
+              "value": "100ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a short animation duration. Use for simple and/or small animations.",
+                "type": "number",
+                "value": "{global.duration.100}"
+              },
+              "name": "pf-t--global--motion--duration--sm",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "sm"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "100ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 100
+                  },
+                  "name": "pf-t--global--duration--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "100"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--default": {
+        "default": {
+          "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+          "type": "number",
+          "value": "200ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          },
+          "name": "pf-t--global--motion--duration--fade--default",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for a medium animation duration.",
+              "type": "number",
+              "value": "200ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a medium animation duration.",
+                "type": "number",
+                "value": "{global.duration.200}"
+              },
+              "name": "pf-t--global--motion--duration--md",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "md"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "md"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "200ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 200
+                  },
+                  "name": "pf-t--global--duration--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "200"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "200"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--long": {
+        "default": {
+          "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+          "type": "number",
+          "value": "300ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "name": "pf-t--global--motion--duration--fade--long",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "long"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "long"
+          ],
+          "references": [
+            {
+              "description": "Use for long animation duration. Use for larger, more expressive animations.",
+              "type": "number",
+              "value": "300ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for long animation duration. Use for larger, more expressive animations.",
+                "type": "number",
+                "value": "{global.duration.300}"
+              },
+              "name": "pf-t--global--motion--duration--lg",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "lg"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "lg"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "300ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 300
+                  },
+                  "name": "pf-t--global--duration--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "300"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--slide-in--short": {
+        "default": {
+          "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
+          "type": "number",
+          "value": "300ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "name": "pf-t--global--motion--duration--slide-in--short",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "slide-in",
+            "state": "short"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "slide-in",
+            "short"
+          ],
+          "references": [
+            {
+              "description": "Use for long animation duration. Use for larger, more expressive animations.",
+              "type": "number",
+              "value": "300ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for long animation duration. Use for larger, more expressive animations.",
+                "type": "number",
+                "value": "{global.duration.300}"
+              },
+              "name": "pf-t--global--motion--duration--lg",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "lg"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "lg"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "300ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 300
+                  },
+                  "name": "pf-t--global--duration--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "300"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--slide-in--default": {
+        "default": {
+          "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
+          "type": "number",
+          "value": "400ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "name": "pf-t--global--motion--duration--slide-in--default",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "slide-in",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "slide-in",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for extra long animation duration.",
+              "type": "number",
+              "value": "400ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for extra long animation duration.",
+                "type": "number",
+                "value": "{global.duration.400}"
+              },
+              "name": "pf-t--global--motion--duration--xl",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "xl"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "xl"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "400ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 400
+                  },
+                  "name": "pf-t--global--duration--400",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "400"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "400"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--slide-in--long": {
+        "default": {
+          "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
+          "type": "number",
+          "value": "500ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          },
+          "name": "pf-t--global--motion--duration--slide-in--long",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "slide-in",
+            "state": "long"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "slide-in",
             "long"
           ],
           "references": [
@@ -40762,7 +40933,7 @@
           ]
         }
       },
-      "pf-t--global--border--color--450": {
+      "pf-t--global--border--color--400": {
         "default": {
           "type": "color",
           "value": "#4d4d4d",
@@ -40772,18 +40943,18 @@
             "type": "color",
             "value": "{color.gray.60}"
           },
-          "name": "pf-t--global--border--color--450",
+          "name": "pf-t--global--border--color--400",
           "attributes": {
             "category": "global",
             "type": "border",
             "item": "color",
-            "subitem": "450"
+            "subitem": "400"
           },
           "path": [
             "global",
             "border",
             "color",
-            "450"
+            "400"
           ],
           "references": [
             {
@@ -53209,6 +53380,29 @@
         ]
       }
     },
+    "pf-t--chart--global--stroke-line-cap": {
+      "default": {
+        "type": "string",
+        "value": "round",
+        "filePath": "tokens/default/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "round"
+        },
+        "name": "pf-t--chart--global--stroke-line-cap",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "stroke-line-cap"
+        },
+        "path": [
+          "chart",
+          "global",
+          "stroke-line-cap"
+        ]
+      }
+    },
     "pf-t--chart--global--label--padding": {
       "default": {
         "type": "number",
@@ -53366,29 +53560,6 @@
               "90"
             ]
           }
-        ]
-      }
-    },
-    "pf-t--chart--global--stroke-line-cap": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-cap",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-cap"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-cap"
         ]
       }
     },

@@ -22,57 +22,81 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
     let saveFolderNames = [];
 
     switch (splitFileName) {
-      case '/* Base Dimension Tokens.Mode 1.tokens.json */':
-        saveFileName = 'base.dimension.json';
-        saveFolderNames = ['default'];
-        break;
-      case '/* Base Color Tokens - Light.Value.tokens.json */':
-        saveFileName = 'base.json';
-        saveFolderNames = ['default', 'highcontrast'];
-        break;
+      // Color palette
       case '/* Color Palette.Mode 1.tokens.json */':
         saveFileName = 'palette.color.json';
         saveFolderNames = ['default', 'dark', 'highcontrast', 'highcontrast-dark'];
         break;
-      case ('/* Semantic Dimension Tokens.Value.tokens.json */' || '/* Semantic Dimension Tokens.Mode 1.tokens.json */'):
-        saveFileName = 'semantic.dimension.json';
-        saveFolderNames = ['default'];
+
+      // Base tokens
+      // Base color
+      case '/* Base Color Tokens - Light.Value.tokens.json */':
+        saveFileName = 'base.json';
+        saveFolderNames = ['default', 'highcontrast'];
         break;
-      case '/* Semantic Color Tokens.Light.tokens.json */':
-        saveFileName = 'semantic.json';
-        saveFolderNames = ['default'];
-        break;
+      // Base color - dark
       case '/* Base Color Tokens - Dark.Mode 1.tokens.json */':
         saveFileName = 'base.dark.json';
         saveFolderNames = ['dark', 'highcontrast-dark'];
         break;
-      case '/* Semantic Color Tokens.Dark.tokens.json */':
-        saveFileName = 'semantic.dark.json';
-        saveFolderNames = ['dark'];
+      // Base dimension
+      case '/* Base Dimension Tokens.Mode 1.tokens.json */':
+        saveFileName = 'base.dimension.json';
+        saveFolderNames = ['default', 'highcontrast'];
         break;
-      case '/* Charts.Light.tokens.json */':
-        saveFileName = 'charts.json';
-        saveFolderNames = ['default'];
-        break;
-      case '/* Charts.Dark.tokens.json */':
-        saveFileName = 'charts.dark.json';
-        saveFolderNames = ['dark'];
-        break;
+      // Base motion
       case '/* Base Motion Tokens.Mode 1.tokens.json */':
         saveFileName = 'base.motion.json';
         saveFolderNames = ['default'];
         break;
-      case '/* Semantic Motion Tokens.Mode 1.tokens.json */':
-        saveFileName = 'semantic.motion.json';
+
+      // Semantic tokens
+      // Semantic color
+      case '/* Semantic Color Tokens.Light.tokens.json */':
+        saveFileName = 'semantic.json';
         saveFolderNames = ['default'];
         break;
+      // Semantic color - dark
+      case '/* Semantic Color Tokens.Dark.tokens.json */':
+        saveFileName = 'semantic.dark.json';
+        saveFolderNames = ['dark'];
+        break;
+      // Semantic color - high contrast
       case '/* Semantic Color Tokens.Light - High Contrast.tokens.json */':
         saveFileName = 'semantic.highcontrast.json';
         saveFolderNames = ['highcontrast'];
         break;
+      // Semantic color - high contrast - dark
       case '/* Semantic Color Tokens.Dark - High Contrast.tokens.json */':
         saveFileName = 'semantic.highcontrast.dark.json';
         saveFolderNames = ['highcontrast-dark'];
+        break;
+      // Semantic dimension
+      case ('/* Semantic Dimension Tokens.Default.tokens.json */'):
+        saveFileName = 'semantic.dimension.json';
+        saveFolderNames = ['default'];
+        break;
+      // Semantic dimension - high contrast
+      case '/* Semantic Dimension Tokens.High Contrast.tokens.json */':
+        saveFileName = 'semantic.dimension.highcontrast.json';
+        saveFolderNames = ['highcontrast'];
+        break;
+      // Semantic motion
+      case '/* Semantic Motion Tokens.Mode 1.tokens.json */':
+        saveFileName = 'semantic.motion.json';
+        saveFolderNames = ['default'];
+        break;
+
+      // Charts tokens
+      // Charts
+      case '/* Charts.Light.tokens.json */':
+        saveFileName = 'charts.json';
+        saveFolderNames = ['default'];
+        break;
+      // Charts - dark
+      case '/* Charts.Dark.tokens.json */':
+        saveFileName = 'charts.dark.json';
+        saveFolderNames = ['dark'];
         break;
       default:
         saveFileName = splitFiles[i].split('\n', 1)[0];

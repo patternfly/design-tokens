@@ -1078,7 +1078,7 @@
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.border.color.450}"
+          "value": "{global.border.color.400}"
         },
         "hover": {
           "description": "Use as the hover state border color for elements like form inputs, menu toggles, cards, etc.",
@@ -1103,7 +1103,7 @@
         "on-secondary": {
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
-          "value": "{color.gray.80}"
+          "value": "{global.border.color.400}"
         },
         "nonstatus": {
           "red": {
