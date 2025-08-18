@@ -29984,6 +29984,7 @@
       },
       "pf-t--global--spacer--inset--page-chrome": {
         "default": {
+          "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
           "type": "number",
           "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
@@ -30057,6 +30058,7 @@
       },
       "pf-t--global--spacer--gutter--default": {
         "default": {
+          "description": "Use to define gutters between elements in certain layouts, like grids.",
           "type": "number",
           "value": "1rem",
           "filePath": "tokens/default/semantic.dimension.json",
