@@ -67,6 +67,20 @@
           "type": "number",
           "value": "{global.border.width.300}"
         },
+        "high-contrast": {
+          "regular": {
+            "type": "number",
+            "value": 0
+          },
+          "strong": {
+            "type": "number",
+            "value": 0
+          },
+          "extra-strong": {
+            "type": "number",
+            "value": 0
+          }
+        },
         "box": {
           "default": {
             "description": "Use as the default border width for containers like cards, panels, code editors, etc.",
@@ -96,18 +110,10 @@
             }
           }
         },
-        "high-contrast": {
-          "regular": {
+        "main": {
+          "default": {
             "type": "number",
-            "value": 0
-          },
-          "strong": {
-            "type": "number",
-            "value": 0
-          },
-          "extra-strong": {
-            "type": "number",
-            "value": 0
+            "value": "{global.border.width.400}"
           }
         },
         "action": {
@@ -390,11 +396,6 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
-        },
         "font": {
           "body": {
             "sm": {
@@ -485,6 +486,11 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
+        },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
         }
       }
     },
