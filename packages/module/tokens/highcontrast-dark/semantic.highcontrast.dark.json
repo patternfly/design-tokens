@@ -1105,6 +1105,12 @@
           "type": "color",
           "value": "{global.dark.border.color.300}"
         },
+        "main": {
+          "default": {
+            "type": "color",
+            "value": "{global.border.color.default}"
+          }
+        },
         "nonstatus": {
           "red": {
             "default": {
