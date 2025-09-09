@@ -86,7 +86,7 @@ const build = (selector) => {
     matcher: (token) =>
       (token.attributes.type === 'border' && token.original.type === 'number') ||
       (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
-      (token.attribute.type === 'focus-ring' && token.attribute.item === 'position'),
+      (token.attributes.type === 'focus-ring' && token.attributes.item === 'position'),
     transformer: (token) => `${token.value}px`
   });
 
