@@ -84,9 +84,8 @@ const build = (selector) => {
     name: 'patternfly/global/px',
     type: 'value',
     matcher: (token) =>
-      (token.attributes.type === 'border' && token.original.type === 'number') ||
-      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
-      (token.attributes.type === 'focus-ring' && token.attributes.item === 'position'),
+      (['border', 'focus-ring'].includes(token.attributes.type) && token.original.type === 'number') ||
+      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color'),
     transformer: (token) => `${token.value}px`
   });
 
