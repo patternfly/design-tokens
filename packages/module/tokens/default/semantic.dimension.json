@@ -67,6 +67,12 @@
           "type": "number",
           "value": "{global.border.width.300}"
         },
+        "main": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.width.400}"
+          }
+        },
         "high-contrast": {
           "regular": {
             "type": "number",
@@ -108,12 +114,6 @@
               "type": "number",
               "value": "{global.border.width.100}"
             }
-          }
-        },
-        "main": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.width.400}"
           }
         },
         "action": {
@@ -396,6 +396,11 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        },
         "font": {
           "body": {
             "sm": {
@@ -486,15 +491,22 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
-        },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
         }
       }
     },
     "font": {
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
+        }
+      },
       "weight": {
         "body": {
           "default": {
@@ -519,18 +531,6 @@
             "type": "number",
             "value": "{global.font.weight.400}"
           }
-        }
-      },
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
         }
       },
       "family": {
