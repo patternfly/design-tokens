@@ -84,7 +84,7 @@ const build = (selector) => {
     name: 'patternfly/global/px',
     type: 'value',
     matcher: (token) =>
-      (token.attributes.type === 'border' && token.original.type === 'number') ||
+      (['border', 'focus-ring'].includes(token.attributes.type) && token.original.type === 'number') ||
       (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color'),
     transformer: (token) => `${token.value}px`
   });
@@ -114,7 +114,10 @@ const build = (selector) => {
     name: 'patternfly/global/round-decimel',
     type: 'value',
     matcher: (token) => token.type === 'number',
-    transformer: (token) => { console.log(token); return Math.round(parseFloat(token.value) * 100) / 100 }
+    transformer: (token) => {
+      console.log(token);
+      return Math.round(parseFloat(token.value) * 100) / 100;
+    }
   });
 
   // Reigster custom transform group

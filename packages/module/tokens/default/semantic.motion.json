@@ -38,21 +38,21 @@
           "type": "number",
           "value": "{global.duration.600}"
         },
-        "fade": {
+        "slide-out": {
           "short": {
-            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-            "type": "number",
-            "value": "{global.motion.duration.sm}"
-          },
-          "default": {
-            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-            "type": "number",
-            "value": "{global.motion.duration.md}"
-          },
-          "long": {
-            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
             "type": "number",
             "value": "{global.motion.duration.lg}"
+          },
+          "default": {
+            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "long": {
+            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
           }
         },
         "icon": {
@@ -72,21 +72,21 @@
             "value": "{global.motion.duration.md}"
           }
         },
-        "slide-out": {
+        "fade": {
           "short": {
-            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
             "type": "number",
-            "value": "{global.motion.duration.lg}"
+            "value": "{global.motion.duration.sm}"
           },
           "default": {
-            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
             "type": "number",
-            "value": "{global.motion.duration.xl}"
+            "value": "{global.motion.duration.md}"
           },
           "long": {
-            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
             "type": "number",
-            "value": "{global.motion.duration.2xl}"
+            "value": "{global.motion.duration.lg}"
           }
         },
         "slide-in": {
