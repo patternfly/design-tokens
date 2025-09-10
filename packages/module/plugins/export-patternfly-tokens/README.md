@@ -18,7 +18,7 @@ Once the plugin has been added to Figma via the manifest file:
 1. Click **Export Tokens**. The text area will display a concatenated list of all tokens exported from the Figma library. Links to each exported JSON file are displayed at the bottom of the dialog. There is a "Download all files" link (named `tokens.zip`) at the top of the dialog that contains all of the exported files.
 1. Click on the `tokens.zip` file to download all of the files, unless you only want to update a specific type of token. In that case, you can click any of the JSON file links to save them locally (do not rename the JSON files!). Note: it's much easier to download all of the files at once via the `tokens.zip` file. There is no harm in downloading all of the files at once, unless there is a specific reason you want to exclude any of them.
 1. Copy the local JSON files you downloaded to your cloned design-tokens repo:
-   1. If you downloaded `tokens.zip` in the previous step, unzip the file and simply copy the "tokens" directory it creates to **\packages\module\** and override the existing "tokens" directory.
+   1. If you downloaded `tokens.zip` in the previous step, unzip the file and simply copy the "tokens" directory it creates to **\packages\module** and override the existing "tokens" directory.
    1. If you downloaded individual files:
        1. Copy files that do not end in **.dark.json** to  **\packages\module\tokens\default**. 
        1. Copy files ending in **.dark.json** and **palette.color.json** to **\packages\module\tokens\dark**.
