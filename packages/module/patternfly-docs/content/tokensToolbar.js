@@ -7,15 +7,61 @@ import {
   SelectOption,
   Toolbar,
   ToolbarItem,
-  ToolbarContent
+  ToolbarContent,
+  capitalize
 } from '@patternfly/react-core';
 import FilterIcon from '@patternfly/react-icons/dist/esm/icons/filter-icon';
 
-export const TokensToolbar = ({ selectedCategories, setSelectedCategories, searchValue, setSearchValue }) => {
+const TokensToolbarSelect = ({ selectedCategory, setSelectedCategory, categories }) => {
   const [isSelectOpen, setIsSelectOpen] = React.useState(false);
+  const handleSelect = (_e, category) => {
+    if (!(selectedCategory === category)) {
+      setSelectedCategory(category);
+    }
+    setIsSelectOpen(!isSelectOpen);
+  };
+
+  const SelectToggle = (toggleRef) => (
+    <MenuToggle
+      icon={<FilterIcon />}
+      ref={toggleRef}
+      onClick={() => setIsSelectOpen(!isSelectOpen)}
+      isExpanded={isSelectOpen}
+    >
+      {capitalize(selectedCategory)} tokens
+    </MenuToggle>
+  );
 
   return (
-    <Toolbar id="filter-toolbar">
+    <Select
+      aria-label="Select Input"
+      role="menu"
+      toggle={SelectToggle}
+      isOpen={isSelectOpen}
+      onOpenChange={(isOpen) => setIsSelectOpen(isOpen)}
+      onSelect={handleSelect}
+    >
+      <SelectList>
+        {categories.map((category, idx) => (
+          <SelectOption key={idx} value={category} isSelected={selectedCategory === category}>
+            {capitalize(category)} tokens
+          </SelectOption>
+        ))}
+      </SelectList>
+    </Select>
+  );
+};
+
+export const TokensToolbar = ({
+  selectedCategory,
+  setSelectedCategory,
+  searchValue,
+  setSearchValue,
+  resultsCount,
+  categories
+}) => {
+  return (
+    <Toolbar>
       <ToolbarContent>
         <ToolbarItem variant="search-filter">
           <SearchInput
@@ -24,52 +70,16 @@ export const TokensToolbar = ({ selectedCategories, setSelectedCategories, searc
             value={searchValue}
             onChange={(_event, value) => setSearchValue(value)}
             onClear={() => setSearchValue('')}
+            resultsCount={resultsCount}
           />
         </ToolbarItem>
+
         <ToolbarItem>
-          <Select
-            id="select-tokens-category"
-            aria-label="Select Input"
-            role="menu"
-            toggle={(toggleRef) => (
-              <MenuToggle
-                icon={<FilterIcon />}
-                ref={toggleRef}
-                onClick={() => setIsSelectOpen(!isSelectOpen)}
-                isExpanded={isSelectOpen}
-              >
-                Category
-              </MenuToggle>
-            )}
-            isOpen={isSelectOpen}
-            onOpenChange={(isOpen) => setIsSelectOpen(isOpen)}
-            onSelect={(_e, category) => {
-              if (selectedCategories.includes(category)) {
-                setSelectedCategories(selectedCategories.filter((cat) => cat !== category));
-              } else {
-                setSelectedCategories([...selectedCategories, category]);
-              }
-              setIsSelectOpen(!isSelectOpen);
-            }}
-          >
-            <SelectList>
-              <SelectOption hasCheckbox key={0} value="colors" isSelected={selectedCategories.includes('colors')}>
-                Colors
-              </SelectOption>
-              <SelectOption hasCheckbox key={1} value="dimension" isSelected={selectedCategories.includes('dimension')}>
-                Dimension
-              </SelectOption>
-              <SelectOption hasCheckbox key={2} value="motion" isSelected={selectedCategories.includes('motion')}>
-                Motion
-              </SelectOption>
-              <SelectOption hasCheckbox key={3} value="palette" isSelected={selectedCategories.includes('palette')}>
-                Palette
-              </SelectOption>
-              <SelectOption hasCheckbox key={4} value="chart" isSelected={selectedCategories.includes('chart')}>
-                Chart
-              </SelectOption>
-            </SelectList>
-          </Select>
+          <TokensToolbarSelect
+            selectedCategory={selectedCategory}
+            setSelectedCategory={setSelectedCategory}
+            categories={categories}
+          />
         </ToolbarItem>
       </ToolbarContent>
     </Toolbar>
