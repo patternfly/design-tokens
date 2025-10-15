@@ -62,12 +62,12 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFolderNames = ['dark'];
         break;
       // Semantic color - high contrast
-      case '/* Semantic Color Tokens.Light - High Contrast.tokens.json */':
+      case '/* Semantic Color Tokens.Light - High Contrast (Beta).tokens.json */':
         saveFileName = 'semantic.highcontrast.json';
         saveFolderNames = ['highcontrast'];
         break;
       // Semantic color - high contrast - dark
-      case '/* Semantic Color Tokens.Dark - High Contrast.tokens.json */':
+      case '/* Semantic Color Tokens.Dark - High Contrast (Beta).tokens.json */':
         saveFileName = 'semantic.highcontrast.dark.json';
         saveFolderNames = ['highcontrast-dark'];
         break;
@@ -77,7 +77,7 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFolderNames = ['default'];
         break;
       // Semantic dimension - high contrast
-      case '/* Semantic Dimension Tokens.High Contrast.tokens.json */':
+      case '/* Semantic Dimension Tokens.High Contrast - Beta.tokens.json */':
         saveFileName = 'semantic.dimension.highcontrast.json';
         saveFolderNames = ['highcontrast'];
         break;

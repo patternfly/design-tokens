@@ -38,6 +38,23 @@
           "type": "number",
           "value": "{global.duration.600}"
         },
+        "fade": {
+          "short": {
+            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "default": {
+            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          },
+          "long": {
+            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          }
+        },
         "slide-out": {
           "short": {
             "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
@@ -51,6 +68,23 @@
           },
           "long": {
             "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          }
+        },
+        "slide-in": {
+          "short": {
+            "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "default": {
+            "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "long": {
+            "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
             "type": "number",
             "value": "{global.motion.duration.2xl}"
           }
@@ -70,40 +104,6 @@
             "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
             "type": "number",
             "value": "{global.motion.duration.md}"
-          }
-        },
-        "fade": {
-          "short": {
-            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-            "type": "number",
-            "value": "{global.motion.duration.sm}"
-          },
-          "default": {
-            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-            "type": "number",
-            "value": "{global.motion.duration.md}"
-          },
-          "long": {
-            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          }
-        },
-        "slide-in": {
-          "short": {
-            "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          },
-          "default": {
-            "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.xl}"
-          },
-          "long": {
-            "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.2xl}"
           }
         }
       },

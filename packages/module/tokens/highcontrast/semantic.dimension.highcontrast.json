@@ -35,11 +35,6 @@
         }
       },
       "width": {
-        "regular": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.100}"
-        },
         "divider": {
           "default": {
             "description": "Use as the default border width for dividers.",
@@ -57,6 +52,11 @@
             "value": "{global.border.width.100}"
           }
         },
+        "regular": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
         "strong": {
           "description": "Use as a stronger/wider border width for elements.",
           "type": "number",
@@ -66,26 +66,6 @@
           "description": "Use as the strongest/widest border width for elements.",
           "type": "number",
           "value": "{global.border.width.300}"
-        },
-        "main": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.width.200}"
-          }
-        },
-        "high-contrast": {
-          "regular": {
-            "type": "number",
-            "value": "{global.border.width.regular}"
-          },
-          "strong": {
-            "type": "number",
-            "value": "{global.border.width.strong}"
-          },
-          "extra-strong": {
-            "type": "number",
-            "value": "{global.border.width.extra-strong}"
-          }
         },
         "box": {
           "default": {
@@ -116,11 +96,48 @@
             }
           }
         },
+        "high-contrast": {
+          "regular": {
+            "type": "number",
+            "value": "{global.border.width.regular}"
+          },
+          "strong": {
+            "type": "number",
+            "value": "{global.border.width.strong}"
+          },
+          "extra-strong": {
+            "type": "number",
+            "value": "{global.border.width.extra-strong}"
+          }
+        },
+        "main": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.width.200}"
+          }
+        },
         "action": {
           "default": {
             "description": "Use as the default border width for actions like secondary and tertiary buttons",
             "type": "number",
             "value": "{global.border.width.100}"
+          },
+          "plain": {
+            "default": {
+              "description": "Use as the default border width for plain actions",
+              "type": "number",
+              "value": 0
+            },
+            "hover": {
+              "description": "Use as the border width for plain actions in their hover state",
+              "type": "number",
+              "value": "{global.border.width.100}"
+            },
+            "clicked": {
+              "description": "Use as the border width for plain actions in their clicked state",
+              "type": "number",
+              "value": "{global.border.width.200}"
+            }
           },
           "hover": {
             "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
@@ -131,23 +148,6 @@
             "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
             "type": "number",
             "value": "{global.border.width.200}"
-          },
-          "plain": {
-            "default": {
-              "description": "Use as the default border width for actions like secondary and tertiary buttons",
-              "type": "number",
-              "value": 0
-            },
-            "hover": {
-              "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
-              "type": "number",
-              "value": "{global.border.width.100}"
-            },
-            "clicked": {
-              "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
-              "type": "number",
-              "value": "{global.border.width.200}"
-            }
           }
         },
         "control": {
@@ -358,12 +358,14 @@
       },
       "inset": {
         "page-chrome": {
+          "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
           "type": "number",
           "value": "{global.spacer.lg}"
         }
       },
       "gutter": {
         "default": {
+          "description": "Use to define gutters between elements in certain layouts, like grids.",
           "type": "number",
           "value": "{global.spacer.md}"
         }
@@ -495,18 +497,6 @@
       }
     },
     "font": {
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
-        }
-      },
       "weight": {
         "body": {
           "default": {
@@ -531,6 +521,18 @@
             "type": "number",
             "value": "{global.font.weight.400}"
           }
+        }
+      },
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
         }
       },
       "family": {
@@ -1038,20 +1040,24 @@
     "focus-ring": {
       "position": {
         "offset": {
+          "description": "Use to define the position of a custom focus ring that sits outside (offset) of the element receiving focus.",
           "type": "number",
           "value": 2
         },
         "inset": {
+          "description": "Use to define the position of a custom focus ring that sits inside (inset) of the element receiving focus.",
           "type": "number",
           "value": -4
         }
       },
       "width": {
         "offset": {
+          "description": "Use to define the width of a custom focus ring that sits outside (offset) of the element receiving focus.",
           "type": "number",
           "value": 2
         },
         "inset": {
+          "description": "Use to define the width of a custom focus ring that sits inside (inset) of the element receiving focus.",
           "type": "number",
           "value": 3
         }
