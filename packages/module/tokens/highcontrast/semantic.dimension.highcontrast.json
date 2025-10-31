@@ -35,11 +35,6 @@
         }
       },
       "width": {
-        "regular": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.100}"
-        },
         "divider": {
           "default": {
             "description": "Use as the default border width for dividers.",
@@ -57,6 +52,11 @@
             "value": "{global.border.width.100}"
           }
         },
+        "regular": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
         "strong": {
           "description": "Use as a stronger/wider border width for elements.",
           "type": "number",
@@ -71,20 +71,6 @@
           "default": {
             "type": "number",
             "value": "{global.border.width.200}"
-          }
-        },
-        "high-contrast": {
-          "regular": {
-            "type": "number",
-            "value": "{global.border.width.regular}"
-          },
-          "strong": {
-            "type": "number",
-            "value": "{global.border.width.strong}"
-          },
-          "extra-strong": {
-            "type": "number",
-            "value": "{global.border.width.extra-strong}"
           }
         },
         "box": {
@@ -114,6 +100,20 @@
               "type": "number",
               "value": "{global.border.width.100}"
             }
+          }
+        },
+        "high-contrast": {
+          "regular": {
+            "type": "number",
+            "value": "{global.border.width.regular}"
+          },
+          "strong": {
+            "type": "number",
+            "value": "{global.border.width.strong}"
+          },
+          "extra-strong": {
+            "type": "number",
+            "value": "{global.border.width.extra-strong}"
           }
         },
         "action": {
@@ -396,29 +396,7 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
-        },
         "font": {
-          "body": {
-            "sm": {
-              "description": "Use for icons that are placed inline with small body text",
-              "type": "number",
-              "value": "{global.font.size.body.sm}"
-            },
-            "default": {
-              "description": "Use for icons that are placed inline with default body text",
-              "type": "number",
-              "value": "{global.font.size.body.default}"
-            },
-            "lg": {
-              "description": "Use for icons that are placed inline with large body text",
-              "type": "number",
-              "value": "{global.font.size.body.lg}"
-            }
-          },
           "heading": {
             "h1": {
               "description": "Use for icons that are placed inline with first level headings",
@@ -449,6 +427,23 @@
               "description": "Use for icons that are placed inline with sixth level headings",
               "type": "number",
               "value": "{global.font.size.heading.h6}"
+            }
+          },
+          "body": {
+            "sm": {
+              "description": "Use for icons that are placed inline with small body text",
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "description": "Use for icons that are placed inline with default body text",
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "description": "Use for icons that are placed inline with large body text",
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
             }
           },
           "xs": {
@@ -491,6 +486,11 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
+        },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
         }
       }
     },

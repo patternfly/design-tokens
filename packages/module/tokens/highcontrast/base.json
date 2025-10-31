@@ -64,6 +64,38 @@
         "500": {
           "type": "color",
           "value": "{color.blue.80}"
+        },
+        "accent": {
+          "100": {
+            "type": "color",
+            "value": "{color.red.50}"
+          },
+          "200": {
+            "type": "color",
+            "value": "{color.red.60}"
+          },
+          "300": {
+            "type": "color",
+            "value": "{color.red.70}"
+          }
+        },
+        "subtle": {
+          "100": {
+            "type": "color",
+            "value": "{color.blue.10}"
+          },
+          "200": {
+            "type": "color",
+            "value": "{color.blue.20}"
+          },
+          "300": {
+            "type": "color",
+            "value": "{color.blue.40}"
+          },
+          "400": {
+            "type": "color",
+            "value": "{color.blue.50}"
+          }
         }
       },
       "disabled": {
