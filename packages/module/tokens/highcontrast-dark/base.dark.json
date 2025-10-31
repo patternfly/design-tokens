@@ -32,6 +32,10 @@
             "type": "color",
             "value": "rgba(199, 199, 199, 0.1500)"
           },
+          "700": {
+            "type": "color",
+            "value": "rgba(199, 199, 199, 0.2500)"
+          },
           "highlight": {
             "100": {
               "type": "color",
@@ -57,6 +61,38 @@
           "300": {
             "type": "color",
             "value": "{color.blue.10}"
+          },
+          "accent": {
+            "100": {
+              "type": "color",
+              "value": "{color.red.50}"
+            },
+            "200": {
+              "type": "color",
+              "value": "{color.red.40}"
+            },
+            "300": {
+              "type": "color",
+              "value": "{color.red.30}"
+            },
+            "400": {
+              "type": "color",
+              "value": "{color.red.20}"
+            }
+          },
+          "subtle": {
+            "100": {
+              "type": "color",
+              "value": "{color.blue.70}"
+            },
+            "200": {
+              "type": "color",
+              "value": "{color.blue.60}"
+            },
+            "300": {
+              "type": "color",
+              "value": "{color.blue.30}"
+            }
           }
         },
         "disabled": {

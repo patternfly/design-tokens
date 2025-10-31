@@ -292,20 +292,6 @@
           "value": 22
         }
       },
-      "layout": {
-        "padding": {
-          "type": "number",
-          "value": 50
-        },
-        "height": {
-          "type": "number",
-          "value": 300
-        },
-        "width": {
-          "type": "number",
-          "value": 450
-        }
-      },
       "stroke-line-cap": {
         "type": "string",
         "value": "round"
@@ -334,6 +320,20 @@
         "fill": {
           "type": "color",
           "value": "{color.white}"
+        }
+      },
+      "layout": {
+        "padding": {
+          "type": "number",
+          "value": 50
+        },
+        "height": {
+          "type": "number",
+          "value": 300
+        },
+        "width": {
+          "type": "number",
+          "value": 450
         }
       },
       "stroke-line-join": {

@@ -145,6 +145,18 @@
             "type": "color",
             "value": "{global.background.color.500}"
           }
+        },
+        "loading": {
+          "skeleton": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.600}"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "{global.background.color.700}"
+            }
+          }
         }
       }
     },
@@ -164,6 +176,40 @@
           "description": "Use as the clicked state for elements that have a brand background color",
           "type": "color",
           "value": "{global.color.brand.300}"
+        },
+        "accent": {
+          "default": {
+            "description": "Use this color for elements that you want to reinforce your brand",
+            "type": "color",
+            "value": "{global.color.brand.accent.100}"
+          },
+          "hover": {
+            "description": "Use as the hover state for elements that have a branded background color",
+            "type": "color",
+            "value": "{global.color.brand.accent.200}"
+          },
+          "clicked": {
+            "description": "Use as the clicked state for elements that have a brand background color",
+            "type": "color",
+            "value": "{global.color.brand.accent.200}"
+          }
+        },
+        "subtle": {
+          "default": {
+            "description": "Use this color for elements that you want to reinforce your brand",
+            "type": "color",
+            "value": "{global.color.brand.subtle.100}"
+          },
+          "hover": {
+            "description": "Use as the hover state for elements that have a branded background color",
+            "type": "color",
+            "value": "{global.color.brand.subtle.200}"
+          },
+          "clicked": {
+            "description": "Use as the clicked state for elements that have a brand background color",
+            "type": "color",
+            "value": "{global.color.brand.subtle.200}"
+          }
         }
       },
       "favorite": {
@@ -489,6 +535,23 @@
             "description": "Use as the clicked state for icons that convey your brand and/or are paired with branded text color.",
             "type": "color",
             "value": "{global.color.brand.clicked}"
+          },
+          "accent": {
+            "default": {
+              "description": "Use as the color for icons that convey your brand and/or are paired with branded text color.",
+              "type": "color",
+              "value": "{global.color.brand.accent.default}"
+            },
+            "hover": {
+              "description": "Use as the hover state color for icons that convey your brand and/or are paired with branded text color.",
+              "type": "color",
+              "value": "{global.color.brand.accent.hover}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state for icons that convey your brand and/or are paired with branded text color.",
+              "type": "color",
+              "value": "{global.color.brand.accent.clicked}"
+            }
           }
         },
         "on-brand": {
@@ -506,6 +569,40 @@
             "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
             "type": "color",
             "value": "{global.icon.color.inverse}"
+          },
+          "accent": {
+            "default": {
+              "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.inverse}"
+            },
+            "hover": {
+              "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.inverse}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.inverse}"
+            }
+          },
+          "subtle": {
+            "default": {
+              "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.regular}"
+            },
+            "hover": {
+              "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.regular}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.regular}"
+            }
           }
         },
         "favorite": {
@@ -967,10 +1064,6 @@
             "value": "{global.border.color.50}"
           }
         },
-        "high-contrast": {
-          "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)"
-        },
         "brand": {
           "default": {
             "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
@@ -986,6 +1079,40 @@
             "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
             "type": "color",
             "value": "{global.color.brand.clicked}"
+          },
+          "accent": {
+            "default": {
+              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.accent.default}"
+            },
+            "hover": {
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.accent.hover}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.accent.clicked}"
+            }
+          },
+          "subtle": {
+            "default": {
+              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.subtle.200}"
+            },
+            "hover": {
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.subtle.300}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.subtle.300}"
+            }
           }
         },
         "status": {
@@ -1075,6 +1202,11 @@
             }
           }
         },
+        "high-contrast": {
+          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0000)"
+        },
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
@@ -1104,12 +1236,6 @@
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
           "value": "{global.border.color.300}"
-        },
-        "main": {
-          "default": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          }
         },
         "nonstatus": {
           "red": {
@@ -1265,6 +1391,12 @@
               "value": "{global.color.nonstatus.gray.300}"
             }
           }
+        },
+        "main": {
+          "default": {
+            "type": "color",
+            "value": "{global.background.color.primary.default}"
+          }
         }
       }
     },
@@ -1334,6 +1466,40 @@
             "description": "Use as the clicked state color for text placed on a brand-colored background.",
             "type": "color",
             "value": "{global.text.color.inverse}"
+          },
+          "accent": {
+            "default": {
+              "description": "Use as the default color for text placed on a brand-colored background.",
+              "type": "color",
+              "value": "{global.text.color.inverse}"
+            },
+            "hover": {
+              "description": "Use as the hover state color for text placed on a brand-colored background.",
+              "type": "color",
+              "value": "{global.text.color.inverse}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state color for text placed on a brand-colored background.",
+              "type": "color",
+              "value": "{global.text.color.inverse}"
+            }
+          },
+          "subtle": {
+            "default": {
+              "description": "Use as the default color for text placed on a brand-colored background.",
+              "type": "color",
+              "value": "{global.text.color.regular}"
+            },
+            "hover": {
+              "description": "Use as the hover state color for text placed on a brand-colored background.",
+              "type": "color",
+              "value": "{global.text.color.regular}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state color for text placed on a brand-colored background.",
+              "type": "color",
+              "value": "{global.text.color.regular}"
+            }
           }
         },
         "placeholder": {
@@ -1763,7 +1929,7 @@
     "focus-ring": {
       "color": {
         "default": {
-          "description": "This token is used to define the color value for custom focus rings.",
+          "description": "Use as color value for custom focus rings",
           "type": "color",
           "value": "{global.focus-ring.color.100}"
         }

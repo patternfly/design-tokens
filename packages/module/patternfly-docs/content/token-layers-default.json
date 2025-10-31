@@ -313,6 +313,333 @@
           ]
         }
       },
+      "pf-t--global--icon--color--brand--accent--default": {
+        "default": {
+          "description": "Use as the color for icons that convey your brand and/or are paired with branded text color.",
+          "type": "color",
+          "value": "#ee0000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the color for icons that convey your brand and/or are paired with branded text color.",
+            "type": "color",
+            "value": "{global.color.brand.accent.default}"
+          },
+          "name": "pf-t--global--icon--color--brand--accent--default",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "brand",
+            "accent",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use this color for elements that you want to reinforce your brand",
+              "type": "color",
+              "value": "#ee0000",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use this color for elements that you want to reinforce your brand",
+                "type": "color",
+                "value": "{global.color.brand.accent.100}"
+              },
+              "name": "pf-t--global--color--brand--accent--default",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ee0000",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.red.50}"
+                  },
+                  "name": "pf-t--global--color--brand--accent--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "color",
+                    "item": "brand",
+                    "subitem": "accent",
+                    "state": "100"
+                  },
+                  "path": [
+                    "global",
+                    "color",
+                    "brand",
+                    "accent",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ee0000",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ee0000"
+                      },
+                      "name": "pf-t--color--red--50",
+                      "attributes": {
+                        "category": "color",
+                        "type": "red",
+                        "item": "50"
+                      },
+                      "path": [
+                        "color",
+                        "red",
+                        "50"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--brand--accent--hover": {
+        "default": {
+          "description": "Use as the hover state color for icons that convey your brand and/or are paired with branded text color.",
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state color for icons that convey your brand and/or are paired with branded text color.",
+            "type": "color",
+            "value": "{global.color.brand.accent.hover}"
+          },
+          "name": "pf-t--global--icon--color--brand--accent--hover",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "brand",
+            "accent",
+            "hover"
+          ],
+          "references": [
+            {
+              "description": "Use as the hover state for elements that have a branded background color",
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the hover state for elements that have a branded background color",
+                "type": "color",
+                "value": "{global.color.brand.accent.200}"
+              },
+              "name": "pf-t--global--color--brand--accent--hover",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "hover"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "hover"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#a60000",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.red.60}"
+                  },
+                  "name": "pf-t--global--color--brand--accent--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "color",
+                    "item": "brand",
+                    "subitem": "accent",
+                    "state": "200"
+                  },
+                  "path": [
+                    "global",
+                    "color",
+                    "brand",
+                    "accent",
+                    "200"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#a60000",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#a60000"
+                      },
+                      "name": "pf-t--color--red--60",
+                      "attributes": {
+                        "category": "color",
+                        "type": "red",
+                        "item": "60"
+                      },
+                      "path": [
+                        "color",
+                        "red",
+                        "60"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--brand--accent--clicked": {
+        "default": {
+          "description": "Use as the clicked state for icons that convey your brand and/or are paired with branded text color.",
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state for icons that convey your brand and/or are paired with branded text color.",
+            "type": "color",
+            "value": "{global.color.brand.accent.clicked}"
+          },
+          "name": "pf-t--global--icon--color--brand--accent--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "brand",
+            "accent",
+            "clicked"
+          ],
+          "references": [
+            {
+              "description": "Use as the clicked state for elements that have a brand background color",
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the clicked state for elements that have a brand background color",
+                "type": "color",
+                "value": "{global.color.brand.accent.200}"
+              },
+              "name": "pf-t--global--color--brand--accent--clicked",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "clicked"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "clicked"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#a60000",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.red.60}"
+                  },
+                  "name": "pf-t--global--color--brand--accent--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "color",
+                    "item": "brand",
+                    "subitem": "accent",
+                    "state": "200"
+                  },
+                  "path": [
+                    "global",
+                    "color",
+                    "brand",
+                    "accent",
+                    "200"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#a60000",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#a60000"
+                      },
+                      "name": "pf-t--color--red--60",
+                      "attributes": {
+                        "category": "color",
+                        "type": "red",
+                        "item": "60"
+                      },
+                      "path": [
+                        "color",
+                        "red",
+                        "60"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--icon--color--on-brand--default": {
         "default": {
           "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
@@ -610,6 +937,630 @@
                       "path": [
                         "color",
                         "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--on-brand--accent--default": {
+        "default": {
+          "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+            "type": "color",
+            "value": "{global.icon.color.inverse}"
+          },
+          "name": "pf-t--global--icon--color--on-brand--accent--default",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "on-brand",
+            "accent",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the color for icons that are placed on an inverse background color",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the color for icons that are placed on an inverse background color",
+                "type": "color",
+                "value": "{global.icon.color.300}"
+              },
+              "name": "pf-t--global--icon--color--inverse",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "color",
+                "subitem": "inverse"
+              },
+              "path": [
+                "global",
+                "icon",
+                "color",
+                "inverse"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--icon--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "icon",
+                    "item": "color",
+                    "subitem": "300"
+                  },
+                  "path": [
+                    "global",
+                    "icon",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--on-brand--accent--hover": {
+        "default": {
+          "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+            "type": "color",
+            "value": "{global.icon.color.inverse}"
+          },
+          "name": "pf-t--global--icon--color--on-brand--accent--hover",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "on-brand",
+            "accent",
+            "hover"
+          ],
+          "references": [
+            {
+              "description": "Use as the color for icons that are placed on an inverse background color",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the color for icons that are placed on an inverse background color",
+                "type": "color",
+                "value": "{global.icon.color.300}"
+              },
+              "name": "pf-t--global--icon--color--inverse",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "color",
+                "subitem": "inverse"
+              },
+              "path": [
+                "global",
+                "icon",
+                "color",
+                "inverse"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--icon--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "icon",
+                    "item": "color",
+                    "subitem": "300"
+                  },
+                  "path": [
+                    "global",
+                    "icon",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--on-brand--accent--clicked": {
+        "default": {
+          "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+            "type": "color",
+            "value": "{global.icon.color.inverse}"
+          },
+          "name": "pf-t--global--icon--color--on-brand--accent--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "on-brand",
+            "accent",
+            "clicked"
+          ],
+          "references": [
+            {
+              "description": "Use as the color for icons that are placed on an inverse background color",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the color for icons that are placed on an inverse background color",
+                "type": "color",
+                "value": "{global.icon.color.300}"
+              },
+              "name": "pf-t--global--icon--color--inverse",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "color",
+                "subitem": "inverse"
+              },
+              "path": [
+                "global",
+                "icon",
+                "color",
+                "inverse"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--icon--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "icon",
+                    "item": "color",
+                    "subitem": "300"
+                  },
+                  "path": [
+                    "global",
+                    "icon",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--on-brand--subtle--default": {
+        "default": {
+          "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+          "type": "color",
+          "value": "#1f1f1f",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+            "type": "color",
+            "value": "{global.icon.color.regular}"
+          },
+          "name": "pf-t--global--icon--color--on-brand--subtle--default",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "on-brand",
+            "subtle",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+              "type": "color",
+              "value": "#1f1f1f",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+                "type": "color",
+                "value": "{global.icon.color.100}"
+              },
+              "name": "pf-t--global--icon--color--regular",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "color",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "icon",
+                "color",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#1f1f1f",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.90}"
+                  },
+                  "name": "pf-t--global--icon--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "icon",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "icon",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#1f1f1f",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#1f1f1f"
+                      },
+                      "name": "pf-t--color--gray--90",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "90"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "90"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--on-brand--subtle--hover": {
+        "default": {
+          "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+          "type": "color",
+          "value": "#1f1f1f",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+            "type": "color",
+            "value": "{global.icon.color.regular}"
+          },
+          "name": "pf-t--global--icon--color--on-brand--subtle--hover",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "on-brand",
+            "subtle",
+            "hover"
+          ],
+          "references": [
+            {
+              "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+              "type": "color",
+              "value": "#1f1f1f",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+                "type": "color",
+                "value": "{global.icon.color.100}"
+              },
+              "name": "pf-t--global--icon--color--regular",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "color",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "icon",
+                "color",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#1f1f1f",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.90}"
+                  },
+                  "name": "pf-t--global--icon--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "icon",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "icon",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#1f1f1f",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#1f1f1f"
+                      },
+                      "name": "pf-t--color--gray--90",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "90"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "90"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--color--on-brand--subtle--clicked": {
+        "default": {
+          "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+          "type": "color",
+          "value": "#1f1f1f",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+            "type": "color",
+            "value": "{global.icon.color.regular}"
+          },
+          "name": "pf-t--global--icon--color--on-brand--subtle--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "icon",
+            "color",
+            "on-brand",
+            "subtle",
+            "clicked"
+          ],
+          "references": [
+            {
+              "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+              "type": "color",
+              "value": "#1f1f1f",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+                "type": "color",
+                "value": "{global.icon.color.100}"
+              },
+              "name": "pf-t--global--icon--color--regular",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "color",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "icon",
+                "color",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#1f1f1f",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.90}"
+                  },
+                  "name": "pf-t--global--icon--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "icon",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "icon",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#1f1f1f",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#1f1f1f"
+                      },
+                      "name": "pf-t--color--gray--90",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "90"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "90"
                       ]
                     }
                   ]
@@ -8417,31 +9368,6 @@
           ]
         }
       },
-      "pf-t--global--border--color--high-contrast": {
-        "default": {
-          "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)",
-          "filePath": "tokens/default/semantic.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.0000)"
-          },
-          "name": "pf-t--global--border--color--high-contrast",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "color",
-            "subitem": "high-contrast"
-          },
-          "path": [
-            "global",
-            "border",
-            "color",
-            "high-contrast"
-          ]
-        }
-      },
       "pf-t--global--border--color--brand--default": {
         "default": {
           "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
@@ -8747,6 +9673,573 @@
                         "60"
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--brand--accent--default": {
+        "default": {
+          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "type": "color",
+          "value": "#ee0000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "type": "color",
+            "value": "{global.color.brand.accent.default}"
+          },
+          "name": "pf-t--global--border--color--brand--accent--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "brand",
+            "accent",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use this color for elements that you want to reinforce your brand",
+              "type": "color",
+              "value": "#ee0000",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use this color for elements that you want to reinforce your brand",
+                "type": "color",
+                "value": "{global.color.brand.accent.100}"
+              },
+              "name": "pf-t--global--color--brand--accent--default",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ee0000",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.red.50}"
+                  },
+                  "name": "pf-t--global--color--brand--accent--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "color",
+                    "item": "brand",
+                    "subitem": "accent",
+                    "state": "100"
+                  },
+                  "path": [
+                    "global",
+                    "color",
+                    "brand",
+                    "accent",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ee0000",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ee0000"
+                      },
+                      "name": "pf-t--color--red--50",
+                      "attributes": {
+                        "category": "color",
+                        "type": "red",
+                        "item": "50"
+                      },
+                      "path": [
+                        "color",
+                        "red",
+                        "50"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--brand--accent--hover": {
+        "default": {
+          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "type": "color",
+            "value": "{global.color.brand.accent.hover}"
+          },
+          "name": "pf-t--global--border--color--brand--accent--hover",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "brand",
+            "accent",
+            "hover"
+          ],
+          "references": [
+            {
+              "description": "Use as the hover state for elements that have a branded background color",
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the hover state for elements that have a branded background color",
+                "type": "color",
+                "value": "{global.color.brand.accent.200}"
+              },
+              "name": "pf-t--global--color--brand--accent--hover",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "hover"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "hover"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#a60000",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.red.60}"
+                  },
+                  "name": "pf-t--global--color--brand--accent--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "color",
+                    "item": "brand",
+                    "subitem": "accent",
+                    "state": "200"
+                  },
+                  "path": [
+                    "global",
+                    "color",
+                    "brand",
+                    "accent",
+                    "200"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#a60000",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#a60000"
+                      },
+                      "name": "pf-t--color--red--60",
+                      "attributes": {
+                        "category": "color",
+                        "type": "red",
+                        "item": "60"
+                      },
+                      "path": [
+                        "color",
+                        "red",
+                        "60"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--brand--accent--clicked": {
+        "default": {
+          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "type": "color",
+            "value": "{global.color.brand.accent.clicked}"
+          },
+          "name": "pf-t--global--border--color--brand--accent--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "brand",
+            "accent",
+            "clicked"
+          ],
+          "references": [
+            {
+              "description": "Use as the clicked state for elements that have a brand background color",
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the clicked state for elements that have a brand background color",
+                "type": "color",
+                "value": "{global.color.brand.accent.200}"
+              },
+              "name": "pf-t--global--color--brand--accent--clicked",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "clicked"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "clicked"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#a60000",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.red.60}"
+                  },
+                  "name": "pf-t--global--color--brand--accent--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "color",
+                    "item": "brand",
+                    "subitem": "accent",
+                    "state": "200"
+                  },
+                  "path": [
+                    "global",
+                    "color",
+                    "brand",
+                    "accent",
+                    "200"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#a60000",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#a60000"
+                      },
+                      "name": "pf-t--color--red--60",
+                      "attributes": {
+                        "category": "color",
+                        "type": "red",
+                        "item": "60"
+                      },
+                      "path": [
+                        "color",
+                        "red",
+                        "60"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--brand--subtle--default": {
+        "default": {
+          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "type": "color",
+          "value": "#b9dafc",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "type": "color",
+            "value": "{global.color.brand.subtle.200}"
+          },
+          "name": "pf-t--global--border--color--brand--subtle--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "brand",
+            "subtle",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#b9dafc",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.20}"
+              },
+              "name": "pf-t--global--color--brand--subtle--200",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "subtle",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "subtle",
+                "200"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#b9dafc",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#b9dafc"
+                  },
+                  "name": "pf-t--color--blue--20",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "20"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--brand--subtle--hover": {
+        "default": {
+          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "type": "color",
+          "value": "#4394e5",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "type": "color",
+            "value": "{global.color.brand.subtle.300}"
+          },
+          "name": "pf-t--global--border--color--brand--subtle--hover",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "brand",
+            "subtle",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4394e5",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.40}"
+              },
+              "name": "pf-t--global--color--brand--subtle--300",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "subtle",
+                "state": "300"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "subtle",
+                "300"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#4394e5",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#4394e5"
+                  },
+                  "name": "pf-t--color--blue--40",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "40"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "40"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--brand--subtle--clicked": {
+        "default": {
+          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "type": "color",
+          "value": "#4394e5",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "type": "color",
+            "value": "{global.color.brand.subtle.300}"
+          },
+          "name": "pf-t--global--border--color--brand--subtle--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "brand",
+            "subtle",
+            "clicked"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4394e5",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.40}"
+              },
+              "name": "pf-t--global--color--brand--subtle--300",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "subtle",
+                "state": "300"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "subtle",
+                "300"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#4394e5",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#4394e5"
+                  },
+                  "name": "pf-t--color--blue--40",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "40"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "40"
                   ]
                 }
               ]
@@ -10302,6 +11795,33 @@
           ]
         }
       },
+      "pf-t--global--border--color--high-contrast": {
+        "default": {
+          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0000)",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.0000)"
+          },
+          "name": "pf-t--global--border--color--high-contrast",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "high-contrast"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "high-contrast"
+          ]
+        }
+      },
       "pf-t--global--border--color--default": {
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
@@ -10772,108 +12292,6 @@
                     "color",
                     "gray",
                     "50"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--border--color--main--default": {
-        "default": {
-          "type": "color",
-          "value": "#ffffff",
-          "filePath": "tokens/default/semantic.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "name": "pf-t--global--border--color--main--default",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "color",
-            "subitem": "main",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "border",
-            "color",
-            "main",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-              "type": "color",
-              "value": "#ffffff",
-              "filePath": "tokens/default/semantic.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-                "type": "color",
-                "value": "{global.background.color.100}"
-              },
-              "name": "pf-t--global--background--color--primary--default",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "primary",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "primary",
-                "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
                   ]
                 }
               ]
@@ -13041,6 +14459,108 @@
           ]
         }
       },
+      "pf-t--global--border--color--main--default": {
+        "default": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.primary.default}"
+          },
+          "name": "pf-t--global--border--color--main--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "main",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "main",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                "type": "color",
+                "value": "{global.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--primary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "primary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--box-shadow--color--sm--default": {
         "default": {
           "description": "Use as the color of small box-shadows.",
@@ -15096,6 +16616,586 @@
                 "background",
                 "color",
                 "500"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--loading--skeleton--default": {
+        "default": {
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.2500)",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.600}"
+          },
+          "name": "pf-t--global--background--color--loading--skeleton--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "loading",
+            "state": "skeleton"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "loading",
+            "skeleton",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(199, 199, 199, 0.2500)",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(199, 199, 199, 0.2500)"
+              },
+              "name": "pf-t--global--background--color--600",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "600"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "600"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--loading--skeleton--subtle": {
+        "default": {
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.1000)",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.700}"
+          },
+          "name": "pf-t--global--background--color--loading--skeleton--subtle",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "loading",
+            "state": "skeleton"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "loading",
+            "skeleton",
+            "subtle"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(199, 199, 199, 0.1000)",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(199, 199, 199, 0.1000)"
+              },
+              "name": "pf-t--global--background--color--700",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "700"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "700"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--accent--default": {
+        "default": {
+          "description": "Use this color for elements that you want to reinforce your brand",
+          "type": "color",
+          "value": "#ee0000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use this color for elements that you want to reinforce your brand",
+            "type": "color",
+            "value": "{global.color.brand.accent.100}"
+          },
+          "name": "pf-t--global--color--brand--accent--default",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "accent",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "accent",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ee0000",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.red.50}"
+              },
+              "name": "pf-t--global--color--brand--accent--100",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "100"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "100"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ee0000",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#ee0000"
+                  },
+                  "name": "pf-t--color--red--50",
+                  "attributes": {
+                    "category": "color",
+                    "type": "red",
+                    "item": "50"
+                  },
+                  "path": [
+                    "color",
+                    "red",
+                    "50"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--accent--hover": {
+        "default": {
+          "description": "Use as the hover state for elements that have a branded background color",
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state for elements that have a branded background color",
+            "type": "color",
+            "value": "{global.color.brand.accent.200}"
+          },
+          "name": "pf-t--global--color--brand--accent--hover",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "accent",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "accent",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.red.60}"
+              },
+              "name": "pf-t--global--color--brand--accent--200",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "200"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#a60000",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#a60000"
+                  },
+                  "name": "pf-t--color--red--60",
+                  "attributes": {
+                    "category": "color",
+                    "type": "red",
+                    "item": "60"
+                  },
+                  "path": [
+                    "color",
+                    "red",
+                    "60"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--accent--clicked": {
+        "default": {
+          "description": "Use as the clicked state for elements that have a brand background color",
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state for elements that have a brand background color",
+            "type": "color",
+            "value": "{global.color.brand.accent.200}"
+          },
+          "name": "pf-t--global--color--brand--accent--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "accent",
+            "state": "clicked"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "accent",
+            "clicked"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.red.60}"
+              },
+              "name": "pf-t--global--color--brand--accent--200",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "accent",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "accent",
+                "200"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#a60000",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#a60000"
+                  },
+                  "name": "pf-t--color--red--60",
+                  "attributes": {
+                    "category": "color",
+                    "type": "red",
+                    "item": "60"
+                  },
+                  "path": [
+                    "color",
+                    "red",
+                    "60"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--subtle--default": {
+        "default": {
+          "description": "Use this color for elements that you want to reinforce your brand",
+          "type": "color",
+          "value": "#e0f0ff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use this color for elements that you want to reinforce your brand",
+            "type": "color",
+            "value": "{global.color.brand.subtle.100}"
+          },
+          "name": "pf-t--global--color--brand--subtle--default",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "subtle",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "subtle",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#e0f0ff",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.10}"
+              },
+              "name": "pf-t--global--color--brand--subtle--100",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "subtle",
+                "state": "100"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "subtle",
+                "100"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#e0f0ff",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#e0f0ff"
+                  },
+                  "name": "pf-t--color--blue--10",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "10"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "10"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--subtle--hover": {
+        "default": {
+          "description": "Use as the hover state for elements that have a branded background color",
+          "type": "color",
+          "value": "#b9dafc",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state for elements that have a branded background color",
+            "type": "color",
+            "value": "{global.color.brand.subtle.200}"
+          },
+          "name": "pf-t--global--color--brand--subtle--hover",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "subtle",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "subtle",
+            "hover"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#b9dafc",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.20}"
+              },
+              "name": "pf-t--global--color--brand--subtle--200",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "subtle",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "subtle",
+                "200"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#b9dafc",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#b9dafc"
+                  },
+                  "name": "pf-t--color--blue--20",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "20"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--subtle--clicked": {
+        "default": {
+          "description": "Use as the clicked state for elements that have a brand background color",
+          "type": "color",
+          "value": "#b9dafc",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state for elements that have a brand background color",
+            "type": "color",
+            "value": "{global.color.brand.subtle.200}"
+          },
+          "name": "pf-t--global--color--brand--subtle--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "subtle",
+            "state": "clicked"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "subtle",
+            "clicked"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#b9dafc",
+              "filePath": "tokens/default/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.20}"
+              },
+              "name": "pf-t--global--color--brand--subtle--200",
+              "attributes": {
+                "category": "global",
+                "type": "color",
+                "item": "brand",
+                "subitem": "subtle",
+                "state": "200"
+              },
+              "path": [
+                "global",
+                "color",
+                "brand",
+                "subtle",
+                "200"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#b9dafc",
+                  "filePath": "tokens/default/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#b9dafc"
+                  },
+                  "name": "pf-t--color--blue--20",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "20"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "20"
+                  ]
+                }
               ]
             }
           ]
@@ -20816,6 +22916,630 @@
                       "path": [
                         "color",
                         "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--on-brand--accent--default": {
+        "default": {
+          "description": "Use as the default color for text placed on a brand-colored background.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default color for text placed on a brand-colored background.",
+            "type": "color",
+            "value": "{global.text.color.inverse}"
+          },
+          "name": "pf-t--global--text--color--on-brand--accent--default",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "on-brand",
+            "accent",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
+                "type": "color",
+                "value": "{global.text.color.300}"
+              },
+              "name": "pf-t--global--text--color--inverse",
+              "attributes": {
+                "category": "global",
+                "type": "text",
+                "item": "color",
+                "subitem": "inverse"
+              },
+              "path": [
+                "global",
+                "text",
+                "color",
+                "inverse"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--text--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "text",
+                    "item": "color",
+                    "subitem": "300"
+                  },
+                  "path": [
+                    "global",
+                    "text",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--on-brand--accent--hover": {
+        "default": {
+          "description": "Use as the hover state color for text placed on a brand-colored background.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state color for text placed on a brand-colored background.",
+            "type": "color",
+            "value": "{global.text.color.inverse}"
+          },
+          "name": "pf-t--global--text--color--on-brand--accent--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "on-brand",
+            "accent",
+            "hover"
+          ],
+          "references": [
+            {
+              "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
+                "type": "color",
+                "value": "{global.text.color.300}"
+              },
+              "name": "pf-t--global--text--color--inverse",
+              "attributes": {
+                "category": "global",
+                "type": "text",
+                "item": "color",
+                "subitem": "inverse"
+              },
+              "path": [
+                "global",
+                "text",
+                "color",
+                "inverse"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--text--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "text",
+                    "item": "color",
+                    "subitem": "300"
+                  },
+                  "path": [
+                    "global",
+                    "text",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--on-brand--accent--clicked": {
+        "default": {
+          "description": "Use as the clicked state color for text placed on a brand-colored background.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state color for text placed on a brand-colored background.",
+            "type": "color",
+            "value": "{global.text.color.inverse}"
+          },
+          "name": "pf-t--global--text--color--on-brand--accent--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "accent"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "on-brand",
+            "accent",
+            "clicked"
+          ],
+          "references": [
+            {
+              "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
+                "type": "color",
+                "value": "{global.text.color.300}"
+              },
+              "name": "pf-t--global--text--color--inverse",
+              "attributes": {
+                "category": "global",
+                "type": "text",
+                "item": "color",
+                "subitem": "inverse"
+              },
+              "path": [
+                "global",
+                "text",
+                "color",
+                "inverse"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--text--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "text",
+                    "item": "color",
+                    "subitem": "300"
+                  },
+                  "path": [
+                    "global",
+                    "text",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--on-brand--subtle--default": {
+        "default": {
+          "description": "Use as the default color for text placed on a brand-colored background.",
+          "type": "color",
+          "value": "#151515",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default color for text placed on a brand-colored background.",
+            "type": "color",
+            "value": "{global.text.color.regular}"
+          },
+          "name": "pf-t--global--text--color--on-brand--subtle--default",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "on-brand",
+            "subtle",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
+              "type": "color",
+              "value": "#151515",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
+                "type": "color",
+                "value": "{global.text.color.100}"
+              },
+              "name": "pf-t--global--text--color--regular",
+              "attributes": {
+                "category": "global",
+                "type": "text",
+                "item": "color",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "text",
+                "color",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#151515",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.95}"
+                  },
+                  "name": "pf-t--global--text--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "text",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "text",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#151515",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#151515"
+                      },
+                      "name": "pf-t--color--gray--95",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "95"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "95"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--on-brand--subtle--hover": {
+        "default": {
+          "description": "Use as the hover state color for text placed on a brand-colored background.",
+          "type": "color",
+          "value": "#151515",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state color for text placed on a brand-colored background.",
+            "type": "color",
+            "value": "{global.text.color.regular}"
+          },
+          "name": "pf-t--global--text--color--on-brand--subtle--hover",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "on-brand",
+            "subtle",
+            "hover"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
+              "type": "color",
+              "value": "#151515",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
+                "type": "color",
+                "value": "{global.text.color.100}"
+              },
+              "name": "pf-t--global--text--color--regular",
+              "attributes": {
+                "category": "global",
+                "type": "text",
+                "item": "color",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "text",
+                "color",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#151515",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.95}"
+                  },
+                  "name": "pf-t--global--text--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "text",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "text",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#151515",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#151515"
+                      },
+                      "name": "pf-t--color--gray--95",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "95"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "95"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--text--color--on-brand--subtle--clicked": {
+        "default": {
+          "description": "Use as the clicked state color for text placed on a brand-colored background.",
+          "type": "color",
+          "value": "#151515",
+          "filePath": "tokens/default/semantic.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state color for text placed on a brand-colored background.",
+            "type": "color",
+            "value": "{global.text.color.regular}"
+          },
+          "name": "pf-t--global--text--color--on-brand--subtle--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "text",
+            "item": "color",
+            "subitem": "on-brand",
+            "state": "subtle"
+          },
+          "path": [
+            "global",
+            "text",
+            "color",
+            "on-brand",
+            "subtle",
+            "clicked"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
+              "type": "color",
+              "value": "#151515",
+              "filePath": "tokens/default/semantic.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
+                "type": "color",
+                "value": "{global.text.color.100}"
+              },
+              "name": "pf-t--global--text--color--regular",
+              "attributes": {
+                "category": "global",
+                "type": "text",
+                "item": "color",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "text",
+                "color",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#151515",
+                  "filePath": "tokens/default/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.95}"
+                  },
+                  "name": "pf-t--global--text--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "text",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "text",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#151515",
+                      "filePath": "tokens/default/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#151515"
+                      },
+                      "name": "pf-t--color--gray--95",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "95"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "95"
                       ]
                     }
                   ]
@@ -27775,13 +30499,13 @@
       },
       "pf-t--global--focus-ring--color--default": {
         "default": {
-          "description": "This token is used to define the color value for custom focus rings.",
+          "description": "Use as color value for custom focus rings",
           "type": "color",
           "value": "#0066cc",
           "filePath": "tokens/default/semantic.json",
           "isSource": true,
           "original": {
-            "description": "This token is used to define the color value for custom focus rings.",
+            "description": "Use as color value for custom focus rings",
             "type": "color",
             "value": "{global.focus-ring.color.100}"
           },
@@ -30086,11 +32810,13 @@
       },
       "pf-t--global--spacer--inset--page-chrome": {
         "default": {
+          "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
           "type": "number",
           "value": "1.5rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
             "type": "number",
             "value": "{global.spacer.lg}"
           },
@@ -30159,11 +32885,13 @@
       },
       "pf-t--global--spacer--gutter--default": {
         "default": {
+          "description": "Use to define gutters between elements in certain layouts, like grids.",
           "type": "number",
           "value": "1rem",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to define gutters between elements in certain layouts, like grids.",
             "type": "number",
             "value": "{global.spacer.md}"
           },
@@ -32503,139 +35231,6 @@
           ]
         }
       },
-      "pf-t--global--border--width--main--default": {
-        "default": {
-          "type": "number",
-          "value": "4px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": "{global.border.width.400}"
-          },
-          "name": "pf-t--global--border--width--main--default",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "main",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "main",
-            "default"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "4px",
-              "filePath": "tokens/default/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 4
-              },
-              "name": "pf-t--global--border--width--400",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "400"
-              },
-              "path": [
-                "global",
-                "border",
-                "width",
-                "400"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--border--width--high-contrast--regular": {
-        "default": {
-          "type": "number",
-          "value": "0px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--border--width--high-contrast--regular",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "high-contrast",
-            "state": "regular"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "high-contrast",
-            "regular"
-          ]
-        }
-      },
-      "pf-t--global--border--width--high-contrast--strong": {
-        "default": {
-          "type": "number",
-          "value": "0px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--border--width--high-contrast--strong",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "high-contrast",
-            "state": "strong"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "high-contrast",
-            "strong"
-          ]
-        }
-      },
-      "pf-t--global--border--width--high-contrast--extra-strong": {
-        "default": {
-          "type": "number",
-          "value": "0px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--border--width--high-contrast--extra-strong",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "high-contrast",
-            "state": "extra-strong"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "high-contrast",
-            "extra-strong"
-          ]
-        }
-      },
       "pf-t--global--border--width--box--default": {
         "default": {
           "description": "Use as the default border width for containers like cards, panels, code editors, etc.",
@@ -32908,6 +35503,139 @@
           ]
         }
       },
+      "pf-t--global--border--width--high-contrast--regular": {
+        "default": {
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--high-contrast--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "high-contrast",
+            "state": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "high-contrast",
+            "regular"
+          ]
+        }
+      },
+      "pf-t--global--border--width--high-contrast--strong": {
+        "default": {
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--high-contrast--strong",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "high-contrast",
+            "state": "strong"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "high-contrast",
+            "strong"
+          ]
+        }
+      },
+      "pf-t--global--border--width--high-contrast--extra-strong": {
+        "default": {
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--high-contrast--extra-strong",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "high-contrast",
+            "state": "extra-strong"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "high-contrast",
+            "extra-strong"
+          ]
+        }
+      },
+      "pf-t--global--border--width--main--default": {
+        "default": {
+          "type": "number",
+          "value": "4px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.border.width.400}"
+          },
+          "name": "pf-t--global--border--width--main--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "main",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "main",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "4px",
+              "filePath": "tokens/default/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 4
+              },
+              "name": "pf-t--global--border--width--400",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "400"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "400"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--border--width--action--default": {
         "default": {
           "description": "Use as the default border width for actions like secondary and tertiary buttons",
@@ -32959,6 +35687,96 @@
                 "100"
               ]
             }
+          ]
+        }
+      },
+      "pf-t--global--border--width--action--plain--default": {
+        "default": {
+          "description": "Use as the default border width for plain actions",
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border width for plain actions",
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--action--plain--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "action",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "action",
+            "plain",
+            "default"
+          ]
+        }
+      },
+      "pf-t--global--border--width--action--plain--hover": {
+        "default": {
+          "description": "Use as the border width for plain actions in their hover state",
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the border width for plain actions in their hover state",
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--action--plain--hover",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "action",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "action",
+            "plain",
+            "hover"
+          ]
+        }
+      },
+      "pf-t--global--border--width--action--plain--clicked": {
+        "default": {
+          "description": "Use as the border width for plain actions in their clicked state",
+          "type": "number",
+          "value": "0px",
+          "filePath": "tokens/default/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the border width for plain actions in their clicked state",
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--border--width--action--plain--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "action",
+            "state": "plain"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "action",
+            "plain",
+            "clicked"
           ]
         }
       },
@@ -33067,96 +35885,6 @@
                 "200"
               ]
             }
-          ]
-        }
-      },
-      "pf-t--global--border--width--action--plain--default": {
-        "default": {
-          "description": "Use as the default border width for actions like secondary and tertiary buttons",
-          "type": "number",
-          "value": "0px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the default border width for actions like secondary and tertiary buttons",
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--border--width--action--plain--default",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "action",
-            "state": "plain"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "action",
-            "plain",
-            "default"
-          ]
-        }
-      },
-      "pf-t--global--border--width--action--plain--hover": {
-        "default": {
-          "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
-          "type": "number",
-          "value": "0px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--border--width--action--plain--hover",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "action",
-            "state": "plain"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "action",
-            "plain",
-            "hover"
-          ]
-        }
-      },
-      "pf-t--global--border--width--action--plain--clicked": {
-        "default": {
-          "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
-          "type": "number",
-          "value": "0px",
-          "filePath": "tokens/default/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--border--width--action--plain--clicked",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "action",
-            "state": "plain"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "action",
-            "plain",
-            "clicked"
           ]
         }
       },
@@ -38953,11 +41681,13 @@
       },
       "pf-t--global--focus-ring--position--offset": {
         "default": {
+          "description": "Use to define the position of a custom focus ring that sits outside (offset) of the element receiving focus.",
           "type": "number",
           "value": "2px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to define the position of a custom focus ring that sits outside (offset) of the element receiving focus.",
             "type": "number",
             "value": 2
           },
@@ -38978,11 +41708,13 @@
       },
       "pf-t--global--focus-ring--position--inset": {
         "default": {
+          "description": "Use to define the position of a custom focus ring that sits inside (inset) of the element receiving focus.",
           "type": "number",
           "value": "-4px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to define the position of a custom focus ring that sits inside (inset) of the element receiving focus.",
             "type": "number",
             "value": -4
           },
@@ -39003,11 +41735,13 @@
       },
       "pf-t--global--focus-ring--width--offset": {
         "default": {
+          "description": "Use to define the width of a custom focus ring that sits outside (offset) of the element receiving focus.",
           "type": "number",
           "value": "2px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to define the width of a custom focus ring that sits outside (offset) of the element receiving focus.",
             "type": "number",
             "value": 2
           },
@@ -39028,11 +41762,13 @@
       },
       "pf-t--global--focus-ring--width--inset": {
         "default": {
+          "description": "Use to define the width of a custom focus ring that sits inside (inset) of the element receiving focus.",
           "type": "number",
           "value": "3px",
           "filePath": "tokens/default/semantic.dimension.json",
           "isSource": true,
           "original": {
+            "description": "Use to define the width of a custom focus ring that sits inside (inset) of the element receiving focus.",
             "type": "number",
             "value": 3
           },
@@ -39398,6 +42134,243 @@
                 "global",
                 "duration",
                 "600"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--short": {
+        "default": {
+          "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+          "type": "number",
+          "value": "100ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "name": "pf-t--global--motion--duration--fade--short",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "short"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "short"
+          ],
+          "references": [
+            {
+              "description": "Use for a short animation duration. Use for simple and/or small animations.",
+              "type": "number",
+              "value": "100ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a short animation duration. Use for simple and/or small animations.",
+                "type": "number",
+                "value": "{global.duration.100}"
+              },
+              "name": "pf-t--global--motion--duration--sm",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "sm"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "100ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 100
+                  },
+                  "name": "pf-t--global--duration--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "100"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--default": {
+        "default": {
+          "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+          "type": "number",
+          "value": "200ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          },
+          "name": "pf-t--global--motion--duration--fade--default",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use for a medium animation duration.",
+              "type": "number",
+              "value": "200ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a medium animation duration.",
+                "type": "number",
+                "value": "{global.duration.200}"
+              },
+              "name": "pf-t--global--motion--duration--md",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "md"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "md"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "200ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 200
+                  },
+                  "name": "pf-t--global--duration--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "200"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "200"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--motion--duration--fade--long": {
+        "default": {
+          "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+          "type": "number",
+          "value": "300ms",
+          "filePath": "tokens/default/semantic.motion.json",
+          "isSource": true,
+          "original": {
+            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "name": "pf-t--global--motion--duration--fade--long",
+          "attributes": {
+            "category": "global",
+            "type": "motion",
+            "item": "duration",
+            "subitem": "fade",
+            "state": "long"
+          },
+          "path": [
+            "global",
+            "motion",
+            "duration",
+            "fade",
+            "long"
+          ],
+          "references": [
+            {
+              "description": "Use for long animation duration. Use for larger, more expressive animations.",
+              "type": "number",
+              "value": "300ms",
+              "filePath": "tokens/default/semantic.motion.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for long animation duration. Use for larger, more expressive animations.",
+                "type": "number",
+                "value": "{global.duration.300}"
+              },
+              "name": "pf-t--global--motion--duration--lg",
+              "attributes": {
+                "category": "global",
+                "type": "motion",
+                "item": "duration",
+                "subitem": "lg"
+              },
+              "path": [
+                "global",
+                "motion",
+                "duration",
+                "lg"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "300ms",
+                  "filePath": "tokens/default/base.motion.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 300
+                  },
+                  "name": "pf-t--global--duration--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "duration",
+                    "item": "300"
+                  },
+                  "path": [
+                    "global",
+                    "duration",
+                    "300"
+                  ]
+                }
               ]
             }
           ]
@@ -39870,243 +42843,6 @@
                     "global",
                     "duration",
                     "200"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--short": {
-        "default": {
-          "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-          "type": "number",
-          "value": "100ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
-            "type": "number",
-            "value": "{global.motion.duration.sm}"
-          },
-          "name": "pf-t--global--motion--duration--fade--short",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "short"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "short"
-          ],
-          "references": [
-            {
-              "description": "Use for a short animation duration. Use for simple and/or small animations.",
-              "type": "number",
-              "value": "100ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a short animation duration. Use for simple and/or small animations.",
-                "type": "number",
-                "value": "{global.duration.100}"
-              },
-              "name": "pf-t--global--motion--duration--sm",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "sm"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "100ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 100
-                  },
-                  "name": "pf-t--global--duration--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "100"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "100"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--default": {
-        "default": {
-          "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-          "type": "number",
-          "value": "200ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
-            "type": "number",
-            "value": "{global.motion.duration.md}"
-          },
-          "name": "pf-t--global--motion--duration--fade--default",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use for a medium animation duration.",
-              "type": "number",
-              "value": "200ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a medium animation duration.",
-                "type": "number",
-                "value": "{global.duration.200}"
-              },
-              "name": "pf-t--global--motion--duration--md",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "md"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "md"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "200ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 200
-                  },
-                  "name": "pf-t--global--duration--200",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "200"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "200"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--motion--duration--fade--long": {
-        "default": {
-          "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
-          "type": "number",
-          "value": "300ms",
-          "filePath": "tokens/default/semantic.motion.json",
-          "isSource": true,
-          "original": {
-            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          },
-          "name": "pf-t--global--motion--duration--fade--long",
-          "attributes": {
-            "category": "global",
-            "type": "motion",
-            "item": "duration",
-            "subitem": "fade",
-            "state": "long"
-          },
-          "path": [
-            "global",
-            "motion",
-            "duration",
-            "fade",
-            "long"
-          ],
-          "references": [
-            {
-              "description": "Use for long animation duration. Use for larger, more expressive animations.",
-              "type": "number",
-              "value": "300ms",
-              "filePath": "tokens/default/semantic.motion.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for long animation duration. Use for larger, more expressive animations.",
-                "type": "number",
-                "value": "{global.duration.300}"
-              },
-              "name": "pf-t--global--motion--duration--lg",
-              "attributes": {
-                "category": "global",
-                "type": "motion",
-                "item": "duration",
-                "subitem": "lg"
-              },
-              "path": [
-                "global",
-                "motion",
-                "duration",
-                "lg"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "300ms",
-                  "filePath": "tokens/default/base.motion.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 300
-                  },
-                  "name": "pf-t--global--duration--300",
-                  "attributes": {
-                    "category": "global",
-                    "type": "duration",
-                    "item": "300"
-                  },
-                  "path": [
-                    "global",
-                    "duration",
-                    "300"
                   ]
                 }
               ]
@@ -41473,6 +44209,31 @@
           ]
         }
       },
+      "pf-t--global--background--color--700": {
+        "default": {
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.1000)",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(199, 199, 199, 0.1000)"
+          },
+          "name": "pf-t--global--background--color--700",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "700"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "700"
+          ]
+        }
+      },
       "pf-t--global--background--color--highlight--100": {
         "default": {
           "type": "color",
@@ -41808,6 +44569,356 @@
                 "color",
                 "blue",
                 "80"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--accent--100": {
+        "default": {
+          "type": "color",
+          "value": "#ee0000",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red.50}"
+          },
+          "name": "pf-t--global--color--brand--accent--100",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "accent",
+            "state": "100"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "accent",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ee0000",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#ee0000"
+              },
+              "name": "pf-t--color--red--50",
+              "attributes": {
+                "category": "color",
+                "type": "red",
+                "item": "50"
+              },
+              "path": [
+                "color",
+                "red",
+                "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--accent--200": {
+        "default": {
+          "type": "color",
+          "value": "#a60000",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red.60}"
+          },
+          "name": "pf-t--global--color--brand--accent--200",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "accent",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "accent",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a60000",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#a60000"
+              },
+              "name": "pf-t--color--red--60",
+              "attributes": {
+                "category": "color",
+                "type": "red",
+                "item": "60"
+              },
+              "path": [
+                "color",
+                "red",
+                "60"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--accent--300": {
+        "default": {
+          "type": "color",
+          "value": "#5f0000",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red.70}"
+          },
+          "name": "pf-t--global--color--brand--accent--300",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "accent",
+            "state": "300"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "accent",
+            "300"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#5f0000",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#5f0000"
+              },
+              "name": "pf-t--color--red--70",
+              "attributes": {
+                "category": "color",
+                "type": "red",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "red",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--subtle--100": {
+        "default": {
+          "type": "color",
+          "value": "#e0f0ff",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.10}"
+          },
+          "name": "pf-t--global--color--brand--subtle--100",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "subtle",
+            "state": "100"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "subtle",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#e0f0ff",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#e0f0ff"
+              },
+              "name": "pf-t--color--blue--10",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "10"
+              },
+              "path": [
+                "color",
+                "blue",
+                "10"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--subtle--200": {
+        "default": {
+          "type": "color",
+          "value": "#b9dafc",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.20}"
+          },
+          "name": "pf-t--global--color--brand--subtle--200",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "subtle",
+            "state": "200"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "subtle",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#b9dafc",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#b9dafc"
+              },
+              "name": "pf-t--color--blue--20",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "20"
+              },
+              "path": [
+                "color",
+                "blue",
+                "20"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--subtle--300": {
+        "default": {
+          "type": "color",
+          "value": "#4394e5",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.40}"
+          },
+          "name": "pf-t--global--color--brand--subtle--300",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "subtle",
+            "state": "300"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "subtle",
+            "300"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#4394e5",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#4394e5"
+              },
+              "name": "pf-t--color--blue--40",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "blue",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--color--brand--subtle--400": {
+        "default": {
+          "type": "color",
+          "value": "#0066cc",
+          "filePath": "tokens/default/base.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.50}"
+          },
+          "name": "pf-t--global--color--brand--subtle--400",
+          "attributes": {
+            "category": "global",
+            "type": "color",
+            "item": "brand",
+            "subitem": "subtle",
+            "state": "400"
+          },
+          "path": [
+            "global",
+            "color",
+            "brand",
+            "subtle",
+            "400"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#0066cc",
+              "filePath": "tokens/default/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#0066cc"
+              },
+              "name": "pf-t--color--blue--50",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "50"
+              },
+              "path": [
+                "color",
+                "blue",
+                "50"
               ]
             }
           ]
@@ -42729,12 +45840,12 @@
       "pf-t--global--color--status--danger--300": {
         "default": {
           "type": "color",
-          "value": "#4c1405",
+          "value": "#731f00",
           "filePath": "tokens/default/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.red-orange.80}"
+            "value": "{color.red-orange.70}"
           },
           "name": "pf-t--global--color--status--danger--300",
           "attributes": {
@@ -42754,23 +45865,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#4c1405",
+              "value": "#731f00",
               "filePath": "tokens/default/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#4c1405"
+                "value": "#731f00"
               },
-              "name": "pf-t--color--red-orange--80",
+              "name": "pf-t--color--red-orange--70",
               "attributes": {
                 "category": "color",
                 "type": "red-orange",
-                "item": "80"
+                "item": "70"
               },
               "path": [
                 "color",
                 "red-orange",
-                "80"
+                "70"
               ]
             }
           ]
@@ -53459,81 +56570,6 @@
         ]
       }
     },
-    "pf-t--chart--global--layout--padding": {
-      "default": {
-        "type": "number",
-        "value": 50,
-        "filePath": "tokens/default/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 50
-        },
-        "name": "pf-t--chart--global--layout--padding",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "padding"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "padding"
-        ]
-      }
-    },
-    "pf-t--chart--global--layout--height": {
-      "default": {
-        "type": "number",
-        "value": 300,
-        "filePath": "tokens/default/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 300
-        },
-        "name": "pf-t--chart--global--layout--height",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "height"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "height"
-        ]
-      }
-    },
-    "pf-t--chart--global--layout--width": {
-      "default": {
-        "type": "number",
-        "value": 450,
-        "filePath": "tokens/default/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 450
-        },
-        "name": "pf-t--chart--global--layout--width",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "width"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "width"
-        ]
-      }
-    },
     "pf-t--chart--global--stroke-line-cap": {
       "default": {
         "type": "string",
@@ -53714,6 +56750,81 @@
               "90"
             ]
           }
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--padding": {
+      "default": {
+        "type": "number",
+        "value": 50,
+        "filePath": "tokens/default/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 50
+        },
+        "name": "pf-t--chart--global--layout--padding",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "padding"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "padding"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--height": {
+      "default": {
+        "type": "number",
+        "value": 300,
+        "filePath": "tokens/default/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 300
+        },
+        "name": "pf-t--chart--global--layout--height",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "height"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "height"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--width": {
+      "default": {
+        "type": "number",
+        "value": 450,
+        "filePath": "tokens/default/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 450
+        },
+        "name": "pf-t--chart--global--layout--width",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "width"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "width"
         ]
       }
     },
