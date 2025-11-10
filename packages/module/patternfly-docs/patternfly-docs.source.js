@@ -4,7 +4,7 @@ module.exports = (sourceMD) => {
 
   // Parse md files
   const contentBase = path.join(__dirname, './content');
-  sourceMD(path.join(contentBase, '/*.md'), 'tokens');
+  sourceMD(path.join(contentBase, '/*.md'), 'design-tokens');
 
   /**
     If you want to parse content from node_modules instead of providing a relative/absolute path,

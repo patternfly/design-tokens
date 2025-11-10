@@ -1,6 +1,6 @@
 ---
-section: tokens
-id: All PatternFly tokens
+section: design-tokens
+id: All design tokens
 ---
 
 import * as defaultTokens from './token-layers-default.json';
