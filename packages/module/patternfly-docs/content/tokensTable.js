@@ -27,7 +27,6 @@ import { TokensToolbar } from './tokensToolbar';
 import './tokensTable.css';
 import SearchIcon from '@patternfly/react-icons/dist/esm/icons/search-icon';
 
-// eslint-disable-next-line camelcase
 import c_expandable_section_m_display_lg_PaddingInlineStart from '@patternfly/react-tokens/dist/esm/c_expandable_section_m_display_lg_PaddingInlineStart';
 import LevelUpAltIcon from '@patternfly/react-icons/dist/esm/icons/level-up-alt-icon';
 
