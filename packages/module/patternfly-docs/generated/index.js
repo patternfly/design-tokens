@@ -1,12 +1,12 @@
 module.exports = {
-  '/tokens/all-patternfly-tokens/tokens': {
-    id: "All PatternFly tokens",
-    title: "All PatternFly tokens",
+  '/foundations-and-styles/design-tokens/all-design-tokens/design-tokens': {
+    id: "All design tokens",
+    title: "All design tokens",
     toc: [],
-    section: "tokens",
-    subsection: "",
-    source: "tokens",
+    section: "foundations-and-styles",
+    subsection: "design-tokens",
+    source: "design-tokens",
     tabName: null,
-    Component: () => import(/* webpackChunkName: "tokens/all-patternfly-tokens/tokens/index" */ './tokens/all-patternfly-tokens/tokens')
+    Component: () => import(/* webpackChunkName: "foundations-and-styles/design-tokens/all-design-tokens/design-tokens/index" */ './foundations-and-styles/design-tokens/all-design-tokens/design-tokens')
   }
 };
