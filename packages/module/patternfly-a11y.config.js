@@ -13,7 +13,7 @@ module.exports = {
   prefix: 'http://localhost:5000',
   waitFor,
   crawl: false,
-  urls: ['/','/tokens/all-patternfly-tokens'],
+  urls: ['/','/foundations-and-styles/design-tokens/all-design-tokens'],
   ignoreRules: [
     'color-contrast',
     'landmark-no-duplicate-main',
