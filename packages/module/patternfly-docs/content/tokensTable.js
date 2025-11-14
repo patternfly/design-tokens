@@ -184,6 +184,7 @@ const TokensTableBody = ({ token, expandedTokens, setExpanded, isSemanticLayer, 
   return (
     <Tbody isExpanded={isTokenExpanded}>
       <Tr>
+        {/* Expandable Row icon */}
         <Td
           expand={
             isExpandable && {
