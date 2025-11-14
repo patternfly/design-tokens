@@ -1,5 +1,6 @@
 ---
-section: design-tokens
+section: foundations-and-styles
+subsection: design-tokens
 id: All design tokens
 ---
 
