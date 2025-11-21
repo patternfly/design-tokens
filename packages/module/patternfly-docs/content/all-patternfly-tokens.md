@@ -2,6 +2,7 @@
 section: foundations-and-styles
 subsection: design-tokens
 id: All design tokens
+sortValue: 5
 ---
 
 import * as defaultTokens from './token-layers-default.json';
