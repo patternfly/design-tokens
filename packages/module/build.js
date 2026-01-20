@@ -7,7 +7,10 @@ const basePxFontSize = config.basePxFontSize || 16;
 const getTokenLayer = ({ filePath }) => {
   if (filePath.includes('semantic.json')) return ['semantic', 'colors'];
   if (filePath.includes('semantic.dark.json')) return ['semantic', 'colors'];
+  if (filePath.includes('semantic.glass.json')) return ['semantic', 'colors'];
+  if (filePath.includes('semantic.glass.dark.json')) return ['semantic', 'colors'];
   if (filePath.includes('semantic.dimension.json')) return ['semantic', 'dimension'];
+  if (filePath.includes('semantic.dimension.highcontrast.json')) return ['semantic', 'dimension'];
   if (filePath.includes('semantic.motion.json')) return ['semantic', 'motion'];
   if (filePath.includes('base.json')) return ['base', 'colors'];
   if (filePath.includes('base.dark.json')) return ['base', 'colors'];
@@ -172,6 +175,39 @@ const build = (selector) => {
 
   const layersDarkSD = StyleDictionary.extend(__dirname + '/config.layers.dark.json');
   layersDarkSD.buildAllPlatforms();
+
+  console.log('Building layer configs for glass themes...');
+  const layersGlassSD = StyleDictionary.extend(__dirname + '/config.layers.glass.json');
+  layersGlassSD.buildAllPlatforms();
+
+  const layersGlassDarkSD = StyleDictionary.extend(__dirname + '/config.layers.glass-dark.json');
+  layersGlassDarkSD.buildAllPlatforms();
+
+  console.log('Building layer configs for highcontrast themes...');
+  const layersHighContrastSD = StyleDictionary.extend(__dirname + '/config.layers.highcontrast.json');
+  layersHighContrastSD.buildAllPlatforms();
+
+  const layersHighContrastDarkSD = StyleDictionary.extend(__dirname + '/config.layers.highcontrast-dark.json');
+  layersHighContrastDarkSD.buildAllPlatforms();
+
+  console.log('Building layer configs for redhat themes...');
+  const layersRedhatSD = StyleDictionary.extend(__dirname + '/config.layers.redhat.json');
+  layersRedhatSD.buildAllPlatforms();
+
+  const layersRedhatDarkSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-dark.json');
+  layersRedhatDarkSD.buildAllPlatforms();
+
+  const layersRedhatGlassSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-glass.json');
+  layersRedhatGlassSD.buildAllPlatforms();
+
+  const layersRedhatGlassDarkSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-glass-dark.json');
+  layersRedhatGlassDarkSD.buildAllPlatforms();
+
+  const layersRedhatHighContrastSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-highcontrast.json');
+  layersRedhatHighContrastSD.buildAllPlatforms();
+
+  const layersRedhatHighContrastDarkSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-highcontrast-dark.json');
+  layersRedhatHighContrastDarkSD.buildAllPlatforms();
 
   // Step 3: Build glass themes
   console.log('Building glass themes...');

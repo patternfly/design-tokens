@@ -1,0 +1,22 @@
+{
+  "source": [
+    "tokens/default/glass/*.json",
+    "tokens/redhat/glass/redhat*.json"
+  ],
+  "platforms": {
+    "json/default": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "patternfly-docs/content/",
+      "prefix": "pf-t",
+      "files": [
+        {
+          "destination": "token-layers-redhat-glass.json",
+          "format": "json/flat-categories",
+          "options": {
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}

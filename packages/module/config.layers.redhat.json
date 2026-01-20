@@ -1,0 +1,22 @@
+{
+  "source": [
+    "tokens/default/light/*.json",
+    "tokens/redhat/light/redhat*.json"
+  ],
+  "platforms": {
+    "json/default": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "patternfly-docs/content/",
+      "prefix": "pf-t",
+      "files": [
+        {
+          "destination": "token-layers-redhat.json",
+          "format": "json/flat-categories",
+          "options": {
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}
