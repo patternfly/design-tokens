@@ -1,12 +1,12 @@
 {
-  "source": ["tokens/default/dark/*.json"],
+  "source": ["tokens/default/glass-dark/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-dark.scss",
+        "destination": "tokens-glass-dark.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true

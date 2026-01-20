@@ -1,0 +1,1097 @@
+
+{
+  "global": {
+    "border": {
+      "radius": {
+        "sharp": {
+          "description": "Use to adjust the curvature of the border corners for an element. Use for sharp corners.",
+          "type": "number",
+          "value": "{global.border.radius.0}"
+        },
+        "tiny": {
+          "description": "Use to adjust the curvature of the border corners for an element. Use for barely rounded corners.",
+          "type": "number",
+          "value": "{global.border.radius.100}"
+        },
+        "small": {
+          "description": "Use to adjust the curvature of the border corners for an element. Use for slightly rounded corners, like icon buttons or menus.",
+          "type": "number",
+          "value": "{global.border.radius.200}"
+        },
+        "medium": {
+          "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
+          "type": "number",
+          "value": "{global.border.radius.300}"
+        },
+        "large": {
+          "description": "Use to adjust the curvature of the border corners for an element. Use for mostly rounded corners, like modals.",
+          "type": "number",
+          "value": "{global.border.radius.400}"
+        },
+        "pill": {
+          "description": "Use to adjust the curvature of the border corners for an element. Use for corners that are as round as possible, like standard buttons and badges.",
+          "type": "number",
+          "value": "{global.border.radius.500}"
+        },
+        "control": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.small}"
+          },
+          "form-element": {
+            "type": "number",
+            "value": "{global.border.radius.small}"
+          }
+        },
+        "action": {
+          "plain": {
+            "default": {
+              "type": "number",
+              "value": "{global.border.radius.small}"
+            }
+          },
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.pill}"
+          }
+        }
+      },
+      "width": {
+        "regular": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
+        "divider": {
+          "default": {
+            "description": "Use as the default border width for dividers.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "hover": {
+            "description": "Use as the border width hover state for dividers.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "clicked": {
+            "description": "Use as the border width clicked state for dividers.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          }
+        },
+        "strong": {
+          "description": "Use as a stronger/wider border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.200}"
+        },
+        "extra-strong": {
+          "description": "Use as the strongest/widest border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.300}"
+        },
+        "box": {
+          "default": {
+            "description": "Use as the default border width for containers like cards, panels, code editors, etc.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "hover": {
+            "description": "Use as the hover border width for containers like cards, panels, code editors, etc.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "clicked": {
+            "description": "Use as the clicked border width for containers like cards, panels, code editors, etc.",
+            "type": "number",
+            "value": "{global.border.width.200}"
+          },
+          "status": {
+            "default": {
+              "description": "Use as the default border width for containers that convey statuses like inline alerts, notification drawer items and hints. This token is typically paired with status border colors.",
+              "type": "number",
+              "value": "{global.border.width.200}"
+            },
+            "read": {
+              "description": "Use as the border width for containers that convey  a “read” status, like notification drawer items.",
+              "type": "number",
+              "value": "{global.border.width.100}"
+            }
+          }
+        },
+        "high-contrast": {
+          "regular": {
+            "type": "number",
+            "value": 0
+          },
+          "strong": {
+            "type": "number",
+            "value": 0
+          },
+          "extra-strong": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "main": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.width.400}"
+          }
+        },
+        "action": {
+          "default": {
+            "description": "Use as the default border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "plain": {
+            "default": {
+              "description": "Use as the default border width for plain actions",
+              "type": "number",
+              "value": 0
+            },
+            "hover": {
+              "description": "Use as the border width for plain actions in their hover state",
+              "type": "number",
+              "value": 0
+            },
+            "clicked": {
+              "description": "Use as the border width for plain actions in their clicked state",
+              "type": "number",
+              "value": 0
+            }
+          },
+          "hover": {
+            "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": "{global.border.width.200}"
+          },
+          "clicked": {
+            "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": "{global.border.width.200}"
+          }
+        },
+        "control": {
+          "default": {
+            "description": "Use as the default border width for controls like text inputs, menu toggles and control buttons",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "hover": {
+            "description": "Use as the hover state border width for controls like text inputs, menu toggles and control buttons",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "clicked": {
+            "description": "Use as the clicked state border width for controls like text inputs, menu toggles and control buttons",
+            "type": "number",
+            "value": "{global.border.width.200}"
+          }
+        }
+      }
+    },
+    "spacer": {
+      "xs": {
+        "description": "Use for extra small spaces between elements.",
+        "type": "number",
+        "value": "{global.spacer.100}"
+      },
+      "sm": {
+        "description": "Use for small spaces between elements.",
+        "type": "number",
+        "value": "{global.spacer.200}"
+      },
+      "md": {
+        "description": "Use for medium-sized spaces between elements.",
+        "type": "number",
+        "value": "{global.spacer.300}"
+      },
+      "lg": {
+        "description": "Use for large spaces between elements.",
+        "type": "number",
+        "value": "{global.spacer.400}"
+      },
+      "xl": {
+        "description": "Use for extra large spaces between elements.",
+        "type": "number",
+        "value": "{global.spacer.500}"
+      },
+      "2xl": {
+        "description": "Use for double extra large spaces spacing between elements.",
+        "type": "number",
+        "value": "{global.spacer.600}"
+      },
+      "3xl": {
+        "description": "Use for triple extra large spaces between elements.",
+        "type": "number",
+        "value": "{global.spacer.700}"
+      },
+      "4xl": {
+        "description": "Use for quadruple extra large spaces between elements.",
+        "type": "number",
+        "value": "{global.spacer.800}"
+      },
+      "control": {
+        "vertical": {
+          "default": {
+            "description": "Use to set the vertical padding inside of controls. This is used across buttons, text inputs, menu toggles, etc.",
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "compact": {
+            "description": "Use to set the vertical padding inside of  compact controls. This is used across text inputs, menu toggles, control buttons etc.",
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          },
+          "plain": {
+            "description": "Use to set the vertical padding inside of plain controls, like in plain menu toggles and plain buttons.",
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "spacious": {
+            "description": "Use to set the vertical padding inside a large/display controls. This is used across buttons, text inputs, menu toggles, etc.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          }
+        },
+        "horizontal": {
+          "default": {
+            "description": "Use to set the horizontal padding inside of controls, like text inputs and menu toggles.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "plain": {
+            "description": "Use to set the horizontal padding inside of plain controls, like in plain menu toggles.",
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "compact": {
+            "description": "Use to set the horizontal padding inside of  compact controls. This is used across text inputs, menu toggles, control buttons etc.",
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "spacious": {
+            "description": "Use to set the horizontal padding in large/display controls.",
+            "type": "number",
+            "value": "{global.spacer.lg}"
+          }
+        }
+      },
+      "action": {
+        "horizontal": {
+          "default": {
+            "description": "Use to set the horizontal padding inside a default action, like buttons.",
+            "type": "number",
+            "value": "{global.spacer.lg}"
+          },
+          "plain": {
+            "default": {
+              "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
+              "type": "number",
+              "value": "{global.spacer.sm}"
+            },
+            "compact": {
+              "description": "Use to set the horizontal padding inside a compact, plain action/button.",
+              "type": "number",
+              "value": "{global.spacer.xs}"
+            }
+          },
+          "compact": {
+            "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "spacious": {
+            "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
+            "type": "number",
+            "value": "{global.spacer.xl}"
+          }
+        }
+      },
+      "gap": {
+        "text-to-element": {
+          "default": {
+            "description": "Use to space an element, like an icon or badge, inline with text",
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "compact": {
+            "description": "Use to space an element, like an icon or badge, inline with text",
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          }
+        },
+        "control-to-control": {
+          "default": {
+            "description": "Use to set the space between controls, like in input groups or filter groups",
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          }
+        },
+        "group": {
+          "vertical": {
+            "description": "Use to set the vertical space between items in a group, like a field label, form input, and helper text placed in a vertical/stacked layout",
+            "type": "number",
+            "value": "{global.spacer.sm}"
+          },
+          "horizontal": {
+            "description": "Use to set the horizontal space between items in a group, like a field label and form input placed in a horizontal layout.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          }
+        },
+        "group-to-group": {
+          "horizontal": {
+            "default": {
+              "description": "Use to set the horizontal space between groups of elements, like between multiple action groups or forms groups placed in a horizontal layout.",
+              "type": "number",
+              "value": "{global.spacer.2xl}"
+            },
+            "compact": {
+              "type": "number",
+              "value": "{global.spacer.sm}"
+            }
+          },
+          "vertical": {
+            "default": {
+              "description": "Use to set the vertical space between groups of elements, like between stacked form groups.",
+              "type": "number",
+              "value": "{global.spacer.lg}"
+            },
+            "compact": {
+              "type": "number",
+              "value": "{global.spacer.md}"
+            }
+          }
+        },
+        "action-to-action": {
+          "default": {
+            "description": "Use to set the space between actions, like in an action list group.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "plain": {
+            "description": "Use to set the space between plain actions, like in an action list group.",
+            "type": "number",
+            "value": "{global.spacer.xs}"
+          }
+        }
+      },
+      "inset": {
+        "page-chrome": {
+          "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
+          "type": "number",
+          "value": "{global.spacer.lg}"
+        }
+      },
+      "gutter": {
+        "default": {
+          "description": "Use to define gutters between elements in certain layouts, like grids.",
+          "type": "number",
+          "value": "{global.spacer.md}"
+        }
+      }
+    },
+    "icon": {
+      "size": {
+        "sm": {
+          "description": "Use for small icons.",
+          "type": "number",
+          "value": "{global.icon.size.100}"
+        },
+        "md": {
+          "description": "Use for medium icons.",
+          "type": "number",
+          "value": "{global.icon.size.200}"
+        },
+        "lg": {
+          "description": "Use for large icons.",
+          "type": "number",
+          "value": "{global.icon.size.250}"
+        },
+        "xl": {
+          "description": "Use for extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.300}"
+        },
+        "2xl": {
+          "description": "Use for double extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.400}"
+        },
+        "font": {
+          "body": {
+            "sm": {
+              "description": "Use for icons that are placed inline with small body text",
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "description": "Use for icons that are placed inline with default body text",
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "description": "Use for icons that are placed inline with large body text",
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
+            }
+          },
+          "heading": {
+            "h1": {
+              "description": "Use for icons that are placed inline with first level headings",
+              "type": "number",
+              "value": "{global.font.size.heading.h1}"
+            },
+            "h2": {
+              "description": "Use for icons that are placed inline with second level headings",
+              "type": "number",
+              "value": "{global.font.size.heading.h2}"
+            },
+            "h3": {
+              "description": "Use for icons that are placed inline with third level headings",
+              "type": "number",
+              "value": "{global.font.size.heading.h3}"
+            },
+            "h4": {
+              "description": "Use for icons that are placed inline with fourth level headings",
+              "type": "number",
+              "value": "{global.font.size.heading.h4}"
+            },
+            "h5": {
+              "description": "Use for icons that are placed inline with fifth level headings",
+              "type": "number",
+              "value": "{global.font.size.heading.h5}"
+            },
+            "h6": {
+              "description": "Use for icons that are placed inline with sixth level headings",
+              "type": "number",
+              "value": "{global.font.size.heading.h6}"
+            }
+          },
+          "xs": {
+            "description": "Use for icons that are placed inline with font–size–xs text",
+            "type": "number",
+            "value": "{global.font.size.xs}"
+          },
+          "sm": {
+            "description": "Use for icons that are placed inline with font–size–sm text",
+            "type": "number",
+            "value": "{global.font.size.sm}"
+          },
+          "md": {
+            "description": "Use for icons that are placed inline with font–size–md text",
+            "type": "number",
+            "value": "{global.font.size.md}"
+          },
+          "lg": {
+            "description": "Use for icons that are placed inline with font–size–lg text",
+            "type": "number",
+            "value": "{global.font.size.lg}"
+          },
+          "xl": {
+            "description": "Use for icons that are placed inline with font–size–xl text",
+            "type": "number",
+            "value": "{global.font.size.xl}"
+          },
+          "2xl": {
+            "description": "Use for icons that are placed inline with font–size–2xl text",
+            "type": "number",
+            "value": "{global.font.size.2xl}"
+          },
+          "3xl": {
+            "description": "Use for icons that are placed inline with font–size–3xl text",
+            "type": "number",
+            "value": "{global.font.size.3xl}"
+          },
+          "4xl": {
+            "description": "Use for icons that are placed inline with font–size–3xl text",
+            "type": "number",
+            "value": "{global.font.size.4xl}"
+          }
+        },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        }
+      }
+    },
+    "font": {
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
+        }
+      },
+      "weight": {
+        "body": {
+          "default": {
+            "description": "Use to define the default weight for body text",
+            "type": "number",
+            "value": "{global.font.weight.100}"
+          },
+          "bold": {
+            "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
+            "type": "number",
+            "value": "{global.font.weight.200}"
+          }
+        },
+        "heading": {
+          "default": {
+            "description": "Use to define the default weight for heading text",
+            "type": "number",
+            "value": "{global.font.weight.300}"
+          },
+          "bold": {
+            "description": "Use to define the bold weight for heading text, often used to add emphasis.",
+            "type": "number",
+            "value": "{global.font.weight.400}"
+          }
+        }
+      },
+      "family": {
+        "body": {
+          "description": "Use to define the font family for body text",
+          "type": "number",
+          "value": "{global.font.family.100}"
+        },
+        "heading": {
+          "description": "Use to define the font family for heading text",
+          "type": "number",
+          "value": "{global.font.family.200}"
+        },
+        "mono": {
+          "description": "Use to define the font family for mono text",
+          "type": "number",
+          "value": "{global.font.family.300}"
+        }
+      },
+      "size": {
+        "body": {
+          "sm": {
+            "description": "Use for a smaller font size in body sections.",
+            "type": "number",
+            "value": "{global.font.size.xs}"
+          },
+          "default": {
+            "description": "Use as the default font size in body sections.",
+            "type": "number",
+            "value": "{global.font.size.sm}"
+          },
+          "lg": {
+            "description": "Use for a larger font size in body sections.",
+            "type": "number",
+            "value": "{global.font.size.md}"
+          }
+        },
+        "heading": {
+          "h1": {
+            "description": "Use as the font size for first level headings.",
+            "type": "number",
+            "value": "{global.font.size.2xl}"
+          },
+          "h2": {
+            "description": "Use as the font size for second level headings.",
+            "type": "number",
+            "value": "{global.font.size.xl}"
+          },
+          "h3": {
+            "description": "Use as the font size for third level headings.",
+            "type": "number",
+            "value": "{global.font.size.lg}"
+          },
+          "h4": {
+            "description": "Use as the font size for fourth-level headings.",
+            "type": "number",
+            "value": "{global.font.size.md}"
+          },
+          "h5": {
+            "description": "Use as the font size for fifth level headings.",
+            "type": "number",
+            "value": "{global.font.size.md}"
+          },
+          "h6": {
+            "description": "Use as the font size for sixth level headings.",
+            "type": "number",
+            "value": "{global.font.size.md}"
+          }
+        },
+        "xs": {
+          "type": "number",
+          "value": "{global.font.size.100}"
+        },
+        "sm": {
+          "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.200}"
+        },
+        "md": {
+          "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.300}"
+        },
+        "lg": {
+          "description": "Use as the font size for large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.400}"
+        },
+        "xl": {
+          "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.500}"
+        },
+        "2xl": {
+          "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.600}"
+        },
+        "3xl": {
+          "description": "Use as the font size for triple extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.700}"
+        },
+        "4xl": {
+          "description": "Use as the font size for quadruple extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.800}"
+        }
+      }
+    },
+    "z-index": {
+      "xs": {
+        "description": "Use to set an extra small z-index, to display an element below other elements with a larger z-index. Use for smaller parts of a component that need to overlap adjacent elements, like box shadows of hovered elements.",
+        "type": "number",
+        "value": "{global.z-index.100}"
+      },
+      "sm": {
+        "description": "Use to set a small z-index, to display an element above other elements with smaller z-indexes. Use for components that need to appear above surrounding elements, like menus/dropdowns.",
+        "type": "number",
+        "value": "{global.z-index.200}"
+      },
+      "md": {
+        "description": "Use to set a medium z-index, to display an element above other elements with smaller z-indexes Use for sticky elements, like banners and page sections.",
+        "type": "number",
+        "value": "{global.z-index.300}"
+      },
+      "lg": {
+        "description": "Use to set a large z-index, to display an element above other elements with smaller z-indexes Use for the backdrop component, which appears beneath an open modal.",
+        "type": "number",
+        "value": "{global.z-index.400}"
+      },
+      "xl": {
+        "description": "Use to set an extra large z-index, to display an element above other elements with smaller z-indexes. Use for modals.",
+        "type": "number",
+        "value": "{global.z-index.500}"
+      },
+      "2xl": {
+        "description": "Use to set a double extra large z-index, to display an element above all other page elements. Use for elements that should appear on top of all others, like toast alert groups.",
+        "type": "number",
+        "value": "{global.z-index.600}"
+      }
+    },
+    "box-shadow": {
+      "X": {
+        "sm": {
+          "default": {
+            "description": "Use to define the X value for a default small box-shadow, like in sticky sections",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "top": {
+            "description": "Use to define the X value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "description": "Use to define the X value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "description": "Use to define the X value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
+            "type": "number",
+            "value": "{global.box-shadow.X.200}"
+          },
+          "right": {
+            "description": "Use to define the X value for a small box-shadow that appears on the right of a raised element, like in sticky columns.",
+            "type": "number",
+            "value": "{global.box-shadow.X.600}"
+          }
+        },
+        "md": {
+          "default": {
+            "description": "Use to define the X value for a default medium box-shadow, used in popovers and raised menus.",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "top": {
+            "description": "Use to define the X value for a medium box-shadow that appears on the top of a raised element, like in overlay bottom drawers.",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "description": "Use to define the X value for a medium box-shadow that appears on the bottom of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "description": "Use to define the X value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
+            "type": "number",
+            "value": "{global.box-shadow.X.100}"
+          },
+          "right": {
+            "description": "Use to define the X value for a medium box-shadow that appears on the right of a raised element, like in overlay drawers that show on the left of the screen.",
+            "type": "number",
+            "value": "{global.box-shadow.X.700}"
+          }
+        },
+        "lg": {
+          "default": {
+            "description": "Use to define the X value for a default large box-shadow, used in modals and wizards.",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "top": {
+            "description": "Use to define the X value for a large box-shadow that appears on the top of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "bottom": {
+            "description": "Use to define the X value for a large box-shadow that appears on the bottom of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.X.400}"
+          },
+          "left": {
+            "description": "Use to define the X value for a large box-shadow that appears on the left of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.X.50}"
+          },
+          "right": {
+            "description": "Use to define the X value for a large box-shadow that appears on the right of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.X.800}"
+          }
+        }
+      },
+      "Y": {
+        "sm": {
+          "default": {
+            "description": "Use to define the Y value for a default small box-shadow, like in sticky sections",
+            "type": "number",
+            "value": "{global.box-shadow.Y.500}"
+          },
+          "top": {
+            "description": "Use to define the Y value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
+            "type": "number",
+            "value": "{global.box-shadow.Y.200}"
+          },
+          "bottom": {
+            "description": "Use to define the Y value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.600}"
+          },
+          "left": {
+            "description": "Use to define the Y value for a small box-shadow that appears on the left of a raised element, like in sticky columns.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "description": "Use to define the Y value for a small box-shadow that appears on the right of a raised element, like in sticky columns.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        },
+        "md": {
+          "default": {
+            "description": "Use to define the Y value for a default medium box-shadow, used in popovers and raised menus.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.600}"
+          },
+          "top": {
+            "description": "Use to define the Y value for a medium box-shadow that appears on the top of a raised element, like in overlay bottom drawers",
+            "type": "number",
+            "value": "{global.box-shadow.Y.100}"
+          },
+          "bottom": {
+            "description": "Use to define the Y value for a medium box-shadow that appears on the bottom of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.700}"
+          },
+          "left": {
+            "description": "Use to define the Y value for a medium box-shadow that appears on the left of a raised element, like in overlay drawers that show on the right of the screen.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "description": "Use to define the Y value for a medium box-shadow that appears on the right of a raised element, like in overlay drawers that show on the left of the screen.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        },
+        "lg": {
+          "default": {
+            "description": "Use to define the Y value for a default large box-shadow, used in modals and wizards.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.700}"
+          },
+          "top": {
+            "description": "Use to define the Y value for a large box-shadow that appears on the top of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.50}"
+          },
+          "bottom": {
+            "description": "Use to define the Y value for a large box-shadow that appears on the bottom of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.800}"
+          },
+          "left": {
+            "description": "Use to define the Y value for a large box-shadow that appears on the left of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          },
+          "right": {
+            "description": "Use to define the Y value for a large box-shadow that appears on the right of a raised element.",
+            "type": "number",
+            "value": "{global.box-shadow.Y.400}"
+          }
+        }
+      },
+      "blur": {
+        "sm": {
+          "description": "Use to define the blur for a small box-shadow",
+          "type": "number",
+          "value": "{global.box-shadow.blur.100}"
+        },
+        "md": {
+          "description": "Use to define the blur for a medium box-shadow",
+          "type": "number",
+          "value": "{global.box-shadow.blur.200}"
+        },
+        "lg": {
+          "description": "Use to define the blue for a large box-shadow",
+          "type": "number",
+          "value": "{global.box-shadow.blur.300}"
+        }
+      },
+      "spread": {
+        "sm": {
+          "default": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.100}"
+          },
+          "directional": {
+            "description": "Use to define the spread for a small box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.200}"
+          }
+        },
+        "md": {
+          "default": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.100}"
+          },
+          "directional": {
+            "description": "Use to define the spread of a medium box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.300}"
+          }
+        },
+        "lg": {
+          "default": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.100}"
+          },
+          "directional": {
+            "description": "Use to define the spread of a large box-shadow",
+            "type": "number",
+            "value": "{global.box-shadow.spread.400}"
+          }
+        }
+      }
+    },
+    "breakpoint": {
+      "xs": {
+        "description": "Use to define an extra small breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
+        "type": "number",
+        "value": "{global.breakpoint.100}"
+      },
+      "sm": {
+        "description": "Use to define a small breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
+        "type": "number",
+        "value": "{global.breakpoint.200}"
+      },
+      "md": {
+        "description": "Use to define a medium breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
+        "type": "number",
+        "value": "{global.breakpoint.300}"
+      },
+      "lg": {
+        "description": "Use to define a large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
+        "type": "number",
+        "value": "{global.breakpoint.400}"
+      },
+      "xl": {
+        "description": "Use to define an extra large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
+        "type": "number",
+        "value": "{global.breakpoint.500}"
+      },
+      "2xl": {
+        "description": "Use to define a double extra large breakpoint, which is the minimum width at which an effect applies to an element, in order to support responsive design.",
+        "type": "number",
+        "value": "{global.breakpoint.600}"
+      },
+      "height": {
+        "sm": {
+          "description": "Use to define a small height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
+          "type": "number",
+          "value": "{global.breakpoint.100}"
+        },
+        "md": {
+          "description": "Use to define a medium height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
+          "type": "number",
+          "value": "{global.breakpoint.250}"
+        },
+        "lg": {
+          "description": "Use to define a large height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
+          "type": "number",
+          "value": "{global.breakpoint.300}"
+        },
+        "xl": {
+          "description": "Use to define an extra large height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
+          "type": "number",
+          "value": "{global.breakpoint.350}"
+        },
+        "2xl": {
+          "description": "Use to define an extra small height breakpoint, which is the minimum height at which an effect applies to an element, in order to support responsive design.",
+          "type": "number",
+          "value": "{global.breakpoint.550}"
+        }
+      }
+    },
+    "text-decoration": {
+      "width": {
+        "default": {
+          "type": "number",
+          "value": "{global.border.width.regular}"
+        },
+        "hover": {
+          "type": "number",
+          "value": "{global.border.width.strong}"
+        }
+      },
+      "offset": {
+        "default": {
+          "type": "number",
+          "value": "{global.spacer.xs}"
+        },
+        "hover": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "editable-text": {
+        "line": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          }
+        },
+        "style": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          }
+        }
+      },
+      "link": {
+        "line": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          }
+        },
+        "style": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          }
+        }
+      },
+      "help-text": {
+        "line": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.line.200}"
+          }
+        },
+        "style": {
+          "default": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          },
+          "hover": {
+            "type": "number",
+            "value": "{global.text-decoration.style.200}"
+          }
+        }
+      }
+    },
+    "focus-ring": {
+      "position": {
+        "offset": {
+          "description": "Use to define the position of a custom focus ring that sits outside (offset) of the element receiving focus.",
+          "type": "number",
+          "value": 2
+        },
+        "inset": {
+          "description": "Use to define the position of a custom focus ring that sits inside (inset) of the element receiving focus.",
+          "type": "number",
+          "value": -4
+        }
+      },
+      "width": {
+        "offset": {
+          "description": "Use to define the width of a custom focus ring that sits outside (offset) of the element receiving focus.",
+          "type": "number",
+          "value": 2
+        },
+        "inset": {
+          "description": "Use to define the width of a custom focus ring that sits inside (inset) of the element receiving focus.",
+          "type": "number",
+          "value": 3
+        }
+      }
+    }
+  }
+}

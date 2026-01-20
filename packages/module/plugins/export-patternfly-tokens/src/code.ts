@@ -1,5 +1,3 @@
-console.clear();
-
 interface FileData {
   fileName: string;
   body: {
@@ -17,7 +15,6 @@ type VariableValueExtended = VariableValue & {
 /* MAIN function */
 
 figma.ui.onmessage = (e) => {
-  console.log('code received message', e);
   if (e.type === 'EXPORT') {
     exportToJSON();
   }
@@ -45,23 +42,44 @@ function exportToJSON() {
 
 /* EXPORT - helper functions */
 
-function processCollection({ name, modes, variableIds }) {
+function processCollection(collection) {
+  const { name, modes, variableIds } = collection;
   const files = [];
+
+  // Check if this is an extended collection
+  const isExtended = (collection as any).parentVariableCollectionId !== undefined;
+  const variableOverrides = (collection as any).variableOverrides || {};
+
   modes.forEach((mode) => {
     let file: FileData = { fileName: `${name}.${mode.name}.tokens.json`, body: {} };
 
-    variableIds.forEach((variableId) => {
-      const { name, resolvedType, valuesByMode, description } = figma.variables.getVariableById(variableId);
+    // For extended collections, only process overridden variables
+    const varsToProcess = isExtended ? Object.keys(variableOverrides) : variableIds;
 
-      if (name.includes('figma-only')) {
+    varsToProcess.forEach((variableId) => {
+      const variable = figma.variables.getVariableById(variableId);
+      if (!variable) {
+        return;
+      }
+
+      const { name: varName, resolvedType, valuesByMode, description } = variable;
+
+      if (varName.includes('figma-only')) {
         return; // Skip this variable
       }
 
-      const value: VariableValueExtended = valuesByMode[mode.modeId];
+      // For extended collections, get the overridden value
+      let value: VariableValueExtended;
+      if (isExtended) {
+        const overrides = variableOverrides[variableId];
+        value = overrides ? overrides[mode.modeId] : undefined;
+      } else {
+        value = valuesByMode[mode.modeId];
+      }
 
       if (value !== undefined && ['COLOR', 'FLOAT', 'STRING'].includes(resolvedType)) {
         let obj = file.body;
-        name.split('/').forEach((groupName) => {
+        varName.split('/').forEach((groupName) => {
           obj[groupName] = obj[groupName] || {};
           obj = obj[groupName];
         });
@@ -73,7 +91,6 @@ function processCollection({ name, modes, variableIds }) {
         if (value.type === 'VARIABLE_ALIAS') {
           obj.$type = resolvedType === 'COLOR' ? 'color' : 'number';
           obj.$value = `{${figma.variables.getVariableById(value.id).name.replace(/\//g, '.')}}`;
-          console.log(value);
         } else if (resolvedType === 'COLOR') {
           obj.$type = 'color';
           obj.$value = rgbToHex(value);
@@ -86,6 +103,7 @@ function processCollection({ name, modes, variableIds }) {
         }
       }
     });
+
     files.push(file);
   });
   return files;

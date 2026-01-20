@@ -1,12 +1,16 @@
 {
-  "source": ["tokens/default/dark/*.json"],
+  "source": [
+    "tokens/default/light/*.json",
+    "tokens/redhat/light/redhat*.json"
+  ],
+  "basePxFontSize": 16,
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-dark.scss",
+        "destination": "tokens-redhat.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true
@@ -16,8 +20,7 @@
             "category": "global"
           }
         }
-      }
-    ]
+      }]
     }
   }
 }

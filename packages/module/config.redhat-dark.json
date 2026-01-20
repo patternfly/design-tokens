@@ -1,12 +1,15 @@
 {
-  "source": ["tokens/default/dark/*.json"],
+  "source": [
+    "tokens/default/dark/*.json",
+    "tokens/redhat/dark/redhat*.json"
+  ],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-dark.scss",
+        "destination": "tokens-redhat-dark.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true
@@ -16,8 +19,7 @@
             "category": "global"
           }
         }
-      }
-    ]
+      }]
     }
   }
 }

@@ -1,0 +1,23 @@
+
+{
+  "global": {
+    "border": {
+      "radius": {
+        "control": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.pill}"
+          }
+        },
+        "action": {
+          "plain": {
+            "default": {
+              "type": "number",
+              "value": "{global.border.radius.pill}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
