@@ -10,8 +10,14 @@
       },
       "color": {
         "glass": {
-          "type": "color",
-          "value": "{global.background.color.primary.default}"
+          "primary": {
+            "type": "color",
+            "value": "{global.background.color.primary.default}"
+          },
+          "floating": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
+          }
         },
         "primary": {
           "default": {

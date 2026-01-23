@@ -10,8 +10,14 @@
       },
       "color": {
         "glass": {
-          "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)"
+          "primary": {
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.8000)"
+          },
+          "floating": {
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.8000)"
+          }
         },
         "primary": {
           "default": {

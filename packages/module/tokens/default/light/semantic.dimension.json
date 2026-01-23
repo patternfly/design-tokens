@@ -98,12 +98,12 @@
           "hover": {
             "description": "Use as the hover border width for containers like cards, panels, code editors, etc.",
             "type": "number",
-            "value": "{global.border.width.100}"
+            "value": "{global.border.width.200}"
           },
           "clicked": {
             "description": "Use as the clicked border width for containers like cards, panels, code editors, etc.",
             "type": "number",
-            "value": "{global.border.width.200}"
+            "value": "{global.border.width.300}"
           },
           "status": {
             "default": {
@@ -420,24 +420,12 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        },
         "font": {
-          "body": {
-            "sm": {
-              "description": "Use for icons that are placed inline with small body text",
-              "type": "number",
-              "value": "{global.font.size.body.sm}"
-            },
-            "default": {
-              "description": "Use for icons that are placed inline with default body text",
-              "type": "number",
-              "value": "{global.font.size.body.default}"
-            },
-            "lg": {
-              "description": "Use for icons that are placed inline with large body text",
-              "type": "number",
-              "value": "{global.font.size.body.lg}"
-            }
-          },
           "heading": {
             "h1": {
               "description": "Use for icons that are placed inline with first level headings",
@@ -468,6 +456,23 @@
               "description": "Use for icons that are placed inline with sixth level headings",
               "type": "number",
               "value": "{global.font.size.heading.h6}"
+            }
+          },
+          "body": {
+            "sm": {
+              "description": "Use for icons that are placed inline with small body text",
+              "type": "number",
+              "value": "{global.font.size.body.sm}"
+            },
+            "default": {
+              "description": "Use for icons that are placed inline with default body text",
+              "type": "number",
+              "value": "{global.font.size.body.default}"
+            },
+            "lg": {
+              "description": "Use for icons that are placed inline with large body text",
+              "type": "number",
+              "value": "{global.font.size.body.lg}"
             }
           },
           "xs": {
@@ -510,27 +515,10 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
-        },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
         }
       }
     },
     "font": {
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
-        }
-      },
       "weight": {
         "body": {
           "default": {
@@ -555,6 +543,18 @@
             "type": "number",
             "value": "{global.font.weight.400}"
           }
+        }
+      },
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
         }
       },
       "family": {

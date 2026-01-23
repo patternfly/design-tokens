@@ -26,7 +26,7 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass": {
+      "pf-t--global--background--color--glass--primary": {
         "default": {
           "type": "color",
           "value": "#292929",
@@ -36,18 +36,20 @@
             "type": "color",
             "value": "{global.background.color.primary.default}"
           },
-          "name": "pf-t--global--background--color--glass",
+          "name": "pf-t--global--background--color--glass--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "color",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "primary"
           },
           "path": [
             "global",
             "background",
             "color",
-            "glass"
+            "glass",
+            "primary"
           ],
           "references": [
             {
@@ -121,6 +123,112 @@
                         "color",
                         "gray",
                         "80"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--glass--floating": {
+        "default": {
+          "type": "color",
+          "value": "#383838",
+          "filePath": "tokens/default/dark/semantic.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
+          },
+          "name": "pf-t--global--background--color--glass--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "floating"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "floating"
+          ],
+          "references": [
+            {
+              "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+              "type": "color",
+              "value": "#383838",
+              "filePath": "tokens/default/dark/semantic.dark.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+                "type": "color",
+                "value": "{global.dark.background.color.300}"
+              },
+              "name": "pf-t--global--background--color--floating--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "floating",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "floating",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#383838",
+                  "filePath": "tokens/default/dark/base.dark.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.70}"
+                  },
+                  "name": "pf-t--global--dark--background--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "dark",
+                    "item": "background",
+                    "subitem": "color",
+                    "state": "300"
+                  },
+                  "path": [
+                    "global",
+                    "dark",
+                    "background",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#383838",
+                      "filePath": "tokens/default/dark/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#383838"
+                      },
+                      "name": "pf-t--color--gray--70",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "70"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "70"
                       ]
                     }
                   ]
@@ -32277,6 +32385,363 @@
           ]
         }
       },
+      "pf-t--global--dark--color--severity--undefined--100": {
+        "default": {
+          "type": "color",
+          "value": "#a3a3a3",
+          "filePath": "tokens/default/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--undefined--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "undefined"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "undefined",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a3a3a3",
+              "filePath": "tokens/default/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#a3a3a3"
+              },
+              "name": "pf-t--color--gray--40",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "gray",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--none--100": {
+        "default": {
+          "type": "color",
+          "value": "#92c5f9",
+          "filePath": "tokens/default/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--none--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "none"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "none",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#92c5f9",
+              "filePath": "tokens/default/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#92c5f9"
+              },
+              "name": "pf-t--color--blue--30",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "blue",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--minor--100": {
+        "default": {
+          "type": "color",
+          "value": "#c7c7c7",
+          "filePath": "tokens/default/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--minor--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "minor"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "minor",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#c7c7c7",
+              "filePath": "tokens/default/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#c7c7c7"
+              },
+              "name": "pf-t--color--gray--30",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "gray",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--moderate--100": {
+        "default": {
+          "type": "color",
+          "value": "#ffcc17",
+          "filePath": "tokens/default/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--moderate--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "moderate"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "moderate",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ffcc17",
+              "filePath": "tokens/default/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#ffcc17"
+              },
+              "name": "pf-t--color--yellow--30",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--important--100": {
+        "default": {
+          "type": "color",
+          "value": "#f5921b",
+          "filePath": "tokens/default/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.orange.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--important--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "important"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "important",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f5921b",
+              "filePath": "tokens/default/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f5921b"
+              },
+              "name": "pf-t--color--orange--40",
+              "attributes": {
+                "category": "color",
+                "type": "orange",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "orange",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--critical--100": {
+        "default": {
+          "type": "color",
+          "value": "#f0561d",
+          "filePath": "tokens/default/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.50}"
+          },
+          "name": "pf-t--global--dark--color--severity--critical--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "critical"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "critical",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f0561d",
+              "filePath": "tokens/default/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f0561d"
+              },
+              "name": "pf-t--color--red-orange--50",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "50"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--critical--200": {
+        "default": {
+          "type": "color",
+          "value": "#f4784a",
+          "filePath": "tokens/default/dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--critical--200",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "critical"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "critical",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f4784a",
+              "filePath": "tokens/default/dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f4784a"
+              },
+              "name": "pf-t--color--red-orange--40",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--dark--color--status--success--100": {
         "default": {
           "type": "color",
@@ -33037,363 +33502,6 @@
                 "color",
                 "teal",
                 "20"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--undefined--100": {
-        "default": {
-          "type": "color",
-          "value": "#a3a3a3",
-          "filePath": "tokens/default/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--undefined--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "undefined"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "undefined",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#a3a3a3",
-              "filePath": "tokens/default/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#a3a3a3"
-              },
-              "name": "pf-t--color--gray--40",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "gray",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--none--100": {
-        "default": {
-          "type": "color",
-          "value": "#92c5f9",
-          "filePath": "tokens/default/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.blue.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--none--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "none"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "none",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#92c5f9",
-              "filePath": "tokens/default/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#92c5f9"
-              },
-              "name": "pf-t--color--blue--30",
-              "attributes": {
-                "category": "color",
-                "type": "blue",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "blue",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--minor--100": {
-        "default": {
-          "type": "color",
-          "value": "#c7c7c7",
-          "filePath": "tokens/default/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--minor--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "minor"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "minor",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#c7c7c7",
-              "filePath": "tokens/default/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#c7c7c7"
-              },
-              "name": "pf-t--color--gray--30",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "gray",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--moderate--100": {
-        "default": {
-          "type": "color",
-          "value": "#ffcc17",
-          "filePath": "tokens/default/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.yellow.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--moderate--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "moderate"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "moderate",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#ffcc17",
-              "filePath": "tokens/default/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffcc17"
-              },
-              "name": "pf-t--color--yellow--30",
-              "attributes": {
-                "category": "color",
-                "type": "yellow",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "yellow",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--important--100": {
-        "default": {
-          "type": "color",
-          "value": "#f5921b",
-          "filePath": "tokens/default/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.orange.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--important--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "important"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "important",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f5921b",
-              "filePath": "tokens/default/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f5921b"
-              },
-              "name": "pf-t--color--orange--40",
-              "attributes": {
-                "category": "color",
-                "type": "orange",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "orange",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--critical--100": {
-        "default": {
-          "type": "color",
-          "value": "#f0561d",
-          "filePath": "tokens/default/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.red-orange.50}"
-          },
-          "name": "pf-t--global--dark--color--severity--critical--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "critical"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "critical",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f0561d",
-              "filePath": "tokens/default/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f0561d"
-              },
-              "name": "pf-t--color--red-orange--50",
-              "attributes": {
-                "category": "color",
-                "type": "red-orange",
-                "item": "50"
-              },
-              "path": [
-                "color",
-                "red-orange",
-                "50"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--critical--200": {
-        "default": {
-          "type": "color",
-          "value": "#f4784a",
-          "filePath": "tokens/default/dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.red-orange.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--critical--200",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "critical"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "critical",
-            "200"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f4784a",
-              "filePath": "tokens/default/dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f4784a"
-              },
-              "name": "pf-t--color--red-orange--40",
-              "attributes": {
-                "category": "color",
-                "type": "red-orange",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "red-orange",
-                "40"
               ]
             }
           ]
@@ -40707,29 +40815,6 @@
         ]
       }
     },
-    "pf-t--chart--global--letter-spacing": {
-      "default": {
-        "type": "string",
-        "value": "normal",
-        "filePath": "tokens/default/dark/charts.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "normal"
-        },
-        "name": "pf-t--chart--global--letter-spacing",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "letter-spacing"
-        },
-        "path": [
-          "chart",
-          "global",
-          "letter-spacing"
-        ]
-      }
-    },
     "pf-t--chart--global--FontSize--xs": {
       "default": {
         "type": "number",
@@ -40827,6 +40912,104 @@
           "global",
           "FontSize",
           "2xl"
+        ]
+      }
+    },
+    "pf-t--chart--global--letter-spacing": {
+      "default": {
+        "type": "string",
+        "value": "normal",
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "normal"
+        },
+        "name": "pf-t--chart--global--letter-spacing",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "letter-spacing"
+        },
+        "path": [
+          "chart",
+          "global",
+          "letter-spacing"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--padding": {
+      "default": {
+        "type": "number",
+        "value": 50,
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 50
+        },
+        "name": "pf-t--chart--global--layout--padding",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "padding"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "padding"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--height": {
+      "default": {
+        "type": "number",
+        "value": 300,
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 300
+        },
+        "name": "pf-t--chart--global--layout--height",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "height"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "height"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--width": {
+      "default": {
+        "type": "number",
+        "value": 450,
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 450
+        },
+        "name": "pf-t--chart--global--layout--width",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "width"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "width"
         ]
       }
     },
@@ -41008,81 +41191,6 @@
           "chart",
           "global",
           "stroke-line-cap"
-        ]
-      }
-    },
-    "pf-t--chart--global--layout--padding": {
-      "default": {
-        "type": "number",
-        "value": 50,
-        "filePath": "tokens/default/dark/charts.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 50
-        },
-        "name": "pf-t--chart--global--layout--padding",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "padding"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "padding"
-        ]
-      }
-    },
-    "pf-t--chart--global--layout--height": {
-      "default": {
-        "type": "number",
-        "value": 300,
-        "filePath": "tokens/default/dark/charts.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 300
-        },
-        "name": "pf-t--chart--global--layout--height",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "height"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "height"
-        ]
-      }
-    },
-    "pf-t--chart--global--layout--width": {
-      "default": {
-        "type": "number",
-        "value": 450,
-        "filePath": "tokens/default/dark/charts.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 450
-        },
-        "name": "pf-t--chart--global--layout--width",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "width"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "width"
         ]
       }
     },

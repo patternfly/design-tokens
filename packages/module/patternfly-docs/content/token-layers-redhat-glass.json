@@ -15066,7 +15066,7 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass": {
+      "pf-t--global--background--color--glass--primary": {
         "default": {
           "type": "color",
           "value": "rgba(255, 255, 255, 0.8000)",
@@ -15076,18 +15076,47 @@
             "type": "color",
             "value": "rgba(255, 255, 255, 0.8000)"
           },
-          "name": "pf-t--global--background--color--glass",
+          "name": "pf-t--global--background--color--glass--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "color",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "primary"
           },
           "path": [
             "global",
             "background",
             "color",
-            "glass"
+            "glass",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--color--glass--floating": {
+        "default": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.8000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.8000)"
+          },
+          "name": "pf-t--global--background--color--glass--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "floating"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "floating"
           ]
         }
       },
