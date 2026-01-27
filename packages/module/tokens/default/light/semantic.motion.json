@@ -1,0 +1,151 @@
+
+{
+  "global": {
+    "motion": {
+      "duration": {
+        "xs": {
+          "description": "Use for the quickest possible duration of an animation.",
+          "type": "number",
+          "value": "{global.duration.50}"
+        },
+        "sm": {
+          "description": "Use for a short animation duration. Use for simple and/or small animations.",
+          "type": "number",
+          "value": "{global.duration.100}"
+        },
+        "md": {
+          "description": "Use for a medium animation duration.",
+          "type": "number",
+          "value": "{global.duration.200}"
+        },
+        "lg": {
+          "description": "Use for long animation duration. Use for larger, more expressive animations.",
+          "type": "number",
+          "value": "{global.duration.300}"
+        },
+        "xl": {
+          "description": "Use for extra long animation duration.",
+          "type": "number",
+          "value": "{global.duration.400}"
+        },
+        "2xl": {
+          "description": "Use for significantly long animation duration.",
+          "type": "number",
+          "value": "{global.duration.500}"
+        },
+        "3xl": {
+          "description": "Use for the longest possible duration of an animation.",
+          "type": "number",
+          "value": "{global.duration.600}"
+        },
+        "slide-out": {
+          "short": {
+            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "default": {
+            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "long": {
+            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          }
+        },
+        "slide-in": {
+          "short": {
+            "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "default": {
+            "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "long": {
+            "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          }
+        },
+        "fade": {
+          "short": {
+            "description": "Use a short/quick fade to transition color and/or opacity. Useful for fading in one or more elements. Short fades are used for small elements traveling short distances. Used in small interactions like buttons.",
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "default": {
+            "description": "Use a default fade to transition color and/or opacity. Useful for fading in one or more elements. Default fades are used for medium sized elements traveling medium distances. Used on alerts.",
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          },
+          "long": {
+            "description": "Use a long fade to transition color and/or opacity. Useful for fading in one or more elements. Long fades are used for large elements traveling long distances.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          }
+        },
+        "icon": {
+          "short": {
+            "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
+            "type": "number",
+            "value": "{global.motion.duration.xs}"
+          },
+          "default": {
+            "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
+            "type": "number",
+            "value": "{global.motion.duration.sm}"
+          },
+          "long": {
+            "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
+            "type": "number",
+            "value": "{global.motion.duration.md}"
+          }
+        }
+      },
+      "delay": {
+        "none": {
+          "description": "Use when there should be no delay before an animation plays.",
+          "type": "number",
+          "value": "{global.delay.100}"
+        },
+        "short": {
+          "description": "Use when there should be a short delay before an animation plays.",
+          "type": "number",
+          "value": "{global.delay.200}"
+        },
+        "default": {
+          "description": "Use when there should be the default delay length before an animation plays.",
+          "type": "number",
+          "value": "{global.delay.300}"
+        },
+        "long": {
+          "description": "Use when there should be a long delay before an animation plays.",
+          "type": "number",
+          "value": "{global.delay.400}"
+        }
+      },
+      "timing-function": {
+        "accelerate": {
+          "description": "Use accelerate to specify that the animation starts slowly and accelerates gradually until the end. Timing function controls the pace of an animation transition. Acceleration is our equivalent to an ease-in.",
+          "type": "number",
+          "value": "{global.timing-function.100}"
+        },
+        "default": {
+          "description": "Use default to specify that the animation starts slow, speeds up and slows down at the end. Timing function controls the pace of an animation transition. Default is our equivalent to an ease-in-out.",
+          "type": "number",
+          "value": "{global.timing-function.200}"
+        },
+        "decelerate": {
+          "description": "Use decelerate to specify that the animation starts quickly and decelerates gradually until the end. Timing function controls the pace of an animation transition. Deceleration is our equivalent to an ease-out.",
+          "type": "number",
+          "value": "{global.timing-function.300}"
+        }
+      }
+    }
+  }
+}

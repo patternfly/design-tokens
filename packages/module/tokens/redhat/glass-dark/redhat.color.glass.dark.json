@@ -1,0 +1,62 @@
+
+{
+  "global": {
+    "border": {
+      "color": {
+        "brand": {
+          "accent": {
+            "hover": {
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.dark.color.brand.accent.400}"
+            },
+            "default": {
+              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.dark.color.brand.accent.400}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.dark.color.brand.accent.400}"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "color": {
+        "on-brand": {
+          "accent": {
+            "default": {
+              "description": "Use as the default color for text placed on a brand-colored background.",
+              "type": "color",
+              "value": "{global.text.color.regular}"
+            }
+          }
+        }
+      }
+    },
+    "color": {
+      "brand": {
+        "accent": {
+          "hover": {
+            "description": "Use as the hover state for elements that have a branded background color",
+            "type": "color",
+            "value": "{global.dark.color.brand.accent.200}"
+          },
+          "clicked": {
+            "description": "Use as the clicked state for elements that have a brand background color",
+            "type": "color",
+            "value": "{global.dark.color.brand.accent.200}"
+          },
+          "default": {
+            "description": "Use this color for elements that you want to reinforce your brand",
+            "type": "color",
+            "value": "{global.dark.color.brand.accent.100}"
+          }
+        }
+      }
+    }
+  }
+}

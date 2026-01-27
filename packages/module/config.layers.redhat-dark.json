@@ -1,0 +1,22 @@
+{
+  "source": [
+    "tokens/default/dark/*.json",
+    "tokens/redhat/dark/redhat*.json"
+  ],
+  "platforms": {
+    "json/default": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "patternfly-docs/content/",
+      "prefix": "pf-t",
+      "files": [
+        {
+          "destination": "token-layers-redhat-dark.json",
+          "format": "json/flat-categories",
+          "options": {
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}

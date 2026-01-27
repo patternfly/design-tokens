@@ -1,0 +1,22 @@
+{
+  "source": [
+    "tokens/default/highcontrast/*.json",
+    "tokens/redhat/highcontrast/redhat*.json"
+  ],
+  "platforms": {
+    "json/default": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "patternfly-docs/content/",
+      "prefix": "pf-t",
+      "files": [
+        {
+          "destination": "token-layers-redhat-highcontrast.json",
+          "format": "json/flat-categories",
+          "options": {
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}
