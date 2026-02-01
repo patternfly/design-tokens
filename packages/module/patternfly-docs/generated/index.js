@@ -7,6 +7,7 @@ module.exports = {
     subsection: "design-tokens",
     source: "design-tokens",
     tabName: null,
+    sortValue: 5,
     Component: () => import(/* webpackChunkName: "foundations-and-styles/design-tokens/all-design-tokens/design-tokens/index" */ './foundations-and-styles/design-tokens/all-design-tokens/design-tokens')
   }
 };
