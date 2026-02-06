@@ -16957,7 +16957,7 @@
       "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
-          "value": 0,
+          "value": "0px",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -16985,7 +16985,7 @@
       "pf-t--global--background--filter--glass--blur--floating": {
         "default": {
           "type": "number",
-          "value": 0,
+          "value": "0px",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -17013,7 +17013,7 @@
       "pf-t--global--background--opacity--glass--primary": {
         "default": {
           "type": "number",
-          "value": 100,
+          "value": "100%",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -17040,7 +17040,7 @@
       "pf-t--global--background--opacity--glass--floating": {
         "default": {
           "type": "number",
-          "value": 100,
+          "value": "100%",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {

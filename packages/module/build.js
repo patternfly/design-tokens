@@ -90,7 +90,8 @@ const build = (selector) => {
     type: 'value',
     matcher: (token) =>
       (['border', 'focus-ring'].includes(token.attributes.type) && token.original.type === 'number') ||
-      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color'),
+      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
+      (token.attributes.item == 'filter' && token.attributes.state === 'blur' && token.original.type === 'number'),
     transformer: (token) => `${token.value}px`
   });
 
@@ -120,9 +121,15 @@ const build = (selector) => {
     type: 'value',
     matcher: (token) => token.type === 'number',
     transformer: (token) => {
-      console.log(token);
       return Math.round(parseFloat(token.value) * 100) / 100;
     }
+  });
+
+  StyleDictionary.registerTransform({
+    name: 'patternfly/global/percentage',
+    type: 'value',
+    matcher: (token) => token.attributes.item === 'opacity' && token.original.type === 'number',
+    transformer: (token) => `${token.value}%`
   });
 
   // Reigster custom transform group
@@ -138,6 +145,7 @@ const build = (selector) => {
       'color/css',
       // custom transforms
       'patternfly/global/round-decimel',
+      'patternfly/global/percentage',
       'patternfly/global/px',
       'patternfly/global/pxToRem',
       'patternfly/global/ms',

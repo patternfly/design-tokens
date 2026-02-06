@@ -2087,7 +2087,7 @@
       "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
-          "value": 12.5,
+          "value": "12.5px",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
@@ -2115,7 +2115,7 @@
       "pf-t--global--background--filter--glass--blur--floating": {
         "default": {
           "type": "number",
-          "value": 12.5,
+          "value": "12.5px",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
@@ -2143,7 +2143,7 @@
       "pf-t--global--background--opacity--glass--primary": {
         "default": {
           "type": "number",
-          "value": 80,
+          "value": "80%",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
@@ -2170,7 +2170,7 @@
       "pf-t--global--background--opacity--glass--floating": {
         "default": {
           "type": "number",
-          "value": 80,
+          "value": "80%",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
