@@ -15038,6 +15038,212 @@
           ]
         }
       },
+      "pf-t--global--background--color--glass--FIGMA-ONLY--primary": {
+        "default": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.primary.default}"
+          },
+          "name": "pf-t--global--background--color--glass--FIGMA-ONLY--primary",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "FIGMA-ONLY"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "FIGMA-ONLY",
+            "primary"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                "type": "color",
+                "value": "{global.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--primary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "primary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/highcontrast/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/highcontrast/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--glass--FIGMA-ONLY--floating": {
+        "default": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
+          },
+          "name": "pf-t--global--background--color--glass--FIGMA-ONLY--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "FIGMA-ONLY"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "FIGMA-ONLY",
+            "floating"
+          ],
+          "references": [
+            {
+              "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+                "type": "color",
+                "value": "{global.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--floating--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "floating",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "floating",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/highcontrast/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/highcontrast/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--background--color--primary--default": {
         "default": {
           "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
@@ -16780,7 +16986,7 @@
           ]
         }
       },
-      "pf-t--global--background--filter--glass": {
+      "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
           "value": 0,
@@ -16790,22 +16996,53 @@
             "type": "number",
             "value": 0
           },
-          "name": "pf-t--global--background--filter--glass",
+          "name": "pf-t--global--background--filter--glass--blur--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "filter",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "blur"
           },
           "path": [
             "global",
             "background",
             "filter",
-            "glass"
+            "glass",
+            "blur",
+            "primary"
           ]
         }
       },
-      "pf-t--global--background--opacity--glass": {
+      "pf-t--global--background--filter--glass--blur--floating": {
+        "default": {
+          "type": "number",
+          "value": 0,
+          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--background--filter--glass--blur--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "filter",
+            "subitem": "glass",
+            "state": "blur"
+          },
+          "path": [
+            "global",
+            "background",
+            "filter",
+            "glass",
+            "blur",
+            "floating"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--primary": {
         "default": {
           "type": "number",
           "value": 100,
@@ -16815,18 +17052,47 @@
             "type": "number",
             "value": 100
           },
-          "name": "pf-t--global--background--opacity--glass",
+          "name": "pf-t--global--background--opacity--glass--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "opacity",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "primary"
           },
           "path": [
             "global",
             "background",
             "opacity",
-            "glass"
+            "glass",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--floating": {
+        "default": {
+          "type": "number",
+          "value": 100,
+          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 100
+          },
+          "name": "pf-t--global--background--opacity--glass--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "opacity",
+            "subitem": "glass",
+            "state": "floating"
+          },
+          "path": [
+            "global",
+            "background",
+            "opacity",
+            "glass",
+            "floating"
           ]
         }
       },
@@ -32910,53 +33176,332 @@
           ]
         }
       },
-      "pf-t--global--icon--size--3xl": {
+      "pf-t--global--icon--size--font--body--sm": {
         "default": {
-          "description": "Use for triple extra large icons.",
+          "description": "Use for icons that are placed inline with small body text",
           "type": "number",
-          "value": "6rem",
+          "value": "0.75rem",
           "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use for triple extra large icons.",
+            "description": "Use for icons that are placed inline with small body text",
             "type": "number",
-            "value": "{global.icon.size.500}"
+            "value": "{global.font.size.body.sm}"
           },
-          "name": "pf-t--global--icon--size--3xl",
+          "name": "pf-t--global--icon--size--font--body--sm",
           "attributes": {
             "category": "global",
             "type": "icon",
             "item": "size",
-            "subitem": "3xl"
+            "subitem": "font",
+            "state": "body"
           },
           "path": [
             "global",
             "icon",
             "size",
-            "3xl"
+            "font",
+            "body",
+            "sm"
           ],
           "references": [
             {
+              "description": "Use for a smaller font size in body sections.",
               "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "value": "0.75rem",
+              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
               "isSource": true,
               "original": {
+                "description": "Use for a smaller font size in body sections.",
                 "type": "number",
-                "value": 96
+                "value": "{global.font.size.xs}"
               },
-              "name": "pf-t--global--icon--size--500",
+              "name": "pf-t--global--font--size--body--sm",
               "attributes": {
                 "category": "global",
-                "type": "icon",
+                "type": "font",
                 "item": "size",
-                "subitem": "500"
+                "subitem": "body",
+                "state": "sm"
               },
               "path": [
                 "global",
-                "icon",
+                "font",
                 "size",
-                "500"
+                "body",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.75rem",
+                  "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": "{global.font.size.100}"
+                  },
+                  "name": "pf-t--global--font--size--xs",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "xs"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "xs"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.75rem",
+                      "filePath": "tokens/default/highcontrast/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 12
+                      },
+                      "name": "pf-t--global--font--size--100",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "100"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "100"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--default": {
+        "default": {
+          "description": "Use for icons that are placed inline with default body text",
+          "type": "number",
+          "value": "0.875rem",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with default body text",
+            "type": "number",
+            "value": "{global.font.size.body.default}"
+          },
+          "name": "pf-t--global--icon--size--font--body--default",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default font size in body sections.",
+              "type": "number",
+              "value": "0.875rem",
+              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.sm}"
+              },
+              "name": "pf-t--global--font--size--body--default",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "default"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "0.875rem",
+                  "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.200}"
+                  },
+                  "name": "pf-t--global--font--size--sm",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "sm"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "sm"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.875rem",
+                      "filePath": "tokens/default/highcontrast/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 14
+                      },
+                      "name": "pf-t--global--font--size--200",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "200"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "200"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--lg": {
+        "default": {
+          "description": "Use for icons that are placed inline with large body text",
+          "type": "number",
+          "value": "1rem",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with large body text",
+            "type": "number",
+            "value": "{global.font.size.body.lg}"
+          },
+          "name": "pf-t--global--icon--size--font--body--lg",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "lg"
+          ],
+          "references": [
+            {
+              "description": "Use for a larger font size in body sections.",
+              "type": "number",
+              "value": "1rem",
+              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a larger font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.md}"
+              },
+              "name": "pf-t--global--font--size--body--lg",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "lg"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "lg"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "1rem",
+                  "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.300}"
+                  },
+                  "name": "pf-t--global--font--size--md",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "md"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "md"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "1rem",
+                      "filePath": "tokens/default/highcontrast/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 16
+                      },
+                      "name": "pf-t--global--font--size--300",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "300"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "300"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -33571,337 +34116,6 @@
                 "size",
                 "heading",
                 "h6"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "1rem",
-                  "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.300}"
-                  },
-                  "name": "pf-t--global--font--size--md",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "md"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "md"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "1rem",
-                      "filePath": "tokens/default/highcontrast/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 16
-                      },
-                      "name": "pf-t--global--font--size--300",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "300"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "300"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--sm": {
-        "default": {
-          "description": "Use for icons that are placed inline with small body text",
-          "type": "number",
-          "value": "0.75rem",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with small body text",
-            "type": "number",
-            "value": "{global.font.size.body.sm}"
-          },
-          "name": "pf-t--global--icon--size--font--body--sm",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "sm"
-          ],
-          "references": [
-            {
-              "description": "Use for a smaller font size in body sections.",
-              "type": "number",
-              "value": "0.75rem",
-              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a smaller font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.xs}"
-              },
-              "name": "pf-t--global--font--size--body--sm",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "sm"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "0.75rem",
-                  "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": "{global.font.size.100}"
-                  },
-                  "name": "pf-t--global--font--size--xs",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "xs"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "xs"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.75rem",
-                      "filePath": "tokens/default/highcontrast/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 12
-                      },
-                      "name": "pf-t--global--font--size--100",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "100"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "100"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--default": {
-        "default": {
-          "description": "Use for icons that are placed inline with default body text",
-          "type": "number",
-          "value": "0.875rem",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with default body text",
-            "type": "number",
-            "value": "{global.font.size.body.default}"
-          },
-          "name": "pf-t--global--icon--size--font--body--default",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use as the default font size in body sections.",
-              "type": "number",
-              "value": "0.875rem",
-              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the default font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.sm}"
-              },
-              "name": "pf-t--global--font--size--body--default",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "default"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "0.875rem",
-                  "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.200}"
-                  },
-                  "name": "pf-t--global--font--size--sm",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "sm"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "sm"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.875rem",
-                      "filePath": "tokens/default/highcontrast/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 14
-                      },
-                      "name": "pf-t--global--font--size--200",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "200"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "200"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--lg": {
-        "default": {
-          "description": "Use for icons that are placed inline with large body text",
-          "type": "number",
-          "value": "1rem",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with large body text",
-            "type": "number",
-            "value": "{global.font.size.body.lg}"
-          },
-          "name": "pf-t--global--icon--size--font--body--lg",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "lg"
-          ],
-          "references": [
-            {
-              "description": "Use for a larger font size in body sections.",
-              "type": "number",
-              "value": "1rem",
-              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a larger font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.md}"
-              },
-              "name": "pf-t--global--font--size--body--lg",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "lg"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "lg"
               ],
               "references": [
                 {
@@ -34605,53 +34819,53 @@
           ]
         }
       },
-      "pf-t--global--border--width--regular": {
+      "pf-t--global--icon--size--3xl": {
         "default": {
-          "description": "Use as the default border width for elements.",
+          "description": "Use for triple extra large icons.",
           "type": "number",
-          "value": "1px",
+          "value": "6rem",
           "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border width for elements.",
+            "description": "Use for triple extra large icons.",
             "type": "number",
-            "value": "{global.border.width.100}"
+            "value": "{global.icon.size.500}"
           },
-          "name": "pf-t--global--border--width--regular",
+          "name": "pf-t--global--icon--size--3xl",
           "attributes": {
             "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "regular"
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
           },
           "path": [
             "global",
-            "border",
-            "width",
-            "regular"
+            "icon",
+            "size",
+            "3xl"
           ],
           "references": [
             {
               "type": "number",
-              "value": "1px",
+              "value": "6rem",
               "filePath": "tokens/default/highcontrast/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 1
+                "value": 96
               },
-              "name": "pf-t--global--border--width--100",
+              "name": "pf-t--global--icon--size--500",
               "attributes": {
                 "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "100"
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
               },
               "path": [
                 "global",
-                "border",
-                "width",
-                "100"
+                "icon",
+                "size",
+                "500"
               ]
             }
           ]
@@ -34791,6 +35005,58 @@
             "width",
             "divider",
             "clicked"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1
+              },
+              "name": "pf-t--global--border--width--100",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--width--regular": {
+        "default": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border width for elements.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "name": "pf-t--global--border--width--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "regular"
           ],
           "references": [
             {

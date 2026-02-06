@@ -2,21 +2,25 @@
 {
   "global": {
     "background": {
-      "filter": {
-        "glass": {
-          "type": "number",
-          "value": 12.5
-        }
-      },
       "color": {
         "glass": {
           "primary": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.8000)"
+            "value": "{global.background.color.primary.default}"
           },
           "floating": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.8000)"
+            "value": "{global.background.color.primary.default}"
+          },
+          "FIGMA-ONLY": {
+            "primary": {
+              "type": "color",
+              "value": "rgba(41, 41, 41, 0.8000)"
+            },
+            "floating": {
+              "type": "color",
+              "value": "rgba(41, 41, 41, 0.8000)"
+            }
           }
         },
         "primary": {
@@ -175,10 +179,30 @@
           }
         }
       },
+      "filter": {
+        "glass": {
+          "blur": {
+            "primary": {
+              "type": "number",
+              "value": 12.5
+            },
+            "floating": {
+              "type": "number",
+              "value": 12.5
+            }
+          }
+        }
+      },
       "opacity": {
         "glass": {
-          "type": "number",
-          "value": 80
+          "primary": {
+            "type": "number",
+            "value": 80
+          },
+          "floating": {
+            "type": "number",
+            "value": 80
+          }
         }
       }
     },
@@ -1957,15 +1981,6 @@
         }
       }
     },
-    "focus-ring": {
-      "color": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "{global.dark.focus-ring.color.100}"
-        }
-      }
-    },
     "text-decoration": {
       "color": {
         "default": {
@@ -1975,6 +1990,15 @@
         "hover": {
           "type": "color",
           "value": "{global.border.color.hover}"
+        }
+      }
+    },
+    "focus-ring": {
+      "color": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "{global.dark.focus-ring.color.100}"
         }
       }
     }

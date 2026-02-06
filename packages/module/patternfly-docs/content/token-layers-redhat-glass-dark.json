@@ -1,40 +1,15 @@
 {
   "semantic": {
     "colors": {
-      "pf-t--global--background--filter--glass": {
-        "default": {
-          "type": "number",
-          "value": 12.5,
-          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 12.5
-          },
-          "name": "pf-t--global--background--filter--glass",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "filter",
-            "subitem": "glass"
-          },
-          "path": [
-            "global",
-            "background",
-            "filter",
-            "glass"
-          ]
-        }
-      },
       "pf-t--global--background--color--glass--primary": {
         "default": {
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.8000)",
+          "value": "#292929",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.8000)"
+            "value": "{global.background.color.primary.default}"
           },
           "name": "pf-t--global--background--color--glass--primary",
           "attributes": {
@@ -50,18 +25,97 @@
             "color",
             "glass",
             "primary"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+              "type": "color",
+              "value": "#292929",
+              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                "type": "color",
+                "value": "{global.dark.background.color.200}"
+              },
+              "name": "pf-t--global--background--color--primary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "primary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#292929",
+                  "filePath": "tokens/default/glass-dark/base.dark.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.80}"
+                  },
+                  "name": "pf-t--global--dark--background--color--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "dark",
+                    "item": "background",
+                    "subitem": "color",
+                    "state": "200"
+                  },
+                  "path": [
+                    "global",
+                    "dark",
+                    "background",
+                    "color",
+                    "200"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#292929",
+                      "filePath": "tokens/default/glass-dark/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#292929"
+                      },
+                      "name": "pf-t--color--gray--80",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "80"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "80"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       },
       "pf-t--global--background--color--glass--floating": {
         "default": {
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.8000)",
+          "value": "#292929",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.8000)"
+            "value": "{global.background.color.primary.default}"
           },
           "name": "pf-t--global--background--color--glass--floating",
           "attributes": {
@@ -76,6 +130,141 @@
             "background",
             "color",
             "glass",
+            "floating"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+              "type": "color",
+              "value": "#292929",
+              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                "type": "color",
+                "value": "{global.dark.background.color.200}"
+              },
+              "name": "pf-t--global--background--color--primary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "primary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#292929",
+                  "filePath": "tokens/default/glass-dark/base.dark.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.80}"
+                  },
+                  "name": "pf-t--global--dark--background--color--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "dark",
+                    "item": "background",
+                    "subitem": "color",
+                    "state": "200"
+                  },
+                  "path": [
+                    "global",
+                    "dark",
+                    "background",
+                    "color",
+                    "200"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#292929",
+                      "filePath": "tokens/default/glass-dark/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#292929"
+                      },
+                      "name": "pf-t--color--gray--80",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "80"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "80"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--glass--FIGMA-ONLY--primary": {
+        "default": {
+          "type": "color",
+          "value": "rgba(41, 41, 41, 0.8000)",
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(41, 41, 41, 0.8000)"
+          },
+          "name": "pf-t--global--background--color--glass--FIGMA-ONLY--primary",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "FIGMA-ONLY"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "FIGMA-ONLY",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--color--glass--FIGMA-ONLY--floating": {
+        "default": {
+          "type": "color",
+          "value": "rgba(41, 41, 41, 0.8000)",
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(41, 41, 41, 0.8000)"
+          },
+          "name": "pf-t--global--background--color--glass--FIGMA-ONLY--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "FIGMA-ONLY"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "FIGMA-ONLY",
             "floating"
           ]
         }
@@ -1951,7 +2140,63 @@
           ]
         }
       },
-      "pf-t--global--background--opacity--glass": {
+      "pf-t--global--background--filter--glass--blur--primary": {
+        "default": {
+          "type": "number",
+          "value": 12.5,
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 12.5
+          },
+          "name": "pf-t--global--background--filter--glass--blur--primary",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "filter",
+            "subitem": "glass",
+            "state": "blur"
+          },
+          "path": [
+            "global",
+            "background",
+            "filter",
+            "glass",
+            "blur",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--filter--glass--blur--floating": {
+        "default": {
+          "type": "number",
+          "value": 12.5,
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 12.5
+          },
+          "name": "pf-t--global--background--filter--glass--blur--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "filter",
+            "subitem": "glass",
+            "state": "blur"
+          },
+          "path": [
+            "global",
+            "background",
+            "filter",
+            "glass",
+            "blur",
+            "floating"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--primary": {
         "default": {
           "type": "number",
           "value": 80,
@@ -1961,18 +2206,47 @@
             "type": "number",
             "value": 80
           },
-          "name": "pf-t--global--background--opacity--glass",
+          "name": "pf-t--global--background--opacity--glass--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "opacity",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "primary"
           },
           "path": [
             "global",
             "background",
             "opacity",
-            "glass"
+            "glass",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--floating": {
+        "default": {
+          "type": "number",
+          "value": 80,
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 80
+          },
+          "name": "pf-t--global--background--opacity--glass--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "opacity",
+            "subitem": "glass",
+            "state": "floating"
+          },
+          "path": [
+            "global",
+            "background",
+            "opacity",
+            "glass",
+            "floating"
           ]
         }
       },
@@ -30651,83 +30925,6 @@
           ]
         }
       },
-      "pf-t--global--focus-ring--color--default": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "#92c5f9",
-          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as color value for custom focus rings",
-            "type": "color",
-            "value": "{global.dark.focus-ring.color.100}"
-          },
-          "name": "pf-t--global--focus-ring--color--default",
-          "attributes": {
-            "category": "global",
-            "type": "focus-ring",
-            "item": "color",
-            "subitem": "default"
-          },
-          "path": [
-            "global",
-            "focus-ring",
-            "color",
-            "default"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#92c5f9",
-              "filePath": "tokens/default/glass-dark/base.dark.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.blue.30}"
-              },
-              "name": "pf-t--global--dark--focus-ring--color--100",
-              "attributes": {
-                "category": "global",
-                "type": "dark",
-                "item": "focus-ring",
-                "subitem": "color",
-                "state": "100"
-              },
-              "path": [
-                "global",
-                "dark",
-                "focus-ring",
-                "color",
-                "100"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#92c5f9",
-                  "filePath": "tokens/default/glass-dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#92c5f9"
-                  },
-                  "name": "pf-t--color--blue--30",
-                  "attributes": {
-                    "category": "color",
-                    "type": "blue",
-                    "item": "30"
-                  },
-                  "path": [
-                    "color",
-                    "blue",
-                    "30"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--text-decoration--color--default": {
         "default": {
           "type": "color",
@@ -30925,6 +31122,83 @@
                         "30"
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--focus-ring--color--default": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "#92c5f9",
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as color value for custom focus rings",
+            "type": "color",
+            "value": "{global.dark.focus-ring.color.100}"
+          },
+          "name": "pf-t--global--focus-ring--color--default",
+          "attributes": {
+            "category": "global",
+            "type": "focus-ring",
+            "item": "color",
+            "subitem": "default"
+          },
+          "path": [
+            "global",
+            "focus-ring",
+            "color",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#92c5f9",
+              "filePath": "tokens/default/glass-dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.30}"
+              },
+              "name": "pf-t--global--dark--focus-ring--color--100",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "focus-ring",
+                "subitem": "color",
+                "state": "100"
+              },
+              "path": [
+                "global",
+                "dark",
+                "focus-ring",
+                "color",
+                "100"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#92c5f9",
+                  "filePath": "tokens/default/glass-dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#92c5f9"
+                  },
+                  "name": "pf-t--color--blue--30",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "30"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "30"
                   ]
                 }
               ]
@@ -32227,363 +32501,6 @@
           ]
         }
       },
-      "pf-t--global--dark--color--severity--undefined--100": {
-        "default": {
-          "type": "color",
-          "value": "#a3a3a3",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--undefined--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "undefined"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "undefined",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#a3a3a3",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#a3a3a3"
-              },
-              "name": "pf-t--color--gray--40",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "gray",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--none--100": {
-        "default": {
-          "type": "color",
-          "value": "#92c5f9",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.blue.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--none--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "none"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "none",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#92c5f9",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#92c5f9"
-              },
-              "name": "pf-t--color--blue--30",
-              "attributes": {
-                "category": "color",
-                "type": "blue",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "blue",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--minor--100": {
-        "default": {
-          "type": "color",
-          "value": "#c7c7c7",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--minor--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "minor"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "minor",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#c7c7c7",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#c7c7c7"
-              },
-              "name": "pf-t--color--gray--30",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "gray",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--moderate--100": {
-        "default": {
-          "type": "color",
-          "value": "#ffcc17",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.yellow.30}"
-          },
-          "name": "pf-t--global--dark--color--severity--moderate--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "moderate"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "moderate",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#ffcc17",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffcc17"
-              },
-              "name": "pf-t--color--yellow--30",
-              "attributes": {
-                "category": "color",
-                "type": "yellow",
-                "item": "30"
-              },
-              "path": [
-                "color",
-                "yellow",
-                "30"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--important--100": {
-        "default": {
-          "type": "color",
-          "value": "#f5921b",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.orange.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--important--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "important"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "important",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f5921b",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f5921b"
-              },
-              "name": "pf-t--color--orange--40",
-              "attributes": {
-                "category": "color",
-                "type": "orange",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "orange",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--critical--100": {
-        "default": {
-          "type": "color",
-          "value": "#f0561d",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.red-orange.50}"
-          },
-          "name": "pf-t--global--dark--color--severity--critical--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "critical"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "critical",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f0561d",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f0561d"
-              },
-              "name": "pf-t--color--red-orange--50",
-              "attributes": {
-                "category": "color",
-                "type": "red-orange",
-                "item": "50"
-              },
-              "path": [
-                "color",
-                "red-orange",
-                "50"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--color--severity--critical--200": {
-        "default": {
-          "type": "color",
-          "value": "#f4784a",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.red-orange.40}"
-          },
-          "name": "pf-t--global--dark--color--severity--critical--200",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "color",
-            "subitem": "severity",
-            "state": "critical"
-          },
-          "path": [
-            "global",
-            "dark",
-            "color",
-            "severity",
-            "critical",
-            "200"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f4784a",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#f4784a"
-              },
-              "name": "pf-t--color--red-orange--40",
-              "attributes": {
-                "category": "color",
-                "type": "red-orange",
-                "item": "40"
-              },
-              "path": [
-                "color",
-                "red-orange",
-                "40"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--dark--color--status--success--100": {
         "default": {
           "type": "color",
@@ -33344,6 +33261,363 @@
                 "color",
                 "teal",
                 "20"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--undefined--100": {
+        "default": {
+          "type": "color",
+          "value": "#a3a3a3",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--undefined--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "undefined"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "undefined",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#a3a3a3",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#a3a3a3"
+              },
+              "name": "pf-t--color--gray--40",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "gray",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--none--100": {
+        "default": {
+          "type": "color",
+          "value": "#92c5f9",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.blue.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--none--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "none"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "none",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#92c5f9",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#92c5f9"
+              },
+              "name": "pf-t--color--blue--30",
+              "attributes": {
+                "category": "color",
+                "type": "blue",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "blue",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--minor--100": {
+        "default": {
+          "type": "color",
+          "value": "#c7c7c7",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--minor--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "minor"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "minor",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#c7c7c7",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#c7c7c7"
+              },
+              "name": "pf-t--color--gray--30",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "gray",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--moderate--100": {
+        "default": {
+          "type": "color",
+          "value": "#ffcc17",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.yellow.30}"
+          },
+          "name": "pf-t--global--dark--color--severity--moderate--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "moderate"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "moderate",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ffcc17",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#ffcc17"
+              },
+              "name": "pf-t--color--yellow--30",
+              "attributes": {
+                "category": "color",
+                "type": "yellow",
+                "item": "30"
+              },
+              "path": [
+                "color",
+                "yellow",
+                "30"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--important--100": {
+        "default": {
+          "type": "color",
+          "value": "#f5921b",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.orange.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--important--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "important"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "important",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f5921b",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f5921b"
+              },
+              "name": "pf-t--color--orange--40",
+              "attributes": {
+                "category": "color",
+                "type": "orange",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "orange",
+                "40"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--critical--100": {
+        "default": {
+          "type": "color",
+          "value": "#f0561d",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.50}"
+          },
+          "name": "pf-t--global--dark--color--severity--critical--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "critical"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "critical",
+            "100"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f0561d",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f0561d"
+              },
+              "name": "pf-t--color--red-orange--50",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "50"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "50"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--color--severity--critical--200": {
+        "default": {
+          "type": "color",
+          "value": "#f4784a",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.red-orange.40}"
+          },
+          "name": "pf-t--global--dark--color--severity--critical--200",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "color",
+            "subitem": "severity",
+            "state": "critical"
+          },
+          "path": [
+            "global",
+            "dark",
+            "color",
+            "severity",
+            "critical",
+            "200"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#f4784a",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#f4784a"
+              },
+              "name": "pf-t--color--red-orange--40",
+              "attributes": {
+                "category": "color",
+                "type": "red-orange",
+                "item": "40"
+              },
+              "path": [
+                "color",
+                "red-orange",
+                "40"
               ]
             }
           ]
