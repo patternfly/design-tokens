@@ -11,16 +11,6 @@
           "floating": {
             "type": "color",
             "value": "{global.background.color.floating.default}"
-          },
-          "FIGMA-ONLY": {
-            "primary": {
-              "type": "color",
-              "value": "{global.background.color.primary.default}"
-            },
-            "floating": {
-              "type": "color",
-              "value": "{global.background.color.floating.default}"
-            }
           }
         },
         "primary": {

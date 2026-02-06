@@ -213,62 +213,6 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass--FIGMA-ONLY--primary": {
-        "default": {
-          "type": "color",
-          "value": "rgba(41, 41, 41, 0.8000)",
-          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "rgba(41, 41, 41, 0.8000)"
-          },
-          "name": "pf-t--global--background--color--glass--FIGMA-ONLY--primary",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "glass",
-            "state": "FIGMA-ONLY"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "glass",
-            "FIGMA-ONLY",
-            "primary"
-          ]
-        }
-      },
-      "pf-t--global--background--color--glass--FIGMA-ONLY--floating": {
-        "default": {
-          "type": "color",
-          "value": "rgba(41, 41, 41, 0.8000)",
-          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "rgba(41, 41, 41, 0.8000)"
-          },
-          "name": "pf-t--global--background--color--glass--FIGMA-ONLY--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "glass",
-            "state": "FIGMA-ONLY"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "glass",
-            "FIGMA-ONLY",
-            "floating"
-          ]
-        }
-      },
       "pf-t--global--background--color--primary--default": {
         "default": {
           "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
