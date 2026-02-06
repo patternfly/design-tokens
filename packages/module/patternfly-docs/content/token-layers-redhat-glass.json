@@ -15069,12 +15069,12 @@
       "pf-t--global--background--color--glass--primary": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "#ffffff",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.8000)"
+            "value": "{global.background.color.primary.default}"
           },
           "name": "pf-t--global--background--color--glass--primary",
           "attributes": {
@@ -15090,18 +15090,93 @@
             "color",
             "glass",
             "primary"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/glass/semantic.glass.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                "type": "color",
+                "value": "{global.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--primary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "primary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/glass/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/glass/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       },
       "pf-t--global--background--color--glass--floating": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "#ffffff",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.8000)"
+            "value": "{global.background.color.primary.default}"
           },
           "name": "pf-t--global--background--color--glass--floating",
           "attributes": {
@@ -15117,6 +15192,81 @@
             "color",
             "glass",
             "floating"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/glass/semantic.glass.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                "type": "color",
+                "value": "{global.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--primary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "primary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/glass/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/glass/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       },
@@ -16804,53 +16954,113 @@
           ]
         }
       },
-      "pf-t--global--background--filter--glass": {
+      "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
-          "value": 12.5,
+          "value": "12.5px",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "number",
             "value": 12.5
           },
-          "name": "pf-t--global--background--filter--glass",
+          "name": "pf-t--global--background--filter--glass--blur--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "filter",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "blur"
           },
           "path": [
             "global",
             "background",
             "filter",
-            "glass"
+            "glass",
+            "blur",
+            "primary"
           ]
         }
       },
-      "pf-t--global--background--opacity--glass": {
+      "pf-t--global--background--filter--glass--blur--floating": {
         "default": {
           "type": "number",
-          "value": 80,
+          "value": "12.5px",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 12.5
+          },
+          "name": "pf-t--global--background--filter--glass--blur--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "filter",
+            "subitem": "glass",
+            "state": "blur"
+          },
+          "path": [
+            "global",
+            "background",
+            "filter",
+            "glass",
+            "blur",
+            "floating"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--primary": {
+        "default": {
+          "type": "number",
+          "value": "80%",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "number",
             "value": 80
           },
-          "name": "pf-t--global--background--opacity--glass",
+          "name": "pf-t--global--background--opacity--glass--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "opacity",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "primary"
           },
           "path": [
             "global",
             "background",
             "opacity",
-            "glass"
+            "glass",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--floating": {
+        "default": {
+          "type": "number",
+          "value": "80%",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 80
+          },
+          "name": "pf-t--global--background--opacity--glass--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "opacity",
+            "subitem": "glass",
+            "state": "floating"
+          },
+          "path": [
+            "global",
+            "background",
+            "opacity",
+            "glass",
+            "floating"
           ]
         }
       },

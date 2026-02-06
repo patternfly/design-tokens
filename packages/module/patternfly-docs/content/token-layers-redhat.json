@@ -16954,53 +16954,113 @@
           ]
         }
       },
-      "pf-t--global--background--filter--glass": {
+      "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
-          "value": 0,
+          "value": "0px",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
             "type": "number",
             "value": 0
           },
-          "name": "pf-t--global--background--filter--glass",
+          "name": "pf-t--global--background--filter--glass--blur--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "filter",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "blur"
           },
           "path": [
             "global",
             "background",
             "filter",
-            "glass"
+            "glass",
+            "blur",
+            "primary"
           ]
         }
       },
-      "pf-t--global--background--opacity--glass": {
+      "pf-t--global--background--filter--glass--blur--floating": {
         "default": {
           "type": "number",
-          "value": 100,
+          "value": "0px",
+          "filePath": "tokens/default/light/semantic.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--background--filter--glass--blur--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "filter",
+            "subitem": "glass",
+            "state": "blur"
+          },
+          "path": [
+            "global",
+            "background",
+            "filter",
+            "glass",
+            "blur",
+            "floating"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--primary": {
+        "default": {
+          "type": "number",
+          "value": "100%",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
             "type": "number",
             "value": 100
           },
-          "name": "pf-t--global--background--opacity--glass",
+          "name": "pf-t--global--background--opacity--glass--primary",
           "attributes": {
             "category": "global",
             "type": "background",
             "item": "opacity",
-            "subitem": "glass"
+            "subitem": "glass",
+            "state": "primary"
           },
           "path": [
             "global",
             "background",
             "opacity",
-            "glass"
+            "glass",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--opacity--glass--floating": {
+        "default": {
+          "type": "number",
+          "value": "100%",
+          "filePath": "tokens/default/light/semantic.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 100
+          },
+          "name": "pf-t--global--background--opacity--glass--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "opacity",
+            "subitem": "glass",
+            "state": "floating"
+          },
+          "path": [
+            "global",
+            "background",
+            "opacity",
+            "glass",
+            "floating"
           ]
         }
       },
@@ -33258,53 +33318,332 @@
           ]
         }
       },
-      "pf-t--global--icon--size--3xl": {
+      "pf-t--global--icon--size--font--body--sm": {
         "default": {
-          "description": "Use for triple extra large icons.",
+          "description": "Use for icons that are placed inline with small body text",
           "type": "number",
-          "value": "6rem",
+          "value": "0.75rem",
           "filePath": "tokens/default/light/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use for triple extra large icons.",
+            "description": "Use for icons that are placed inline with small body text",
             "type": "number",
-            "value": "{global.icon.size.500}"
+            "value": "{global.font.size.body.sm}"
           },
-          "name": "pf-t--global--icon--size--3xl",
+          "name": "pf-t--global--icon--size--font--body--sm",
           "attributes": {
             "category": "global",
             "type": "icon",
             "item": "size",
-            "subitem": "3xl"
+            "subitem": "font",
+            "state": "body"
           },
           "path": [
             "global",
             "icon",
             "size",
-            "3xl"
+            "font",
+            "body",
+            "sm"
           ],
           "references": [
             {
+              "description": "Use for a smaller font size in body sections.",
               "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/light/base.dimension.json",
+              "value": "0.75rem",
+              "filePath": "tokens/default/light/semantic.dimension.json",
               "isSource": true,
               "original": {
+                "description": "Use for a smaller font size in body sections.",
                 "type": "number",
-                "value": 96
+                "value": "{global.font.size.xs}"
               },
-              "name": "pf-t--global--icon--size--500",
+              "name": "pf-t--global--font--size--body--sm",
               "attributes": {
                 "category": "global",
-                "type": "icon",
+                "type": "font",
                 "item": "size",
-                "subitem": "500"
+                "subitem": "body",
+                "state": "sm"
               },
               "path": [
                 "global",
-                "icon",
+                "font",
                 "size",
-                "500"
+                "body",
+                "sm"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "0.75rem",
+                  "filePath": "tokens/default/light/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": "{global.font.size.100}"
+                  },
+                  "name": "pf-t--global--font--size--xs",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "xs"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "xs"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.75rem",
+                      "filePath": "tokens/default/light/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 12
+                      },
+                      "name": "pf-t--global--font--size--100",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "100"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "100"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--default": {
+        "default": {
+          "description": "Use for icons that are placed inline with default body text",
+          "type": "number",
+          "value": "0.875rem",
+          "filePath": "tokens/default/light/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with default body text",
+            "type": "number",
+            "value": "{global.font.size.body.default}"
+          },
+          "name": "pf-t--global--icon--size--font--body--default",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default font size in body sections.",
+              "type": "number",
+              "value": "0.875rem",
+              "filePath": "tokens/default/light/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.sm}"
+              },
+              "name": "pf-t--global--font--size--body--default",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "default"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "0.875rem",
+                  "filePath": "tokens/default/light/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.200}"
+                  },
+                  "name": "pf-t--global--font--size--sm",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "sm"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "sm"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "0.875rem",
+                      "filePath": "tokens/default/light/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 14
+                      },
+                      "name": "pf-t--global--font--size--200",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "200"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "200"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--font--body--lg": {
+        "default": {
+          "description": "Use for icons that are placed inline with large body text",
+          "type": "number",
+          "value": "1rem",
+          "filePath": "tokens/default/light/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for icons that are placed inline with large body text",
+            "type": "number",
+            "value": "{global.font.size.body.lg}"
+          },
+          "name": "pf-t--global--icon--size--font--body--lg",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "font",
+            "state": "body"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "font",
+            "body",
+            "lg"
+          ],
+          "references": [
+            {
+              "description": "Use for a larger font size in body sections.",
+              "type": "number",
+              "value": "1rem",
+              "filePath": "tokens/default/light/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use for a larger font size in body sections.",
+                "type": "number",
+                "value": "{global.font.size.md}"
+              },
+              "name": "pf-t--global--font--size--body--lg",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "size",
+                "subitem": "body",
+                "state": "lg"
+              },
+              "path": [
+                "global",
+                "font",
+                "size",
+                "body",
+                "lg"
+              ],
+              "references": [
+                {
+                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                  "type": "number",
+                  "value": "1rem",
+                  "filePath": "tokens/default/light/semantic.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+                    "type": "number",
+                    "value": "{global.font.size.300}"
+                  },
+                  "name": "pf-t--global--font--size--md",
+                  "attributes": {
+                    "category": "global",
+                    "type": "font",
+                    "item": "size",
+                    "subitem": "md"
+                  },
+                  "path": [
+                    "global",
+                    "font",
+                    "size",
+                    "md"
+                  ],
+                  "references": [
+                    {
+                      "type": "number",
+                      "value": "1rem",
+                      "filePath": "tokens/default/light/base.dimension.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "number",
+                        "value": 16
+                      },
+                      "name": "pf-t--global--font--size--300",
+                      "attributes": {
+                        "category": "global",
+                        "type": "font",
+                        "item": "size",
+                        "subitem": "300"
+                      },
+                      "path": [
+                        "global",
+                        "font",
+                        "size",
+                        "300"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -33919,337 +34258,6 @@
                 "size",
                 "heading",
                 "h6"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "1rem",
-                  "filePath": "tokens/default/light/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.300}"
-                  },
-                  "name": "pf-t--global--font--size--md",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "md"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "md"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "1rem",
-                      "filePath": "tokens/default/light/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 16
-                      },
-                      "name": "pf-t--global--font--size--300",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "300"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "300"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--sm": {
-        "default": {
-          "description": "Use for icons that are placed inline with small body text",
-          "type": "number",
-          "value": "0.75rem",
-          "filePath": "tokens/default/light/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with small body text",
-            "type": "number",
-            "value": "{global.font.size.body.sm}"
-          },
-          "name": "pf-t--global--icon--size--font--body--sm",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "sm"
-          ],
-          "references": [
-            {
-              "description": "Use for a smaller font size in body sections.",
-              "type": "number",
-              "value": "0.75rem",
-              "filePath": "tokens/default/light/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a smaller font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.xs}"
-              },
-              "name": "pf-t--global--font--size--body--sm",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "sm"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "sm"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "0.75rem",
-                  "filePath": "tokens/default/light/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": "{global.font.size.100}"
-                  },
-                  "name": "pf-t--global--font--size--xs",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "xs"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "xs"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.75rem",
-                      "filePath": "tokens/default/light/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 12
-                      },
-                      "name": "pf-t--global--font--size--100",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "100"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "100"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--default": {
-        "default": {
-          "description": "Use for icons that are placed inline with default body text",
-          "type": "number",
-          "value": "0.875rem",
-          "filePath": "tokens/default/light/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with default body text",
-            "type": "number",
-            "value": "{global.font.size.body.default}"
-          },
-          "name": "pf-t--global--icon--size--font--body--default",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use as the default font size in body sections.",
-              "type": "number",
-              "value": "0.875rem",
-              "filePath": "tokens/default/light/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the default font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.sm}"
-              },
-              "name": "pf-t--global--font--size--body--default",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "default"
-              ],
-              "references": [
-                {
-                  "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                  "type": "number",
-                  "value": "0.875rem",
-                  "filePath": "tokens/default/light/semantic.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-                    "type": "number",
-                    "value": "{global.font.size.200}"
-                  },
-                  "name": "pf-t--global--font--size--sm",
-                  "attributes": {
-                    "category": "global",
-                    "type": "font",
-                    "item": "size",
-                    "subitem": "sm"
-                  },
-                  "path": [
-                    "global",
-                    "font",
-                    "size",
-                    "sm"
-                  ],
-                  "references": [
-                    {
-                      "type": "number",
-                      "value": "0.875rem",
-                      "filePath": "tokens/default/light/base.dimension.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "number",
-                        "value": 14
-                      },
-                      "name": "pf-t--global--font--size--200",
-                      "attributes": {
-                        "category": "global",
-                        "type": "font",
-                        "item": "size",
-                        "subitem": "200"
-                      },
-                      "path": [
-                        "global",
-                        "font",
-                        "size",
-                        "200"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--font--body--lg": {
-        "default": {
-          "description": "Use for icons that are placed inline with large body text",
-          "type": "number",
-          "value": "1rem",
-          "filePath": "tokens/default/light/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for icons that are placed inline with large body text",
-            "type": "number",
-            "value": "{global.font.size.body.lg}"
-          },
-          "name": "pf-t--global--icon--size--font--body--lg",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "font",
-            "state": "body"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "font",
-            "body",
-            "lg"
-          ],
-          "references": [
-            {
-              "description": "Use for a larger font size in body sections.",
-              "type": "number",
-              "value": "1rem",
-              "filePath": "tokens/default/light/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use for a larger font size in body sections.",
-                "type": "number",
-                "value": "{global.font.size.md}"
-              },
-              "name": "pf-t--global--font--size--body--lg",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "size",
-                "subitem": "body",
-                "state": "lg"
-              },
-              "path": [
-                "global",
-                "font",
-                "size",
-                "body",
-                "lg"
               ],
               "references": [
                 {
@@ -34953,53 +34961,53 @@
           ]
         }
       },
-      "pf-t--global--border--width--regular": {
+      "pf-t--global--icon--size--3xl": {
         "default": {
-          "description": "Use as the default border width for elements.",
+          "description": "Use for triple extra large icons.",
           "type": "number",
-          "value": "1px",
+          "value": "6rem",
           "filePath": "tokens/default/light/semantic.dimension.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border width for elements.",
+            "description": "Use for triple extra large icons.",
             "type": "number",
-            "value": "{global.border.width.100}"
+            "value": "{global.icon.size.500}"
           },
-          "name": "pf-t--global--border--width--regular",
+          "name": "pf-t--global--icon--size--3xl",
           "attributes": {
             "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "regular"
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
           },
           "path": [
             "global",
-            "border",
-            "width",
-            "regular"
+            "icon",
+            "size",
+            "3xl"
           ],
           "references": [
             {
               "type": "number",
-              "value": "1px",
+              "value": "6rem",
               "filePath": "tokens/default/light/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 1
+                "value": 96
               },
-              "name": "pf-t--global--border--width--100",
+              "name": "pf-t--global--icon--size--500",
               "attributes": {
                 "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "100"
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
               },
               "path": [
                 "global",
-                "border",
-                "width",
-                "100"
+                "icon",
+                "size",
+                "500"
               ]
             }
           ]
@@ -35139,6 +35147,58 @@
             "width",
             "divider",
             "clicked"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/light/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1
+              },
+              "name": "pf-t--global--border--width--100",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--width--regular": {
+        "default": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/light/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border width for elements.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "name": "pf-t--global--border--width--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "regular"
           ],
           "references": [
             {
@@ -42439,78 +42499,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--slide-out--short": {
+      "pf-t--global--motion--duration--icon--short": {
         "default": {
-          "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+          "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
           "type": "number",
-          "value": "300ms",
+          "value": "50ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
             "type": "number",
-            "value": "{global.motion.duration.lg}"
+            "value": "{global.motion.duration.xs}"
           },
-          "name": "pf-t--global--motion--duration--slide-out--short",
+          "name": "pf-t--global--motion--duration--icon--short",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "slide-out",
+            "subitem": "icon",
             "state": "short"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "slide-out",
+            "icon",
             "short"
           ],
           "references": [
             {
-              "description": "Use for long animation duration. Use for larger, more expressive animations.",
+              "description": "Use for the quickest possible duration of an animation.",
               "type": "number",
-              "value": "300ms",
+              "value": "50ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for long animation duration. Use for larger, more expressive animations.",
+                "description": "Use for the quickest possible duration of an animation.",
                 "type": "number",
-                "value": "{global.duration.300}"
+                "value": "{global.duration.50}"
               },
-              "name": "pf-t--global--motion--duration--lg",
+              "name": "pf-t--global--motion--duration--xs",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "lg"
+                "subitem": "xs"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "lg"
+                "xs"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "300ms",
+                  "value": "50ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 300
+                    "value": 50
                   },
-                  "name": "pf-t--global--duration--300",
+                  "name": "pf-t--global--duration--50",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "300"
+                    "item": "50"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "300"
+                    "50"
                   ]
                 }
               ]
@@ -42518,78 +42578,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--slide-out--default": {
+      "pf-t--global--motion--duration--icon--default": {
         "default": {
-          "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+          "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
           "type": "number",
-          "value": "400ms",
+          "value": "100ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
             "type": "number",
-            "value": "{global.motion.duration.xl}"
+            "value": "{global.motion.duration.sm}"
           },
-          "name": "pf-t--global--motion--duration--slide-out--default",
+          "name": "pf-t--global--motion--duration--icon--default",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "slide-out",
+            "subitem": "icon",
             "state": "default"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "slide-out",
+            "icon",
             "default"
           ],
           "references": [
             {
-              "description": "Use for extra long animation duration.",
+              "description": "Use for a short animation duration. Use for simple and/or small animations.",
               "type": "number",
-              "value": "400ms",
+              "value": "100ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for extra long animation duration.",
+                "description": "Use for a short animation duration. Use for simple and/or small animations.",
                 "type": "number",
-                "value": "{global.duration.400}"
+                "value": "{global.duration.100}"
               },
-              "name": "pf-t--global--motion--duration--xl",
+              "name": "pf-t--global--motion--duration--sm",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "xl"
+                "subitem": "sm"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "xl"
+                "sm"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "400ms",
+                  "value": "100ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 400
+                    "value": 100
                   },
-                  "name": "pf-t--global--duration--400",
+                  "name": "pf-t--global--duration--100",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "400"
+                    "item": "100"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "400"
+                    "100"
                   ]
                 }
               ]
@@ -42597,78 +42657,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--slide-out--long": {
+      "pf-t--global--motion--duration--icon--long": {
         "default": {
-          "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+          "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
           "type": "number",
-          "value": "500ms",
+          "value": "200ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
             "type": "number",
-            "value": "{global.motion.duration.2xl}"
+            "value": "{global.motion.duration.md}"
           },
-          "name": "pf-t--global--motion--duration--slide-out--long",
+          "name": "pf-t--global--motion--duration--icon--long",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "slide-out",
+            "subitem": "icon",
             "state": "long"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "slide-out",
+            "icon",
             "long"
           ],
           "references": [
             {
-              "description": "Use for significantly long animation duration.",
+              "description": "Use for a medium animation duration.",
               "type": "number",
-              "value": "500ms",
+              "value": "200ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for significantly long animation duration.",
+                "description": "Use for a medium animation duration.",
                 "type": "number",
-                "value": "{global.duration.500}"
+                "value": "{global.duration.200}"
               },
-              "name": "pf-t--global--motion--duration--2xl",
+              "name": "pf-t--global--motion--duration--md",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "2xl"
+                "subitem": "md"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "2xl"
+                "md"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "500ms",
+                  "value": "200ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 500
+                    "value": 200
                   },
-                  "name": "pf-t--global--duration--500",
+                  "name": "pf-t--global--duration--200",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "500"
+                    "item": "200"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "500"
+                    "200"
                   ]
                 }
               ]
@@ -43150,78 +43210,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--icon--short": {
+      "pf-t--global--motion--duration--slide-out--short": {
         "default": {
-          "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
+          "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
           "type": "number",
-          "value": "50ms",
+          "value": "300ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
+            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
             "type": "number",
-            "value": "{global.motion.duration.xs}"
+            "value": "{global.motion.duration.lg}"
           },
-          "name": "pf-t--global--motion--duration--icon--short",
+          "name": "pf-t--global--motion--duration--slide-out--short",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "icon",
+            "subitem": "slide-out",
             "state": "short"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "icon",
+            "slide-out",
             "short"
           ],
           "references": [
             {
-              "description": "Use for the quickest possible duration of an animation.",
+              "description": "Use for long animation duration. Use for larger, more expressive animations.",
               "type": "number",
-              "value": "50ms",
+              "value": "300ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for the quickest possible duration of an animation.",
+                "description": "Use for long animation duration. Use for larger, more expressive animations.",
                 "type": "number",
-                "value": "{global.duration.50}"
+                "value": "{global.duration.300}"
               },
-              "name": "pf-t--global--motion--duration--xs",
+              "name": "pf-t--global--motion--duration--lg",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "xs"
+                "subitem": "lg"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "xs"
+                "lg"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "50ms",
+                  "value": "300ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 50
+                    "value": 300
                   },
-                  "name": "pf-t--global--duration--50",
+                  "name": "pf-t--global--duration--300",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "50"
+                    "item": "300"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "50"
+                    "300"
                   ]
                 }
               ]
@@ -43229,78 +43289,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--icon--default": {
+      "pf-t--global--motion--duration--slide-out--default": {
         "default": {
-          "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
+          "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
           "type": "number",
-          "value": "100ms",
+          "value": "400ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
+            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
             "type": "number",
-            "value": "{global.motion.duration.sm}"
+            "value": "{global.motion.duration.xl}"
           },
-          "name": "pf-t--global--motion--duration--icon--default",
+          "name": "pf-t--global--motion--duration--slide-out--default",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "icon",
+            "subitem": "slide-out",
             "state": "default"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "icon",
+            "slide-out",
             "default"
           ],
           "references": [
             {
-              "description": "Use for a short animation duration. Use for simple and/or small animations.",
+              "description": "Use for extra long animation duration.",
               "type": "number",
-              "value": "100ms",
+              "value": "400ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for a short animation duration. Use for simple and/or small animations.",
+                "description": "Use for extra long animation duration.",
                 "type": "number",
-                "value": "{global.duration.100}"
+                "value": "{global.duration.400}"
               },
-              "name": "pf-t--global--motion--duration--sm",
+              "name": "pf-t--global--motion--duration--xl",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "sm"
+                "subitem": "xl"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "sm"
+                "xl"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "100ms",
+                  "value": "400ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 100
+                    "value": 400
                   },
-                  "name": "pf-t--global--duration--100",
+                  "name": "pf-t--global--duration--400",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "100"
+                    "item": "400"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "100"
+                    "400"
                   ]
                 }
               ]
@@ -43308,78 +43368,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--icon--long": {
+      "pf-t--global--motion--duration--slide-out--long": {
         "default": {
-          "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
+          "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
           "type": "number",
-          "value": "200ms",
+          "value": "500ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
+            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
             "type": "number",
-            "value": "{global.motion.duration.md}"
+            "value": "{global.motion.duration.2xl}"
           },
-          "name": "pf-t--global--motion--duration--icon--long",
+          "name": "pf-t--global--motion--duration--slide-out--long",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "icon",
+            "subitem": "slide-out",
             "state": "long"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "icon",
+            "slide-out",
             "long"
           ],
           "references": [
             {
-              "description": "Use for a medium animation duration.",
+              "description": "Use for significantly long animation duration.",
               "type": "number",
-              "value": "200ms",
+              "value": "500ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for a medium animation duration.",
+                "description": "Use for significantly long animation duration.",
                 "type": "number",
-                "value": "{global.duration.200}"
+                "value": "{global.duration.500}"
               },
-              "name": "pf-t--global--motion--duration--md",
+              "name": "pf-t--global--motion--duration--2xl",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "md"
+                "subitem": "2xl"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "md"
+                "2xl"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "200ms",
+                  "value": "500ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 200
+                    "value": 500
                   },
-                  "name": "pf-t--global--duration--200",
+                  "name": "pf-t--global--duration--500",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "200"
+                    "item": "500"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "200"
+                    "500"
                   ]
                 }
               ]
@@ -57471,6 +57531,29 @@
         ]
       }
     },
+    "pf-t--chart--global--letter-spacing": {
+      "default": {
+        "type": "string",
+        "value": "normal",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "normal"
+        },
+        "name": "pf-t--chart--global--letter-spacing",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "letter-spacing"
+        },
+        "path": [
+          "chart",
+          "global",
+          "letter-spacing"
+        ]
+      }
+    },
     "pf-t--chart--global--FontSize--xs": {
       "default": {
         "type": "number",
@@ -57571,29 +57654,6 @@
         ]
       }
     },
-    "pf-t--chart--global--letter-spacing": {
-      "default": {
-        "type": "string",
-        "value": "normal",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "normal"
-        },
-        "name": "pf-t--chart--global--letter-spacing",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "letter-spacing"
-        },
-        "path": [
-          "chart",
-          "global",
-          "letter-spacing"
-        ]
-      }
-    },
     "pf-t--chart--global--layout--padding": {
       "default": {
         "type": "number",
@@ -57666,6 +57726,29 @@
           "global",
           "layout",
           "width"
+        ]
+      }
+    },
+    "pf-t--chart--global--stroke-line-cap": {
+      "default": {
+        "type": "string",
+        "value": "round",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "round"
+        },
+        "name": "pf-t--chart--global--stroke-line-cap",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "stroke-line-cap"
+        },
+        "path": [
+          "chart",
+          "global",
+          "stroke-line-cap"
         ]
       }
     },
@@ -57826,29 +57909,6 @@
               "90"
             ]
           }
-        ]
-      }
-    },
-    "pf-t--chart--global--stroke-line-cap": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-cap",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-cap"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-cap"
         ]
       }
     },

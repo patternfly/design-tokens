@@ -64,7 +64,8 @@ function processCollection(collection) {
 
       const { name: varName, resolvedType, valuesByMode, description } = variable;
 
-      if (varName.includes('figma-only')) {
+      const varExcludePattern = /figma-only/i;
+      if (varExcludePattern.test(varName)) {
         return; // Skip this variable
       }
 
