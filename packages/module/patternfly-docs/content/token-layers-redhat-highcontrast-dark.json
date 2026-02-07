@@ -2029,7 +2029,7 @@
       "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
-          "value": "0px",
+          "value": "blur(0px)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -2057,7 +2057,7 @@
       "pf-t--global--background--filter--glass--blur--floating": {
         "default": {
           "type": "number",
-          "value": "0px",
+          "value": "blur(0px)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
