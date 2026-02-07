@@ -90,8 +90,7 @@ const build = (selector) => {
     type: 'value',
     matcher: (token) =>
       (['border', 'focus-ring'].includes(token.attributes.type) && token.original.type === 'number') ||
-      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color') ||
-      (token.attributes.item == 'filter' && token.attributes.state === 'blur' && token.original.type === 'number'),
+      (token.attributes.type === 'box-shadow' && token.attributes.item !== 'color'),
     transformer: (token) => `${token.value}px`
   });
 
@@ -131,6 +130,13 @@ const build = (selector) => {
     matcher: (token) => token.attributes.item === 'opacity' && token.original.type === 'number',
     transformer: (token) => `${token.value}%`
   });
+  
+  StyleDictionary.registerTransform({
+    name: 'patternfly/global/filter/blur',
+    type: 'value',
+    matcher: (token) => (token.attributes.item == 'filter' && token.attributes.state === 'blur' && token.original.type === 'number'),
+    transformer: (token) => `blur(${token.value}px)`
+  });
 
   // Reigster custom transform group
   StyleDictionary.registerTransformGroup({
@@ -149,7 +155,8 @@ const build = (selector) => {
       'patternfly/global/px',
       'patternfly/global/pxToRem',
       'patternfly/global/ms',
-      'patternfly/doublekebab'
+      'patternfly/doublekebab',
+      'patternfly/global/filter/blur'
     ]
   });
 
