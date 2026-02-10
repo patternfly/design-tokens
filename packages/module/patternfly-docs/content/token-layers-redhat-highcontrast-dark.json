@@ -1,6 +1,62 @@
 {
   "semantic": {
     "colors": {
+      "pf-t--global--background--filter--glass--blur--primary": {
+        "default": {
+          "type": "number",
+          "value": "blur(0px)",
+          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--background--filter--glass--blur--primary",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "filter",
+            "subitem": "glass",
+            "state": "blur"
+          },
+          "path": [
+            "global",
+            "background",
+            "filter",
+            "glass",
+            "blur",
+            "primary"
+          ]
+        }
+      },
+      "pf-t--global--background--filter--glass--blur--floating": {
+        "default": {
+          "type": "number",
+          "value": "blur(0px)",
+          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 0
+          },
+          "name": "pf-t--global--background--filter--glass--blur--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "filter",
+            "subitem": "glass",
+            "state": "blur"
+          },
+          "path": [
+            "global",
+            "background",
+            "filter",
+            "glass",
+            "blur",
+            "floating"
+          ]
+        }
+      },
       "pf-t--global--background--color--glass--primary": {
         "default": {
           "type": "color",
@@ -2023,62 +2079,6 @@
                 "600"
               ]
             }
-          ]
-        }
-      },
-      "pf-t--global--background--filter--glass--blur--primary": {
-        "default": {
-          "type": "number",
-          "value": "blur(0px)",
-          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--background--filter--glass--blur--primary",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "filter",
-            "subitem": "glass",
-            "state": "blur"
-          },
-          "path": [
-            "global",
-            "background",
-            "filter",
-            "glass",
-            "blur",
-            "primary"
-          ]
-        }
-      },
-      "pf-t--global--background--filter--glass--blur--floating": {
-        "default": {
-          "type": "number",
-          "value": "blur(0px)",
-          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--background--filter--glass--blur--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "filter",
-            "subitem": "glass",
-            "state": "blur"
-          },
-          "path": [
-            "global",
-            "background",
-            "filter",
-            "glass",
-            "blur",
-            "floating"
           ]
         }
       },
@@ -30964,6 +30964,83 @@
           ]
         }
       },
+      "pf-t--global--focus-ring--color--default": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "#92c5f9",
+          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as color value for custom focus rings",
+            "type": "color",
+            "value": "{global.dark.focus-ring.color.100}"
+          },
+          "name": "pf-t--global--focus-ring--color--default",
+          "attributes": {
+            "category": "global",
+            "type": "focus-ring",
+            "item": "color",
+            "subitem": "default"
+          },
+          "path": [
+            "global",
+            "focus-ring",
+            "color",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#92c5f9",
+              "filePath": "tokens/default/highcontrast-dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.30}"
+              },
+              "name": "pf-t--global--dark--focus-ring--color--100",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "focus-ring",
+                "subitem": "color",
+                "state": "100"
+              },
+              "path": [
+                "global",
+                "dark",
+                "focus-ring",
+                "color",
+                "100"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#92c5f9",
+                  "filePath": "tokens/default/highcontrast-dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#92c5f9"
+                  },
+                  "name": "pf-t--color--blue--30",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "30"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "30"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--text-decoration--color--default": {
         "default": {
           "type": "color",
@@ -31161,83 +31238,6 @@
                         "30"
                       ]
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--focus-ring--color--default": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "#92c5f9",
-          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as color value for custom focus rings",
-            "type": "color",
-            "value": "{global.dark.focus-ring.color.100}"
-          },
-          "name": "pf-t--global--focus-ring--color--default",
-          "attributes": {
-            "category": "global",
-            "type": "focus-ring",
-            "item": "color",
-            "subitem": "default"
-          },
-          "path": [
-            "global",
-            "focus-ring",
-            "color",
-            "default"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#92c5f9",
-              "filePath": "tokens/default/highcontrast-dark/base.dark.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.blue.30}"
-              },
-              "name": "pf-t--global--dark--focus-ring--color--100",
-              "attributes": {
-                "category": "global",
-                "type": "dark",
-                "item": "focus-ring",
-                "subitem": "color",
-                "state": "100"
-              },
-              "path": [
-                "global",
-                "dark",
-                "focus-ring",
-                "color",
-                "100"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#92c5f9",
-                  "filePath": "tokens/default/highcontrast-dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#92c5f9"
-                  },
-                  "name": "pf-t--color--blue--30",
-                  "attributes": {
-                    "category": "color",
-                    "type": "blue",
-                    "item": "30"
-                  },
-                  "path": [
-                    "color",
-                    "blue",
-                    "30"
                   ]
                 }
               ]
