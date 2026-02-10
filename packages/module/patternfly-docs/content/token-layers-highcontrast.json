@@ -33759,6 +33759,58 @@
           ]
         }
       },
+      "pf-t--global--icon--size--3xl": {
+        "default": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "6rem",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for triple extra large icons.",
+            "type": "number",
+            "value": "{global.icon.size.500}"
+          },
+          "name": "pf-t--global--icon--size--3xl",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "3xl"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "6rem",
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 96
+              },
+              "name": "pf-t--global--icon--size--500",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
+              },
+              "path": [
+                "global",
+                "icon",
+                "size",
+                "500"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--icon--size--font--body--sm": {
         "default": {
           "description": "Use for icons that are placed inline with small body text",
@@ -35397,58 +35449,6 @@
                     "800"
                   ]
                 }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--icon--size--3xl": {
-        "default": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "6rem",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for triple extra large icons.",
-            "type": "number",
-            "value": "{global.icon.size.500}"
-          },
-          "name": "pf-t--global--icon--size--3xl",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "3xl"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "3xl"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 96
-              },
-              "name": "pf-t--global--icon--size--500",
-              "attributes": {
-                "category": "global",
-                "type": "icon",
-                "item": "size",
-                "subitem": "500"
-              },
-              "path": [
-                "global",
-                "icon",
-                "size",
-                "500"
               ]
             }
           ]
@@ -37426,6 +37426,110 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--body": {
+        "default": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for body text",
+            "type": "number",
+            "value": "{global.font.line-height.200}"
+          },
+          "name": "pf-t--global--font--line-height--body",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "body"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "body"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.5,
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.5
+              },
+              "name": "pf-t--global--font--line-height--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--heading": {
+        "default": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for heading text",
+            "type": "number",
+            "value": "{global.font.line-height.100}"
+          },
+          "name": "pf-t--global--font--line-height--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.3,
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.2999999523162842
+              },
+              "name": "pf-t--global--font--line-height--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--font--weight--body--default": {
         "default": {
           "description": "Use to define the default weight for body text",
@@ -37637,110 +37741,6 @@
                 "font",
                 "weight",
                 "400"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--body": {
-        "default": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for body text",
-            "type": "number",
-            "value": "{global.font.line-height.200}"
-          },
-          "name": "pf-t--global--font--line-height--body",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "body"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "body"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.5,
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.5
-              },
-              "name": "pf-t--global--font--line-height--200",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "200"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--heading": {
-        "default": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for heading text",
-            "type": "number",
-            "value": "{global.font.line-height.100}"
-          },
-          "name": "pf-t--global--font--line-height--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "heading"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.3,
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.2999999523162842
-              },
-              "name": "pf-t--global--font--line-height--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "100"
               ]
             }
           ]
@@ -49797,6 +49797,56 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/highcontrast/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/highcontrast/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
+          ]
+        }
+      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -49894,56 +49944,6 @@
             "font",
             "weight",
             "400"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/highcontrast/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/highcontrast/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
           ]
         }
       },

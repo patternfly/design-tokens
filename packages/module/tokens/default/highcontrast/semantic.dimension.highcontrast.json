@@ -420,6 +420,11 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        },
         "font": {
           "body": {
             "sm": {
@@ -510,11 +515,6 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
-        },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
         }
       }
     },

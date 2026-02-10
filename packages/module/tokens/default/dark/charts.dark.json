@@ -292,6 +292,10 @@
           "value": 22
         }
       },
+      "stroke-line-cap": {
+        "type": "string",
+        "value": "round"
+      },
       "layout": {
         "padding": {
           "type": "number",
@@ -305,10 +309,6 @@
           "type": "number",
           "value": 450
         }
-      },
-      "stroke-line-cap": {
-        "type": "string",
-        "value": "round"
       },
       "label": {
         "padding": {

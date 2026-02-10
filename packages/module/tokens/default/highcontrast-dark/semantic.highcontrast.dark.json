@@ -2,6 +2,20 @@
 {
   "global": {
     "background": {
+      "filter": {
+        "glass": {
+          "blur": {
+            "primary": {
+              "type": "number",
+              "value": 0
+            },
+            "floating": {
+              "type": "number",
+              "value": 0
+            }
+          }
+        }
+      },
       "color": {
         "glass": {
           "primary": {
@@ -165,20 +179,6 @@
             "subtle": {
               "type": "color",
               "value": "{global.dark.background.color.600}"
-            }
-          }
-        }
-      },
-      "filter": {
-        "glass": {
-          "blur": {
-            "primary": {
-              "type": "number",
-              "value": 0
-            },
-            "floating": {
-              "type": "number",
-              "value": 0
             }
           }
         }
@@ -1971,6 +1971,15 @@
         }
       }
     },
+    "focus-ring": {
+      "color": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "{global.dark.focus-ring.color.100}"
+        }
+      }
+    },
     "text-decoration": {
       "color": {
         "default": {
@@ -1980,15 +1989,6 @@
         "hover": {
           "type": "color",
           "value": "{global.border.color.hover}"
-        }
-      }
-    },
-    "focus-ring": {
-      "color": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "{global.dark.focus-ring.color.100}"
         }
       }
     }
