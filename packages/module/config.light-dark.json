@@ -1,0 +1,24 @@
+{
+  "source": ["tokens/default/light/*.json"],
+  "darkSource": ["tokens/default/dark/*.json"],
+  "basePxFontSize": 16,
+  "platforms": {
+    "css": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "build/css/",
+      "prefix": "pf-t",
+      "files": [{
+        "destination": "tokens-light-dark.scss",
+        "format": "css/light-dark",
+        "options": {
+          "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "global"
+          }
+        }
+      }]
+    }
+  }
+}

@@ -84,6 +84,128 @@ const build = (selector) => {
     }
   });
 
+  // Register light-dark formatter
+  StyleDictionary.registerFormat({
+    name: 'css/light-dark',
+    formatter: function ({ dictionary, file, options }) {
+      const { outputReferences } = options;
+
+      // Import token-merger utility
+      const { buildTokenPairMap, resolveTokenValue, getDefaultLightValue } = require('./utils/token-merger');
+
+      // Build and load dark dictionary
+      // We need to manually transform dark tokens similar to how they're processed for the light theme
+      const darkConfig = require('./config.dark.json');
+      const darkSD = StyleDictionary.extend(darkConfig);
+
+      // Get the transform group for CSS platform
+      const transformGroup = darkSD.platforms.css.transformGroup;
+      const transforms = StyleDictionary.transformGroup[transformGroup];
+
+      // Apply transforms to dark tokens
+      const prefix = darkSD.platforms.css.prefix || '';
+
+      // Helper to recursively transform tokens
+      function transformToken(token, transforms, options) {
+        let transformedToken = { ...token };
+
+        // Apply each transform in sequence
+        if (transforms && Array.isArray(transforms)) {
+          transforms.forEach(transformName => {
+            const transform = StyleDictionary.transform[transformName];
+            if (transform) {
+              // Check if transform matcher matches
+              if (!transform.matcher || transform.matcher(transformedToken)) {
+                if (transform.type === 'value' && transform.transformer) {
+                  transformedToken.value = transform.transformer(transformedToken, options);
+                } else if (transform.type === 'name' && transform.transformer) {
+                  transformedToken.name = transform.transformer(transformedToken, options);
+                }
+              }
+            }
+          });
+        }
+
+        return transformedToken;
+      }
+
+      // Flatten and transform dark properties
+      function flattenAndTransform(obj, result = [], path = []) {
+        if (obj.value !== undefined) {
+          const token = {
+            ...obj,
+            path: [...path],
+            name: path.join('--'),
+            attributes: {}
+          };
+
+          // Add CTI attributes
+          if (path.length > 0) {
+            token.attributes.category = path[0];
+          }
+          if (path.length > 1) {
+            token.attributes.type = path[1];
+          }
+          if (path.length > 2) {
+            token.attributes.item = path[2];
+          }
+
+          // Store original value
+          token.original = { ...obj };
+
+          // Transform the token
+          const transformed = transformToken(token, transforms, { prefix });
+          result.push(transformed);
+        } else {
+          for (let key in obj) {
+            if (typeof obj[key] === 'object' && key !== 'attributes') {
+              flattenAndTransform(obj[key], result, [...path, key]);
+            }
+          }
+        }
+        return result;
+      }
+
+      const darkTokens = flattenAndTransform(darkSD.properties);
+
+      const darkDictionary = {
+        allTokens: darkTokens,
+        usesReference: (value) => dictionary.usesReference(value),
+        getReferences: (value) => dictionary.getReferences(value)
+      };
+
+      // Build map of light/dark token pairs
+      const tokenPairs = buildTokenPairMap(
+        dictionary.allTokens,
+        darkDictionary.allTokens
+      );
+
+      // Generate CSS output with light-dark() syntax
+      const cssVars = tokenPairs.map(({ normalizedName, light, dark }) => {
+        let lightVal, darkVal;
+
+        if (light && dark) {
+          // Both exist - use light-dark()
+          lightVal = resolveTokenValue(light, dictionary, outputReferences);
+          darkVal = resolveTokenValue(dark, darkDictionary, outputReferences);
+          return `  --${normalizedName}: light-dark(${lightVal}, ${darkVal});`;
+        } else if (light) {
+          // Light only - output direct value without light-dark()
+          lightVal = resolveTokenValue(light, dictionary, outputReferences);
+          return `  --${normalizedName}: ${lightVal};`;
+        } else if (dark) {
+          // Dark only - create light-dark with sensible default
+          darkVal = resolveTokenValue(dark, darkDictionary, outputReferences);
+          lightVal = getDefaultLightValue(dark, darkVal);
+          return `  --${normalizedName}: light-dark(${lightVal}, ${darkVal});`;
+        }
+      }).filter(Boolean).join('\n');
+
+      return fileHeader({ file, commentStyle: 'short' }) +
+        `${selector} {\n${cssVars}\n}\n`;
+    }
+  });
+
   // Register custom transforms
   StyleDictionary.registerTransform({
     name: 'patternfly/global/px',
@@ -167,6 +289,11 @@ const build = (selector) => {
 
   const darkExtendedSD = StyleDictionary.extend(__dirname + '/config.dark.json');
   darkExtendedSD.buildAllPlatforms();
+
+  // Build light-dark unified theme
+  console.log('Building light-dark unified theme...');
+  const lightDarkSD = StyleDictionary.extend(__dirname + '/config.light-dark.json');
+  lightDarkSD.buildAllPlatforms();
 
   // Step 2: Build other non-glass themes (order doesn't matter)
   console.log('Building other themes...');
