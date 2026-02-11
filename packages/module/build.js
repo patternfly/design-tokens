@@ -91,7 +91,7 @@ const build = (selector) => {
       const { outputReferences } = options;
 
       // Import token-merger utility
-      const { buildTokenPairMap, resolveTokenValue, getDefaultLightValue } = require('./utils/token-merger');
+      const { buildTokenPairMap, resolveTokenValue, getDefaultLightValue, isDarkOnlyBaseToken } = require('./utils/token-merger');
 
       // Build and load dark dictionary
       // We need to manually transform dark tokens similar to how they're processed for the light theme
@@ -180,8 +180,27 @@ const build = (selector) => {
         darkDictionary.allTokens
       );
 
-      // Generate CSS output with light-dark() syntax
-      const cssVars = tokenPairs.map(({ normalizedName, light, dark }) => {
+      // Separate dark base tokens from composite tokens
+      const darkBaseTokens = [];
+      const compositeTokens = [];
+
+      tokenPairs.forEach(pair => {
+        // If there's a dark token and it's a base token, add it to the dark base tokens list
+        if (pair.dark && isDarkOnlyBaseToken(pair.dark)) {
+          darkBaseTokens.push(pair);
+        }
+        // All tokens go into composite tokens (this includes pairs that also have dark base tokens)
+        compositeTokens.push(pair);
+      });
+
+      // Generate CSS for dark base tokens (with original --dark-- names)
+      const darkBaseVars = darkBaseTokens.map(({ dark }) => {
+        const darkVal = resolveTokenValue(dark, darkDictionary, outputReferences);
+        return `  --${dark.name}: ${darkVal};`;
+      }).filter(Boolean).join('\n');
+
+      // Generate CSS for composite tokens (with light-dark() syntax)
+      const compositeVars = compositeTokens.map(({ normalizedName, light, dark }) => {
         let lightVal, darkVal;
 
         if (light && dark) {
@@ -194,12 +213,23 @@ const build = (selector) => {
           lightVal = resolveTokenValue(light, dictionary, outputReferences);
           return `  --${normalizedName}: ${lightVal};`;
         } else if (dark) {
-          // Dark only - create light-dark with sensible default
+          // Dark only (not a base token) - create light-dark with sensible default
           darkVal = resolveTokenValue(dark, darkDictionary, outputReferences);
           lightVal = getDefaultLightValue(dark, darkVal);
           return `  --${normalizedName}: light-dark(${lightVal}, ${darkVal});`;
         }
       }).filter(Boolean).join('\n');
+
+      // Combine both sections with a comment separator
+      let cssVars = '';
+      if (darkBaseVars) {
+        cssVars += '  // Dark base tokens (referenced by semantic tokens in dark mode)\n';
+        cssVars += darkBaseVars;
+        if (compositeVars) {
+          cssVars += '\n\n  // Composite tokens (light-dark values)\n';
+        }
+      }
+      cssVars += compositeVars;
 
       return fileHeader({ file, commentStyle: 'short' }) +
         `${selector} {\n${cssVars}\n}\n`;

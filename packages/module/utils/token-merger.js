@@ -120,6 +120,21 @@ function getDefaultLightValue(darkToken, darkValue) {
 }
 
 /**
+ * Determines if a token is a dark-only base token that should be output with its original name.
+ * These are tokens with 'dark' as the second path segment (e.g., global.dark.background.color.100)
+ *
+ * @param {Object} token - Style Dictionary token object
+ * @returns {boolean} True if token should be output with --dark-- in the name
+ */
+function isDarkOnlyBaseToken(token) {
+  if (!token || !token.path) {
+    return false;
+  }
+  // Check if token has 'dark' as second segment in path
+  return token.path.length > 1 && token.path[1] === 'dark';
+}
+
+/**
  * Builds a map of light/dark token pairs indexed by normalized path.
  *
  * @param {Array} lightTokens - Array of light theme tokens
@@ -171,5 +186,6 @@ module.exports = {
   isBoxShadowColor,
   resolveTokenValue,
   getDefaultLightValue,
-  buildTokenPairMap
+  buildTokenPairMap,
+  isDarkOnlyBaseToken
 };
