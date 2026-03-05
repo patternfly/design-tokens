@@ -1,8 +1,8 @@
 
 // Do not edit directly
-// Generated on Thu, 05 Mar 2026 15:09:25 GMT
+// Generated on Thu, 05 Mar 2026 15:22:57 GMT
 
-// Only tokens that differ from base theme (41 tokens)
+// Only tokens that differ from base theme (47 tokens)
 @mixin pf-v6-tokens {
   --pf-t--global--background--color--primary--default: var(--pf-t--color--black);
   --pf-t--global--box-shadow--color--md--directional: var(--pf-t--global--dark--box-shadow--color--200);
@@ -45,4 +45,10 @@
   --pf-t--global--text--color--status--danger--default: var(--pf-t--global--dark--color--status--danger--300);
   --pf-t--global--border--color--high-contrast: var(--pf-t--global--border--color--default);
   --pf-t--global--border--color--main--default: var(--pf-t--global--border--color--default);
+  --pf-t--global--icon--color--on-brand--accent--clicked: var(--pf-t--global--icon--color--inverse);
+  --pf-t--global--icon--color--on-brand--accent--default: var(--pf-t--global--icon--color--inverse);
+  --pf-t--global--icon--color--on-brand--accent--hover: var(--pf-t--global--icon--color--inverse);
+  --pf-t--global--text--color--on-brand--accent--clicked: var(--pf-t--global--text--color--inverse);
+  --pf-t--global--text--color--on-brand--accent--default: var(--pf-t--global--text--color--inverse);
+  --pf-t--global--text--color--on-brand--accent--hover: var(--pf-t--global--text--color--inverse);
 }

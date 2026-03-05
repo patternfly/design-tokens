@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 05 Mar 2026 15:09:24 GMT
+// Generated on Thu, 05 Mar 2026 15:22:57 GMT
 
 @mixin pf-v6-tokens {
   --pf-t--global--background--color--action--plain--default: rgba(0, 0, 0, 0.0000);
@@ -317,9 +317,9 @@
   --pf-t--global--icon--color--nonstatus--on-yellow--clicked: var(--pf-t--global--icon--color--inverse);
   --pf-t--global--icon--color--nonstatus--on-yellow--default: var(--pf-t--global--icon--color--inverse);
   --pf-t--global--icon--color--nonstatus--on-yellow--hover: var(--pf-t--global--icon--color--inverse);
-  --pf-t--global--icon--color--on-brand--accent--clicked: var(--pf-t--global--icon--color--inverse);
-  --pf-t--global--icon--color--on-brand--accent--default: var(--pf-t--global--icon--color--inverse);
-  --pf-t--global--icon--color--on-brand--accent--hover: var(--pf-t--global--icon--color--inverse);
+  --pf-t--global--icon--color--on-brand--accent--clicked: var(--pf-t--global--icon--color--regular);
+  --pf-t--global--icon--color--on-brand--accent--default: var(--pf-t--global--icon--color--regular);
+  --pf-t--global--icon--color--on-brand--accent--hover: var(--pf-t--global--icon--color--regular);
   --pf-t--global--icon--color--on-brand--clicked: var(--pf-t--global--icon--color--inverse);
   --pf-t--global--icon--color--on-brand--default: var(--pf-t--global--icon--color--inverse);
   --pf-t--global--icon--color--on-brand--hover: var(--pf-t--global--icon--color--inverse);
@@ -389,9 +389,9 @@
   --pf-t--global--text--color--nonstatus--on-yellow--clicked: var(--pf-t--global--text--color--inverse);
   --pf-t--global--text--color--nonstatus--on-yellow--default: var(--pf-t--global--text--color--inverse);
   --pf-t--global--text--color--nonstatus--on-yellow--hover: var(--pf-t--global--text--color--inverse);
-  --pf-t--global--text--color--on-brand--accent--clicked: var(--pf-t--global--text--color--inverse);
-  --pf-t--global--text--color--on-brand--accent--default: var(--pf-t--global--text--color--inverse);
-  --pf-t--global--text--color--on-brand--accent--hover: var(--pf-t--global--text--color--inverse);
+  --pf-t--global--text--color--on-brand--accent--clicked: var(--pf-t--global--text--color--regular);
+  --pf-t--global--text--color--on-brand--accent--default: var(--pf-t--global--text--color--regular);
+  --pf-t--global--text--color--on-brand--accent--hover: var(--pf-t--global--text--color--regular);
   --pf-t--global--text--color--on-brand--clicked: var(--pf-t--global--text--color--inverse);
   --pf-t--global--text--color--on-brand--default: var(--pf-t--global--text--color--inverse);
   --pf-t--global--text--color--on-brand--hover: var(--pf-t--global--text--color--inverse);
