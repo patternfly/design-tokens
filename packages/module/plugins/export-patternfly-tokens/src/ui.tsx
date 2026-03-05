@@ -91,6 +91,10 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFileName = 'semantic.dimension.highcontrast.json';
         saveFolderNames = ['default/highcontrast'];
         break;
+      case ('/* Semantic Dimension Tokens.Glass.tokens.json */'):
+        saveFileName = 'semantic.dimension.glass.json';
+        saveFolderNames = ['default/glass'];
+        break;
       // Semantic motion
       case '/* Semantic Motion Tokens.Mode 1.tokens.json */':
         saveFileName = 'semantic.motion.json';
@@ -138,6 +142,10 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
       case '/* Red Hat Dimension Tokens.Default.tokens.json */':
         saveFileName = 'redhat.dimension.json';
         saveFolderNames = ['redhat/light'];
+        break;
+      case '/* Red Hat Dimension Tokens.Glass.tokens.json */':
+        saveFileName = 'redhat.dimension.glass.json';
+        saveFolderNames = ['redhat/glass'];
         break;
       case '/* Red Hat Dimension Tokens.High Contrast - Beta.tokens.json */':
         saveFileName = 'redhat.dimension.highcontrast.json';
