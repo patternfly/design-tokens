@@ -605,7 +605,7 @@
             "default": {
               "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
