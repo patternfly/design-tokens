@@ -236,7 +236,7 @@
         "default": {
           "description": "Use as the color for icons that convey your brand and/or are paired with branded text color.",
           "type": "color",
-          "value": "#a60000",
+          "value": "#000000",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
@@ -264,13 +264,13 @@
             {
               "description": "Use this color for elements that you want to reinforce your brand",
               "type": "color",
-              "value": "#a60000",
+              "value": "#000000",
               "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
               "isSource": true,
               "original": {
                 "description": "Use this color for elements that you want to reinforce your brand",
                 "type": "color",
-                "value": "{global.color.brand.accent.200}"
+                "value": "{global.color.brand.accent.400}"
               },
               "name": "pf-t--global--color--brand--accent--default",
               "attributes": {
@@ -290,48 +290,46 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#a60000",
+                  "value": "#000000",
                   "filePath": "tokens/default/highcontrast/base.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.red.60}"
+                    "value": "{color.black}"
                   },
-                  "name": "pf-t--global--color--brand--accent--200",
+                  "name": "pf-t--global--color--brand--accent--400",
                   "attributes": {
                     "category": "global",
                     "type": "color",
                     "item": "brand",
                     "subitem": "accent",
-                    "state": "200"
+                    "state": "400"
                   },
                   "path": [
                     "global",
                     "color",
                     "brand",
                     "accent",
-                    "200"
+                    "400"
                   ],
                   "references": [
                     {
                       "type": "color",
-                      "value": "#a60000",
+                      "value": "#000000",
                       "filePath": "tokens/default/highcontrast/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#a60000"
+                        "value": "#000000"
                       },
-                      "name": "pf-t--color--red--60",
+                      "name": "pf-t--color--black",
                       "attributes": {
                         "category": "color",
-                        "type": "red",
-                        "item": "60"
+                        "type": "black"
                       },
                       "path": [
                         "color",
-                        "red",
-                        "60"
+                        "black"
                       ]
                     }
                   ]
@@ -345,7 +343,7 @@
         "default": {
           "description": "Use as the hover state color for icons that convey your brand and/or are paired with branded text color.",
           "type": "color",
-          "value": "#5f0000",
+          "value": "#4d4d4d",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
@@ -373,7 +371,7 @@
             {
               "description": "Use as the hover state for elements that have a branded background color",
               "type": "color",
-              "value": "#5f0000",
+              "value": "#4d4d4d",
               "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
               "isSource": true,
               "original": {
@@ -399,12 +397,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#5f0000",
+                  "value": "#4d4d4d",
                   "filePath": "tokens/default/highcontrast/base.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.red.70}"
+                    "value": "{color.gray.60}"
                   },
                   "name": "pf-t--global--color--brand--accent--300",
                   "attributes": {
@@ -424,23 +422,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#5f0000",
+                      "value": "#4d4d4d",
                       "filePath": "tokens/default/highcontrast/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#5f0000"
+                        "value": "#4d4d4d"
                       },
-                      "name": "pf-t--color--red--70",
+                      "name": "pf-t--color--gray--60",
                       "attributes": {
                         "category": "color",
-                        "type": "red",
-                        "item": "70"
+                        "type": "gray",
+                        "item": "60"
                       },
                       "path": [
                         "color",
-                        "red",
-                        "70"
+                        "gray",
+                        "60"
                       ]
                     }
                   ]
@@ -454,7 +452,7 @@
         "default": {
           "description": "Use as the clicked state for icons that convey your brand and/or are paired with branded text color.",
           "type": "color",
-          "value": "#5f0000",
+          "value": "#4d4d4d",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
@@ -482,7 +480,7 @@
             {
               "description": "Use as the clicked state for elements that have a brand background color",
               "type": "color",
-              "value": "#5f0000",
+              "value": "#4d4d4d",
               "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
               "isSource": true,
               "original": {
@@ -508,12 +506,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#5f0000",
+                  "value": "#4d4d4d",
                   "filePath": "tokens/default/highcontrast/base.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.red.70}"
+                    "value": "{color.gray.60}"
                   },
                   "name": "pf-t--global--color--brand--accent--300",
                   "attributes": {
@@ -533,23 +531,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#5f0000",
+                      "value": "#4d4d4d",
                       "filePath": "tokens/default/highcontrast/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#5f0000"
+                        "value": "#4d4d4d"
                       },
-                      "name": "pf-t--color--red--70",
+                      "name": "pf-t--color--gray--60",
                       "attributes": {
                         "category": "color",
-                        "type": "red",
-                        "item": "70"
+                        "type": "gray",
+                        "item": "60"
                       },
                       "path": [
                         "color",
-                        "red",
-                        "70"
+                        "gray",
+                        "60"
                       ]
                     }
                   ]
@@ -14834,210 +14832,6 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass--primary": {
-        "default": {
-          "type": "color",
-          "value": "#ffffff",
-          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "name": "pf-t--global--background--color--glass--primary",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "glass",
-            "state": "primary"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "glass",
-            "primary"
-          ],
-          "references": [
-            {
-              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-              "type": "color",
-              "value": "#ffffff",
-              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-                "type": "color",
-                "value": "{global.background.color.100}"
-              },
-              "name": "pf-t--global--background--color--primary--default",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "primary",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "primary",
-                "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/highcontrast/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/highcontrast/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--glass--floating": {
-        "default": {
-          "type": "color",
-          "value": "#ffffff",
-          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
-          },
-          "name": "pf-t--global--background--color--glass--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "glass",
-            "state": "floating"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "glass",
-            "floating"
-          ],
-          "references": [
-            {
-              "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
-              "type": "color",
-              "value": "#ffffff",
-              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
-                "type": "color",
-                "value": "{global.background.color.100}"
-              },
-              "name": "pf-t--global--background--color--floating--default",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "floating",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "floating",
-                "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/highcontrast/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/highcontrast/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--background--color--primary--default": {
         "default": {
           "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
@@ -15552,6 +15346,210 @@
           ]
         }
       },
+      "pf-t--global--background--color--glass--primary": {
+        "default": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.primary.default}"
+          },
+          "name": "pf-t--global--background--color--glass--primary",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "primary"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "primary"
+          ],
+          "references": [
+            {
+              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                "type": "color",
+                "value": "{global.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--primary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "primary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "primary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/highcontrast/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/highcontrast/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--glass--floating": {
+        "default": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
+          },
+          "name": "pf-t--global--background--color--glass--floating",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "glass",
+            "state": "floating"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "glass",
+            "floating"
+          ],
+          "references": [
+            {
+              "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+                "type": "color",
+                "value": "{global.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--floating--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "floating",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "floating",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/highcontrast/base.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.white}"
+                  },
+                  "name": "pf-t--global--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#ffffff",
+                      "filePath": "tokens/default/highcontrast/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#ffffff"
+                      },
+                      "name": "pf-t--color--white",
+                      "attributes": {
+                        "category": "color",
+                        "type": "white"
+                      },
+                      "path": [
+                        "color",
+                        "white"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--background--color--floating--default": {
         "default": {
           "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
@@ -15774,6 +15772,81 @@
                     "color",
                     "gray",
                     "10"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--sticky--default": {
+        "default": {
+          "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+            "type": "color",
+            "value": "{global.background.color.100}"
+          },
+          "name": "pf-t--global--background--color--sticky--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "sticky",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "sticky",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/highcontrast/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.white}"
+              },
+              "name": "pf-t--global--background--color--100",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "100"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/highcontrast/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#ffffff"
+                  },
+                  "name": "pf-t--color--white",
+                  "attributes": {
+                    "category": "color",
+                    "type": "white"
+                  },
+                  "path": [
+                    "color",
+                    "white"
                   ]
                 }
               ]
@@ -16832,60 +16905,6 @@
             "filter",
             "glass",
             "blur",
-            "floating"
-          ]
-        }
-      },
-      "pf-t--global--background--opacity--glass--primary": {
-        "default": {
-          "type": "number",
-          "value": "100%",
-          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 100
-          },
-          "name": "pf-t--global--background--opacity--glass--primary",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "opacity",
-            "subitem": "glass",
-            "state": "primary"
-          },
-          "path": [
-            "global",
-            "background",
-            "opacity",
-            "glass",
-            "primary"
-          ]
-        }
-      },
-      "pf-t--global--background--opacity--glass--floating": {
-        "default": {
-          "type": "number",
-          "value": "100%",
-          "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 100
-          },
-          "name": "pf-t--global--background--opacity--glass--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "opacity",
-            "subitem": "glass",
-            "state": "floating"
-          },
-          "path": [
-            "global",
-            "background",
-            "opacity",
-            "glass",
             "floating"
           ]
         }
@@ -32970,58 +32989,6 @@
           ]
         }
       },
-      "pf-t--global--icon--size--3xl": {
-        "default": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "6rem",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for triple extra large icons.",
-            "type": "number",
-            "value": "{global.icon.size.500}"
-          },
-          "name": "pf-t--global--icon--size--3xl",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "3xl"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "3xl"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 96
-              },
-              "name": "pf-t--global--icon--size--500",
-              "attributes": {
-                "category": "global",
-                "type": "icon",
-                "item": "size",
-                "subitem": "500"
-              },
-              "path": [
-                "global",
-                "icon",
-                "size",
-                "500"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--icon--size--font--body--sm": {
         "default": {
           "description": "Use for icons that are placed inline with small body text",
@@ -34660,6 +34627,58 @@
                     "800"
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--icon--size--3xl": {
+        "default": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "6rem",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for triple extra large icons.",
+            "type": "number",
+            "value": "{global.icon.size.500}"
+          },
+          "name": "pf-t--global--icon--size--3xl",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "3xl"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "6rem",
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 96
+              },
+              "name": "pf-t--global--icon--size--500",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
+              },
+              "path": [
+                "global",
+                "icon",
+                "size",
+                "500"
               ]
             }
           ]
@@ -36478,110 +36497,6 @@
           ]
         }
       },
-      "pf-t--global--font--line-height--body": {
-        "default": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for body text",
-            "type": "number",
-            "value": "{global.font.line-height.200}"
-          },
-          "name": "pf-t--global--font--line-height--body",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "body"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "body"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.5,
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.5
-              },
-              "name": "pf-t--global--font--line-height--200",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "200"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--heading": {
-        "default": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for heading text",
-            "type": "number",
-            "value": "{global.font.line-height.100}"
-          },
-          "name": "pf-t--global--font--line-height--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "heading"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.3,
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.2999999523162842
-              },
-              "name": "pf-t--global--font--line-height--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--font--weight--body--default": {
         "default": {
           "description": "Use to define the default weight for body text",
@@ -36793,6 +36708,110 @@
                 "font",
                 "weight",
                 "400"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--body": {
+        "default": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for body text",
+            "type": "number",
+            "value": "{global.font.line-height.200}"
+          },
+          "name": "pf-t--global--font--line-height--body",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "body"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "body"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.5,
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.5
+              },
+              "name": "pf-t--global--font--line-height--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--heading": {
+        "default": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for heading text",
+            "type": "number",
+            "value": "{global.font.line-height.100}"
+          },
+          "name": "pf-t--global--font--line-height--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.3,
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.2999999523162842
+              },
+              "name": "pf-t--global--font--line-height--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "100"
               ]
             }
           ]
@@ -39251,7 +39270,7 @@
         "default": {
           "description": "Use to define the Y value for a small box-shadow that appears on the top of a raised element, like in sticky footers",
           "type": "number",
-          "value": "-2px",
+          "value": "-4px",
           "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
           "isSource": true,
           "original": {
@@ -39277,12 +39296,12 @@
           "references": [
             {
               "type": "number",
-              "value": "-2px",
+              "value": "-4px",
               "filePath": "tokens/default/highcontrast/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": -2
+                "value": -4
               },
               "name": "pf-t--global--box-shadow--Y--200",
               "attributes": {
@@ -39305,7 +39324,7 @@
         "default": {
           "description": "Use to define the Y value for a small box-shadow that appears on the bottom of a raised element, like in sticky headers.",
           "type": "number",
-          "value": "2px",
+          "value": "4px",
           "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
           "isSource": true,
           "original": {
@@ -39331,12 +39350,12 @@
           "references": [
             {
               "type": "number",
-              "value": "2px",
+              "value": "4px",
               "filePath": "tokens/default/highcontrast/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 2
+                "value": 4
               },
               "name": "pf-t--global--box-shadow--Y--600",
               "attributes": {
@@ -39467,7 +39486,7 @@
         "default": {
           "description": "Use to define the Y value for a default medium box-shadow, used in popovers and raised menus.",
           "type": "number",
-          "value": "2px",
+          "value": "4px",
           "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
           "isSource": true,
           "original": {
@@ -39493,12 +39512,12 @@
           "references": [
             {
               "type": "number",
-              "value": "2px",
+              "value": "4px",
               "filePath": "tokens/default/highcontrast/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 2
+                "value": 4
               },
               "name": "pf-t--global--box-shadow--Y--600",
               "attributes": {
@@ -40007,7 +40026,7 @@
         "default": {
           "description": "Use to define the blur for a small box-shadow",
           "type": "number",
-          "value": "4px",
+          "value": "6px",
           "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
           "isSource": true,
           "original": {
@@ -40031,12 +40050,12 @@
           "references": [
             {
               "type": "number",
-              "value": "4px",
+              "value": "6px",
               "filePath": "tokens/default/highcontrast/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 4
+                "value": 6
               },
               "name": "pf-t--global--box-shadow--blur--100",
               "attributes": {
@@ -40059,7 +40078,7 @@
         "default": {
           "description": "Use to define the blur for a medium box-shadow",
           "type": "number",
-          "value": "9px",
+          "value": "10px",
           "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
           "isSource": true,
           "original": {
@@ -40083,12 +40102,12 @@
           "references": [
             {
               "type": "number",
-              "value": "9px",
+              "value": "10px",
               "filePath": "tokens/default/highcontrast/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 9
+                "value": 10
               },
               "name": "pf-t--global--box-shadow--blur--200",
               "attributes": {
@@ -42203,12 +42222,12 @@
       "pf-t--global--border--color--50": {
         "default": {
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#e0e0e0",
           "filePath": "tokens/default/highcontrast/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.10}"
+            "value": "{color.gray.20}"
           },
           "name": "pf-t--global--border--color--50",
           "attributes": {
@@ -42226,23 +42245,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#e0e0e0",
               "filePath": "tokens/default/highcontrast/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#f2f2f2"
+                "value": "#e0e0e0"
               },
-              "name": "pf-t--color--gray--10",
+              "name": "pf-t--color--gray--20",
               "attributes": {
                 "category": "color",
                 "type": "gray",
-                "item": "10"
+                "item": "20"
               },
               "path": [
                 "color",
                 "gray",
-                "10"
+                "20"
               ]
             }
           ]
@@ -43246,12 +43265,12 @@
       "pf-t--global--color--brand--accent--300": {
         "default": {
           "type": "color",
-          "value": "#5f0000",
+          "value": "#4d4d4d",
           "filePath": "tokens/default/highcontrast/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.red.70}"
+            "value": "{color.gray.60}"
           },
           "name": "pf-t--global--color--brand--accent--300",
           "attributes": {
@@ -43271,23 +43290,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#5f0000",
+              "value": "#4d4d4d",
               "filePath": "tokens/default/highcontrast/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#5f0000"
+                "value": "#4d4d4d"
               },
-              "name": "pf-t--color--red--70",
+              "name": "pf-t--color--gray--60",
               "attributes": {
                 "category": "color",
-                "type": "red",
-                "item": "70"
+                "type": "gray",
+                "item": "60"
               },
               "path": [
                 "color",
-                "red",
-                "70"
+                "gray",
+                "60"
               ]
             }
           ]
@@ -48849,56 +48868,6 @@
           ]
         }
       },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/highcontrast/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/highcontrast/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
-          ]
-        }
-      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -48996,6 +48965,56 @@
             "font",
             "weight",
             "400"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/highcontrast/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/highcontrast/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
           ]
         }
       },
@@ -49490,12 +49509,12 @@
       "pf-t--global--box-shadow--X--300": {
         "default": {
           "type": "number",
-          "value": "-1px",
+          "value": "-2px",
           "filePath": "tokens/default/highcontrast/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": -1
+            "value": -2
           },
           "name": "pf-t--global--box-shadow--X--300",
           "attributes": {
@@ -49540,12 +49559,12 @@
       "pf-t--global--box-shadow--X--500": {
         "default": {
           "type": "number",
-          "value": "1px",
+          "value": "2px",
           "filePath": "tokens/default/highcontrast/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 1
+            "value": 2
           },
           "name": "pf-t--global--box-shadow--X--500",
           "attributes": {
@@ -49690,12 +49709,12 @@
       "pf-t--global--box-shadow--Y--200": {
         "default": {
           "type": "number",
-          "value": "-2px",
+          "value": "-4px",
           "filePath": "tokens/default/highcontrast/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": -2
+            "value": -4
           },
           "name": "pf-t--global--box-shadow--Y--200",
           "attributes": {
@@ -49790,12 +49809,12 @@
       "pf-t--global--box-shadow--Y--600": {
         "default": {
           "type": "number",
-          "value": "2px",
+          "value": "4px",
           "filePath": "tokens/default/highcontrast/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 2
+            "value": 4
           },
           "name": "pf-t--global--box-shadow--Y--600",
           "attributes": {
@@ -49865,12 +49884,12 @@
       "pf-t--global--box-shadow--blur--100": {
         "default": {
           "type": "number",
-          "value": "4px",
+          "value": "6px",
           "filePath": "tokens/default/highcontrast/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 4
+            "value": 6
           },
           "name": "pf-t--global--box-shadow--blur--100",
           "attributes": {
@@ -49890,12 +49909,12 @@
       "pf-t--global--box-shadow--blur--200": {
         "default": {
           "type": "number",
-          "value": "9px",
+          "value": "10px",
           "filePath": "tokens/default/highcontrast/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 9
+            "value": 10
           },
           "name": "pf-t--global--box-shadow--blur--200",
           "attributes": {
@@ -50745,13 +50764,13 @@
       "redhat": {
         "description": "Use this color for elements that you want to reinforce your brand",
         "type": "color",
-        "value": "#a60000",
+        "value": "#000000",
         "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
         "isSource": true,
         "original": {
           "description": "Use this color for elements that you want to reinforce your brand",
           "type": "color",
-          "value": "{global.color.brand.accent.200}"
+          "value": "{global.color.brand.accent.400}"
         },
         "name": "pf-t--global--color--brand--accent--default",
         "attributes": {
@@ -50771,48 +50790,46 @@
         "references": [
           {
             "type": "color",
-            "value": "#a60000",
+            "value": "#000000",
             "filePath": "tokens/default/highcontrast/base.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.red.60}"
+              "value": "{color.black}"
             },
-            "name": "pf-t--global--color--brand--accent--200",
+            "name": "pf-t--global--color--brand--accent--400",
             "attributes": {
               "category": "global",
               "type": "color",
               "item": "brand",
               "subitem": "accent",
-              "state": "200"
+              "state": "400"
             },
             "path": [
               "global",
               "color",
               "brand",
               "accent",
-              "200"
+              "400"
             ],
             "references": [
               {
                 "type": "color",
-                "value": "#a60000",
+                "value": "#000000",
                 "filePath": "tokens/default/highcontrast/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#a60000"
+                  "value": "#000000"
                 },
-                "name": "pf-t--color--red--60",
+                "name": "pf-t--color--black",
                 "attributes": {
                   "category": "color",
-                  "type": "red",
-                  "item": "60"
+                  "type": "black"
                 },
                 "path": [
                   "color",
-                  "red",
-                  "60"
+                  "black"
                 ]
               }
             ]
@@ -50824,7 +50841,7 @@
       "redhat": {
         "description": "Use as the hover state for elements that have a branded background color",
         "type": "color",
-        "value": "#5f0000",
+        "value": "#4d4d4d",
         "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
         "isSource": true,
         "original": {
@@ -50850,12 +50867,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#5f0000",
+            "value": "#4d4d4d",
             "filePath": "tokens/default/highcontrast/base.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.red.70}"
+              "value": "{color.gray.60}"
             },
             "name": "pf-t--global--color--brand--accent--300",
             "attributes": {
@@ -50875,23 +50892,23 @@
             "references": [
               {
                 "type": "color",
-                "value": "#5f0000",
+                "value": "#4d4d4d",
                 "filePath": "tokens/default/highcontrast/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#5f0000"
+                  "value": "#4d4d4d"
                 },
-                "name": "pf-t--color--red--70",
+                "name": "pf-t--color--gray--60",
                 "attributes": {
                   "category": "color",
-                  "type": "red",
-                  "item": "70"
+                  "type": "gray",
+                  "item": "60"
                 },
                 "path": [
                   "color",
-                  "red",
-                  "70"
+                  "gray",
+                  "60"
                 ]
               }
             ]
@@ -50903,7 +50920,7 @@
       "redhat": {
         "description": "Use as the clicked state for elements that have a brand background color",
         "type": "color",
-        "value": "#5f0000",
+        "value": "#4d4d4d",
         "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
         "isSource": true,
         "original": {
@@ -50929,12 +50946,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#5f0000",
+            "value": "#4d4d4d",
             "filePath": "tokens/default/highcontrast/base.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.red.70}"
+              "value": "{color.gray.60}"
             },
             "name": "pf-t--global--color--brand--accent--300",
             "attributes": {
@@ -50954,23 +50971,23 @@
             "references": [
               {
                 "type": "color",
-                "value": "#5f0000",
+                "value": "#4d4d4d",
                 "filePath": "tokens/default/highcontrast/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#5f0000"
+                  "value": "#4d4d4d"
                 },
-                "name": "pf-t--color--red--70",
+                "name": "pf-t--color--gray--60",
                 "attributes": {
                   "category": "color",
-                  "type": "red",
-                  "item": "70"
+                  "type": "gray",
+                  "item": "60"
                 },
                 "path": [
                   "color",
-                  "red",
-                  "70"
+                  "gray",
+                  "60"
                 ]
               }
             ]

@@ -110,16 +110,6 @@
       }
     },
     "font": {
-      "line-height": {
-        "100": {
-          "type": "number",
-          "value": 1.2999999523162842
-        },
-        "200": {
-          "type": "number",
-          "value": 1.5
-        }
-      },
       "weight": {
         "100": {
           "type": "number",
@@ -136,6 +126,16 @@
         "400": {
           "type": "number",
           "value": 700
+        }
+      },
+      "line-height": {
+        "100": {
+          "type": "number",
+          "value": 1.2999999523162842
+        },
+        "200": {
+          "type": "number",
+          "value": 1.5
         }
       },
       "size": {
@@ -229,7 +229,7 @@
         },
         "300": {
           "type": "number",
-          "value": -1
+          "value": -2
         },
         "400": {
           "type": "number",
@@ -237,7 +237,7 @@
         },
         "500": {
           "type": "number",
-          "value": 1
+          "value": 2
         },
         "600": {
           "type": "number",
@@ -263,7 +263,7 @@
         },
         "200": {
           "type": "number",
-          "value": -2
+          "value": -4
         },
         "300": {
           "type": "number",
@@ -279,7 +279,7 @@
         },
         "600": {
           "type": "number",
-          "value": 2
+          "value": 4
         },
         "700": {
           "type": "number",
@@ -293,11 +293,11 @@
       "blur": {
         "100": {
           "type": "number",
-          "value": 4
+          "value": 6
         },
         "200": {
           "type": "number",
-          "value": 9
+          "value": 10
         },
         "300": {
           "type": "number",

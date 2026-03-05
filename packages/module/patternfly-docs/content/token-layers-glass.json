@@ -12276,7 +12276,7 @@
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#e0e0e0",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -12300,12 +12300,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#e0e0e0",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.10}"
+                "value": "{color.gray.20}"
               },
               "name": "pf-t--global--border--color--50",
               "attributes": {
@@ -12323,23 +12323,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#f2f2f2",
+                  "value": "#e0e0e0",
                   "filePath": "tokens/default/glass/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#f2f2f2"
+                    "value": "#e0e0e0"
                   },
-                  "name": "pf-t--color--gray--10",
+                  "name": "pf-t--color--gray--20",
                   "attributes": {
                     "category": "color",
                     "type": "gray",
-                    "item": "10"
+                    "item": "20"
                   },
                   "path": [
                     "color",
                     "gray",
-                    "10"
+                    "20"
                   ]
                 }
               ]
@@ -12426,7 +12426,7 @@
         "default": {
           "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
           "type": "color",
-          "value": "#ffffff",
+          "value": "rgba(255, 255, 255, 0.8000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -12451,13 +12451,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "#ffffff",
+              "value": "rgba(255, 255, 255, 0.8000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "rgba(255, 255, 255, 0.8000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -12473,52 +12473,6 @@
                 "color",
                 "primary",
                 "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/glass/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/glass/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
-                  ]
-                }
               ]
             }
           ]
@@ -14762,7 +14716,7 @@
       "pf-t--global--border--color--main--default": {
         "default": {
           "type": "color",
-          "value": "#ffffff",
+          "value": "rgba(255, 255, 255, 0.8000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -14788,13 +14742,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "#ffffff",
+              "value": "rgba(255, 255, 255, 0.8000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "rgba(255, 255, 255, 0.8000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -14810,52 +14764,6 @@
                 "color",
                 "primary",
                 "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/glass/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/glass/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
-                  ]
-                }
               ]
             }
           ]
@@ -15543,15 +15451,243 @@
           ]
         }
       },
+      "pf-t--global--background--color--primary--default": {
+        "default": {
+          "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.8000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.8000)"
+          },
+          "name": "pf-t--global--background--color--primary--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "primary",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "primary",
+            "default"
+          ]
+        }
+      },
+      "pf-t--global--background--color--primary--hover": {
+        "default": {
+          "description": "Use as the hover state for primary backgrounds",
+          "type": "color",
+          "value": "rgba(242, 242, 242, 0.8000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state for primary backgrounds",
+            "type": "color",
+            "value": "rgba(242, 242, 242, 0.8000)"
+          },
+          "name": "pf-t--global--background--color--primary--hover",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "primary",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "primary",
+            "hover"
+          ]
+        }
+      },
+      "pf-t--global--background--color--primary--clicked": {
+        "default": {
+          "description": "Use as the clicked state for primary backgrounds",
+          "type": "color",
+          "value": "rgba(242, 242, 242, 0.8000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state for primary backgrounds",
+            "type": "color",
+            "value": "rgba(242, 242, 242, 0.8000)"
+          },
+          "name": "pf-t--global--background--color--primary--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "primary",
+            "state": "clicked"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "primary",
+            "clicked"
+          ]
+        }
+      },
+      "pf-t--global--background--color--secondary--default": {
+        "default": {
+          "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.3000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
+            "type": "color",
+            "value": "rgba(199, 199, 199, 0.3000)"
+          },
+          "name": "pf-t--global--background--color--secondary--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "secondary",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "secondary",
+            "default"
+          ]
+        }
+      },
+      "pf-t--global--background--color--secondary--hover": {
+        "default": {
+          "description": "Use as the hover state for secondary backgrounds",
+          "type": "color",
+          "value": "rgba(163, 163, 163, 0.3000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the hover state for secondary backgrounds",
+            "type": "color",
+            "value": "rgba(163, 163, 163, 0.3000)"
+          },
+          "name": "pf-t--global--background--color--secondary--hover",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "secondary",
+            "state": "hover"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "secondary",
+            "hover"
+          ]
+        }
+      },
+      "pf-t--global--background--color--secondary--clicked": {
+        "default": {
+          "description": "Use as the clicked state for secondary backgrounds",
+          "type": "color",
+          "value": "rgba(163, 163, 163, 0.3000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the clicked state for secondary backgrounds",
+            "type": "color",
+            "value": "rgba(163, 163, 163, 0.3000)"
+          },
+          "name": "pf-t--global--background--color--secondary--clicked",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "secondary",
+            "state": "clicked"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "secondary",
+            "clicked"
+          ]
+        }
+      },
+      "pf-t--global--background--color--tertiary--default": {
+        "default": {
+          "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.2500)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
+            "type": "color",
+            "value": "{global.background.color.600}"
+          },
+          "name": "pf-t--global--background--color--tertiary--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "tertiary",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "tertiary",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(199, 199, 199, 0.2500)",
+              "filePath": "tokens/default/glass/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(199, 199, 199, 0.2500)"
+              },
+              "name": "pf-t--global--background--color--600",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "600"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "600"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--background--color--glass--primary": {
         "default": {
           "type": "color",
-          "value": "#ffffff",
+          "value": "rgba(255, 255, 255, 0.5000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.background.color.primary.default}"
+            "value": "rgba(255, 255, 255, 0.5000)"
           },
           "name": "pf-t--global--background--color--glass--primary",
           "attributes": {
@@ -15567,81 +15703,6 @@
             "color",
             "glass",
             "primary"
-          ],
-          "references": [
-            {
-              "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-              "type": "color",
-              "value": "#ffffff",
-              "filePath": "tokens/default/glass/semantic.glass.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-                "type": "color",
-                "value": "{global.background.color.100}"
-              },
-              "name": "pf-t--global--background--color--primary--default",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "primary",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "primary",
-                "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/glass/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/glass/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
           ]
         }
       },
@@ -15742,520 +15803,6 @@
                     }
                   ]
                 }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--primary--default": {
-        "default": {
-          "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-          "type": "color",
-          "value": "#ffffff",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
-            "type": "color",
-            "value": "{global.background.color.100}"
-          },
-          "name": "pf-t--global--background--color--primary--default",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "primary",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "primary",
-            "default"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#ffffff",
-              "filePath": "tokens/default/glass/base.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.white}"
-              },
-              "name": "pf-t--global--background--color--100",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "100"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/glass/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#ffffff"
-                  },
-                  "name": "pf-t--color--white",
-                  "attributes": {
-                    "category": "color",
-                    "type": "white"
-                  },
-                  "path": [
-                    "color",
-                    "white"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--primary--hover": {
-        "default": {
-          "description": "Use as the hover state for primary backgrounds",
-          "type": "color",
-          "value": "#f2f2f2",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the hover state for primary backgrounds",
-            "type": "color",
-            "value": "{global.background.color.200}"
-          },
-          "name": "pf-t--global--background--color--primary--hover",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "primary",
-            "state": "hover"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "primary",
-            "hover"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f2f2f2",
-              "filePath": "tokens/default/glass/base.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.gray.10}"
-              },
-              "name": "pf-t--global--background--color--200",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#f2f2f2",
-                  "filePath": "tokens/default/glass/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#f2f2f2"
-                  },
-                  "name": "pf-t--color--gray--10",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "10"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "10"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--primary--clicked": {
-        "default": {
-          "description": "Use as the clicked state for primary backgrounds",
-          "type": "color",
-          "value": "#f2f2f2",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the clicked state for primary backgrounds",
-            "type": "color",
-            "value": "{global.background.color.200}"
-          },
-          "name": "pf-t--global--background--color--primary--clicked",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "primary",
-            "state": "clicked"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "primary",
-            "clicked"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f2f2f2",
-              "filePath": "tokens/default/glass/base.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.gray.10}"
-              },
-              "name": "pf-t--global--background--color--200",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#f2f2f2",
-                  "filePath": "tokens/default/glass/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#f2f2f2"
-                  },
-                  "name": "pf-t--color--gray--10",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "10"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "10"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--secondary--default": {
-        "default": {
-          "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
-          "type": "color",
-          "value": "#f2f2f2",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
-            "type": "color",
-            "value": "{global.background.color.200}"
-          },
-          "name": "pf-t--global--background--color--secondary--default",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "secondary",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "secondary",
-            "default"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#f2f2f2",
-              "filePath": "tokens/default/glass/base.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.gray.10}"
-              },
-              "name": "pf-t--global--background--color--200",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "200"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#f2f2f2",
-                  "filePath": "tokens/default/glass/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#f2f2f2"
-                  },
-                  "name": "pf-t--color--gray--10",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "10"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "10"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--secondary--hover": {
-        "default": {
-          "description": "Use as the hover state for secondary backgrounds",
-          "type": "color",
-          "value": "#e0e0e0",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the hover state for secondary backgrounds",
-            "type": "color",
-            "value": "{global.background.color.300}"
-          },
-          "name": "pf-t--global--background--color--secondary--hover",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "secondary",
-            "state": "hover"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "secondary",
-            "hover"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#e0e0e0",
-              "filePath": "tokens/default/glass/base.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.gray.20}"
-              },
-              "name": "pf-t--global--background--color--300",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "300"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "300"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#e0e0e0",
-                  "filePath": "tokens/default/glass/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#e0e0e0"
-                  },
-                  "name": "pf-t--color--gray--20",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "20"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "20"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--secondary--clicked": {
-        "default": {
-          "description": "Use as the clicked state for secondary backgrounds",
-          "type": "color",
-          "value": "#e0e0e0",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the clicked state for secondary backgrounds",
-            "type": "color",
-            "value": "{global.background.color.300}"
-          },
-          "name": "pf-t--global--background--color--secondary--clicked",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "secondary",
-            "state": "clicked"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "secondary",
-            "clicked"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#e0e0e0",
-              "filePath": "tokens/default/glass/base.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.gray.20}"
-              },
-              "name": "pf-t--global--background--color--300",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "300"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "300"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#e0e0e0",
-                  "filePath": "tokens/default/glass/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#e0e0e0"
-                  },
-                  "name": "pf-t--color--gray--20",
-                  "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "20"
-                  },
-                  "path": [
-                    "color",
-                    "gray",
-                    "20"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--background--color--tertiary--default": {
-        "default": {
-          "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
-          "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
-            "type": "color",
-            "value": "{global.background.color.600}"
-          },
-          "name": "pf-t--global--background--color--tertiary--default",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "tertiary",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "tertiary",
-            "default"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
-              "filePath": "tokens/default/glass/base.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
-              },
-              "name": "pf-t--global--background--color--600",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "600"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "600"
               ]
             }
           ]
@@ -16483,6 +16030,81 @@
                     "color",
                     "gray",
                     "10"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--sticky--default": {
+        "default": {
+          "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+            "type": "color",
+            "value": "{global.background.color.100}"
+          },
+          "name": "pf-t--global--background--color--sticky--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "sticky",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "sticky",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#ffffff",
+              "filePath": "tokens/default/glass/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.white}"
+              },
+              "name": "pf-t--global--background--color--100",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "100"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#ffffff",
+                  "filePath": "tokens/default/glass/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#ffffff"
+                  },
+                  "name": "pf-t--color--white",
+                  "attributes": {
+                    "category": "color",
+                    "type": "white"
+                  },
+                  "path": [
+                    "color",
+                    "white"
                   ]
                 }
               ]
@@ -16788,7 +16410,7 @@
         "default": {
           "description": "Use as the default background for control elements like form inputs and menu toggles.",
           "type": "color",
-          "value": "#ffffff",
+          "value": "rgba(255, 255, 255, 0.8000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16815,13 +16437,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "#ffffff",
+              "value": "rgba(255, 255, 255, 0.8000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "rgba(255, 255, 255, 0.8000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -16837,52 +16459,6 @@
                 "color",
                 "primary",
                 "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/glass/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/glass/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
-                  ]
-                }
               ]
             }
           ]
@@ -17483,60 +17059,6 @@
             "filter",
             "glass",
             "blur",
-            "floating"
-          ]
-        }
-      },
-      "pf-t--global--background--opacity--glass--primary": {
-        "default": {
-          "type": "number",
-          "value": "80%",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 80
-          },
-          "name": "pf-t--global--background--opacity--glass--primary",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "opacity",
-            "subitem": "glass",
-            "state": "primary"
-          },
-          "path": [
-            "global",
-            "background",
-            "opacity",
-            "glass",
-            "primary"
-          ]
-        }
-      },
-      "pf-t--global--background--opacity--glass--floating": {
-        "default": {
-          "type": "number",
-          "value": "100%",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 100
-          },
-          "name": "pf-t--global--background--opacity--glass--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "opacity",
-            "subitem": "glass",
-            "state": "floating"
-          },
-          "path": [
-            "global",
-            "background",
-            "opacity",
-            "glass",
             "floating"
           ]
         }
@@ -20368,7 +19890,7 @@
         "default": {
           "description": "Use as the default color for elements that convey a read status and are placed on a secondary background",
           "type": "color",
-          "value": "#ffffff",
+          "value": "rgba(255, 255, 255, 0.8000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -20395,7 +19917,7 @@
             {
               "description": "Use as the default background for control elements like form inputs and menu toggles.",
               "type": "color",
-              "value": "#ffffff",
+              "value": "rgba(255, 255, 255, 0.8000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
@@ -20422,13 +19944,13 @@
                 {
                   "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                   "type": "color",
-                  "value": "#ffffff",
+                  "value": "rgba(255, 255, 255, 0.8000)",
                   "filePath": "tokens/default/glass/semantic.glass.json",
                   "isSource": true,
                   "original": {
                     "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                     "type": "color",
-                    "value": "{global.background.color.100}"
+                    "value": "rgba(255, 255, 255, 0.8000)"
                   },
                   "name": "pf-t--global--background--color--primary--default",
                   "attributes": {
@@ -20444,52 +19966,6 @@
                     "color",
                     "primary",
                     "default"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/glass/base.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "{color.white}"
-                      },
-                      "name": "pf-t--global--background--color--100",
-                      "attributes": {
-                        "category": "global",
-                        "type": "background",
-                        "item": "color",
-                        "subitem": "100"
-                      },
-                      "path": [
-                        "global",
-                        "background",
-                        "color",
-                        "100"
-                      ],
-                      "references": [
-                        {
-                          "type": "color",
-                          "value": "#ffffff",
-                          "filePath": "tokens/default/glass/palette.color.json",
-                          "isSource": true,
-                          "original": {
-                            "type": "color",
-                            "value": "#ffffff"
-                          },
-                          "name": "pf-t--color--white",
-                          "attributes": {
-                            "category": "color",
-                            "type": "white"
-                          },
-                          "path": [
-                            "color",
-                            "white"
-                          ]
-                        }
-                      ]
-                    }
                   ]
                 }
               ]
@@ -20501,7 +19977,7 @@
         "default": {
           "description": "Use as the default color for elements that convey a read status and are placed on a primary background",
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "rgba(199, 199, 199, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -20528,13 +20004,13 @@
             {
               "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "rgba(199, 199, 199, 0.3000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
                 "type": "color",
-                "value": "{global.background.color.200}"
+                "value": "rgba(199, 199, 199, 0.3000)"
               },
               "name": "pf-t--global--background--color--secondary--default",
               "attributes": {
@@ -20550,54 +20026,6 @@
                 "color",
                 "secondary",
                 "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#f2f2f2",
-                  "filePath": "tokens/default/glass/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.gray.10}"
-                  },
-                  "name": "pf-t--global--background--color--200",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "200"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "200"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#f2f2f2",
-                      "filePath": "tokens/default/glass/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#f2f2f2"
-                      },
-                      "name": "pf-t--color--gray--10",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "10"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "10"
-                      ]
-                    }
-                  ]
-                }
               ]
             }
           ]
@@ -31660,12 +31088,12 @@
       "pf-t--global--border--color--50": {
         "default": {
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#e0e0e0",
           "filePath": "tokens/default/glass/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.10}"
+            "value": "{color.gray.20}"
           },
           "name": "pf-t--global--border--color--50",
           "attributes": {
@@ -31683,23 +31111,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#e0e0e0",
               "filePath": "tokens/default/glass/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#f2f2f2"
+                "value": "#e0e0e0"
               },
-              "name": "pf-t--color--gray--10",
+              "name": "pf-t--color--gray--20",
               "attributes": {
                 "category": "color",
                 "type": "gray",
-                "item": "10"
+                "item": "20"
               },
               "path": [
                 "color",
                 "gray",
-                "10"
+                "20"
               ]
             }
           ]
@@ -32703,12 +32131,12 @@
       "pf-t--global--color--brand--accent--300": {
         "default": {
           "type": "color",
-          "value": "#5f0000",
+          "value": "#4d4d4d",
           "filePath": "tokens/default/glass/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.red.70}"
+            "value": "{color.gray.60}"
           },
           "name": "pf-t--global--color--brand--accent--300",
           "attributes": {
@@ -32728,23 +32156,23 @@
           "references": [
             {
               "type": "color",
-              "value": "#5f0000",
+              "value": "#4d4d4d",
               "filePath": "tokens/default/glass/palette.color.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#5f0000"
+                "value": "#4d4d4d"
               },
-              "name": "pf-t--color--red--70",
+              "name": "pf-t--color--gray--60",
               "attributes": {
                 "category": "color",
-                "type": "red",
-                "item": "70"
+                "type": "gray",
+                "item": "60"
               },
               "path": [
                 "color",
-                "red",
-                "70"
+                "gray",
+                "60"
               ]
             }
           ]
@@ -38306,56 +37734,6 @@
           ]
         }
       },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/glass/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/glass/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
-          ]
-        }
-      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -38453,6 +37831,56 @@
             "font",
             "weight",
             "400"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/glass/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/glass/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
           ]
         }
       },
@@ -38947,12 +38375,12 @@
       "pf-t--global--box-shadow--X--300": {
         "default": {
           "type": "number",
-          "value": "-1px",
+          "value": "-2px",
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": -1
+            "value": -2
           },
           "name": "pf-t--global--box-shadow--X--300",
           "attributes": {
@@ -38997,12 +38425,12 @@
       "pf-t--global--box-shadow--X--500": {
         "default": {
           "type": "number",
-          "value": "1px",
+          "value": "2px",
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 1
+            "value": 2
           },
           "name": "pf-t--global--box-shadow--X--500",
           "attributes": {
@@ -39147,12 +38575,12 @@
       "pf-t--global--box-shadow--Y--200": {
         "default": {
           "type": "number",
-          "value": "-2px",
+          "value": "-4px",
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": -2
+            "value": -4
           },
           "name": "pf-t--global--box-shadow--Y--200",
           "attributes": {
@@ -39247,12 +38675,12 @@
       "pf-t--global--box-shadow--Y--600": {
         "default": {
           "type": "number",
-          "value": "2px",
+          "value": "4px",
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 2
+            "value": 4
           },
           "name": "pf-t--global--box-shadow--Y--600",
           "attributes": {
@@ -39322,12 +38750,12 @@
       "pf-t--global--box-shadow--blur--100": {
         "default": {
           "type": "number",
-          "value": "4px",
+          "value": "6px",
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 4
+            "value": 6
           },
           "name": "pf-t--global--box-shadow--blur--100",
           "attributes": {
@@ -39347,12 +38775,12 @@
       "pf-t--global--box-shadow--blur--200": {
         "default": {
           "type": "number",
-          "value": "9px",
+          "value": "10px",
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 9
+            "value": 10
           },
           "name": "pf-t--global--box-shadow--blur--200",
           "attributes": {

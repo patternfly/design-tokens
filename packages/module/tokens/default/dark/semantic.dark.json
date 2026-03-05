@@ -2,31 +2,7 @@
 {
   "global": {
     "background": {
-      "filter": {
-        "glass": {
-          "blur": {
-            "primary": {
-              "type": "number",
-              "value": 0
-            },
-            "floating": {
-              "type": "number",
-              "value": 0
-            }
-          }
-        }
-      },
       "color": {
-        "glass": {
-          "primary": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
-          }
-        },
         "primary": {
           "default": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
@@ -68,6 +44,16 @@
             "value": "{global.dark.background.color.600}"
           }
         },
+        "glass": {
+          "primary": {
+            "type": "color",
+            "value": "{global.background.color.primary.default}"
+          },
+          "floating": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
+          }
+        },
         "floating": {
           "default": {
             "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
@@ -81,6 +67,13 @@
           },
           "clicked": {
             "description": "Use as the clicked state for floating backgrounds",
+            "type": "color",
+            "value": "{global.dark.background.color.200}"
+          }
+        },
+        "sticky": {
+          "default": {
+            "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
             "type": "color",
             "value": "{global.dark.background.color.200}"
           }
@@ -124,7 +117,7 @@
           },
           "read-only": {
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.200}"
           }
         },
         "highlight": {
@@ -183,15 +176,17 @@
           }
         }
       },
-      "opacity": {
+      "filter": {
         "glass": {
-          "primary": {
-            "type": "number",
-            "value": 100
-          },
-          "floating": {
-            "type": "number",
-            "value": 100
+          "blur": {
+            "primary": {
+              "type": "number",
+              "value": 0
+            },
+            "floating": {
+              "type": "number",
+              "value": 0
+            }
           }
         }
       }
@@ -610,7 +605,7 @@
             "default": {
               "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
@@ -1954,7 +1949,7 @@
           "directional": {
             "description": "Use as the color of medium box-shadows.",
             "type": "color",
-            "value": "{global.dark.box-shadow.color.200}"
+            "value": "{global.dark.box-shadow.color.100}"
           }
         },
         "lg": {
