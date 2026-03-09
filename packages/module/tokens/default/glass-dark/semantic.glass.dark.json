@@ -2,63 +2,39 @@
 {
   "global": {
     "background": {
-      "filter": {
-        "glass": {
-          "blur": {
-            "primary": {
-              "type": "number",
-              "value": 12.5
-            },
-            "floating": {
-              "type": "number",
-              "value": 0
-            }
-          }
-        }
-      },
       "color": {
-        "glass": {
-          "primary": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
-          }
-        },
         "primary": {
           "default": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "rgba(41, 41, 41, 0.5000)"
           },
           "hover": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "rgba(56, 56, 56, 0.5000)"
           },
           "clicked": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "rgba(56, 56, 56, 0.5000)"
           }
         },
         "secondary": {
           "default": {
             "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
             "type": "color",
-            "value": "{global.dark.background.color.100}"
+            "value": "rgba(21, 21, 21, 0.6000)"
           },
           "hover": {
             "description": "Use as the hover state for secondary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "rgba(41, 41, 41, 0.6000)"
           },
           "clicked": {
             "description": "Use as the clicked state for secondary backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "rgba(41, 41, 41, 0.6000)"
           }
         },
         "tertiary": {
@@ -68,19 +44,36 @@
             "value": "{global.dark.background.color.600}"
           }
         },
+        "glass": {
+          "primary": {
+            "type": "color",
+            "value": "rgba(41, 41, 41, 0.5000)"
+          },
+          "floating": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
+          }
+        },
         "floating": {
           "default": {
             "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.200}"
           },
           "hover": {
             "description": "Use as the hover state for floating backgrounds",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.dark.background.color.300}"
           },
           "clicked": {
             "description": "Use as the clicked state for floating backgrounds",
+            "type": "color",
+            "value": "{global.dark.background.color.300}"
+          }
+        },
+        "sticky": {
+          "default": {
+            "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
             "type": "color",
             "value": "{global.dark.background.color.200}"
           }
@@ -120,11 +113,11 @@
           "default": {
             "description": "Use as the default background for control elements like form inputs and menu toggles.",
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.500}"
           },
           "read-only": {
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.500}"
           }
         },
         "highlight": {
@@ -183,15 +176,17 @@
           }
         }
       },
-      "opacity": {
+      "filter": {
         "glass": {
-          "primary": {
-            "type": "number",
-            "value": 80
-          },
-          "floating": {
-            "type": "number",
-            "value": 100
+          "blur": {
+            "primary": {
+              "type": "number",
+              "value": 12.5
+            },
+            "floating": {
+              "type": "number",
+              "value": 0
+            }
           }
         }
       }
@@ -615,12 +610,12 @@
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
               "type": "color",
-              "value": "{global.icon.color.inverse}"
+              "value": "{global.icon.color.regular}"
             }
           },
           "subtle": {
@@ -1101,7 +1096,7 @@
           },
           "read-only": {
             "type": "color",
-            "value": "{global.dark.border.color.50}"
+            "value": "{global.border.color.alt}"
           }
         },
         "brand": {
@@ -1265,7 +1260,7 @@
         "subtle": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.dark.border.color.50}"
+          "value": "{color.gray.70}"
         },
         "disabled": {
           "description": "Use as the disabled border color for elements like form inputs, menu toggles, cards, etc.",
@@ -1516,17 +1511,17 @@
             "default": {
               "description": "Use as the default color for text placed on a brand-colored background.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             },
             "hover": {
               "description": "Use as the hover state color for text placed on a brand-colored background.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text placed on a brand-colored background.",
               "type": "color",
-              "value": "{global.text.color.inverse}"
+              "value": "{global.text.color.regular}"
             }
           },
           "subtle": {
@@ -1954,7 +1949,7 @@
           "directional": {
             "description": "Use as the color of medium box-shadows.",
             "type": "color",
-            "value": "{global.dark.box-shadow.color.200}"
+            "value": "{global.dark.box-shadow.color.100}"
           }
         },
         "lg": {

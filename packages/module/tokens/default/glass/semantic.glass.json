@@ -2,63 +2,39 @@
 {
   "global": {
     "background": {
-      "filter": {
-        "glass": {
-          "blur": {
-            "primary": {
-              "type": "number",
-              "value": 12.5
-            },
-            "floating": {
-              "type": "number",
-              "value": 0
-            }
-          }
-        }
-      },
       "color": {
-        "glass": {
-          "primary": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
-          }
-        },
         "primary": {
           "default": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "{global.background.color.100}"
+            "value": "rgba(255, 255, 255, 0.8000)"
           },
           "hover": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "rgba(242, 242, 242, 0.8000)"
           },
           "clicked": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "rgba(242, 242, 242, 0.8000)"
           }
         },
         "secondary": {
           "default": {
             "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
             "type": "color",
-            "value": "{global.background.color.200}"
+            "value": "rgba(199, 199, 199, 0.3000)"
           },
           "hover": {
             "description": "Use as the hover state for secondary backgrounds",
             "type": "color",
-            "value": "{global.background.color.300}"
+            "value": "rgba(163, 163, 163, 0.3000)"
           },
           "clicked": {
             "description": "Use as the clicked state for secondary backgrounds",
             "type": "color",
-            "value": "{global.background.color.300}"
+            "value": "rgba(163, 163, 163, 0.3000)"
           }
         },
         "tertiary": {
@@ -66,6 +42,16 @@
             "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
             "type": "color",
             "value": "{global.background.color.600}"
+          }
+        },
+        "glass": {
+          "primary": {
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.5000)"
+          },
+          "floating": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
           }
         },
         "floating": {
@@ -83,6 +69,13 @@
             "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
             "value": "{global.background.color.200}"
+          }
+        },
+        "sticky": {
+          "default": {
+            "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+            "type": "color",
+            "value": "{global.background.color.100}"
           }
         },
         "action": {
@@ -183,15 +176,17 @@
           }
         }
       },
-      "opacity": {
+      "filter": {
         "glass": {
-          "primary": {
-            "type": "number",
-            "value": 80
-          },
-          "floating": {
-            "type": "number",
-            "value": 100
+          "blur": {
+            "primary": {
+              "type": "number",
+              "value": 12.5
+            },
+            "floating": {
+              "type": "number",
+              "value": 0
+            }
           }
         }
       }
