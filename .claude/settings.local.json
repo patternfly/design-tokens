@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(grep -E \"tokens.*\\\\.\\(json\\)$\")",
-      "Bash(node ./cli.js -s '@mixin pf-v6-tokens')"
-    ]
-  }
-}
