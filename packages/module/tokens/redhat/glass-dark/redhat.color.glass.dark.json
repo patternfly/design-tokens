@@ -1,27 +1,6 @@
 
 {
   "global": {
-    "color": {
-      "brand": {
-        "accent": {
-          "hover": {
-            "description": "Use as the hover state for elements that have a branded background color",
-            "type": "color",
-            "value": "{global.dark.color.brand.accent.200}"
-          },
-          "default": {
-            "description": "Use this color for elements that you want to reinforce your brand",
-            "type": "color",
-            "value": "{global.dark.color.brand.accent.100}"
-          },
-          "clicked": {
-            "description": "Use as the clicked state for elements that have a brand background color",
-            "type": "color",
-            "value": "{global.dark.color.brand.accent.200}"
-          }
-        }
-      }
-    },
     "border": {
       "color": {
         "brand": {
@@ -31,13 +10,13 @@
               "type": "color",
               "value": "{global.dark.color.brand.accent.400}"
             },
-            "hover": {
-              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "clicked": {
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.dark.color.brand.accent.400}"
             },
-            "clicked": {
-              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "hover": {
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.dark.color.brand.accent.400}"
             }
@@ -68,22 +47,29 @@
         }
       }
     },
+    "color": {
+      "brand": {
+        "accent": {
+          "default": {
+            "description": "Use this color for elements that you want to reinforce your brand",
+            "type": "color",
+            "value": "{global.dark.color.brand.accent.100}"
+          },
+          "hover": {
+            "description": "Use as the hover state for elements that have a branded background color",
+            "type": "color",
+            "value": "{global.dark.color.brand.accent.200}"
+          },
+          "clicked": {
+            "description": "Use as the clicked state for elements that have a brand background color",
+            "type": "color",
+            "value": "{global.dark.color.brand.accent.200}"
+          }
+        }
+      }
+    },
     "icon": {
       "color": {
-        "on-brand": {
-          "accent": {
-            "hover": {
-              "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
-              "type": "color",
-              "value": "{global.icon.color.regular}"
-            },
-            "clicked": {
-              "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
-              "type": "color",
-              "value": "{global.icon.color.regular}"
-            }
-          }
-        },
         "brand": {
           "accent": {
             "clicked": {
@@ -95,6 +81,20 @@
               "description": "Use as the hover state color for icons that convey your brand and/or are paired with branded text color.",
               "type": "color",
               "value": "{global.dark.color.brand.accent.300}"
+            }
+          }
+        },
+        "on-brand": {
+          "accent": {
+            "hover": {
+              "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.regular}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
+              "type": "color",
+              "value": "{global.icon.color.regular}"
             }
           }
         }

@@ -46,12 +46,16 @@
         },
         "glass": {
           "primary": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.5000)"
+            "default": {
+              "type": "color",
+              "value": "rgba(255, 255, 255, 0.5000)"
+            }
           },
           "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.floating.default}"
+            }
           }
         },
         "floating": {
@@ -69,6 +73,12 @@
             "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
             "value": "{global.background.color.200}"
+          },
+          "secondary": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.floating.default}"
+            }
           }
         },
         "sticky": {
@@ -99,12 +109,12 @@
               "hover": {
                 "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "{global.background.color.action.plain.hover}"
               },
               "clicked": {
                 "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "{global.background.color.action.plain.clicked}"
               }
             }
           }
@@ -1277,6 +1287,12 @@
           "type": "color",
           "value": "{global.border.color.300}"
         },
+        "glass": {
+          "default": {
+            "type": "color",
+            "value": "{global.border.color.alt}"
+          }
+        },
         "nonstatus": {
           "red": {
             "default": {
@@ -1966,15 +1982,6 @@
         }
       }
     },
-    "focus-ring": {
-      "color": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "{global.focus-ring.color.100}"
-        }
-      }
-    },
     "text-decoration": {
       "color": {
         "default": {
@@ -1984,6 +1991,15 @@
         "hover": {
           "type": "color",
           "value": "{global.border.color.hover}"
+        }
+      }
+    },
+    "focus-ring": {
+      "color": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "{global.focus-ring.color.100}"
         }
       }
     }

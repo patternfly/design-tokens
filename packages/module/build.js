@@ -27,6 +27,7 @@ const getTheme = ({ filePath }) => /tokens\/([^\/]*)\//gm.exec(filePath)[1];
 
 const build = (selector) => {
   const { fileHeader, formattedVariables, sortByName } = StyleDictionary.formatHelpers;
+  const buildPath = path.join(__dirname, 'build/css');
 
   console.log('Build started...');
   console.log('\n============================');
@@ -168,6 +169,11 @@ const build = (selector) => {
   const darkExtendedSD = StyleDictionary.extend(__dirname + '/config.dark.json');
   darkExtendedSD.buildAllPlatforms();
 
+  // Set glass tokens to initial in base themes
+  console.log('Setting glass tokens to initial in base themes...');
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-default.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-dark.scss'));
+
   // Step 2: Build other non-glass themes (order doesn't matter)
   console.log('Building other themes...');
   const paletteExtendedSD = StyleDictionary.extend(__dirname + '/config.palette-colors.json');
@@ -184,6 +190,11 @@ const build = (selector) => {
 
   const highContrastDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.highcontrast.dark.json');
   highContrastDarkExtendedSD.buildAllPlatforms();
+
+  // Set glass tokens to initial in highcontrast themes
+  console.log('Setting glass tokens to initial in highcontrast themes...');
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-highcontrast.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-highcontrast-dark.scss'));
 
   const layersSD = StyleDictionary.extend(__dirname + '/config.layers.json');
   layersSD.buildAllPlatforms();
@@ -234,7 +245,6 @@ const build = (selector) => {
 
   // Step 4: Remove duplicate variables from glass SCSS files
   console.log('Removing duplicate variables from glass themes...');
-  const buildPath = path.join(__dirname, 'build/css');
   removeDuplicateVariables(
     path.join(buildPath, 'tokens-default.scss'),
     path.join(buildPath, 'tokens-glass.scss')
@@ -263,6 +273,13 @@ const build = (selector) => {
 
   const redhatHighContrastDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.redhat-highcontrast-dark.json');
   redhatHighContrastDarkExtendedSD.buildAllPlatforms();
+
+  // Set glass tokens to initial in redhat non-glass themes
+  console.log('Setting glass tokens to initial in redhat themes...');
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat-dark.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat-highcontrast.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat-highcontrast-dark.scss'));
 
   // Step 6: Remove duplicate variables from redhat SCSS files
   console.log('Removing duplicate variables from redhat themes...');
@@ -359,6 +376,32 @@ function removeDuplicateVariables(baseFilePath, glassFilePath) {
   fs.writeFileSync(glassFilePath, newContent, 'utf8');
 
   console.log(`Removed ${removedCount} duplicate variables from ${path.basename(glassFilePath)}`);
+}
+
+/**
+ * Set all glass token values to 'initial' in non-glass SCSS files
+ * @param {string} scssFilePath - Path to non-glass SCSS file (e.g., tokens-default.scss)
+ */
+function setGlassTokensToInitial(scssFilePath) {
+  const content = fs.readFileSync(scssFilePath, 'utf8');
+
+  // Match CSS variable declarations with "glass" in the name
+  // Pattern: --pf-t--global--..--glass--...: <any-value>;
+  const glassVarRegex = /(--pf-t--[^:]*--glass--[^:]+):\s*[^;]+;/g;
+
+  let modifiedContent = content;
+  let replacementCount = 0;
+
+  // Replace all glass token values with 'initial'
+  modifiedContent = content.replace(glassVarRegex, (_match, varName) => {
+    replacementCount++;
+    return `${varName}: initial;`;
+  });
+
+  // Write back to file
+  fs.writeFileSync(scssFilePath, modifiedContent, 'utf8');
+
+  console.log(`Set ${replacementCount} glass token values to 'initial' in ${path.basename(scssFilePath)}`);
 }
 
 module.exports = { build };

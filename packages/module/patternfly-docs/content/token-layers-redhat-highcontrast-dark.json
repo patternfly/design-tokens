@@ -502,7 +502,7 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass--primary": {
+      "pf-t--global--background--color--glass--primary--default": {
         "default": {
           "type": "color",
           "value": "#000000",
@@ -512,7 +512,7 @@
             "type": "color",
             "value": "{global.background.color.primary.default}"
           },
-          "name": "pf-t--global--background--color--glass--primary",
+          "name": "pf-t--global--background--color--glass--primary--default",
           "attributes": {
             "category": "global",
             "type": "background",
@@ -525,7 +525,8 @@
             "background",
             "color",
             "glass",
-            "primary"
+            "primary",
+            "default"
           ],
           "references": [
             {
@@ -579,7 +580,7 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass--floating": {
+      "pf-t--global--background--color--glass--floating--default": {
         "default": {
           "type": "color",
           "value": "#292929",
@@ -589,7 +590,7 @@
             "type": "color",
             "value": "{global.background.color.floating.default}"
           },
-          "name": "pf-t--global--background--color--glass--floating",
+          "name": "pf-t--global--background--color--glass--floating--default",
           "attributes": {
             "category": "global",
             "type": "background",
@@ -602,7 +603,8 @@
             "background",
             "color",
             "glass",
-            "floating"
+            "floating",
+            "default"
           ],
           "references": [
             {
@@ -915,6 +917,113 @@
                     "color",
                     "gray",
                     "70"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--background--color--floating--secondary--default": {
+        "default": {
+          "type": "color",
+          "value": "#151515",
+          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.secondary.default}"
+          },
+          "name": "pf-t--global--background--color--floating--secondary--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "floating",
+            "state": "secondary"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "floating",
+            "secondary",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
+              "type": "color",
+              "value": "#151515",
+              "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
+                "type": "color",
+                "value": "{global.dark.background.color.100}"
+              },
+              "name": "pf-t--global--background--color--secondary--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "secondary",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "secondary",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#151515",
+                  "filePath": "tokens/default/highcontrast-dark/base.dark.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.95}"
+                  },
+                  "name": "pf-t--global--dark--background--color--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "dark",
+                    "item": "background",
+                    "subitem": "color",
+                    "state": "100"
+                  },
+                  "path": [
+                    "global",
+                    "dark",
+                    "background",
+                    "color",
+                    "100"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#151515",
+                      "filePath": "tokens/default/highcontrast-dark/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#151515"
+                      },
+                      "name": "pf-t--color--gray--95",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "95"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "95"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -19601,6 +19710,110 @@
           ]
         }
       },
+      "pf-t--global--border--color--glass--default": {
+        "default": {
+          "type": "color",
+          "value": "#c7c7c7",
+          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.border.color.subtle}"
+          },
+          "name": "pf-t--global--border--color--glass--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "glass",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "glass",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+              "type": "color",
+              "value": "#c7c7c7",
+              "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+                "type": "color",
+                "value": "{global.dark.border.color.300}"
+              },
+              "name": "pf-t--global--border--color--subtle",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "color",
+                "subitem": "subtle"
+              },
+              "path": [
+                "global",
+                "border",
+                "color",
+                "subtle"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#c7c7c7",
+                  "filePath": "tokens/default/highcontrast-dark/base.dark.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.30}"
+                  },
+                  "name": "pf-t--global--dark--border--color--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "dark",
+                    "item": "border",
+                    "subitem": "color",
+                    "state": "300"
+                  },
+                  "path": [
+                    "global",
+                    "dark",
+                    "border",
+                    "color",
+                    "300"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#c7c7c7",
+                      "filePath": "tokens/default/highcontrast-dark/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#c7c7c7"
+                      },
+                      "name": "pf-t--color--gray--30",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "30"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "30"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--border--color--nonstatus--red--default": {
         "default": {
           "description": "Use as the default border color for any element that does not convey status and that you always will want to be red (i.e. color-coded labels, banners, etc.)",
@@ -30987,83 +31200,6 @@
           ]
         }
       },
-      "pf-t--global--focus-ring--color--default": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "#92c5f9",
-          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as color value for custom focus rings",
-            "type": "color",
-            "value": "{global.dark.focus-ring.color.100}"
-          },
-          "name": "pf-t--global--focus-ring--color--default",
-          "attributes": {
-            "category": "global",
-            "type": "focus-ring",
-            "item": "color",
-            "subitem": "default"
-          },
-          "path": [
-            "global",
-            "focus-ring",
-            "color",
-            "default"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#92c5f9",
-              "filePath": "tokens/default/highcontrast-dark/base.dark.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{color.blue.30}"
-              },
-              "name": "pf-t--global--dark--focus-ring--color--100",
-              "attributes": {
-                "category": "global",
-                "type": "dark",
-                "item": "focus-ring",
-                "subitem": "color",
-                "state": "100"
-              },
-              "path": [
-                "global",
-                "dark",
-                "focus-ring",
-                "color",
-                "100"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#92c5f9",
-                  "filePath": "tokens/default/highcontrast-dark/palette.color.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "#92c5f9"
-                  },
-                  "name": "pf-t--color--blue--30",
-                  "attributes": {
-                    "category": "color",
-                    "type": "blue",
-                    "item": "30"
-                  },
-                  "path": [
-                    "color",
-                    "blue",
-                    "30"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--text-decoration--color--default": {
         "default": {
           "type": "color",
@@ -31261,6 +31397,83 @@
                         "30"
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--focus-ring--color--default": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "#92c5f9",
+          "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as color value for custom focus rings",
+            "type": "color",
+            "value": "{global.dark.focus-ring.color.100}"
+          },
+          "name": "pf-t--global--focus-ring--color--default",
+          "attributes": {
+            "category": "global",
+            "type": "focus-ring",
+            "item": "color",
+            "subitem": "default"
+          },
+          "path": [
+            "global",
+            "focus-ring",
+            "color",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#92c5f9",
+              "filePath": "tokens/default/highcontrast-dark/base.dark.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{color.blue.30}"
+              },
+              "name": "pf-t--global--dark--focus-ring--color--100",
+              "attributes": {
+                "category": "global",
+                "type": "dark",
+                "item": "focus-ring",
+                "subitem": "color",
+                "state": "100"
+              },
+              "path": [
+                "global",
+                "dark",
+                "focus-ring",
+                "color",
+                "100"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#92c5f9",
+                  "filePath": "tokens/default/highcontrast-dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#92c5f9"
+                  },
+                  "name": "pf-t--color--blue--30",
+                  "attributes": {
+                    "category": "color",
+                    "type": "blue",
+                    "item": "30"
+                  },
+                  "path": [
+                    "color",
+                    "blue",
+                    "30"
                   ]
                 }
               ]
