@@ -50,12 +50,6 @@
               "type": "color",
               "value": "rgba(41, 41, 41, 0.5000)"
             }
-          },
-          "floating": {
-            "default": {
-              "type": "color",
-              "value": "{global.background.color.floating.default}"
-            }
           }
         },
         "floating": {
@@ -200,10 +194,6 @@
             "primary": {
               "type": "number",
               "value": 16
-            },
-            "floating": {
-              "type": "number",
-              "value": 0
             }
           }
         }

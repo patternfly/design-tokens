@@ -1,13 +1,12 @@
 
 // Do not edit directly
-// Generated on Wed, 11 Mar 2026 20:34:58 GMT
+// Generated on Wed, 11 Mar 2026 20:53:31 GMT
 
 @mixin pf-v6-tokens {
   --pf-t--global--background--color--500: rgba(21, 21, 21, 0.4000);
   --pf-t--global--background--color--600: rgba(199, 199, 199, 0.2500);
   --pf-t--global--background--color--700: rgba(199, 199, 199, 0.1000);
   --pf-t--global--background--color--action--plain--default: rgba(255, 255, 255, 0.0000);
-  --pf-t--global--background--filter--glass--blur--floating: initial;
   --pf-t--global--background--filter--glass--blur--primary: initial;
   --pf-t--global--border--color--high-contrast: rgba(255, 255, 255, 0.0000);
   --pf-t--global--border--radius--0: 0px;
@@ -602,7 +601,6 @@
   --pf-t--global--text-decoration--width--hover: var(--pf-t--global--border--width--strong);
   --pf-t--global--background--color--control--default: var(--pf-t--global--background--color--primary--default);
   --pf-t--global--background--color--floating--secondary--default: var(--pf-t--global--background--color--secondary--default);
-  --pf-t--global--background--color--glass--floating--default: initial;
   --pf-t--global--background--color--glass--primary--default: initial;
   --pf-t--global--border--color--alt: var(--pf-t--global--background--color--primary--default);
   --pf-t--global--border--color--brand--clicked: var(--pf-t--global--color--brand--clicked);

@@ -15313,109 +15313,6 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass--floating--default": {
-        "default": {
-          "type": "color",
-          "value": "#ffffff",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
-          },
-          "name": "pf-t--global--background--color--glass--floating--default",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "glass",
-            "state": "floating"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "glass",
-            "floating",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
-              "type": "color",
-              "value": "#ffffff",
-              "filePath": "tokens/default/glass/semantic.glass.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
-                "type": "color",
-                "value": "{global.background.color.100}"
-              },
-              "name": "pf-t--global--background--color--floating--default",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "floating",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "floating",
-                "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#ffffff",
-                  "filePath": "tokens/default/glass/base.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.white}"
-                  },
-                  "name": "pf-t--global--background--color--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "background",
-                    "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#ffffff",
-                      "filePath": "tokens/default/glass/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#ffffff"
-                      },
-                      "name": "pf-t--color--white",
-                      "attributes": {
-                        "category": "color",
-                        "type": "white"
-                      },
-                      "path": [
-                        "color",
-                        "white"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--background--color--floating--default": {
         "default": {
           "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
@@ -16814,34 +16711,6 @@
             "glass",
             "blur",
             "primary"
-          ]
-        }
-      },
-      "pf-t--global--background--filter--glass--blur--floating": {
-        "default": {
-          "type": "number",
-          "value": "blur(0px)",
-          "filePath": "tokens/default/glass/semantic.glass.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--background--filter--glass--blur--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "filter",
-            "subitem": "glass",
-            "state": "blur"
-          },
-          "path": [
-            "global",
-            "background",
-            "filter",
-            "glass",
-            "blur",
-            "floating"
           ]
         }
       },
@@ -43714,12 +43583,12 @@
     "pf-t--global--border--width--high-contrast--regular": {
       "default": {
         "type": "number",
-        "value": "1px",
+        "value": "0px",
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
           "type": "number",
-          "value": "{global.border.width.regular}"
+          "value": 0
         },
         "name": "pf-t--global--border--width--high-contrast--regular",
         "attributes": {
@@ -43735,70 +43604,18 @@
           "width",
           "high-contrast",
           "regular"
-        ],
-        "references": [
-          {
-            "description": "Use as the default border width for elements.",
-            "type": "number",
-            "value": "1px",
-            "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-            "isSource": true,
-            "original": {
-              "description": "Use as the default border width for elements.",
-              "type": "number",
-              "value": "{global.border.width.100}"
-            },
-            "name": "pf-t--global--border--width--regular",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "width",
-              "subitem": "regular"
-            },
-            "path": [
-              "global",
-              "border",
-              "width",
-              "regular"
-            ],
-            "references": [
-              {
-                "type": "number",
-                "value": "1px",
-                "filePath": "tokens/default/glass/base.dimension.json",
-                "isSource": true,
-                "original": {
-                  "type": "number",
-                  "value": 1
-                },
-                "name": "pf-t--global--border--width--100",
-                "attributes": {
-                  "category": "global",
-                  "type": "border",
-                  "item": "width",
-                  "subitem": "100"
-                },
-                "path": [
-                  "global",
-                  "border",
-                  "width",
-                  "100"
-                ]
-              }
-            ]
-          }
         ]
       }
     },
     "pf-t--global--border--width--high-contrast--strong": {
       "default": {
         "type": "number",
-        "value": "2px",
+        "value": "0px",
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
           "type": "number",
-          "value": "{global.border.width.strong}"
+          "value": 0
         },
         "name": "pf-t--global--border--width--high-contrast--strong",
         "attributes": {
@@ -43814,70 +43631,18 @@
           "width",
           "high-contrast",
           "strong"
-        ],
-        "references": [
-          {
-            "description": "Use as a stronger/wider border width for elements.",
-            "type": "number",
-            "value": "2px",
-            "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-            "isSource": true,
-            "original": {
-              "description": "Use as a stronger/wider border width for elements.",
-              "type": "number",
-              "value": "{global.border.width.200}"
-            },
-            "name": "pf-t--global--border--width--strong",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "width",
-              "subitem": "strong"
-            },
-            "path": [
-              "global",
-              "border",
-              "width",
-              "strong"
-            ],
-            "references": [
-              {
-                "type": "number",
-                "value": "2px",
-                "filePath": "tokens/default/glass/base.dimension.json",
-                "isSource": true,
-                "original": {
-                  "type": "number",
-                  "value": 2
-                },
-                "name": "pf-t--global--border--width--200",
-                "attributes": {
-                  "category": "global",
-                  "type": "border",
-                  "item": "width",
-                  "subitem": "200"
-                },
-                "path": [
-                  "global",
-                  "border",
-                  "width",
-                  "200"
-                ]
-              }
-            ]
-          }
         ]
       }
     },
     "pf-t--global--border--width--high-contrast--extra-strong": {
       "default": {
         "type": "number",
-        "value": "3px",
+        "value": "0px",
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
           "type": "number",
-          "value": "{global.border.width.extra-strong}"
+          "value": 0
         },
         "name": "pf-t--global--border--width--high-contrast--extra-strong",
         "attributes": {
@@ -43893,58 +43658,6 @@
           "width",
           "high-contrast",
           "extra-strong"
-        ],
-        "references": [
-          {
-            "description": "Use as the strongest/widest border width for elements.",
-            "type": "number",
-            "value": "3px",
-            "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-            "isSource": true,
-            "original": {
-              "description": "Use as the strongest/widest border width for elements.",
-              "type": "number",
-              "value": "{global.border.width.300}"
-            },
-            "name": "pf-t--global--border--width--extra-strong",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "width",
-              "subitem": "extra-strong"
-            },
-            "path": [
-              "global",
-              "border",
-              "width",
-              "extra-strong"
-            ],
-            "references": [
-              {
-                "type": "number",
-                "value": "3px",
-                "filePath": "tokens/default/glass/base.dimension.json",
-                "isSource": true,
-                "original": {
-                  "type": "number",
-                  "value": 3
-                },
-                "name": "pf-t--global--border--width--300",
-                "attributes": {
-                  "category": "global",
-                  "type": "border",
-                  "item": "width",
-                  "subitem": "300"
-                },
-                "path": [
-                  "global",
-                  "border",
-                  "width",
-                  "300"
-                ]
-              }
-            ]
-          }
         ]
       }
     },
@@ -44088,13 +43801,13 @@
       "default": {
         "description": "Use as the border width for plain actions in their hover state",
         "type": "number",
-        "value": "1px",
+        "value": "0px",
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
           "description": "Use as the border width for plain actions in their hover state",
           "type": "number",
-          "value": "{global.border.width.100}"
+          "value": 0
         },
         "name": "pf-t--global--border--width--action--plain--hover",
         "attributes": {
@@ -44111,31 +43824,6 @@
           "action",
           "plain",
           "hover"
-        ],
-        "references": [
-          {
-            "type": "number",
-            "value": "1px",
-            "filePath": "tokens/default/glass/base.dimension.json",
-            "isSource": true,
-            "original": {
-              "type": "number",
-              "value": 1
-            },
-            "name": "pf-t--global--border--width--100",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "width",
-              "subitem": "100"
-            },
-            "path": [
-              "global",
-              "border",
-              "width",
-              "100"
-            ]
-          }
         ]
       }
     },
@@ -44143,13 +43831,13 @@
       "default": {
         "description": "Use as the border width for plain actions in their clicked state",
         "type": "number",
-        "value": "2px",
+        "value": "0px",
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
           "description": "Use as the border width for plain actions in their clicked state",
           "type": "number",
-          "value": "{global.border.width.200}"
+          "value": 0
         },
         "name": "pf-t--global--border--width--action--plain--clicked",
         "attributes": {
@@ -44166,31 +43854,6 @@
           "action",
           "plain",
           "clicked"
-        ],
-        "references": [
-          {
-            "type": "number",
-            "value": "2px",
-            "filePath": "tokens/default/glass/base.dimension.json",
-            "isSource": true,
-            "original": {
-              "type": "number",
-              "value": 2
-            },
-            "name": "pf-t--global--border--width--200",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "width",
-              "subitem": "200"
-            },
-            "path": [
-              "global",
-              "border",
-              "width",
-              "200"
-            ]
-          }
         ]
       }
     },
@@ -44360,13 +44023,13 @@
       "default": {
         "description": "Use as the hover state border width for controls like text inputs, menu toggles and control buttons",
         "type": "number",
-        "value": "2px",
+        "value": "1px",
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
           "description": "Use as the hover state border width for controls like text inputs, menu toggles and control buttons",
           "type": "number",
-          "value": "{global.border.width.200}"
+          "value": "{global.border.width.100}"
         },
         "name": "pf-t--global--border--width--control--hover",
         "attributes": {
@@ -44386,25 +44049,25 @@
         "references": [
           {
             "type": "number",
-            "value": "2px",
+            "value": "1px",
             "filePath": "tokens/default/glass/base.dimension.json",
             "isSource": true,
             "original": {
               "type": "number",
-              "value": 2
+              "value": 1
             },
-            "name": "pf-t--global--border--width--200",
+            "name": "pf-t--global--border--width--100",
             "attributes": {
               "category": "global",
               "type": "border",
               "item": "width",
-              "subitem": "200"
+              "subitem": "100"
             },
             "path": [
               "global",
               "border",
               "width",
-              "200"
+              "100"
             ]
           }
         ]

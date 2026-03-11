@@ -50,12 +50,6 @@
               "type": "color",
               "value": "{global.background.color.primary.default}"
             }
-          },
-          "floating": {
-            "default": {
-              "type": "color",
-              "value": "{global.background.color.floating.default}"
-            }
           }
         },
         "floating": {
@@ -198,10 +192,6 @@
         "glass": {
           "blur": {
             "primary": {
-              "type": "number",
-              "value": 0
-            },
-            "floating": {
               "type": "number",
               "value": 0
             }
