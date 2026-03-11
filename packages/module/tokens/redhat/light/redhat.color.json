@@ -1,29 +1,6 @@
 
 {
   "global": {
-    "border": {
-      "color": {
-        "brand": {
-          "accent": {
-            "default": {
-              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
-              "type": "color",
-              "value": "{global.color.brand.accent.400}"
-            },
-            "clicked": {
-              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
-              "type": "color",
-              "value": "{global.color.brand.accent.400}"
-            },
-            "hover": {
-              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
-              "type": "color",
-              "value": "{global.color.brand.accent.400}"
-            }
-          }
-        }
-      }
-    },
     "color": {
       "brand": {
         "accent": {
@@ -41,6 +18,29 @@
             "description": "Use as the clicked state for elements that have a brand background color",
             "type": "color",
             "value": "{global.color.brand.accent.200}"
+          }
+        }
+      }
+    },
+    "border": {
+      "color": {
+        "brand": {
+          "accent": {
+            "default": {
+              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.accent.400}"
+            },
+            "hover": {
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.accent.400}"
+            },
+            "clicked": {
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+              "type": "color",
+              "value": "{global.color.brand.accent.400}"
+            }
           }
         }
       }

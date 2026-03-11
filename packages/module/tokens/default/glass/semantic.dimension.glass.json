@@ -33,6 +33,12 @@
           "type": "number",
           "value": "{global.border.radius.500}"
         },
+        "glass": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.medium}"
+          }
+        },
         "control": {
           "default": {
             "type": "number",
@@ -41,12 +47,6 @@
           "form-element": {
             "type": "number",
             "value": "{global.border.radius.small}"
-          }
-        },
-        "glass": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.radius.medium}"
           }
         },
         "action": {
@@ -63,6 +63,11 @@
         }
       },
       "width": {
+        "regular": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
         "divider": {
           "default": {
             "description": "Use as the default border width for dividers.",
@@ -79,11 +84,6 @@
             "type": "number",
             "value": "{global.border.width.100}"
           }
-        },
-        "regular": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.100}"
         },
         "strong": {
           "description": "Use as a stronger/wider border width for elements.",
@@ -531,6 +531,18 @@
       }
     },
     "font": {
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
+        }
+      },
       "weight": {
         "body": {
           "default": {
@@ -555,18 +567,6 @@
             "type": "number",
             "value": "{global.font.weight.400}"
           }
-        }
-      },
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
         }
       },
       "family": {

@@ -12426,7 +12426,7 @@
         "default": {
           "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "rgba(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -12451,13 +12451,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.8000)",
+              "value": "rgba(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "rgba(255, 255, 255, 0.8000)"
+                "value": "rgba(255, 255, 255, 0.6000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -12556,7 +12556,7 @@
       "pf-t--global--border--color--glass--default": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "rgba(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -12582,7 +12582,7 @@
             {
               "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.8000)",
+              "value": "rgba(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
@@ -12607,13 +12607,13 @@
                 {
                   "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                   "type": "color",
-                  "value": "rgba(255, 255, 255, 0.8000)",
+                  "value": "rgba(255, 255, 255, 0.6000)",
                   "filePath": "tokens/default/glass/semantic.glass.json",
                   "isSource": true,
                   "original": {
                     "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                     "type": "color",
-                    "value": "rgba(255, 255, 255, 0.8000)"
+                    "value": "rgba(255, 255, 255, 0.6000)"
                   },
                   "name": "pf-t--global--background--color--primary--default",
                   "attributes": {
@@ -14799,7 +14799,7 @@
       "pf-t--global--border--color--main--default": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "rgba(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -14825,13 +14825,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.8000)",
+              "value": "rgba(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "rgba(255, 255, 255, 0.8000)"
+                "value": "rgba(255, 255, 255, 0.6000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -15538,13 +15538,13 @@
         "default": {
           "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "rgba(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.8000)"
+            "value": "rgba(255, 255, 255, 0.6000)"
           },
           "name": "pf-t--global--background--color--primary--default",
           "attributes": {
@@ -15567,13 +15567,13 @@
         "default": {
           "description": "Use as the hover state for primary backgrounds",
           "type": "color",
-          "value": "rgba(242, 242, 242, 0.8000)",
+          "value": "rgba(199, 199, 199, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "rgba(242, 242, 242, 0.8000)"
+            "value": "rgba(199, 199, 199, 0.3000)"
           },
           "name": "pf-t--global--background--color--primary--hover",
           "attributes": {
@@ -15596,13 +15596,13 @@
         "default": {
           "description": "Use as the clicked state for primary backgrounds",
           "type": "color",
-          "value": "rgba(242, 242, 242, 0.8000)",
+          "value": "rgba(199, 199, 199, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "rgba(242, 242, 242, 0.8000)"
+            "value": "rgba(199, 199, 199, 0.3000)"
           },
           "name": "pf-t--global--background--color--primary--clicked",
           "attributes": {
@@ -16616,7 +16616,7 @@
         "default": {
           "description": "Use as the default background for control elements like form inputs and menu toggles.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "rgba(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16643,13 +16643,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.8000)",
+              "value": "rgba(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "rgba(255, 255, 255, 0.8000)"
+                "value": "rgba(255, 255, 255, 0.6000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -17107,6 +17107,59 @@
           ]
         }
       },
+      "pf-t--global--background--color--striped--row--default": {
+        "default": {
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.1000)",
+          "filePath": "tokens/default/glass/semantic.glass.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.700}"
+          },
+          "name": "pf-t--global--background--color--striped--row--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "striped",
+            "state": "row"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "striped",
+            "row",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(199, 199, 199, 0.1000)",
+              "filePath": "tokens/default/glass/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(199, 199, 199, 0.1000)"
+              },
+              "name": "pf-t--global--background--color--700",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "700"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "700"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--background--color--loading--skeleton--default": {
         "default": {
           "type": "color",
@@ -17216,12 +17269,12 @@
       "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
-          "value": "blur(12.5px)",
+          "value": "blur(16px)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 12.5
+            "value": 16
           },
           "name": "pf-t--global--background--filter--glass--blur--primary",
           "attributes": {
@@ -20096,7 +20149,7 @@
         "default": {
           "description": "Use as the default color for elements that convey a read status and are placed on a secondary background",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.8000)",
+          "value": "rgba(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -20123,7 +20176,7 @@
             {
               "description": "Use as the default background for control elements like form inputs and menu toggles.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.8000)",
+              "value": "rgba(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
@@ -20150,13 +20203,13 @@
                 {
                   "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                   "type": "color",
-                  "value": "rgba(255, 255, 255, 0.8000)",
+                  "value": "rgba(255, 255, 255, 0.6000)",
                   "filePath": "tokens/default/glass/semantic.glass.json",
                   "isSource": true,
                   "original": {
                     "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                     "type": "color",
-                    "value": "rgba(255, 255, 255, 0.8000)"
+                    "value": "rgba(255, 255, 255, 0.6000)"
                   },
                   "name": "pf-t--global--background--color--primary--default",
                   "attributes": {
@@ -43778,6 +43831,58 @@
         ]
       }
     },
+    "pf-t--global--border--width--regular": {
+      "default": {
+        "description": "Use as the default border width for elements.",
+        "type": "number",
+        "value": "1px",
+        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
+        "isSource": true,
+        "original": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
+        "name": "pf-t--global--border--width--regular",
+        "attributes": {
+          "category": "global",
+          "type": "border",
+          "item": "width",
+          "subitem": "regular"
+        },
+        "path": [
+          "global",
+          "border",
+          "width",
+          "regular"
+        ],
+        "references": [
+          {
+            "type": "number",
+            "value": "1px",
+            "filePath": "tokens/default/glass/base.dimension.json",
+            "isSource": true,
+            "original": {
+              "type": "number",
+              "value": 1
+            },
+            "name": "pf-t--global--border--width--100",
+            "attributes": {
+              "category": "global",
+              "type": "border",
+              "item": "width",
+              "subitem": "100"
+            },
+            "path": [
+              "global",
+              "border",
+              "width",
+              "100"
+            ]
+          }
+        ]
+      }
+    },
     "pf-t--global--border--width--divider--default": {
       "default": {
         "description": "Use as the default border width for dividers.",
@@ -43912,58 +44017,6 @@
           "width",
           "divider",
           "clicked"
-        ],
-        "references": [
-          {
-            "type": "number",
-            "value": "1px",
-            "filePath": "tokens/default/glass/base.dimension.json",
-            "isSource": true,
-            "original": {
-              "type": "number",
-              "value": 1
-            },
-            "name": "pf-t--global--border--width--100",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "width",
-              "subitem": "100"
-            },
-            "path": [
-              "global",
-              "border",
-              "width",
-              "100"
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--global--border--width--regular": {
-      "default": {
-        "description": "Use as the default border width for elements.",
-        "type": "number",
-        "value": "1px",
-        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-        "isSource": true,
-        "original": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.100}"
-        },
-        "name": "pf-t--global--border--width--regular",
-        "attributes": {
-          "category": "global",
-          "type": "border",
-          "item": "width",
-          "subitem": "regular"
-        },
-        "path": [
-          "global",
-          "border",
-          "width",
-          "regular"
         ],
         "references": [
           {
@@ -45512,6 +45565,85 @@
         ]
       }
     },
+    "pf-t--global--border--radius--glass--default": {
+      "default": {
+        "type": "number",
+        "value": "16px",
+        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": "{global.border.radius.medium}"
+        },
+        "name": "pf-t--global--border--radius--glass--default",
+        "attributes": {
+          "category": "global",
+          "type": "border",
+          "item": "radius",
+          "subitem": "glass",
+          "state": "default"
+        },
+        "path": [
+          "global",
+          "border",
+          "radius",
+          "glass",
+          "default"
+        ],
+        "references": [
+          {
+            "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
+            "type": "number",
+            "value": "16px",
+            "filePath": "tokens/default/glass/semantic.dimension.glass.json",
+            "isSource": true,
+            "original": {
+              "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
+              "type": "number",
+              "value": "{global.border.radius.300}"
+            },
+            "name": "pf-t--global--border--radius--medium",
+            "attributes": {
+              "category": "global",
+              "type": "border",
+              "item": "radius",
+              "subitem": "medium"
+            },
+            "path": [
+              "global",
+              "border",
+              "radius",
+              "medium"
+            ],
+            "references": [
+              {
+                "type": "number",
+                "value": "16px",
+                "filePath": "tokens/default/glass/base.dimension.json",
+                "isSource": true,
+                "original": {
+                  "type": "number",
+                  "value": 16
+                },
+                "name": "pf-t--global--border--radius--300",
+                "attributes": {
+                  "category": "global",
+                  "type": "border",
+                  "item": "radius",
+                  "subitem": "300"
+                },
+                "path": [
+                  "global",
+                  "border",
+                  "radius",
+                  "300"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
     "pf-t--global--border--radius--control--default": {
       "default": {
         "type": "number",
@@ -45663,85 +45795,6 @@
                   "border",
                   "radius",
                   "200"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--global--border--radius--glass--default": {
-      "default": {
-        "type": "number",
-        "value": "16px",
-        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": "{global.border.radius.medium}"
-        },
-        "name": "pf-t--global--border--radius--glass--default",
-        "attributes": {
-          "category": "global",
-          "type": "border",
-          "item": "radius",
-          "subitem": "glass",
-          "state": "default"
-        },
-        "path": [
-          "global",
-          "border",
-          "radius",
-          "glass",
-          "default"
-        ],
-        "references": [
-          {
-            "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
-            "type": "number",
-            "value": "16px",
-            "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-            "isSource": true,
-            "original": {
-              "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
-              "type": "number",
-              "value": "{global.border.radius.300}"
-            },
-            "name": "pf-t--global--border--radius--medium",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "radius",
-              "subitem": "medium"
-            },
-            "path": [
-              "global",
-              "border",
-              "radius",
-              "medium"
-            ],
-            "references": [
-              {
-                "type": "number",
-                "value": "16px",
-                "filePath": "tokens/default/glass/base.dimension.json",
-                "isSource": true,
-                "original": {
-                  "type": "number",
-                  "value": 16
-                },
-                "name": "pf-t--global--border--radius--300",
-                "attributes": {
-                  "category": "global",
-                  "type": "border",
-                  "item": "radius",
-                  "subitem": "300"
-                },
-                "path": [
-                  "global",
-                  "border",
-                  "radius",
-                  "300"
                 ]
               }
             ]

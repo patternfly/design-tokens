@@ -173,6 +173,14 @@
             "value": "{global.dark.background.color.500}"
           }
         },
+        "striped": {
+          "row": {
+            "default": {
+              "type": "color",
+              "value": "rgba(21, 21, 21, 0.3000)"
+            }
+          }
+        },
         "loading": {
           "skeleton": {
             "default": {
@@ -1270,7 +1278,7 @@
         "subtle": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.dark.border.color.50}"
+          "value": "{global.dark.border.color.100}"
         },
         "disabled": {
           "description": "Use as the disabled border color for elements like form inputs, menu toggles, cards, etc.",
@@ -1982,6 +1990,15 @@
         }
       }
     },
+    "focus-ring": {
+      "color": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "{global.dark.focus-ring.color.100}"
+        }
+      }
+    },
     "text-decoration": {
       "color": {
         "default": {
@@ -1991,15 +2008,6 @@
         "hover": {
           "type": "color",
           "value": "{global.border.color.hover}"
-        }
-      }
-    },
-    "focus-ring": {
-      "color": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "{global.dark.focus-ring.color.100}"
         }
       }
     }

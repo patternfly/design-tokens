@@ -17132,6 +17132,59 @@
           ]
         }
       },
+      "pf-t--global--background--color--striped--row--default": {
+        "default": {
+          "type": "color",
+          "value": "rgba(199, 199, 199, 0.1000)",
+          "filePath": "tokens/default/light/semantic.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.700}"
+          },
+          "name": "pf-t--global--background--color--striped--row--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "striped",
+            "state": "row"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "striped",
+            "row",
+            "default"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "rgba(199, 199, 199, 0.1000)",
+              "filePath": "tokens/default/light/base.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "rgba(199, 199, 199, 0.1000)"
+              },
+              "name": "pf-t--global--background--color--700",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "700"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "700"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--background--color--loading--skeleton--default": {
         "default": {
           "type": "color",
@@ -35243,6 +35296,58 @@
           ]
         }
       },
+      "pf-t--global--border--width--regular": {
+        "default": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/light/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border width for elements.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "name": "pf-t--global--border--width--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "regular"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/light/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1
+              },
+              "name": "pf-t--global--border--width--100",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--border--width--divider--default": {
         "default": {
           "description": "Use as the default border width for dividers.",
@@ -35377,58 +35482,6 @@
             "width",
             "divider",
             "clicked"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "1px",
-              "filePath": "tokens/default/light/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1
-              },
-              "name": "pf-t--global--border--width--100",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "border",
-                "width",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--border--width--regular": {
-        "default": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "1px",
-          "filePath": "tokens/default/light/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the default border width for elements.",
-            "type": "number",
-            "value": "{global.border.width.100}"
-          },
-          "name": "pf-t--global--border--width--regular",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "regular"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "regular"
           ],
           "references": [
             {
@@ -36771,85 +36824,6 @@
           ]
         }
       },
-      "pf-t--global--border--radius--control--form-element": {
-        "default": {
-          "type": "number",
-          "value": "6px",
-          "filePath": "tokens/default/light/semantic.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": "{global.border.radius.small}"
-          },
-          "name": "pf-t--global--border--radius--control--form-element",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "radius",
-            "subitem": "control",
-            "state": "form-element"
-          },
-          "path": [
-            "global",
-            "border",
-            "radius",
-            "control",
-            "form-element"
-          ],
-          "references": [
-            {
-              "description": "Use to adjust the curvature of the border corners for an element. Use for slightly rounded corners, like icon buttons or menus.",
-              "type": "number",
-              "value": "6px",
-              "filePath": "tokens/default/light/semantic.dimension.json",
-              "isSource": true,
-              "original": {
-                "description": "Use to adjust the curvature of the border corners for an element. Use for slightly rounded corners, like icon buttons or menus.",
-                "type": "number",
-                "value": "{global.border.radius.200}"
-              },
-              "name": "pf-t--global--border--radius--small",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "radius",
-                "subitem": "small"
-              },
-              "path": [
-                "global",
-                "border",
-                "radius",
-                "small"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "6px",
-                  "filePath": "tokens/default/light/base.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 6
-                  },
-                  "name": "pf-t--global--border--radius--200",
-                  "attributes": {
-                    "category": "global",
-                    "type": "border",
-                    "item": "radius",
-                    "subitem": "200"
-                  },
-                  "path": [
-                    "global",
-                    "border",
-                    "radius",
-                    "200"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--border--radius--glass--default": {
         "default": {
           "type": "number",
@@ -36922,6 +36896,85 @@
                     "border",
                     "radius",
                     "300"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--radius--control--form-element": {
+        "default": {
+          "type": "number",
+          "value": "6px",
+          "filePath": "tokens/default/light/semantic.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.border.radius.small}"
+          },
+          "name": "pf-t--global--border--radius--control--form-element",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "radius",
+            "subitem": "control",
+            "state": "form-element"
+          },
+          "path": [
+            "global",
+            "border",
+            "radius",
+            "control",
+            "form-element"
+          ],
+          "references": [
+            {
+              "description": "Use to adjust the curvature of the border corners for an element. Use for slightly rounded corners, like icon buttons or menus.",
+              "type": "number",
+              "value": "6px",
+              "filePath": "tokens/default/light/semantic.dimension.json",
+              "isSource": true,
+              "original": {
+                "description": "Use to adjust the curvature of the border corners for an element. Use for slightly rounded corners, like icon buttons or menus.",
+                "type": "number",
+                "value": "{global.border.radius.200}"
+              },
+              "name": "pf-t--global--border--radius--small",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "radius",
+                "subitem": "small"
+              },
+              "path": [
+                "global",
+                "border",
+                "radius",
+                "small"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "6px",
+                  "filePath": "tokens/default/light/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 6
+                  },
+                  "name": "pf-t--global--border--radius--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "border",
+                    "item": "radius",
+                    "subitem": "200"
+                  },
+                  "path": [
+                    "global",
+                    "border",
+                    "radius",
+                    "200"
                   ]
                 }
               ]
@@ -42887,78 +42940,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--icon--short": {
+      "pf-t--global--motion--duration--slide-out--short": {
         "default": {
-          "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
+          "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
           "type": "number",
-          "value": "50ms",
+          "value": "300ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
+            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
             "type": "number",
-            "value": "{global.motion.duration.xs}"
+            "value": "{global.motion.duration.lg}"
           },
-          "name": "pf-t--global--motion--duration--icon--short",
+          "name": "pf-t--global--motion--duration--slide-out--short",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "icon",
+            "subitem": "slide-out",
             "state": "short"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "icon",
+            "slide-out",
             "short"
           ],
           "references": [
             {
-              "description": "Use for the quickest possible duration of an animation.",
+              "description": "Use for long animation duration. Use for larger, more expressive animations.",
               "type": "number",
-              "value": "50ms",
+              "value": "300ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for the quickest possible duration of an animation.",
+                "description": "Use for long animation duration. Use for larger, more expressive animations.",
                 "type": "number",
-                "value": "{global.duration.50}"
+                "value": "{global.duration.300}"
               },
-              "name": "pf-t--global--motion--duration--xs",
+              "name": "pf-t--global--motion--duration--lg",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "xs"
+                "subitem": "lg"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "xs"
+                "lg"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "50ms",
+                  "value": "300ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 50
+                    "value": 300
                   },
-                  "name": "pf-t--global--duration--50",
+                  "name": "pf-t--global--duration--300",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "50"
+                    "item": "300"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "50"
+                    "300"
                   ]
                 }
               ]
@@ -42966,78 +43019,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--icon--default": {
+      "pf-t--global--motion--duration--slide-out--default": {
         "default": {
-          "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
+          "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
           "type": "number",
-          "value": "100ms",
+          "value": "400ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
+            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
             "type": "number",
-            "value": "{global.motion.duration.sm}"
+            "value": "{global.motion.duration.xl}"
           },
-          "name": "pf-t--global--motion--duration--icon--default",
+          "name": "pf-t--global--motion--duration--slide-out--default",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "icon",
+            "subitem": "slide-out",
             "state": "default"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "icon",
+            "slide-out",
             "default"
           ],
           "references": [
             {
-              "description": "Use for a short animation duration. Use for simple and/or small animations.",
+              "description": "Use for extra long animation duration.",
               "type": "number",
-              "value": "100ms",
+              "value": "400ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for a short animation duration. Use for simple and/or small animations.",
+                "description": "Use for extra long animation duration.",
                 "type": "number",
-                "value": "{global.duration.100}"
+                "value": "{global.duration.400}"
               },
-              "name": "pf-t--global--motion--duration--sm",
+              "name": "pf-t--global--motion--duration--xl",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "sm"
+                "subitem": "xl"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "sm"
+                "xl"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "100ms",
+                  "value": "400ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 100
+                    "value": 400
                   },
-                  "name": "pf-t--global--duration--100",
+                  "name": "pf-t--global--duration--400",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "100"
+                    "item": "400"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "100"
+                    "400"
                   ]
                 }
               ]
@@ -43045,78 +43098,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--icon--long": {
+      "pf-t--global--motion--duration--slide-out--long": {
         "default": {
-          "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
+          "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
           "type": "number",
-          "value": "200ms",
+          "value": "500ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
+            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
             "type": "number",
-            "value": "{global.motion.duration.md}"
+            "value": "{global.motion.duration.2xl}"
           },
-          "name": "pf-t--global--motion--duration--icon--long",
+          "name": "pf-t--global--motion--duration--slide-out--long",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "icon",
+            "subitem": "slide-out",
             "state": "long"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "icon",
+            "slide-out",
             "long"
           ],
           "references": [
             {
-              "description": "Use for a medium animation duration.",
+              "description": "Use for significantly long animation duration.",
               "type": "number",
-              "value": "200ms",
+              "value": "500ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for a medium animation duration.",
+                "description": "Use for significantly long animation duration.",
                 "type": "number",
-                "value": "{global.duration.200}"
+                "value": "{global.duration.500}"
               },
-              "name": "pf-t--global--motion--duration--md",
+              "name": "pf-t--global--motion--duration--2xl",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "md"
+                "subitem": "2xl"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "md"
+                "2xl"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "200ms",
+                  "value": "500ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 200
+                    "value": 500
                   },
-                  "name": "pf-t--global--duration--200",
+                  "name": "pf-t--global--duration--500",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "200"
+                    "item": "500"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "200"
+                    "500"
                   ]
                 }
               ]
@@ -43361,78 +43414,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--slide-out--short": {
+      "pf-t--global--motion--duration--icon--short": {
         "default": {
-          "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+          "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
           "type": "number",
-          "value": "300ms",
+          "value": "50ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
             "type": "number",
-            "value": "{global.motion.duration.lg}"
+            "value": "{global.motion.duration.xs}"
           },
-          "name": "pf-t--global--motion--duration--slide-out--short",
+          "name": "pf-t--global--motion--duration--icon--short",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "slide-out",
+            "subitem": "icon",
             "state": "short"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "slide-out",
+            "icon",
             "short"
           ],
           "references": [
             {
-              "description": "Use for long animation duration. Use for larger, more expressive animations.",
+              "description": "Use for the quickest possible duration of an animation.",
               "type": "number",
-              "value": "300ms",
+              "value": "50ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for long animation duration. Use for larger, more expressive animations.",
+                "description": "Use for the quickest possible duration of an animation.",
                 "type": "number",
-                "value": "{global.duration.300}"
+                "value": "{global.duration.50}"
               },
-              "name": "pf-t--global--motion--duration--lg",
+              "name": "pf-t--global--motion--duration--xs",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "lg"
+                "subitem": "xs"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "lg"
+                "xs"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "300ms",
+                  "value": "50ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 300
+                    "value": 50
                   },
-                  "name": "pf-t--global--duration--300",
+                  "name": "pf-t--global--duration--50",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "300"
+                    "item": "50"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "300"
+                    "50"
                   ]
                 }
               ]
@@ -43440,78 +43493,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--slide-out--default": {
+      "pf-t--global--motion--duration--icon--default": {
         "default": {
-          "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+          "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
           "type": "number",
-          "value": "400ms",
+          "value": "100ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a default duration on an icon that requires a moderately timed transition. Used to define the speed at which an icon may animate. Used on a favoriting star(icon button).",
             "type": "number",
-            "value": "{global.motion.duration.xl}"
+            "value": "{global.motion.duration.sm}"
           },
-          "name": "pf-t--global--motion--duration--slide-out--default",
+          "name": "pf-t--global--motion--duration--icon--default",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "slide-out",
+            "subitem": "icon",
             "state": "default"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "slide-out",
+            "icon",
             "default"
           ],
           "references": [
             {
-              "description": "Use for extra long animation duration.",
+              "description": "Use for a short animation duration. Use for simple and/or small animations.",
               "type": "number",
-              "value": "400ms",
+              "value": "100ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for extra long animation duration.",
+                "description": "Use for a short animation duration. Use for simple and/or small animations.",
                 "type": "number",
-                "value": "{global.duration.400}"
+                "value": "{global.duration.100}"
               },
-              "name": "pf-t--global--motion--duration--xl",
+              "name": "pf-t--global--motion--duration--sm",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "xl"
+                "subitem": "sm"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "xl"
+                "sm"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "400ms",
+                  "value": "100ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 400
+                    "value": 100
                   },
-                  "name": "pf-t--global--duration--400",
+                  "name": "pf-t--global--duration--100",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "400"
+                    "item": "100"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "400"
+                    "100"
                   ]
                 }
               ]
@@ -43519,78 +43572,78 @@
           ]
         }
       },
-      "pf-t--global--motion--duration--slide-out--long": {
+      "pf-t--global--motion--duration--icon--long": {
         "default": {
-          "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+          "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
           "type": "number",
-          "value": "500ms",
+          "value": "200ms",
           "filePath": "tokens/default/light/semantic.motion.json",
           "isSource": true,
           "original": {
-            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
             "type": "number",
-            "value": "{global.motion.duration.2xl}"
+            "value": "{global.motion.duration.md}"
           },
-          "name": "pf-t--global--motion--duration--slide-out--long",
+          "name": "pf-t--global--motion--duration--icon--long",
           "attributes": {
             "category": "global",
             "type": "motion",
             "item": "duration",
-            "subitem": "slide-out",
+            "subitem": "icon",
             "state": "long"
           },
           "path": [
             "global",
             "motion",
             "duration",
-            "slide-out",
+            "icon",
             "long"
           ],
           "references": [
             {
-              "description": "Use for significantly long animation duration.",
+              "description": "Use for a medium animation duration.",
               "type": "number",
-              "value": "500ms",
+              "value": "200ms",
               "filePath": "tokens/default/light/semantic.motion.json",
               "isSource": true,
               "original": {
-                "description": "Use for significantly long animation duration.",
+                "description": "Use for a medium animation duration.",
                 "type": "number",
-                "value": "{global.duration.500}"
+                "value": "{global.duration.200}"
               },
-              "name": "pf-t--global--motion--duration--2xl",
+              "name": "pf-t--global--motion--duration--md",
               "attributes": {
                 "category": "global",
                 "type": "motion",
                 "item": "duration",
-                "subitem": "2xl"
+                "subitem": "md"
               },
               "path": [
                 "global",
                 "motion",
                 "duration",
-                "2xl"
+                "md"
               ],
               "references": [
                 {
                   "type": "number",
-                  "value": "500ms",
+                  "value": "200ms",
                   "filePath": "tokens/default/light/base.motion.json",
                   "isSource": true,
                   "original": {
                     "type": "number",
-                    "value": 500
+                    "value": 200
                   },
-                  "name": "pf-t--global--duration--500",
+                  "name": "pf-t--global--duration--200",
                   "attributes": {
                     "category": "global",
                     "type": "duration",
-                    "item": "500"
+                    "item": "200"
                   },
                   "path": [
                     "global",
                     "duration",
-                    "500"
+                    "200"
                   ]
                 }
               ]
@@ -58042,29 +58095,6 @@
         ]
       }
     },
-    "pf-t--chart--global--stroke-line-cap": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-cap",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-cap"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-cap"
-        ]
-      }
-    },
     "pf-t--chart--global--label--padding": {
       "default": {
         "type": "number",
@@ -58297,6 +58327,29 @@
           "global",
           "layout",
           "width"
+        ]
+      }
+    },
+    "pf-t--chart--global--stroke-line-cap": {
+      "default": {
+        "type": "string",
+        "value": "round",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "round"
+        },
+        "name": "pf-t--chart--global--stroke-line-cap",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "stroke-line-cap"
+        },
+        "path": [
+          "chart",
+          "global",
+          "stroke-line-cap"
         ]
       }
     },
