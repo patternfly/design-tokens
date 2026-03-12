@@ -133,21 +133,21 @@
         "high-contrast": {
           "regular": {
             "type": "number",
-            "value": "{global.border.width.regular}"
+            "value": 0
           },
           "strong": {
             "type": "number",
-            "value": "{global.border.width.strong}"
+            "value": 0
           },
           "extra-strong": {
             "type": "number",
-            "value": "{global.border.width.extra-strong}"
+            "value": 0
           }
         },
         "main": {
           "default": {
             "type": "number",
-            "value": "{global.border.width.200}"
+            "value": "{global.border.width.100}"
           }
         },
         "action": {
@@ -165,12 +165,12 @@
             "hover": {
               "description": "Use as the border width for plain actions in their hover state",
               "type": "number",
-              "value": "{global.border.width.100}"
+              "value": 0
             },
             "clicked": {
               "description": "Use as the border width for plain actions in their clicked state",
               "type": "number",
-              "value": "{global.border.width.200}"
+              "value": 0
             }
           },
           "hover": {
@@ -193,7 +193,7 @@
           "hover": {
             "description": "Use as the hover state border width for controls like text inputs, menu toggles and control buttons",
             "type": "number",
-            "value": "{global.border.width.200}"
+            "value": "{global.border.width.100}"
           },
           "clicked": {
             "description": "Use as the clicked state border width for controls like text inputs, menu toggles and control buttons",

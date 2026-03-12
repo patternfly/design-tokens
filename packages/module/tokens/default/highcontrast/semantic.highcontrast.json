@@ -46,12 +46,10 @@
         },
         "glass": {
           "primary": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.primary.default}"
+            }
           }
         },
         "floating": {
@@ -69,6 +67,12 @@
             "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
             "value": "{global.background.color.200}"
+          },
+          "secondary": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.secondary.default}"
+            }
           }
         },
         "sticky": {
@@ -163,6 +167,14 @@
             "value": "{global.background.color.500}"
           }
         },
+        "striped": {
+          "row": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.700}"
+            }
+          }
+        },
         "loading": {
           "skeleton": {
             "default": {
@@ -180,10 +192,6 @@
         "glass": {
           "blur": {
             "primary": {
-              "type": "number",
-              "value": 0
-            },
-            "floating": {
               "type": "number",
               "value": 0
             }
@@ -1276,6 +1284,12 @@
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
           "value": "{global.border.color.400}"
+        },
+        "glass": {
+          "default": {
+            "type": "color",
+            "value": "{global.border.color.subtle}"
+          }
         },
         "nonstatus": {
           "red": {

@@ -7,17 +7,17 @@
           "default": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.8000)"
+            "value": "rgba(255, 255, 255, 0.6000)"
           },
           "hover": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "rgba(242, 242, 242, 0.8000)"
+            "value": "rgba(199, 199, 199, 0.3000)"
           },
           "clicked": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "rgba(242, 242, 242, 0.8000)"
+            "value": "rgba(199, 199, 199, 0.3000)"
           }
         },
         "secondary": {
@@ -46,12 +46,10 @@
         },
         "glass": {
           "primary": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.5000)"
-          },
-          "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
+            "default": {
+              "type": "color",
+              "value": "rgba(255, 255, 255, 0.5000)"
+            }
           }
         },
         "floating": {
@@ -69,6 +67,12 @@
             "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
             "value": "{global.background.color.200}"
+          },
+          "secondary": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.floating.default}"
+            }
           }
         },
         "sticky": {
@@ -99,12 +103,12 @@
               "hover": {
                 "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "{global.background.color.action.plain.hover}"
               },
               "clicked": {
                 "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
                 "type": "color",
-                "value": "{global.background.color.100}"
+                "value": "{global.background.color.action.plain.clicked}"
               }
             }
           }
@@ -163,6 +167,14 @@
             "value": "{global.background.color.500}"
           }
         },
+        "striped": {
+          "row": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.700}"
+            }
+          }
+        },
         "loading": {
           "skeleton": {
             "default": {
@@ -181,11 +193,7 @@
           "blur": {
             "primary": {
               "type": "number",
-              "value": 12.5
-            },
-            "floating": {
-              "type": "number",
-              "value": 0
+              "value": 16
             }
           }
         }
@@ -1276,6 +1284,12 @@
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
           "value": "{global.border.color.300}"
+        },
+        "glass": {
+          "default": {
+            "type": "color",
+            "value": "{global.border.color.alt}"
+          }
         },
         "nonstatus": {
           "red": {

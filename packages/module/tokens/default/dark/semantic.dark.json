@@ -46,12 +46,10 @@
         },
         "glass": {
           "primary": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.primary.default}"
+            }
           }
         },
         "floating": {
@@ -69,6 +67,12 @@
             "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.200}"
+          },
+          "secondary": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.secondary.default}"
+            }
           }
         },
         "sticky": {
@@ -163,6 +167,14 @@
             "value": "{global.dark.background.color.500}"
           }
         },
+        "striped": {
+          "row": {
+            "default": {
+              "type": "color",
+              "value": "rgba(21, 21, 21, 0.3000)"
+            }
+          }
+        },
         "loading": {
           "skeleton": {
             "default": {
@@ -180,10 +192,6 @@
         "glass": {
           "blur": {
             "primary": {
-              "type": "number",
-              "value": 0
-            },
-            "floating": {
               "type": "number",
               "value": 0
             }
@@ -605,17 +613,17 @@
             "default": {
               "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
               "type": "color",
-              "value": "{global.icon.color.regular}"
+              "value": "{global.icon.color.inverse}"
             }
           },
           "subtle": {
@@ -1260,7 +1268,7 @@
         "subtle": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "{global.dark.border.color.50}"
+          "value": "{global.dark.border.color.100}"
         },
         "disabled": {
           "description": "Use as the disabled border color for elements like form inputs, menu toggles, cards, etc.",
@@ -1276,6 +1284,12 @@
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
           "value": "{global.dark.border.color.200}"
+        },
+        "glass": {
+          "default": {
+            "type": "color",
+            "value": "{global.border.color.subtle}"
+          }
         },
         "nonstatus": {
           "red": {
@@ -1511,17 +1525,17 @@
             "default": {
               "description": "Use as the default color for text placed on a brand-colored background.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "hover": {
               "description": "Use as the hover state color for text placed on a brand-colored background.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             },
             "clicked": {
               "description": "Use as the clicked state color for text placed on a brand-colored background.",
               "type": "color",
-              "value": "{global.text.color.regular}"
+              "value": "{global.text.color.inverse}"
             }
           },
           "subtle": {

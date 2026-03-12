@@ -46,12 +46,10 @@
         },
         "glass": {
           "primary": {
-            "type": "color",
-            "value": "{global.background.color.primary.default}"
-          },
-          "floating": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.primary.default}"
+            }
           }
         },
         "floating": {
@@ -69,6 +67,12 @@
             "description": "Use as the clicked state for floating backgrounds",
             "type": "color",
             "value": "{global.dark.background.color.300}"
+          },
+          "secondary": {
+            "default": {
+              "type": "color",
+              "value": "{global.background.color.secondary.default}"
+            }
           }
         },
         "sticky": {
@@ -163,6 +167,14 @@
             "value": "{global.dark.background.color.500}"
           }
         },
+        "striped": {
+          "row": {
+            "default": {
+              "type": "color",
+              "value": "rgba(21, 21, 21, 0.3000)"
+            }
+          }
+        },
         "loading": {
           "skeleton": {
             "default": {
@@ -180,10 +192,6 @@
         "glass": {
           "blur": {
             "primary": {
-              "type": "number",
-              "value": 0
-            },
-            "floating": {
               "type": "number",
               "value": 0
             }
@@ -1119,17 +1127,17 @@
             "default": {
               "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
-              "value": "{global.dark.color.brand.accent.200}"
+              "value": "{global.color.brand.accent.default}"
             },
             "hover": {
               "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
-              "value": "{global.dark.color.brand.accent.300}"
+              "value": "{global.color.brand.accent.hover}"
             },
             "clicked": {
               "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
-              "value": "{global.dark.color.brand.accent.300}"
+              "value": "{global.color.brand.accent.clicked}"
             }
           },
           "subtle": {
@@ -1276,6 +1284,12 @@
           "description": "Use on borders/dividers that are placed on a secondary bkg color.",
           "type": "color",
           "value": "{global.dark.border.color.300}"
+        },
+        "glass": {
+          "default": {
+            "type": "color",
+            "value": "{global.border.color.subtle}"
+          }
         },
         "nonstatus": {
           "red": {

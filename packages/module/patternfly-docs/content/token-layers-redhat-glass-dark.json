@@ -231,7 +231,7 @@
           ]
         }
       },
-      "pf-t--global--background--color--glass--primary": {
+      "pf-t--global--background--color--glass--primary--default": {
         "default": {
           "type": "color",
           "value": "rgba(41, 41, 41, 0.5000)",
@@ -241,7 +241,7 @@
             "type": "color",
             "value": "rgba(41, 41, 41, 0.5000)"
           },
-          "name": "pf-t--global--background--color--glass--primary",
+          "name": "pf-t--global--background--color--glass--primary--default",
           "attributes": {
             "category": "global",
             "type": "background",
@@ -254,113 +254,8 @@
             "background",
             "color",
             "glass",
-            "primary"
-          ]
-        }
-      },
-      "pf-t--global--background--color--glass--floating": {
-        "default": {
-          "type": "color",
-          "value": "#292929",
-          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{global.background.color.floating.default}"
-          },
-          "name": "pf-t--global--background--color--glass--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "color",
-            "subitem": "glass",
-            "state": "floating"
-          },
-          "path": [
-            "global",
-            "background",
-            "color",
-            "glass",
-            "floating"
-          ],
-          "references": [
-            {
-              "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
-              "type": "color",
-              "value": "#292929",
-              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
-                "type": "color",
-                "value": "{global.dark.background.color.200}"
-              },
-              "name": "pf-t--global--background--color--floating--default",
-              "attributes": {
-                "category": "global",
-                "type": "background",
-                "item": "color",
-                "subitem": "floating",
-                "state": "default"
-              },
-              "path": [
-                "global",
-                "background",
-                "color",
-                "floating",
-                "default"
-              ],
-              "references": [
-                {
-                  "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/default/glass-dark/base.dark.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "color",
-                    "value": "{color.gray.80}"
-                  },
-                  "name": "pf-t--global--dark--background--color--200",
-                  "attributes": {
-                    "category": "global",
-                    "type": "dark",
-                    "item": "background",
-                    "subitem": "color",
-                    "state": "200"
-                  },
-                  "path": [
-                    "global",
-                    "dark",
-                    "background",
-                    "color",
-                    "200"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#292929",
-                      "filePath": "tokens/default/glass-dark/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#292929"
-                      },
-                      "name": "pf-t--color--gray--80",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "80"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "80"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
+            "primary",
+            "default"
           ]
         }
       },
@@ -601,6 +496,113 @@
           ]
         }
       },
+      "pf-t--global--background--color--floating--secondary--default": {
+        "default": {
+          "type": "color",
+          "value": "#292929",
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.background.color.floating.default}"
+          },
+          "name": "pf-t--global--background--color--floating--secondary--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "floating",
+            "state": "secondary"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "floating",
+            "secondary",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+              "type": "color",
+              "value": "#292929",
+              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
+                "type": "color",
+                "value": "{global.dark.background.color.200}"
+              },
+              "name": "pf-t--global--background--color--floating--default",
+              "attributes": {
+                "category": "global",
+                "type": "background",
+                "item": "color",
+                "subitem": "floating",
+                "state": "default"
+              },
+              "path": [
+                "global",
+                "background",
+                "color",
+                "floating",
+                "default"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#292929",
+                  "filePath": "tokens/default/glass-dark/base.dark.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "{color.gray.80}"
+                  },
+                  "name": "pf-t--global--dark--background--color--200",
+                  "attributes": {
+                    "category": "global",
+                    "type": "dark",
+                    "item": "background",
+                    "subitem": "color",
+                    "state": "200"
+                  },
+                  "path": [
+                    "global",
+                    "dark",
+                    "background",
+                    "color",
+                    "200"
+                  ],
+                  "references": [
+                    {
+                      "type": "color",
+                      "value": "#292929",
+                      "filePath": "tokens/default/glass-dark/palette.color.json",
+                      "isSource": true,
+                      "original": {
+                        "type": "color",
+                        "value": "#292929"
+                      },
+                      "name": "pf-t--color--gray--80",
+                      "attributes": {
+                        "category": "color",
+                        "type": "gray",
+                        "item": "80"
+                      },
+                      "path": [
+                        "color",
+                        "gray",
+                        "80"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--background--color--sticky--default": {
         "default": {
           "description": "Use as the background color for components that appear over other content, such as toast alerts, menus, modals, overlay drawers, etc.",
@@ -828,13 +830,13 @@
         "default": {
           "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
           "type": "color",
-          "value": "#292929",
+          "value": "rgba(199, 199, 199, 0.1500)",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
             "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.background.color.action.plain.hover}"
           },
           "name": "pf-t--global--background--color--action--plain--alt--hover",
           "attributes": {
@@ -855,49 +857,56 @@
           ],
           "references": [
             {
+              "description": "Use as the hover state for components that use the plain action default background.",
               "type": "color",
-              "value": "#292929",
-              "filePath": "tokens/default/glass-dark/base.dark.json",
+              "value": "rgba(199, 199, 199, 0.1500)",
+              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
               "isSource": true,
               "original": {
+                "description": "Use as the hover state for components that use the plain action default background.",
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "{global.dark.background.color.600}"
               },
-              "name": "pf-t--global--dark--background--color--200",
+              "name": "pf-t--global--background--color--action--plain--hover",
               "attributes": {
                 "category": "global",
-                "type": "dark",
-                "item": "background",
-                "subitem": "color",
-                "state": "200"
+                "type": "background",
+                "item": "color",
+                "subitem": "action",
+                "state": "plain"
               },
               "path": [
                 "global",
-                "dark",
                 "background",
                 "color",
-                "200"
+                "action",
+                "plain",
+                "hover"
               ],
               "references": [
                 {
                   "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/default/glass-dark/palette.color.json",
+                  "value": "rgba(199, 199, 199, 0.1500)",
+                  "filePath": "tokens/default/glass-dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#292929"
+                    "value": "rgba(199, 199, 199, 0.1500)"
                   },
-                  "name": "pf-t--color--gray--80",
+                  "name": "pf-t--global--dark--background--color--600",
                   "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
+                    "category": "global",
+                    "type": "dark",
+                    "item": "background",
+                    "subitem": "color",
+                    "state": "600"
                   },
                   "path": [
+                    "global",
+                    "dark",
+                    "background",
                     "color",
-                    "gray",
-                    "80"
+                    "600"
                   ]
                 }
               ]
@@ -909,13 +918,13 @@
         "default": {
           "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
           "type": "color",
-          "value": "#292929",
+          "value": "rgba(199, 199, 199, 0.1500)",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
             "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
             "type": "color",
-            "value": "{global.dark.background.color.200}"
+            "value": "{global.background.color.action.plain.clicked}"
           },
           "name": "pf-t--global--background--color--action--plain--alt--clicked",
           "attributes": {
@@ -936,49 +945,56 @@
           ],
           "references": [
             {
+              "description": "Use as the active/pressed state for components that use the plain action default background.",
               "type": "color",
-              "value": "#292929",
-              "filePath": "tokens/default/glass-dark/base.dark.json",
+              "value": "rgba(199, 199, 199, 0.1500)",
+              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
               "isSource": true,
               "original": {
+                "description": "Use as the active/pressed state for components that use the plain action default background.",
                 "type": "color",
-                "value": "{color.gray.80}"
+                "value": "{global.dark.background.color.600}"
               },
-              "name": "pf-t--global--dark--background--color--200",
+              "name": "pf-t--global--background--color--action--plain--clicked",
               "attributes": {
                 "category": "global",
-                "type": "dark",
-                "item": "background",
-                "subitem": "color",
-                "state": "200"
+                "type": "background",
+                "item": "color",
+                "subitem": "action",
+                "state": "plain"
               },
               "path": [
                 "global",
-                "dark",
                 "background",
                 "color",
-                "200"
+                "action",
+                "plain",
+                "clicked"
               ],
               "references": [
                 {
                   "type": "color",
-                  "value": "#292929",
-                  "filePath": "tokens/default/glass-dark/palette.color.json",
+                  "value": "rgba(199, 199, 199, 0.1500)",
+                  "filePath": "tokens/default/glass-dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#292929"
+                    "value": "rgba(199, 199, 199, 0.1500)"
                   },
-                  "name": "pf-t--color--gray--80",
+                  "name": "pf-t--global--dark--background--color--600",
                   "attributes": {
-                    "category": "color",
-                    "type": "gray",
-                    "item": "80"
+                    "category": "global",
+                    "type": "dark",
+                    "item": "background",
+                    "subitem": "color",
+                    "state": "600"
                   },
                   "path": [
+                    "global",
+                    "dark",
+                    "background",
                     "color",
-                    "gray",
-                    "80"
+                    "600"
                   ]
                 }
               ]
@@ -1628,6 +1644,34 @@
           ]
         }
       },
+      "pf-t--global--background--color--striped--row--default": {
+        "default": {
+          "type": "color",
+          "value": "rgba(21, 21, 21, 0.3000)",
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(21, 21, 21, 0.3000)"
+          },
+          "name": "pf-t--global--background--color--striped--row--default",
+          "attributes": {
+            "category": "global",
+            "type": "background",
+            "item": "color",
+            "subitem": "striped",
+            "state": "row"
+          },
+          "path": [
+            "global",
+            "background",
+            "color",
+            "striped",
+            "row",
+            "default"
+          ]
+        }
+      },
       "pf-t--global--background--color--loading--skeleton--default": {
         "default": {
           "type": "color",
@@ -1741,12 +1785,12 @@
       "pf-t--global--background--filter--glass--blur--primary": {
         "default": {
           "type": "number",
-          "value": "blur(12.5px)",
+          "value": "blur(16px)",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 12.5
+            "value": 16
           },
           "name": "pf-t--global--background--filter--glass--blur--primary",
           "attributes": {
@@ -1763,34 +1807,6 @@
             "glass",
             "blur",
             "primary"
-          ]
-        }
-      },
-      "pf-t--global--background--filter--glass--blur--floating": {
-        "default": {
-          "type": "number",
-          "value": "blur(0px)",
-          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 0
-          },
-          "name": "pf-t--global--background--filter--glass--blur--floating",
-          "attributes": {
-            "category": "global",
-            "type": "background",
-            "item": "filter",
-            "subitem": "glass",
-            "state": "blur"
-          },
-          "path": [
-            "global",
-            "background",
-            "filter",
-            "glass",
-            "blur",
-            "floating"
           ]
         }
       },
@@ -7316,13 +7332,13 @@
         "default": {
           "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
           "type": "color",
-          "value": "#f2f2f2",
+          "value": "#1f1f1f",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
             "description": "Use as the default color for icons that are placed on a brand background color and/or are paired with on-brand colored text.",
             "type": "color",
-            "value": "{global.icon.color.regular}"
+            "value": "{global.icon.color.inverse}"
           },
           "name": "pf-t--global--icon--color--on-brand--accent--default",
           "attributes": {
@@ -7342,74 +7358,74 @@
           ],
           "references": [
             {
-              "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+              "description": "Use as the color for icons that are placed on an inverse background color",
               "type": "color",
-              "value": "#f2f2f2",
+              "value": "#1f1f1f",
               "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
               "isSource": true,
               "original": {
-                "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+                "description": "Use as the color for icons that are placed on an inverse background color",
                 "type": "color",
-                "value": "{global.dark.icon.color.100}"
+                "value": "{global.dark.icon.color.300}"
               },
-              "name": "pf-t--global--icon--color--regular",
+              "name": "pf-t--global--icon--color--inverse",
               "attributes": {
                 "category": "global",
                 "type": "icon",
                 "item": "color",
-                "subitem": "regular"
+                "subitem": "inverse"
               },
               "path": [
                 "global",
                 "icon",
                 "color",
-                "regular"
+                "inverse"
               ],
               "references": [
                 {
                   "type": "color",
-                  "value": "#f2f2f2",
+                  "value": "#1f1f1f",
                   "filePath": "tokens/default/glass-dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.10}"
+                    "value": "{color.gray.90}"
                   },
-                  "name": "pf-t--global--dark--icon--color--100",
+                  "name": "pf-t--global--dark--icon--color--300",
                   "attributes": {
                     "category": "global",
                     "type": "dark",
                     "item": "icon",
                     "subitem": "color",
-                    "state": "100"
+                    "state": "300"
                   },
                   "path": [
                     "global",
                     "dark",
                     "icon",
                     "color",
-                    "100"
+                    "300"
                   ],
                   "references": [
                     {
                       "type": "color",
-                      "value": "#f2f2f2",
+                      "value": "#1f1f1f",
                       "filePath": "tokens/default/glass-dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#f2f2f2"
+                        "value": "#1f1f1f"
                       },
-                      "name": "pf-t--color--gray--10",
+                      "name": "pf-t--color--gray--90",
                       "attributes": {
                         "category": "color",
                         "type": "gray",
-                        "item": "10"
+                        "item": "90"
                       },
                       "path": [
                         "color",
                         "gray",
-                        "10"
+                        "90"
                       ]
                     }
                   ]
@@ -18123,7 +18139,7 @@
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "#707070",
+          "value": "#4d4d4d",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
@@ -18147,12 +18163,12 @@
           "references": [
             {
               "type": "color",
-              "value": "#707070",
+              "value": "#4d4d4d",
               "filePath": "tokens/default/glass-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.50}"
+                "value": "{color.gray.60}"
               },
               "name": "pf-t--global--dark--border--color--100",
               "attributes": {
@@ -18172,23 +18188,23 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#707070",
+                  "value": "#4d4d4d",
                   "filePath": "tokens/default/glass-dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#707070"
+                    "value": "#4d4d4d"
                   },
-                  "name": "pf-t--color--gray--50",
+                  "name": "pf-t--color--gray--60",
                   "attributes": {
                     "category": "color",
                     "type": "gray",
-                    "item": "50"
+                    "item": "60"
                   },
                   "path": [
                     "color",
                     "gray",
-                    "50"
+                    "60"
                   ]
                 }
               ]
@@ -18360,7 +18376,7 @@
           "original": {
             "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
             "type": "color",
-            "value": "{color.gray.70}"
+            "value": "{global.dark.border.color.50}"
           },
           "name": "pf-t--global--border--color--subtle",
           "attributes": {
@@ -18379,22 +18395,49 @@
             {
               "type": "color",
               "value": "#383838",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "filePath": "tokens/default/glass-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#383838"
+                "value": "{color.gray.70}"
               },
-              "name": "pf-t--color--gray--70",
+              "name": "pf-t--global--dark--border--color--50",
               "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "70"
+                "category": "global",
+                "type": "dark",
+                "item": "border",
+                "subitem": "color",
+                "state": "50"
               },
               "path": [
+                "global",
+                "dark",
+                "border",
                 "color",
-                "gray",
-                "70"
+                "50"
+              ],
+              "references": [
+                {
+                  "type": "color",
+                  "value": "#383838",
+                  "filePath": "tokens/default/glass-dark/palette.color.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "color",
+                    "value": "#383838"
+                  },
+                  "name": "pf-t--color--gray--70",
+                  "attributes": {
+                    "category": "color",
+                    "type": "gray",
+                    "item": "70"
+                  },
+                  "path": [
+                    "color",
+                    "gray",
+                    "70"
+                  ]
+                }
               ]
             }
           ]
@@ -18603,6 +18646,89 @@
                     "color",
                     "gray",
                     "40"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--color--glass--default": {
+        "default": {
+          "type": "color",
+          "value": "rgba(41, 41, 41, 0.5000)",
+          "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{global.border.color.alt}"
+          },
+          "name": "pf-t--global--border--color--glass--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "color",
+            "subitem": "glass",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "border",
+            "color",
+            "glass",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
+              "type": "color",
+              "value": "rgba(41, 41, 41, 0.5000)",
+              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+              "isSource": true,
+              "original": {
+                "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
+                "type": "color",
+                "value": "{global.background.color.primary.default}"
+              },
+              "name": "pf-t--global--border--color--alt",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "color",
+                "subitem": "alt"
+              },
+              "path": [
+                "global",
+                "border",
+                "color",
+                "alt"
+              ],
+              "references": [
+                {
+                  "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                  "type": "color",
+                  "value": "rgba(41, 41, 41, 0.5000)",
+                  "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+                  "isSource": true,
+                  "original": {
+                    "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
+                    "type": "color",
+                    "value": "rgba(41, 41, 41, 0.5000)"
+                  },
+                  "name": "pf-t--global--background--color--primary--default",
+                  "attributes": {
+                    "category": "global",
+                    "type": "background",
+                    "item": "color",
+                    "subitem": "primary",
+                    "state": "default"
+                  },
+                  "path": [
+                    "global",
+                    "background",
+                    "color",
+                    "primary",
+                    "default"
                   ]
                 }
               ]
@@ -29707,7 +29833,7 @@
       "pf-t--global--text-decoration--color--default": {
         "default": {
           "type": "color",
-          "value": "#707070",
+          "value": "#4d4d4d",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
@@ -29731,7 +29857,7 @@
             {
               "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
               "type": "color",
-              "value": "#707070",
+              "value": "#4d4d4d",
               "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
               "isSource": true,
               "original": {
@@ -29755,12 +29881,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "#707070",
+                  "value": "#4d4d4d",
                   "filePath": "tokens/default/glass-dark/base.dark.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.50}"
+                    "value": "{color.gray.60}"
                   },
                   "name": "pf-t--global--dark--border--color--100",
                   "attributes": {
@@ -29780,23 +29906,23 @@
                   "references": [
                     {
                       "type": "color",
-                      "value": "#707070",
+                      "value": "#4d4d4d",
                       "filePath": "tokens/default/glass-dark/palette.color.json",
                       "isSource": true,
                       "original": {
                         "type": "color",
-                        "value": "#707070"
+                        "value": "#4d4d4d"
                       },
-                      "name": "pf-t--color--gray--50",
+                      "name": "pf-t--color--gray--60",
                       "attributes": {
                         "category": "color",
                         "type": "gray",
-                        "item": "50"
+                        "item": "60"
                       },
                       "path": [
                         "color",
                         "gray",
-                        "50"
+                        "60"
                       ]
                     }
                   ]
@@ -33756,12 +33882,12 @@
       "pf-t--global--dark--border--color--50": {
         "default": {
           "type": "color",
-          "value": "#4d4d4d",
+          "value": "#383838",
           "filePath": "tokens/default/glass-dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{color.gray.60}"
+            "value": "{color.gray.70}"
           },
           "name": "pf-t--global--dark--border--color--50",
           "attributes": {
@@ -33777,6 +33903,56 @@
             "border",
             "color",
             "50"
+          ],
+          "references": [
+            {
+              "type": "color",
+              "value": "#383838",
+              "filePath": "tokens/default/glass-dark/palette.color.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "#383838"
+              },
+              "name": "pf-t--color--gray--70",
+              "attributes": {
+                "category": "color",
+                "type": "gray",
+                "item": "70"
+              },
+              "path": [
+                "color",
+                "gray",
+                "70"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--dark--border--color--100": {
+        "default": {
+          "type": "color",
+          "value": "#4d4d4d",
+          "filePath": "tokens/default/glass-dark/base.dark.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{color.gray.60}"
+          },
+          "name": "pf-t--global--dark--border--color--100",
+          "attributes": {
+            "category": "global",
+            "type": "dark",
+            "item": "border",
+            "subitem": "color",
+            "state": "100"
+          },
+          "path": [
+            "global",
+            "dark",
+            "border",
+            "color",
+            "100"
           ],
           "references": [
             {
@@ -33798,56 +33974,6 @@
                 "color",
                 "gray",
                 "60"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--dark--border--color--100": {
-        "default": {
-          "type": "color",
-          "value": "#707070",
-          "filePath": "tokens/default/glass-dark/base.dark.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{color.gray.50}"
-          },
-          "name": "pf-t--global--dark--border--color--100",
-          "attributes": {
-            "category": "global",
-            "type": "dark",
-            "item": "border",
-            "subitem": "color",
-            "state": "100"
-          },
-          "path": [
-            "global",
-            "dark",
-            "border",
-            "color",
-            "100"
-          ],
-          "references": [
-            {
-              "type": "color",
-              "value": "#707070",
-              "filePath": "tokens/default/glass-dark/palette.color.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#707070"
-              },
-              "name": "pf-t--color--gray--50",
-              "attributes": {
-                "category": "color",
-                "type": "gray",
-                "item": "50"
-              },
-              "path": [
-                "color",
-                "gray",
-                "50"
               ]
             }
           ]
