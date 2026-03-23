@@ -33,6 +33,12 @@
           "type": "number",
           "value": "{global.border.radius.500}"
         },
+        "glass": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.medium}"
+          }
+        },
         "control": {
           "default": {
             "type": "number",
@@ -41,12 +47,6 @@
           "form-element": {
             "type": "number",
             "value": "{global.border.radius.small}"
-          }
-        },
-        "glass": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.radius.medium}"
           }
         },
         "action": {
@@ -63,11 +63,6 @@
         }
       },
       "width": {
-        "regular": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.100}"
-        },
         "divider": {
           "default": {
             "description": "Use as the default border width for dividers.",
@@ -85,6 +80,11 @@
             "value": "{global.border.width.100}"
           }
         },
+        "regular": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
         "strong": {
           "description": "Use as a stronger/wider border width for elements.",
           "type": "number",
@@ -94,6 +94,12 @@
           "description": "Use as the strongest/widest border width for elements.",
           "type": "number",
           "value": "{global.border.width.300}"
+        },
+        "glass": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.width.regular}"
+          }
         },
         "box": {
           "default": {
@@ -122,12 +128,6 @@
               "type": "number",
               "value": "{global.border.width.100}"
             }
-          }
-        },
-        "glass": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.width.regular}"
           }
         },
         "high-contrast": {
@@ -432,6 +432,11 @@
           "type": "number",
           "value": "{global.icon.size.400}"
         },
+        "3xl": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        },
         "font": {
           "heading": {
             "h1": {
@@ -522,11 +527,6 @@
             "type": "number",
             "value": "{global.font.size.4xl}"
           }
-        },
-        "3xl": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
         }
       }
     },

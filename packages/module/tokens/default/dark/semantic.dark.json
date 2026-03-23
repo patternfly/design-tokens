@@ -1106,7 +1106,7 @@
           "read-only": {
             "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
-            "value": "{global.dark.border.color.50}"
+            "value": "{global.dark.border.color.100}"
           }
         },
         "brand": {

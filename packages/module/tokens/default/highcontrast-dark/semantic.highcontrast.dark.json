@@ -121,7 +121,7 @@
           },
           "read-only": {
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.100}"
           }
         },
         "highlight": {

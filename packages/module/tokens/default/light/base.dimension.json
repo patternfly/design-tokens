@@ -110,6 +110,16 @@
       }
     },
     "font": {
+      "line-height": {
+        "100": {
+          "type": "number",
+          "value": 1.2999999523162842
+        },
+        "200": {
+          "type": "number",
+          "value": 1.5
+        }
+      },
       "weight": {
         "100": {
           "type": "number",
@@ -126,16 +136,6 @@
         "400": {
           "type": "number",
           "value": 700
-        }
-      },
-      "line-height": {
-        "100": {
-          "type": "number",
-          "value": 1.2999999523162842
-        },
-        "200": {
-          "type": "number",
-          "value": 1.5
         }
       },
       "size": {
