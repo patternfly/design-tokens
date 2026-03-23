@@ -38,19 +38,19 @@
           "type": "number",
           "value": "{global.duration.600}"
         },
-        "slide-out": {
+        "slide-in": {
           "short": {
-            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
             "type": "number",
             "value": "{global.motion.duration.lg}"
           },
           "default": {
-            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
             "type": "number",
             "value": "{global.motion.duration.xl}"
           },
           "long": {
-            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
             "type": "number",
             "value": "{global.motion.duration.2xl}"
           }
@@ -72,6 +72,23 @@
             "value": "{global.motion.duration.lg}"
           }
         },
+        "slide-out": {
+          "short": {
+            "description": "Use for a shorter duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.lg}"
+          },
+          "default": {
+            "description": "Use as the default duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.xl}"
+          },
+          "long": {
+            "description": "Use for a longer duration of a slide-out animation, which moves an element out of the viewport.",
+            "type": "number",
+            "value": "{global.motion.duration.2xl}"
+          }
+        },
         "icon": {
           "short": {
             "description": "Use a short duration on an icon that requires a fast/snappy transition. Used to define the speed at which an icon may animate. Used on a notification badge(stateful button).",
@@ -87,23 +104,6 @@
             "description": "Use a long duration on an icon that requires a slow transition. Used to define the speed at which an icon may animate. Used on the settings cog icon(plain menu toggle).",
             "type": "number",
             "value": "{global.motion.duration.md}"
-          }
-        },
-        "slide-in": {
-          "short": {
-            "description": "Use for a short duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.lg}"
-          },
-          "default": {
-            "description": "Use for a default duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.xl}"
-          },
-          "long": {
-            "description": "Use for a longer duration of a slide-in animation, which moves an offscreen element into the viewport.",
-            "type": "number",
-            "value": "{global.motion.duration.2xl}"
           }
         }
       },

@@ -9370,11 +9370,13 @@
       },
       "pf-t--global--border--color--control--default": {
         "default": {
+          "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
           "type": "color",
           "value": "#8c8c8c",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
+            "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
             "type": "color",
             "value": "{global.border.color.300}"
           },
@@ -9445,11 +9447,13 @@
       },
       "pf-t--global--border--color--control--read-only": {
         "default": {
+          "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
           "type": "color",
           "value": "#c7c7c7",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
+            "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
             "value": "{global.border.color.100}"
           },
@@ -9832,13 +9836,13 @@
       },
       "pf-t--global--border--color--brand--accent--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#0066cc",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.default}"
           },
@@ -9966,13 +9970,13 @@
       },
       "pf-t--global--border--color--brand--accent--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#004d99",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.hover}"
           },
@@ -10100,13 +10104,13 @@
       },
       "pf-t--global--border--color--brand--accent--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#004d99",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.clicked}"
           },
@@ -10234,13 +10238,13 @@
       },
       "pf-t--global--border--color--brand--subtle--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#b9dafc",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.200}"
           },
@@ -10314,13 +10318,13 @@
       },
       "pf-t--global--border--color--brand--subtle--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#4394e5",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.300}"
           },
@@ -10394,13 +10398,13 @@
       },
       "pf-t--global--border--color--brand--subtle--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#4394e5",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.300}"
           },
@@ -15179,12 +15183,12 @@
       "pf-t--global--text-decoration--color--default": {
         "default": {
           "type": "color",
-          "value": "#c7c7c7",
+          "value": "#8c8c8c",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.border.color.default}"
+            "value": "{global.border.color.300}"
           },
           "name": "pf-t--global--text-decoration--color--default",
           "attributes": {
@@ -15201,74 +15205,47 @@
           ],
           "references": [
             {
-              "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
               "type": "color",
-              "value": "#c7c7c7",
-              "filePath": "tokens/default/glass/semantic.glass.json",
+              "value": "#8c8c8c",
+              "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
-                "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
                 "type": "color",
-                "value": "{global.border.color.100}"
+                "value": "{color.gray.45}"
               },
-              "name": "pf-t--global--border--color--default",
+              "name": "pf-t--global--border--color--300",
               "attributes": {
                 "category": "global",
                 "type": "border",
                 "item": "color",
-                "subitem": "default"
+                "subitem": "300"
               },
               "path": [
                 "global",
                 "border",
                 "color",
-                "default"
+                "300"
               ],
               "references": [
                 {
                   "type": "color",
-                  "value": "#c7c7c7",
-                  "filePath": "tokens/default/glass/base.json",
+                  "value": "#8c8c8c",
+                  "filePath": "tokens/default/glass/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.30}"
+                    "value": "#8c8c8c"
                   },
-                  "name": "pf-t--global--border--color--100",
+                  "name": "pf-t--color--gray--45",
                   "attributes": {
-                    "category": "global",
-                    "type": "border",
-                    "item": "color",
-                    "subitem": "100"
+                    "category": "color",
+                    "type": "gray",
+                    "item": "45"
                   },
                   "path": [
-                    "global",
-                    "border",
                     "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#c7c7c7",
-                      "filePath": "tokens/default/glass/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#c7c7c7"
-                      },
-                      "name": "pf-t--color--gray--30",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "30"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "30"
-                      ]
-                    }
+                    "gray",
+                    "45"
                   ]
                 }
               ]
@@ -37862,6 +37839,56 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/glass/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/glass/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
+          ]
+        }
+      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -37959,56 +37986,6 @@
             "font",
             "weight",
             "400"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/glass/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/glass/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
           ]
         }
       },
@@ -42005,6 +41982,58 @@
         ]
       }
     },
+    "pf-t--global--icon--size--3xl": {
+      "default": {
+        "description": "Use for triple extra large icons.",
+        "type": "number",
+        "value": "6rem",
+        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
+        "isSource": true,
+        "original": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "{global.icon.size.500}"
+        },
+        "name": "pf-t--global--icon--size--3xl",
+        "attributes": {
+          "category": "global",
+          "type": "icon",
+          "item": "size",
+          "subitem": "3xl"
+        },
+        "path": [
+          "global",
+          "icon",
+          "size",
+          "3xl"
+        ],
+        "references": [
+          {
+            "type": "number",
+            "value": "6rem",
+            "filePath": "tokens/default/glass/base.dimension.json",
+            "isSource": true,
+            "original": {
+              "type": "number",
+              "value": 96
+            },
+            "name": "pf-t--global--icon--size--500",
+            "attributes": {
+              "category": "global",
+              "type": "icon",
+              "item": "size",
+              "subitem": "500"
+            },
+            "path": [
+              "global",
+              "icon",
+              "size",
+              "500"
+            ]
+          }
+        ]
+      }
+    },
     "pf-t--global--icon--size--font--heading--h1": {
       "default": {
         "description": "Use for icons that are placed inline with first level headings",
@@ -43648,110 +43677,6 @@
         ]
       }
     },
-    "pf-t--global--icon--size--3xl": {
-      "default": {
-        "description": "Use for triple extra large icons.",
-        "type": "number",
-        "value": "6rem",
-        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-        "isSource": true,
-        "original": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "{global.icon.size.500}"
-        },
-        "name": "pf-t--global--icon--size--3xl",
-        "attributes": {
-          "category": "global",
-          "type": "icon",
-          "item": "size",
-          "subitem": "3xl"
-        },
-        "path": [
-          "global",
-          "icon",
-          "size",
-          "3xl"
-        ],
-        "references": [
-          {
-            "type": "number",
-            "value": "6rem",
-            "filePath": "tokens/default/glass/base.dimension.json",
-            "isSource": true,
-            "original": {
-              "type": "number",
-              "value": 96
-            },
-            "name": "pf-t--global--icon--size--500",
-            "attributes": {
-              "category": "global",
-              "type": "icon",
-              "item": "size",
-              "subitem": "500"
-            },
-            "path": [
-              "global",
-              "icon",
-              "size",
-              "500"
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--global--border--width--regular": {
-      "default": {
-        "description": "Use as the default border width for elements.",
-        "type": "number",
-        "value": "1px",
-        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-        "isSource": true,
-        "original": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.100}"
-        },
-        "name": "pf-t--global--border--width--regular",
-        "attributes": {
-          "category": "global",
-          "type": "border",
-          "item": "width",
-          "subitem": "regular"
-        },
-        "path": [
-          "global",
-          "border",
-          "width",
-          "regular"
-        ],
-        "references": [
-          {
-            "type": "number",
-            "value": "1px",
-            "filePath": "tokens/default/glass/base.dimension.json",
-            "isSource": true,
-            "original": {
-              "type": "number",
-              "value": 1
-            },
-            "name": "pf-t--global--border--width--100",
-            "attributes": {
-              "category": "global",
-              "type": "border",
-              "item": "width",
-              "subitem": "100"
-            },
-            "path": [
-              "global",
-              "border",
-              "width",
-              "100"
-            ]
-          }
-        ]
-      }
-    },
     "pf-t--global--border--width--divider--default": {
       "default": {
         "description": "Use as the default border width for dividers.",
@@ -43886,6 +43811,58 @@
           "width",
           "divider",
           "clicked"
+        ],
+        "references": [
+          {
+            "type": "number",
+            "value": "1px",
+            "filePath": "tokens/default/glass/base.dimension.json",
+            "isSource": true,
+            "original": {
+              "type": "number",
+              "value": 1
+            },
+            "name": "pf-t--global--border--width--100",
+            "attributes": {
+              "category": "global",
+              "type": "border",
+              "item": "width",
+              "subitem": "100"
+            },
+            "path": [
+              "global",
+              "border",
+              "width",
+              "100"
+            ]
+          }
+        ]
+      }
+    },
+    "pf-t--global--border--width--regular": {
+      "default": {
+        "description": "Use as the default border width for elements.",
+        "type": "number",
+        "value": "1px",
+        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
+        "isSource": true,
+        "original": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
+        "name": "pf-t--global--border--width--regular",
+        "attributes": {
+          "category": "global",
+          "type": "border",
+          "item": "width",
+          "subitem": "regular"
+        },
+        "path": [
+          "global",
+          "border",
+          "width",
+          "regular"
         ],
         "references": [
           {
@@ -45624,6 +45601,110 @@
         ]
       }
     },
+    "pf-t--global--font--line-height--body": {
+      "default": {
+        "description": "Use to define the line height for body text",
+        "type": "number",
+        "value": 1.5,
+        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
+        "isSource": true,
+        "original": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "name": "pf-t--global--font--line-height--body",
+        "attributes": {
+          "category": "global",
+          "type": "font",
+          "item": "line-height",
+          "subitem": "body"
+        },
+        "path": [
+          "global",
+          "font",
+          "line-height",
+          "body"
+        ],
+        "references": [
+          {
+            "type": "number",
+            "value": 1.5,
+            "filePath": "tokens/default/glass/base.dimension.json",
+            "isSource": true,
+            "original": {
+              "type": "number",
+              "value": 1.5
+            },
+            "name": "pf-t--global--font--line-height--200",
+            "attributes": {
+              "category": "global",
+              "type": "font",
+              "item": "line-height",
+              "subitem": "200"
+            },
+            "path": [
+              "global",
+              "font",
+              "line-height",
+              "200"
+            ]
+          }
+        ]
+      }
+    },
+    "pf-t--global--font--line-height--heading": {
+      "default": {
+        "description": "Use to define the line height for heading text",
+        "type": "number",
+        "value": 1.3,
+        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
+        "isSource": true,
+        "original": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
+        },
+        "name": "pf-t--global--font--line-height--heading",
+        "attributes": {
+          "category": "global",
+          "type": "font",
+          "item": "line-height",
+          "subitem": "heading"
+        },
+        "path": [
+          "global",
+          "font",
+          "line-height",
+          "heading"
+        ],
+        "references": [
+          {
+            "type": "number",
+            "value": 1.3,
+            "filePath": "tokens/default/glass/base.dimension.json",
+            "isSource": true,
+            "original": {
+              "type": "number",
+              "value": 1.2999999523162842
+            },
+            "name": "pf-t--global--font--line-height--100",
+            "attributes": {
+              "category": "global",
+              "type": "font",
+              "item": "line-height",
+              "subitem": "100"
+            },
+            "path": [
+              "global",
+              "font",
+              "line-height",
+              "100"
+            ]
+          }
+        ]
+      }
+    },
     "pf-t--global--font--weight--body--default": {
       "default": {
         "description": "Use to define the default weight for body text",
@@ -45835,110 +45916,6 @@
               "font",
               "weight",
               "400"
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--global--font--line-height--body": {
-      "default": {
-        "description": "Use to define the line height for body text",
-        "type": "number",
-        "value": 1.5,
-        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-        "isSource": true,
-        "original": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "name": "pf-t--global--font--line-height--body",
-        "attributes": {
-          "category": "global",
-          "type": "font",
-          "item": "line-height",
-          "subitem": "body"
-        },
-        "path": [
-          "global",
-          "font",
-          "line-height",
-          "body"
-        ],
-        "references": [
-          {
-            "type": "number",
-            "value": 1.5,
-            "filePath": "tokens/default/glass/base.dimension.json",
-            "isSource": true,
-            "original": {
-              "type": "number",
-              "value": 1.5
-            },
-            "name": "pf-t--global--font--line-height--200",
-            "attributes": {
-              "category": "global",
-              "type": "font",
-              "item": "line-height",
-              "subitem": "200"
-            },
-            "path": [
-              "global",
-              "font",
-              "line-height",
-              "200"
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--global--font--line-height--heading": {
-      "default": {
-        "description": "Use to define the line height for heading text",
-        "type": "number",
-        "value": 1.3,
-        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-        "isSource": true,
-        "original": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
-        },
-        "name": "pf-t--global--font--line-height--heading",
-        "attributes": {
-          "category": "global",
-          "type": "font",
-          "item": "line-height",
-          "subitem": "heading"
-        },
-        "path": [
-          "global",
-          "font",
-          "line-height",
-          "heading"
-        ],
-        "references": [
-          {
-            "type": "number",
-            "value": 1.3,
-            "filePath": "tokens/default/glass/base.dimension.json",
-            "isSource": true,
-            "original": {
-              "type": "number",
-              "value": 1.2999999523162842
-            },
-            "name": "pf-t--global--font--line-height--100",
-            "attributes": {
-              "category": "global",
-              "type": "font",
-              "item": "line-height",
-              "subitem": "100"
-            },
-            "path": [
-              "global",
-              "font",
-              "line-height",
-              "100"
             ]
           }
         ]
@@ -50391,31 +50368,6 @@
               }
             ]
           }
-        ]
-      }
-    },
-    "pf-t--global--text-decoration--offset--hover": {
-      "default": {
-        "type": "number",
-        "value": 5,
-        "filePath": "tokens/default/glass/semantic.dimension.glass.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 5
-        },
-        "name": "pf-t--global--text-decoration--offset--hover",
-        "attributes": {
-          "category": "global",
-          "type": "text-decoration",
-          "item": "offset",
-          "subitem": "hover"
-        },
-        "path": [
-          "global",
-          "text-decoration",
-          "offset",
-          "hover"
         ]
       }
     },

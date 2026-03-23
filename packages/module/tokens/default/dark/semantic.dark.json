@@ -1099,12 +1099,14 @@
       "color": {
         "control": {
           "default": {
+            "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
             "type": "color",
             "value": "{global.dark.border.color.200}"
           },
           "read-only": {
+            "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
-            "value": "{global.dark.border.color.50}"
+            "value": "{global.dark.border.color.100}"
           }
         },
         "brand": {
@@ -1125,34 +1127,34 @@
           },
           "accent": {
             "default": {
-              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the default border color for any accented branded element, like secondary CTAs",
               "type": "color",
               "value": "{global.color.brand.accent.default}"
             },
             "hover": {
-              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
               "type": "color",
               "value": "{global.color.brand.accent.hover}"
             },
             "clicked": {
-              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
               "type": "color",
               "value": "{global.color.brand.accent.clicked}"
             }
           },
           "subtle": {
             "default": {
-              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the default border color for any subtle brand element like toggle groups",
               "type": "color",
               "value": "{global.dark.color.brand.subtle.200}"
             },
             "hover": {
-              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the hover border color for any subtle brand element like toggle groups",
               "type": "color",
               "value": "{global.dark.color.brand.subtle.300}"
             },
             "clicked": {
-              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the clicked border color for any subtle brand element like toggle groups",
               "type": "color",
               "value": "{global.dark.color.brand.subtle.300}"
             }
@@ -1993,7 +1995,7 @@
       "color": {
         "default": {
           "type": "color",
-          "value": "{global.border.color.default}"
+          "value": "{global.dark.border.color.200}"
         },
         "hover": {
           "type": "color",

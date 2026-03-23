@@ -16569,11 +16569,13 @@
       },
       "pf-t--global--border--color--control--default": {
         "default": {
+          "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
           "type": "color",
           "value": "#a3a3a3",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
+            "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
             "type": "color",
             "value": "{global.dark.border.color.200}"
           },
@@ -16646,13 +16648,15 @@
       },
       "pf-t--global--border--color--control--read-only": {
         "default": {
+          "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.5000)",
+          "value": "#383838",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
+            "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
-            "value": "{global.border.color.alt}"
+            "value": "{global.dark.border.color.50}"
           },
           "name": "pf-t--global--border--color--control--read-only",
           "attributes": {
@@ -16671,55 +16675,49 @@
           ],
           "references": [
             {
-              "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.5000)",
-              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+              "value": "#383838",
+              "filePath": "tokens/default/glass-dark/base.dark.json",
               "isSource": true,
               "original": {
-                "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
                 "type": "color",
-                "value": "{global.background.color.primary.default}"
+                "value": "{color.gray.70}"
               },
-              "name": "pf-t--global--border--color--alt",
+              "name": "pf-t--global--dark--border--color--50",
               "attributes": {
                 "category": "global",
-                "type": "border",
-                "item": "color",
-                "subitem": "alt"
+                "type": "dark",
+                "item": "border",
+                "subitem": "color",
+                "state": "50"
               },
               "path": [
                 "global",
+                "dark",
                 "border",
                 "color",
-                "alt"
+                "50"
               ],
               "references": [
                 {
-                  "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                   "type": "color",
-                  "value": "rgba(41, 41, 41, 0.5000)",
-                  "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+                  "value": "#383838",
+                  "filePath": "tokens/default/glass-dark/palette.color.json",
                   "isSource": true,
                   "original": {
-                    "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                     "type": "color",
-                    "value": "rgba(41, 41, 41, 0.5000)"
+                    "value": "#383838"
                   },
-                  "name": "pf-t--global--background--color--primary--default",
+                  "name": "pf-t--color--gray--70",
                   "attributes": {
-                    "category": "global",
-                    "type": "background",
-                    "item": "color",
-                    "subitem": "primary",
-                    "state": "default"
+                    "category": "color",
+                    "type": "gray",
+                    "item": "70"
                   },
                   "path": [
-                    "global",
-                    "background",
                     "color",
-                    "primary",
-                    "default"
+                    "gray",
+                    "70"
                   ]
                 }
               ]
@@ -17047,13 +17045,13 @@
       },
       "pf-t--global--border--color--brand--accent--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#92c5f9",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.default}"
           },
@@ -17183,13 +17181,13 @@
       },
       "pf-t--global--border--color--brand--accent--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#b9dafc",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.hover}"
           },
@@ -17319,13 +17317,13 @@
       },
       "pf-t--global--border--color--brand--accent--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#b9dafc",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.clicked}"
           },
@@ -17455,13 +17453,13 @@
       },
       "pf-t--global--border--color--brand--subtle--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#004d99",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.dark.color.brand.subtle.200}"
           },
@@ -17536,13 +17534,13 @@
       },
       "pf-t--global--border--color--brand--subtle--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#92c5f9",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.dark.color.brand.subtle.300}"
           },
@@ -17617,13 +17615,13 @@
       },
       "pf-t--global--border--color--brand--subtle--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#92c5f9",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.dark.color.brand.subtle.300}"
           },
@@ -31392,12 +31390,12 @@
       "pf-t--global--text-decoration--color--default": {
         "default": {
           "type": "color",
-          "value": "#4d4d4d",
+          "value": "#a3a3a3",
           "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.border.color.default}"
+            "value": "{global.dark.border.color.200}"
           },
           "name": "pf-t--global--text-decoration--color--default",
           "attributes": {
@@ -31414,76 +31412,49 @@
           ],
           "references": [
             {
-              "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
               "type": "color",
-              "value": "#4d4d4d",
-              "filePath": "tokens/default/glass-dark/semantic.glass.dark.json",
+              "value": "#a3a3a3",
+              "filePath": "tokens/default/glass-dark/base.dark.json",
               "isSource": true,
               "original": {
-                "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
                 "type": "color",
-                "value": "{global.dark.border.color.100}"
+                "value": "{color.gray.40}"
               },
-              "name": "pf-t--global--border--color--default",
+              "name": "pf-t--global--dark--border--color--200",
               "attributes": {
                 "category": "global",
-                "type": "border",
-                "item": "color",
-                "subitem": "default"
+                "type": "dark",
+                "item": "border",
+                "subitem": "color",
+                "state": "200"
               },
               "path": [
                 "global",
+                "dark",
                 "border",
                 "color",
-                "default"
+                "200"
               ],
               "references": [
                 {
                   "type": "color",
-                  "value": "#4d4d4d",
-                  "filePath": "tokens/default/glass-dark/base.dark.json",
+                  "value": "#a3a3a3",
+                  "filePath": "tokens/default/glass-dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.60}"
+                    "value": "#a3a3a3"
                   },
-                  "name": "pf-t--global--dark--border--color--100",
+                  "name": "pf-t--color--gray--40",
                   "attributes": {
-                    "category": "global",
-                    "type": "dark",
-                    "item": "border",
-                    "subitem": "color",
-                    "state": "100"
+                    "category": "color",
+                    "type": "gray",
+                    "item": "40"
                   },
                   "path": [
-                    "global",
-                    "dark",
-                    "border",
                     "color",
-                    "100"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#4d4d4d",
-                      "filePath": "tokens/default/glass-dark/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#4d4d4d"
-                      },
-                      "name": "pf-t--color--gray--60",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "60"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "60"
-                      ]
-                    }
+                    "gray",
+                    "40"
                   ]
                 }
               ]

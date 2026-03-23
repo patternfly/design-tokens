@@ -1391,12 +1391,12 @@
       "pf-t--global--background--color--control--read-only": {
         "default": {
           "type": "color",
-          "value": "#383838",
+          "value": "#151515",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.dark.background.color.300}"
+            "value": "{global.dark.background.color.100}"
           },
           "name": "pf-t--global--background--color--control--read-only",
           "attributes": {
@@ -1416,48 +1416,48 @@
           "references": [
             {
               "type": "color",
-              "value": "#383838",
+              "value": "#151515",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{color.gray.70}"
+                "value": "{color.gray.95}"
               },
-              "name": "pf-t--global--dark--background--color--300",
+              "name": "pf-t--global--dark--background--color--100",
               "attributes": {
                 "category": "global",
                 "type": "dark",
                 "item": "background",
                 "subitem": "color",
-                "state": "300"
+                "state": "100"
               },
               "path": [
                 "global",
                 "dark",
                 "background",
                 "color",
-                "300"
+                "100"
               ],
               "references": [
                 {
                   "type": "color",
-                  "value": "#383838",
+                  "value": "#151515",
                   "filePath": "tokens/default/highcontrast-dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "#383838"
+                    "value": "#151515"
                   },
-                  "name": "pf-t--color--gray--70",
+                  "name": "pf-t--color--gray--95",
                   "attributes": {
                     "category": "color",
                     "type": "gray",
-                    "item": "70"
+                    "item": "95"
                   },
                   "path": [
                     "color",
                     "gray",
-                    "70"
+                    "95"
                   ]
                 }
               ]
@@ -16995,11 +16995,13 @@
       },
       "pf-t--global--border--color--control--default": {
         "default": {
+          "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
           "type": "color",
           "value": "#c7c7c7",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
+            "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
             "type": "color",
             "value": "{global.dark.border.color.300}"
           },
@@ -17072,11 +17074,13 @@
       },
       "pf-t--global--border--color--control--read-only": {
         "default": {
+          "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
           "type": "color",
           "value": "#383838",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
+            "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
             "value": "{global.dark.border.color.50}"
           },
@@ -17467,13 +17471,13 @@
       },
       "pf-t--global--border--color--brand--accent--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#92c5f9",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.default}"
           },
@@ -17603,13 +17607,13 @@
       },
       "pf-t--global--border--color--brand--accent--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#b9dafc",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.hover}"
           },
@@ -17739,13 +17743,13 @@
       },
       "pf-t--global--border--color--brand--accent--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#b9dafc",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.clicked}"
           },
@@ -17875,13 +17879,13 @@
       },
       "pf-t--global--border--color--brand--subtle--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#004d99",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.dark.color.brand.subtle.200}"
           },
@@ -17956,13 +17960,13 @@
       },
       "pf-t--global--border--color--brand--subtle--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#92c5f9",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.dark.color.brand.subtle.300}"
           },
@@ -18037,13 +18041,13 @@
       },
       "pf-t--global--border--color--brand--subtle--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#92c5f9",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.dark.color.brand.subtle.300}"
           },
@@ -31984,7 +31988,7 @@
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.border.color.default}"
+            "value": "{global.dark.border.color.300}"
           },
           "name": "pf-t--global--text-decoration--color--default",
           "attributes": {
@@ -32001,76 +32005,49 @@
           ],
           "references": [
             {
-              "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
               "type": "color",
               "value": "#c7c7c7",
-              "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
+              "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
-                "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
                 "type": "color",
-                "value": "{global.dark.border.color.300}"
+                "value": "{color.gray.30}"
               },
-              "name": "pf-t--global--border--color--default",
+              "name": "pf-t--global--dark--border--color--300",
               "attributes": {
                 "category": "global",
-                "type": "border",
-                "item": "color",
-                "subitem": "default"
+                "type": "dark",
+                "item": "border",
+                "subitem": "color",
+                "state": "300"
               },
               "path": [
                 "global",
+                "dark",
                 "border",
                 "color",
-                "default"
+                "300"
               ],
               "references": [
                 {
                   "type": "color",
                   "value": "#c7c7c7",
-                  "filePath": "tokens/default/highcontrast-dark/base.dark.json",
+                  "filePath": "tokens/default/highcontrast-dark/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.30}"
+                    "value": "#c7c7c7"
                   },
-                  "name": "pf-t--global--dark--border--color--300",
+                  "name": "pf-t--color--gray--30",
                   "attributes": {
-                    "category": "global",
-                    "type": "dark",
-                    "item": "border",
-                    "subitem": "color",
-                    "state": "300"
+                    "category": "color",
+                    "type": "gray",
+                    "item": "30"
                   },
                   "path": [
-                    "global",
-                    "dark",
-                    "border",
                     "color",
-                    "300"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#c7c7c7",
-                      "filePath": "tokens/default/highcontrast-dark/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#c7c7c7"
-                      },
-                      "name": "pf-t--color--gray--30",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "30"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "30"
-                      ]
-                    }
+                    "gray",
+                    "30"
                   ]
                 }
               ]

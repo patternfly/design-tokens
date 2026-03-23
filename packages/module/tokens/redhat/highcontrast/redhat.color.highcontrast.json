@@ -27,17 +27,17 @@
         "brand": {
           "accent": {
             "default": {
-              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
-              "type": "color",
-              "value": "{global.color.brand.accent.400}"
-            },
-            "hover": {
-              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the default border color for any accented branded element, like secondary CTAs",
               "type": "color",
               "value": "{global.color.brand.accent.400}"
             },
             "clicked": {
-              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+              "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
+              "type": "color",
+              "value": "{global.color.brand.accent.400}"
+            },
+            "hover": {
+              "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
               "type": "color",
               "value": "{global.color.brand.accent.400}"
             }

@@ -9119,11 +9119,13 @@
       },
       "pf-t--global--border--color--control--default": {
         "default": {
+          "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
           "type": "color",
           "value": "#4d4d4d",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
+            "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
             "type": "color",
             "value": "{global.border.color.400}"
           },
@@ -9194,11 +9196,13 @@
       },
       "pf-t--global--border--color--control--read-only": {
         "default": {
+          "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
           "type": "color",
           "value": "#c7c7c7",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
+            "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
             "value": "{global.border.color.100}"
           },
@@ -9581,13 +9585,13 @@
       },
       "pf-t--global--border--color--brand--subtle--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#b9dafc",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.200}"
           },
@@ -9661,13 +9665,13 @@
       },
       "pf-t--global--border--color--brand--subtle--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#0066cc",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.400}"
           },
@@ -9741,13 +9745,13 @@
       },
       "pf-t--global--border--color--brand--subtle--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#0066cc",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.400}"
           },
@@ -14584,7 +14588,7 @@
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.border.color.default}"
+            "value": "{global.border.color.400}"
           },
           "name": "pf-t--global--text-decoration--color--default",
           "attributes": {
@@ -14601,74 +14605,47 @@
           ],
           "references": [
             {
-              "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
               "type": "color",
               "value": "#4d4d4d",
-              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+              "filePath": "tokens/default/highcontrast/base.json",
               "isSource": true,
               "original": {
-                "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
                 "type": "color",
-                "value": "{global.border.color.400}"
+                "value": "{color.gray.60}"
               },
-              "name": "pf-t--global--border--color--default",
+              "name": "pf-t--global--border--color--400",
               "attributes": {
                 "category": "global",
                 "type": "border",
                 "item": "color",
-                "subitem": "default"
+                "subitem": "400"
               },
               "path": [
                 "global",
                 "border",
                 "color",
-                "default"
+                "400"
               ],
               "references": [
                 {
                   "type": "color",
                   "value": "#4d4d4d",
-                  "filePath": "tokens/default/highcontrast/base.json",
+                  "filePath": "tokens/default/highcontrast/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.60}"
+                    "value": "#4d4d4d"
                   },
-                  "name": "pf-t--global--border--color--400",
+                  "name": "pf-t--color--gray--60",
                   "attributes": {
-                    "category": "global",
-                    "type": "border",
-                    "item": "color",
-                    "subitem": "400"
+                    "category": "color",
+                    "type": "gray",
+                    "item": "60"
                   },
                   "path": [
-                    "global",
-                    "border",
                     "color",
-                    "400"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#4d4d4d",
-                      "filePath": "tokens/default/highcontrast/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#4d4d4d"
-                      },
-                      "name": "pf-t--color--gray--60",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "60"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "60"
-                      ]
-                    }
+                    "gray",
+                    "60"
                   ]
                 }
               ]
@@ -33120,6 +33097,58 @@
           ]
         }
       },
+      "pf-t--global--icon--size--3xl": {
+        "default": {
+          "description": "Use for triple extra large icons.",
+          "type": "number",
+          "value": "6rem",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use for triple extra large icons.",
+            "type": "number",
+            "value": "{global.icon.size.500}"
+          },
+          "name": "pf-t--global--icon--size--3xl",
+          "attributes": {
+            "category": "global",
+            "type": "icon",
+            "item": "size",
+            "subitem": "3xl"
+          },
+          "path": [
+            "global",
+            "icon",
+            "size",
+            "3xl"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "6rem",
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 96
+              },
+              "name": "pf-t--global--icon--size--500",
+              "attributes": {
+                "category": "global",
+                "type": "icon",
+                "item": "size",
+                "subitem": "500"
+              },
+              "path": [
+                "global",
+                "icon",
+                "size",
+                "500"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--icon--size--font--heading--h1": {
         "default": {
           "description": "Use for icons that are placed inline with first level headings",
@@ -34763,110 +34792,6 @@
           ]
         }
       },
-      "pf-t--global--icon--size--3xl": {
-        "default": {
-          "description": "Use for triple extra large icons.",
-          "type": "number",
-          "value": "6rem",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use for triple extra large icons.",
-            "type": "number",
-            "value": "{global.icon.size.500}"
-          },
-          "name": "pf-t--global--icon--size--3xl",
-          "attributes": {
-            "category": "global",
-            "type": "icon",
-            "item": "size",
-            "subitem": "3xl"
-          },
-          "path": [
-            "global",
-            "icon",
-            "size",
-            "3xl"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "6rem",
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 96
-              },
-              "name": "pf-t--global--icon--size--500",
-              "attributes": {
-                "category": "global",
-                "type": "icon",
-                "item": "size",
-                "subitem": "500"
-              },
-              "path": [
-                "global",
-                "icon",
-                "size",
-                "500"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--border--width--regular": {
-        "default": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "1px",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use as the default border width for elements.",
-            "type": "number",
-            "value": "{global.border.width.100}"
-          },
-          "name": "pf-t--global--border--width--regular",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "regular"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "regular"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": "1px",
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1
-              },
-              "name": "pf-t--global--border--width--100",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "border",
-                "width",
-                "100"
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--border--width--divider--default": {
         "default": {
           "description": "Use as the default border width for dividers.",
@@ -35001,6 +34926,58 @@
             "width",
             "divider",
             "clicked"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1
+              },
+              "name": "pf-t--global--border--width--100",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--width--regular": {
+        "default": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use as the default border width for elements.",
+            "type": "number",
+            "value": "{global.border.width.100}"
+          },
+          "name": "pf-t--global--border--width--regular",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "regular"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "regular"
           ],
           "references": [
             {
@@ -36786,6 +36763,110 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--body": {
+        "default": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for body text",
+            "type": "number",
+            "value": "{global.font.line-height.200}"
+          },
+          "name": "pf-t--global--font--line-height--body",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "body"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "body"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.5,
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.5
+              },
+              "name": "pf-t--global--font--line-height--200",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "200"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "200"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--heading": {
+        "default": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "description": "Use to define the line height for heading text",
+            "type": "number",
+            "value": "{global.font.line-height.100}"
+          },
+          "name": "pf-t--global--font--line-height--heading",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "heading"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "heading"
+          ],
+          "references": [
+            {
+              "type": "number",
+              "value": 1.3,
+              "filePath": "tokens/default/highcontrast/base.dimension.json",
+              "isSource": true,
+              "original": {
+                "type": "number",
+                "value": 1.2999999523162842
+              },
+              "name": "pf-t--global--font--line-height--100",
+              "attributes": {
+                "category": "global",
+                "type": "font",
+                "item": "line-height",
+                "subitem": "100"
+              },
+              "path": [
+                "global",
+                "font",
+                "line-height",
+                "100"
+              ]
+            }
+          ]
+        }
+      },
       "pf-t--global--font--weight--body--default": {
         "default": {
           "description": "Use to define the default weight for body text",
@@ -36997,110 +37078,6 @@
                 "font",
                 "weight",
                 "400"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--body": {
-        "default": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for body text",
-            "type": "number",
-            "value": "{global.font.line-height.200}"
-          },
-          "name": "pf-t--global--font--line-height--body",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "body"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "body"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.5,
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.5
-              },
-              "name": "pf-t--global--font--line-height--200",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "200"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "200"
-              ]
-            }
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--heading": {
-        "default": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "description": "Use to define the line height for heading text",
-            "type": "number",
-            "value": "{global.font.line-height.100}"
-          },
-          "name": "pf-t--global--font--line-height--heading",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "heading"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "heading"
-          ],
-          "references": [
-            {
-              "type": "number",
-              "value": 1.3,
-              "filePath": "tokens/default/highcontrast/base.dimension.json",
-              "isSource": true,
-              "original": {
-                "type": "number",
-                "value": 1.2999999523162842
-              },
-              "name": "pf-t--global--font--line-height--100",
-              "attributes": {
-                "category": "global",
-                "type": "font",
-                "item": "line-height",
-                "subitem": "100"
-              },
-              "path": [
-                "global",
-                "font",
-                "line-height",
-                "100"
               ]
             }
           ]
@@ -41553,31 +41530,6 @@
                 }
               ]
             }
-          ]
-        }
-      },
-      "pf-t--global--text-decoration--offset--hover": {
-        "default": {
-          "type": "number",
-          "value": 5,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 5
-          },
-          "name": "pf-t--global--text-decoration--offset--hover",
-          "attributes": {
-            "category": "global",
-            "type": "text-decoration",
-            "item": "offset",
-            "subitem": "hover"
-          },
-          "path": [
-            "global",
-            "text-decoration",
-            "offset",
-            "hover"
           ]
         }
       },
@@ -49157,6 +49109,56 @@
           ]
         }
       },
+      "pf-t--global--font--line-height--100": {
+        "default": {
+          "type": "number",
+          "value": 1.3,
+          "filePath": "tokens/default/highcontrast/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.2999999523162842
+          },
+          "name": "pf-t--global--font--line-height--100",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "100"
+          ]
+        }
+      },
+      "pf-t--global--font--line-height--200": {
+        "default": {
+          "type": "number",
+          "value": 1.5,
+          "filePath": "tokens/default/highcontrast/base.dimension.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": 1.5
+          },
+          "name": "pf-t--global--font--line-height--200",
+          "attributes": {
+            "category": "global",
+            "type": "font",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "global",
+            "font",
+            "line-height",
+            "200"
+          ]
+        }
+      },
       "pf-t--global--font--weight--100": {
         "default": {
           "type": "number",
@@ -49254,56 +49256,6 @@
             "font",
             "weight",
             "400"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--100": {
-        "default": {
-          "type": "number",
-          "value": 1.3,
-          "filePath": "tokens/default/highcontrast/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.2999999523162842
-          },
-          "name": "pf-t--global--font--line-height--100",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "100"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "100"
-          ]
-        }
-      },
-      "pf-t--global--font--line-height--200": {
-        "default": {
-          "type": "number",
-          "value": 1.5,
-          "filePath": "tokens/default/highcontrast/base.dimension.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 1.5
-          },
-          "name": "pf-t--global--font--line-height--200",
-          "attributes": {
-            "category": "global",
-            "type": "font",
-            "item": "line-height",
-            "subitem": "200"
-          },
-          "path": [
-            "global",
-            "font",
-            "line-height",
-            "200"
           ]
         }
       },
@@ -50817,13 +50769,13 @@
     },
     "pf-t--global--border--color--brand--accent--default": {
       "redhat": {
-        "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+        "description": "Use as the default border color for any accented branded element, like secondary CTAs",
         "type": "color",
         "value": "#000000",
         "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
         "isSource": true,
         "original": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "{global.color.brand.accent.400}"
         },
@@ -50895,13 +50847,13 @@
     },
     "pf-t--global--border--color--brand--accent--hover": {
       "redhat": {
-        "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+        "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
         "type": "color",
         "value": "#000000",
         "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
         "isSource": true,
         "original": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "{global.color.brand.accent.400}"
         },
@@ -50973,13 +50925,13 @@
     },
     "pf-t--global--border--color--brand--accent--clicked": {
       "redhat": {
-        "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+        "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
         "type": "color",
         "value": "#000000",
         "filePath": "tokens/redhat/highcontrast/redhat.color.highcontrast.json",
         "isSource": true,
         "original": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "{global.color.brand.accent.400}"
         },
