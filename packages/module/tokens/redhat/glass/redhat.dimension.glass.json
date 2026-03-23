@@ -1,2 +1,23 @@
 
-{}
+{
+  "global": {
+    "border": {
+      "radius": {
+        "action": {
+          "plain": {
+            "default": {
+              "type": "number",
+              "value": "{global.border.radius.pill}"
+            }
+          }
+        },
+        "control": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.pill}"
+          }
+        }
+      }
+    }
+  }
+}

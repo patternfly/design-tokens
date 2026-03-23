@@ -9196,11 +9196,13 @@
       },
       "pf-t--global--border--color--control--default": {
         "default": {
+          "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
           "type": "color",
           "value": "#4d4d4d",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
+            "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
             "type": "color",
             "value": "{global.border.color.400}"
           },
@@ -9271,11 +9273,13 @@
       },
       "pf-t--global--border--color--control--read-only": {
         "default": {
+          "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
           "type": "color",
           "value": "#c7c7c7",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
+            "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
             "value": "{global.border.color.100}"
           },
@@ -9658,13 +9662,13 @@
       },
       "pf-t--global--border--color--brand--accent--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#004d99",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.default}"
           },
@@ -9792,13 +9796,13 @@
       },
       "pf-t--global--border--color--brand--accent--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#003366",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.hover}"
           },
@@ -9926,13 +9930,13 @@
       },
       "pf-t--global--border--color--brand--accent--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
           "type": "color",
           "value": "#003366",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
             "type": "color",
             "value": "{global.color.brand.accent.clicked}"
           },
@@ -10060,13 +10064,13 @@
       },
       "pf-t--global--border--color--brand--subtle--default": {
         "default": {
-          "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the default border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#b9dafc",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the default border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.200}"
           },
@@ -10140,13 +10144,13 @@
       },
       "pf-t--global--border--color--brand--subtle--hover": {
         "default": {
-          "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the hover border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#0066cc",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the hover border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.400}"
           },
@@ -10220,13 +10224,13 @@
       },
       "pf-t--global--border--color--brand--subtle--clicked": {
         "default": {
-          "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+          "description": "Use as the clicked border color for any subtle brand element like toggle groups",
           "type": "color",
           "value": "#0066cc",
           "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
           "isSource": true,
           "original": {
-            "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "description": "Use as the clicked border color for any subtle brand element like toggle groups",
             "type": "color",
             "value": "{global.color.brand.subtle.400}"
           },
@@ -15063,7 +15067,7 @@
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.border.color.default}"
+            "value": "{global.border.color.400}"
           },
           "name": "pf-t--global--text-decoration--color--default",
           "attributes": {
@@ -15080,74 +15084,47 @@
           ],
           "references": [
             {
-              "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
               "type": "color",
               "value": "#4d4d4d",
-              "filePath": "tokens/default/highcontrast/semantic.highcontrast.json",
+              "filePath": "tokens/default/highcontrast/base.json",
               "isSource": true,
               "original": {
-                "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
                 "type": "color",
-                "value": "{global.border.color.400}"
+                "value": "{color.gray.60}"
               },
-              "name": "pf-t--global--border--color--default",
+              "name": "pf-t--global--border--color--400",
               "attributes": {
                 "category": "global",
                 "type": "border",
                 "item": "color",
-                "subitem": "default"
+                "subitem": "400"
               },
               "path": [
                 "global",
                 "border",
                 "color",
-                "default"
+                "400"
               ],
               "references": [
                 {
                   "type": "color",
                   "value": "#4d4d4d",
-                  "filePath": "tokens/default/highcontrast/base.json",
+                  "filePath": "tokens/default/highcontrast/palette.color.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "{color.gray.60}"
+                    "value": "#4d4d4d"
                   },
-                  "name": "pf-t--global--border--color--400",
+                  "name": "pf-t--color--gray--60",
                   "attributes": {
-                    "category": "global",
-                    "type": "border",
-                    "item": "color",
-                    "subitem": "400"
+                    "category": "color",
+                    "type": "gray",
+                    "item": "60"
                   },
                   "path": [
-                    "global",
-                    "border",
                     "color",
-                    "400"
-                  ],
-                  "references": [
-                    {
-                      "type": "color",
-                      "value": "#4d4d4d",
-                      "filePath": "tokens/default/highcontrast/palette.color.json",
-                      "isSource": true,
-                      "original": {
-                        "type": "color",
-                        "value": "#4d4d4d"
-                      },
-                      "name": "pf-t--color--gray--60",
-                      "attributes": {
-                        "category": "color",
-                        "type": "gray",
-                        "item": "60"
-                      },
-                      "path": [
-                        "color",
-                        "gray",
-                        "60"
-                      ]
-                    }
+                    "gray",
+                    "60"
                   ]
                 }
               ]
@@ -35924,85 +35901,6 @@
           ]
         }
       },
-      "pf-t--global--border--width--glass--default": {
-        "default": {
-          "type": "number",
-          "value": "1px",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": "{global.border.width.regular}"
-          },
-          "name": "pf-t--global--border--width--glass--default",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "width",
-            "subitem": "glass",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "border",
-            "width",
-            "glass",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use as the default border width for elements.",
-              "type": "number",
-              "value": "1px",
-              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-              "isSource": true,
-              "original": {
-                "description": "Use as the default border width for elements.",
-                "type": "number",
-                "value": "{global.border.width.100}"
-              },
-              "name": "pf-t--global--border--width--regular",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "width",
-                "subitem": "regular"
-              },
-              "path": [
-                "global",
-                "border",
-                "width",
-                "regular"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "1px",
-                  "filePath": "tokens/default/highcontrast/base.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 1
-                  },
-                  "name": "pf-t--global--border--width--100",
-                  "attributes": {
-                    "category": "global",
-                    "type": "border",
-                    "item": "width",
-                    "subitem": "100"
-                  },
-                  "path": [
-                    "global",
-                    "border",
-                    "width",
-                    "100"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--border--width--box--default": {
         "default": {
           "description": "Use as the default border width for containers like cards, panels, code editors, etc.",
@@ -36270,6 +36168,85 @@
                 "border",
                 "width",
                 "100"
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--width--glass--default": {
+        "default": {
+          "type": "number",
+          "value": "1px",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.border.width.regular}"
+          },
+          "name": "pf-t--global--border--width--glass--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "width",
+            "subitem": "glass",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "border",
+            "width",
+            "glass",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use as the default border width for elements.",
+              "type": "number",
+              "value": "1px",
+              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use as the default border width for elements.",
+                "type": "number",
+                "value": "{global.border.width.100}"
+              },
+              "name": "pf-t--global--border--width--regular",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "width",
+                "subitem": "regular"
+              },
+              "path": [
+                "global",
+                "border",
+                "width",
+                "regular"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "1px",
+                  "filePath": "tokens/default/highcontrast/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 1
+                  },
+                  "name": "pf-t--global--border--width--100",
+                  "attributes": {
+                    "category": "global",
+                    "type": "border",
+                    "item": "width",
+                    "subitem": "100"
+                  },
+                  "path": [
+                    "global",
+                    "border",
+                    "width",
+                    "100"
+                  ]
+                }
               ]
             }
           ]
@@ -37340,85 +37317,6 @@
           ]
         }
       },
-      "pf-t--global--border--radius--glass--default": {
-        "default": {
-          "type": "number",
-          "value": "16px",
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": "{global.border.radius.medium}"
-          },
-          "name": "pf-t--global--border--radius--glass--default",
-          "attributes": {
-            "category": "global",
-            "type": "border",
-            "item": "radius",
-            "subitem": "glass",
-            "state": "default"
-          },
-          "path": [
-            "global",
-            "border",
-            "radius",
-            "glass",
-            "default"
-          ],
-          "references": [
-            {
-              "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
-              "type": "number",
-              "value": "16px",
-              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-              "isSource": true,
-              "original": {
-                "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
-                "type": "number",
-                "value": "{global.border.radius.300}"
-              },
-              "name": "pf-t--global--border--radius--medium",
-              "attributes": {
-                "category": "global",
-                "type": "border",
-                "item": "radius",
-                "subitem": "medium"
-              },
-              "path": [
-                "global",
-                "border",
-                "radius",
-                "medium"
-              ],
-              "references": [
-                {
-                  "type": "number",
-                  "value": "16px",
-                  "filePath": "tokens/default/highcontrast/base.dimension.json",
-                  "isSource": true,
-                  "original": {
-                    "type": "number",
-                    "value": 16
-                  },
-                  "name": "pf-t--global--border--radius--300",
-                  "attributes": {
-                    "category": "global",
-                    "type": "border",
-                    "item": "radius",
-                    "subitem": "300"
-                  },
-                  "path": [
-                    "global",
-                    "border",
-                    "radius",
-                    "300"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
       "pf-t--global--border--radius--control--default": {
         "default": {
           "type": "number",
@@ -37570,6 +37468,85 @@
                     "border",
                     "radius",
                     "200"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "pf-t--global--border--radius--glass--default": {
+        "default": {
+          "type": "number",
+          "value": "16px",
+          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+          "isSource": true,
+          "original": {
+            "type": "number",
+            "value": "{global.border.radius.medium}"
+          },
+          "name": "pf-t--global--border--radius--glass--default",
+          "attributes": {
+            "category": "global",
+            "type": "border",
+            "item": "radius",
+            "subitem": "glass",
+            "state": "default"
+          },
+          "path": [
+            "global",
+            "border",
+            "radius",
+            "glass",
+            "default"
+          ],
+          "references": [
+            {
+              "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
+              "type": "number",
+              "value": "16px",
+              "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
+              "isSource": true,
+              "original": {
+                "description": "Use to adjust the curvature of the border corners for an element. Use for moderately rounded corners, like cards.",
+                "type": "number",
+                "value": "{global.border.radius.300}"
+              },
+              "name": "pf-t--global--border--radius--medium",
+              "attributes": {
+                "category": "global",
+                "type": "border",
+                "item": "radius",
+                "subitem": "medium"
+              },
+              "path": [
+                "global",
+                "border",
+                "radius",
+                "medium"
+              ],
+              "references": [
+                {
+                  "type": "number",
+                  "value": "16px",
+                  "filePath": "tokens/default/highcontrast/base.dimension.json",
+                  "isSource": true,
+                  "original": {
+                    "type": "number",
+                    "value": 16
+                  },
+                  "name": "pf-t--global--border--radius--300",
+                  "attributes": {
+                    "category": "global",
+                    "type": "border",
+                    "item": "radius",
+                    "subitem": "300"
+                  },
+                  "path": [
+                    "global",
+                    "border",
+                    "radius",
+                    "300"
                   ]
                 }
               ]
@@ -42503,31 +42480,6 @@
                 }
               ]
             }
-          ]
-        }
-      },
-      "pf-t--global--text-decoration--offset--hover": {
-        "default": {
-          "type": "number",
-          "value": 5,
-          "filePath": "tokens/default/highcontrast/semantic.dimension.highcontrast.json",
-          "isSource": true,
-          "original": {
-            "type": "number",
-            "value": 5
-          },
-          "name": "pf-t--global--text-decoration--offset--hover",
-          "attributes": {
-            "category": "global",
-            "type": "text-decoration",
-            "item": "offset",
-            "subitem": "hover"
-          },
-          "path": [
-            "global",
-            "text-decoration",
-            "offset",
-            "hover"
           ]
         }
       },

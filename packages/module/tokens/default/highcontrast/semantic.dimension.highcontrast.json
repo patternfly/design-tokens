@@ -33,12 +33,6 @@
           "type": "number",
           "value": "{global.border.radius.500}"
         },
-        "glass": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.radius.medium}"
-          }
-        },
         "control": {
           "default": {
             "type": "number",
@@ -47,6 +41,12 @@
           "form-element": {
             "type": "number",
             "value": "{global.border.radius.small}"
+          }
+        },
+        "glass": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.medium}"
           }
         },
         "action": {
@@ -95,12 +95,6 @@
           "type": "number",
           "value": "{global.border.width.300}"
         },
-        "glass": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.width.regular}"
-          }
-        },
         "box": {
           "default": {
             "description": "Use as the default border width for containers like cards, panels, code editors, etc.",
@@ -128,6 +122,12 @@
               "type": "number",
               "value": "{global.border.width.100}"
             }
+          }
+        },
+        "glass": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.width.regular}"
           }
         },
         "high-contrast": {
@@ -1006,10 +1006,6 @@
         "default": {
           "type": "number",
           "value": "{global.spacer.xs}"
-        },
-        "hover": {
-          "type": "number",
-          "value": 5
         }
       },
       "editable-text": {
