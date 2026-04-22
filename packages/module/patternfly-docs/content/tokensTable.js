@@ -586,7 +586,11 @@ const TokenValue = ({
                 )}
               </FlexItem>
             )}
-            <FlexItem className="ws-token-value-main">
+            <FlexItem
+              className={
+                showThemeLabel ? 'ws-token-value-main ws-token-value-main--separated' : 'ws-token-value-main'
+              }
+            >
               <span style={{ color: 'var(--pf-t--global--text--color--subtle)' }}>—</span>
             </FlexItem>
           </Flex>
@@ -673,8 +677,7 @@ const TokenValue = ({
           minWidth="400px"
         >
           <Button
-            variant="link"
-            isInline
+            variant="plain"
             component="span"
             className="ws-token-value-popover-trigger"
             aria-label={`Show how ${tokenName} is derived`}
