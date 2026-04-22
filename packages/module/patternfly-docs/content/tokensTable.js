@@ -43,11 +43,11 @@ const THEME_LABEL_ABBREV_MEDIA = '(max-width: 1600px)';
 
 function useAbbreviateThemesByViewport() {
   const [abbreviate, setAbbreviate] = React.useState(() =>
-    typeof window !== 'undefined' && window.matchMedia(THEME_LABEL_ABBREV_MEDIA).matches
+    typeof window !== 'undefined' && window.matchMedia ? window.matchMedia(THEME_LABEL_ABBREV_MEDIA).matches : false
   );
 
   React.useEffect(() => {
-    if (typeof window === 'undefined') {
+    if (typeof window === 'undefined' || !window.matchMedia) {
       return undefined;
     }
     const mq = window.matchMedia(THEME_LABEL_ABBREV_MEDIA);
