@@ -15,7 +15,10 @@ import {
 } from '@patternfly/react-core';
 import FilterIcon from '@patternfly/react-icons/dist/esm/icons/filter-icon';
 
-// Theme switcher label: "{Theme} | Light/Dark | {Contrast}" (columns padded so `|` align in monospace)
+/**
+ * Theme configuration constants
+ * Structure: [theme family, light/dark mode, contrast variant]
+ */
 const THEME_LABEL_PARTS = {
   default: ['Default theme', 'Light', 'Default contrast'],
   dark: ['Default theme', 'Dark', 'Default contrast'],
@@ -31,14 +34,7 @@ const THEME_LABEL_PARTS = {
   'redhat-highcontrast-dark': ['Unified theme', 'Dark', 'High contrast']
 };
 
-const THEME_LABEL_ROWS = Object.values(THEME_LABEL_PARTS);
-const THEME_LABEL_COL_WIDTHS = [
-  Math.max(...THEME_LABEL_ROWS.map((r) => r[0].length)),
-  Math.max(...THEME_LABEL_ROWS.map((r) => r[1].length)),
-  Math.max(...THEME_LABEL_ROWS.map((r) => r[2].length))
-];
-
-/** Full segment → acronym (aligned short labels) */
+/** Full segment → acronym mapping */
 const THEME_SEGMENT_ABBREV = {
   'Default theme': 'DT',
   'Unified theme': 'UT',
@@ -49,6 +45,17 @@ const THEME_SEGMENT_ABBREV = {
   Glass: 'Gl'
 };
 
+// Pre-compute static values to avoid recalculating on every render
+const THEME_LABEL_ROWS = Object.values(THEME_LABEL_PARTS);
+const THEME_LABEL_COL_WIDTHS = (() => {
+  const rows = THEME_LABEL_ROWS;
+  return [
+    Math.max(...rows.map((r) => r[0].length)),
+    Math.max(...rows.map((r) => r[1].length)),
+    Math.max(...rows.map((r) => r[2].length))
+  ];
+})();
+
 const toAbbrevParts = (fullParts) => fullParts.map((p) => THEME_SEGMENT_ABBREV[p] || p);
 
 const THEME_ACRONYM_PARTS = Object.fromEntries(
@@ -56,11 +63,14 @@ const THEME_ACRONYM_PARTS = Object.fromEntries(
 );
 
 const THEME_ACRONYM_ROWS = Object.values(THEME_ACRONYM_PARTS);
-const THEME_ACRONYM_COL_WIDTHS = [
-  Math.max(...THEME_ACRONYM_ROWS.map((r) => r[0].length)),
-  Math.max(...THEME_ACRONYM_ROWS.map((r) => r[1].length)),
-  Math.max(...THEME_ACRONYM_ROWS.map((r) => r[2].length))
-];
+const THEME_ACRONYM_COL_WIDTHS = (() => {
+  const rows = THEME_ACRONYM_ROWS;
+  return [
+    Math.max(...rows.map((r) => r[0].length)),
+    Math.max(...rows.map((r) => r[1].length)),
+    Math.max(...rows.map((r) => r[2].length))
+  ];
+})();
 
 const padThemeCol = (s, w) => s.padEnd(w, ' ');
 
@@ -82,7 +92,10 @@ export const getThemeDisplayName = (themeName) => {
 
 export const ThemeLabelAbbrevContext = React.createContext(false);
 
-/** Abbreviated theme row: each column is its own tooltip trigger (full segment text). */
+/**
+ * Abbreviated theme row with single tooltip showing full theme name.
+ * Improves accessibility by avoiding multiple tab stops.
+ */
 const ThemeAbbrevSegments = ({ themeName }) => {
   const abbrParts = THEME_ACRONYM_PARTS[themeName];
   const fullParts = THEME_LABEL_PARTS[themeName];
@@ -92,19 +105,16 @@ const ThemeAbbrevSegments = ({ themeName }) => {
     padThemeCol(abbrParts[1], w1),
     padThemeCol(abbrParts[2], w2)
   ];
+
+  const fullLabel = formatAlignedThemeParts(fullParts);
+  const abbreviatedText = `${paddedCols[0]} | ${paddedCols[1]} | ${paddedCols[2]}`;
+
   return (
-    <span className="ws-theme-display-label">
-      {paddedCols.map((segmentText, i) => (
-        <React.Fragment key={i}>
-          {i > 0 ? <span aria-hidden="true"> | </span> : null}
-          <Tooltip content={fullParts[i]} position="top">
-            <span className="ws-theme-abbr-trigger" tabIndex={0}>
-              {segmentText}
-            </span>
-          </Tooltip>
-        </React.Fragment>
-      ))}
-    </span>
+    <Tooltip content={fullLabel} position="top">
+      <span className="ws-theme-display-label ws-theme-abbr-trigger" tabIndex={0}>
+        {abbreviatedText}
+      </span>
+    </Tooltip>
   );
 };
 
@@ -136,7 +146,10 @@ export const ThemeAbbrevLegend = () => (
   </div>
 );
 
+// Category configuration constants
 const TOKEN_CATEGORY_GROUP_PRIMARY = new Set(['chart', 'semantic']);
+// Only palette tokens are truly theme-invariant (base tokens CAN vary, e.g., high contrast)
+const THEME_INVARIANT_CATEGORIES = new Set(['palette']);
 
 const TokensToolbarSelect = ({ selectedCategory, setSelectedCategory, categories }) => {
   const [isSelectOpen, setIsSelectOpen] = React.useState(false);
@@ -202,7 +215,8 @@ const TokensThemeSelect = ({ selectedTheme, setSelectedTheme, themeOptions, sele
     setIsSelectOpen(!isSelectOpen);
   };
 
-  const isDisabled = selectedCategory === 'base' || selectedCategory === 'palette';
+  // Theme selector is disabled for categories that don't have theme variants
+  const isDisabled = THEME_INVARIANT_CATEGORIES.has(selectedCategory);
 
   const SelectToggle = (toggleRef) => (
     <MenuToggle
@@ -236,7 +250,7 @@ const TokensThemeSelect = ({ selectedTheme, setSelectedTheme, themeOptions, sele
   );
 };
 
-export const TokensToolbar = ({
+const TokensToolbarComponent = ({
   selectedCategory,
   setSelectedCategory,
   selectedTheme,
@@ -281,3 +295,6 @@ export const TokensToolbar = ({
     </Toolbar>
   );
 };
+
+// Memoize the toolbar to prevent unnecessary re-renders that cause SearchInput to lose focus
+export const TokensToolbar = React.memo(TokensToolbarComponent);
