@@ -128,6 +128,13 @@
   text-decoration-style: solid;
 }
 
+.ws-token-chain-button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  vertical-align: baseline;
+}
+
 .ws-theme-group-label {
   font-size: var(--pf-t--global--font--size--body--sm, 0.875rem);
   font-weight: var(--pf-t--global--font--weight--body--default);

@@ -156,11 +156,7 @@ const buildReferenceMap = (mergedTokens) => {
       }
 
       // Check if this is a token with theme data
-      const hasThemeData = Object.values(value).some(
-        v => v && typeof v === 'object' && (v.references || v.value)
-      );
-
-      if (hasThemeData) {
+      if (isTokenWithThemeData(value)) {
         // This is a token - check its references
         Object.values(value).forEach(themeData => {
           if (themeData?.references) {
@@ -231,6 +227,13 @@ const getIsColor = (value) => {
   const actualValue = (value && typeof value === 'object' && value.default) ? value.default : value;
   return /^(#|rgb)/.test(actualValue);
 };
+
+/**
+ * Check if a value object represents a token with theme data (has references or value properties)
+ */
+const isTokenWithThemeData = (value) =>
+  value && typeof value === 'object' &&
+  Object.values(value).some(v => v && typeof v === 'object' && (v.references || v.value));
 
 
 const getCategoryTokensArr = (selectedCategory, categoryTokens) => {
@@ -438,10 +441,7 @@ const findTokenCategory = (tokenName, mergedTokens) => {
         }
         // Check if it's a nested structure
         if (value && typeof value === 'object') {
-          const hasThemeData = Object.values(value).some(
-            v => v && typeof v === 'object' && (v.references || v.value)
-          );
-          if (!hasThemeData && searchInCategory(value)) {
+          if (!isTokenWithThemeData(value) && searchInCategory(value)) {
             return true;
           }
         }
@@ -484,12 +484,7 @@ const showTokenChain = (themeTokenData, hasReferences, onNavigate, mergedTokens)
                   variant="link"
                   isInline
                   onClick={() => onNavigate(category, nextValue)}
-                  style={{
-                    fontFamily: 'inherit',
-                    fontSize: 'inherit',
-                    padding: 0,
-                    verticalAlign: 'baseline'
-                  }}
+                  className="ws-token-chain-button"
                 >
                   [{capitalize(category)}] {nextValue}
                 </Button>
