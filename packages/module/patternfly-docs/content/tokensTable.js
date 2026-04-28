@@ -577,9 +577,9 @@ const TokenValue = ({
                     }
                     position="top"
                   >
-                    <span className="ws-theme-group-label" tabIndex={0}>
+                    <Button variant="plain" className="ws-theme-group-label">
                       {themeNames.length} themes
-                    </span>
+                    </Button>
                   </Tooltip>
                 ) : (
                   <ThemeDisplayLabel themeName={themeNames[0]} />
@@ -726,9 +726,9 @@ const TokenValue = ({
                   minWidth="400px"
                   maxWidth="600px"
                 >
-                  <span className="ws-theme-group-label" tabIndex={0}>
+                  <Button variant="plain" className="ws-theme-group-label">
                     {themeNames.length} themes
-                  </span>
+                  </Button>
                 </Tooltip>
               ) : (
                 // ThemeDisplayLabel already handles tooltips when abbreviated
@@ -854,7 +854,7 @@ const TokensTableBody = ({
   return (
     <Tbody>
       <Tr>
-        <Td>
+        <Td dataLabel="Name">
           <code>{tokenName}</code>
         </Td>
         <Td className="tokens-table-value-cell">
@@ -893,10 +893,27 @@ const TokensTableBody = ({
 };
 
 export const TokensTable = ({ tokenJson }) => {
+  // Initialize state from URL params if present
+  const getInitialStateFromURL = () => {
+    if (typeof window === 'undefined') {
+      return { category: 'semantic', search: '' };
+    }
+    const params = new URLSearchParams(window.location.search);
+    return {
+      category: params.get('category') || 'semantic',
+      search: params.get('token') || ''
+    };
+  };
+
+  const initialState = React.useMemo(getInitialStateFromURL, []);
+
+  // Track if we're currently handling browser navigation to avoid pushState loops
+  const isNavigatingRef = React.useRef(false);
+
   // state variables
-  const [searchValue, setSearchValue] = React.useState('');
+  const [searchValue, setSearchValue] = React.useState(initialState.search);
   const abbreviateThemes = useAbbreviateThemesByViewport();
-  const [selectedCategory, setSelectedCategory] = React.useState('semantic');
+  const [selectedCategory, setSelectedCategory] = React.useState(initialState.category);
   // All categories share the same theme selection except palette (which is always 'all')
   const [sharedTheme, setSharedTheme] = React.useState('default');
   const [page, setPage] = React.useState(1);
@@ -994,6 +1011,65 @@ export const TokensTable = ({ tokenJson }) => {
   React.useEffect(() => {
     setPage(1);
   }, [deferredSearchValue, selectedCategory]);
+
+  // Sync URL with state (for shareable URLs and browser back/forward)
+  React.useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    // Skip if we're handling browser navigation
+    if (isNavigatingRef.current) {
+      isNavigatingRef.current = false;
+      return;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    // Normalize params the same way we do in popstate - missing params use defaults
+    const currentCategory = params.get('category') || 'semantic';
+    const currentToken = params.get('token') || '';
+
+    // Only update URL if state actually changed
+    if (currentCategory === selectedCategory && currentToken === searchValue) {
+      return;
+    }
+
+    const newParams = new URLSearchParams();
+    if (selectedCategory !== 'semantic') {
+      newParams.set('category', selectedCategory);
+    }
+    if (searchValue) {
+      newParams.set('token', searchValue);
+    }
+
+    const queryString = newParams.toString();
+    const newUrl = queryString
+      ? `${window.location.pathname}?${queryString}${window.location.hash}`
+      : `${window.location.pathname}${window.location.hash}`;
+
+    window.history.pushState(null, '', newUrl);
+  }, [selectedCategory, searchValue]);
+
+  // Sync state when URL changes (browser back/forward)
+  React.useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const category = params.get('category') || 'semantic';
+      const token = params.get('token') || '';
+
+      // Mark that we're handling browser navigation so pushState doesn't run
+      isNavigatingRef.current = true;
+      setSelectedCategory(category);
+      setSearchValue(token);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   const handleSetPage = (_event, newPage) => {
     setPage(newPage);

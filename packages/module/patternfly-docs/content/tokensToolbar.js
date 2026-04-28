@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Button,
   Divider,
   MenuToggle,
   SearchInput,
@@ -111,9 +112,9 @@ const ThemeAbbrevSegments = ({ themeName }) => {
 
   return (
     <Tooltip content={fullLabel} position="top">
-      <span className="ws-theme-display-label ws-theme-abbr-trigger" tabIndex={0}>
+      <Button variant="plain" className="ws-theme-display-label ws-theme-abbr-trigger">
         {abbreviatedText}
-      </span>
+      </Button>
     </Tooltip>
   );
 };

@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.tokens-table-fixed-layout td {
+  vertical-align: middle;
+}
+
 .tokens-table-fixed-layout td:not(.tokens-table-value-cell) {
   overflow-wrap: anywhere;
   word-break: break-word;
@@ -16,7 +20,6 @@
   white-space: nowrap;
   overflow-wrap: normal;
   word-break: normal;
-  vertical-align: top;
   /**
    * max-width: 0 is a CSS trick that works with table-layout: fixed.
    * It forces the cell to respect percentage widths from <Th width={N}> and enables horizontal scrolling
@@ -82,24 +85,12 @@
 }
 
 .ws-token-value-popover-trigger {
-  display: inline-flex !important;
-  align-items: center;
-  min-width: 0;
-  max-width: 100%;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  color: inherit !important;
   text-decoration: underline dotted;
   text-decoration-color: var(--pf-t--global--border--color--default);
   text-underline-offset: 0.12em;
 }
 
-.ws-token-value-popover-trigger:hover,
-.ws-token-value-popover-trigger:focus {
-  color: inherit !important;
-  text-decoration: underline dotted;
+.ws-token-value-popover-trigger:hover {
   text-decoration-color: var(--pf-t--global--border--color--clicked);
 }
 
@@ -143,6 +134,12 @@
   border-radius: var(--pf-t--global--border--radius--small);
   padding-inline: var(--pf-t--global--spacer--xs);
   background-color: var(--pf-t--global--background--color--secondary--default);
+  display: inline-block;
+}
+
+.ws-theme-group-label:hover {
+  color: var(--pf-t--global--text--color--subtle);
+  background-color: var(--pf-t--global--background--color--secondary--default);
 }
 
 .ws-theme-group-label:focus-visible {
@@ -176,6 +173,12 @@
 .ws-theme-abbr-trigger {
   cursor: help;
   border-radius: var(--pf-t--global--border--radius--small);
+  display: inline;
+  padding: 0;
+}
+
+.ws-theme-abbr-trigger:hover {
+  background-color: transparent;
 }
 
 .ws-theme-abbr-trigger:focus-visible {
