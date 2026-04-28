@@ -1,3 +1,191 @@
+/* Keep column widths stable when Value cell content changes (theme switch, all vs one theme) */
+.tokens-table-fixed-layout {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.tokens-table-fixed-layout td {
+  vertical-align: middle;
+}
+
+.tokens-table-fixed-layout td:not(.tokens-table-value-cell) {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Value column: one line per theme row; scroll horizontally if needed */
+.tokens-table-fixed-layout td.tokens-table-value-cell {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+  /**
+   * max-width: 0 is a CSS trick that works with table-layout: fixed.
+   * It forces the cell to respect percentage widths from <Th width={N}> and enables horizontal scrolling
+   * when content exceeds the allocated width, instead of expanding the table.
+   */
+  max-width: 0;
+}
+
+.tokens-table-value-stack {
+  min-width: 0;
+}
+
+.ws-token-value-line {
+  display: block;
+  min-width: min-content;
+}
+
+.ws-token-value-line-inner {
+  flex-wrap: nowrap !important;
+  width: max-content;
+  max-width: none;
+}
+
+.ws-theme-label-inline {
+  flex: 0 0 auto;
+}
+
+.ws-theme-label-inline .ws-theme-display-label {
+  white-space: pre;
+}
+
+.ws-token-value-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ws-token-value-main--separated {
+  margin-inline-start: var(--pf-t--global--spacer--md);
+  padding-inline-start: var(--pf-t--global--spacer--md);
+  border-inline-start: var(--pf-t--global--border--width--regular) solid
+    var(--pf-t--global--border--color--default);
+}
+
+.ws-token-value-hex-wrap {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.ws-token-value-hex {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: var(--pf-t--global--font--family--mono), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.ws-token-swatch-wrap {
+  flex: 0 0 auto;
+}
+
+.ws-token-value-plain-inline {
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.ws-token-value-popover-trigger {
+  text-decoration: underline dotted;
+  text-decoration-color: var(--pf-t--global--border--color--default);
+  text-underline-offset: 0.12em;
+}
+
+.ws-token-value-popover-trigger:hover {
+  text-decoration-color: var(--pf-t--global--border--color--clicked);
+}
+
+.ws-token-derivation-popover__theme {
+  margin-block-end: var(--pf-t--global--spacer--md);
+  padding-block-end: var(--pf-t--global--spacer--sm);
+  border-block-end: var(--pf-t--global--border--width--regular) solid
+    var(--pf-t--global--border--color--default);
+}
+
+.ws-token-chain-item {
+  font-family: var(--pf-t--global--font--family--mono), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.ws-token-chain-value {
+  font-family: var(--pf-t--global--font--family--mono), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.ws-token-chain-value .pf-v6-c-button.pf-m-link.pf-m-inline {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.15em;
+}
+
+.ws-token-chain-value .pf-v6-c-button.pf-m-link.pf-m-inline:hover {
+  text-decoration-style: solid;
+}
+
+.ws-token-chain-button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.ws-theme-group-label {
+  font-size: var(--pf-t--global--font--size--body--sm, 0.875rem);
+  font-weight: var(--pf-t--global--font--weight--body--default);
+  color: var(--pf-t--global--text--color--subtle);
+  cursor: help;
+  border-radius: var(--pf-t--global--border--radius--small);
+  padding-inline: var(--pf-t--global--spacer--xs);
+  background-color: var(--pf-t--global--background--color--secondary--default);
+  display: inline-block;
+}
+
+.ws-theme-group-label:hover {
+  color: var(--pf-t--global--text--color--subtle);
+  background-color: var(--pf-t--global--background--color--secondary--default);
+}
+
+.ws-theme-group-label:focus-visible {
+  outline: 2px solid var(--pf-t--global--border--color--clicked);
+  outline-offset: 2px;
+}
+
+.ws-theme-legend {
+  margin-block-end: var(--pf-t--global--spacer--md);
+  padding: var(--pf-t--global--spacer--sm) var(--pf-t--global--spacer--md);
+  font-size: var(--pf-t--global--font--size--body--sm, 0.875rem);
+  line-height: var(--pf-t--global--font--line-height--body--sm, 1.4);
+  color: var(--pf-t--global--text--color--subtle);
+  background: var(--pf-t--global--background--color--secondary--default);
+  border-radius: var(--pf-t--global--border--radius--small);
+  border: var(--pf-t--global--border--width--regular) solid var(--pf-t--global--border--color--default);
+}
+
+.ws-theme-legend__title {
+  font-weight: var(--pf-t--global--font--weight--body--bold);
+  color: var(--pf-t--global--text--color--regular);
+}
+
+.ws-theme-display-label {
+  font-family: var(--pf-t--global--font--family--mono), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: var(--pf-t--global--font--size--body--sm, 0.875rem);
+  line-height: var(--pf-t--global--font--line-height--body--sm, 1.4);
+  white-space: pre;
+}
+
+.ws-theme-abbr-trigger {
+  cursor: help;
+  border-radius: var(--pf-t--global--border--radius--small);
+  display: inline;
+  padding: 0;
+}
+
+.ws-theme-abbr-trigger:hover {
+  background-color: transparent;
+}
+
+.ws-theme-abbr-trigger:focus-visible {
+  outline: 2px solid var(--pf-t--global--border--color--clicked);
+  outline-offset: 2px;
+}
+
 .ws-token-swatch {
   height: 1em;
   display: inline-block;
@@ -5,6 +193,12 @@
   border-radius: var(--pf-t--global--border--radius--pill);
   border: var(--pf-t--global--border--width--regular) solid var(--pf-t--global--background--color--inverse--default);
   box-shadow: var(--pf-t--global--box-shadow--sm);
+}
+
+.ws-tokens-title-theme {
+  font-size: 0.65em;
+  font-weight: var(--pf-t--global--font--weight--body--default);
+  color: var(--pf-t--global--text--color--subtle);
 }
 
 @media (min-width: 1200px) {
