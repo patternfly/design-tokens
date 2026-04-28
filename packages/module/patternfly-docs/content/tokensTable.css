@@ -195,6 +195,12 @@
   box-shadow: var(--pf-t--global--box-shadow--sm);
 }
 
+.ws-tokens-title-theme {
+  font-size: 0.65em;
+  font-weight: var(--pf-t--global--font--weight--body--default);
+  color: var(--pf-t--global--text--color--subtle);
+}
+
 @media (min-width: 1200px) {
   .tokens-table-outer-wrapper {
     /* Allow table to break out of artificial max-width, fill available space */

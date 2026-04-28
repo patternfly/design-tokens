@@ -27,7 +27,8 @@ import {
   TokensToolbar,
   ThemeDisplayLabel,
   ThemeLabelAbbrevContext,
-  ThemeAbbrevLegend
+  ThemeAbbrevLegend,
+  getThemeDisplayName
 } from './tokensToolbar';
 import './tokensTable.css';
 import SearchIcon from '@patternfly/react-icons/dist/esm/icons/search-icon';
@@ -36,28 +37,6 @@ import LevelUpAltIcon from '@patternfly/react-icons/dist/esm/icons/level-up-alt-
 
 {
   /* Helper functions */
-}
-
-/** At or below this viewport width, theme labels switch to abbreviations (DT | Lt | DC, …). */
-const THEME_LABEL_ABBREV_MEDIA = '(max-width: 1600px)';
-
-function useAbbreviateThemesByViewport() {
-  const [abbreviate, setAbbreviate] = React.useState(() =>
-    typeof window !== 'undefined' && window.matchMedia ? window.matchMedia(THEME_LABEL_ABBREV_MEDIA).matches : false
-  );
-
-  React.useEffect(() => {
-    if (typeof window === 'undefined' || !window.matchMedia) {
-      return undefined;
-    }
-    const mq = window.matchMedia(THEME_LABEL_ABBREV_MEDIA);
-    const sync = () => setAbbreviate(mq.matches);
-    sync();
-    mq.addEventListener('change', sync);
-    return () => mq.removeEventListener('change', sync);
-  }, []);
-
-  return abbreviate;
 }
 
 const getTokensFromJson = (tokenJson) => {
@@ -541,6 +520,7 @@ const TokenValue = ({
   showThemeLabel,
   showDerivationPopover,
   exhibitsThemeVariantValues,
+  selectedTheme,
   onNavigate,
   mergedTokens
 }) => {
@@ -552,7 +532,7 @@ const TokenValue = ({
 
     return (
       <div className="ws-token-value-line" key={`${themeKey}-${tokenName}`}>
-        <ThemeLabelAbbrevContext.Provider value={true}>
+        <ThemeLabelAbbrevContext.Provider value={selectedTheme === 'all'}>
           <Flex
             className="ws-token-value-line-inner"
             direction={{ default: 'row' }}
@@ -576,8 +556,9 @@ const TokenValue = ({
                       </ThemeLabelAbbrevContext.Provider>
                     }
                     position="top"
+                    maxWidth="600px"
                   >
-                    <Button variant="plain" className="ws-theme-group-label">
+                    <Button variant="plain" className="ws-theme-group-label" tabIndex={-1}>
                       {themeNames.length} themes
                     </Button>
                   </Tooltip>
@@ -678,15 +659,14 @@ const TokenValue = ({
         >
           <Button
             variant="plain"
-            component="span"
             className="ws-token-value-popover-trigger"
-            aria-label={`Show how ${tokenName} is derived`}
+            aria-label={`${displayValue}. Show how ${tokenName} is derived`}
           >
             {valueMain}
           </Button>
         </Popover>
       ) : (
-        valueMain
+        <span tabIndex={0}>{valueMain}</span>
       )}
     </FlexItem>
   );
@@ -698,7 +678,7 @@ const TokenValue = ({
 
   return (
     <div className="ws-token-value-line" key={`${themeKey}-${tokenName}`}>
-      <ThemeLabelAbbrevContext.Provider value={true}>
+      <ThemeLabelAbbrevContext.Provider value={selectedTheme === 'all'}>
         <Flex
           className="ws-token-value-line-inner"
           direction={{ default: 'row' }}
@@ -726,7 +706,7 @@ const TokenValue = ({
                   minWidth="400px"
                   maxWidth="600px"
                 >
-                  <Button variant="plain" className="ws-theme-group-label">
+                  <Button variant="plain" className="ws-theme-group-label" tabIndex={-1}>
                     {themeNames.length} themes
                   </Button>
                 </Tooltip>
@@ -852,43 +832,39 @@ const TokensTableBody = ({
   const showUsedBy = isBaseLayer || isPaletteLayer;
 
   return (
-    <Tbody>
-      <Tr>
-        <Td dataLabel="Name">
-          <code>{tokenName}</code>
-        </Td>
-        <Td className="tokens-table-value-cell">
-          <Flex className="tokens-table-value-stack" direction={{ default: 'column' }} rowGap={{ default: 'gapMd' }}>
-            {tokenThemesArr.map(([themeName, themeToken], index) => {
-              // themeName can be a string or array of strings (when grouped by value)
-              const key = Array.isArray(themeName) ? themeName.join('-') : themeName;
-              return (
-                <FlexItem key={key}>
-                  <TokenValue
-                    themeName={themeName}
-                    themeToken={themeToken}
-                    tokenName={tokenName}
-                    showThemeLabel={
-                      exhibitsThemeVariantValues &&
-                      (selectedTheme !== 'all' || tokenThemesArr.length > 1)
-                    }
-                    exhibitsThemeVariantValues={exhibitsThemeVariantValues}
-                    showDerivationPopover={
-                      (isSemanticLayer || isChartLayer || isBaseLayer) &&
-                      (Boolean(themeToken?.references?.[0]) || getIsColor(themeToken?.value))
-                    }
-                    onNavigate={onNavigate}
-                    mergedTokens={mergedTokens}
-                  />
-                </FlexItem>
-              );
-            })}
-          </Flex>
-        </Td>
-        {isSemanticLayer && <Td>{tokenDescription}</Td>}
-        {showUsedBy && <UsedByCell tokenName={tokenName} referenceMap={referenceMap} onNavigate={onNavigate} />}
-      </Tr>
-    </Tbody>
+    <Tr>
+      <Td dataLabel="Name">
+        <code tabIndex={0}>{tokenName}</code>
+      </Td>
+      <Td className="tokens-table-value-cell">
+        <Flex className="tokens-table-value-stack" direction={{ default: 'column' }} rowGap={{ default: 'gapMd' }}>
+          {tokenThemesArr.map(([themeName, themeToken], index) => {
+            // themeName can be a string or array of strings (when grouped by value)
+            const key = Array.isArray(themeName) ? themeName.join('-') : themeName;
+            return (
+              <FlexItem key={key}>
+                <TokenValue
+                  themeName={themeName}
+                  themeToken={themeToken}
+                  tokenName={tokenName}
+                  showThemeLabel={exhibitsThemeVariantValues && selectedTheme === 'all'}
+                  exhibitsThemeVariantValues={exhibitsThemeVariantValues}
+                  selectedTheme={selectedTheme}
+                  showDerivationPopover={
+                    (isSemanticLayer || isChartLayer || isBaseLayer) &&
+                    (Boolean(themeToken?.references?.[0]) || getIsColor(themeToken?.value))
+                  }
+                  onNavigate={onNavigate}
+                  mergedTokens={mergedTokens}
+                />
+              </FlexItem>
+            );
+          })}
+        </Flex>
+      </Td>
+      {isSemanticLayer && <Td>{tokenDescription}</Td>}
+      {showUsedBy && <UsedByCell tokenName={tokenName} referenceMap={referenceMap} onNavigate={onNavigate} />}
+    </Tr>
   );
 };
 
@@ -912,7 +888,6 @@ export const TokensTable = ({ tokenJson }) => {
 
   // state variables
   const [searchValue, setSearchValue] = React.useState(initialState.search);
-  const abbreviateThemes = useAbbreviateThemesByViewport();
   const [selectedCategory, setSelectedCategory] = React.useState(initialState.category);
   // All categories share the same theme selection except palette (which is always 'all')
   const [sharedTheme, setSharedTheme] = React.useState('default');
@@ -1101,13 +1076,9 @@ export const TokensTable = ({ tokenJson }) => {
     setPage(1); // Reset to first page
   }, []);
 
-  // Chart tokens have more space, so don't abbreviate theme labels
-  const shouldAbbreviate = abbreviateThemes && !isChartLayer;
-
   return (
-    <ThemeLabelAbbrevContext.Provider value={shouldAbbreviate}>
-      <React.Fragment>
-        <TokensToolbar
+    <React.Fragment>
+      <TokensToolbar
           searchValue={searchValue}
           setSearchValue={handleSearchChange}
           selectedCategory={selectedCategory}
@@ -1118,10 +1089,14 @@ export const TokensTable = ({ tokenJson }) => {
           resultsCount={resultsCount}
           categories={allCategoriesArr}
         />
-        {exhibitsThemeVariantValues && <ThemeAbbrevLegend />}
+        {exhibitsThemeVariantValues && selectedTheme === 'all' && <ThemeAbbrevLegend />}
         <OuterScrollContainer className="tokens-table-outer-wrapper">
         <InnerScrollContainer>
-          <Title headingLevel="h2">{capitalize(selectedCategory)} tokens</Title>
+          <Title headingLevel="h2">
+            {capitalize(selectedCategory)} tokens {selectedTheme !== 'all' && (
+              <small className="ws-tokens-title-theme"> ({getThemeDisplayName(selectedTheme).trim()})</small>
+            )}
+          </Title>
           {searchResults.length > 0 ? (
             <>
               <OtherCategoryResults
@@ -1158,22 +1133,24 @@ export const TokensTable = ({ tokenJson }) => {
                   </Tr>
                 </Thead>
 
-                {paginatedResults.map((token) => (
-                  <TokensTableBody
-                    key={token[0]}
-                    token={token}
-                    isSemanticLayer={isSemanticLayer}
-                    isChartLayer={isChartLayer}
-                    isBaseLayer={isBaseLayer}
-                    isPaletteLayer={isPaletteLayer}
-                    exhibitsThemeVariantValues={exhibitsThemeVariantValues}
-                    selectedTheme={selectedTheme}
-                    referenceMap={referenceMap}
-                    onNavigate={handleNavigateToToken}
-                    mergedTokens={mergedTokens}
-                    allAvailableThemes={allAvailableThemes}
-                  />
-                ))}
+                <Tbody>
+                  {paginatedResults.map((token) => (
+                    <TokensTableBody
+                      key={token[0]}
+                      token={token}
+                      isSemanticLayer={isSemanticLayer}
+                      isChartLayer={isChartLayer}
+                      isBaseLayer={isBaseLayer}
+                      isPaletteLayer={isPaletteLayer}
+                      exhibitsThemeVariantValues={exhibitsThemeVariantValues}
+                      selectedTheme={selectedTheme}
+                      referenceMap={referenceMap}
+                      onNavigate={handleNavigateToToken}
+                      mergedTokens={mergedTokens}
+                      allAvailableThemes={allAvailableThemes}
+                    />
+                  ))}
+                </Tbody>
               </Table>
               <Pagination
                 itemCount={totalItems}
@@ -1204,7 +1181,6 @@ export const TokensTable = ({ tokenJson }) => {
           )}
         </InnerScrollContainer>
       </OuterScrollContainer>
-      </React.Fragment>
-    </ThemeLabelAbbrevContext.Provider>
+    </React.Fragment>
   );
 };

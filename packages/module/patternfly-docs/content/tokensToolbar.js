@@ -112,7 +112,7 @@ const ThemeAbbrevSegments = ({ themeName }) => {
 
   return (
     <Tooltip content={fullLabel} position="top">
-      <Button variant="plain" className="ws-theme-display-label ws-theme-abbr-trigger">
+      <Button variant="plain" className="ws-theme-display-label ws-theme-abbr-trigger" tabIndex={-1}>
         {abbreviatedText}
       </Button>
     </Tooltip>
