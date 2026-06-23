@@ -394,7 +394,7 @@
         "page-chrome": {
           "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
           "type": "number",
-          "value": "{global.spacer.lg}"
+          "value": "{global.spacer.md}"
         }
       },
       "gutter": {

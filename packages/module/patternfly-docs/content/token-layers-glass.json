@@ -37988,12 +37988,12 @@
       "pf-t--global--font--weight--200": {
         "default": {
           "type": "number",
-          "value": 500,
+          "value": 600,
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 500
+            "value": 600
           },
           "name": "pf-t--global--font--weight--200",
           "attributes": {
@@ -38013,12 +38013,12 @@
       "pf-t--global--font--weight--300": {
         "default": {
           "type": "number",
-          "value": 500,
+          "value": 600,
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 500
+            "value": 600
           },
           "name": "pf-t--global--font--weight--300",
           "attributes": {
@@ -38038,12 +38038,12 @@
       "pf-t--global--font--weight--400": {
         "default": {
           "type": "number",
-          "value": 700,
+          "value": 800,
           "filePath": "tokens/default/glass/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 700
+            "value": 800
           },
           "name": "pf-t--global--font--weight--400",
           "attributes": {
@@ -41572,13 +41572,13 @@
       "default": {
         "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
         "type": "number",
-        "value": "1.5rem",
+        "value": "1rem",
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
           "description": "Use to define inner padding for structural elements in order to maintain alignment, like in the masthead, navigation menu, or main page content.",
           "type": "number",
-          "value": "{global.spacer.lg}"
+          "value": "{global.spacer.md}"
         },
         "name": "pf-t--global--spacer--inset--page-chrome",
         "attributes": {
@@ -41595,47 +41595,47 @@
         ],
         "references": [
           {
-            "description": "Use for large spaces between elements.",
+            "description": "Use for medium-sized spaces between elements.",
             "type": "number",
-            "value": "1.5rem",
+            "value": "1rem",
             "filePath": "tokens/default/glass/semantic.dimension.glass.json",
             "isSource": true,
             "original": {
-              "description": "Use for large spaces between elements.",
+              "description": "Use for medium-sized spaces between elements.",
               "type": "number",
-              "value": "{global.spacer.400}"
+              "value": "{global.spacer.300}"
             },
-            "name": "pf-t--global--spacer--lg",
+            "name": "pf-t--global--spacer--md",
             "attributes": {
               "category": "global",
               "type": "spacer",
-              "item": "lg"
+              "item": "md"
             },
             "path": [
               "global",
               "spacer",
-              "lg"
+              "md"
             ],
             "references": [
               {
                 "type": "number",
-                "value": "1.5rem",
+                "value": "1rem",
                 "filePath": "tokens/default/glass/base.dimension.json",
                 "isSource": true,
                 "original": {
                   "type": "number",
-                  "value": 24
+                  "value": 16
                 },
-                "name": "pf-t--global--spacer--400",
+                "name": "pf-t--global--spacer--300",
                 "attributes": {
                   "category": "global",
                   "type": "spacer",
-                  "item": "400"
+                  "item": "300"
                 },
                 "path": [
                   "global",
                   "spacer",
-                  "400"
+                  "300"
                 ]
               }
             ]
@@ -45915,7 +45915,7 @@
       "default": {
         "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
         "type": "number",
-        "value": 500,
+        "value": 600,
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
@@ -45941,12 +45941,12 @@
         "references": [
           {
             "type": "number",
-            "value": 500,
+            "value": 600,
             "filePath": "tokens/default/glass/base.dimension.json",
             "isSource": true,
             "original": {
               "type": "number",
-              "value": 500
+              "value": 600
             },
             "name": "pf-t--global--font--weight--200",
             "attributes": {
@@ -45969,7 +45969,7 @@
       "default": {
         "description": "Use to define the default weight for heading text",
         "type": "number",
-        "value": 500,
+        "value": 600,
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
@@ -45995,12 +45995,12 @@
         "references": [
           {
             "type": "number",
-            "value": 500,
+            "value": 600,
             "filePath": "tokens/default/glass/base.dimension.json",
             "isSource": true,
             "original": {
               "type": "number",
-              "value": 500
+              "value": 600
             },
             "name": "pf-t--global--font--weight--300",
             "attributes": {
@@ -46023,7 +46023,7 @@
       "default": {
         "description": "Use to define the bold weight for heading text, often used to add emphasis.",
         "type": "number",
-        "value": 700,
+        "value": 800,
         "filePath": "tokens/default/glass/semantic.dimension.glass.json",
         "isSource": true,
         "original": {
@@ -46049,12 +46049,12 @@
         "references": [
           {
             "type": "number",
-            "value": 700,
+            "value": 800,
             "filePath": "tokens/default/glass/base.dimension.json",
             "isSource": true,
             "original": {
               "type": "number",
-              "value": 700
+              "value": 800
             },
             "name": "pf-t--global--font--weight--400",
             "attributes": {

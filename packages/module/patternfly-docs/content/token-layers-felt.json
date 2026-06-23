@@ -37221,7 +37221,7 @@
         "default": {
           "description": "Use to define the bold weight for body text, often used to field labels or to add emphasis.",
           "type": "number",
-          "value": 500,
+          "value": 600,
           "filePath": "tokens/default/light/semantic.dimension.json",
           "isSource": true,
           "original": {
@@ -37247,12 +37247,12 @@
           "references": [
             {
               "type": "number",
-              "value": 500,
+              "value": 600,
               "filePath": "tokens/default/light/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 500
+                "value": 600
               },
               "name": "pf-t--global--font--weight--200",
               "attributes": {
@@ -37275,7 +37275,7 @@
         "default": {
           "description": "Use to define the default weight for heading text",
           "type": "number",
-          "value": 500,
+          "value": 600,
           "filePath": "tokens/default/light/semantic.dimension.json",
           "isSource": true,
           "original": {
@@ -37301,12 +37301,12 @@
           "references": [
             {
               "type": "number",
-              "value": 500,
+              "value": 600,
               "filePath": "tokens/default/light/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 500
+                "value": 600
               },
               "name": "pf-t--global--font--weight--300",
               "attributes": {
@@ -37329,7 +37329,7 @@
         "default": {
           "description": "Use to define the bold weight for heading text, often used to add emphasis.",
           "type": "number",
-          "value": 700,
+          "value": 800,
           "filePath": "tokens/default/light/semantic.dimension.json",
           "isSource": true,
           "original": {
@@ -37355,12 +37355,12 @@
           "references": [
             {
               "type": "number",
-              "value": 700,
+              "value": 800,
               "filePath": "tokens/default/light/base.dimension.json",
               "isSource": true,
               "original": {
                 "type": "number",
-                "value": 700
+                "value": 800
               },
               "name": "pf-t--global--font--weight--400",
               "attributes": {
@@ -51051,12 +51051,12 @@
       "pf-t--global--font--weight--200": {
         "default": {
           "type": "number",
-          "value": 500,
+          "value": 600,
           "filePath": "tokens/default/light/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 500
+            "value": 600
           },
           "name": "pf-t--global--font--weight--200",
           "attributes": {
@@ -51076,12 +51076,12 @@
       "pf-t--global--font--weight--300": {
         "default": {
           "type": "number",
-          "value": 500,
+          "value": 600,
           "filePath": "tokens/default/light/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 500
+            "value": 600
           },
           "name": "pf-t--global--font--weight--300",
           "attributes": {
@@ -51101,12 +51101,12 @@
       "pf-t--global--font--weight--400": {
         "default": {
           "type": "number",
-          "value": 700,
+          "value": 800,
           "filePath": "tokens/default/light/base.dimension.json",
           "isSource": true,
           "original": {
             "type": "number",
-            "value": 700
+            "value": 800
           },
           "name": "pf-t--global--font--weight--400",
           "attributes": {

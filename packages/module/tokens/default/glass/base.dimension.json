@@ -141,15 +141,15 @@
         },
         "200": {
           "type": "number",
-          "value": 500
+          "value": 600
         },
         "300": {
           "type": "number",
-          "value": 500
+          "value": 600
         },
         "400": {
           "type": "number",
-          "value": 700
+          "value": 800
         }
       },
       "size": {
